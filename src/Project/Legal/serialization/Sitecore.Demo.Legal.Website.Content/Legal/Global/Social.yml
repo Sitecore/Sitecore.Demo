@@ -1,0 +1,13 @@
+﻿---
+ID: f29c4632-bca1-49f7-ae41-b59304332e6a
+Parent: 9b5a91b1-a83d-4fe6-9e50-2bb90530c785
+Template: 4de2d9d9-0781-47ad-8f5d-52f2ad920d83
+Path: /sitecore/content/Legal/Global/Social
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151123T163956Z

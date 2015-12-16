@@ -1,0 +1,13 @@
+﻿---
+ID: eefa227b-f23f-4085-a9cf-d7e44d0c702f
+Parent: 9b5a91b1-a83d-4fe6-9e50-2bb90530c785
+Template: a8f1b162-041f-46bf-81eb-5213ae8bc579
+Path: /sitecore/content/Legal/Global/Quotes
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151124T105754Z

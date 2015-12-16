@@ -1,0 +1,13 @@
+﻿---
+ID: eb9bdb69-b821-4d8c-94f2-254cf6823d29
+Parent: 9b5a91b1-a83d-4fe6-9e50-2bb90530c785
+Template: 920a1781-559f-4e1c-bb2e-6b9a2113fe6b
+Path: /sitecore/content/Legal/Global/Media
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150901T054311Z

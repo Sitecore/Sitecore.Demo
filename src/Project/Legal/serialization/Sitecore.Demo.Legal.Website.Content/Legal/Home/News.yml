@@ -1,0 +1,23 @@
+﻿---
+ID: 8235f890-e581-4f79-8acf-b04f90ccc0dd
+Parent: 6eb0f80b-a1d5-40e0-a472-9308b24228b5
+Template: 1d83c3eb-ea3b-4b71-baa1-3938397fe99b
+Path: /sitecore/content/Legal/Home/News
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: News
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151216T034720Z
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      # Title
+      Value: News

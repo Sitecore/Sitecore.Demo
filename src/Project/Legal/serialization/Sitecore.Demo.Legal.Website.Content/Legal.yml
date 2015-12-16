@@ -1,7 +1,7 @@
 ﻿---
 ID: f92b8d36-ce18-4b7e-8d31-004bff4a82b9
 Parent: 0de95ae4-41ab-4d01-9eb0-67441b7c2450
-Template: 76036f5e-cbce-46d1-af0a-4143f9b557aa
+Template: 18bc1c1a-9a73-41ba-8a0c-6582e9337657
 Path: /sitecore/content/Legal
 SharedFields:
 - ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
@@ -12,6 +12,12 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: 02115632-fe1e-4b3d-9ad4-a4ddf1f782f0
+      # Copyright
+      Value: Copyright 2015 Sitecore Legal Services
+    - ID: 12537182-f35c-403f-afb5-747d55c450b8
+      # ShowInMenu
+      Value: 1
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20151215T064228Z
@@ -21,6 +27,9 @@ Languages:
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
       # __Created by
       Value: sitecore\admin
-    - ID: 75577384-3c97-45da-a847-81b00500e250
-      # Title
-      Value: Legal
+    - ID: b8027200-aab0-4876-b454-dbb85add9e3c
+      # HostName
+      Value: Sitecore Legal Services
+    - ID: e748d808-64c1-4dec-9718-f35cf9689e4b
+      # Logo
+      Value: "<image mediapath=\"/Default Website/sc_logo\" alt=\"\" width=\"\" height=\"\" hspace=\"\" vspace=\"\" showineditor=\"\" usethumbnail=\"\" src=\"~/media/Default Website/sc_logo\" mediaid=\"{094AED03-02E7-4868-80CB-19926661FB77}\" />"

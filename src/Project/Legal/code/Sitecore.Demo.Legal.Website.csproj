@@ -48,6 +48,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Sitecore.Kernel, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Kernel.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -100,6 +104,8 @@
     <Content Include="App_Config\Include\Project\z.Sitecore.Demo.DevSettings.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="web.config.transform" />
+    <Content Include="Views\Legal\Layouts\Default.cshtml" />
+    <Content Include="Views\Legal\Sublayouts\Footer.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
