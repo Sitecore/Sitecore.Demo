@@ -1,0 +1,13 @@
+﻿---
+ID: 9727578e-cd36-4cf3-abf2-7ba9259cb2d1
+Parent: 8235f890-e581-4f79-8acf-b04f90ccc0dd
+Template: adb6ca4f-03ef-4f47-b9ac-9ce2ba53ff97
+Path: /sitecore/content/Legal/Home/News/2015
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151217T122049Z

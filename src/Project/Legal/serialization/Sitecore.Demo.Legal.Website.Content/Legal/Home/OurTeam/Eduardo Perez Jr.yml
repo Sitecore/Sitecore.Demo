@@ -1,0 +1,47 @@
+﻿---
+ID: c9bfb6a6-5b20-42ef-82fd-e79cec01cc80
+Parent: ac67d144-7cac-4d7f-a40a-9f800f2c8f7c
+Template: 75e42a73-0ae1-44c5-ac04-c9d5c4568680
+Path: /sitecore/content/Legal/Home/OurTeam/Eduardo Perez Jr
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0cc9785e-54fe-4fae-93e4-d0d2ae75f339
+      # Biography
+      Value: |
+        <p style="margin-left: 13.5pt;"><span>Eduardo is a senior shareholder in the firm&rsquo;s Corporate and Intellectual Property groups, and is a respected and top-ranked corporate litigation attorney in the region.&nbsp; Eduardo&rsquo; practice focuses on trademark and licensing, mergers and acquisitions, corporate finance, and other entity transactions, including early and late stage funding, restructuring, partnership development, and joint ventures. He has extensive experience representing both public and private clients and represents clients in the following industries: professional services, marketing and public relations, technology, software, private equity, venture capital, manufacturing and non-profits.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Eduardo has authored or co-authored a number of publications regarding business law and is regularly giving webcasts and webinars to professional services teams to help them get up to speed on today&rsquo;s corporate and IP law challenges.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Eduardo earned his J.D. from Columbia Law School. While a student, Eduardo served on the Columbia Business Law Review. During law school, Eduardo was an extern to the Honorable Judge Nadine Buchanan for the U.S. District Court. He also interned for the Technology Enforcement Section of the Antitrust Division at the Department of Justice.</span></p>
+        <p style="margin-left: 13.5pt;"><span>In his spare time, Taylor enjoys spending time with his two children, traveling abroad, and running marathons.</span></p>
+    - ID: 0ee2f208-1fee-42fc-8051-6696d49a92bf
+      # OpenGraphTitle
+      Value: Eduardo Perez Jr
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Eduardo Perez Jr
+    - ID: 25b4cee3-a61a-4dc3-bb52-775dd509dbb5
+      # Mobile
+      Value: +1-923-555-5943
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151217T155958Z
+    - ID: 26cd59ab-3639-488f-bafd-58d2b217755a
+      # Name
+      Value: Eduardo Perez Jr
+    - ID: 5978b330-1d46-4065-8751-f74bf17d815e
+      # Email
+      Value: ed.perez@chaseridley.com
+    - ID: 8d0e8ee3-21c4-4ae2-a2f1-53d3f3ebe501
+      # Telephone
+      Value: +1-923-555-4295
+    - ID: b897023c-15d2-49f3-8974-06fa5fb7ad00
+      # Summary
+      Value: Eduardo is a senior shareholder in the firm’s Corporate and Intellectual Property groups, and is a respected and top-ranked corporate litigation attorney in the region.  
+    - ID: c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38
+      # Picture
+      Value: "<image mediaid=\"{E1F82DEA-B761-45D7-8668-B7E70C1DBC62}\" />"
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: Eduardo Perez Jr
