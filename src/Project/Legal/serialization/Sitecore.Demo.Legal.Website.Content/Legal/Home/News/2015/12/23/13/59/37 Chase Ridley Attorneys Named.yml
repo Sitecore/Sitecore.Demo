@@ -15,6 +15,9 @@ Languages:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20151223T135915Z
+    - ID: 3437eaac-6ee8-460b-a33d-da1f714b5a93
+      # NewsImage
+      Value: "<image mediaid=\"{E1F82DEA-B761-45D7-8668-B7E70C1DBC62}\" />"
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
       # __Created by
       Value: sitecore\admin
