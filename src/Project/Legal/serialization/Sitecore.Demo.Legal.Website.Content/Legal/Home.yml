@@ -14,7 +14,17 @@ Languages:
       Value: |
         <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
           <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-            <r uid="{9ED6ABF7-4549-4BA6-9651-842E793E3C9C}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:ds="{8235F890-E581-4F79-8ACF-B04F90CCC0DD}" s:id="{BDD730EB-F808-4C65-B94A-D2F03672EAFB}" s:ph="/footer/footercolumn1" />
+            <r uid="{3A792DA1-2825-420E-9655-1DFC7BA9A4E7}" p:before="r[@uid='{1A80E463-C1E4-47F0-B351-E1A15357DA81}']" s:ds="{2AE21DEF-82EC-403E-A8A8-16761CF85995}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/col-narrow-3_c3fd7aa3-f664-44ac-996b-c250e72625d7" />
+            <r uid="{1A80E463-C1E4-47F0-B351-E1A15357DA81}" p:before="r[@uid='{9ED6ABF7-4549-4BA6-9651-842E793E3C9C}']" s:ds="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/col-narrow-2_c3fd7aa3-f664-44ac-996b-c250e72625d7" />
+            <r uid="{9ED6ABF7-4549-4BA6-9651-842E793E3C9C}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:ds="{8235F890-E581-4F79-8ACF-B04F90CCC0DD}" s:id="{BDD730EB-F808-4C65-B94A-D2F03672EAFB}" s:ph="/page-layout/col-narrow-1_c3fd7aa3-f664-44ac-996b-c250e72625d7" />
+            <r uid="{C3FD7AA3-F664-44AC-996B-C250E72625D7}" p:before="r[@uid='{E2040FB7-4151-456D-9315-5973E4EB4D9D}']" s:ds="" s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}" s:par="ContainerIsFluid&amp;UseStaticPlaceholderNames" s:ph="page-layout" />
+            <r uid="{0E0C6DCA-1A29-4975-84D7-E99498A64A72}" s:ds="{72FD1820-09F8-4983-B16D-41DA38D43B61}" s:ph="footercolumn2" />
+            <r uid="{0E0C6DCA-1A29-4975-84D7-E99498A64A72}">
+              <p:d />
+            </r>
+            <r uid="{47F5A079-6F63-4219-BC45-1A221B200906}">
+              <p:d />
+            </r>
           </d>
         </r>
     - ID: 1b483e91-d8c4-4d19-ba03-462074b55936

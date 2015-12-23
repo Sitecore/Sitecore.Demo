@@ -1,0 +1,36 @@
+﻿---
+ID: 77e9e82b-f4aa-4f28-bb88-8f25f8aec4bf
+Parent: d0be05d9-1512-44c6-96df-033fb0bd021e
+Template: bb6a204d-2b9e-46ca-82cd-00751803b03e
+Path: /sitecore/content/Legal/Home/News/2015/12/23/14/06/Adjustments to Estate Plans
+SharedFields:
+- ID: c464d2d7-3382-428a-bcdf-0963c60ba0e3
+  # NewsDate
+  Value: 20150915T090000Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151223T140643Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 801612c7-5e98-4e3c-80d2-a34d0eebcbda
+      # NewsBody
+      Value: |
+        <p><span>Taxation and Estate Law&mdash;</span><span> </span><span>In light of recent changes in federal tax law, married couples with assets of less than $11 million or so may be able to achieve significant income tax savings with a few minor tweaks to their estate plans. Many existing estate plans were drafted with an eye toward minimizing estate taxes and were often structured in a way that sacrificed potential future income tax savings in order to achieve those estate tax savings. However, recent federal tax law changes have eliminated this trade-off for most people. Now you may be able to reduce capital gains tax exposure for your beneficiaries at no estate tax cost. If you are married and your estate plan was drafted more than three years ago, you should review your plan to see whether a simple amendment could help save income taxes.</span></p>
+        <p><span>The American Taxpayer Relief Act of 2012 (ATRA) took effect in January 2013 and made &ldquo;permanent&rdquo; some significant tax law changes. (The changes are permanent in the sense that they have no scheduled sunset dates.) Each taxpayer now has a combined gift and estate tax exemption equal to $5 million, indexed for inflation since 2010. The inflation-adjusted exemption amount is $5,430,000 for 2015. The same exemption applies for generation-skipping transfer tax purposes. Taxable gifts during lifetime reduce the exemption available to shelter at-death gifts from estate tax, but annual exclusion gifts (currently allowed up to $14,000 per donee) do not count against the exemption.</span></p>
+        <p><span>The impact of these changes is most dramatic for married couples. Each spouse has his or her own, separate exemption; spouses do not share a single exemption. Additionally, a surviving spouse may now claim whatever portion of the deceased spouse&rsquo;s exemption that was not consumed by the deceased spouse, provided an election to claim the unused exemption is made on a timely filed estate tax return for the deceased spouse&rsquo;s estate. This transfer of unused exemption between spouses is known as exemption &ldquo;portability.&rdquo; Thus, to use the most dramatic example, if the deceased spouse did not consume any of his or her exemption, and the survivor elected portability, the survivor would have $10,860,000 of exemption to apply to his or her own estate! And this is just the 2015 number. The exemption amount of the surviving spouse will continue to increase in future years as it is further adjusted for inflation.</span></p>
+        <p><span>Despite these favorable gift and estate tax changes, the tax law continues to allow for an adjustment to the income tax basis of most assets in an estate to their fair market value as of the date of death. The gain on the sale of an asset equals the net sales price less the income tax basis of the asset. The basis adjustment to market value in an estate can therefore be important for assets that have appreciated over time. For example, if a person paid $100,000 for a home worth $500,000 at his death, the recipients of that home at his death receive a &ldquo;stepped-up&rdquo; income tax basis of $500,000 and can sell the home for $500,000 without paying any capital gains tax.</span></p>
+    - ID: 9d08271a-1672-44dd-b7ef-0a6ec34fcba7
+      # NewsSummary
+      Value: <span>Taxation and Estate Law&mdash;</span><span> </span><span>In light of recent changes in federal tax law, married couples with assets of less than $11 million or so may be able to achieve significant income tax savings with a few minor tweaks to their estate plans.&nbsp;</span>
+    - ID: bd9ecd4a-c0b0-4233-a3cd-d995519ac87b
+      # NewsTitle
+      Value: Adjustments to Estate Plans Can Save Income Tax Without Triggering Estate Tax:
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: Adjustments to Estate Plans

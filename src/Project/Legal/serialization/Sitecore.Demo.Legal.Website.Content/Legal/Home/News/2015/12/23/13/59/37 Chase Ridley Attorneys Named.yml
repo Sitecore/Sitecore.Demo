@@ -1,0 +1,38 @@
+﻿---
+ID: 3450bfc8-1b33-466c-9e8a-48c5178720f0
+Parent: 9b792ec8-230d-4750-8905-22807ab7296f
+Template: bb6a204d-2b9e-46ca-82cd-00751803b03e
+Path: /sitecore/content/Legal/Home/News/2015/12/23/13/59/37 Chase Ridley Attorneys Named
+SharedFields:
+- ID: c464d2d7-3382-428a-bcdf-0963c60ba0e3
+  # NewsDate
+  Value: 20151011T090000Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151223T135915Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 801612c7-5e98-4e3c-80d2-a34d0eebcbda
+      # NewsBody
+      Value: |
+        <p><span>San Francisco, California&mdash;Super Lawyers has released its Northern California, Southern California, and San Diego lists of outstanding attorneys for 2015, on which 37 Chase Ridley attorneys have been included.</span></p>
+        <p><span>Chase Ridley attorneys named to the 2015 Southern California and San Diego Super Lawyers include Roberto Nevins and Sam Harvey in the firm&rsquo;s Beverly Hills office; Wallace Olafsen in the firm&rsquo;s Newport Beach office; and Joseph K. Denney in the firm&rsquo;s San Diego office.</span></p>
+        <p><span>Attorneys listed as 2015 Northern California Super Lawyers include Mark Chase, Brenda Barkley, Jenna Ridley, Kayla Beeks, Dale Kent, Eduardotoph Cheedle, Susanne Quisette, James Clark, Eduardo Perez, Jr., Kristy Sparks, Louis Belmont, Shawn Cain, Dave Hanson, Michael Pe&ntilde;a, Tricia Marcs, Alden Tanaka, Dale Crean, Charlie Spieth, Kenneth Silva, and Liz Claynor in the firm&rsquo;s Sacramento office; and Paul Marketi, Hillary Bainer, and H. Ryan Jeon in the firm&rsquo;s San Francisco office.</span></p>
+        <p><span>Attorneys listed as 2015 Northern California Rising Stars include Megan Shelley, Car0line Schaeffer, Mark Taylor, Brandon Hahn, and Julie Steinkemp in the firm&rsquo;s Sacramento office; Shauna Tonellie and Jeffrey Boatwright in the firm&rsquo;s San Francisco office.</span></p>
+        <p><em><span>About Super Lawyers</span></em></p>
+        <p><span>Super Lawyers is a rating service of outstanding lawyers from more than 70 practice areas who have attained a high degree of peer recognition and professional achievement. The annual selections are made using a patented multiphase process that includes a statewide survey of lawyers, an independent research evaluation of candidates, and peer reviews by practice area. The result is a credible, comprehensive, and diverse listing of exceptional attorneys. The Super Lawyers lists are published nationwide in Super Lawyers Magazine and in leading city and regional magazines and newspapers across the country.</span></p>
+    - ID: 9d08271a-1672-44dd-b7ef-0a6ec34fcba7
+      # NewsSummary
+      Value: <p><span>Super Lawyers has released its Northern California, Southern California, and San Diego lists of outstanding attorneys for 2015, on which 37 Chase Ridley attorneys have been included.</span></p>
+    - ID: bd9ecd4a-c0b0-4233-a3cd-d995519ac87b
+      # NewsTitle
+      Value: 37 Chase Ridley Attorneys Named Among 2015 Super Lawyers and Rising Stars
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: 37 Chase Ridley Attorneys Named

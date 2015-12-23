@@ -1,0 +1,22 @@
+﻿---
+ID: 2ae21def-82ec-403e-a8a8-16761cf85995
+Parent: ea263b2a-c269-452c-ac31-1fe6a8ee5188
+Template: c7d9d293-4ef8-4380-8e10-c4632e729f39
+Path: /sitecore/content/Legal/Global/Teasers/Social White Paper
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0f6b5546-e0ab-4487-81de-640c1aa1b65b
+      # TeaserImage
+      Value: "<image mediapath=\"/Default Website/cover\" alt=\"\" width=\"200\" height=\"200\" hspace=\"\" vspace=\"\" showineditor=\"\" usethumbnail=\"\" src=\"~/media/Default Website/cover\" mediaid=\"{73A2D107-CF16-496C-BDBB-0926D37D9736}\"></image>"
+    - ID: 13d97a52-7c4e-407c-960d-fadde8a3c1b1
+      # TeaserSummary
+      Value: This White Paper will help you maximize the huge potential benefits of this revolution and protect against the inherent legal risks surrounding social media.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151216T033340Z
+    - ID: 4a59d072-5b41-4a79-a157-2b2ccac10f2b
+      # TeaserTitle
+      Value: Social White Paper
