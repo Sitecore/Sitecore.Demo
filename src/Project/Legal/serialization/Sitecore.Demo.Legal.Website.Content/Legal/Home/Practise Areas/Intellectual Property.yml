@@ -1,0 +1,32 @@
+﻿---
+ID: 47fb2fee-670b-4631-9640-e9ba97ba315b
+Parent: c03a4278-a428-4c5a-a451-97e6c3d17115
+Template: 4b0a2893-4e7b-4248-86a9-dab6da3bb230
+Path: /sitecore/content/Legal/Home/Practise Areas/Intellectual Property
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Intellectual Property
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151223T142722Z
+    - ID: ac3fd4db-8266-476d-9635-67814d91e901
+      # Summary
+      Value: <span>Chase Ridley has one of the strongest Intellectual Property and digital media practices in the region. We represent a variety of clients (from small businesses and multi-billion dollar publicly traded companies, to professional service firms and individual consultants) in securing, protecting, and using Intellectual Property, and with handling complex issues involving technology, the internet, and social media.</span>
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      # Title
+      Value: Intellectual Property
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: Intellectual Property
+    - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
+      # Body
+      Value: |
+        <span></span>
+        <p style="margin-left: 13.5pt;"><span>Our Intellectual Property team routinely represents clients in handling complex Intellectual Property disputes, including prosecuting and defending claims involving patents, trademarks, copyrights, trade secrets, and competition disputes. We also have one of the Region&rsquo;s&rsquo;s strongest trademark and copyright practices&mdash;in which we register, manage, and protect trademarks and copyrights on a regular basis. In addition, we routinely counsel clients on strategies aimed at protecting and policing Intellectual Property and limiting liability and risk in the use of Intellectual Property. We also provide Intellectual Property rights counseling in corporate mergers and acquisitions and counseling venture capitalists and start-up companies on the contribution and protection of Intellectual Property.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Chase Ridley also has a special team dedicated to technology, focused on analyzing, negotiating, and writing agreements involving Intellectual Property, the internet, software development, and other technologies&mdash;including licensing agreements, acquisition, and partnership agreements, strategic alliances and joint ventures, outsourcing and manufacturing agreements, and development and tech support agreements. In addition, we have deep-level experience counseling clients in specialized issues involving ISV development, software, the internet, social media, and privacy, such as domain name acquisition and enforcement, and other emerging technology issues.</span></p>
+        <p style="margin-left: 13.5pt;"><span>We represent clients from a wide array of industries in California (including technology consulting, software development, professional marketing and public relations, grocery chains, private universities, and gaming) in complex technology and intellectual property transactions.</span></p>

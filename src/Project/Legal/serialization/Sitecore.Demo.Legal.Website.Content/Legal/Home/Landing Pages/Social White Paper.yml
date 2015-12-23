@@ -1,0 +1,30 @@
+﻿---
+ID: b5583a97-7f68-40c6-ba8b-f82c9d3abcc6
+Parent: d12879df-80cc-4b16-b179-c03813f0a26d
+Template: 4b0a2893-4e7b-4248-86a9-dab6da3bb230
+Path: /sitecore/content/Legal/Home/Landing Pages/Social White Paper
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Social White Paper
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151223T144538Z
+    - ID: ac3fd4db-8266-476d-9635-67814d91e901
+      # Summary
+      Value: <span>The Legal Guide to the Risks and Rewards of Our Social Media Phenomenon</span>
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      # Title
+      Value: Social White Paper
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: Social White Paper
+    - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
+      # Body
+      Value: |
+        <p style="margin-left: 31.5pt;"><span>Social media is now a revolutionary way in which corporations communicate with consumers on an everyday basis. Practically everyone is a user and, like every new communication channel there is huge potential&mdash;and huge potential risks.</span></p>
+        <p style="margin-left: 31.5pt;"><span>This White Paper will help you maximize the huge potential benefits of this revolution and protect against the inherent legal risks surrounding social media.</span></p>

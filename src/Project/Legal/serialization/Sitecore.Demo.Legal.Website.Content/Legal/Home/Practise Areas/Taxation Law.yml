@@ -1,0 +1,32 @@
+﻿---
+ID: d302efa4-1332-4d8c-9f5d-f5d99ac5884a
+Parent: c03a4278-a428-4c5a-a451-97e6c3d17115
+Template: 4b0a2893-4e7b-4248-86a9-dab6da3bb230
+Path: /sitecore/content/Legal/Home/Practise Areas/Taxation Law
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Taxation Law
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151223T142834Z
+    - ID: ac3fd4db-8266-476d-9635-67814d91e901
+      # Summary
+      Value: <span>Chase Ridley has one of the strongest Intellectual Property practices in the Region. We represent a variety of clients (from small businesses and multi-billion dollar publicly traded companies, to professional service firms and individual consultants) in securing, protecting, and using Intellectual Property, and with handling complex issues involving technology, the internet, and social media.</span>
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      # Title
+      Value: Taxation Law
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: Taxation Law
+    - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
+      # Body
+      Value: |
+        <span></span>
+        <p style="margin-left: 13.5pt;"><span>Chase Ridley integrates tax counsel across the all of our practice groups, making commercial tax representation accessible to all our clients. Creative, comprehensive and appropriately aggressive, our expert tax attorneys assist corporations, limited liability companies, partnerships, trusts and individuals with all aspects of transactional tax planning, audits, and tax litigation. We counsel clients, help structure transactions, issue legal statements, and secure tax rulings on significant tax issues arising out of business transactions.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Tax issues exist in almost every business transaction or in the settlement of litigation with cases involving corporations and individuals. And, we deal not only with tax planning, but we also represent clients in court proceedings including hearings and appeals before the Internal Revenue Service, the Franchise Tax Board, the Board of Equalization, and local property tax boards.</span></p>
+        <p style="margin-left: 13.5pt;"><span>At Chase Ridley, we tailor our tax advice to the specific client matter. Whether it&rsquo;s as simple as startup formations and joint ventures to acquisitions, venture capital infusions, restructurings, and spin-offs, we provide legal tax advice in an understandable manner without compromising the legal speculation necessary.</span></p>

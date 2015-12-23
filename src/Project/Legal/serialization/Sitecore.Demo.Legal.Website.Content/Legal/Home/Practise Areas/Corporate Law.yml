@@ -1,0 +1,31 @@
+﻿---
+ID: 47930298-52c8-4370-8ffc-425648a1d627
+Parent: c03a4278-a428-4c5a-a451-97e6c3d17115
+Template: 4b0a2893-4e7b-4248-86a9-dab6da3bb230
+Path: /sitecore/content/Legal/Home/Practise Areas/Corporate Law
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      # NavigationTitle
+      Value: Corporate Law
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20151223T143702Z
+    - ID: ac3fd4db-8266-476d-9635-67814d91e901
+      # Summary
+      Value: <span>Whether privately held and family-owned companies, non-profits, limited partnerships, LLCs, and publicly traded companies, Chase Ridley serves as outside counsel, handling all legal matters. For other national and regional-level clients, our corporate lawyers are called upon to act as special counsel to handle complex business transactions.</span>
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      # Title
+      Value: Corporate Law
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: Corporate Law
+    - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
+      # Body
+      Value: |
+        <p style="margin-left: 13.5pt;"><span>As outside corporate counsel, Chase Ridley become highly familiar with our clients&rsquo; businesses to better serve them and help them accomplish their legal goals. We are often utilized to provide strategic legal advice as well as to negotiate and document specific transactions. We also assist clients with legal issues they encounter regarding ongoing operational and legal compliance questions, including regulatory compliance, employment law, and the financial obligations of officers and directors. Other examples of services include the formation of business entities, the development and negotiation of shareholder agreements, and the structuring of joint ventures.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Our corporate law clients include companies in the software, hardware, electronics, biotechnology, marketing/public relations, accounting, retail, and restaurant industries.</span></p>
+        <p style="margin-left: 13.5pt;"><span>We also have special expertise in advising parties involved in emerging businesses and high-technology startups. We regularly represent these types of businesses as well as, securities underwriters, and venture capital and other investors. The firm provides advice regarding types of financings, including venture capital financing, private placements, and initial public offerings.</span></p>

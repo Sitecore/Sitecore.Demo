@@ -3,6 +3,10 @@ ID: 2ae21def-82ec-403e-a8a8-16761cf85995
 Parent: ea263b2a-c269-452c-ac31-1fe6a8ee5188
 Template: c7d9d293-4ef8-4380-8e10-c4632e729f39
 Path: /sitecore/content/Legal/Global/Teasers/Social White Paper
+SharedFields:
+- ID: e8ab122c-6f54-4d4e-aec6-f81addc558fc
+  # TeaserLink
+  Value: "<link text=\"Social White Paper\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{B5583A97-7F68-40C6-BA8B-F82C9D3ABCC6}\" />"
 Languages:
 - Language: en
   Versions:
