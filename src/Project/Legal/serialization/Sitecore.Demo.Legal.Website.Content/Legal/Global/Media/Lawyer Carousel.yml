@@ -1,8 +1,8 @@
 ﻿---
-ID: 087838f6-e315-4a5f-aec8-00b5b85e9bfb
+ID: 56d587aa-b397-4f10-b6a8-a28306bf1f0c
 Parent: eb9bdb69-b821-4d8c-94f2-254cf6823d29
 Template: c18d3794-d126-4548-bfc8-89358de6e9c1
-Path: /sitecore/content/Legal/Global/Media/Carousel
+Path: /sitecore/content/Legal/Global/Media/Lawyer Carousel
 Languages:
 - Language: en
   Versions:
@@ -17,4 +17,4 @@ Languages:
     - ID: 72ea8682-24d2-4beb-951c-3e2164974105
       # MediaSelector
       Type: Multilist
-      Value: {493B5E2E-E0A4-4FB4-B4CB-00AC4AAE329F}
+      Value: {286D2842-18D3-4651-B8E1-3219F76FF870}
