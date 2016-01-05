@@ -16,7 +16,28 @@ Languages:
           <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r uid="{96345A42-FF7F-4DC1-9DCD-A085070807E6}" p:before="r[@uid='{3A792DA1-2825-420E-9655-1DFC7BA9A4E7}']" s:ds="{98E48045-DFC7-4A70-9BED-5C40AB6558A6}" s:id="{0CF58F14-D0F8-4C41-9896-3D69048A0B19}" s:ph="/footer/footercolumn1" />
             <r uid="{3A792DA1-2825-420E-9655-1DFC7BA9A4E7}" p:before="r[@uid='{1A80E463-C1E4-47F0-B351-E1A15357DA81}']" s:ds="{2AE21DEF-82EC-403E-A8A8-16761CF85995}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/col-narrow-3_c3fd7aa3-f664-44ac-996b-c250e72625d7" />
-            <r uid="{1A80E463-C1E4-47F0-B351-E1A15357DA81}" p:before="r[@uid='{9ED6ABF7-4549-4BA6-9651-842E793E3C9C}']" s:ds="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/col-narrow-2_c3fd7aa3-f664-44ac-996b-c250e72625d7" />
+            <r uid="{1A80E463-C1E4-47F0-B351-E1A15357DA81}" p:before="r[@uid='{9ED6ABF7-4549-4BA6-9651-842E793E3C9C}']" s:ds="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/col-narrow-2_c3fd7aa3-f664-44ac-996b-c250e72625d7">
+              <rls>
+                <ruleset>
+                  <rule uid="{09D74313-C409-404B-BA5C-C01770CC146A}" s:name="legal">
+                    <conditions>
+                      <condition uid="32026271339240A8950FCAA63CD37370" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{40F1B027-0183-435C-83FA-76CB2C96D093}" s:NumberOfElapsedDaysOperatorId="{E362A3A4-E230-4A40-A7C4-FC42767E908F}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{B88CD556-082E-4385-BB76-E4D1B565F290}" s:NumberOfPastInteractions="1" />
+                    </conditions>
+                    <actions>
+                      <action uid="B0AD6566D44B4637B7A2DED2F639B77A" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{72A00C8B-EAF3-4A4B-9B04-E3BFE7EE0A85}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="62CF0F07CADA48728603F19E543A698C" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action uid="F79C6FC18D774F21AA94EC6A419612DC" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r uid="{9ED6ABF7-4549-4BA6-9651-842E793E3C9C}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:ds="{8235F890-E581-4F79-8ACF-B04F90CCC0DD}" s:id="{BDD730EB-F808-4C65-B94A-D2F03672EAFB}" s:ph="/page-layout/col-narrow-1_c3fd7aa3-f664-44ac-996b-c250e72625d7" />
             <r uid="{713CACEB-59A6-478C-BE87-4F82B64736CC}">
               <rls>

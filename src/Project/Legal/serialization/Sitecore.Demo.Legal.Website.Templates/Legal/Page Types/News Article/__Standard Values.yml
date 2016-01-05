@@ -43,6 +43,17 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      # __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{79242576-4E0A-4CBF-BC2B-8B0C47FE9B64}">
+              <p:d />
+            </r>
+          </d>
+        </r>
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20150824T175451Z

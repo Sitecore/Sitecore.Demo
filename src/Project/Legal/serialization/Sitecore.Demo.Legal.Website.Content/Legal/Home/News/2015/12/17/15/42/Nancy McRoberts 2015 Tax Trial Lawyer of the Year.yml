@@ -4,6 +4,19 @@ Parent: 03bdbe3c-b263-48aa-955b-7c568a464b3a
 Template: bb6a204d-2b9e-46ca-82cd-00751803b03e
 Path: /sitecore/content/Legal/Home/News/2015/12/17/15/42/Nancy McRoberts 2015 Tax Trial Lawyer of the Year
 SharedFields:
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal" presets="lucas the lawyer|100||">
+        <key name="Self-employed" value="1" />
+        <key name="Large Corporate" value="3" />
+        <key name="Legal trade" value="5" />
+        <key name="Business" value="4" />
+        <key name="B2B" value="5" />
+      </profile>
+    </tracking>
 - ID: c464d2d7-3382-428a-bcdf-0963c60ba0e3
   # NewsDate
   Value: 20151026T100000Z

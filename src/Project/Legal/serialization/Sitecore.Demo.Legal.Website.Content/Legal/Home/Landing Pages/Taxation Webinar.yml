@@ -3,6 +3,21 @@ ID: 62b8de00-380c-4287-9541-cee68e1da9d7
 Parent: d12879df-80cc-4b16-b179-c03813f0a26d
 Template: 4b0a2893-4e7b-4248-86a9-dab6da3bb230
 Path: /sitecore/content/Legal/Home/Landing Pages/Taxation Webinar
+SharedFields:
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal" presets="lucas the lawyer|100||">
+        <key name="Self-employed" value="1" />
+        <key name="Large Corporate" value="3" />
+        <key name="Legal trade" value="5" />
+        <key name="Business" value="4" />
+        <key name="B2B" value="5" />
+      </profile>
+      <event id="{40F1B027-0183-435C-83FA-76CB2C96D093}" name="Viewed Legal Webinar Promotion" />
+    </tracking>
 Languages:
 - Language: en
   Versions:
