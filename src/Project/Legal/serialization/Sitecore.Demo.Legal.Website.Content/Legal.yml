@@ -24,9 +24,6 @@ Languages:
     - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
       # __Workflow state
       Value: {190B1C84-F1BE-47ED-AA41-F42193D9C8FC}
-    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
-      # __Created by
-      Value: sitecore\admin
     - ID: b8027200-aab0-4876-b454-dbb85add9e3c
       # HostName
       Value: Sitecore Legal Services

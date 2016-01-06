@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configurat
 		gulpfile.js = gulpfile.js
 		package.json = package.json
 		publishsettings.targets = publishsettings.targets
-		src\Project\Legal\code\App_Config\Project\z.Sitecore.Demo.DevSettings.config = src\Project\Legal\code\App_Config\Project\z.Sitecore.Demo.DevSettings.config
+		src\Project\Legal\code\App_Config\Include\Project\z.Sitecore.Demo.DevSettings.config = src\Project\Legal\code\App_Config\Include\Project\z.Sitecore.Demo.DevSettings.config
 	EndProjectSection
 EndProject
 Global

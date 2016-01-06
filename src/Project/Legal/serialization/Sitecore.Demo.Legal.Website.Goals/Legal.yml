@@ -1,0 +1,16 @@
+﻿---
+ID: b5df0d1c-22b7-4307-b3e8-bccec744b87a
+Parent: 0cb97a9f-cafb-42a0-8be1-89ab9ae32bd9
+Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
+Path: /sitecore/system/Marketing Control Panel/Goals/Legal
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160106T044027Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
