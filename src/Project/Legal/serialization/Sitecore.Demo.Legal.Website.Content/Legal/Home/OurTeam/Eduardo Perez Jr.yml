@@ -3,6 +3,20 @@ ID: c9bfb6a6-5b20-42ef-82fd-e79cec01cc80
 Parent: ac67d144-7cac-4d7f-a40a-9f800f2c8f7c
 Template: 75e42a73-0ae1-44c5-ac04-c9d5c4568680
 Path: /sitecore/content/Legal/Home/OurTeam/Eduardo Perez Jr
+SharedFields:
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal Persona" presets="eric the entrepreneur|100||">
+        <key name="Self-employed" value="5" />
+        <key name="Large Corporate" value="1" />
+        <key name="Legal trade" value="1" />
+        <key name="Personal-Civil" value="1" />
+        <key name="B2B" value="1" />
+      </profile>
+    </tracking>
 Languages:
 - Language: en
   Versions:
@@ -39,9 +53,12 @@ Languages:
     - ID: b897023c-15d2-49f3-8974-06fa5fb7ad00
       # Summary
       Value: Eduardo is a senior shareholder in the firm’s Corporate and Intellectual Property groups, and is a respected and top-ranked corporate litigation attorney in the region.  
+    - ID: bb7a38c0-323c-4f81-8eb9-288abf7c4638
+      # MetaDescription
+      Value: Eduardo Perez, partner, corporate law, property law, litigation attorney, corporate finance, IP, intellectual property, joint ventures, professional services
     - ID: c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38
       # Picture
-      Value: "<image mediaid=\"{E1F82DEA-B761-45D7-8668-B7E70C1DBC62}\" />"
+      Value: "<image mediaid=\"{9745DD03-B6C2-4582-BEA1-F8FCC5368606}\" />"
     - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
       # BrowserTitle
       Value: Eduardo Perez Jr

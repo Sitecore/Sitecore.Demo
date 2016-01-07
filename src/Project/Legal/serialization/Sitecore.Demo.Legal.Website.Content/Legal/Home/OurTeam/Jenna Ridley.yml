@@ -3,6 +3,20 @@ ID: 1bee7175-8126-4f1f-b0d3-1c0c3879795d
 Parent: ac67d144-7cac-4d7f-a40a-9f800f2c8f7c
 Template: 75e42a73-0ae1-44c5-ac04-c9d5c4568680
 Path: /sitecore/content/Legal/Home/OurTeam/Jenna Ridley
+SharedFields:
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal Persona" presets="margaret the mother|100||">
+        <key name="Self-employed" value="1" />
+        <key name="Large Corporate" value="0" />
+        <key name="Legal trade" value="0" />
+        <key name="Personal-Civil" value="5" />
+        <key name="B2B" value="1" />
+      </profile>
+    </tracking>
 Languages:
 - Language: en
   Versions:
@@ -17,24 +31,36 @@ Languages:
     - ID: 0ee2f208-1fee-42fc-8051-6696d49a92bf
       # OpenGraphTitle
       Value: Jenna Ridley
+    - ID: 167aba77-5172-42af-9f9e-00299113839e
+      # CustomMetaData
+      Value: Jenna Ridley, partner, trust, estate, taxation, individual income, gift tax planning
     - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
       # NavigationTitle
       Value: Jenna Ridley
+    - ID: 25b4cee3-a61a-4dc3-bb52-775dd509dbb5
+      # Mobile
+      Value: +1-912-555-2776
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20151217T155605Z
     - ID: 26cd59ab-3639-488f-bafd-58d2b217755a
       # Name
       Value: Jenna Ridley
+    - ID: 5978b330-1d46-4065-8751-f74bf17d815e
+      # Email
+      Value: jenna.ridley@chaseridley.com
     - ID: 76972fcd-4bb0-4255-864e-077745efdf50
       # Title
       Value: Senior Partner
+    - ID: 8d0e8ee3-21c4-4ae2-a2f1-53d3f3ebe501
+      # Telephone
+      Value: +1-912-555-2845
     - ID: b897023c-15d2-49f3-8974-06fa5fb7ad00
       # Summary
       Value: Jenna is a partner and member of the firm’s Taxation Law group. Her areas of practice include primarily financial and tax counsel for corporate businesses.
     - ID: c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38
       # Picture
-      Value: "<image mediaid=\"{C17B4BFC-0197-4A48-8C27-ACD27ED3AFC7}\" />"
+      Value: "<image mediaid=\"{EDAD3796-9F7F-4CEA-B2A8-313618ACB0FB}\" />"
     - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
       # BrowserTitle
       Value: Jenna Ridley
