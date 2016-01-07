@@ -9,12 +9,12 @@ SharedFields:
   Type: Tracking
   Value: |
     <tracking>
-      <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal Persona" presets="susan the ceo|100||">
-        <key name="Self-employed" value="0" />
+      <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal Persona">
+        <key name="Self-employed" value="2" />
         <key name="Large Corporate" value="5" />
-        <key name="Legal trade" value="3" />
+        <key name="Legal trade" value="5" />
         <key name="Personal-Civil" value="0" />
-        <key name="B2B" value="1" />
+        <key name="B2B" value="2" />
       </profile>
     </tracking>
 Languages:

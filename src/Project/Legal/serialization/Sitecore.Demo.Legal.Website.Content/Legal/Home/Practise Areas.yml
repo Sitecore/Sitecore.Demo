@@ -6,7 +6,7 @@ Path: /sitecore/content/Legal/Home/Practise Areas
 SharedFields:
 - ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
   # __Sortorder
-  Value: 400
+  Value: -100
 Languages:
 - Language: en
   Versions:

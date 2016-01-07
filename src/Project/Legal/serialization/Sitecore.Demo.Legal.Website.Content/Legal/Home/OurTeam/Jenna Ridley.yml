@@ -9,12 +9,12 @@ SharedFields:
   Type: Tracking
   Value: |
     <tracking>
-      <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal Persona" presets="margaret the mother|100||">
-        <key name="Self-employed" value="1" />
+      <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal Persona">
+        <key name="Self-employed" value="0" />
         <key name="Large Corporate" value="0" />
-        <key name="Legal trade" value="0" />
+        <key name="Legal trade" value="1" />
         <key name="Personal-Civil" value="5" />
-        <key name="B2B" value="1" />
+        <key name="B2B" value="2" />
       </profile>
     </tracking>
 Languages:
@@ -48,7 +48,7 @@ Languages:
       Value: Jenna Ridley
     - ID: 5978b330-1d46-4065-8751-f74bf17d815e
       # Email
-      Value: jenna.ridley@chaseridley.com
+      Value: j.ridley@chaseridley.com
     - ID: 76972fcd-4bb0-4255-864e-077745efdf50
       # Title
       Value: Senior Partner
@@ -58,6 +58,9 @@ Languages:
     - ID: b897023c-15d2-49f3-8974-06fa5fb7ad00
       # Summary
       Value: Jenna is a partner and member of the firm’s Taxation Law group. Her areas of practice include primarily financial and tax counsel for corporate businesses.
+    - ID: bb7a38c0-323c-4f81-8eb9-288abf7c4638
+      # MetaDescription
+      Value: Jenna Ridley, partner, trust, estate, taxation, individual income, gift tax planning
     - ID: c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38
       # Picture
       Value: "<image mediaid=\"{EDAD3796-9F7F-4CEA-B2A8-313618ACB0FB}\" />"
