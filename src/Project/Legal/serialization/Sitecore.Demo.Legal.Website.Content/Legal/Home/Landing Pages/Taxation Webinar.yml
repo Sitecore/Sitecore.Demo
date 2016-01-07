@@ -1,7 +1,7 @@
 ﻿---
 ID: 62b8de00-380c-4287-9541-cee68e1da9d7
 Parent: d12879df-80cc-4b16-b179-c03813f0a26d
-Template: 4b0a2893-4e7b-4248-86a9-dab6da3bb230
+Template: 9917c92b-0f13-4f96-b50b-84c874e25783
 Path: /sitecore/content/Legal/Home/Landing Pages/Taxation Webinar
 SharedFields:
 - ID: b0a67b2a-8b07-4e0b-8809-69f751709806
@@ -23,9 +23,6 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
-      # NavigationTitle
-      Value: Tax Webinar
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       # __Created
       Value: 20151223T144213Z
@@ -40,4 +37,6 @@ Languages:
       Value: Tax Webinar
     - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
       # Body
-      Value: <span>This webinar will provide legal professionals with a detailed exploration of the challenges that arise with sales and use, real estate transfer, and other transaction taxes arising from a merger and acquisition event. Sign-up now for this exclusive FREE webinar and you&rsquo;ll also receive VIP invitations to upcoming taxation and corporate finance webinars!</span>
+      Value: |
+        <p>This webinar will provide legal professionals with a detailed exploration of the challenges that arise with sales and use, real estate transfer, and other transaction taxes arising from a merger and acquisition event. </p>
+        <p>Sign-up now for this exclusive FREE webinar and you&rsquo;ll also receive VIP invitations to upcoming taxation and corporate finance webinars!</p>
