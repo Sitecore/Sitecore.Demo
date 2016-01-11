@@ -3,9 +3,10 @@ ID: f92b8d36-ce18-4b7e-8d31-004bff4a82b9
 Parent: 0de95ae4-41ab-4d01-9eb0-67441b7c2450
 Template: 18bc1c1a-9a73-41ba-8a0c-6582e9337657
 Path: /sitecore/content/Legal
+DB: master
 SharedFields:
 - ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
-  # __Workflow
+  Hint: __Workflow
   Value: {A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}
 Languages:
 - Language: en
@@ -13,23 +14,23 @@ Languages:
   - Version: 1
     Fields:
     - ID: 02115632-fe1e-4b3d-9ad4-a4ddf1f782f0
-      # Copyright
+      Hint: Copyright
       Value: Copyright 2015 Sitecore Legal Services
     - ID: 12537182-f35c-403f-afb5-747d55c450b8
-      # ShowInMenu
+      Hint: ShowInMenu
       Value: 1
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
-      # __Created
+      Hint: __Created
       Value: 20151215T064228Z
     - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
-      # __Workflow state
+      Hint: __Workflow state
       Value: {190B1C84-F1BE-47ED-AA41-F42193D9C8FC}
     - ID: b8027200-aab0-4876-b454-dbb85add9e3c
-      # HostName
+      Hint: HostName
       Value: legal.demo.habitat.local
     - ID: e748d808-64c1-4dec-9718-f35cf9689e4b
-      # Logo
+      Hint: Logo
       Value: "<image mediapath=\"/Default Website/sc_logo\" src=\"~/media/Default Website/sc_logo\" height=\"50\" mediaid=\"{92DD68A8-A4E3-469B-97AD-F1C2A7BCBB0B}\" hspace=\"\" usethumbnail=\"\" showineditor=\"\" width=\"200\" alt=\"\" vspace=\"\" />"
     - ID: f07811d3-41e9-440a-9d81-310c1d78bed6
-      # Title
+      Hint: Title
       Value: Sitecore Legal Services

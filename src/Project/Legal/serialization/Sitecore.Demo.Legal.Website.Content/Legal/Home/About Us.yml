@@ -3,9 +3,10 @@ ID: 53c59369-b0c7-40b2-b76f-ded99916d309
 Parent: 6eb0f80b-a1d5-40e0-a472-9308b24228b5
 Template: 4b0a2893-4e7b-4248-86a9-dab6da3bb230
 Path: /sitecore/content/Legal/Home/About Us
+DB: master
 SharedFields:
 - ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
-  # __Sortorder
+  Hint: __Sortorder
   Value: 0
 Languages:
 - Language: en
@@ -13,22 +14,22 @@ Languages:
   - Version: 1
     Fields:
     - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
-      # NavigationTitle
+      Hint: NavigationTitle
       Value: About Us
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
-      # __Created
+      Hint: __Created
       Value: 20151216T034607Z
     - ID: ac3fd4db-8266-476d-9635-67814d91e901
-      # Summary
+      Hint: Summary
       Value: <span>For decades, our lawyers have been key figures and played pivotal roles in the growth of California&mdash;advancing both public and private interests, Chase Ridley clients are frequently at the center of the State&rsquo;s most strategic and vital activities and investments.&nbsp;</span>
     - ID: c30a013f-3cc8-4961-9837-1c483277084a
-      # Title
+      Hint: Title
       Value: About Us
     - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
-      # BrowserTitle
+      Hint: BrowserTitle
       Value: About Us
     - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
-      # Body
+      Hint: Body
       Value: |
         <p style="margin-left: 18pt;"><span>For decades, our lawyers have been key figures and played pivotal roles in the growth of California&mdash;advancing both public and private interests, Chase Ridley clients are frequently at the center of the State&rsquo;s most strategic and vital activities and investments.</span></p>
         <p style="margin-left: 18pt;"><span>Clients turn to us for practical legal advice and to help them uncover opportunities that lead to the resolution of legal issues and disputes. We have built a reputation of understanding the industries and businesses of our clients and working with them to achieve just that.</span></p>

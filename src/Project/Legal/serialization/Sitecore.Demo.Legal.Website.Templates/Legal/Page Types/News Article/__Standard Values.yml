@@ -3,12 +3,13 @@ ID: bf40320b-64c2-4cf2-9eef-384d229bf226
 Parent: bb6a204d-2b9e-46ca-82cd-00751803b03e
 Template: bb6a204d-2b9e-46ca-82cd-00751803b03e
 Path: /sitecore/templates/Project/Legal/Page Types/News Article/__Standard Values
+DB: master
 SharedFields:
 - ID: c9283d9e-7c29-4419-9c28-5a5c8ff53e84
-  # __Bucketable
+  Hint: __Bucketable
   Value: 1
 - ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
-  # __Renderings
+  Hint: __Renderings
   Type: layout
   Value: |
     <r>
@@ -43,7 +44,7 @@ Languages:
   - Version: 1
     Fields:
     - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
-      # __Final Renderings
+      Hint: __Final Renderings
       Type: Layout
       Value: |
         <r xmlns:p="p" xmlns:s="s" p:p="1">
@@ -54,8 +55,8 @@ Languages:
           </d>
         </r>
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
-      # __Created
+      Hint: __Created
       Value: 20150824T175451Z
     - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
-      # BrowserTitle
+      Hint: BrowserTitle
       Value: $name

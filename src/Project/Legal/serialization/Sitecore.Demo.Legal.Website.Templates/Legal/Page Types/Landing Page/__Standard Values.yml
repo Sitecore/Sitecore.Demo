@@ -3,13 +3,14 @@ ID: 86cffc79-a7a0-4a7e-aded-85c116a4a3d4
 Parent: 9917c92b-0f13-4f96-b50b-84c874e25783
 Template: 9917c92b-0f13-4f96-b50b-84c874e25783
 Path: /sitecore/templates/Project/Legal/Page Types/Landing Page/__Standard Values
+DB: master
 SharedFields:
 - ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
-  # __Masters
+  Hint: __Masters
   Type: TreelistEx
   Value: {4B0A2893-4E7B-4248-86A9-DAB6DA3BB230}
 - ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
-  # __Renderings
+  Hint: __Renderings
   Type: layout
   Value: |
     <r>
@@ -35,14 +36,14 @@ Languages:
   - Version: 1
     Fields:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
-      # __Created
+      Hint: __Created
       Value: 20150824T175451Z
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
-      # __Created by
+      Hint: __Created by
       Value: sitecore\admin
     - ID: c30a013f-3cc8-4961-9837-1c483277084a
-      # Title
+      Hint: Title
       Value: $name
     - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
-      # BrowserTitle
+      Hint: BrowserTitle
       Value: $name

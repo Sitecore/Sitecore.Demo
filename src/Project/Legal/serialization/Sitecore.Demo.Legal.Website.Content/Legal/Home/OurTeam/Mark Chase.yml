@@ -3,48 +3,49 @@ ID: 17f0b1c7-0d17-4039-962d-6b5894def4df
 Parent: ac67d144-7cac-4d7f-a40a-9f800f2c8f7c
 Template: 75e42a73-0ae1-44c5-ac04-c9d5c4568680
 Path: /sitecore/content/Legal/Home/OurTeam/Mark Chase
+DB: master
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
     - ID: 0cc9785e-54fe-4fae-93e4-d0d2ae75f339
-      # Biography
+      Hint: Biography
       Value: |
         <p style="margin-left: 13.5pt;"><span>Mark is one of the founders of the firm. He began his law career in 1960 in San Francisco, and for over 55 years his legal career has mirrored the business climate of the State. Mark&rsquo;s expertise focuses in the fields of business formation, business transactions, financings and acquisitions, and counsel to corporations. He has served as a member of corporate boards of directors.</span></p>
         <p style="margin-left: 13.5pt;"><span>Mark is a member of the State Bar Executive Committee, member of the State Bar Commission, and delegate to the State Bar Conference of Delegates. He has presented many business law related and estate planning programs for Stanford Continuing Education of the Bar and lectured at Stanford School of Law. Mark was president of the San Francisco County Legal Aid Society and member of the Advisory Committee of Legal Services of Northern California. He was recognized on The Best Lawyers in America 2009, 2012, 2014, and this year in 2015.</span></p>
         <p style="margin-left: 13.5pt;"><span>Mark also donates much of his time towards pro-bono activities within his community, including involvement with the San Francisco Regional Foundation, San Francisco Light Civic Opera Association, Stanford Graduate School of Management, Stanford University CharitableTrust, KQED public radio, SFMOMA, and St. Vincent de Paul Society.</span></p>
         <p style="margin-left: 13.5pt;"><span>In his personal life, Mark has been happily married to is wife Marie for over fifty years. They have&nbsp; five children and seven grandchildren. His personal interests include art, music, film, theater, literature, and cycling. Mark now resides in Carmel, California.</span></p>
     - ID: 0ee2f208-1fee-42fc-8051-6696d49a92bf
-      # OpenGraphTitle
+      Hint: OpenGraphTitle
       Value: Mark Chase
     - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
-      # NavigationTitle
+      Hint: NavigationTitle
       Value: Mark Chase
     - ID: 25b4cee3-a61a-4dc3-bb52-775dd509dbb5
-      # Mobile
+      Hint: Mobile
       Value: +1-912-555-8478
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
-      # __Created
+      Hint: __Created
       Value: 20151216T040631Z
     - ID: 26cd59ab-3639-488f-bafd-58d2b217755a
-      # Name
+      Hint: Name
       Value: Mark T. Chase
     - ID: 5978b330-1d46-4065-8751-f74bf17d815e
-      # Email
+      Hint: Email
       Value: mark.chase@chaseridley.com
     - ID: 76972fcd-4bb0-4255-864e-077745efdf50
-      # Title
+      Hint: Title
       Value: General Counsel
     - ID: 8d0e8ee3-21c4-4ae2-a2f1-53d3f3ebe501
-      # Telephone
+      Hint: Telephone
       Value: +1-912-555-2845
     - ID: b897023c-15d2-49f3-8974-06fa5fb7ad00
-      # Summary
+      Hint: Summary
       Value: Mark is one of the founders of the firm. He began his law career in 1960 in San Francisco, and for over 55 years his legal career has mirrored the business climate of the State. 
     - ID: c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38
-      # Picture
+      Hint: Picture
       Value: "<image mediaid=\"{BC33364E-0985-4E10-862C-CECE26721CCA}\" />"
     - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
-      # BrowserTitle
+      Hint: BrowserTitle
       Value: Mark Chase

@@ -3,14 +3,15 @@ ID: 3ac8804c-6f2a-4620-bbab-285559345918
 Parent: 83f0c49a-b1f6-4ce0-94fa-2caa5286207f
 Template: fe5dd826-48c6-436d-b87a-7c4210c7413b
 Path: /sitecore/media library/Legal/Images
+DB: master
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
-      # __Created
+      Hint: __Created
       Value: 20151217T122918Z
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
-      # __Created by
+      Hint: __Created by
       Value: sitecore\admin
