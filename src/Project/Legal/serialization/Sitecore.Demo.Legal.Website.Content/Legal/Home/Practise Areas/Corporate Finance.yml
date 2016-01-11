@@ -3,28 +3,29 @@ ID: 56dfe58f-6c17-4fd6-84c4-f82512f9f648
 Parent: c03a4278-a428-4c5a-a451-97e6c3d17115
 Template: 4b0a2893-4e7b-4248-86a9-dab6da3bb230
 Path: /sitecore/content/Legal/Home/Practise Areas/Corporate Finance
+DB: master
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
     - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
-      # NavigationTitle
+      Hint: NavigationTitle
       Value: Corporate Finance
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
-      # __Created
+      Hint: __Created
       Value: 20151223T143842Z
     - ID: ac3fd4db-8266-476d-9635-67814d91e901
-      # Summary
+      Hint: Summary
       Value: <span>Chase Ridley&rsquo;s corporate finance clients range from large privately-held companies to publicly traded companies, family businesses, and start-ups, across many verticals. For this wide spectrum of clients, our attorneys conduct a broad range of public and private finance transactions, both equity and debt, tailored to the need of the client&rsquo;s industry and individual business circumstances.&nbsp;</span>
     - ID: c30a013f-3cc8-4961-9837-1c483277084a
-      # Title
+      Hint: Title
       Value: Corporate Finance
     - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
-      # BrowserTitle
+      Hint: BrowserTitle
       Value: Corporate Finance
     - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
-      # Body
+      Hint: Body
       Value: |
         <p style="margin-left: 13.5pt;"><span>Our clients require a wide range of financing needs. Their business may want to grow, or restructure, or address a long-term capital need. An entrepreneur may want venture capital for a new business. An established business may want to buy or merge with a complementary business. Depending on the need, the best financing approach might be secured debt, the issuance of equity, or some other transaction. Chase Ridley attorneys bring the experience and knowledge from having successfully completed any of these wide range of solutions.</span></p>
         <p style="margin-left: 13.5pt;"><span>We also represent the finance provider side of transactions, acting as counsel to financial institutions. In addition to representing lenders, we also counsels borrowers in obtaining loans of varying sizes and complexity, depending on the need. This includes secured credit opportunities, loans, revolving lines of credit, letters of credit, term and equipment financing, real estate loans and a broad array of other corporate lending transactions.</span></p>

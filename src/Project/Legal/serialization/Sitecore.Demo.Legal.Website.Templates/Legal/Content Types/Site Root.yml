@@ -3,12 +3,13 @@ ID: 18bc1c1a-9a73-41ba-8a0c-6582e9337657
 Parent: d6b6fcf3-0438-4ec6-8876-218c229a36ed
 Template: ab86861a-6030-46c5-b394-e8f99e8b87db
 Path: /sitecore/templates/Project/Legal/Content Types/Site Root
+DB: master
 SharedFields:
 - ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
-  # __Icon
+  Hint: __Icon
   Value: Applications/16x16/window_earth.png
 - ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
-  # __Base template
+  Hint: __Base template
   Type: tree list
   Value: |
     {FA8DE5B9-D5D8-40A7-866A-23AF4F5A9629}
@@ -16,10 +17,10 @@ SharedFields:
     {C6D4DDD5-B912-4C1A-A3A3-E1D90E4D0939}
     {0FCCFE4F-B087-498F-BD26-5CDFFC522C9A}
 - ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
-  # __Sortorder
+  Hint: __Sortorder
   Value: 100
 - ID: f7d48a55-2158-4f02-9356-756654404f73
-  # __Standard values
+  Hint: __Standard values
   Value: {03403201-F458-4642-A501-0E2C9BF21FC4}
 Languages:
 - Language: en
@@ -27,8 +28,8 @@ Languages:
   - Version: 1
     Fields:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
-      # __Created
+      Hint: __Created
       Value: 20130917T160321
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
-      # __Created by
+      Hint: __Created by
       Value: sitecore\admin

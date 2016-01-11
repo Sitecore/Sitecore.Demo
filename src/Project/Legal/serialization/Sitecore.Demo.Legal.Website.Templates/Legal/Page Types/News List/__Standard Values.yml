@@ -3,16 +3,17 @@ ID: 490cc202-b693-487a-b5cf-99a4c3f6a528
 Parent: 1d83c3eb-ea3b-4b71-baa1-3938397fe99b
 Template: 1d83c3eb-ea3b-4b71-baa1-3938397fe99b
 Path: /sitecore/templates/Project/Legal/Page Types/News List/__Standard Values
+DB: master
 SharedFields:
 - ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
-  # __Masters
+  Hint: __Masters
   Type: TreelistEx
   Value: {BB6A204D-2B9E-46CA-82CD-00751803B03E}
 - ID: d312103c-b36c-4ca5-864a-c85f9abda503
-  # __Is Bucket
+  Hint: __Is Bucket
   Value: 1
 - ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
-  # __Renderings
+  Hint: __Renderings
   Type: layout
   Value: |
     <r>
@@ -42,11 +43,11 @@ Languages:
   - Version: 1
     Fields:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
-      # __Created
+      Hint: __Created
       Value: 20150824T175428Z
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
-      # __Created by
+      Hint: __Created by
       Value: sitecore\admin
     - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
-      # Image
+      Hint: Image
       Value: "<image mediaid=\"{88032F9C-B464-44CB-B76D-513D60B9C127}\" />"
