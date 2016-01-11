@@ -19,6 +19,15 @@ Languages:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       Hint: __Created
       Value: 20151216T034720Z
+    - ID: ac3fd4db-8266-476d-9635-67814d91e901
+      # Summary
+      Value: <span>Keeping you informed. A few noteworthy news items about the law and the people it impacts.</span>
+    - ID: bb7a38c0-323c-4f81-8eb9-288abf7c4638
+      # MetaDescription
+      Value: Chase Ridley News, Chase Ridley press, 2016 legal news
     - ID: c30a013f-3cc8-4961-9837-1c483277084a
       Hint: Title
       Value: News
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: News List

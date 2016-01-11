@@ -1,0 +1,60 @@
+﻿---
+ID: a48c26aa-cf72-4136-b111-5fd5cad9ab43
+Parent: 195b2105-6689-46d9-a143-6e2ee00452fd
+Template: bb6a204d-2b9e-46ca-82cd-00751803b03e
+Path: /sitecore/content/Legal/Home/News/2016/01/07/14/58/Corporate Legal - Get Ready for Three Changes in 2016
+SharedFields:
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  # __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal Persona">
+        <key name="Self-employed" value="0" />
+        <key name="Large Corporate" value="0" />
+        <key name="Legal trade" value="5" />
+        <key name="Personal-Civil" value="1" />
+        <key name="B2B" value="3" />
+      </profile>
+    </tracking>
+- ID: c464d2d7-3382-428a-bcdf-0963c60ba0e3
+  # NewsDate
+  Value: 20160104T000000Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20160107T145828Z
+    - ID: 3437eaac-6ee8-460b-a33d-da1f714b5a93
+      # NewsImage
+      Value: "<image mediaid=\"{3F3FC965-D514-4F99-8CBE-0BD37237E65A}\" />"
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 801612c7-5e98-4e3c-80d2-a34d0eebcbda
+      # NewsBody
+      Value: |
+        <p><span>In 2016, a number of legal and economic developments will change how companies assess and manage legal risks. Chase Ridley researchers interviewed and surveyed more than 100 general counsel of Fortune 500 companies. The goal was to map future developments in the law, and assess the skills needed to address them. The result was a list of three trends that will change the legal world in 2016.</span></p>
+        <p><span>1. Issues will converge; regulations will fragment.</span></p>
+        <p><span>There is current global interest in issues like privacy, corruption, governance, transparency, and intellectual property. These issues have converged in recent years, both in developing and developed nations, but the regulations relating to those issues have not. In fact, they have diverged and will continue to diverge, driven by public and media outrage of a perceived regulatory gap, protection of national interests or key domestic companies, revenue generation in an era of significant government budget shortfalls, and a preservation of regulators&rsquo; and enforcers&rsquo; power and influence.</span></p>
+        <p><span>2. Information will grow exponentially.</span></p>
+        <p><span>This has been true for a decade or more, but a different kind of information is rapidly growing now. Thanks to smart phones and sophisticated GPS systems built into our devices, our every move is tracked globally, telling others where we are and what we do. That is fundamentally different from the information explosion of the 1990s and 2000s. Corporate, consumer, and private data will become ubiquitous, which will drive disputes over the ownership and use of information.</span></p>
+        <p><span>3. Corporate transparency and privacy concerns will collide.</span></p>
+        <p><span>Companies don&rsquo;t just have more information; they also have more obligations with respect to that information than ever before. Transparency and disclosure obligations have grown in nearly all jurisdictions (e.g., Dodd Frank, and similar legislation in Europe, South Africa, and beyond). But privacy and data protection issues (for example, the EU Data Protection Directive) make it often illegal for companies to disclose information. In short, transparency and privacy will increasingly be at odds with each other.</span></p>
+        <p><span>To address these trends, general counsel and legal departments build local legal support to address risk in emerging markets, invest in new capabilities beyond pure legal skills, and close competency gaps by focusing on experiential learning and development rather than traditional training activities.</span></p>
+        <p><span>&nbsp;</span></p>
+    - ID: 9d08271a-1672-44dd-b7ef-0a6ec34fcba7
+      # NewsSummary
+      Value: <span>In 2016, a number of legal and economic developments will change how companies assess and manage legal risks. We take a closer look at three.&nbsp;</span>
+    - ID: bb7a38c0-323c-4f81-8eb9-288abf7c4638
+      # MetaDescription
+      Value: Corporate law, 2016 corporate law, corporate legal changes, new for 2016
+    - ID: bd9ecd4a-c0b0-4233-a3cd-d995519ac87b
+      # NewsTitle
+      Value: Corporate Legal: Get Ready for Three Changes in 2016
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      # BrowserTitle
+      Value: Corporate Legal - Get Ready for Three Changes in 2016
