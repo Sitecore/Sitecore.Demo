@@ -2,10 +2,11 @@
 ID: a5a0b1f5-ce43-406c-8b68-acbfdcef66dc
 Parent: 94dd6cae-ede9-41f5-8852-e6e01b57f46d
 Template: 448c4d57-f0f1-4278-8ab8-93db46c94f1b
-Path: /sitecore/system/Marketing Control Panel/Profiles/Legal/Legal Persona/Profile Cards/Lucas the Lawyer
+Path: /sitecore/system/Marketing Control Panel/Profiles/Legal Persona/Profile Cards/Lucas the Lawyer
+DB: master
 SharedFields:
 - ID: 85970ab7-22ea-4206-be86-c0167178860b
-  # Profile Card Value
+  Hint: Profile Card Value
   Value: |
     <tracking>
       <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal Persona">
@@ -22,8 +23,5 @@ Languages:
   - Version: 1
     Fields:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
-      # __Created
+      Hint: __Created
       Value: 20160104T153129Z
-    - ID: a26fc256-1db0-44aa-ba3d-1c830bf882a2
-      # Name
-      Value: Lucas the Lawyer

@@ -10,6 +10,11 @@ SharedFields:
   Value: {A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}
 Languages:
 - Language: en
+  Fields:
+  - ID: 2a84eca4-68bb-4451-b4ac-98ea71a5a3dc
+    Hint: SiteProfiles
+    Type: Multilist
+    Value: {AD3B7C5C-5BDD-4000-91CF-57F7407F9050}
   Versions:
   - Version: 1
     Fields:

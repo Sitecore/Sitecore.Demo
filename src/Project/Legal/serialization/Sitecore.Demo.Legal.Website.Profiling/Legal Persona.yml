@@ -1,12 +1,13 @@
 ﻿---
 ID: ad3b7c5c-5bdd-4000-91cf-57f7407f9050
-Parent: d23f063e-12a9-4232-ad24-0599881bc81b
+Parent: 12bd7e35-437b-449c-b931-23cfa12c03d8
 Template: 8e0c1738-3591-4c60-8151-54abcc9807d1
-Path: /sitecore/system/Marketing Control Panel/Profiles/Legal/Legal Persona
+Path: /sitecore/system/Marketing Control Panel/Profiles/Legal Persona
+DB: master
 BranchID: 07624a03-bb2f-45d8-abe1-15e2b1705ff3
 SharedFields:
 - ID: 5d9fe5d7-4c45-4a98-a1f5-4796a6da428b
-  # Name
+  Hint: Name
   Value: Legal
 Languages:
 - Language: en
@@ -14,5 +15,5 @@ Languages:
   - Version: 1
     Fields:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
-      # __Created
+      Hint: __Created
       Value: 20160104T144139Z

@@ -3,15 +3,16 @@ ID: 934af6fd-9802-44d8-9148-1e394f1cce98
 Parent: 68204818-5785-47c2-a7cd-2d79e9a5197d
 Template: 5c547d4e-7111-4995-95b0-6b561751bf2e
 Path: /sitecore/layout/Placeholder Settings/Project/Legal/sidebarcontent
+DB: master
 SharedFields:
 - ID: 7256bdab-1fd2-49dd-b205-cb4873d2917c
-  # Placeholder Key
+  Hint: Placeholder Key
   Value: sidebarcontent
 - ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
-  # __Sortorder
+  Hint: __Sortorder
   Value: 1300
 - ID: e391b526-d0c5-439d-803e-17512eae6222
-  # Allowed Controls
+  Hint: Allowed Controls
   Type: TreelistEx
   Value: |
     {914673DC-FC44-4660-B6EB-FF421FAAC2F9}
@@ -33,5 +34,5 @@ Languages:
   - Version: 1
     Fields:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
-      # __Created
+      Hint: __Created
       Value: 20151008T042522Z

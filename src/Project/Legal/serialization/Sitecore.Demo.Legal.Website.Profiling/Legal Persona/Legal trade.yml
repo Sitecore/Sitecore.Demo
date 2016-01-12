@@ -1,20 +1,21 @@
 ﻿---
-ID: 98e6a326-1345-4a17-8a9f-a17b7385f8df
+ID: a23855e9-858f-41f0-8d13-804d8a708185
 Parent: ad3b7c5c-5bdd-4000-91cf-57f7407f9050
 Template: 44ab5107-3c73-42f0-a427-bec549f944b9
-Path: /sitecore/system/Marketing Control Panel/Profiles/Legal/Legal Persona/Self-employed
+Path: /sitecore/system/Marketing Control Panel/Profiles/Legal Persona/Legal trade
+DB: master
 SharedFields:
 - ID: 12e2c64a-5f08-4948-86c8-55ae06afeef8
-  # MaxValue
+  Hint: MaxValue
   Value: 5
 - ID: 271d7b0f-446c-4f24-bfe7-e33c20bf7a41
-  # MinValue
+  Hint: MinValue
   Value: 0
 - ID: 2e1a9aab-f7c1-49ee-b032-28b98d3688d6
-  # Name
-  Value: Self-employed
+  Hint: Name
+  Value: Legal trade
 - ID: 329b953d-900f-4987-9d68-2b30ff982dbf
-  # DefaultValue
+  Hint: DefaultValue
   Value: 0
 Languages:
 - Language: en
@@ -22,5 +23,5 @@ Languages:
   - Version: 1
     Fields:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
-      # __Created
-      Value: 20160104T144326Z
+      Hint: __Created
+      Value: 20160104T144433Z

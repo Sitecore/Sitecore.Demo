@@ -1,0 +1,30 @@
+﻿---
+ID: 838a28ad-a976-4df7-bb35-796e576f045c
+Parent: 000c8311-1ab4-40bf-9b09-e4917b7be5c9
+Template: 4a6a7e36-2481-438f-a9ba-0453ecc638fa
+Path: /sitecore/system/Marketing Control Panel/Profiles/Legal Persona/Pattern Cards/Eric the Entrepreneur
+DB: master
+SharedFields:
+- ID: 6da71ad3-5849-4482-9317-d21390e5a348
+  Hint: Pattern
+  Value: |
+    <tracking>
+      <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal Persona">
+        <key name="Self-employed" value="5" />
+        <key name="Large Corporate" value="1" />
+        <key name="Legal trade" value="1" />
+        <key name="Personal-Civil" value="1" />
+        <key name="B2B" value="1" />
+      </profile>
+    </tracking>
+- ID: fe732790-2ddb-4657-a882-c2fce1fbf0c9
+  Hint: Name
+  Value: Eric the Entrepreneur
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160104T145142Z

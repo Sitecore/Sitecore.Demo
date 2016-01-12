@@ -1,11 +1,12 @@
 ﻿---
-ID: 4d9fde75-163f-4b5f-9ede-b23b547ab8de
-Parent: 000c8311-1ab4-40bf-9b09-e4917b7be5c9
-Template: 4a6a7e36-2481-438f-a9ba-0453ecc638fa
-Path: /sitecore/system/Marketing Control Panel/Profiles/Legal/Legal Persona/Pattern Cards/Margaret the Mother
+ID: beb56cc9-a6bf-40ba-b714-0a68ea9ed1fd
+Parent: 94dd6cae-ede9-41f5-8852-e6e01b57f46d
+Template: 448c4d57-f0f1-4278-8ab8-93db46c94f1b
+Path: /sitecore/system/Marketing Control Panel/Profiles/Legal Persona/Profile Cards/Margaret the Mother
+DB: master
 SharedFields:
-- ID: 6da71ad3-5849-4482-9317-d21390e5a348
-  # Pattern
+- ID: 85970ab7-22ea-4206-be86-c0167178860b
+  Hint: Profile Card Value
   Value: |
     <tracking>
       <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal Persona">
@@ -16,14 +17,11 @@ SharedFields:
         <key name="B2B" value="1" />
       </profile>
     </tracking>
-- ID: fe732790-2ddb-4657-a882-c2fce1fbf0c9
-  # Name
-  Value: Margaret the Mother
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
-      # __Created
-      Value: 20160106T145027Z
+      Hint: __Created
+      Value: 20160106T144636Z

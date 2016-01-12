@@ -1,0 +1,24 @@
+﻿---
+ID: 95f2499a-dc5e-4ce1-b45c-0ca42bf239fb
+Parent: de1aa8fe-a46a-4da0-a493-4af9b4ea9fd1
+Template: 475e9026-333f-432d-a4dc-52e03b75cb6b
+Path: /sitecore/system/Marketing Control Panel/Goals/Legal/Legal Webinar/Registered Legal Webinar
+DB: master
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  Hint: __Workflow
+  Value: {689E2994-4656-4C58-9112-7826CB46EE69}
+- ID: ac6ba888-4213-43bd-b787-d8da2b6b881f
+  Hint: Name
+  Value: Registered Legal Webinar
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160111T161756Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      Hint: __Workflow state
+      Value: {39156DC0-21C6-4F64-B641-31E85C8F5DFE}

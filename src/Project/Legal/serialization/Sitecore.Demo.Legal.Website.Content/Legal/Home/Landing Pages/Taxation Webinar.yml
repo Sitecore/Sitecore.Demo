@@ -3,20 +3,21 @@ ID: 62b8de00-380c-4287-9541-cee68e1da9d7
 Parent: d12879df-80cc-4b16-b179-c03813f0a26d
 Template: 9917c92b-0f13-4f96-b50b-84c874e25783
 Path: /sitecore/content/Legal/Home/Landing Pages/Taxation Webinar
+DB: master
 SharedFields:
 - ID: b0a67b2a-8b07-4e0b-8809-69f751709806
-  # __Tracking
+  Hint: __Tracking
   Type: Tracking
   Value: |
     <tracking>
-      <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal" presets="lucas the lawyer|100||">
-        <key name="Self-employed" value="1" />
+      <event id="{40F1B027-0183-435C-83FA-76CB2C96D093}" name="Viewed Legal Webinar Promotion" />
+      <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal Persona" presets="lucas the lawyer|100||">
+        <key name="B2B" value="5" />
         <key name="Large Corporate" value="3" />
         <key name="Legal trade" value="5" />
-        <key name="Business" value="4" />
-        <key name="B2B" value="5" />
+        <key name="Personal-Civil" value="4" />
+        <key name="Self-employed" value="1" />
       </profile>
-      <event id="{40F1B027-0183-435C-83FA-76CB2C96D093}" name="Viewed Legal Webinar Promotion" />
     </tracking>
 Languages:
 - Language: en
@@ -24,29 +25,34 @@ Languages:
   - Version: 1
     Fields:
     - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
-      # __Final Renderings
+      Hint: __Final Renderings
       Type: Layout
-      Value: "<r xmlns:p=\"p\" xmlns:s=\"s\" p:p=\"1\" />"
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{34D7EB69-6191-4F9C-928D-8B577FA5145C}" p:before="r[@uid='{A3BAD4D4-8E21-4B30-8C4C-B04163653D62}']" s:ds="{8952B4B4-1B96-49A0-ADC1-A7004C524C72}" s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}" s:ph="/page-layout/col-wide-1" />
+          </d>
+        </r>
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
-      # __Created
+      Hint: __Created
       Value: 20151223T144213Z
     - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
-      # Image
+      Hint: Image
       Value: "<image mediaid=\"{1449E790-449C-49C5-BD32-3B3F6450A1F3}\" />"
     - ID: ac3fd4db-8266-476d-9635-67814d91e901
-      # Summary
+      Hint: Summary
       Value: <span>Legal Insight Webinar Series: Solving Transaction Tax Challenges in Mergers and Acquisitions</span>
     - ID: bb7a38c0-323c-4f81-8eb9-288abf7c4638
-      # MetaDescription
+      Hint: MetaDescription
       Value: Mergers, acquisitions, M&A, MA, legal mergers, legal resource, B2B, transaction tax, webinar, legal webinar
     - ID: c30a013f-3cc8-4961-9837-1c483277084a
-      # Title
+      Hint: Title
       Value:  Solving Transaction Tax Challenges in Mergers and Acquisitions
     - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
-      # BrowserTitle
+      Hint: BrowserTitle
       Value: Tax Webinar
     - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
-      # Body
+      Hint: Body
       Value: |
         <p>This webinar will provide legal professionals with a detailed exploration of the challenges that arise with sales and use, real estate transfer, and other transaction taxes arising from a merger and acquisition event. </p>
         <p>Sign-up now for this exclusive FREE webinar and you’ll also receive VIP invitations to upcoming taxation and corporate finance webinars!</p>

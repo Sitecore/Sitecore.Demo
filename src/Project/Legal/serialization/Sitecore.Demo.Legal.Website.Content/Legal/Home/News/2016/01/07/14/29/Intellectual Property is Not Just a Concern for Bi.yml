@@ -3,9 +3,10 @@ ID: beeafd65-59e5-4d72-bdff-7baee75369bc
 Parent: e56d7455-c5c8-42b2-b8d9-f201a83f2cf7
 Template: bb6a204d-2b9e-46ca-82cd-00751803b03e
 Path: /sitecore/content/Legal/Home/News/2016/01/07/14/29/Intellectual Property is Not Just a Concern for Big Companies
+DB: master
 SharedFields:
 - ID: b0a67b2a-8b07-4e0b-8809-69f751709806
-  # __Tracking
+  Hint: __Tracking
   Type: Tracking
   Value: |
     <tracking>
@@ -18,7 +19,7 @@ SharedFields:
       </profile>
     </tracking>
 - ID: c464d2d7-3382-428a-bcdf-0963c60ba0e3
-  # NewsDate
+  Hint: NewsDate
   Value: 20151229T000000Z
 Languages:
 - Language: en
@@ -26,16 +27,16 @@ Languages:
   - Version: 1
     Fields:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
-      # __Created
+      Hint: __Created
       Value: 20160107T142919Z
     - ID: 3437eaac-6ee8-460b-a33d-da1f714b5a93
-      # NewsImage
+      Hint: NewsImage
       Value: "<image mediaid=\"{0F16ABDA-6910-42E9-92C2-239C0B91AE27}\" />"
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
-      # __Created by
+      Hint: __Created by
       Value: sitecore\admin
     - ID: 801612c7-5e98-4e3c-80d2-a34d0eebcbda
-      # NewsBody
+      Hint: NewsBody
       Value: |
         <p><span>For most small businesses, when the subject of intellectual property comes up, many owners run in the other direction. They envision expensive lawyers and use that as an excuse think that it is a problem for big companies to worry about. The trouble is, with the rise of competition through the internet, understanding intellectual property is more critical than ever for small-business owners. In this article, we&rsquo;ll explore three of the most common fallacies:</span></p>
         <p><span>&nbsp;</span><em>1. For small-business owners, it&rsquo;s not worth the time and effort to secure intellectual property rights</em>.</p>
@@ -47,14 +48,14 @@ Languages:
         <p><span>&nbsp;</span>This is a very fundamental misunderstanding. Actually, what a patent does is give you the right to prevent someone else from producing what your patent covers. But even if you do have a patent, there&rsquo;s no guarantee that someone won&rsquo;t try to get around it. There&rsquo;s also no guarantee that you will win if you fight that person. But if you have your IP ducks in a row and a commitment to do whatever you can to defend those rights, you do have a fighting chance &mdash; even in a fight against a much larger company.</p>
         <p><span>&nbsp;</span>Consider the example of ScanChip, a 30-employee technology firm in Silicon Valley that specializes in credit card data security. Beginning in 2008, the company made the decision to pursue litigation against the credit card giant Visa, which ScanChip asserted was infringing on its patents covering their EMV chip technology. To pursue the case against Visa, ScanChip&rsquo;s founder knew he needed to seek legal advice to understand what Visa couldn&rsquo;t produce based on their patent coverage. In the end, the gamble paid off, as the two companies settled out of court, with Visa&rsquo;s agreeing to license the technology from ScanChip.</p>
     - ID: 9d08271a-1672-44dd-b7ef-0a6ec34fcba7
-      # NewsSummary
+      Hint: NewsSummary
       Value: <span>With the rise of competition through the Internet, understanding intellectual property is more critical than ever for small-business owners.</span>
     - ID: bb7a38c0-323c-4f81-8eb9-288abf7c4638
-      # MetaDescription
+      Hint: MetaDescription
       Value: Intellectual property, small business, sole proprietor, IP law
     - ID: bd9ecd4a-c0b0-4233-a3cd-d995519ac87b
-      # NewsTitle
+      Hint: NewsTitle
       Value: Intellectual Property is Not Just a Concern for Big Companies
     - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
-      # BrowserTitle
+      Hint: BrowserTitle
       Value: Intellectual Property is Not Just a Concern for Big Companies

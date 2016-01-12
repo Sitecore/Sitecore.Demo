@@ -3,9 +3,10 @@ ID: 3d1c0597-eb53-4216-ba7c-215624c3a641
 Parent: ac67d144-7cac-4d7f-a40a-9f800f2c8f7c
 Template: 75e42a73-0ae1-44c5-ac04-c9d5c4568680
 Path: /sitecore/content/Legal/Home/OurTeam/Dale Kent
+DB: master
 SharedFields:
 - ID: b0a67b2a-8b07-4e0b-8809-69f751709806
-  # __Tracking
+  Hint: __Tracking
   Type: Tracking
   Value: |
     <tracking>
@@ -23,7 +24,7 @@ Languages:
   - Version: 1
     Fields:
     - ID: 0cc9785e-54fe-4fae-93e4-d0d2ae75f339
-      # Biography
+      Hint: Biography
       Value: |
         <p style="margin-left: 13.5pt;"><span>Dale Kent is an entertainment, intellectual property and corporate business attorney who works with companies in a variety of industries. He represents traditional entertainment and digital media companies, technology companies, restaurateurs, wine and spirit companies and all varieties of brand driven enterprises, in licensing, mergers and acquisitions, financings, and other general business transactions.</span></p>
         <p style="margin-left: 13.5pt;"><span>Dale&rsquo;s expertise is primarily in the area of television and digital media. Dale regularly represents television production companies in network negotiations and has served as counsel on television programming for virtually every top network.</span></p>
@@ -32,38 +33,38 @@ Languages:
         <p style="margin-left: 13.5pt;"><span>Dale also has extensive knowledge and experience in trademark law. He has represented clients in domestic and international trademark registration and enforcement in a variety of industries such as gaming, entertainment and hospitality, wine and spirit brands, and sports and entertainment.</span></p>
         <p style="margin-left: 13.5pt;"><span>Dale is a frequent contributor to the IP Law Blog and has published a law review entitled &ldquo;The Future of Social Media Artists.&rdquo; Dale is a frequent lecturer in the university systems.</span></p>
     - ID: 0ee2f208-1fee-42fc-8051-6696d49a92bf
-      # OpenGraphTitle
+      Hint: OpenGraphTitle
       Value: Dale Kent
     - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
-      # NavigationTitle
+      Hint: NavigationTitle
       Value: Dale Kent
     - ID: 25b4cee3-a61a-4dc3-bb52-775dd509dbb5
-      # Mobile
+      Hint: Mobile
       Value: +1-912-555-5544
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
-      # __Created
+      Hint: __Created
       Value: 20160107T134821Z
     - ID: 26cd59ab-3639-488f-bafd-58d2b217755a
-      # Name
+      Hint: Name
       Value: Dale Kent
     - ID: 5978b330-1d46-4065-8751-f74bf17d815e
-      # Email
+      Hint: Email
       Value: d.kent@chaseridley.com
     - ID: 76972fcd-4bb0-4255-864e-077745efdf50
-      # Title
+      Hint: Title
       Value: Shareholder
     - ID: 8d0e8ee3-21c4-4ae2-a2f1-53d3f3ebe501
-      # Telephone
+      Hint: Telephone
       Value: +1-912-555-2223
     - ID: b897023c-15d2-49f3-8974-06fa5fb7ad00
-      # Summary
+      Hint: Summary
       Value: Dale Kent is an entertainment, intellectual property and corporate business attorney who works with companies in a variety of industries. 
     - ID: bb7a38c0-323c-4f81-8eb9-288abf7c4638
-      # MetaDescription
+      Hint: MetaDescription
       Value: Dale Kent, entertainment law, IP law, corporate law, digital media, technology, restaurant, wine and spirit, licensing, mergers and acquisitions, financing
     - ID: c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38
-      # Picture
+      Hint: Picture
       Value: "<image mediaid=\"{C31CE4A7-D2D7-4EC5-AEE4-C229115DA2E0}\" />"
     - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
-      # BrowserTitle
+      Hint: BrowserTitle
       Value: Dale Kent

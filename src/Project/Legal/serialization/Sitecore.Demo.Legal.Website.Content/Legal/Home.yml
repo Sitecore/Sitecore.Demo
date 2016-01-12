@@ -45,7 +45,7 @@ Languages:
                 <ruleset>
                   <rule uid="{8C4BD35A-9C68-4FB8-BDBA-4C0484956563}" s:name="Lucas Lawyer">
                     <conditions>
-                      <condition uid="E21E503C20E343499C15F81F9A4BE8E0" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Legal" s:PatternName="Lucas the Lawyer" />
+                      <condition uid="E21E503C20E343499C15F81F9A4BE8E0" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Legal Persona" s:PatternName="Lucas the Lawyer" />
                     </conditions>
                     <actions>
                       <action uid="7A9CBCB5F59D44BDA15162710BEEB4DF" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{56D587AA-B397-4F10-B6A8-A28306BF1F0C}" />
