@@ -8,7 +8,10 @@ BranchID: 07624a03-bb2f-45d8-abe1-15e2b1705ff3
 SharedFields:
 - ID: 5d9fe5d7-4c45-4a98-a1f5-4796a6da428b
   Hint: Name
-  Value: Legal
+  Value: Legal Persona
+- ID: 9fb30799-29ef-46af-910d-188bd16314b1
+  Hint: Type
+  Value: Average
 Languages:
 - Language: en
   Versions:

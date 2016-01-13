@@ -1,0 +1,55 @@
+﻿---
+ID: 8eaefc25-c28e-4b56-9cdf-3b843b6f45dc
+Parent: 388c178f-bf38-48c9-a6c5-fc905b38fac1
+Template: f1828a2c-7e5d-4bbd-98ca-320474871548
+Path: /sitecore/media library/Legal/Documents/Thumbnail Legal Perspective whitepaper
+DB: master
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: -/media/8EAEFC25C28E4B569CDF3B843B6F45DC.ashx?h=16&thn=1&w=16
+- ID: 22eac599-f13b-4607-a89d-c091763a467d
+  Hint: Width
+  Value: 714
+- ID: 40e50ed9-ba07-4702-992e-a912738d32dc
+  Hint: Blob
+  Value: {19F3247E-0757-4B11-8C21-98A353C3558B}
+- ID: 6954b7c7-2487-423f-8600-436cb3b6dc0e
+  Hint: Size
+  Value: 321464
+- ID: 6f47a0a5-9c94-4b48-abeb-42d38def6054
+  Hint: Mime Type
+  Value: image/png
+- ID: c06867fe-9a43-4c7d-b739-48780492d06f
+  Hint: Extension
+  Value: png
+- ID: cb09946f-3218-4823-87d2-d5007c199a96
+  Hint: Dimensions
+  Value: 714 x 897
+- ID: de2ca9e4-c117-4c8a-a139-1ff4b199d15a
+  Hint: Height
+  Value: 897
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160113T174133Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160113T174133Z
+    - ID: 3f4b20e9-36e6-4d45-a423-c86567373f82
+      Hint: Title
+      Value: Legal Perspective Whitepaper
+    - ID: 65885c44-8fcd-4a7f-94f1-ee63703fe193
+      Hint: Alt
+      Value: Legal Perspective Whitepaper

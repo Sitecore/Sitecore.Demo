@@ -1,0 +1,34 @@
+﻿---
+ID: 1874a699-dcf9-48a8-aee9-125629a4cea3
+Parent: d12879df-80cc-4b16-b179-c03813f0a26d
+Template: 9917c92b-0f13-4f96-b50b-84c874e25783
+Path: /sitecore/content/Legal/Home/Landing Pages/Thank you
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{888777BA-27DD-4323-8B80-A9F48A2EC072}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:id="{69B9C355-004B-4268-BB1E-2F725B8752B7}" s:ph="/page-layout/col-narrow-1" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160113T094851Z
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      Hint: Title
+      Value: Thank you
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Hint: BrowserTitle
+      Value: Thank you
+    - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
+      Hint: Body
+      Value: |
+        <p>Thank you for filling out our form.</p>
+        <p>There are many other resources on our site. Please feel free to explore the site sections. Some of these are personalized for you based on the pages you have already viewed and the actions you have taken during your current and past visits.</p>

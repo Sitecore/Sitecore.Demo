@@ -1,0 +1,38 @@
+﻿---
+ID: 4e025c2c-1612-42d4-9c17-b66d0533172c
+Parent: 2f83a11e-c2d7-478a-837a-7e0376551424
+Template: 8ce2707a-3742-4a89-933b-065e5be02bc9
+Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Legal/Webinar Nurture/Requested More Info
+DB: master
+SharedFields:
+- ID: 07ce07cb-078c-415e-8f92-96690babd6c7
+  Hint: Time interval
+  Value: 0
+- ID: 3f72bc07-de92-483e-a724-d430769d9ba4
+  Hint: Designer ID
+  Value: 9d8c9f21-ba8a-4f2f-8749-80c88df473fc
+- ID: 575a25c8-5c6f-4530-a48f-f38e23e9dbd5
+  Hint: Page Event Subscription
+  Type: TreelistEx
+  Value: {95F2499A-DC5E-4CE1-B45C-0CA42BF239FB}
+- ID: 7642ed71-348b-4b88-8634-cc7b28949472
+  Hint: Origin ID
+  Value: 00000000-0000-0000-0000-000000000000
+Languages:
+- Language: en
+  Fields:
+  - ID: 06f2d72a-1924-4b9a-ba1e-186ce4e57efd
+    Hint: Description
+    Value: an email address has been supplied and the site visitor has requested more information so should be encouraged to register
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Requested More Info
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160112T140535Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

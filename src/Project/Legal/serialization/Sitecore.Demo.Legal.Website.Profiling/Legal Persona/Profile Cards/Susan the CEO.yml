@@ -5,6 +5,9 @@ Template: 448c4d57-f0f1-4278-8ab8-93db46c94f1b
 Path: /sitecore/system/Marketing Control Panel/Profiles/Legal Persona/Profile Cards/Susan the CEO
 DB: master
 SharedFields:
+- ID: 709b879b-7264-49c7-8864-e254d9129302
+  Hint: Image
+  Value: "<image mediaid=\"{39D9B2EE-B56C-4BB4-A8BD-16A92DB3CC29}\" />"
 - ID: 85970ab7-22ea-4206-be86-c0167178860b
   Hint: Profile Card Value
   Value: |
