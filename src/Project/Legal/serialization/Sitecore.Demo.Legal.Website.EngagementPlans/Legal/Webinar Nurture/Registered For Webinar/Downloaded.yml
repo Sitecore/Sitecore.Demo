@@ -12,7 +12,7 @@ SharedFields:
     <ruleset>
       <rule uid="{4A9C589C-9469-4F8E-8D9D-2EDA11420624}">
         <conditions>
-          <condition id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" uid="403FF7A03E10485EA18FFFE294BBDFCD" GoalId="{2036D3C2-9E84-44D2-A9F2-264108E6236D}" NumberOfElapsedDaysOperatorId="{B88CD556-082E-4385-BB76-E4D1B565F290}" NumberOfElapsedDays="100" NumberOfPastInteractionsOperatorId="{B88CD556-082E-4385-BB76-E4D1B565F290}" NumberOfPastInteractions="0" />
+          <condition id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" uid="403FF7A03E10485EA18FFFE294BBDFCD" GoalId="{2036D3C2-9E84-44D2-A9F2-264108E6236D}" NumberOfElapsedDaysOperatorId="{E362A3A4-E230-4A40-A7C4-FC42767E908F}" NumberOfElapsedDays="100" NumberOfPastInteractionsOperatorId="{B88CD556-082E-4385-BB76-E4D1B565F290}" NumberOfPastInteractions="0" />
         </conditions>
       </rule>
     </ruleset>
