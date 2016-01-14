@@ -1,0 +1,43 @@
+﻿---
+ID: c92f3937-c70b-4ae4-b6c2-cd81b0ec16ef
+Parent: 388c178f-bf38-48c9-a6c5-fc905b38fac1
+Template: 0603f166-35b8-469f-8123-e8d87bedc171
+Path: /sitecore/media library/Legal/Documents/WHITEPAPER Trusts Estates and Tax Law
+DB: master
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: -/media/C92F3937C70B4AE4B6C2CD81B0EC16EF.ashx?h=16&thn=1&w=16
+- ID: 40e50ed9-ba07-4702-992e-a912738d32dc
+  Hint: Blob
+  Value: {10BAD038-1D2E-4693-84BF-5E9AED06EC2F}
+- ID: 6954b7c7-2487-423f-8600-436cb3b6dc0e
+  Hint: Size
+  Value: 165560
+- ID: 6f47a0a5-9c94-4b48-abeb-42d38def6054
+  Hint: Mime Type
+  Value: application/pdf
+- ID: c06867fe-9a43-4c7d-b739-48780492d06f
+  Hint: Extension
+  Value: pdf
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160114T181421Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160114T181421Z
+    - ID: 3f4b20e9-36e6-4d45-a423-c86567373f82
+      Hint: Title
+      Value: Trusts Estates and Tax Law Whitepaper

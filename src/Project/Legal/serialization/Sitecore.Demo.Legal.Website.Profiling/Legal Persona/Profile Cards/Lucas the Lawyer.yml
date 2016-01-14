@@ -5,6 +5,9 @@ Template: 448c4d57-f0f1-4278-8ab8-93db46c94f1b
 Path: /sitecore/system/Marketing Control Panel/Profiles/Legal Persona/Profile Cards/Lucas the Lawyer
 DB: master
 SharedFields:
+- ID: 709b879b-7264-49c7-8864-e254d9129302
+  Hint: Image
+  Value: "<image mediaid=\"{6A32B50A-B56C-42AC-BE9E-5427038F97D9}\" />"
 - ID: 85970ab7-22ea-4206-be86-c0167178860b
   Hint: Profile Card Value
   Value: |
