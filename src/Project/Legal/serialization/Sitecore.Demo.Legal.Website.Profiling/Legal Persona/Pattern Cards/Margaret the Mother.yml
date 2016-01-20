@@ -19,7 +19,7 @@ SharedFields:
     </tracking>
 - ID: 98535f26-6c9d-4fd7-a7e2-392c7cb82d65
   Hint: Image
-  Value: "<image mediaid=\"{6A32B50A-B56C-42AC-BE9E-5427038F97D9}\" />"
+  Value: "<image mediaid=\"{9B397DA3-6702-47AC-B0B4-250FB1ED38BD}\" />"
 - ID: fe732790-2ddb-4657-a882-c2fce1fbf0c9
   Hint: Name
   Value: Margaret the Mother
@@ -28,6 +28,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: 03db5c50-d4bf-4e87-9ab4-0e5b4bf4e1a9
+      Hint: Description
+      Value: Margaret is married with two children. Within the legal vertical her main interests are in trust, estate, and tax law as she and her husband seek tax savings and plan to establish a life insurance trust and an estate plan for their children.
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       Hint: __Created
       Value: 20160106T145027Z

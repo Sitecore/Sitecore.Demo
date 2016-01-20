@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: 709b879b-7264-49c7-8864-e254d9129302
   Hint: Image
-  Value: "<image mediaid=\"{6A32B50A-B56C-42AC-BE9E-5427038F97D9}\" />"
+  Value: "<image mediaid=\"{9B397DA3-6702-47AC-B0B4-250FB1ED38BD}\" />"
 - ID: 85970ab7-22ea-4206-be86-c0167178860b
   Hint: Profile Card Value
   Value: |
@@ -22,6 +22,10 @@ SharedFields:
     </tracking>
 Languages:
 - Language: en
+  Fields:
+  - ID: 823bfc0a-3e62-40a5-8882-1a622882c45b
+    Hint: Description
+    Value: <span>Margaret is married with two children. Within the legal vertical her main interests are in trust, estate, and tax law as she and her husband seek tax savings and plan to establish a life insurance trust and an estate plan for their children.</span>
   Versions:
   - Version: 1
     Fields:
