@@ -138,7 +138,6 @@
     <Content Include="App_Config\Include\Unicorn\Unicorn.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
-    <Content Include="web.config.transform" />
     <Content Include="Views\Legal\Layouts\Default.cshtml" />
     <Content Include="Views\Legal\Sublayouts\Footer.cshtml" />
   </ItemGroup>
