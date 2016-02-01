@@ -1,0 +1,14 @@
+﻿---
+ID: 6e479558-df6c-4f8f-85e8-8ff20d2055f8
+Parent: 67e61e16-9a27-40a6-ab9e-b54869cfee37
+Template: 56682fe6-9679-4b69-9589-60c99aa08bec
+Path: /sitecore/system/Marketing Control Panel/Campaigns/Legal/Legal Webinar
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160120T210741Z

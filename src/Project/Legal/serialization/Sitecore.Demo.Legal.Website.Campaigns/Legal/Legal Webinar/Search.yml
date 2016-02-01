@@ -1,0 +1,30 @@
+﻿---
+ID: d0d5445d-c856-4fea-9133-30e69a341d5c
+Parent: 6e479558-df6c-4f8f-85e8-8ff20d2055f8
+Template: 94fd1606-139e-46ee-86ff-bc5bf3c79804
+Path: /sitecore/system/Marketing Control Panel/Campaigns/Legal/Legal Webinar/Search
+DB: master
+SharedFields:
+- ID: 43aa1c9a-d1be-498a-9841-1def2c2231ba
+  Hint: Select Traffic Type
+  Value: {C7E77613-B890-4A8A-A983-747635727733}
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  Hint: __Workflow
+  Value: {689E2994-4656-4C58-9112-7826CB46EE69}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0f47d1b4-bcb4-4f7f-9065-6ecb46aab9a1
+      Hint: Title
+      Value: Twitter
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160120T211043Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      Hint: __Workflow state
+      Value: {39156DC0-21C6-4F64-B641-31E85C8F5DFE}
+    - ID: 4c1bf83b-06e2-4b07-ad16-0e65d95e356e
+      Hint: Channel
+      Value: {67150678-B200-44BB-BBAE-1D7B901D0860}
