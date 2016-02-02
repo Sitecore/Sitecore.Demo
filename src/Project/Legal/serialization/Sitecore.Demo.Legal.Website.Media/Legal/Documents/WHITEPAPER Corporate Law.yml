@@ -18,6 +18,13 @@ SharedFields:
 - ID: 6f47a0a5-9c94-4b48-abeb-42d38def6054
   Hint: Mime Type
   Value: application/pdf
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <event id="{F216482C-3A18-4E24-9126-BB245A0088E3}" name="Corporate Law Download" />
+    </tracking>
 - ID: c06867fe-9a43-4c7d-b739-48780492d06f
   Hint: Extension
   Value: pdf

@@ -51,6 +51,14 @@ Languages:
             <r uid="{713CACEB-59A6-478C-BE87-4F82B64736CC}">
               <rls>
                 <ruleset>
+                  <rule uid="{7B83DB61-A9F0-4398-8CF2-E0E1F09A9EF5}" s:name="Susan CEO">
+                    <conditions>
+                      <condition uid="8392859028DF495F8A665A2050C6FD0A" s:id="{6426B5B4-83E9-4E24-BA97-43293A10B47D}" s:ProfileName="Legal Persona" s:PatternName="Susan the CEO" />
+                    </conditions>
+                    <actions>
+                      <action uid="9C39AFC694974229B80B2B8B0DE4C308" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{382881C7-DE67-498F-878C-618646C27422}" />
+                    </actions>
+                  </rule>
                   <rule uid="{8C4BD35A-9C68-4FB8-BDBA-4C0484956563}" s:name="Lucas Lawyer">
                     <conditions>
                       <condition uid="E21E503C20E343499C15F81F9A4BE8E0" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Legal Persona" s:PatternName="Lucas the Lawyer" />

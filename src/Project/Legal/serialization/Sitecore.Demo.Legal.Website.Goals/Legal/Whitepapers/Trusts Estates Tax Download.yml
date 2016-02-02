@@ -1,13 +1,19 @@
 ﻿---
-ID: 7e113def-ba08-4d12-a3a4-822bc93518cb
-Parent: de1aa8fe-a46a-4da0-a493-4af9b4ea9fd1
+ID: 7f3517d5-82d7-4325-bf60-1d1d1f440e29
+Parent: 243e4695-f8eb-4b92-b609-9f68d58aae4d
 Template: 475e9026-333f-432d-a4dc-52e03b75cb6b
-Path: /sitecore/system/Marketing Control Panel/Goals/Legal/Legal Webinar/More Info Legal Webinar
+Path: /sitecore/system/Marketing Control Panel/Goals/Legal/Whitepapers/Trusts Estates Tax Download
 DB: master
 SharedFields:
+- ID: 0cf2654b-6e8b-44eb-9555-d2458b8092a5
+  Hint: Event Image
+  Value: "<image mediaid=\"{93D49B7D-0308-4678-AABF-0DE750C55194}\" />"
 - ID: 2f2ae296-8b58-4d94-8eee-0e82589d61a4
   Hint: Show in Page Events
   Value: 1
+- ID: 33ae0e84-74a0-437f-ab2b-859dfa96f6c9
+  Hint: Points
+  Value: 5
 - ID: 6f10e607-2d04-4c0d-963a-fc79b5c4e8ce
   Hint: Track as Latest Event
   Value: 1
@@ -16,7 +22,7 @@ SharedFields:
   Value: {689E2994-4656-4C58-9112-7826CB46EE69}
 - ID: ac6ba888-4213-43bd-b787-d8da2b6b881f
   Hint: Name
-  Value: More Info Legal Webinar
+  Value: Trusts Estates and Tax Whitepaper Download
 - ID: e4d0faf3-61e7-44d4-a921-ce5c606a8da8
   Hint: IsSystem
   Value: false
@@ -25,16 +31,19 @@ Languages:
   Fields:
   - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
     Hint: __Display name
-    Value: More Info Legal Webinar
+    Value: Trusts Estates Tax Download
   Versions:
   - Version: 1
     Fields:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       Hint: __Created
-      Value: 20160111T161823Z
+      Value: 20160202T114251Z
     - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
       Hint: __Workflow state
       Value: {EDCBB550-BED3-490F-82B8-7B2F14CCD26E}
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
       Hint: __Created by
       Value: 
+    - ID: 797466f5-763b-4299-b6ad-e4192bf21222
+      Hint: Description
+      Value: Trusts Estates and Tax Whitepaper Download

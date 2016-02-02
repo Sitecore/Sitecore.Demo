@@ -5,6 +5,12 @@ Template: 475e9026-333f-432d-a4dc-52e03b75cb6b
 Path: /sitecore/system/Marketing Control Panel/Goals/Legal/Legal Webinar/Registered Legal Webinar
 DB: master
 SharedFields:
+- ID: 2f2ae296-8b58-4d94-8eee-0e82589d61a4
+  Hint: Show in Page Events
+  Value: 1
+- ID: 6f10e607-2d04-4c0d-963a-fc79b5c4e8ce
+  Hint: Track as Latest Event
+  Value: 1
 - ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
   Hint: __Workflow
   Value: {689E2994-4656-4C58-9112-7826CB46EE69}
