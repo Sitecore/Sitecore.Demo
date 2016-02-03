@@ -1,0 +1,18 @@
+﻿---
+ID: f5e42fb7-beaf-4466-ad06-38bdb7e2f6c7
+Parent: 5475419a-cb76-442b-959e-05f1407db8f1
+Template: cb01f9fc-c187-46b3-ab0b-97a8468d8303
+Path: /sitecore/system/Workflows/Legal/Legal Workflow/Awaiting Approval/Reject
+DB: master
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Applications/32x32/delete2.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160202T144522Z

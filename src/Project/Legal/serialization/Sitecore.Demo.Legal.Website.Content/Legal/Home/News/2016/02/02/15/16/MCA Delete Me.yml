@@ -1,0 +1,34 @@
+﻿---
+ID: e4d3a94f-7286-4ee2-ae75-a3390488fd5d
+Parent: e7b4ae3e-b001-48d8-bca7-904b3bbba9f2
+Template: bb6a204d-2b9e-46ca-82cd-00751803b03e
+Path: /sitecore/content/Legal/Home/News/2016/02/02/15/16/MCA Delete Me
+DB: master
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  Hint: __Workflow
+  Value: {A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      Hint: __Final Renderings
+      Type: Layout
+      Value: "<r xmlns:p=\"p\" xmlns:s=\"s\" p:p=\"1\" />"
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160202T151627Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      Hint: __Workflow state
+      Value: {FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\Caroline
+    - ID: bd9ecd4a-c0b0-4233-a3cd-d995519ac87b
+      Hint: NewsTitle
+      Value: Delete Me
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Hint: BrowserTitle
+      Value: MCA Delete Me
