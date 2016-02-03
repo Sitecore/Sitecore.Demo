@@ -1,16 +1,19 @@
 ﻿---
-ID: f5e42fb7-beaf-4466-ad06-38bdb7e2f6c7
+ID: 831316f3-c9bd-4f33-a06f-00417f933ea9
 Parent: 5475419a-cb76-442b-959e-05f1407db8f1
 Template: cb01f9fc-c187-46b3-ab0b-97a8468d8303
-Path: /sitecore/system/Workflows/Legal/Legal Workflow/Awaiting Approval/Reject
+Path: /sitecore/system/Workflows/Legal/Legal Workflow/Awaiting Approval/Ask Legal
 DB: master
 SharedFields:
 - ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
   Hint: __Icon
-  Value: Applications/32x32/delete2.png
+  Value: Applications/32x32/checks.png
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 200
 - ID: dcbebc58-6124-4100-a248-fc717d6c78d5
   Hint: Next state
-  Value: {FF21E8D4-EB3D-400E-83CB-34065712FC18}
+  Value: {B709717C-CFEE-40C0-BDE0-DCE6526E7E0D}
 Languages:
 - Language: en
   Versions:

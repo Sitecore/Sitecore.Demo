@@ -1,8 +1,8 @@
 ﻿---
-ID: f5e42fb7-beaf-4466-ad06-38bdb7e2f6c7
+ID: 72e037cd-fb0b-4e91-89bd-18c49941efaa
 Parent: 5475419a-cb76-442b-959e-05f1407db8f1
 Template: cb01f9fc-c187-46b3-ab0b-97a8468d8303
-Path: /sitecore/system/Workflows/Legal/Legal Workflow/Awaiting Approval/Reject
+Path: /sitecore/system/Workflows/Legal/Legal Workflow/Awaiting Legal Approval/Reject
 DB: master
 SharedFields:
 - ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
