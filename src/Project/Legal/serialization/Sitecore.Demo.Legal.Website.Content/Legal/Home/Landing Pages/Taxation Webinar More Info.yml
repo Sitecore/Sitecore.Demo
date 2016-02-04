@@ -18,6 +18,15 @@ SharedFields:
         <key name="Self-employed" value="1" />
       </profile>
     </tracking>
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r uid="{B97CD8A8-663A-4AD1-9D60-DD7D76C8E654}" p:before="r[@uid='{A3BAD4D4-8E21-4B30-8C4C-B04163653D62}']" s:ds="" s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}" s:par="FormID=%7B8952B4B4-1B96-49A0-ADC1-A7004C524C72%7D&amp;ReadQueryString" s:ph="col-wide-1" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:
@@ -29,7 +38,37 @@ Languages:
       Value: |
         <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
           <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-            <r uid="{34D7EB69-6191-4F9C-928D-8B577FA5145C}" p:before="r[@uid='{A3BAD4D4-8E21-4B30-8C4C-B04163653D62}']" s:ds="{8952B4B4-1B96-49A0-ADC1-A7004C524C72}" s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}" s:ph="/page-layout/col-wide-1" />
+            <r uid="{6CCDF76F-8137-4051-AE37-E40B7E04D24E}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/col-narrow-1">
+              <rls>
+                <ruleset>
+                  <rule uid="{44993CE1-F13A-45C7-94B9-0BE39CC215F5}" s:name="Twitter Refer">
+                    <conditions>
+                      <condition uid="C0F480EAF8A348B487B420E37A1DFF62" s:id="{EBFFEC6B-71F8-47C9-BC96-95D57994FDF6}" s:operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}" s:Referrer="twitter" />
+                    </conditions>
+                    <actions>
+                      <action uid="AC0FB2A1F2764C0A9A366CF30506548F" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{5A57F799-0ED2-4806-86B1-6F7252A2A757}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{B5729E94-4327-4F69-A1DA-EAF247CFC25D}" s:name="Facebook Refer">
+                    <conditions>
+                      <condition uid="4849D5DDC0BD4ADFAE02443BF0D57E41" s:id="{EBFFEC6B-71F8-47C9-BC96-95D57994FDF6}" s:operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}" s:Referrer="facebook" />
+                    </conditions>
+                    <actions>
+                      <action uid="A8F406DFCDC24F60801FBCAC8F65B857" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{CD0E997D-AFED-45AC-8D7A-1D07E7B02750}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="3C1A5AF35D484EDA98A148EE39484032" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action uid="484640F0AE05436FBF756F4500C64928" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{2AE21DEF-82EC-403E-A8A8-16761CF85995}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r uid="{B97CD8A8-663A-4AD1-9D60-DD7D76C8E654}" s:par="FormID={8952B4B4-1B96-49A0-ADC1-A7004C524C72}&amp;ReadQueryString" />
           </d>
         </r>
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497

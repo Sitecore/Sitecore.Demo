@@ -1,0 +1,14 @@
+﻿---
+ID: ea7d35df-b9c4-4bd3-80f4-107c174660e4
+Parent: ea263b2a-c269-452c-ac31-1fe6a8ee5188
+Template: 29d4b405-39eb-487d-9d6b-3f8467ab167d
+Path: /sitecore/content/Legal/Global/Teasers/Social
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160204T131312Z

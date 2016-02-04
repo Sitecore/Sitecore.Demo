@@ -13,7 +13,7 @@ SharedFields:
   Value: 50
 - ID: dcbebc58-6124-4100-a248-fc717d6c78d5
   Hint: Next state
-  Value: {FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}
+  Value: {B1BAB248-FFB4-4295-9783-E8FE17E2FE34}
 - ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
   Hint: __Security
   Value: ar|sitecore\Analytics Testing|pe|+workflowCommand:execute|pd|+workflowCommand:execute|

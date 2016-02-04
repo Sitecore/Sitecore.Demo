@@ -10,11 +10,11 @@ SharedFields:
   Type: Tracking
   Value: |
     <tracking>
-      <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal Persona">
-        <key name="Self-employed" value="4" />
-        <key name="Large Corporate" value="5" />
-        <key name="Legal trade" value="3" />
-        <key name="Personal-Civil" value="0" />
+      <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal Persona" presets="eric the entrepreneur|100||">
+        <key name="Self-employed" value="5" />
+        <key name="Large Corporate" value="1" />
+        <key name="Legal trade" value="1" />
+        <key name="Personal-Civil" value="1" />
         <key name="B2B" value="1" />
       </profile>
     </tracking>
