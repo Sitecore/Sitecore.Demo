@@ -5,9 +5,12 @@ Template: ffb1da32-2764-47db-83b0-95b843546a7e
 Path: /sitecore/system/Modules/Web Forms for Marketers/Legal/Taxation Webinar Register
 DB: master
 SharedFields:
+- ID: 3e2bbfc4-5668-47d2-a4fd-67773d155112
+  Hint: Is Ajax Mvc Form
+  Value: 
 - ID: 46fb324a-9741-43bd-a0c9-5081a39d40aa
   Hint: Show Introduction
-  Value: 0
+  Value: 
 - ID: a42052f7-6c18-424a-a2a1-7a72054cb1a6
   Hint: Show Title
   Value: 1
@@ -49,7 +52,7 @@ SharedFields:
   Value: {3B8369A0-CC1A-4E9A-A3DB-7B086379C53B}
 - ID: faeacd39-b059-4f46-bec4-74ba468a97b8
   Hint: Show Footer
-  Value: 0
+  Value: 
 Languages:
 - Language: de-DE
   Fields:
@@ -115,7 +118,7 @@ Languages:
         
     - ID: 9c4c1994-5140-49d3-bad7-db997816f816
       Hint: Success Page
-      Value: "<link url=\"/sitecore/content/Legal/Home/Landing Pages/Thank you\" id=\"{00000000-0000-0000-0000-000000000000}\" />"
+      Value: "<link id=\"{00000000-0000-0000-0000-000000000000}\" />"
     - ID: b71296b6-32b9-4703-a8cb-fb7437271103
       Hint: Name
       Value: Register Now
