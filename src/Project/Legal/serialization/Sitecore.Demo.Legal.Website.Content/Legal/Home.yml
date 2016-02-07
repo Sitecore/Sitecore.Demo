@@ -15,6 +15,7 @@ Languages:
       Value: |
         <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
           <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{1A2D5106-8149-4037-BB3A-1DD4A61828F1}" p:before="r[@uid='{96345A42-FF7F-4DC1-9DCD-A085070807E6}']" s:ds="{3F7B49B0-8E2A-414A-AB9D-988F2915840A}" s:id="{0CF58F14-D0F8-4C41-9896-3D69048A0B19}" s:par="TweetsToShow=2" s:ph="/footer/footercolumn3" />
             <r uid="{96345A42-FF7F-4DC1-9DCD-A085070807E6}" p:before="r[@uid='{3A792DA1-2825-420E-9655-1DFC7BA9A4E7}']" s:ds="{98E48045-DFC7-4A70-9BED-5C40AB6558A6}" s:id="{0CF58F14-D0F8-4C41-9896-3D69048A0B19}" s:ph="/footer/footercolumn1" />
             <r uid="{3A792DA1-2825-420E-9655-1DFC7BA9A4E7}" p:before="r[@uid='{1A80E463-C1E4-47F0-B351-E1A15357DA81}']" s:ds="{2AE21DEF-82EC-403E-A8A8-16761CF85995}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/col-narrow-3_c3fd7aa3-f664-44ac-996b-c250e72625d7" />
             <r uid="{1A80E463-C1E4-47F0-B351-E1A15357DA81}" p:before="r[@uid='{9ED6ABF7-4549-4BA6-9651-842E793E3C9C}']" s:ds="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/col-narrow-2_c3fd7aa3-f664-44ac-996b-c250e72625d7">
