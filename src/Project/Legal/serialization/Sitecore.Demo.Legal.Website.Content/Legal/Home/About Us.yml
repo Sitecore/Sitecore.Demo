@@ -13,6 +13,45 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <p uid="{524C9B59-7F81-470A-91FD-3B702E511478}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:key="/page-layout/sidebar" s:md="/sitecore/layout/Placeholder Settings/Project/Legal/sidebar" />
+            <r uid="{1480F351-1265-4203-A9B2-E70940438419}" p:before="r[@uid='{565F9960-4E47-4DA4-9406-0A29DD09911F}']" s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}" s:ph="/page-layout/sidebar">
+              <rls>
+                <ruleset>
+                  <rule uid="{ABF67130-5924-4DA8-BEE9-FAEFD31C8029}" s:name="Register Goal">
+                    <conditions>
+                      <condition uid="F75613BF3D8F483284E0E17767CA3160" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{95F2499A-DC5E-4CE1-B45C-0CA42BF239FB}" s:NumberOfElapsedDaysOperatorId="{E362A3A4-E230-4A40-A7C4-FC42767E908F}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{B88CD556-082E-4385-BB76-E4D1B565F290}" s:NumberOfPastInteractions="0" />
+                    </conditions>
+                    <actions>
+                      <action uid="4713F794EDB745A2B1EB669235A93CB6" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{BEBB2420-28F4-4209-A5B7-D2A46647F43D}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{DD10F879-58FB-4F47-9187-46E5A8865C31}" s:name="More Info Goal">
+                    <conditions>
+                      <condition uid="65DF4DF0E70949BFBD4B65E1A94A07B3" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{7E113DEF-BA08-4D12-A3A4-822BC93518CB}" s:NumberOfElapsedDaysOperatorId="{E362A3A4-E230-4A40-A7C4-FC42767E908F}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{B88CD556-082E-4385-BB76-E4D1B565F290}" s:NumberOfPastInteractions="0" />
+                    </conditions>
+                    <actions>
+                      <action uid="9C5E6BD4B2574E22A623BAF8999E195B" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{72A00C8B-EAF3-4A4B-9B04-E3BFE7EE0A85}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="102FEE236077429FA2634BFE4C65B0F7" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action uid="E4FC4042D5474FF98D938B4A59168550" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
     - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
       Hint: NavigationTitle
       Value: About Us
@@ -21,7 +60,7 @@ Languages:
       Value: 20151216T034607Z
     - ID: ac3fd4db-8266-476d-9635-67814d91e901
       Hint: Summary
-      Value: <span>For decades, our lawyers have been key figures and played pivotal roles in the growth of California&mdash;advancing both public and private interests, Chase Ridley clients are frequently at the center of the State&rsquo;s most strategic and vital activities and investments.&nbsp;</span>
+      Value: <span>For decades, our lawyers have been key figures and played pivotal roles in the growth of California—advancing both public and private interests, Chase Ridley clients are frequently at the center of the State’s most strategic and vital activities and investments. </span>
     - ID: bb7a38c0-323c-4f81-8eb9-288abf7c4638
       Hint: MetaDescription
       Value: Chase Ridley, lawyers, law firm, legal advice, disputes, California, public law, private law, intellectual property, taxation, corporate, civil litigation, business planning, bankruptcy, employment, construction, real estate, family law, mergers and acquisition financial institutions, retail, construction, real estate, public agencies, non-profit organizations, professional service companies
@@ -34,8 +73,8 @@ Languages:
     - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
       Hint: Body
       Value: |
-        <p style="margin-left: 18pt;"><span>For decades, our lawyers have been key figures and played pivotal roles in the growth of California&mdash;advancing both public and private interests, Chase Ridley clients are frequently at the center of the State&rsquo;s most strategic and vital activities and investments.</span></p>
+        <p style="margin-left: 18pt;"><span>For decades, our lawyers have been key figures and played pivotal roles in the growth of California—advancing both public and private interests, Chase Ridley clients are frequently at the center of the State’s most strategic and vital activities and investments.</span></p>
         <p style="margin-left: 18pt;"><span>Clients turn to us for practical legal advice and to help them uncover opportunities that lead to the resolution of legal issues and disputes. We have built a reputation of understanding the industries and businesses of our clients and working with them to achieve just that.</span></p>
-        <p style="margin-left: 18pt;"><span>Founded in San Francisco, Chase Ridley is strategically positioned to serve clients in business and litigation matters throughout Northern and Southern California, and beyond. As a preeminent full-service law firm, we offer counsel in more than 20 areas of civil practice including intellectual property, taxation, corporate, civil litigation, business planning, bankruptcy, employment, construction, real estate, family law, and mergers and acquisitions. We focus on providing these services to public corporations, governmental entities, privately held companies, family-owned businesses and individuals. Our clients&rsquo; industries are as vast and diverse as our region &ndash; financial institutions, retail, construction, real estate, public agencies and non-profit organizations, professional service companies, and even other legal firms and individuals.</span></p>
-        <p style="margin-left: 18pt;"><span>This, is only half the picture of our firm. The other half of the picture can be found in the attorneys who comprise our firm and the role they play in their communities. Our attorneys&rsquo; participate in our diverse pro bono programs helping many charities and disadvantaged individuals. And, we serve on over 35 charitable boards throughout the State supporting such causes as animal welfare, food banks, women&rsquo;s shelters, hospice services, and the arts.&nbsp;</span></p>
-        <p style="margin-left: 18pt;"><span>For more than 40 years, our success has grown from earning the trust of our clients. Many of these relationships have spanned decades, which we proudly credit to our legal skills, our responsiveness and our ability to uncover opportunities that lead to our client&rsquo;s goals. We intend to continue this track record for many years to come.</span></p>
+        <p style="margin-left: 18pt;"><span>Founded in San Francisco, Chase Ridley is strategically positioned to serve clients in business and litigation matters throughout Northern and Southern California, and beyond. As a preeminent full-service law firm, we offer counsel in more than 20 areas of civil practice including intellectual property, taxation, corporate, civil litigation, business planning, bankruptcy, employment, construction, real estate, family law, and mergers and acquisitions. We focus on providing these services to public corporations, governmental entities, privately held companies, family-owned businesses and individuals. Our clients’ industries are as vast and diverse as our region – financial institutions, retail, construction, real estate, public agencies and non-profit organizations, professional service companies, and even other legal firms and individuals.</span></p>
+        <p style="margin-left: 18pt;"><span>This, is only half the picture of our firm. The other half of the picture can be found in the attorneys who comprise our firm and the role they play in their communities. Our attorneys’ participate in our diverse pro bono programs helping many charities and disadvantaged individuals. And, we serve on over 35 charitable boards throughout the State supporting such causes as animal welfare, food banks, women’s shelters, hospice services, and the arts. </span></p>
+        <p style="margin-left: 18pt;"><span>For more than 40 years, our success has grown from earning the trust of our clients. Many of these relationships have spanned decades, which we proudly credit to our legal skills, our responsiveness and our ability to uncover opportunities that lead to our client’s goals. We intend to continue this track record for many years to come.</span></p>

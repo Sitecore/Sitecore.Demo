@@ -47,7 +47,38 @@ Languages:
       Type: Layout
       Value: |
         <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
-          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" s:l="{5F53E1F4-CFBA-45E4-8F86-A786EB590BAA}" />
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" s:l="{5F53E1F4-CFBA-45E4-8F86-A786EB590BAA}">
+            <r uid="{BF111EAE-23DF-4F9B-9512-CA0833C6E0E5}" p:before="r[@uid='{3900ADC1-26E3-45C2-935C-1BC12D4E228A}']" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/sidebar">
+              <rls>
+                <ruleset>
+                  <rule uid="{73018CB1-706B-46A1-A08D-7945C036219F}" s:name="Register Goal">
+                    <conditions>
+                      <condition uid="BDA93F0895A543C487A19D88E6A8ADC1" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{95F2499A-DC5E-4CE1-B45C-0CA42BF239FB}" s:NumberOfElapsedDaysOperatorId="{E362A3A4-E230-4A40-A7C4-FC42767E908F}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{B88CD556-082E-4385-BB76-E4D1B565F290}" s:NumberOfPastInteractions="0" />
+                    </conditions>
+                    <actions>
+                      <action uid="F59F27EDAE45446D897FE55249702551" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{BEBB2420-28F4-4209-A5B7-D2A46647F43D}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{1ABB2DFF-3AE9-4A2D-BA30-0E75B6C85C40}" s:name="More Info Goal">
+                    <conditions>
+                      <condition uid="E03D79B95FCD4FD58C1BFE45AD098CAA" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{7E113DEF-BA08-4D12-A3A4-822BC93518CB}" s:NumberOfElapsedDaysOperatorId="{E362A3A4-E230-4A40-A7C4-FC42767E908F}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{B88CD556-082E-4385-BB76-E4D1B565F290}" s:NumberOfPastInteractions="0" />
+                    </conditions>
+                    <actions>
+                      <action uid="A84F8A07866D41C78171B9847E740A34" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{72A00C8B-EAF3-4A4B-9B04-E3BFE7EE0A85}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="E0343B7B95934E93B9B2CBB2992135CF" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action uid="B8040DFDA4C74BFA85573F403F825D02" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
         </r>
     - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
       Hint: NavigationTitle
