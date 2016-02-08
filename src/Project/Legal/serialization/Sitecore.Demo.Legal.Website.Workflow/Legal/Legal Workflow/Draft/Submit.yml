@@ -8,6 +8,9 @@ SharedFields:
 - ID: dcbebc58-6124-4100-a248-fc717d6c78d5
   Hint: Next state
   Value: {5475419A-CB76-442B-959E-05F1407DB8F1}
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  Hint: __Security
+  Value: ar|sitecore\Sitecore Client Authoring|pe|+workflowCommand:execute|pd|+workflowCommand:execute|
 Languages:
 - Language: en
   Versions:
