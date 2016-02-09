@@ -1,0 +1,141 @@
+﻿---
+ID: a91bce10-0c35-4631-8673-db73e5bb19a8
+Parent: d12879df-80cc-4b16-b179-c03813f0a26d
+Template: aa8556ee-6f5b-4b07-9909-11a5189f9ffc
+Path: /sitecore/content/Legal/Home/Landing Pages/Email Taxation Webinar Mockup
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0bc0aedf-a6d0-4f74-933c-bd1779cd40b2
+      Hint: HTML Content
+      Value: |
+        
+        
+        <!DOCTYPE html>
+        <!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+        <!--[if !IE]><!-->
+        <html lang="en">
+        <!--<![endif]-->
+        <head>
+          <meta charset="utf-8"/>
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        
+        
+        <title>Tax Webinar </title>
+        <meta name="keywords" content=""/>
+        <meta name="description" content="Mergers, acquisitions, M&A, MA, legal mergers, legal resource, B2B, transaction tax, webinar, legal webinar"/>
+        <meta property="og:title" content=""/>
+        <meta property="og:image" content=""/>
+        <meta property="og:description" content=""/>
+        <meta property="og:url" content="http://legal.demo.habitat.local/Landing Pages/Taxation Webinar More Info"/>  <!-- Latest compiled and minified JavaScript -->
+          <script src="/Scripts/jquery-2.1.4.min.js"></script>
+        
+          <link href="/assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="/assets/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" />
+        <link href="/assets/plugins/animate/animate.min.css" rel="stylesheet" />
+        <link href="/assets/Sitecore.Foundation.Theming.css" rel="stylesheet" />
+        
+          
+        </head>
+        <body class="">
+        <div class="page-layout">
+          <div class="container-fluid page-header-container">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <div class="page-header">
+                      
+        
+        
+            <div>To: <span style="color:blue">Jared Jones (jared@sc-demo.net)</span></div>
+        	<div>From: <span style="color:blue">Chase Ridley Marketing (noreply@chaseridley.com)</span></div>
+        	<h5>Solving Transaction Tax Challenges in Mergers and Acquisitions</h5>
+        
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              
+        
+        <div class="section-title">
+          <h1>
+            &#160;What’s the best choice of entity for your client’s startup?
+          </h1>
+        </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              
+        <div class="article image">
+          <img src="/-/media/Legal/Images/taxationWebinar.png?h=200&amp;la=en&amp;mw=500&amp;w=200&amp;hash=72DFB80A3369DD44EC57D834A1F504FA6A55EAE1" class="img-responsive" alt="stock-photo-26464533-businesswomans-making-arrangements" width="278" height="185" DisableWebEdit="False" />
+        </div>
+        <div class="article body">
+        
+        	<p>For startups that envision the need to issue stock options, explore venture capital, plan on the possibility of spinning off separate business lines, moving into global markets, or dealing with special issues of cashing out, the choice of entity the owner makes at the beginning can have significant tax and operational impact on their business.</p>
+        	<p>Tax attorneys, like yourself, can provide detailed and valuable guidance in outlining the different tax planning opportunities associated with various business entity structures, not only at startup but throughout the life of your client’s business. Tax counsel must provide guidance to business owners to set up the right type of entity to meet the owner's initial goals while providing sufficient flexibility to change the form of the entity as the business evolves.</p>
+        	<p>Advisers need to know the details of choice of entity to enable their clients to operate businesses in a tax-efficient manner.</p>
+        	<p>Listen as our experienced panel provides a detailed examination into the tax planning considerations and opportunities in advising clients on choosing a business entity.</p>
+        	<h5><a href="http://legal.demo.habitat.local/Landing%20Pages/Taxation%20Webinar%20Register">Register now</a></h5>
+        </div>
+        
+        
+            </div>
+        
+          </div>
+        </div>
+        </div>
+        <footer>
+        
+        <div class="postfooter">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-8">
+                
+        <div class="copyright">
+          Copyright 2015 Sitecore Legal Services
+        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="prefooter">
+                <div class="container">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <div class="page-header">
+        				<span style="color:blue;font-weight: 600;">Reply</span>&nbsp;&nbsp;&nbsp; <span style="color:blue;font-weight: 600;">Reply All</span>&nbsp;&nbsp;&nbsp; <span style="color:blue;font-weight: 600;">Forward</span>&nbsp;&nbsp;&nbsp; <span style="color:blue;font-weight: 600;">More</span> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+        </div>
+        </footer>
+        
+          
+        
+        <script src="/javascripts/bootstrap.min.js"></script>
+        <script src="/scripts/Sitecore.Foundation.Theming.js"></script>
+        
+        </body>
+        </html>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160209T151137Z
