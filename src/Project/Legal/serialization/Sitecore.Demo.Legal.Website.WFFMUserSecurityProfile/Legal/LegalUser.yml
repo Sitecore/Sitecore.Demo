@@ -1,0 +1,17 @@
+﻿---
+ID: dedeee27-a46d-4317-b49d-ecdb7d5378ec
+Parent: a9ad83be-c8b9-427e-abdc-e8a47721f86f
+Template: f656083b-beeb-484e-a1c0-ddbb49139c7a
+Path: /sitecore/system/Settings/Security/Profiles/Legal/LegalUser
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160209T101201Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

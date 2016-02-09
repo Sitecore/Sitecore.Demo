@@ -23,7 +23,7 @@ Languages:
                 <ruleset>
                   <rule uid="{587DBD3F-D95A-4C9B-A66A-D5E50D2A378F}" s:name="Register Goal">
                     <conditions>
-                      <condition uid="9DB479E2E9FE4C94A606DE2B843BC0C7" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{95F2499A-DC5E-4CE1-B45C-0CA42BF239FB}" s:NumberOfElapsedDaysOperatorId="{E362A3A4-E230-4A40-A7C4-FC42767E908F}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{B88CD556-082E-4385-BB76-E4D1B565F290}" s:NumberOfPastInteractions="0" />
+                      <condition uid="9DB479E2E9FE4C94A606DE2B843BC0C7" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{95F2499A-DC5E-4CE1-B45C-0CA42BF239FB}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
                     </conditions>
                     <actions>
                       <action uid="25656BE9BB904D278B29502CD62AADFB" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{BEBB2420-28F4-4209-A5B7-D2A46647F43D}" />
@@ -31,7 +31,7 @@ Languages:
                   </rule>
                   <rule uid="{09D74313-C409-404B-BA5C-C01770CC146A}" s:name="More Info Goal">
                     <conditions>
-                      <condition uid="32026271339240A8950FCAA63CD37370" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{7E113DEF-BA08-4D12-A3A4-822BC93518CB}" s:NumberOfElapsedDaysOperatorId="{E362A3A4-E230-4A40-A7C4-FC42767E908F}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{B88CD556-082E-4385-BB76-E4D1B565F290}" s:NumberOfPastInteractions="0" />
+                      <condition uid="32026271339240A8950FCAA63CD37370" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{7E113DEF-BA08-4D12-A3A4-822BC93518CB}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
                     </conditions>
                     <actions>
                       <action uid="B0AD6566D44B4637B7A2DED2F639B77A" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{72A00C8B-EAF3-4A4B-9B04-E3BFE7EE0A85}" />

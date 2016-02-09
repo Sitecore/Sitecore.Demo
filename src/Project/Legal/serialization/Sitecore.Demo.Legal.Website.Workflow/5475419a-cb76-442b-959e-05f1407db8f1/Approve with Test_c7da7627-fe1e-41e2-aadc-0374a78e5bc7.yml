@@ -2,7 +2,7 @@
 ID: c7da7627-fe1e-41e2-aadc-0374a78e5bc7
 Parent: 5475419a-cb76-442b-959e-05f1407db8f1
 Template: cb01f9fc-c187-46b3-ab0b-97a8468d8303
-Path: /sitecore/system/Workflows/Legal/Legal Workflow/Awaiting Legal Approval/Approve with Test
+Path: /sitecore/system/Workflows/Legal/Legal Workflow/Awaiting Approval/Approve with Test
 DB: master
 SharedFields:
 - ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
@@ -56,9 +56,6 @@ Languages:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       Hint: __Created
       Value: 20140123T094419Z
-    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
-      Hint: __Created by
-      Value: sitecore\admin
 - Language: ja-JP
   Fields:
   - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb

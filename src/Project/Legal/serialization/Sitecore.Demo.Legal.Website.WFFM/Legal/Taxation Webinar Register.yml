@@ -11,6 +11,9 @@ SharedFields:
 - ID: 46fb324a-9741-43bd-a0c9-5081a39d40aa
   Hint: Show Introduction
   Value: 
+- ID: 87b37b02-ba9e-4464-ab4e-50737bb1d06e
+  Hint: User Profile
+  Value: {DEDEEE27-A46D-4317-B49D-ECDB7D5378EC}
 - ID: a42052f7-6c18-424a-a2a1-7a72054cb1a6
   Hint: Show Title
   Value: 1
@@ -101,7 +104,7 @@ Languages:
         
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       Hint: __Created
-      Value: 20100712T165416:634145504561257789
+      Value: 20100712T155416Z
     - ID: 4e2dc894-59a2-49bb-a49c-562f611169a2
       Hint: Success Message
       Value: Thank you for registering for our taxation webinar. We will send an email invitation to you with, if possible, your preferred month.

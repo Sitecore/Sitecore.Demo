@@ -60,9 +60,6 @@ Languages:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       Hint: __Created
       Value: 20150824T175451Z
-    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
-      Hint: __Workflow state
-      Value: 
     - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
       Hint: BrowserTitle
       Value: $name

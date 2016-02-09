@@ -19,9 +19,12 @@ SharedFields:
   Type: Rules
   Value: |
     <ruleset>
-      <rule uid="{CD5704C7-B397-46F4-95DC-A4B08B2E0918}" name="New Condition">
+      <rule uid="{826D1F7F-3ABA-4DDD-A589-A23DAE6812E7}">
+        <conditions>
+          <condition id="{4888ABBB-F17D-4485-B14B-842413F88732}" uid="A049C7A6A40F42629D56F79DBC7138AB" />
+        </conditions>
         <actions>
-          <action id="{65A7EAD2-9ECF-4CA1-A517-A27A6CD65019}" uid="97C78BBBC37B4A059251514489EC1046" Name="First Name" />
+          <action id="{65A7EAD2-9ECF-4CA1-A517-A27A6CD65019}" uid="BCA334F5A6534BC99A02E869D31F196B" Name="First Name" />
         </actions>
       </rule>
     </ruleset>
