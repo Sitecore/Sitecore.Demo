@@ -18,6 +18,9 @@ SharedFields:
         <key name="B2B" value="1" />
       </profile>
     </tracking>
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  Hint: __Security
+  Value: ar|sitecore\Sitecore Client Authoring|pe|+item:create|+item:read|+item:rename|+item:write|-item:delete|^*|pd|+item:create|+item:read|+item:rename|+item:write|-item:delete|^*|
 Languages:
 - Language: en
   Versions:

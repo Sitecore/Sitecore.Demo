@@ -9,6 +9,9 @@ SharedFields:
   Hint: __Masters
   Type: TreelistEx
   Value: {4B0A2893-4E7B-4248-86A9-DAB6DA3BB230}
+- ID: ca9b9f52-4fb0-4f87-a79f-24dea62cda65
+  Hint: __Default workflow
+  Value: {E2A658AB-B142-4AD9-AACA-C69200622F44}
 - ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
   Hint: __Renderings
   Type: layout
