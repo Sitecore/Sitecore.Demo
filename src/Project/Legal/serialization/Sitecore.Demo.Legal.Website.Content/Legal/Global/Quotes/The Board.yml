@@ -1,0 +1,26 @@
+﻿---
+ID: 96a6ec33-2398-4752-aa9e-4a3fdbb6606f
+Parent: eefa227b-f23f-4085-a9cf-d7e44d0c702f
+Template: 40ad8a9b-c75c-428d-9e1a-51372b21f63e
+Path: /sitecore/content/Legal/Global/Quotes/The Board
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0de53078-0da4-40cc-bbca-63aa96a0a1ef
+      Hint: Quote
+      Value: The legal world has become much more complex that it was in the past. Now all board members, and especially the CEO, need specialised legal help in the day-to-day running of a company.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160211T164613Z
+    - ID: 26cd59ab-3639-488f-bafd-58d2b217755a
+      Hint: Name
+      Value: Chris Jones
+    - ID: 76972fcd-4bb0-4255-864e-077745efdf50
+      Hint: Title
+      Value: Editor
+    - ID: bf83983a-473f-4a49-be8e-7d563aa5687e
+      Hint: Company
+      Value: The Board
