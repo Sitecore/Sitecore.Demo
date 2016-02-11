@@ -1,0 +1,17 @@
+﻿---
+ID: 0da7e492-fb74-4714-a168-596e03675eb7
+Parent: d12879df-80cc-4b16-b179-c03813f0a26d
+Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
+Path: /sitecore/content/Legal/Home/Landing Pages/Social Media White Paper
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160210T172121Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

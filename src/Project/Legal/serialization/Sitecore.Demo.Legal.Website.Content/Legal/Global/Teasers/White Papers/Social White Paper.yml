@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: e8ab122c-6f54-4d4e-aec6-f81addc558fc
   Hint: TeaserLink
-  Value: "<link text=\"Download Now\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{B5583A97-7F68-40C6-BA8B-F82C9D3ABCC6}\" />"
+  Value: "<link id=\"{B5583A97-7F68-40C6-BA8B-F82C9D3ABCC6}\" querystring=\"\" target=\"\" text=\"Download Now\" title=\"\" class=\"\" url=\"/Legal/Home/Landing Pages/Social Media White Paper/Social White Paper\" linktype=\"internal\" />"
 Languages:
 - Language: en
   Versions:

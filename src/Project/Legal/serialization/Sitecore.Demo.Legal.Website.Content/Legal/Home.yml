@@ -17,10 +17,39 @@ Languages:
           <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r uid="{1A2D5106-8149-4037-BB3A-1DD4A61828F1}" p:before="r[@uid='{96345A42-FF7F-4DC1-9DCD-A085070807E6}']" s:ds="{3F7B49B0-8E2A-414A-AB9D-988F2915840A}" s:id="{0CF58F14-D0F8-4C41-9896-3D69048A0B19}" s:par="TweetsToShow=2" s:ph="/footer/footercolumn3" />
             <r uid="{96345A42-FF7F-4DC1-9DCD-A085070807E6}" p:before="r[@uid='{3A792DA1-2825-420E-9655-1DFC7BA9A4E7}']" s:ds="{98E48045-DFC7-4A70-9BED-5C40AB6558A6}" s:id="{0CF58F14-D0F8-4C41-9896-3D69048A0B19}" s:ph="/footer/footercolumn1" />
-            <r uid="{3A792DA1-2825-420E-9655-1DFC7BA9A4E7}" p:before="r[@uid='{1A80E463-C1E4-47F0-B351-E1A15357DA81}']" s:ds="{2AE21DEF-82EC-403E-A8A8-16761CF85995}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/col-narrow-3_c3fd7aa3-f664-44ac-996b-c250e72625d7" />
+            <r uid="{3A792DA1-2825-420E-9655-1DFC7BA9A4E7}" p:before="r[@uid='{1A80E463-C1E4-47F0-B351-E1A15357DA81}']" s:ds="{2AE21DEF-82EC-403E-A8A8-16761CF85995}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/col-narrow-3_c3fd7aa3-f664-44ac-996b-c250e72625d7">
+              <rls>
+                <ruleset>
+                  <rule uid="{6F922DE6-06A7-40EC-AF12-014367A6CC8C}" s:name="Social White Paper Goal">
+                    <conditions>
+                      <condition uid="9BE9869D51D7414FA6911BE52082E2C0" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{A5F88906-B6FC-4A39-A736-667533386E68}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
+                    </conditions>
+                    <actions>
+                      <action uid="39847F01290943148DC6E4ED02A267D4" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{9AED814E-4DBF-4592-BEBD-DB03776AFA63}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="08BAFCC9C8884E53A79CC2A1E085370F" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action uid="E7000E993A8447D681A71B570ED759E5" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{2AE21DEF-82EC-403E-A8A8-16761CF85995}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r uid="{1A80E463-C1E4-47F0-B351-E1A15357DA81}" p:before="r[@uid='{9ED6ABF7-4549-4BA6-9651-842E793E3C9C}']" s:ds="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/col-narrow-2_c3fd7aa3-f664-44ac-996b-c250e72625d7">
               <rls>
                 <ruleset>
+                  <rule uid="{783B5D2E-91DF-45D4-A628-6EE4554B3626}" s:name="Download Goal">
+                    <conditions>
+                      <condition uid="36D29997D7A047D6B52787D19A4CADD7" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{2036D3C2-9E84-44D2-A9F2-264108E6236D}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
+                    </conditions>
+                    <actions>
+                      <action uid="2C81702B232F4D2698E19A902FB60F7C" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{9AED814E-4DBF-4592-BEBD-DB03776AFA63}" />
+                    </actions>
+                  </rule>
                   <rule uid="{587DBD3F-D95A-4C9B-A66A-D5E50D2A378F}" s:name="Register Goal">
                     <conditions>
                       <condition uid="9DB479E2E9FE4C94A606DE2B843BC0C7" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{95F2499A-DC5E-4CE1-B45C-0CA42BF239FB}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
@@ -54,7 +83,10 @@ Languages:
                 <ruleset>
                   <rule uid="{7B83DB61-A9F0-4398-8CF2-E0E1F09A9EF5}" s:name="Susan CEO">
                     <conditions>
-                      <condition uid="8392859028DF495F8A665A2050C6FD0A" s:id="{6426B5B4-83E9-4E24-BA97-43293A10B47D}" s:ProfileName="Legal Persona" s:PatternName="Susan the CEO" />
+                      <or uid="CF7DA53234E042F08A4592B457E485C4">
+                        <condition uid="8392859028DF495F8A665A2050C6FD0A" s:id="{6426B5B4-83E9-4E24-BA97-43293A10B47D}" s:ProfileName="Legal Persona" s:PatternName="Susan the CEO" />
+                        <condition uid="814F6C9D384740C7A5052BD56E4C0FC2" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Legal Persona" s:PatternName="Susan the CEO" />
+                      </or>
                     </conditions>
                     <actions>
                       <action uid="9C39AFC694974229B80B2B8B0DE4C308" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{382881C7-DE67-498F-878C-618646C27422}" />
@@ -62,7 +94,10 @@ Languages:
                   </rule>
                   <rule uid="{8C4BD35A-9C68-4FB8-BDBA-4C0484956563}" s:name="Lucas Lawyer">
                     <conditions>
-                      <condition uid="E21E503C20E343499C15F81F9A4BE8E0" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Legal Persona" s:PatternName="Lucas the Lawyer" />
+                      <or uid="BF42CB2760DF479B979C49594BFE7D1E">
+                        <condition uid="E21E503C20E343499C15F81F9A4BE8E0" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Legal Persona" s:PatternName="Lucas the Lawyer" />
+                        <condition uid="F2AB286970D24F57BB8AEAAB3C58551C" s:id="{6426B5B4-83E9-4E24-BA97-43293A10B47D}" s:ProfileName="Legal Persona" s:PatternName="Lucas the Lawyer" />
+                      </or>
                     </conditions>
                     <actions>
                       <action uid="7A9CBCB5F59D44BDA15162710BEEB4DF" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{56D587AA-B397-4F10-B6A8-A28306BF1F0C}" />
@@ -72,7 +107,9 @@ Languages:
                     <conditions>
                       <condition uid="E9CCEB72AFBA418DB855F23EB559606F" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
                     </conditions>
-                    <actions />
+                    <actions>
+                      <action uid="6C6125A8B0E140E9A14D7BC4A881C3C6" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{087838F6-E315-4A5F-AEC8-00B5B85E9BFB}" />
+                    </actions>
                   </rule>
                 </ruleset>
               </rls>

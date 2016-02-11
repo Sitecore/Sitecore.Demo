@@ -1,0 +1,24 @@
+﻿---
+ID: a5f88906-b6fc-4a39-a736-667533386e68
+Parent: 243e4695-f8eb-4b92-b609-9f68d58aae4d
+Template: 475e9026-333f-432d-a4dc-52e03b75cb6b
+Path: /sitecore/system/Marketing Control Panel/Goals/Legal/Whitepapers/Social Media Phenomenon
+DB: master
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  Hint: __Workflow
+  Value: {689E2994-4656-4C58-9112-7826CB46EE69}
+- ID: ac6ba888-4213-43bd-b787-d8da2b6b881f
+  Hint: Name
+  Value: Social Media Phenomenon
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160210T180922Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      Hint: __Workflow state
+      Value: {39156DC0-21C6-4F64-B641-31E85C8F5DFE}
