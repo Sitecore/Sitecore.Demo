@@ -5,6 +5,9 @@ Template: 94fd1606-139e-46ee-86ff-bc5bf3c79804
 Path: /sitecore/system/Marketing Control Panel/Campaigns/Legal/Legal Webinar/Twitter Legal Webinar
 DB: master
 SharedFields:
+- ID: 43aa1c9a-d1be-498a-9841-1def2c2231ba
+  Hint: Select Traffic Type
+  Value: {74B024EE-8785-49FA-A05D-48CBEBDAEBD7}
 - ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
   Hint: __Workflow
   Value: {689E2994-4656-4C58-9112-7826CB46EE69}

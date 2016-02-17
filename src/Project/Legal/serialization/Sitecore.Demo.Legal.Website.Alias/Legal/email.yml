@@ -1,0 +1,21 @@
+﻿---
+ID: be681252-bdb7-4563-94d1-863ce5424dc0
+Parent: 4f9cbddb-aa01-41bb-9a60-f2aa5c1e0649
+Template: 54bcffb7-8f46-4948-ae74-da5b6b5afa86
+Path: /sitecore/system/Aliases/Legal/email
+DB: master
+SharedFields:
+- ID: 8cbab1df-cf26-4c80-9002-62aa153d1e4c
+  Hint: Linked item
+  Value: "<link linktype=\"internal\" url=\"/Legal/Home/Landing Pages/Email Taxation Webinar Mockup\" id=\"{A91BCE10-0C35-4631-8673-DB73E5BB19A8}\" />"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160217T142821Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
