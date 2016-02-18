@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configurat
 		src\Project\Legal\code\App_Config\Include\Project\z.Sitecore.Demo.DevSettings.config = src\Project\Legal\code\App_Config\Include\Project\z.Sitecore.Demo.DevSettings.config
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Demo.Legal.Theme", "src\Project\Legal.Theme\code\Sitecore.Demo.Legal.Theme.csproj", "{E5F538CF-10EC-49D4-ACCB-BF35D4A6A246}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{0BC33B3D-3E16-4C5C-BDB7-9C06CC52C715}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BC33B3D-3E16-4C5C-BDB7-9C06CC52C715}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BC33B3D-3E16-4C5C-BDB7-9C06CC52C715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F538CF-10EC-49D4-ACCB-BF35D4A6A246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F538CF-10EC-49D4-ACCB-BF35D4A6A246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F538CF-10EC-49D4-ACCB-BF35D4A6A246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F538CF-10EC-49D4-ACCB-BF35D4A6A246}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,5 +41,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6E37A750-6E7F-406F-B7E7-BE329C9D1791} = {61DBB28E-BC37-49B0-8F56-6FA6B39FAC3E}
 		{0BC33B3D-3E16-4C5C-BDB7-9C06CC52C715} = {6E37A750-6E7F-406F-B7E7-BE329C9D1791}
+		{E5F538CF-10EC-49D4-ACCB-BF35D4A6A246} = {6E37A750-6E7F-406F-B7E7-BE329C9D1791}
 	EndGlobalSection
 EndGlobal

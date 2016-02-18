@@ -1,0 +1,67 @@
+﻿---
+ID: f84917ed-9aca-4a6f-b65f-00e6b209d371
+Parent: ac67d144-7cac-4d7f-a40a-9f800f2c8f7c
+Template: 75e42a73-0ae1-44c5-ac04-c9d5c4568680
+Path: /sitecore/content/Legal/Home/Our Team/Shane Nevins
+DB: master
+SharedFields:
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal Persona">
+        <key name="Self-employed" value="3" />
+        <key name="Large Corporate" value="0" />
+        <key name="Legal trade" value="5" />
+        <key name="Personal-Civil" value="0" />
+        <key name="B2B" value="1" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0cc9785e-54fe-4fae-93e4-d0d2ae75f339
+      Hint: Biography
+      Value: |
+        <p style="margin-left: 13.5pt;"><span>Shane Nevins is a shareholder at Chase Ridley. Shane was originally a trial lawyer, but is now focused on counseling production companies, direct response companies and multi-level marketing organizations in both operational and compliance matters. In particular, Shane is focused on advertising and compliance issues, including FTC counseling and litigation, trademark and copyrights, class actions, and multi-agency compliance involving all aspects of marketing (over multiple media platforms).</span></p>
+        <p style="margin-left: 13.5pt;"><span>Shane has practiced law for over 20 years. He is a graduate of UC Berkeley School of Law, where he served as an editor of&nbsp; their Weekly Law Review. From the earliest stages of his career, he advised high-level clients on corporate governance, contracting and compliance issues. Shane has litigated intellectual property, government contracts, trademark, copyright, trade secrets, insurance and environmental and entertainment issues, among others. He has tried cases in the contract real estate, bankruptcy and partnership areas.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Shane publishes regularly in the fields of advertising law and litigation, art law and proposition 65 matters. And, has been an invited speaker at both UCLA and USC Law Schools and is a mentor to UCLA law students. He has been recognized as a Southern California Super Lawyer from 2007-2015.</span></p>
+    - ID: 0ee2f208-1fee-42fc-8051-6696d49a92bf
+      Hint: OpenGraphTitle
+      Value: Shane Nevins
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      Hint: NavigationTitle
+      Value: Shane Nevins
+    - ID: 25b4cee3-a61a-4dc3-bb52-775dd509dbb5
+      Hint: Mobile
+      Value: +1-912-555-5578
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160107T134252Z
+    - ID: 26cd59ab-3639-488f-bafd-58d2b217755a
+      Hint: Name
+      Value: Shane Nevins
+    - ID: 5978b330-1d46-4065-8751-f74bf17d815e
+      Hint: Email
+      Value: s.nevins@chaseridley.com
+    - ID: 76972fcd-4bb0-4255-864e-077745efdf50
+      Hint: Title
+      Value: Shareholder
+    - ID: 8d0e8ee3-21c4-4ae2-a2f1-53d3f3ebe501
+      Hint: Telephone
+      Value: +1-912-555-5561
+    - ID: b897023c-15d2-49f3-8974-06fa5fb7ad00
+      Hint: Summary
+      Value: Shane Nevins is a shareholder at Chase Ridley. Shane was originally a trial lawyer, but is now focused on counseling production companies, direct response companies and multi-level marketing organizations in both operational and compliance matters
+    - ID: bb7a38c0-323c-4f81-8eb9-288abf7c4638
+      Hint: MetaDescription
+      Value: Shane Nevins, operati0nal and compliance law, multilevel marketing, production company, marketing, direct response
+    - ID: c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38
+      Hint: Picture
+      Value: "<image mediaid=\"{492BE27B-D56C-4C6E-A64A-857ECB4B27B9}\" />"
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Hint: BrowserTitle
+      Value: Shane Nevins

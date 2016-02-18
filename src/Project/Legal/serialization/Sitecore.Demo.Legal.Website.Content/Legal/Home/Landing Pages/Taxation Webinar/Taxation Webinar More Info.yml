@@ -36,20 +36,14 @@ Languages:
       Hint: __Final Renderings
       Type: Layout
       Value: |
-        <r xmlns:p="p" xmlns:s="s" p:p="1">
+        <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
           <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-            <r uid="{6CCDF76F-8137-4051-AE37-E40B7E04D24E}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/col-narrow-1">
+            <r uid="{6CCDF76F-8137-4051-AE37-E40B7E04D24E}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:ds="" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:par="" s:ph="/page-layout/section/col-narrow-1">
               <rls>
                 <ruleset>
                   <rule uid="{44993CE1-F13A-45C7-94B9-0BE39CC215F5}" s:name="Twitter Refer">
                     <conditions>
-                      <or uid="EE31228B09A9464BB9894ABF8E13435B">
-                        <or uid="E5DF0C9A10E4430D9A982001BDF7A823">
-                          <condition uid="C0F480EAF8A348B487B420E37A1DFF62" s:id="{EBFFEC6B-71F8-47C9-BC96-95D57994FDF6}" s:operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}" s:Referrer="t.co" />
-                          <condition uid="C08E1E4B72944E6BA2682CFE8EFB6DCB" s:id="{EBFFEC6B-71F8-47C9-BC96-95D57994FDF6}" s:operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}" s:Referrer="twitter" />
-                        </or>
-                        <condition uid="F88C789DEF9747B49CD54632CED19D2B" s:id="{D379525C-4DE6-4738-89ED-60CC0B8F91E5}" s:CampaignId="{63FEB1E7-73A0-420B-9CED-034CF07F7D78}" />
-                      </or>
+                      <condition uid="C0F480EAF8A348B487B420E37A1DFF62" s:id="{EBFFEC6B-71F8-47C9-BC96-95D57994FDF6}" s:operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}" s:Referrer="twitter" />
                     </conditions>
                     <actions>
                       <action uid="AC0FB2A1F2764C0A9A366CF30506548F" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{5A57F799-0ED2-4806-86B1-6F7252A2A757}" />
@@ -74,7 +68,7 @@ Languages:
                 </ruleset>
               </rls>
             </r>
-            <r uid="{B97CD8A8-663A-4AD1-9D60-DD7D76C8E654}" s:par="FormID={8952B4B4-1B96-49A0-ADC1-A7004C524C72}&amp;ReadQueryString" />
+            <r uid="{B97CD8A8-663A-4AD1-9D60-DD7D76C8E654}" s:ph="/page-layout/section/col-wide-1" />
           </d>
         </r>
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
@@ -85,13 +79,13 @@ Languages:
       Value: "<image mediaid=\"{1449E790-449C-49C5-BD32-3B3F6450A1F3}\" />"
     - ID: ac3fd4db-8266-476d-9635-67814d91e901
       Hint: Summary
-      Value: <span>Legal Insight Webinar Series: Solving Transaction Tax Challenges in Mergers and Acquisitions</span>
+      Value: <p>Legal Insight Webinar Series: Solving Transaction Tax Challenges in Mergers and Acquisitions</p>
     - ID: bb7a38c0-323c-4f81-8eb9-288abf7c4638
       Hint: MetaDescription
       Value: Mergers, acquisitions, M&A, MA, legal mergers, legal resource, B2B, transaction tax, webinar, legal webinar
     - ID: c30a013f-3cc8-4961-9837-1c483277084a
       Hint: Title
-      Value:  Solving Transaction Tax Challenges in Mergers and Acquisitions
+      Value: Solving Transaction Tax Challenges in Mergers and Acquisitions
     - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
       Hint: BrowserTitle
       Value: Tax Webinar
