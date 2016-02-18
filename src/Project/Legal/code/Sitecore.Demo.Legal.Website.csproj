@@ -100,7 +100,9 @@
     <None Include="Views\web.config" />
     <None Include="packages.config" />
     <Content Include="App_Config\Include\Project\Sitecore.Demo.Legal.Website.config" />
-    <Content Include="App_Config\Include\Project\Sitecore.Demo.Legal.Website.Serialization.config" />
+    <Content Include="App_Config\Include\Project\Sitecore.Demo.Legal.Website.Serialization.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="App_Config\Include\Project\z.Sitecore.Demo.DevSettings.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\Legal\Layouts\Default.cshtml" />
