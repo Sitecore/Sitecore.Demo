@@ -10,7 +10,10 @@ SharedFields:
   Value: 
 - ID: 46fb324a-9741-43bd-a0c9-5081a39d40aa
   Hint: Show Introduction
-  Value: 0
+  Value: 
+- ID: 5b891b54-4fce-489e-a7e6-841d92e9859a
+  Hint: Save Form Data To Storage
+  Value: 
 - ID: 87b37b02-ba9e-4464-ab4e-50737bb1d06e
   Hint: User Profile
   Value: {DEDEEE27-A46D-4317-B49D-ECDB7D5378EC}
@@ -68,7 +71,7 @@ SharedFields:
   Value: {3B8369A0-CC1A-4E9A-A3DB-7B086379C53B}
 - ID: faeacd39-b059-4f46-bec4-74ba468a97b8
   Hint: Show Footer
-  Value: 0
+  Value: 
 Languages:
 - Language: de-DE
   Fields:
@@ -121,6 +124,9 @@ Languages:
     - ID: 4e2dc894-59a2-49bb-a49c-562f611169a2
       Hint: Success Message
       Value: Thank you for requesting more information about our taxation webinar. We will email this to you.
+    - ID: 53aff40d-e61f-43dc-96d6-a5c7f4882e20
+      Hint: Save Action Failed Message
+      Value: This user has already been registered
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
       Hint: __Created by
       Value: sitecore\admin
@@ -134,7 +140,7 @@ Languages:
         
     - ID: 9c4c1994-5140-49d3-bad7-db997816f816
       Hint: Success Page
-      Value: "<link url=\"/sitecore/content/Legal/Home/Landing Pages/Thank you\" id=\"{00000000-0000-0000-0000-000000000000}\" />"
+      Value: 
     - ID: b71296b6-32b9-4703-a8cb-fb7437271103
       Hint: Name
       Value: Send Me Information
