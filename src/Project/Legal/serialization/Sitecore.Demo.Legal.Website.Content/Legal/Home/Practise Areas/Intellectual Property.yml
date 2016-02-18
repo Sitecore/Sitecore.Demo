@@ -33,7 +33,7 @@ Languages:
         <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
           <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <p uid="{3E58EA74-D8AB-48CC-9EDE-1EA7206FACB5}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:key="/page-layout/sidebar" s:md="/sitecore/layout/Placeholder Settings/Project/Legal/sidebar" />
-            <r uid="{B910B9ED-F242-489F-A7BA-4101DC639F2B}" p:before="r[@uid='{565F9960-4E47-4DA4-9406-0A29DD09911F}']" s:ds="{3C9607A2-104E-4753-A88D-C575CFA478F1}" s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}" s:ph="/page-layout/sidebar" />
+            <r uid="{B910B9ED-F242-489F-A7BA-4101DC639F2B}" p:before="r[@uid='{565F9960-4E47-4DA4-9406-0A29DD09911F}']" s:ds="{3C9607A2-104E-4753-A88D-C575CFA478F1}" s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}" s:par="" s:ph="/page-layout/section/col-narrow-1" />
           </d>
         </r>
     - ID: 1b483e91-d8c4-4d19-ba03-462074b55936

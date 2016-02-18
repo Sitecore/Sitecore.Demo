@@ -202,7 +202,7 @@ Languages:
       Value: |
         <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
           <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-            <r uid="{90EF5CFE-D321-4217-B342-AF291B35F2C1}" p:before="r[@uid='{565F9960-4E47-4DA4-9406-0A29DD09911F}']" s:ds="{6C120B9D-8923-43F3-A0C3-CC4A8A07FDF4}" s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}" s:ph="/page-layout/sidebar" />
+            <r uid="{90EF5CFE-D321-4217-B342-AF291B35F2C1}" p:before="r[@uid='{565F9960-4E47-4DA4-9406-0A29DD09911F}']" s:ds="{6C120B9D-8923-43F3-A0C3-CC4A8A07FDF4}" s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}" s:par="" s:ph="/page-layout/section/col-narrow-1" />
           </d>
         </r>
     - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
@@ -219,7 +219,7 @@ Languages:
       Value: sitecore\admin
     - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
       Hint: Image
-      Value: "<image mediaid=\"{BFEBCC8D-046C-43FF-AE82-504B2DAC9F62}\" />"
+      Value: 
     - ID: ac3fd4db-8266-476d-9635-67814d91e901
       Hint: Summary
       Value: <span>Chase Ridley’s attorneys have concentrated their practices on Trusts and Estates for more than 20 years. With all of this expertise, we know how to focus on clients’ personal concerns as well as their estate planning, tax, and litigation goals. Our top priority is to provide our clients with the customized service they need and want.</span>
