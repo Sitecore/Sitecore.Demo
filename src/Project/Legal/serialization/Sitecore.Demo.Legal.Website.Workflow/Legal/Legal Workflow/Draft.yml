@@ -8,10 +8,6 @@ SharedFields:
 - ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
   Hint: __Icon
   Value: /sitecore/shell/themes/standard/applications/16x16/document_edit.png
-- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
-  Hint: __Masters
-  Type: TreelistEx
-  Value: {CB01F9FC-C187-46B3-AB0B-97A8468D8303}
 - ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
   Hint: __Sortorder
   Value: 10
@@ -54,9 +50,6 @@ Languages:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       Hint: __Created
       Value: 20080313T152341:633410186213024563
-    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
-      Hint: __Created by
-      Value: sitecore\admin
 - Language: ja-JP
   Fields:
   - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
