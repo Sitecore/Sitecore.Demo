@@ -19,6 +19,38 @@ Languages:
       Value: |
         <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
           <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{129F93B4-E5D3-4A0A-AAA9-380477AEA01C}" p:before="r[@uid='{0A7E40C8-90B6-4CB1-AC31-55F51319C321}']" s:ds="{087838F6-E315-4A5F-AEC8-00B5B85E9BFB}" s:id="{8B28417B-A5B3-44F1-BFCC-FE1D907336E7}" s:ph="/page-layout/page-header">
+              <rls>
+                <ruleset>
+                  <rule uid="{AF55C3F4-4F9E-4C5D-9ABE-E4C0682B9C51}" s:name="Lucas Lawyer">
+                    <conditions>
+                      <condition uid="AFEC4CBC8A1E4B5C8E0B47F9A78B8459" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Legal Persona" s:PatternName="Lucas the Lawyer" />
+                    </conditions>
+                    <actions>
+                      <action uid="4E30AE9F26074D22A08B29C98F9F81A6" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{43C5E36C-C606-44D4-981E-0072038BDB02}" />
+                      <action uid="6D2321D52B824B9E84D751124C8DE52C" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{A9B002E1-963F-4F35-B6DB-14A8D4BF171A}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{12F971CF-BD26-4096-BF8B-D67B22AD850E}" s:name="Susan SEO">
+                    <conditions>
+                      <condition uid="A0F531D9BF3B4F2CA205D1D1980B50B4" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Legal Persona" s:PatternName="Susan the CEO" />
+                    </conditions>
+                    <actions>
+                      <action uid="E699DDA818EE49CE86C7DE3532BD9527" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{A9B002E1-963F-4F35-B6DB-14A8D4BF171A}" />
+                      <action uid="E2F5FC79E72B40FC9C484B328D0A3693" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{0BC92115-528D-4784-B9C2-9EB422C0C5CB}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="C12F7AC92CB34DEF95FF0CCDF87FE630" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action uid="4B9D5CC78297400F8FCFCE8F2C65D543" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{087838F6-E315-4A5F-AEC8-00B5B85E9BFB}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r uid="{0A7E40C8-90B6-4CB1-AC31-55F51319C321}" p:before="r[@uid='{C3FD7AA3-F664-44AC-996B-C250E72625D7}']" s:ds="" s:id="{A2216CA7-B205-4042-A345-72117D0086C3}" s:par="ContainerIsFluid&amp;UseStaticPlaceholderNames" s:ph="page-layout" />
             <r uid="{C3FD7AA3-F664-44AC-996B-C250E72625D7}" p:before="r[@uid='{FC377B4D-DE95-4116-AA74-8BA49B88DCC7}']" s:ds="" s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}" s:par="ContainerIsFluid&amp;UseStaticPlaceholderNames" s:ph="/page-layout/section_fc377b4d-de95-4116-aa74-8ba49b88dcc7" />
             <r uid="{FC377B4D-DE95-4116-AA74-8BA49B88DCC7}" p:before="r[@uid='{3A792DA1-2825-420E-9655-1DFC7BA9A4E7}']" s:id="{D201A487-5099-48A1-8189-55944F70C6CB}" s:ph="page-layout" />

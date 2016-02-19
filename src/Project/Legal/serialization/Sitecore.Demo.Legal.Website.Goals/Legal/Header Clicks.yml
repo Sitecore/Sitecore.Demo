@@ -1,0 +1,14 @@
+﻿---
+ID: 05cb1efa-e446-4de3-b495-a5140870c7b6
+Parent: b5df0d1c-22b7-4307-b3e8-bccec744b87a
+Template: db6e13b8-786c-4dd6-acf2-3e5e6a959905
+Path: /sitecore/system/Marketing Control Panel/Goals/Legal/Header Clicks
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160218T162148Z
