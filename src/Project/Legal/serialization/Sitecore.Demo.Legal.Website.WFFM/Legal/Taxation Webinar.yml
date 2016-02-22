@@ -8,9 +8,6 @@ SharedFields:
 - ID: 3e2bbfc4-5668-47d2-a4fd-67773d155112
   Hint: Is Ajax Mvc Form
   Value: 
-- ID: 46fb324a-9741-43bd-a0c9-5081a39d40aa
-  Hint: Show Introduction
-  Value: 
 - ID: 5b891b54-4fce-489e-a7e6-841d92e9859a
   Hint: Save Form Data To Storage
   Value: 
@@ -66,12 +63,6 @@ SharedFields:
       <event name="Invalid Field Syntax" id="{844BBD40-91F6-42CE-8823-5EA4D089ECA2}" />
       <event name="More Info Legal Webinar" id="{7E113DEF-BA08-4D12-A3A4-822BC93518CB}" />
     </tracking>
-- ID: d755de87-9c62-4eb3-83dc-2293784a3a3f
-  Hint: Success Mode
-  Value: {3B8369A0-CC1A-4E9A-A3DB-7B086379C53B}
-- ID: faeacd39-b059-4f46-bec4-74ba468a97b8
-  Hint: Show Footer
-  Value: 
 Languages:
 - Language: de-DE
   Fields:
@@ -81,27 +72,12 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 0f2414bd-a95d-419c-a238-a6637a3fab76
-      Hint: Introduction
-      Value: <p>Der hier eingegebene Text wird direkt unter dem Formularnamen angezeigt. Dies können zum Beispiel Beschreibungen, Instruktionen oder andere Informationen sein.</p>
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       Hint: __Created
       Value: 20141119T105445:635519912853716590Z
-    - ID: 4e2dc894-59a2-49bb-a49c-562f611169a2
-      Hint: Success Message
-      Value: Danke, dass Sie das Formular ausgefüllt haben.
-    - ID: 53aff40d-e61f-43dc-96d6-a5c7f4882e20
-      Hint: Save Action Failed Message
-      Value: Während der Bearbeitung Ihrer Anfrage ist es zu technischen Schwierigkeiten gekommen. Ihre Daten wurden unter Umständen nicht korrekt gespeichert.
-    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
-      Hint: __Created by
-      Value: sitecore\admin
     - ID: 86d6a401-5a20-49c9-a2f8-0312398ee946
       Hint: Title
       Value: Abonnieren Sie unseren Newsletter
-    - ID: 95968a5a-db52-4f50-b471-c6c7da81f7e8
-      Hint: Footer
-      Value: <p>Der hier eingegebene Text wird am Ende des Formulars angezeigt.</p>
     - ID: b71296b6-32b9-4703-a8cb-fb7437271103
       Hint: Name
       Value: Abonnieren
@@ -127,9 +103,6 @@ Languages:
     - ID: 53aff40d-e61f-43dc-96d6-a5c7f4882e20
       Hint: Save Action Failed Message
       Value: This user has already been registered
-    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
-      Hint: __Created by
-      Value: sitecore\admin
     - ID: 86d6a401-5a20-49c9-a2f8-0312398ee946
       Hint: Title
       Value: Taxation Webinar Information
@@ -138,9 +111,6 @@ Languages:
       Value: |
         		<p>The text you enter here is displayed at the end of the form.</p>
         
-    - ID: 9c4c1994-5140-49d3-bad7-db997816f816
-      Hint: Success Page
-      Value: 
     - ID: b71296b6-32b9-4703-a8cb-fb7437271103
       Hint: Name
       Value: Send Me Information
@@ -152,27 +122,12 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 0f2414bd-a95d-419c-a238-a6637a3fab76
-      Hint: Introduction
-      Value: <p>ここで入力したテキストは、フォーム名の直後に表示されます。これはたとえば、説明、指示、またはその他の情報などです。</p>
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       Hint: __Created
       Value: 20141119T105635:635519913951266590Z
-    - ID: 4e2dc894-59a2-49bb-a49c-562f611169a2
-      Hint: Success Message
-      Value: フォームにご記入いただき、ありがとうございます。
-    - ID: 53aff40d-e61f-43dc-96d6-a5c7f4882e20
-      Hint: Save Action Failed Message
-      Value: 要求の処理中に技術上の問題が発生しました。データが正常に保存されていない可能性があります。
-    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
-      Hint: __Created by
-      Value: sitecore\admin
     - ID: 86d6a401-5a20-49c9-a2f8-0312398ee946
       Hint: Title
       Value: ニュースレターの購読
-    - ID: 95968a5a-db52-4f50-b471-c6c7da81f7e8
-      Hint: Footer
-      Value: <p>ここで入力したテキストは、このフォームの末尾に表示されます。</p>
     - ID: b71296b6-32b9-4703-a8cb-fb7437271103
       Hint: Name
       Value: 購読する

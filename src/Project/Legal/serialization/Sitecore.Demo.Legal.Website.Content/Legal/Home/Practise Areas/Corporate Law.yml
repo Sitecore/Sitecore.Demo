@@ -85,9 +85,12 @@ Languages:
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
       Hint: __Created by
       Value: sitecore\Caroline
+<<<<<<< HEAD
     - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
       Hint: Image
       Value: "<image mediaid=\"{A5EFF65E-3632-45BC-B78D-CD3AB712283E}\" />"
+=======
+>>>>>>> 116dc118752672424f1c2deb863a743af9163d75
     - ID: ac3fd4db-8266-476d-9635-67814d91e901
       Hint: Summary
       Value: <span>Whether privately held and family-owned companies, non-profits, limited partnerships, LLCs, and publicly traded companies, Chase Ridley serves as outside counsel, handling all legal matters. For other national and regional-level clients, our corporate lawyers are called upon to act as special counsel to handle complex business transactions.</span>
