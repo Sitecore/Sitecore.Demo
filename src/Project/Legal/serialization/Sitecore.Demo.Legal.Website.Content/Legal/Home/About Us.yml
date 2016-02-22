@@ -32,7 +32,45 @@ Languages:
         <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
           <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <p uid="{524C9B59-7F81-470A-91FD-3B702E511478}" p:before="r[@uid='{6D27F201-7AF5-462B-8ABA-48C313DC375D}']" s:key="/page-layout/sidebar" s:md="/sitecore/layout/Placeholder Settings/Project/Legal/sidebar" />
-            <r uid="{6D27F201-7AF5-462B-8ABA-48C313DC375D}" p:before="r[@uid='{C4B60845-97CE-43CF-A09D-843D67B3ECB0}']" s:ds="{3F7B49B0-8E2A-414A-AB9D-988F2915840A}" s:id="{0CF58F14-D0F8-4C41-9896-3D69048A0B19}" s:ph="/page-layout/section/col-narrow-2" />
+            <r uid="{6D27F201-7AF5-462B-8ABA-48C313DC375D}" p:before="r[@uid='{C0331280-9D2C-4BE9-8DA6-32D36EBD6456}']" s:ds="{3F7B49B0-8E2A-414A-AB9D-988F2915840A}" s:id="{0CF58F14-D0F8-4C41-9896-3D69048A0B19}" s:ph="/page-layout/section/col-narrow-2" />
+            <r uid="{C0331280-9D2C-4BE9-8DA6-32D36EBD6456}" p:before="r[@uid='{C4B60845-97CE-43CF-A09D-843D67B3ECB0}']" s:ds="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}" s:ph="/page-layout/section/col-narrow-2">
+              <rls>
+                <ruleset>
+                  <rule uid="{BBEF5923-4EE5-45C5-89E4-5FE2B466C41E}" s:name="Download Goal">
+                    <conditions>
+                      <condition uid="00ABC952231B4FEDABF2D4CF4FDFE4A5" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{2036D3C2-9E84-44D2-A9F2-264108E6236D}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
+                    </conditions>
+                    <actions>
+                      <action uid="FA4321F1251B4EACAB0217190EF94D70" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{9AED814E-4DBF-4592-BEBD-DB03776AFA63}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{AF17F455-A4EE-4E5F-BD58-E4B35065E3F4}" s:name="Register Goal">
+                    <conditions>
+                      <condition uid="FB58A4CC5BD24A5992E401F8734726C4" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{95F2499A-DC5E-4CE1-B45C-0CA42BF239FB}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
+                    </conditions>
+                    <actions>
+                      <action uid="81575B87007E4A6E8E58C15AA76516CF" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{BEBB2420-28F4-4209-A5B7-D2A46647F43D}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{17CB9058-E031-4C46-9B40-D295411CBA8B}" s:name="More Info Goal">
+                    <conditions>
+                      <condition uid="C675F81768FF4770A651B7E4AF9EB0D5" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{7E113DEF-BA08-4D12-A3A4-822BC93518CB}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
+                    </conditions>
+                    <actions>
+                      <action uid="824FE1EE1531475C96DE3D7384645551" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{72A00C8B-EAF3-4A4B-9B04-E3BFE7EE0A85}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="45A4874874DF4C8CA3D292D8425463EF" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action uid="A05489E4493F45C882A7A39F4516CBE5" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r uid="{C4B60845-97CE-43CF-A09D-843D67B3ECB0}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:id="{CA748838-E6D5-4BAD-9126-CAD10DD1B0DB}" s:ph="/page-layout/section/col-narrow-1" />
             <r uid="{A85893F9-5DF5-4C28-AC0F-67AD85D29661}">
               <p:d />
