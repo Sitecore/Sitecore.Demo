@@ -43,7 +43,10 @@ Languages:
                 <ruleset>
                   <rule uid="{44993CE1-F13A-45C7-94B9-0BE39CC215F5}" s:name="Twitter Refer">
                     <conditions>
-                      <condition uid="C0F480EAF8A348B487B420E37A1DFF62" s:id="{EBFFEC6B-71F8-47C9-BC96-95D57994FDF6}" s:operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}" s:Referrer="twitter" />
+                      <or uid="C05D912A3F1A47238B6B0340DD123100">
+                        <condition uid="C0F480EAF8A348B487B420E37A1DFF62" s:id="{EBFFEC6B-71F8-47C9-BC96-95D57994FDF6}" s:operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}" s:Referrer="twitter" />
+                        <condition uid="0005FB6226F94C3AB6066DC0CF618A7A" s:id="{D379525C-4DE6-4738-89ED-60CC0B8F91E5}" s:CampaignId="{63FEB1E7-73A0-420B-9CED-034CF07F7D78}" />
+                      </or>
                     </conditions>
                     <actions>
                       <action uid="AC0FB2A1F2764C0A9A366CF30506548F" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{5A57F799-0ED2-4806-86B1-6F7252A2A757}" />
@@ -68,7 +71,7 @@ Languages:
                 </ruleset>
               </rls>
             </r>
-            <r uid="{B97CD8A8-663A-4AD1-9D60-DD7D76C8E654}" s:ph="/page-layout/section/col-wide-1" />
+            <r uid="{B97CD8A8-663A-4AD1-9D60-DD7D76C8E654}" s:par="FormID={8952B4B4-1B96-49A0-ADC1-A7004C524C72}&amp;ReadQueryString" s:ph="/page-layout/section/col-wide-1" />
           </d>
         </r>
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
