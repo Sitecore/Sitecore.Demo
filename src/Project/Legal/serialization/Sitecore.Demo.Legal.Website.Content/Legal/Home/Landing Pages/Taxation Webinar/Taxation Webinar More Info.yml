@@ -41,6 +41,14 @@ Languages:
             <r uid="{6CCDF76F-8137-4051-AE37-E40B7E04D24E}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:ds="" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:par="" s:ph="/page-layout/section/col-narrow-1">
               <rls>
                 <ruleset>
+                  <rule uid="{C57D51F2-038A-456D-969F-BB702D49835C}" s:name="Google Ad">
+                    <conditions>
+                      <condition uid="307789B4B86945A2BB6877E8A6D49C40" s:id="{D379525C-4DE6-4738-89ED-60CC0B8F91E5}" s:CampaignId="{D0D5445D-C856-4FEA-9133-30E69A341D5C}" />
+                    </conditions>
+                    <actions>
+                      <action uid="DA067E7CED2343D2A0FC28EB576AEA09" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{6E532AF2-459C-49B5-911C-41BFEE7AE9D4}" />
+                    </actions>
+                  </rule>
                   <rule uid="{44993CE1-F13A-45C7-94B9-0BE39CC215F5}" s:name="Twitter Refer">
                     <conditions>
                       <or uid="C05D912A3F1A47238B6B0340DD123100">
