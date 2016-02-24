@@ -12,7 +12,6 @@ Languages:
     - ID: 0bc0aedf-a6d0-4f74-933c-bd1779cd40b2
       Hint: HTML Content
       Value: |
-        
         <!DOCTYPE html>
         <!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
         <!--[if !IE]><!-->

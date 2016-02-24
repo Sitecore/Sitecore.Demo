@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: 8cbab1df-cf26-4c80-9002-62aa153d1e4c
   Hint: Linked item
-  Value: "<link linktype=\"internal\" url=\"/Legal/Home/Landing Pages/search\" id=\"{968A1587-485B-4137-921D-A3D999491BBB}\" />"
+  Value: "<link text=\"google search\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{AD82930A-63CB-4164-9B11-55D8446D7556}\" />"
 Languages:
 - Language: en
   Versions:
