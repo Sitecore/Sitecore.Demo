@@ -1,0 +1,58 @@
+﻿---
+ID: 291e5544-15f0-4292-94ae-ca7fabac3858
+Parent: 6eb0f80b-a1d5-40e0-a472-9308b24228b5
+Template: 4b0a2893-4e7b-4248-86a9-dab6da3bb230
+Path: /sitecore/content/Legal/Home/Legal Notice
+DB: master
+SharedFields:
+- ID: 5585a30d-b115-4753-93ce-422c3455deb2
+  Hint: ShowInNavigation
+  Value: 
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  Hint: __Workflow
+  Value: {E2A658AB-B142-4AD9-AACA-C69200622F44}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{E38A66CC-64FB-4236-B6D1-6D7E928AA01B}" p:before="r[@uid='{550D41DB-4262-4B3B-A20F-8CD9CBDD0798}']" s:ds="{43C5E36C-C606-44D4-981E-0072038BDB02}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/section/col-narrow-1" />
+            <r uid="{550D41DB-4262-4B3B-A20F-8CD9CBDD0798}" p:before="r[@uid='{EC1F26F6-934E-4C43-BD53-AAE7B71700AC}']" s:ds="{0BC92115-528D-4784-B9C2-9EB422C0C5CB}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/section/col-narrow-1" />
+            <r uid="{EC1F26F6-934E-4C43-BD53-AAE7B71700AC}" p:before="r[@uid='{565F9960-4E47-4DA4-9406-0A29DD09911F}']" s:ds="{2AE21DEF-82EC-403E-A8A8-16761CF85995}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/section/col-narrow-1" />
+          </d>
+        </r>
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      Hint: NavigationTitle
+      Value: Legal Notice
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160225T101528Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      Hint: __Workflow state
+      Value: {FF21E8D4-EB3D-400E-83CB-34065712FC18}
+    - ID: ac3fd4db-8266-476d-9635-67814d91e901
+      Hint: Summary
+      Value: Important terms and conditions you need to understand before you engage with any of our services. The are designed to protect both you and us.
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      Hint: Title
+      Value: Legal Notice
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Hint: BrowserTitle
+      Value: Legal Notice
+    - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
+      Hint: Body
+      Value: |
+        <p>Copyright ©1999 - 2016 Chase Ridely, LLP. All rights reserved.</p>
+        <p>Please review the following terms and conditions prior to using Chase Ridley's website (the website). Any use of the web site and its content is subject to the following terms and conditions. Your use of the web site indicates your acceptance of said terms and conditions. If you do not accept such terms and conditions you may not use the web site and it's content.</p>
+        <p><strong>Acceptance of Terms</strong></p>
+        <p>Chase Ridley and the Chase Ridley logo are trademarks of Chase Ridley, LLP (Chase Ridley), a limited liability partnership registered in and subject to the laws of United States. Chase Ridley may, at its sole discretion, choose to change the terms, conditions and operation of this Website at any time without prior notice. By using this service the user waives any rights or claims it may have against Chase Ridley. Consequently, by accessing, browsing and/or using the Website you acknowledge to have read, understood and agreed to be bound by these terms. By using the Website you have agreed to these terms. You may not alter, change, modify or adapt the Website in any way.</p>
+        <p><strong>Trademarks</strong></p>
+        <p>The trademarks, service marks, and logos (the Trademarks) used and displayed on the Website are either the Trademarks or the registered Trademarks of Chase Ridley. Other product and company names mentioned on this Website may be the trademarks or registered trademarks of their respective owners.</p>
+        <p><strong>Limitation of Liability</strong></p>
+        <p>Except as specifically stated on the Website, neither Chase Ridley nor any of its directors, employees or other representatives shall be liable for damages arising out of or in connection with the use of the Website. This is a comprehensive limitation of liability that applies to all damages of any kind, including, but not limited to, compensatory, direct, indirect or consequential damages, loss of data, income or profit, loss of or damage to property and claims of or related to third parties. Information on this Website may contain inaccuracies or typographical errors for which Chase Ridley takes no responsibility. Chase Ridley does not make any representations for other websites that you may access through this Website. While Chase Ridley has no control over web sites produced and authored by third parties, Chase Ridley declines all liability for the accessibility, content and use as well as the products, services, et al made available through such third party's web site. Under no circumstance shall Chase Ridley be liable to any party for any direct, indirect, special or other consequential damages for any use of the web site, or any other hyperlinked web site, including, but not limited to, any lost profits, business interruption, loss of programs or other data or similar, even if we have been expressly advised as to the possibility of such damages. Information on the web site is provided "as is" without warranty of any kind, either express or implied, including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, or non-infringement. Some jurisdictions do not allow the exclusion of implied warranties, so the above exclusion may not apply to you. If you have any questions about this legal notice, please contact info@chaseridley.com</p>
