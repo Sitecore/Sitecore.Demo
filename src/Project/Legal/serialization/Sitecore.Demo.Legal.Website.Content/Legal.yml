@@ -27,7 +27,7 @@ Languages:
       Value: (626) 397-5000
     - ID: 02115632-fe1e-4b3d-9ad4-a4ddf1f782f0
       Hint: Copyright
-      Value: Copyright 2015 Sitecore Legal Services
+      Value: "Please read our <a href=\"~/link.aspx?_id=291E554415F0429294AECA7FABAC3858&_z=z\">Legal Notice</a> and our <a href=\"~/link.aspx?_id=61DEBA6DA8A94DDB83E5448AC46AC289&_z=z\">Privacy Policy</a>. Copyright 2016 Sitecore Legal Services"
     - ID: 12537182-f35c-403f-afb5-747d55c450b8
       Hint: ShowInMenu
       Value: 1

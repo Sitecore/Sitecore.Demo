@@ -18,6 +18,15 @@ Languages:
             <r uid="{129F93B4-E5D3-4A0A-AAA9-380477AEA01C}" p:before="r[@uid='{0A7E40C8-90B6-4CB1-AC31-55F51319C321}']" s:ds="{087838F6-E315-4A5F-AEC8-00B5B85E9BFB}" s:id="{8B28417B-A5B3-44F1-BFCC-FE1D907336E7}" s:ph="/page-layout/page-header">
               <rls>
                 <ruleset>
+                  <rule uid="{2E0A3165-16E0-4CBA-A1E2-617E31111826}" s:name="Webinar Info Goal">
+                    <conditions>
+                      <condition uid="909ED87594054CC29B33CFA53FD76111" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{7E113DEF-BA08-4D12-A3A4-822BC93518CB}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
+                    </conditions>
+                    <actions>
+                      <action uid="CF089DE93D5044908CD635AEBE18D3E1" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{A9B002E1-963F-4F35-B6DB-14A8D4BF171A}" />
+                      <action uid="D054FA60EA87413EA3452D9282A23F90" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{72A00C8B-EAF3-4A4B-9B04-E3BFE7EE0A85}" />
+                    </actions>
+                  </rule>
                   <rule uid="{AF55C3F4-4F9E-4C5D-9ABE-E4C0682B9C51}" s:name="Lucas Lawyer">
                     <conditions>
                       <condition uid="AFEC4CBC8A1E4B5C8E0B47F9A78B8459" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Legal Persona" s:PatternName="Lucas the Lawyer" />

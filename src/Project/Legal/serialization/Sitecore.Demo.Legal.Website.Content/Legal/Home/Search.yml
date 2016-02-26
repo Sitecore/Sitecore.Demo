@@ -5,6 +5,9 @@ Template: d46b40f1-ea2e-40e5-8e8c-2b329e22c8d3
 Path: /sitecore/content/Legal/Home/Search
 DB: master
 SharedFields:
+- ID: 5585a30d-b115-4753-93ce-422c3455deb2
+  Hint: ShowInNavigation
+  Value: 
 - ID: cd904125-3ae5-4709-9e6d-71473c5d5007
   Hint: Root
   Value: {6EB0F80B-A1D5-40E0-A472-9308B24228B5}
