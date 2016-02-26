@@ -38,7 +38,7 @@ Languages:
       Value: |
         <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
           <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-            <r uid="{6CCDF76F-8137-4051-AE37-E40B7E04D24E}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:ds="" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:par="" s:ph="/page-layout/section/col-narrow-1">
+            <r uid="{6CCDF76F-8137-4051-AE37-E40B7E04D24E}" p:before="r[@uid='{C533D584-623F-4F1D-AE27-F70ADCBAB8D1}']" s:ds="" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:par="" s:ph="/page-layout/section/col-narrow-1">
               <rls>
                 <ruleset>
                   <rule uid="{C57D51F2-038A-456D-969F-BB702D49835C}" s:name="Google Ad">
@@ -79,6 +79,7 @@ Languages:
                 </ruleset>
               </rls>
             </r>
+            <r uid="{C533D584-623F-4F1D-AE27-F70ADCBAB8D1}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:ds="{F84917ED-9ACA-4A6F-B65F-00E6B209D371}" s:id="{EBB6DC33-F281-49BE-B273-29ECCD6085A8}" s:ph="/page-layout/section/col-narrow-1" />
             <r uid="{B97CD8A8-663A-4AD1-9D60-DD7D76C8E654}" s:par="FormID={8952B4B4-1B96-49A0-ADC1-A7004C524C72}&amp;ReadQueryString" s:ph="/page-layout/section/col-wide-1" />
           </d>
         </r>
