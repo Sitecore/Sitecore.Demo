@@ -15,6 +15,80 @@ Languages:
       Value: |
         <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
           <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <p uid="{B3F20F41-983B-47C8-AE5F-B9D42A29CE62}" p:before="p[@uid='{7E36C80C-FB8B-44FB-A4B8-E76885977023}']" s:key="/page-layout/section_d9a0f082-d088-4f6a-9277-20b8688c8420/col-narrow-1_05bd4e21-defd-4051-9057-19ce6bdc5d37" s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-1" />
+            <p uid="{7E36C80C-FB8B-44FB-A4B8-E76885977023}" p:before="p[@uid='{E5BFCCB1-AAE6-4C57-A3FF-5E9035F5A72F}']" s:key="/page-layout/section_d9a0f082-d088-4f6a-9277-20b8688c8420/col-narrow-2_05bd4e21-defd-4051-9057-19ce6bdc5d37" s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-2" />
+            <p uid="{E5BFCCB1-AAE6-4C57-A3FF-5E9035F5A72F}" p:before="p[@uid='{A892E901-FCF5-4770-9F50-6DAB0E227AFE}']" s:key="/page-layout/section_d9a0f082-d088-4f6a-9277-20b8688c8420/col-narrow-3_05bd4e21-defd-4051-9057-19ce6bdc5d37" s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-3" />
+            <p uid="{A892E901-FCF5-4770-9F50-6DAB0E227AFE}" p:before="p[@uid='{69894770-291D-481D-BDDD-9F9D6BB91E56}']" s:key="/page-layout/section_d9a0f082-d088-4f6a-9277-20b8688c8420/col-narrow-4_05bd4e21-defd-4051-9057-19ce6bdc5d37" s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-4" />
+            <p uid="{69894770-291D-481D-BDDD-9F9D6BB91E56}" p:before="p[@uid='{03462B91-B8D0-462B-92DD-F57AB45093D4}']" s:key="/page-layout/section_d9a0f082-d088-4f6a-9277-20b8688c8420/col-narrow-5_05bd4e21-defd-4051-9057-19ce6bdc5d37" s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-5" />
+            <p uid="{03462B91-B8D0-462B-92DD-F57AB45093D4}" p:before="r[@uid='{1FA1CF72-DE43-4267-BB93-5C4E6F0C3479}']" s:key="/page-layout/section_d9a0f082-d088-4f6a-9277-20b8688c8420/col-narrow-6_05bd4e21-defd-4051-9057-19ce6bdc5d37" s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-6" />
+            <r uid="{1FA1CF72-DE43-4267-BB93-5C4E6F0C3479}" p:before="r[@uid='{4FB02656-330F-428D-A97E-B0B4DD5C8756}']" s:ds="{F84917ED-9ACA-4A6F-B65F-00E6B209D371}" s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}" s:ph="/page-layout/section_d9a0f082-d088-4f6a-9277-20b8688c8420/col-narrow-6_05bd4e21-defd-4051-9057-19ce6bdc5d37" />
+            <r uid="{4FB02656-330F-428D-A97E-B0B4DD5C8756}" p:before="r[@uid='{96130BA1-34EB-4291-A800-8B31E08809EE}']" s:ds="{17F0B1C7-0D17-4039-962D-6B5894DEF4DF}" s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}" s:ph="/page-layout/section_d9a0f082-d088-4f6a-9277-20b8688c8420/col-narrow-5_05bd4e21-defd-4051-9057-19ce6bdc5d37" />
+            <r uid="{96130BA1-34EB-4291-A800-8B31E08809EE}" p:before="r[@uid='{9A372217-6F97-4F4A-95CD-405D641D2DFB}']" s:ds="{1BEE7175-8126-4F1F-B0D3-1C0C3879795D}" s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}" s:ph="/page-layout/section_d9a0f082-d088-4f6a-9277-20b8688c8420/col-narrow-4_05bd4e21-defd-4051-9057-19ce6bdc5d37" />
+            <r uid="{9A372217-6F97-4F4A-95CD-405D641D2DFB}" p:before="r[@uid='{19B60A0D-419C-4027-837A-4B0554952FE7}']" s:ds="{C9BFB6A6-5B20-42EF-82FD-E79CEC01CC80}" s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}" s:ph="/page-layout/section_d9a0f082-d088-4f6a-9277-20b8688c8420/col-narrow-3_05bd4e21-defd-4051-9057-19ce6bdc5d37" />
+            <r uid="{19B60A0D-419C-4027-837A-4B0554952FE7}" p:before="r[@uid='{DFAFC9C6-788B-475F-B8AF-E85FE8624A70}']" s:ds="{3D1C0597-EB53-4216-BA7C-215624C3A641}" s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}" s:ph="/page-layout/section_d9a0f082-d088-4f6a-9277-20b8688c8420/col-narrow-2_05bd4e21-defd-4051-9057-19ce6bdc5d37" />
+            <r uid="{DFAFC9C6-788B-475F-B8AF-E85FE8624A70}" p:before="r[@uid='{05BD4E21-DEFD-4051-9057-19CE6BDC5D37}']" s:ds="{B7264CE2-345E-4760-A3A8-619435E65A89}" s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}" s:ph="/page-layout/section_d9a0f082-d088-4f6a-9277-20b8688c8420/col-narrow-1_05bd4e21-defd-4051-9057-19ce6bdc5d37" />
+            <r uid="{05BD4E21-DEFD-4051-9057-19CE6BDC5D37}" p:before="r[@uid='{6EC8C01E-0C20-4F56-A790-36F98CF73D67}']" s:id="{29270EFB-34BD-4472-B799-76E6D7D6705C}" s:ph="/page-layout/section_d9a0f082-d088-4f6a-9277-20b8688c8420" />
+            <r uid="{6EC8C01E-0C20-4F56-A790-36F98CF73D67}" p:before="r[@uid='{3A792DA1-2825-420E-9655-1DFC7BA9A4E7}']" s:ds="{8235F890-E581-4F79-8ACF-B04F90CCC0DD}" s:id="{BDD730EB-F808-4C65-B94A-D2F03672EAFB}" s:ph="/page-layout/section_fc377b4d-de95-4116-aa74-8ba49b88dcc7/col-narrow-3_c3fd7aa3-f664-44ac-996b-c250e72625d7" />
+            <r uid="{3A792DA1-2825-420E-9655-1DFC7BA9A4E7}" p:before="r[@uid='{1A80E463-C1E4-47F0-B351-E1A15357DA81}']" s:ds="{2AE21DEF-82EC-403E-A8A8-16761CF85995}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/section_fc377b4d-de95-4116-aa74-8ba49b88dcc7/col-narrow-2_c3fd7aa3-f664-44ac-996b-c250e72625d7">
+              <rls>
+                <ruleset>
+                  <rule uid="{6F922DE6-06A7-40EC-AF12-014367A6CC8C}" s:name="Social White Paper Goal">
+                    <conditions>
+                      <condition uid="9BE9869D51D7414FA6911BE52082E2C0" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{A5F88906-B6FC-4A39-A736-667533386E68}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
+                    </conditions>
+                    <actions>
+                      <action uid="39847F01290943148DC6E4ED02A267D4" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{9AED814E-4DBF-4592-BEBD-DB03776AFA63}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="08BAFCC9C8884E53A79CC2A1E085370F" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action uid="E7000E993A8447D681A71B570ED759E5" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{2AE21DEF-82EC-403E-A8A8-16761CF85995}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r uid="{1A80E463-C1E4-47F0-B351-E1A15357DA81}" p:before="r[@uid='{129F93B4-E5D3-4A0A-AAA9-380477AEA01C}']" s:ds="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/section_fc377b4d-de95-4116-aa74-8ba49b88dcc7/col-narrow-1_c3fd7aa3-f664-44ac-996b-c250e72625d7">
+              <rls>
+                <ruleset>
+                  <rule uid="{783B5D2E-91DF-45D4-A628-6EE4554B3626}" s:name="Download Goal">
+                    <conditions>
+                      <condition uid="36D29997D7A047D6B52787D19A4CADD7" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{2036D3C2-9E84-44D2-A9F2-264108E6236D}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
+                    </conditions>
+                    <actions>
+                      <action uid="2C81702B232F4D2698E19A902FB60F7C" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{9AED814E-4DBF-4592-BEBD-DB03776AFA63}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{587DBD3F-D95A-4C9B-A66A-D5E50D2A378F}" s:name="Register Goal">
+                    <conditions>
+                      <condition uid="9DB479E2E9FE4C94A606DE2B843BC0C7" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{95F2499A-DC5E-4CE1-B45C-0CA42BF239FB}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
+                    </conditions>
+                    <actions>
+                      <action uid="25656BE9BB904D278B29502CD62AADFB" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{BEBB2420-28F4-4209-A5B7-D2A46647F43D}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{09D74313-C409-404B-BA5C-C01770CC146A}" s:name="More Info Goal">
+                    <conditions>
+                      <condition uid="32026271339240A8950FCAA63CD37370" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{7E113DEF-BA08-4D12-A3A4-822BC93518CB}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
+                    </conditions>
+                    <actions>
+                      <action uid="B0AD6566D44B4637B7A2DED2F639B77A" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{72A00C8B-EAF3-4A4B-9B04-E3BFE7EE0A85}" />
+                    </actions>
+                  </rule>
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                    <conditions>
+                      <condition uid="62CF0F07CADA48728603F19E543A698C" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action uid="F79C6FC18D774F21AA94EC6A419612DC" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r uid="{129F93B4-E5D3-4A0A-AAA9-380477AEA01C}" p:before="r[@uid='{0A7E40C8-90B6-4CB1-AC31-55F51319C321}']" s:ds="{087838F6-E315-4A5F-AEC8-00B5B85E9BFB}" s:id="{8B28417B-A5B3-44F1-BFCC-FE1D907336E7}" s:ph="/page-layout/page-header">
               <rls>
                 <ruleset>
@@ -58,68 +132,8 @@ Languages:
             </r>
             <r uid="{0A7E40C8-90B6-4CB1-AC31-55F51319C321}" p:before="r[@uid='{C3FD7AA3-F664-44AC-996B-C250E72625D7}']" s:ds="" s:id="{A2216CA7-B205-4042-A345-72117D0086C3}" s:par="ContainerIsFluid&amp;UseStaticPlaceholderNames" s:ph="page-layout" />
             <r uid="{C3FD7AA3-F664-44AC-996B-C250E72625D7}" p:before="r[@uid='{FC377B4D-DE95-4116-AA74-8BA49B88DCC7}']" s:ds="" s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}" s:par="ContainerIsFluid&amp;UseStaticPlaceholderNames" s:ph="/page-layout/section_fc377b4d-de95-4116-aa74-8ba49b88dcc7" />
-            <r uid="{FC377B4D-DE95-4116-AA74-8BA49B88DCC7}" p:before="r[@uid='{3A792DA1-2825-420E-9655-1DFC7BA9A4E7}']" s:id="{D201A487-5099-48A1-8189-55944F70C6CB}" s:ph="page-layout" />
-            <r uid="{3A792DA1-2825-420E-9655-1DFC7BA9A4E7}" p:before="r[@uid='{1A80E463-C1E4-47F0-B351-E1A15357DA81}']" s:ds="{2AE21DEF-82EC-403E-A8A8-16761CF85995}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/section_fc377b4d-de95-4116-aa74-8ba49b88dcc7/col-narrow-3_c3fd7aa3-f664-44ac-996b-c250e72625d7">
-              <rls>
-                <ruleset>
-                  <rule uid="{6F922DE6-06A7-40EC-AF12-014367A6CC8C}" s:name="Social White Paper Goal">
-                    <conditions>
-                      <condition uid="9BE9869D51D7414FA6911BE52082E2C0" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{A5F88906-B6FC-4A39-A736-667533386E68}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
-                    </conditions>
-                    <actions>
-                      <action uid="39847F01290943148DC6E4ED02A267D4" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{9AED814E-4DBF-4592-BEBD-DB03776AFA63}" />
-                    </actions>
-                  </rule>
-                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
-                    <conditions>
-                      <condition uid="08BAFCC9C8884E53A79CC2A1E085370F" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
-                    </conditions>
-                    <actions>
-                      <action uid="E7000E993A8447D681A71B570ED759E5" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{2AE21DEF-82EC-403E-A8A8-16761CF85995}" />
-                    </actions>
-                  </rule>
-                </ruleset>
-              </rls>
-            </r>
-            <r uid="{1A80E463-C1E4-47F0-B351-E1A15357DA81}" p:before="r[@uid='{9ED6ABF7-4549-4BA6-9651-842E793E3C9C}']" s:ds="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/section_fc377b4d-de95-4116-aa74-8ba49b88dcc7/col-narrow-2_c3fd7aa3-f664-44ac-996b-c250e72625d7">
-              <rls>
-                <ruleset>
-                  <rule uid="{783B5D2E-91DF-45D4-A628-6EE4554B3626}" s:name="Download Goal">
-                    <conditions>
-                      <condition uid="36D29997D7A047D6B52787D19A4CADD7" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{2036D3C2-9E84-44D2-A9F2-264108E6236D}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
-                    </conditions>
-                    <actions>
-                      <action uid="2C81702B232F4D2698E19A902FB60F7C" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{9AED814E-4DBF-4592-BEBD-DB03776AFA63}" />
-                    </actions>
-                  </rule>
-                  <rule uid="{587DBD3F-D95A-4C9B-A66A-D5E50D2A378F}" s:name="Register Goal">
-                    <conditions>
-                      <condition uid="9DB479E2E9FE4C94A606DE2B843BC0C7" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{95F2499A-DC5E-4CE1-B45C-0CA42BF239FB}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
-                    </conditions>
-                    <actions>
-                      <action uid="25656BE9BB904D278B29502CD62AADFB" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{BEBB2420-28F4-4209-A5B7-D2A46647F43D}" />
-                    </actions>
-                  </rule>
-                  <rule uid="{09D74313-C409-404B-BA5C-C01770CC146A}" s:name="More Info Goal">
-                    <conditions>
-                      <condition uid="32026271339240A8950FCAA63CD37370" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{7E113DEF-BA08-4D12-A3A4-822BC93518CB}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
-                    </conditions>
-                    <actions>
-                      <action uid="B0AD6566D44B4637B7A2DED2F639B77A" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{72A00C8B-EAF3-4A4B-9B04-E3BFE7EE0A85}" />
-                    </actions>
-                  </rule>
-                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
-                    <conditions>
-                      <condition uid="62CF0F07CADA48728603F19E543A698C" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
-                    </conditions>
-                    <actions>
-                      <action uid="F79C6FC18D774F21AA94EC6A419612DC" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" />
-                    </actions>
-                  </rule>
-                </ruleset>
-              </rls>
-            </r>
-            <r uid="{9ED6ABF7-4549-4BA6-9651-842E793E3C9C}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:ds="{8235F890-E581-4F79-8ACF-B04F90CCC0DD}" s:id="{BDD730EB-F808-4C65-B94A-D2F03672EAFB}" s:ph="/page-layout/section_fc377b4d-de95-4116-aa74-8ba49b88dcc7/col-narrow-1_c3fd7aa3-f664-44ac-996b-c250e72625d7" />
+            <r uid="{FC377B4D-DE95-4116-AA74-8BA49B88DCC7}" p:before="r[@uid='{D9A0F082-D088-4F6A-9277-20B8688C8420}']" s:id="{D201A487-5099-48A1-8189-55944F70C6CB}" s:ph="page-layout" />
+            <r uid="{D9A0F082-D088-4F6A-9277-20B8688C8420}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:ds="" s:id="{1149A3C7-C69A-4E6B-A6C3-32687EC2F8D4}" s:par="UseStaticPlaceholderNames&amp;Type=bg-primary&amp;Media&amp;Parallax" s:ph="page-layout" />
           </d>
         </r>
     - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
