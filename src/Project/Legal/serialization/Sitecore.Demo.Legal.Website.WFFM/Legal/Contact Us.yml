@@ -1,0 +1,66 @@
+﻿---
+ID: 8fa6f955-75ef-471b-8458-cc3859bd20d5
+Parent: 77c7e4f0-1787-431e-827f-4cd216d5b9ac
+Template: ffb1da32-2764-47db-83b0-95b843546a7e
+Path: /sitecore/system/Modules/Web Forms for Marketers/Legal/Contact Us
+DB: master
+SharedFields:
+- ID: 3e2bbfc4-5668-47d2-a4fd-67773d155112
+  Hint: Is Ajax Mvc Form
+  Value: 
+- ID: 46fb324a-9741-43bd-a0c9-5081a39d40aa
+  Hint: Show Introduction
+  Value: 0
+- ID: a42052f7-6c18-424a-a2a1-7a72054cb1a6
+  Hint: Show Title
+  Value: 1
+- ID: af08c32b-f101-44a4-baae-677383e8eb02
+  Hint: Check Actions
+  Value: |
+    <?xml version="1.0" encoding="utf-16"?>
+    <li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <g id="{10FE9225-5E6C-4896-9CD2-880D6D48C4CC}" displayName="Check Actions">
+        <li id="{2D5B5061-747A-4477-BD41-E746EAFEB231}" unicid="89F18F7C96F4469A9470057CE421A115">
+          <parameters />
+        </li>
+      </g>
+    </li>
+- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <event name="Submit Success Event" id="{2FF08489-2A47-4F04-8D8E-0C25A294B2C4}" />
+      <event name="Form Submit" id="{A2C2CF51-9360-4084-9BA0-1A15F1A41096}" />
+      <event name="Contact Us Form Completed" id="{DA59AA80-EF11-47E8-9E77-2FD0ED06D1F9}" />
+    </tracking>
+- ID: faeacd39-b059-4f46-bec4-74ba468a97b8
+  Hint: Show Footer
+  Value: 0
+Languages:
+- Language: en
+  Fields:
+  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+    Hint: __Display name
+    Value: Contact Us
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160301T172936Z
+    - ID: 4e2dc894-59a2-49bb-a49c-562f611169a2
+      Hint: Success Message
+      Value: Thank you for your message. We will get back to you as soon as we can.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 86d6a401-5a20-49c9-a2f8-0312398ee946
+      Hint: Title
+      Value: Contact Us
+    - ID: 9c4c1994-5140-49d3-bad7-db997816f816
+      Hint: Success Page
+      Value: "<link id=\"{00000000-0000-0000-0000-000000000000}\" />"
+    - ID: b71296b6-32b9-4703-a8cb-fb7437271103
+      Hint: Name
+      Value: Send Message
