@@ -1,0 +1,23 @@
+﻿---
+ID: 1a3e8b69-309b-48f8-bbbd-15fa276b14db
+Parent: 00477629-830c-4bcb-8899-4a3f15b145b1
+Template: c7d9d293-4ef8-4380-8e10-c4632e729f39
+Path: /sitecore/content/Legal/Global/Teasers/Webinar Series/Protecting Intellectual Property
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0f6b5546-e0ab-4487-81de-640c1aa1b65b
+      Hint: TeaserImage
+      Value: "<image mediaid=\"{BD0249B9-2E82-4DB8-8C6C-511CBEB34E4C}\" />"
+    - ID: 13d97a52-7c4e-407c-960d-fadde8a3c1b1
+      Hint: TeaserSummary
+      Value: There are many differing rules throughout the world for patents, copyrights, and fair usage. This webinar introduces you to the pitfalls of registering your work and highlights the countries where you might encounter problems. 
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160229T164901Z
+    - ID: 4a59d072-5b41-4a79-a157-2b2ccac10f2b
+      Hint: TeaserTitle
+      Value: Webinar: Protecting Intellectual Propery

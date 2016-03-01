@@ -1,0 +1,14 @@
+﻿---
+ID: 8db9da4c-9c21-441e-99ab-2a091fc0e8ba
+Parent: 45a5da34-c210-42af-a3f7-3169e11a8980
+Template: adb6ca4f-03ef-4f47-b9ac-9ce2ba53ff97
+Path: /sitecore/content/Legal/Home/News/2016/03/01/10
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160301T103510Z

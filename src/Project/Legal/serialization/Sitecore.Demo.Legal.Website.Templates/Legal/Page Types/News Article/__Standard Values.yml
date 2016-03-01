@@ -61,6 +61,9 @@ Languages:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       Hint: __Created
       Value: 20150824T175451Z
+    - ID: 3437eaac-6ee8-460b-a33d-da1f714b5a93
+      Hint: NewsImage
+      Value: "<image mediaid=\"{3F3FC965-D514-4F99-8CBE-0BD37237E65A}\" />"
     - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
       Hint: BrowserTitle
       Value: $name

@@ -8,6 +8,9 @@ SharedFields:
 - ID: 3e2bbfc4-5668-47d2-a4fd-67773d155112
   Hint: Is Ajax Mvc Form
   Value: 
+- ID: 46fb324a-9741-43bd-a0c9-5081a39d40aa
+  Hint: Show Introduction
+  Value: 0
 - ID: 5b891b54-4fce-489e-a7e6-841d92e9859a
   Hint: Save Form Data To Storage
   Value: 
@@ -63,6 +66,12 @@ SharedFields:
       <event name="Invalid Field Syntax" id="{844BBD40-91F6-42CE-8823-5EA4D089ECA2}" />
       <event name="More Info Legal Webinar" id="{7E113DEF-BA08-4D12-A3A4-822BC93518CB}" />
     </tracking>
+- ID: d755de87-9c62-4eb3-83dc-2293784a3a3f
+  Hint: Success Mode
+  Value: {F4D50806-6B89-4F2D-89FE-F77FC0A07D48}
+- ID: faeacd39-b059-4f46-bec4-74ba468a97b8
+  Hint: Show Footer
+  Value: 0
 Languages:
 - Language: de-DE
   Fields:
@@ -111,6 +120,9 @@ Languages:
       Value: |
         		<p>The text you enter here is displayed at the end of the form.</p>
         
+    - ID: 9c4c1994-5140-49d3-bad7-db997816f816
+      Hint: Success Page
+      Value: "<link url=\"/sitecore/content/Legal/Home/Landing Pages/Taxation Webinar/Thank You\" id=\"{B71088CD-0CB3-4C66-A066-B819312CB7ED}\" />"
     - ID: b71296b6-32b9-4703-a8cb-fb7437271103
       Hint: Name
       Value: Send Me Information

@@ -94,7 +94,10 @@ Languages:
                 <ruleset>
                   <rule uid="{2E0A3165-16E0-4CBA-A1E2-617E31111826}" s:name="Webinar Info Goal">
                     <conditions>
-                      <condition uid="909ED87594054CC29B33CFA53FD76111" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{7E113DEF-BA08-4D12-A3A4-822BC93518CB}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
+                      <and uid="13F95867E9F748DA9453229E3703BBBC">
+                        <condition uid="909ED87594054CC29B33CFA53FD76111" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{7E113DEF-BA08-4D12-A3A4-822BC93518CB}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
+                        <condition uid="3C34D8AE6BD54624B0E1F1F40C70800C" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:except="true" s:GoalId="{95F2499A-DC5E-4CE1-B45C-0CA42BF239FB}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
+                      </and>
                     </conditions>
                     <actions>
                       <action uid="CF089DE93D5044908CD635AEBE18D3E1" s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}" s:RenderingItem="{A9B002E1-963F-4F35-B6DB-14A8D4BF171A}" />

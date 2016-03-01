@@ -1,0 +1,53 @@
+﻿---
+ID: b71088cd-0cb3-4c66-a066-b819312cb7ed
+Parent: db743e29-8335-41e2-a3f5-4875f6b49411
+Template: 9917c92b-0f13-4f96-b50b-84c874e25783
+Path: /sitecore/content/Legal/Home/Landing Pages/Taxation Webinar/Thank You
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{39DB80E5-BD4E-4809-ACDC-A75AD5D15CEB}" p:before="r[@uid='{AD9DC6CD-27E7-4E44-8964-D8AF3BDFBEBF}']" s:ds="{8235F890-E581-4F79-8ACF-B04F90CCC0DD}" s:id="{BDD730EB-F808-4C65-B94A-D2F03672EAFB}" s:ph="/page-layout/section/col-narrow-1" />
+            <r uid="{AD9DC6CD-27E7-4E44-8964-D8AF3BDFBEBF}" p:before="r[@uid='{A65C0604-BE85-4247-B359-281B72D4372D}']" s:ds="{1A3E8B69-309B-48F8-BBBD-15FA276B14DB}" s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}" s:ph="/page-layout/section/section-narrow/col-wide-2_35324f54-4892-4052-8f47-e552d1e8b5d6" />
+            <r uid="{A65C0604-BE85-4247-B359-281B72D4372D}" p:before="r[@uid='{35324F54-4892-4052-8F47-E552D1E8B5D6}']" s:ds="{DE787636-D111-4B9B-BC4A-35CDD3A2C1A2}" s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}" s:ph="/page-layout/section/section-narrow/col-wide-1_35324f54-4892-4052-8f47-e552d1e8b5d6" />
+            <r uid="{35324F54-4892-4052-8F47-E552D1E8B5D6}" p:before="r[@uid='{70D4FE16-8241-4E36-8B00-7481C27763BC}']" s:id="{50F6052C-4FC2-4AA6-9399-FFC6055CF19F}" s:ph="/page-layout/section/section-narrow" />
+            <r uid="{70D4FE16-8241-4E36-8B00-7481C27763BC}" p:before="r[@uid='{34BE0A78-C74C-4CDE-82B9-42C03E85EC75}']" s:ds="{F84917ED-9ACA-4A6F-B65F-00E6B209D371}" s:id="{EBB6DC33-F281-49BE-B273-29ECCD6085A8}" s:ph="/page-layout/section_6d720859-144a-4afd-a8bd-1653eae90cd7/col-narrow-3_c05aef62-1841-48d5-9f25-996fbc27cc33" />
+            <r uid="{34BE0A78-C74C-4CDE-82B9-42C03E85EC75}" p:before="r[@uid='{649AE820-68C7-4225-ADA6-EDDFF939982E}']" s:ds="{C9BFB6A6-5B20-42EF-82FD-E79CEC01CC80}" s:id="{EBB6DC33-F281-49BE-B273-29ECCD6085A8}" s:ph="/page-layout/section_6d720859-144a-4afd-a8bd-1653eae90cd7/col-narrow-2_c05aef62-1841-48d5-9f25-996fbc27cc33" />
+            <r uid="{649AE820-68C7-4225-ADA6-EDDFF939982E}" p:before="r[@uid='{C05AEF62-1841-48D5-9F25-996FBC27CC33}']" s:ds="{17F0B1C7-0D17-4039-962D-6B5894DEF4DF}" s:id="{EBB6DC33-F281-49BE-B273-29ECCD6085A8}" s:ph="/page-layout/section_6d720859-144a-4afd-a8bd-1653eae90cd7/col-narrow-1_c05aef62-1841-48d5-9f25-996fbc27cc33" />
+            <r uid="{C05AEF62-1841-48D5-9F25-996FBC27CC33}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}" s:ph="/page-layout/section_6d720859-144a-4afd-a8bd-1653eae90cd7" />
+            <r uid="{6D720859-144A-4AFD-A8BD-1653EAE90CD7}" p:before="r[@uid='{189D7C2D-4A94-40BF-8FAF-AF8A81AA81CB}']" s:ds="" s:id="{1149A3C7-C69A-4E6B-A6C3-32687EC2F8D4}" s:par="UseStaticPlaceholderNames&amp;Type=bg-primary&amp;Media&amp;Parallax" s:ph="page-layout" />
+          </d>
+        </r>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160229T152359Z
+    - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
+      Hint: Image
+      Value: "<image mediaid=\"{D0D3F86D-A071-4D26-A76C-1768B0109646}\" />"
+    - ID: ac3fd4db-8266-476d-9635-67814d91e901
+      Hint: Summary
+      Value: Our servers are processing your request now. As soon as your request has been processed, we will send a confirmation email to the address you supplied.
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      Hint: Title
+      Value: Thank You
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Hint: BrowserTitle
+      Value: Thank You For Requesting Info
+    - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
+      Hint: Body
+      Value: |
+        <p>We know you have in interest in tax webinars but there is much more to our site than that.</p>
+        <p>Feel free to explore our site in any way you wish. However, if you would prefer something more structured, then we recommend the following.</p>
+        <p>Explore our other free and paid for webinars in the links on this page.</p>
+        <p>See the section of our site that specialises in <a href="~/link.aspx?_id=4793029852C843708FFC425648A1D627&amp;_z=z">corporate law </a>- including corporate tax law.</p>
+        <p>Look at our key staff on this page who specialise in corporate law and contact them if you have any questions.</p>
+        <p>Read our related news items on this page or explore all news items on our news page.</p>
+        <p>If you have any other questions, please do not hesitate to contact us using our contact form.</p>

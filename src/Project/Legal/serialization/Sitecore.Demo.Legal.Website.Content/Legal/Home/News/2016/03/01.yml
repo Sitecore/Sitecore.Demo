@@ -1,0 +1,14 @@
+﻿---
+ID: 45a5da34-c210-42af-a3f7-3169e11a8980
+Parent: 769bf79d-f49d-42ee-bc3c-a361bf5034c9
+Template: adb6ca4f-03ef-4f47-b9ac-9ce2ba53ff97
+Path: /sitecore/content/Legal/Home/News/2016/03/01
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160301T103510Z
