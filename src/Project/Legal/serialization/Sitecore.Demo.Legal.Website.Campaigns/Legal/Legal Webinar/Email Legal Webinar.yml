@@ -5,6 +5,9 @@ Template: 94fd1606-139e-46ee-86ff-bc5bf3c79804
 Path: /sitecore/system/Marketing Control Panel/Campaigns/Legal/Legal Webinar/Email Legal Webinar
 DB: master
 SharedFields:
+- ID: 43aa1c9a-d1be-498a-9841-1def2c2231ba
+  Hint: Select Traffic Type
+  Value: {3E11F7A7-0059-45EF-95D9-3B03425B3BAF}
 - ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
   Hint: __Workflow
   Value: {689E2994-4656-4C58-9112-7826CB46EE69}
@@ -38,3 +41,6 @@ Languages:
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
       Hint: __Created by
       Value: 
+    - ID: ffaea943-df50-4f11-94ed-4690418a7d96
+      Hint: Campaign group
+      Value: {AE6FC335-003E-493D-B117-DE1BF465D82A}

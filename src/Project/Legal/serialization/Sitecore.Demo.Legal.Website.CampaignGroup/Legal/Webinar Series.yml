@@ -1,0 +1,14 @@
+﻿---
+ID: ae6fc335-003e-493d-b117-de1bf465d82a
+Parent: 9e800048-95c9-4e94-9033-4110f898deb5
+Template: 7cc96707-325d-4024-9f58-b10ce1f950d1
+Path: /sitecore/system/Marketing Control Panel/Taxonomies/Campaign group/Legal/Webinar Series
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160302T163325Z
