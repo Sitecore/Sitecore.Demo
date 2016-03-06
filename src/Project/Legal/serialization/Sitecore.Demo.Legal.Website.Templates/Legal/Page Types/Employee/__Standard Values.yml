@@ -34,8 +34,7 @@ SharedFields:
         <r id="{907018D8-CC53-4D34-AD67-3FDF0A25832A}" ph="/page-layout/section/col-huge" uid="{565F9960-4E47-4DA4-9406-0A29DD09911F}" />
         <r id="{299FD8EA-2CFD-4A69-9CA4-7EA24CD34A46}" ph="footer" uid="{E2040FB7-4151-456D-9315-5973E4EB4D9D}" />
         <r id="{7DAE9F23-890F-4E06-99A7-CCEDB74D3D8E}" ph="postfooter" uid="{A3BAD4D4-8E21-4B30-8C4C-B04163653D62}" />
-        <r id="{A6CFB41B-C613-4A2B-A5EE-4A374015914D}" ph="page-sidebar" uid="{A1AC1D8A-E47C-4766-8D0F-89BB3BBC9A81}" />
-        <r id="{24D6D94B-FF87-4A6C-9AA0-4CBF21488C05}" ph="page-sidebar" uid="{A1AC1D8A-E47C-4766-8D0F-89BB3BBC9A81}" />
+        <r id="{CED18F24-62C2-445E-B0D9-045E3325297B}" ph="page-sidebar" uid="{20AB9BAA-C112-4567-A701-564423E650D2}" />
       </d>
     </r>
 Languages:

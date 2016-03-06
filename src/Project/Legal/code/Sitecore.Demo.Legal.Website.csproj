@@ -68,6 +68,12 @@
       <HintPath>..\..\..\..\packages\Rainbow.Storage.Yaml.1.1.0\lib\net45\Rainbow.Storage.Yaml.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Sitecore.Foundation.Assets">
+      <HintPath>..\..\..\..\..\Habitat\src\Foundation\Assets\code\bin\Debug\Sitecore.Foundation.Assets.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Foundation.SitecoreExtensions">
+      <HintPath>..\..\..\..\..\Habitat\src\Foundation\SitecoreExtensions\code\bin\Debug\Sitecore.Foundation.SitecoreExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Kernel, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Kernel.dll</HintPath>
