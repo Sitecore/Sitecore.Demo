@@ -1,7 +1,7 @@
 ﻿---
-ID: 493b5e2e-e0a4-4fb4-b4cb-00ac4aae329f
-Parent: eb9bdb69-b821-4d8c-94f2-254cf6823d29
-Template: f0369e1a-9030-4a05-a09c-ef09b664ed27
+ID: "493b5e2e-e0a4-4fb4-b4cb-00ac4aae329f"
+Parent: "eb9bdb69-b821-4d8c-94f2-254cf6823d29"
+Template: "f0369e1a-9030-4a05-a09c-ef09b664ed27"
 Path: /sitecore/content/Legal/Global/Media/We create opportunities
 DB: master
 Languages:
@@ -9,21 +9,21 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20151216T032953Z
-    - ID: 302c9f8d-f703-4f76-a4ab-73d222648232
+    - ID: "302c9f8d-f703-4f76-a4ab-73d222648232"
       Hint: MediaDescription
       Value: |
         <p>We work with you to create opportunities and resolve issues and disputes. We believe in outthinking that leads to better outcomes.</p>
         <p><span>
         We are here to help you.</span></p>
-    - ID: 4ff62b0a-d73b-4436-bea2-023154f2ffc4
+    - ID: "4ff62b0a-d73b-4436-bea2-023154f2ffc4"
       Hint: MediaThumbnail
       Value: "<image mediaid=\"{04DAD0FD-DB66-4070-881F-17264CA257E1}\" />"
-    - ID: 63dda48b-b0cb-45a7-9a1b-b26ddb41009b
+    - ID: "63dda48b-b0cb-45a7-9a1b-b26ddb41009b"
       Hint: MediaTitle
-      Value: We create opportunities
-    - ID: 9f51dead-ad6e-41c2-9759-7be17eb474a4
+      Value: Create Opportunities
+    - ID: "9f51dead-ad6e-41c2-9759-7be17eb474a4"
       Hint: MediaImage
       Value: "<image mediaid=\"{C084A0E0-6F6F-45B2-9E42-F618CCF629FC}\" alt=\"\" height=\"330\" width=\"961\" hspace=\"\" vspace=\"\" />"
