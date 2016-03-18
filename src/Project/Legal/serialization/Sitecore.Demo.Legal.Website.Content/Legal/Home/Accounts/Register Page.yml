@@ -1,0 +1,33 @@
+﻿---
+ID: "3c44cc07-77b9-4394-a337-1c9966064748"
+Parent: "ac931f1e-a59a-4658-ae45-bffe9bdd4ef4"
+Template: "8203c85c-e9ca-4aa3-8345-032ef9eecbb4"
+Path: /sitecore/content/Legal/Home/Accounts/Register Page
+DB: master
+SharedFields:
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
+      Hint: OpenGraphTitle
+      Value: Register Page
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Register Page
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160318T101434Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Please register with our site. All you need is a valid email address.
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Register Page
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Register Page

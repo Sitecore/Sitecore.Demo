@@ -1,0 +1,14 @@
+﻿---
+ID: "34712652-4df9-4d20-9ca6-a1549cf0b34e"
+Parent: "8a8f47b2-b3b7-4697-ada4-14d06e2a56a1"
+Template: "ac7394d5-2aa7-4fdb-a7d8-b1b87f9fa661"
+Path: /sitecore/content/Legal/Global/Links/Accounts
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160318T101543Z

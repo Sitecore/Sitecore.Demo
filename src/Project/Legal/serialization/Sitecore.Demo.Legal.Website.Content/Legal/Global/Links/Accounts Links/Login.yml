@@ -1,0 +1,20 @@
+﻿---
+ID: "8f7523ed-c492-4943-a725-834005461471"
+Parent: "34712652-4df9-4d20-9ca6-a1549cf0b34e"
+Template: "390333c8-751b-4332-84a3-6360b969a19f"
+Path: /sitecore/content/Legal/Global/Links/Accounts Links/Login
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Login
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160318T101900Z
+    - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
+      Hint: Link
+      Value: "<link text=\"Login\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{50E54A47-2355-45E8-B6B4-8A268C38A0C1}\" />"

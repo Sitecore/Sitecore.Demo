@@ -1,0 +1,33 @@
+﻿---
+ID: "5656d752-1eb9-4689-93df-7e52066d5515"
+Parent: "ac931f1e-a59a-4658-ae45-bffe9bdd4ef4"
+Template: "948e94a9-5d16-4790-b60b-d3ab4ba26fc3"
+Path: /sitecore/content/Legal/Home/Accounts/Edit Profile Page
+DB: master
+SharedFields:
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
+      Hint: OpenGraphTitle
+      Value: Edit Profile Page
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Edit Profile Page
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160318T101241Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: <p>This page shows the details we store about you. Please use it to update your details.</p>
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Edit Profile Page
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Edit Profile Page

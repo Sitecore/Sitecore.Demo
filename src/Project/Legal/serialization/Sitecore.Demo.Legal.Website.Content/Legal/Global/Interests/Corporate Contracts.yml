@@ -1,0 +1,17 @@
+﻿---
+ID: "658c3bdc-2743-4252-92e2-9f46d2b10339"
+Parent: "144211c0-6e3f-4a9b-8274-60afe4e8ae63"
+Template: "4176bfc2-7814-4fa5-abcf-7fa0714bf05f"
+Path: /sitecore/content/Legal/Global/Interests/Corporate Contracts
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1fbe5200-2c62-4a32-ba84-cffe3cf665d3"
+      Hint: Title
+      Value: Corporate Contracts
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160318T102739Z

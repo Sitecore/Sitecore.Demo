@@ -1,0 +1,17 @@
+﻿---
+ID: "250ac21b-4e97-4fe4-8426-d81744cf9798"
+Parent: "144211c0-6e3f-4a9b-8274-60afe4e8ae63"
+Template: "4176bfc2-7814-4fa5-abcf-7fa0714bf05f"
+Path: /sitecore/content/Legal/Global/Interests/Family Law
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1fbe5200-2c62-4a32-ba84-cffe3cf665d3"
+      Hint: Title
+      Value: Family Law
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160318T102643Z

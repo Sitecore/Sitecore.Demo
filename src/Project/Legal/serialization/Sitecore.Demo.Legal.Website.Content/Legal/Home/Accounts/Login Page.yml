@@ -1,0 +1,27 @@
+﻿---
+ID: "50e54a47-2355-45e8-b6b4-8a268c38a0c1"
+Parent: "ac931f1e-a59a-4658-ae45-bffe9bdd4ef4"
+Template: "4393883a-d15e-4297-b15b-765a0346f2a9"
+Path: /sitecore/content/Legal/Home/Accounts/Login Page
+DB: master
+SharedFields:
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Login Page
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160318T101156Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Please login using your email address and password
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Login Page
