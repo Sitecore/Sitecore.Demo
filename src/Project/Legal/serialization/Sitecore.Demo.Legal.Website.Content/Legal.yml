@@ -46,12 +46,18 @@ Languages:
     - ID: "02115632-fe1e-4b3d-9ad4-a4ddf1f782f0"
       Hint: Copyright
       Value: "Please read our <a href=\"~/link.aspx?_id=291E554415F0429294AECA7FABAC3858&_z=z\">Legal Notice</a> and our <a href=\"~/link.aspx?_id=61DEBA6DA8A94DDB83E5448AC46AC289&_z=z\">Privacy Policy</a>. Copyright 2016 Sitecore Legal Services"
+    - ID: "021aa3f7-206f-4acc-9538-f6d7fe86b168"
+      Hint: InterestFolder
+      Value: "{144211C0-6E3F-4A9B-8274-60AFE4E8AE63}"
     - ID: "12537182-f35c-403f-afb5-747d55c450b8"
       Hint: ShowInMenu
       Value: 1
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20151215T064228Z
+    - ID: "378b7d87-5775-4eb6-86b7-282d5359b1c6"
+      Hint: UserProfile
+      Value: "{14523428-879D-491C-9DF0-1417E82A4311}"
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
@@ -74,4 +80,4 @@ Languages:
       Value: Chase & Ridley Laywers
     - ID: "f07811d3-41e9-440a-9d81-310c1d78bed6"
       Hint: Title
-      Value: Sitecore Legal Services
+      Value: Legal Services
