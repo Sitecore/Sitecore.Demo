@@ -1,21 +1,33 @@
 ﻿---
-ID: b7264ce2-345e-4760-a3a8-619435e65a89
-Parent: ac67d144-7cac-4d7f-a40a-9f800f2c8f7c
-Template: 75e42a73-0ae1-44c5-ac04-c9d5c4568680
+ID: "b7264ce2-345e-4760-a3a8-619435e65a89"
+Parent: "ac67d144-7cac-4d7f-a40a-9f800f2c8f7c"
+Template: "75e42a73-0ae1-44c5-ac04-c9d5c4568680"
 Path: /sitecore/content/Legal/Home/Our Team/Brenda Barkley
 DB: master
 SharedFields:
-- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
   Hint: __Tracking
   Type: Tracking
   Value: |
     <tracking>
-      <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal Persona">
-        <key name="Self-employed" value="0" />
-        <key name="Large Corporate" value="3" />
-        <key name="Legal trade" value="5" />
-        <key name="Personal-Civil" value="1" />
-        <key name="B2B" value="3" />
+      <profile
+        id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}"
+        name="Legal Persona">
+        <key
+          name="Self-employed"
+          value="0" />
+        <key
+          name="Large Corporate"
+          value="3" />
+        <key
+          name="Legal trade"
+          value="5" />
+        <key
+          name="Personal-Civil"
+          value="1" />
+        <key
+          name="B2B"
+          value="3" />
       </profile>
     </tracking>
 Languages:
@@ -23,45 +35,85 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 0cc9785e-54fe-4fae-93e4-d0d2ae75f339
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{9253575D-0F36-43F2-BEBA-32DC0B3D4D57}"
+              p:before="r[@uid='{CF481FA7-82C2-4E3D-A041-310A10932570}']"
+              s:ds="{96A6EC33-2398-4752-AA9E-4A3FDBB6606F}"
+              s:id="{A1AD34DD-535E-47AF-A911-34C57CCC26F6}"
+              s:ph="/footer/section/col-narrow-1_15c81c92-720c-4062-bcc2-7d0fc27a5092" />
+            <r
+              uid="{CF481FA7-82C2-4E3D-A041-310A10932570}"
+              p:before="r[@uid='{747DC836-1880-4420-9083-CF8F212D470A}']"
+              s:ds="{6C120B9D-8923-43F3-A0C3-CC4A8A07FDF4}"
+              s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"
+              s:ph="/footer/section/col-narrow-2_15c81c92-720c-4062-bcc2-7d0fc27a5092" />
+            <r
+              uid="{747DC836-1880-4420-9083-CF8F212D470A}"
+              p:before="r[@uid='{49FD383B-20A7-45E5-B0F1-A1F6B0B9E914}']"
+              s:ds="{FC989D9E-38A7-4279-A5CA-603DCDEA7DA2}"
+              s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"
+              s:ph="/footer/section/col-narrow-3_15c81c92-720c-4062-bcc2-7d0fc27a5092" />
+            <r
+              uid="{49FD383B-20A7-45E5-B0F1-A1F6B0B9E914}"
+              p:before="r[@uid='{15C81C92-720C-4062-BCC2-7D0FC27A5092}']"
+              s:ds="{0BC92115-528D-4784-B9C2-9EB422C0C5CB}"
+              s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"
+              s:ph="/footer/section/col-narrow-4_15c81c92-720c-4062-bcc2-7d0fc27a5092" />
+            <r
+              uid="{15C81C92-720C-4062-BCC2-7D0FC27A5092}"
+              p:before="r[@uid='{07C9FE71-A5E2-4E5F-B276-5F2B73481D44}']"
+              s:id="{DE648E12-A568-4919-802E-A688EBC9B9F3}"
+              s:ph="/footer/section" />
+          </d>
+        </r>
+    - ID: "0cc9785e-54fe-4fae-93e4-d0d2ae75f339"
       Hint: Biography
       Value: |
-        <p style="margin-left: 13.5pt;"><span>Brenda is a shareholder in the firm&rsquo;s corporate law group. Brenda represents businesses from initial formation through all stages of growth, assisting clients in many areas including employment, shareholder and director-level contracts, corporate governance and other company issues. She also counsels clients with purchases and sales of businesses, with an emphasis on mergers and acquisitions and stock purchases across all business verticals. She represents all types of individuals and entities including corporations, general partnerships, limited partnerships, limited liability companies and limited liability partnerships. Brenda is a chair on the Business Law Section of the San Francisco County Bar.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Brenda is a shareholder in the firm’s corporate law group. Brenda represents businesses from initial formation through all stages of growth, assisting clients in many areas including employment, shareholder and director-level contracts, corporate governance and other company issues. She also counsels clients with purchases and sales of businesses, with an emphasis on mergers and acquisitions and stock purchases across all business verticals. She represents all types of individuals and entities including corporations, general partnerships, limited partnerships, limited liability companies and limited liability partnerships. Brenda is a chair on the Business Law Section of the San Francisco County Bar.</span></p>
         <p style="margin-left: 13.5pt;"><span>Brenda also has deep-level experience helping companies in financing to fund both operations and expansion. These financing options have included unsecured loans and loans secured by personal property. Brenda has taught courses and regularly gives webcasts and webinars on the Uniform Commercial Code (UCC).</span></p>
         <p style="margin-left: 13.5pt;"><span>Brenda was named as one of the Top 100 Northern California Super Lawyers in 2012 and 2015, and was selected for inclusion in Northern California Super Lawyers for 2010, 2011, 2012, 2013, 2014, and 2015. She was also named one of the Top 25 San Francisco Super Lawyers for 2013, 2014, and 2015.</span></p>
-    - ID: 0ee2f208-1fee-42fc-8051-6696d49a92bf
+    - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
       Hint: OpenGraphTitle
       Value: Brenda Barkley
-    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
       Hint: NavigationTitle
       Value: Brenda Barkley
-    - ID: 25b4cee3-a61a-4dc3-bb52-775dd509dbb5
+    - ID: "25b4cee3-a61a-4dc3-bb52-775dd509dbb5"
       Hint: Mobile
-      Value: +1-912-555-2287
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Value: "+1-912-555-2287"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160106T172554Z
-    - ID: 26cd59ab-3639-488f-bafd-58d2b217755a
+    - ID: "26cd59ab-3639-488f-bafd-58d2b217755a"
       Hint: Name
       Value: Brenda Barkley
-    - ID: 5978b330-1d46-4065-8751-f74bf17d815e
+    - ID: "5978b330-1d46-4065-8751-f74bf17d815e"
       Hint: Email
       Value: b.barkley@chaseridley.com
-    - ID: 76972fcd-4bb0-4255-864e-077745efdf50
+    - ID: "76972fcd-4bb0-4255-864e-077745efdf50"
       Hint: Title
       Value: Shareholder
-    - ID: 8d0e8ee3-21c4-4ae2-a2f1-53d3f3ebe501
+    - ID: "8d0e8ee3-21c4-4ae2-a2f1-53d3f3ebe501"
       Hint: Telephone
-      Value: +1-912-555-8873
-    - ID: b897023c-15d2-49f3-8974-06fa5fb7ad00
+      Value: "+1-912-555-8873"
+    - ID: "b897023c-15d2-49f3-8974-06fa5fb7ad00"
       Hint: Summary
       Value: Brenda is a shareholder in the firm’s corporate law group. Brenda represents businesses from initial formation through all stages of growth, assisting clients in many areas.
-    - ID: bb7a38c0-323c-4f81-8eb9-288abf7c4638
+    - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
       Hint: MetaDescription
       Value: Brenda Barkley, corporate law, business law, employment law, contracts, corporate governance, mergers and acquisitions, stock purchases, corporations, LLCs, partnerships, financing
-    - ID: c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38
+    - ID: "c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38"
       Hint: Picture
       Value: "<image mediaid=\"{6B15A523-B157-4E93-BBC4-B3E5F089FD4B}\" ></image>"
-    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Brenda Barkley

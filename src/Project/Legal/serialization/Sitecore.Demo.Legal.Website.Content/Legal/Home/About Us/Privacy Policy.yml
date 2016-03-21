@@ -1,51 +1,66 @@
 ﻿---
-ID: 61deba6d-a8a9-4ddb-83e5-448ac46ac289
-Parent: 6eb0f80b-a1d5-40e0-a472-9308b24228b5
-Template: 4b0a2893-4e7b-4248-86a9-dab6da3bb230
-Path: /sitecore/content/Legal/Home/Privacy Policy
+ID: "61deba6d-a8a9-4ddb-83e5-448ac46ac289"
+Parent: "53c59369-b0c7-40b2-b76f-ded99916d309"
+Template: "4b0a2893-4e7b-4248-86a9-dab6da3bb230"
+Path: /sitecore/content/Legal/Home/About Us/Privacy Policy
 DB: master
 SharedFields:
-- ID: 5585a30d-b115-4753-93ce-422c3455deb2
-  Hint: ShowInNavigation
-  Value: 
-- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
-  Value: {E2A658AB-B142-4AD9-AACA-C69200622F44}
+  Value: "{E2A658AB-B142-4AD9-AACA-C69200622F44}"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
       Hint: __Final Renderings
       Type: Layout
       Value: |
-        <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
-          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-            <r uid="{CC0BB38F-50A2-4430-B8C4-CABB7EAE237B}" p:before="r[@uid='{71DBBDD2-81BA-4850-A856-EE0F9CA3EE48}']" s:ds="{0BC92115-528D-4784-B9C2-9EB422C0C5CB}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/section/col-narrow-1" />
-            <r uid="{71DBBDD2-81BA-4850-A856-EE0F9CA3EE48}" p:before="r[@uid='{8FAAA77F-12C4-4B9E-9F5B-56C797709F1C}']" s:ds="{43C5E36C-C606-44D4-981E-0072038BDB02}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/section/col-narrow-1" />
-            <r uid="{8FAAA77F-12C4-4B9E-9F5B-56C797709F1C}" p:before="r[@uid='{565F9960-4E47-4DA4-9406-0A29DD09911F}']" s:ds="{2AE21DEF-82EC-403E-A8A8-16761CF85995}" s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}" s:ph="/page-layout/section/col-narrow-1" />
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{CC0BB38F-50A2-4430-B8C4-CABB7EAE237B}"
+              p:before="r[@uid='{71DBBDD2-81BA-4850-A856-EE0F9CA3EE48}']"
+              s:ds="{0BC92115-528D-4784-B9C2-9EB422C0C5CB}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section/col-narrow-1" />
+            <r
+              uid="{71DBBDD2-81BA-4850-A856-EE0F9CA3EE48}"
+              p:before="r[@uid='{8FAAA77F-12C4-4B9E-9F5B-56C797709F1C}']"
+              s:ds="{43C5E36C-C606-44D4-981E-0072038BDB02}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section/col-narrow-1" />
+            <r
+              uid="{8FAAA77F-12C4-4B9E-9F5B-56C797709F1C}"
+              p:before="r[@uid='{565F9960-4E47-4DA4-9406-0A29DD09911F}']"
+              s:ds="{2AE21DEF-82EC-403E-A8A8-16761CF85995}"
+              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
+              s:ph="/page-layout/section/col-narrow-1" />
           </d>
         </r>
-    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
       Hint: NavigationTitle
       Value: Privacy Policy
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160225T100814Z
-    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: {FF21E8D4-EB3D-400E-83CB-34065712FC18}
-    - ID: ac3fd4db-8266-476d-9635-67814d91e901
+      Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: Your information is safe with us
-    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: Privacy Policy
-    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Privacy Policy
-    - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
         <p>This Privacy Policy describes the information that we collect through our website www.chaseridley.com and how we use that information. If you have any questions or comments about this Privacy Policy or your personal information, please contact us at info@chaseridley.com.</p>
