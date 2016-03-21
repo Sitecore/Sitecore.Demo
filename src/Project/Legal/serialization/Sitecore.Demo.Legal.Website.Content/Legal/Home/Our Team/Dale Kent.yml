@@ -1,21 +1,33 @@
 ﻿---
-ID: 3d1c0597-eb53-4216-ba7c-215624c3a641
-Parent: ac67d144-7cac-4d7f-a40a-9f800f2c8f7c
-Template: 75e42a73-0ae1-44c5-ac04-c9d5c4568680
+ID: "3d1c0597-eb53-4216-ba7c-215624c3a641"
+Parent: "ac67d144-7cac-4d7f-a40a-9f800f2c8f7c"
+Template: "75e42a73-0ae1-44c5-ac04-c9d5c4568680"
 Path: /sitecore/content/Legal/Home/Our Team/Dale Kent
 DB: master
 SharedFields:
-- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
   Hint: __Tracking
   Type: Tracking
   Value: |
     <tracking>
-      <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal Persona">
-        <key name="Self-employed" value="1" />
-        <key name="Large Corporate" value="0" />
-        <key name="Legal trade" value="5" />
-        <key name="Personal-Civil" value="0" />
-        <key name="B2B" value="2" />
+      <profile
+        id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}"
+        name="Legal Persona">
+        <key
+          name="Self-employed"
+          value="1" />
+        <key
+          name="Large Corporate"
+          value="0" />
+        <key
+          name="Legal trade"
+          value="5" />
+        <key
+          name="Personal-Civil"
+          value="0" />
+        <key
+          name="B2B"
+          value="2" />
       </profile>
     </tracking>
 Languages:
@@ -23,48 +35,88 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 0cc9785e-54fe-4fae-93e4-d0d2ae75f339
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{4F7C1840-F9FA-4C7A-B165-D03D578CEE1F}"
+              p:before="r[@uid='{9388750B-336D-485C-9758-ECAF2BCA9B7A}']"
+              s:ds="{21B9EA21-EED3-471D-B17D-E3D90CD16434}"
+              s:id="{A1AD34DD-535E-47AF-A911-34C57CCC26F6}"
+              s:ph="/footer/section/col-narrow-4_0f52c9a2-7f92-418f-b1de-1c70ba67009d" />
+            <r
+              uid="{9388750B-336D-485C-9758-ECAF2BCA9B7A}"
+              p:before="r[@uid='{E928D58F-C347-49F1-8017-3145D6FEEF97}']"
+              s:ds="{6C120B9D-8923-43F3-A0C3-CC4A8A07FDF4}"
+              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
+              s:ph="/footer/section/col-narrow-3_0f52c9a2-7f92-418f-b1de-1c70ba67009d" />
+            <r
+              uid="{E928D58F-C347-49F1-8017-3145D6FEEF97}"
+              p:before="r[@uid='{D395C3F9-2029-4442-860A-09825C24872C}']"
+              s:ds="{3C9607A2-104E-4753-A88D-C575CFA478F1}"
+              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
+              s:ph="/footer/section/col-narrow-2_0f52c9a2-7f92-418f-b1de-1c70ba67009d" />
+            <r
+              uid="{D395C3F9-2029-4442-860A-09825C24872C}"
+              p:before="r[@uid='{0F52C9A2-7F92-418F-B1DE-1C70BA67009D}']"
+              s:ds="{54636D26-3151-425B-873D-8B8C3C03A999}"
+              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
+              s:ph="/footer/section/col-narrow-1_0f52c9a2-7f92-418f-b1de-1c70ba67009d" />
+            <r
+              uid="{0F52C9A2-7F92-418F-B1DE-1C70BA67009D}"
+              p:before="r[@uid='{07C9FE71-A5E2-4E5F-B276-5F2B73481D44}']"
+              s:id="{DE648E12-A568-4919-802E-A688EBC9B9F3}"
+              s:ph="/footer/section" />
+          </d>
+        </r>
+    - ID: "0cc9785e-54fe-4fae-93e4-d0d2ae75f339"
       Hint: Biography
       Value: |
         <p style="margin-left: 13.5pt;"><span>Dale Kent is an entertainment, intellectual property and corporate business attorney who works with companies in a variety of industries. He represents traditional entertainment and digital media companies, technology companies, restaurateurs, wine and spirit companies and all varieties of brand driven enterprises, in licensing, mergers and acquisitions, financings, and other general business transactions.</span></p>
-        <p style="margin-left: 13.5pt;"><span>Dale&rsquo;s expertise is primarily in the area of television and digital media. Dale regularly represents television production companies in network negotiations and has served as counsel on television programming for virtually every top network.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Dale’s expertise is primarily in the area of television and digital media. Dale regularly represents television production companies in network negotiations and has served as counsel on television programming for virtually every top network.</span></p>
         <p style="margin-left: 13.5pt;"><span>Dale also represents top digital media content creators, digital media studios, YouTube affiliates and other new technology companies in a wide variety of matters including financing, acquisitions, production, and general business matters.</span></p>
-        <p style="margin-left: 13.5pt;"><span>Dale was featured in Variety&rsquo;s 2015 Legal Impact Report and was recognized as a 2014 Southern California Super Lawyer by LA Magazine. Dale is a professor of entertainment law at UCLA.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Dale was featured in Variety’s 2015 Legal Impact Report and was recognized as a 2014 Southern California Super Lawyer by LA Magazine. Dale is a professor of entertainment law at UCLA.</span></p>
         <p style="margin-left: 13.5pt;"><span>Dale also has extensive knowledge and experience in trademark law. He has represented clients in domestic and international trademark registration and enforcement in a variety of industries such as gaming, entertainment and hospitality, wine and spirit brands, and sports and entertainment.</span></p>
-        <p style="margin-left: 13.5pt;"><span>Dale is a frequent contributor to the IP Law Blog and has published a law review entitled &ldquo;The Future of Social Media Artists.&rdquo; Dale is a frequent lecturer in the university systems.</span></p>
-    - ID: 0ee2f208-1fee-42fc-8051-6696d49a92bf
+        <p style="margin-left: 13.5pt;"><span>Dale is a frequent contributor to the IP Law Blog and has published a law review entitled “The Future of Social Media Artists.” Dale is a frequent lecturer in the university systems.</span></p>
+    - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
       Hint: OpenGraphTitle
       Value: Dale Kent
-    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
       Hint: NavigationTitle
       Value: Dale Kent
-    - ID: 25b4cee3-a61a-4dc3-bb52-775dd509dbb5
+    - ID: "25b4cee3-a61a-4dc3-bb52-775dd509dbb5"
       Hint: Mobile
-      Value: +1-912-555-5544
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Value: "+1-912-555-5544"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160107T134821Z
-    - ID: 26cd59ab-3639-488f-bafd-58d2b217755a
+    - ID: "26cd59ab-3639-488f-bafd-58d2b217755a"
       Hint: Name
-      Value: Dale Kent-King
-    - ID: 5978b330-1d46-4065-8751-f74bf17d815e
+      Value: "Dale Kent-King"
+    - ID: "5978b330-1d46-4065-8751-f74bf17d815e"
       Hint: Email
       Value: d.kent@chaseridley.com
-    - ID: 76972fcd-4bb0-4255-864e-077745efdf50
+    - ID: "76972fcd-4bb0-4255-864e-077745efdf50"
       Hint: Title
       Value: Shareholder
-    - ID: 8d0e8ee3-21c4-4ae2-a2f1-53d3f3ebe501
+    - ID: "8d0e8ee3-21c4-4ae2-a2f1-53d3f3ebe501"
       Hint: Telephone
-      Value: +1-912-555-2223
-    - ID: b897023c-15d2-49f3-8974-06fa5fb7ad00
+      Value: "+1-912-555-2223"
+    - ID: "b897023c-15d2-49f3-8974-06fa5fb7ad00"
       Hint: Summary
       Value: Dale Kent is an entertainment, intellectual property and corporate business attorney who works with companies in a variety of industries. 
-    - ID: bb7a38c0-323c-4f81-8eb9-288abf7c4638
+    - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
       Hint: MetaDescription
       Value: Dale Kent, entertainment law, IP law, corporate law, digital media, technology, restaurant, wine and spirit, licensing, mergers and acquisitions, financing
-    - ID: c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38
+    - ID: "c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38"
       Hint: Picture
       Value: "<image mediaid=\"{C31CE4A7-D2D7-4EC5-AEE4-C229115DA2E0}\" ></image>"
-    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Dale Kent
