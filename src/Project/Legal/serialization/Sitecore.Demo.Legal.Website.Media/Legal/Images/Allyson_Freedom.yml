@@ -8,6 +8,9 @@ SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: "-/media/4724E95C30D74501B2D715736BAFE229.ashx?h=16&thn=1&w=16"
+- ID: "0ad015cb-e1a7-4cd7-bfbb-f8b50ab1fc8c"
+  Hint: Copyright
+  Value: Sitecore Image Library
 - ID: "1a25c485-c7f4-4488-ad5a-b8d72e4a66df"
   Hint: Model
   Value: Canon EOS DIGITAL REBEL XTi

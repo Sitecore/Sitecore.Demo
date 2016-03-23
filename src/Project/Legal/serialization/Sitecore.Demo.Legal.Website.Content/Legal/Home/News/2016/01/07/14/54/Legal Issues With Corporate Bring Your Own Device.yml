@@ -1,24 +1,36 @@
 ﻿---
-ID: 44c47f39-9897-4c24-998a-2db858f09401
-Parent: 4bcd4328-6062-449f-a070-252903f6d950
-Template: bb6a204d-2b9e-46ca-82cd-00751803b03e
+ID: "44c47f39-9897-4c24-998a-2db858f09401"
+Parent: "4bcd4328-6062-449f-a070-252903f6d950"
+Template: "bb6a204d-2b9e-46ca-82cd-00751803b03e"
 Path: /sitecore/content/Legal/Home/News/2016/01/07/14/54/Legal Issues With Corporate Bring Your Own Device
 DB: master
 SharedFields:
-- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
   Hint: __Tracking
   Type: Tracking
   Value: |
     <tracking>
-      <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal Persona">
-        <key name="Self-employed" value="0" />
-        <key name="Large Corporate" value="0" />
-        <key name="Legal trade" value="5" />
-        <key name="Personal-Civil" value="2" />
-        <key name="B2B" value="3" />
+      <profile
+        id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}"
+        name="Legal Persona">
+        <key
+          name="Self-employed"
+          value="0" />
+        <key
+          name="Large Corporate"
+          value="0" />
+        <key
+          name="Legal trade"
+          value="5" />
+        <key
+          name="Personal-Civil"
+          value="2" />
+        <key
+          name="B2B"
+          value="3" />
       </profile>
     </tracking>
-- ID: c464d2d7-3382-428a-bcdf-0963c60ba0e3
+- ID: "c464d2d7-3382-428a-bcdf-0963c60ba0e3"
   Hint: NewsDate
   Value: 20160106T000000Z
 Languages:
@@ -26,31 +38,31 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160107T145431Z
-    - ID: 3437eaac-6ee8-460b-a33d-da1f714b5a93
+    - ID: "3437eaac-6ee8-460b-a33d-da1f714b5a93"
       Hint: NewsImage
-      Value: "<image mediaid=\"{855FFD41-311C-4367-B8B3-0ACBC8D67980}\" />"
-    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Value: "<image mediaid=\"{C5274327-C175-433E-907A-59D016A9978C}\" />"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin
-    - ID: 801612c7-5e98-4e3c-80d2-a34d0eebcbda
+    - ID: "801612c7-5e98-4e3c-80d2-a34d0eebcbda"
       Hint: NewsBody
       Value: |
         <p><span>Organizations have recognized that mobile devices are crucial to their own success, and many have incurred significant expense purchasing and securing such devices, and equipping their workforce. Nonetheless, employees are increasingly using (or demanding to use) personal devices to store and process their employer&rsquo;s data, and connect to their networks. The reasons for this vary from avoiding the need to carry and manage multiple devices, to the desire to use the most up-to-date devices that exist, to increased efficiency.</span></p>
         <p><span>This trend has been named as BYOD (Bring Your Own Device). Some organizations believe that BYOD will allow them to avoid significant hardware, software and IT support costs. Even if cost-savings is not the goal, most companies believe that processing of company data on employee personal devices is inevitable and unavoidable. Unfortunately, BYOD raises significant data security and privacy concerns, which can lead to potential legal and liability risk.&nbsp; Many companies are having to play catch-up to control these risks.</span></p>
         <p><span>The very nature of BYOD highlights the employee privacy challenges at issue. Employees and contractors of organizations will be using the same devices they use for work to engage in personal computing that involves a host of private activities and content, including web surfing history, personal emails, photos, chat histories, personally identifiable information, music, movies, software, user names and passwords and financial account numbers. We have already seen significant legal activity relating to an employee&rsquo;s expectation of privacy when using a company-issued device for personal reasons.</span></p>
         <p><span>All too often companies considering a BYOD policy find that their employees are already using their personal devices for work purposes and to store sensitive information. This makes it more difficult to manage these issues in a deliberate manner and set up policies that address the security, privacy and legal risks associated with BYOD. Nonetheless, the complex legal implications of BYOD must be carefully considered using a multi-disciplinary approach (e.g. legal, security, privacy, IT, risk management, etc.) that takes the company&rsquo;s existing infrastructure and risk tolerance into account. The end result should be a Personal Device Use Policy that addresses the various risks and strikes a balance that works for the organization. Also key, because of the personal nature of the devices in this context, is informing, educating and training employees concerning the privacy, security and incident response implications of using their own device for work purposes.&nbsp; Working through these issues can help to reduce the legal and liability risk that companies may face.</span></p>
-    - ID: 9d08271a-1672-44dd-b7ef-0a6ec34fcba7
+    - ID: "9d08271a-1672-44dd-b7ef-0a6ec34fcba7"
       Hint: NewsSummary
-      Value: <span>BYOD raises significant data security and privacy concerns, which have many corporations playing catch-up to control these risks.</span>
-    - ID: bb7a38c0-323c-4f81-8eb9-288abf7c4638
+      Value: "<span>BYOD raises significant data security and privacy concerns, which have many corporations playing catch-up to control these risks.</span>"
+    - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
       Hint: MetaDescription
       Value: BYOD, Bring your own device, legal risk, privacy risk, corporate data security
-    - ID: bd9ecd4a-c0b0-4233-a3cd-d995519ac87b
+    - ID: "bd9ecd4a-c0b0-4233-a3cd-d995519ac87b"
       Hint: NewsTitle
       Value: Legal Issues With Corporate Bring Your Own Device
-    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Legal Issues With Corporate Bring Your Own Device
