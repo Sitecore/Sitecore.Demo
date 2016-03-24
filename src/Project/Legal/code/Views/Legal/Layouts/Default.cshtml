@@ -25,9 +25,9 @@
   @RenderAssetsService.Current.RenderStyles()
   @Html.Sitecore().VisitorIdentification()
 </head>
-<body class="@(Sitecore.Context.PageMode.IsNormal ? "" : (Sitecore.Context.PageMode.IsExperienceEditor ? "pagemode-edit" : "pagemode-preview"))">
+<body class="@(Sitecore.Context.PageMode.IsExperienceEditor ? "header-static" : "") @(Sitecore.Context.PageMode.IsNormal ? "" : (Sitecore.Context.PageMode.IsExperienceEditor ? "pagemode-edit" : "pagemode-preview"))">
   <div id="main-container">
-    <header class="header-fixed bg-white">
+    <header class="@(Sitecore.Context.PageMode.IsExperienceEditor ? "header-static" : "header-fixed") bg-white">
       @Html.Sitecore().Placeholder("header-top")
 
       @Html.Sitecore().Placeholder("navbar")

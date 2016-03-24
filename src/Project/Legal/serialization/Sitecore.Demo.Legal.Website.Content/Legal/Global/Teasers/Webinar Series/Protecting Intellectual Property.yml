@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "e8ab122c-6f54-4d4e-aec6-f81addc558fc"
   Hint: TeaserLink
-  Value: "<link linktype=\"internal\" querystring=\"\" target=\"\" id=\"{B5583A97-7F68-40C6-BA8B-F82C9D3ABCC6}\" />"
+  Value: 
 Languages:
 - Language: en
   Versions:
@@ -22,6 +22,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160229T164901Z
+    - ID: "3f7e7e3a-4e8e-4639-b079-fc5aeff172f5"
+      Hint: Teaser Label
+      Value: Webinar
     - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
       Hint: TeaserTitle
-      Value: "Webinar: Protecting Intellectual Propery"
+      Value: Protecting Intellectual Propery
