@@ -43,7 +43,7 @@ Languages:
       Value: 20160107T145828Z
     - ID: "3437eaac-6ee8-460b-a33d-da1f714b5a93"
       Hint: NewsImage
-      Value: "<image mediaid=\"{732E8624-A9B7-4F16-B2D1-61FE6E12B6E7}\" />"
+      Value: "<image mediaid=\"{732E8624-A9B7-4F16-B2D1-61FE6E12B6E7}\" ></image>"
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin

@@ -292,12 +292,18 @@ Languages:
               s:par="UseStaticPlaceholderNames&amp;Type=bg-primary&amp;Media&amp;Parallax"
               s:ph="page-layout" />
             <r
-              uid="{90EF5CFE-D321-4217-B342-AF291B35F2C1}"
+              uid="{379C084A-87C6-4753-BBBE-BB133AEB21FB}"
               p:before="r[@uid='{565F9960-4E47-4DA4-9406-0A29DD09911F}']"
+              s:ds="{25487901-D738-46CA-8113-DB1F5FF5FF9B}"
+              s:id="{A1AD34DD-535E-47AF-A911-34C57CCC26F6}"
+              s:ph="/page-layout/section/col-narrow-1" />
+            <r
+              uid="{90EF5CFE-D321-4217-B342-AF291B35F2C1}"
+              p:before="r[@uid='{A3BAD4D4-8E21-4B30-8C4C-B04163653D62}']"
               s:ds="{6C120B9D-8923-43F3-A0C3-CC4A8A07FDF4}"
               s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
               s:par=""
-              s:ph="/page-layout/section/col-narrow-1" />
+              s:ph="/page-layout/section/col-wide-1" />
           </d>
         </r>
     - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"

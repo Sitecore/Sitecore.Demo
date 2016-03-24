@@ -1,11 +1,11 @@
 ﻿---
-ID: ac67d144-7cac-4d7f-a40a-9f800f2c8f7c
-Parent: 6eb0f80b-a1d5-40e0-a472-9308b24228b5
-Template: 6ba87bc3-6171-4426-86c4-801debd0f388
+ID: "ac67d144-7cac-4d7f-a40a-9f800f2c8f7c"
+Parent: "6eb0f80b-a1d5-40e0-a472-9308b24228b5"
+Template: "6ba87bc3-6171-4426-86c4-801debd0f388"
 Path: /sitecore/content/Legal/Home/Our Team
 DB: master
 SharedFields:
-- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100
 Languages:
@@ -13,29 +13,123 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
       Hint: __Final Renderings
       Type: Layout
       Value: |
-        <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
-          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-            <r uid="{0C58A120-2D82-4189-B2ED-83DDA04F40F7}" s:ds="{2AE21DEF-82EC-403E-A8A8-16761CF85995}" s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}" s:ph="/page-layout/sidebar">
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E26544FB-9DE4-4547-A118-889DAB11AE0D}"
+              p:before="r[@uid='{0A3714EB-F6D2-4D20-8AD7-942E27DAE6F2}']"
+              s:ds="{7D2EE7BA-45FC-485B-A815-AB5174F89537}"
+              s:id="{A1AD34DD-535E-47AF-A911-34C57CCC26F6}"
+              s:ph="/page-layout/section_a39ed1e0-1d17-4348-80cb-f1361e602e45/col-huge_292dae0e-111c-4fcf-ad3f-2a68e808e9a9/teaser-placeholder-6_3534b90a-22d6-43a1-bd12-6ee7e6f8ca3c" />
+            <r
+              uid="{0A3714EB-F6D2-4D20-8AD7-942E27DAE6F2}"
+              p:before="r[@uid='{26545765-7D58-4CBF-8ECF-2DA2530E40EE}']"
+              s:ds="{2AA6D06E-4B12-411F-BA11-9AC1D0D2BDD7}"
+              s:id="{A1AD34DD-535E-47AF-A911-34C57CCC26F6}"
+              s:ph="/page-layout/section_a39ed1e0-1d17-4348-80cb-f1361e602e45/col-huge_292dae0e-111c-4fcf-ad3f-2a68e808e9a9/teaser-placeholder-5_3534b90a-22d6-43a1-bd12-6ee7e6f8ca3c" />
+            <r
+              uid="{26545765-7D58-4CBF-8ECF-2DA2530E40EE}"
+              p:before="r[@uid='{35009800-F2F1-44A6-96EA-D40E28B9E732}']"
+              s:ds="{B8BD2BFE-6630-4D90-B320-D52134F28723}"
+              s:id="{A1AD34DD-535E-47AF-A911-34C57CCC26F6}"
+              s:ph="/page-layout/section_a39ed1e0-1d17-4348-80cb-f1361e602e45/col-huge_292dae0e-111c-4fcf-ad3f-2a68e808e9a9/teaser-placeholder-4_3534b90a-22d6-43a1-bd12-6ee7e6f8ca3c" />
+            <r
+              uid="{35009800-F2F1-44A6-96EA-D40E28B9E732}"
+              p:before="r[@uid='{36E6F204-C0A5-43C6-8971-97C5AB77013F}']"
+              s:ds="{82810A04-1E3F-49D6-8353-8A89AF97E316}"
+              s:id="{A1AD34DD-535E-47AF-A911-34C57CCC26F6}"
+              s:ph="/page-layout/section_a39ed1e0-1d17-4348-80cb-f1361e602e45/col-huge_292dae0e-111c-4fcf-ad3f-2a68e808e9a9/teaser-placeholder-3_3534b90a-22d6-43a1-bd12-6ee7e6f8ca3c" />
+            <r
+              uid="{36E6F204-C0A5-43C6-8971-97C5AB77013F}"
+              p:before="r[@uid='{1F4B8FCB-3473-40EF-99E2-9A3BD2239985}']"
+              s:ds="{6DF4CEA4-AE9A-45E2-A08C-E96557ABDF74}"
+              s:id="{A1AD34DD-535E-47AF-A911-34C57CCC26F6}"
+              s:ph="/page-layout/section_a39ed1e0-1d17-4348-80cb-f1361e602e45/col-huge_292dae0e-111c-4fcf-ad3f-2a68e808e9a9/teaser-placeholder-2_3534b90a-22d6-43a1-bd12-6ee7e6f8ca3c" />
+            <r
+              uid="{1F4B8FCB-3473-40EF-99E2-9A3BD2239985}"
+              p:before="r[@uid='{5E69A6E3-169F-408C-A73F-B9028BFEB035}']"
+              s:ds="{25487901-D738-46CA-8113-DB1F5FF5FF9B}"
+              s:id="{A1AD34DD-535E-47AF-A911-34C57CCC26F6}"
+              s:ph="/page-layout/section_a39ed1e0-1d17-4348-80cb-f1361e602e45/col-huge_292dae0e-111c-4fcf-ad3f-2a68e808e9a9/teaser-placeholder-1_3534b90a-22d6-43a1-bd12-6ee7e6f8ca3c" />
+            <r
+              uid="{5E69A6E3-169F-408C-A73F-B9028BFEB035}"
+              p:before="r[@uid='{3534B90A-22D6-43A1-BD12-6EE7E6F8CA3C}']"
+              s:ds="{8881920D-82DF-4D70-B819-3FE181E2D6EF}"
+              s:id="{EE5A9F3D-C2CB-4710-8053-04D1A7135EBE}"
+              s:ph="/page-layout/section_a39ed1e0-1d17-4348-80cb-f1361e602e45/col-huge_292dae0e-111c-4fcf-ad3f-2a68e808e9a9" />
+            <r
+              uid="{3534B90A-22D6-43A1-BD12-6EE7E6F8CA3C}"
+              p:before="r[@uid='{2D3CBA1B-5B94-454A-9442-34CF4C3E4FDD}']"
+              s:ds="{EAE30575-9D83-4802-871D-1C4909CEA766}"
+              s:id="{5D35C31F-0770-4498-BAB8-C88BEF41F153}"
+              s:ph="/page-layout/section_a39ed1e0-1d17-4348-80cb-f1361e602e45/col-huge_292dae0e-111c-4fcf-ad3f-2a68e808e9a9" />
+            <r
+              uid="{2D3CBA1B-5B94-454A-9442-34CF4C3E4FDD}"
+              p:before="r[@uid='{D75A2E5A-9FB2-4B9B-B3FD-B79CBE67B502}']"
+              s:ds="{6E532AF2-459C-49B5-911C-41BFEE7AE9D4}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/page-layout/section_a39ed1e0-1d17-4348-80cb-f1361e602e45/col-huge_292dae0e-111c-4fcf-ad3f-2a68e808e9a9/teaser-placeholder-2_2b089761-d550-4e6a-8ab7-1e566385dc26" />
+            <r
+              uid="{D75A2E5A-9FB2-4B9B-B3FD-B79CBE67B502}"
+              p:before="r[@uid='{292DAE0E-111C-4FCF-AD3F-2A68E808E9A9}']"
+              s:ds="{FC989D9E-38A7-4279-A5CA-603DCDEA7DA2}"
+              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
+              s:ph="/page-layout/section_a39ed1e0-1d17-4348-80cb-f1361e602e45/col-huge_292dae0e-111c-4fcf-ad3f-2a68e808e9a9/teaser-placeholder-1_2b089761-d550-4e6a-8ab7-1e566385dc26" />
+            <r
+              uid="{292DAE0E-111C-4FCF-AD3F-2A68E808E9A9}"
+              p:before="r[@uid='{EB352679-4420-46AE-95B0-7CA976C24194}']"
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:ph="/page-layout/section_a39ed1e0-1d17-4348-80cb-f1361e602e45" />
+            <r
+              uid="{A39ED1E0-1D17-4348-80CB-F1361E602E45}"
+              p:before="r[@uid='{ECCFEE95-A957-4218-8ED2-FAB94EF2CAF2}']"
+              s:ds=""
+              s:id="{1149A3C7-C69A-4E6B-A6C3-32687EC2F8D4}"
+              s:par="UseStaticPlaceholderNames&amp;Type=bg-primary&amp;Media&amp;Parallax"
+              s:ph="page-layout" />
+            <r
+              uid="{0C58A120-2D82-4189-B2ED-83DDA04F40F7}"
+              s:ds="{2AE21DEF-82EC-403E-A8A8-16761CF85995}"
+              s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"
+              s:ph="/page-layout/sidebar">
               <rls>
                 <ruleset>
-                  <rule uid="{4AF63D74-FD4A-49FD-8312-D65BE0310534}" s:name="Lawyer">
+                  <rule
+                    uid="{4AF63D74-FD4A-49FD-8312-D65BE0310534}"
+                    s:name="Lawyer">
                     <conditions>
-                      <condition uid="C30A56820E1147258DDD8A079EA5C210" s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}" s:ProfileName="Legal" s:PatternName="Lucas the Lawyer" />
+                      <condition
+                        uid="C30A56820E1147258DDD8A079EA5C210"
+                        s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                        s:ProfileName="Legal"
+                        s:PatternName="Lucas the Lawyer" />
                     </conditions>
                     <actions>
-                      <action uid="31EFC5C83F4543A6BD58ECA79615000F" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" />
+                      <action
+                        uid="31EFC5C83F4543A6BD58ECA79615000F"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" />
                     </actions>
                   </rule>
-                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
                     <conditions>
-                      <condition uid="965D2451E8354AF5A064D0431C7267E8" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                      <condition
+                        uid="965D2451E8354AF5A064D0431C7267E8"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
                     </conditions>
                     <actions>
-                      <action uid="E0183C5058154F6B9A90005ADE4B190D" s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                      <action
+                        uid="E0183C5058154F6B9A90005ADE4B190D"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
                     </actions>
                   </rule>
                 </ruleset>
@@ -43,15 +137,18 @@ Languages:
             </r>
           </d>
         </r>
-    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
       Hint: NavigationTitle
       Value: Our Team
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20151216T035418Z
-    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: <p>We have a dedicated team with over 100 years of combined legal experience</p>
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: Our Team
-    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Our Team

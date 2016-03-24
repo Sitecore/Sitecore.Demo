@@ -136,12 +136,18 @@ Languages:
               s:par="UseStaticPlaceholderNames&amp;Type=bg-primary&amp;Media&amp;Parallax"
               s:ph="page-layout" />
             <r
-              uid="{BA64AAD3-F58F-4CE0-87E0-E90EE537D10B}"
+              uid="{CC5757A4-C261-4A46-85E5-3527CB86108C}"
               p:before="r[@uid='{565F9960-4E47-4DA4-9406-0A29DD09911F}']"
+              s:ds="{A48C26AA-CF72-4136-B111-5FD5CAD9AB43}"
+              s:id="{96EFEFFC-4D53-4F29-913E-84EDBFBE4DAB}"
+              s:ph="/page-layout/section/col-narrow-1" />
+            <r
+              uid="{BA64AAD3-F58F-4CE0-87E0-E90EE537D10B}"
+              p:before="r[@uid='{A3BAD4D4-8E21-4B30-8C4C-B04163653D62}']"
               s:ds="{6E532AF2-459C-49B5-911C-41BFEE7AE9D4}"
               s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
               s:par=""
-              s:ph="/page-layout/section/col-narrow-1" />
+              s:ph="/page-layout/section/col-wide-1" />
           </d>
         </r>
     - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"

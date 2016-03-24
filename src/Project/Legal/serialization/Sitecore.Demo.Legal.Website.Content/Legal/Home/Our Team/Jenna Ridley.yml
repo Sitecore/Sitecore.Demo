@@ -35,11 +35,44 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{BAD494C9-8104-4770-B722-37BABE68F791}"
+              p:before="r[@uid='{5F62AF91-E79E-4C10-816A-E620F7918974}']"
+              s:ds="{96A6EC33-2398-4752-AA9E-4A3FDBB6606F}"
+              s:id="{A1AD34DD-535E-47AF-A911-34C57CCC26F6}"
+              s:ph="/footer/section/col-narrow-3_6d467c31-0e0f-4370-a9c2-52bbf63f9489" />
+            <r
+              uid="{5F62AF91-E79E-4C10-816A-E620F7918974}"
+              p:before="r[@uid='{976C48E3-A376-49F2-84B1-B63A1F1B77F4}']"
+              s:ds="{2FAAA7E6-D16A-4D81-B142-4AE6FCC4D4F5}"
+              s:id="{A1AD34DD-535E-47AF-A911-34C57CCC26F6}"
+              s:ph="/footer/section/col-narrow-2_6d467c31-0e0f-4370-a9c2-52bbf63f9489" />
+            <r
+              uid="{976C48E3-A376-49F2-84B1-B63A1F1B77F4}"
+              p:before="r[@uid='{6D467C31-0E0F-4370-A9C2-52BBF63F9489}']"
+              s:ds="{21B9EA21-EED3-471D-B17D-E3D90CD16434}"
+              s:id="{A1AD34DD-535E-47AF-A911-34C57CCC26F6}"
+              s:ph="/footer/section/col-narrow-1_6d467c31-0e0f-4370-a9c2-52bbf63f9489" />
+            <r
+              uid="{6D467C31-0E0F-4370-A9C2-52BBF63F9489}"
+              p:before="r[@uid='{07C9FE71-A5E2-4E5F-B276-5F2B73481D44}']"
+              s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}"
+              s:ph="/footer/section" />
+          </d>
+        </r>
     - ID: "0cc9785e-54fe-4fae-93e4-d0d2ae75f339"
       Hint: Biography
       Value: |
-        <p style="margin-left: 13.5pt;"><span>Jenna is a partner and member of the firm&rsquo;s Taxation Law group. Her areas of practice include primarily financial and tax counsel for corporate businesses as well as individual income, estate and gift tax planning, general business matters, international financial planning, and tax dispute resolution before the Internal Revenue Service, the Franchise Tax Board, and the State Board of Equalization. She regularly advises clients in connection with the acquisition and disposition of interests in business enterprises and disputes between owners within the same business.</span></p>
-        <p style="margin-left: 13.5pt;"><span>Jenna counsels trustees, including family members, as to a wide range of tax issues that arise during the administration of trust. In advising trustees, Jenna&rsquo;s expertise includes the taxation of estates and trusts. She has extensive knowledge about the many taxes that are required to be filed with federal, state, and local government.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Jenna is a partner and member of the firm’s Taxation Law group. Her areas of practice include primarily financial and tax counsel for corporate businesses as well as individual income, estate and gift tax planning, general business matters, international financial planning, and tax dispute resolution before the Internal Revenue Service, the Franchise Tax Board, and the State Board of Equalization. She regularly advises clients in connection with the acquisition and disposition of interests in business enterprises and disputes between owners within the same business.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Jenna counsels trustees, including family members, as to a wide range of tax issues that arise during the administration of trust. In advising trustees, Jenna’s expertise includes the taxation of estates and trusts. She has extensive knowledge about the many taxes that are required to be filed with federal, state, and local government.</span></p>
         <p style="margin-left: 13.5pt;"><span>Jenna has been practicing in the Bay Area area for more than 30 years. She lectures on business and corporate tax issues to a variety of community and business groups. She is actively involved in non-profit organizations in the community. Jenna is a member of the Board of Overseers for the UCSF Benioff Medical Center, and she is a board member of UCP of the Golden Gate. She was recognized on The Best Lawyers in America 2014 and 2015.</span></p>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
       Hint: OpenGraphTitle

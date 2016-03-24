@@ -1,7 +1,7 @@
 ﻿---
-ID: 2faaa7e6-d16a-4d81-b142-4ae6fcc4d4f5
-Parent: eefa227b-f23f-4085-a9cf-d7e44d0c702f
-Template: 40ad8a9b-c75c-428d-9e1a-51372b21f63e
+ID: "2faaa7e6-d16a-4d81-b142-4ae6fcc4d4f5"
+Parent: "eefa227b-f23f-4085-a9cf-d7e44d0c702f"
+Template: "40ad8a9b-c75c-428d-9e1a-51372b21f63e"
 Path: /sitecore/content/Legal/Global/Quotes/Personal Finance Magazine
 DB: master
 Languages:
@@ -9,18 +9,21 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 0de53078-0da4-40cc-bbca-63aa96a0a1ef
+    - ID: "0de53078-0da4-40cc-bbca-63aa96a0a1ef"
       Hint: Quote
       Value: In our customer survey, this was one of the top 5 companies recommended for wills
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160211T163934Z
-    - ID: 26cd59ab-3639-488f-bafd-58d2b217755a
+    - ID: "26cd59ab-3639-488f-bafd-58d2b217755a"
       Hint: Name
       Value: Michael Green
-    - ID: 76972fcd-4bb0-4255-864e-077745efdf50
+    - ID: "76972fcd-4bb0-4255-864e-077745efdf50"
       Hint: Title
       Value: Family Correspondent
-    - ID: bf83983a-473f-4a49-be8e-7d563aa5687e
+    - ID: "bf83983a-473f-4a49-be8e-7d563aa5687e"
       Hint: Cite Origin
       Value: Personal Finance Magazine
+    - ID: "c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38"
+      Hint: Picture
+      Value: "<image mediaid=\"{F97906A8-E43E-49C6-B734-846F0CB7E321}\" />"

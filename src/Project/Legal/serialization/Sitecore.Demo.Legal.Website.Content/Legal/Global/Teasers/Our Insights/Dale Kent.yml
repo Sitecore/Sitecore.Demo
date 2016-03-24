@@ -1,8 +1,8 @@
 ﻿---
-ID: "25487901-d738-46ca-8113-db1f5ff5ff9b"
-Parent: "eefa227b-f23f-4085-a9cf-d7e44d0c702f"
+ID: "82810a04-1e3f-49d6-8353-8a89af97e316"
+Parent: "eae30575-9d83-4802-871d-1c4909cea766"
 Template: "40ad8a9b-c75c-428d-9e1a-51372b21f63e"
-Path: /sitecore/content/Legal/Global/Quotes/Brenda Barkley
+Path: /sitecore/content/Legal/Global/Teasers/Our Insights/Dale Kent
 DB: master
 Languages:
 - Language: en
@@ -11,13 +11,13 @@ Languages:
     Fields:
     - ID: "0de53078-0da4-40cc-bbca-63aa96a0a1ef"
       Hint: Quote
-      Value: Although I have a great deal of experience in corporate finance, I also feel passionate about using this knowledge to help people with their personal and family tax law.
+      Value: You would be surprised at how much the entertainment business relies on protecting its intellectual property in this mass media age.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160322T141813Z
+      Value: 20160322T142135Z
     - ID: "26cd59ab-3639-488f-bafd-58d2b217755a"
       Hint: Name
-      Value: Brenda Barkley
+      Value: "Dale Kent-King"
     - ID: "76972fcd-4bb0-4255-864e-077745efdf50"
       Hint: Title
       Value: Shareholder
@@ -26,4 +26,4 @@ Languages:
       Value: Chase Ridley
     - ID: "c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38"
       Hint: Picture
-      Value: "<image mediaid=\"{DBA76CC5-D35A-4527-9516-65D22ED35441}\" />"
+      Value: "<image mediaid=\"{545A8BE0-E0C2-422D-9FBF-D3601F107C31}\"></image>"

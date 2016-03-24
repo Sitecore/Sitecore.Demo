@@ -95,12 +95,19 @@ Languages:
               s:par="UseStaticPlaceholderNames&amp;Type=bg-primary&amp;Media&amp;Parallax"
               s:ph="page-layout" />
             <r
-              uid="{B910B9ED-F242-489F-A7BA-4101DC639F2B}"
+              uid="{91613C40-5DCA-4509-A7FC-35727FF9E15A}"
               p:before="r[@uid='{565F9960-4E47-4DA4-9406-0A29DD09911F}']"
+              s:ds="{BEEAFD65-59E5-4D72-BDFF-7BAEE75369BC}"
+              s:id="{96EFEFFC-4D53-4F29-913E-84EDBFBE4DAB}"
+              s:par="Background={ECCA6054-1534-4C34-AF46-7EB610433229}"
+              s:ph="/page-layout/section/col-narrow-1" />
+            <r
+              uid="{B910B9ED-F242-489F-A7BA-4101DC639F2B}"
+              p:before="r[@uid='{A3BAD4D4-8E21-4B30-8C4C-B04163653D62}']"
               s:ds="{3C9607A2-104E-4753-A88D-C575CFA478F1}"
               s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
               s:par=""
-              s:ph="/page-layout/section/col-narrow-1" />
+              s:ph="/page-layout/section/col-wide-1" />
           </d>
         </r>
     - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
