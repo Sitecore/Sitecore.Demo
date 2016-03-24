@@ -28,13 +28,13 @@ Languages:
               uid="{AD9DC6CD-27E7-4E44-8964-D8AF3BDFBEBF}"
               p:before="r[@uid='{A65C0604-BE85-4247-B359-281B72D4372D}']"
               s:ds="{1A3E8B69-309B-48F8-BBBD-15FA276B14DB}"
-              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
               s:ph="/page-layout/section/section-narrow/col-wide-2_35324f54-4892-4052-8f47-e552d1e8b5d6" />
             <r
               uid="{A65C0604-BE85-4247-B359-281B72D4372D}"
               p:before="r[@uid='{35324F54-4892-4052-8F47-E552D1E8B5D6}']"
               s:ds="{DE787636-D111-4B9B-BC4A-35CDD3A2C1A2}"
-              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
               s:ph="/page-layout/section/section-narrow/col-wide-1_35324f54-4892-4052-8f47-e552d1e8b5d6" />
             <r
               uid="{35324F54-4892-4052-8F47-E552D1E8B5D6}"
@@ -78,7 +78,7 @@ Languages:
       Value: 20160229T152359Z
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
-      Value: "<image mediaid=\"{D0D3F86D-A071-4D26-A76C-1768B0109646}\" />"
+      Value: "<image mediaid=\"{B5284895-61BD-4FB4-B70E-A5DA4761C4C7}\" />"
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: Our servers are processing your request now. As soon as your request has been processed, we will send a confirmation email to the address you supplied.

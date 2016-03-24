@@ -45,33 +45,21 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
+              uid="{747DC836-1880-4420-9083-CF8F212D470A}"
+              p:before="r[@uid='{9253575D-0F36-43F2-BEBA-32DC0B3D4D57}']"
+              s:ds="{FC989D9E-38A7-4279-A5CA-603DCDEA7DA2}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/footer/section/col-wide-1_22947452-8d2f-4bfd-bcbe-95d30a1cf01e" />
+            <r
               uid="{9253575D-0F36-43F2-BEBA-32DC0B3D4D57}"
-              p:before="r[@uid='{CF481FA7-82C2-4E3D-A041-310A10932570}']"
+              p:before="r[@uid='{22947452-8D2F-4BFD-BCBE-95D30A1CF01E}']"
               s:ds="{96A6EC33-2398-4752-AA9E-4A3FDBB6606F}"
               s:id="{A1AD34DD-535E-47AF-A911-34C57CCC26F6}"
-              s:ph="/footer/section/col-narrow-1_15c81c92-720c-4062-bcc2-7d0fc27a5092" />
+              s:ph="/footer/section/col-narrow-1_22947452-8d2f-4bfd-bcbe-95d30a1cf01e" />
             <r
-              uid="{CF481FA7-82C2-4E3D-A041-310A10932570}"
-              p:before="r[@uid='{747DC836-1880-4420-9083-CF8F212D470A}']"
-              s:ds="{6C120B9D-8923-43F3-A0C3-CC4A8A07FDF4}"
-              s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"
-              s:ph="/footer/section/col-narrow-2_15c81c92-720c-4062-bcc2-7d0fc27a5092" />
-            <r
-              uid="{747DC836-1880-4420-9083-CF8F212D470A}"
-              p:before="r[@uid='{49FD383B-20A7-45E5-B0F1-A1F6B0B9E914}']"
-              s:ds="{FC989D9E-38A7-4279-A5CA-603DCDEA7DA2}"
-              s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"
-              s:ph="/footer/section/col-narrow-3_15c81c92-720c-4062-bcc2-7d0fc27a5092" />
-            <r
-              uid="{49FD383B-20A7-45E5-B0F1-A1F6B0B9E914}"
-              p:before="r[@uid='{15C81C92-720C-4062-BCC2-7D0FC27A5092}']"
-              s:ds="{0BC92115-528D-4784-B9C2-9EB422C0C5CB}"
-              s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"
-              s:ph="/footer/section/col-narrow-4_15c81c92-720c-4062-bcc2-7d0fc27a5092" />
-            <r
-              uid="{15C81C92-720C-4062-BCC2-7D0FC27A5092}"
+              uid="{22947452-8D2F-4BFD-BCBE-95D30A1CF01E}"
               p:before="r[@uid='{07C9FE71-A5E2-4E5F-B276-5F2B73481D44}']"
-              s:id="{DE648E12-A568-4919-802E-A688EBC9B9F3}"
+              s:id="{E6D8107A-D811-4826-82BB-1A6279830C5A}"
               s:ph="/footer/section" />
           </d>
         </r>
@@ -113,7 +101,7 @@ Languages:
       Value: Brenda Barkley, corporate law, business law, employment law, contracts, corporate governance, mergers and acquisitions, stock purchases, corporations, LLCs, partnerships, financing
     - ID: "c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38"
       Hint: Picture
-      Value: "<image mediaid=\"{6B15A523-B157-4E93-BBC4-B3E5F089FD4B}\" ></image>"
+      Value: "<image mediaid=\"{DBA76CC5-D35A-4527-9516-65D22ED35441}\"></image>"
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Brenda Barkley

@@ -1,21 +1,33 @@
 ﻿---
-ID: 1bee7175-8126-4f1f-b0d3-1c0c3879795d
-Parent: ac67d144-7cac-4d7f-a40a-9f800f2c8f7c
-Template: 75e42a73-0ae1-44c5-ac04-c9d5c4568680
+ID: "1bee7175-8126-4f1f-b0d3-1c0c3879795d"
+Parent: "ac67d144-7cac-4d7f-a40a-9f800f2c8f7c"
+Template: "75e42a73-0ae1-44c5-ac04-c9d5c4568680"
 Path: /sitecore/content/Legal/Home/Our Team/Jenna Ridley
 DB: master
 SharedFields:
-- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
   Hint: __Tracking
   Type: Tracking
   Value: |
     <tracking>
-      <profile id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}" name="Legal Persona">
-        <key name="Self-employed" value="0" />
-        <key name="Large Corporate" value="0" />
-        <key name="Legal trade" value="1" />
-        <key name="Personal-Civil" value="5" />
-        <key name="B2B" value="2" />
+      <profile
+        id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}"
+        name="Legal Persona">
+        <key
+          name="Self-employed"
+          value="0" />
+        <key
+          name="Large Corporate"
+          value="0" />
+        <key
+          name="Legal trade"
+          value="1" />
+        <key
+          name="Personal-Civil"
+          value="5" />
+        <key
+          name="B2B"
+          value="2" />
       </profile>
     </tracking>
 Languages:
@@ -23,48 +35,48 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 0cc9785e-54fe-4fae-93e4-d0d2ae75f339
+    - ID: "0cc9785e-54fe-4fae-93e4-d0d2ae75f339"
       Hint: Biography
       Value: |
         <p style="margin-left: 13.5pt;"><span>Jenna is a partner and member of the firm&rsquo;s Taxation Law group. Her areas of practice include primarily financial and tax counsel for corporate businesses as well as individual income, estate and gift tax planning, general business matters, international financial planning, and tax dispute resolution before the Internal Revenue Service, the Franchise Tax Board, and the State Board of Equalization. She regularly advises clients in connection with the acquisition and disposition of interests in business enterprises and disputes between owners within the same business.</span></p>
         <p style="margin-left: 13.5pt;"><span>Jenna counsels trustees, including family members, as to a wide range of tax issues that arise during the administration of trust. In advising trustees, Jenna&rsquo;s expertise includes the taxation of estates and trusts. She has extensive knowledge about the many taxes that are required to be filed with federal, state, and local government.</span></p>
         <p style="margin-left: 13.5pt;"><span>Jenna has been practicing in the Bay Area area for more than 30 years. She lectures on business and corporate tax issues to a variety of community and business groups. She is actively involved in non-profit organizations in the community. Jenna is a member of the Board of Overseers for the UCSF Benioff Medical Center, and she is a board member of UCP of the Golden Gate. She was recognized on The Best Lawyers in America 2014 and 2015.</span></p>
-    - ID: 0ee2f208-1fee-42fc-8051-6696d49a92bf
+    - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
       Hint: OpenGraphTitle
       Value: Jenna Ridley
-    - ID: 167aba77-5172-42af-9f9e-00299113839e
+    - ID: "167aba77-5172-42af-9f9e-00299113839e"
       Hint: CustomMetaData
       Value: Jenna Ridley, partner, trust, estate, taxation, individual income, gift tax planning
-    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
       Hint: NavigationTitle
       Value: Jenna Ridley
-    - ID: 25b4cee3-a61a-4dc3-bb52-775dd509dbb5
+    - ID: "25b4cee3-a61a-4dc3-bb52-775dd509dbb5"
       Hint: Mobile
-      Value: +1-912-555-2776
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Value: "+1-912-555-2776"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20151217T155605Z
-    - ID: 26cd59ab-3639-488f-bafd-58d2b217755a
+    - ID: "26cd59ab-3639-488f-bafd-58d2b217755a"
       Hint: Name
       Value: Jenna C. Ridley
-    - ID: 5978b330-1d46-4065-8751-f74bf17d815e
+    - ID: "5978b330-1d46-4065-8751-f74bf17d815e"
       Hint: Email
       Value: j.ridley@chaseridley.com
-    - ID: 76972fcd-4bb0-4255-864e-077745efdf50
+    - ID: "76972fcd-4bb0-4255-864e-077745efdf50"
       Hint: Title
       Value: Senior Partner
-    - ID: 8d0e8ee3-21c4-4ae2-a2f1-53d3f3ebe501
+    - ID: "8d0e8ee3-21c4-4ae2-a2f1-53d3f3ebe501"
       Hint: Telephone
-      Value: +1-912-555-2845
-    - ID: b897023c-15d2-49f3-8974-06fa5fb7ad00
+      Value: "+1-912-555-2845"
+    - ID: "b897023c-15d2-49f3-8974-06fa5fb7ad00"
       Hint: Summary
       Value: Jenna is a partner and member of the firm’s Taxation Law group. Her areas of practice include primarily financial and tax counsel for corporate businesses.
-    - ID: bb7a38c0-323c-4f81-8eb9-288abf7c4638
+    - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
       Hint: MetaDescription
       Value: Jenna Ridley, partner, trust, estate, taxation, individual income, gift tax planning
-    - ID: c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38
+    - ID: "c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38"
       Hint: Picture
-      Value: "<image mediaid=\"{EDAD3796-9F7F-4CEA-B2A8-313618ACB0FB}\" ></image>"
-    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Value: "<image mediaid=\"{75E9EE88-69FF-47D1-BE59-ED83E6664483}\"></image>"
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Jenna Ridley

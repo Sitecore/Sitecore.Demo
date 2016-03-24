@@ -66,8 +66,8 @@ Languages:
             <r
               uid="{6CCDF76F-8137-4051-AE37-E40B7E04D24E}"
               p:before="r[@uid='{C533D584-623F-4F1D-AE27-F70ADCBAB8D1}']"
-              s:ds="{2AE21DEF-82EC-403E-A8A8-16761CF85995}"
-              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ds=""
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
               s:par=""
               s:ph="/page-layout/section/col-narrow-1">
               <rls>
@@ -85,7 +85,11 @@ Languages:
                       <action
                         uid="DA067E7CED2343D2A0FC28EB576AEA09"
                         s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="{6E532AF2-459C-49B5-911C-41BFEE7AE9D4}" />
+                        s:DataSource="{D302EFA4-1332-4D8C-9F5D-F5D99AC5884A}" />
+                      <action
+                        uid="65D9DFB16CA0402C891FAC8C4F490BDC"
+                        s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}"
+                        s:RenderingItem="{07AB411C-F894-4144-B069-48EF67431D32}" />
                     </actions>
                   </rule>
                   <rule
@@ -164,7 +168,7 @@ Languages:
       Value: 20151223T144213Z
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
-      Value: "<image mediaid=\"{1449E790-449C-49C5-BD32-3B3F6450A1F3}\" />"
+      Value: "<image mediaid=\"{76C6808D-2572-4707-9F81-1B03356475A9}\" />"
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: "<p>Legal Insight Webinar Series: Solving Transaction Tax Challenges in Mergers and Acquisitions</p>"

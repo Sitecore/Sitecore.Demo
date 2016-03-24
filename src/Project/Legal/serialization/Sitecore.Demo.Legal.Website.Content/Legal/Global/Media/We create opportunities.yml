@@ -20,10 +20,10 @@ Languages:
         We are here to help you.</span></p>
     - ID: "4ff62b0a-d73b-4436-bea2-023154f2ffc4"
       Hint: MediaThumbnail
-      Value: "<image mediaid=\"{04DAD0FD-DB66-4070-881F-17264CA257E1}\" />"
+      Value: 
     - ID: "63dda48b-b0cb-45a7-9a1b-b26ddb41009b"
       Hint: MediaTitle
       Value: Opportunities
     - ID: "9f51dead-ad6e-41c2-9759-7be17eb474a4"
       Hint: MediaImage
-      Value: "<image mediaid=\"{C084A0E0-6F6F-45B2-9E42-F618CCF629FC}\" alt=\"\" height=\"330\" width=\"961\" hspace=\"\" vspace=\"\" />"
+      Value: "<image mediaid=\"{203E715B-1550-4FB1-A52E-2AD7F465498D}\" alt=\"\" height=\"330\" width=\"961\" hspace=\"\" vspace=\"\" />"

@@ -46,7 +46,7 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <p
               uid="{87190E6F-0A13-4A13-93B2-C66A0CE6D740}"
-              p:before="r[@uid='{07C9FE71-A5E2-4E5F-B276-5F2B73481D44}']"
+              p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']"
               s:key="/page-layout/sidebar"
               s:md="/sitecore/layout/Placeholder Settings/Project/Legal/sidebar" />
             <r
@@ -96,7 +96,7 @@ Languages:
       Value: Mark Chase, founder, business formation, business law, transactions, financing, acquisitions, corporate counsel
     - ID: "c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38"
       Hint: Picture
-      Value: "<image mediaid=\"{BE114311-6F6C-4233-8023-347348616B55}\" ></image>"
+      Value: "<image mediaid=\"{CED90285-5ADA-423D-AF9D-16B2B1DFC3CC}\"></image>"
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Mark Chase
