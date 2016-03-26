@@ -1,0 +1,28 @@
+﻿---
+ID: "f49748c4-4242-4302-9afa-4a8bd9a18eba"
+Parent: "eb9bdb69-b821-4d8c-94f2-254cf6823d29"
+Template: "f0369e1a-9030-4a05-a09c-ef09b664ed27"
+Path: "/sitecore/content/Legal/Global/Media/close-up-business-man-signing-contract"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160324T183136Z
+    - ID: "302c9f8d-f703-4f76-a4ab-73d222648232"
+      Hint: MediaDescription
+      Value: |
+        <p>Navigating your way through complex contracts can be time-consuming and stressful. You have to get it right.&nbsp;</p>
+        <p>We can speed your contract negotiations.</p>
+    - ID: "4ff62b0a-d73b-4436-bea2-023154f2ffc4"
+      Hint: MediaThumbnail
+      Value: "<image mediaid=\"{25A80099-3308-4DD4-A4C5-06DB2001A97C}\" />"
+    - ID: "63dda48b-b0cb-45a7-9a1b-b26ddb41009b"
+      Hint: MediaTitle
+      Value: Contracts
+    - ID: "9f51dead-ad6e-41c2-9759-7be17eb474a4"
+      Hint: MediaImage
+      Value: "<image mediaid=\"{25A80099-3308-4DD4-A4C5-06DB2001A97C}\" />"

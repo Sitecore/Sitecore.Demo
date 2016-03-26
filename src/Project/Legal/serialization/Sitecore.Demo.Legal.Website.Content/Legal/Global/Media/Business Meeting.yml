@@ -1,0 +1,25 @@
+﻿---
+ID: "99533e95-d095-4a21-9970-f8c5b9e01033"
+Parent: "eb9bdb69-b821-4d8c-94f2-254cf6823d29"
+Template: "f1c095e2-b3e0-46d0-b838-02a9e8b880d9"
+Path: /sitecore/content/Legal/Global/Media/Business Meeting
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160326T143015Z
+    - ID: "2628705d-9434-4448-978c-c3bf166fa1eb"
+      Hint: MediaVideoLink
+      Value: "<link text=\"Business Meeting\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{15BB8276-9B00-4D18-B580-B4D27CB13579}\" />"
+    - ID: "302c9f8d-f703-4f76-a4ab-73d222648232"
+      Hint: MediaDescription
+      Value: |
+        <p>Legal negotiations can be time consuming and difficult. You need the right people with the right expertise.</p>
+        <p>Let us help.</p>
+    - ID: "63dda48b-b0cb-45a7-9a1b-b26ddb41009b"
+      Hint: MediaTitle
+      Value: Meeting

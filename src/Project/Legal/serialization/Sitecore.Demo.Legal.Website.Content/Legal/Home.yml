@@ -4,6 +4,10 @@ Parent: "f92b8d36-ce18-4b7e-8d31-004bff4a82b9"
 Template: "bdb637a6-8e93-467d-8caf-39264e1b7076"
 Path: /sitecore/content/Legal/Home
 DB: master
+SharedFields:
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: "au|sitecore\Emma|pe|+item:create|+item:read|+item:rename|+item:delete|+item:write|^*|pd|+item:create|+item:read|+item:rename|+item:delete|+item:write|^*|"
 Languages:
 - Language: en
   Versions:
