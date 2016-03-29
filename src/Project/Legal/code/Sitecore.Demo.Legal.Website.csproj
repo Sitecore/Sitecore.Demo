@@ -147,7 +147,7 @@
     <Content Include="App_Config\Include\Project\z.Sitecore.Demo.DevSettings.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\Legal\Layouts\Default.cshtml" />
-    <Content Include="web.config" />
+    <None Include="web.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
