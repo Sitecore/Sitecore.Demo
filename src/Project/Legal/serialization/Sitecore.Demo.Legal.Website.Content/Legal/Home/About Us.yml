@@ -1,29 +1,23 @@
 ﻿---
-ID: "53c59369-b0c7-40b2-b76f-ded99916d309"
-Parent: "6eb0f80b-a1d5-40e0-a472-9308b24228b5"
-Template: "4b0a2893-4e7b-4248-86a9-dab6da3bb230"
+ID: 53c59369-b0c7-40b2-b76f-ded99916d309
+Parent: 6eb0f80b-a1d5-40e0-a472-9308b24228b5
+Template: 4b0a2893-4e7b-4248-86a9-dab6da3bb230
 Path: /sitecore/content/Legal/Home/About Us
 DB: master
 SharedFields:
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
   Hint: __Sortorder
   Value: 300
-- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
   Hint: __Renderings
   Type: layout
   Value: |
-    <r xmlns:p="p" xmlns:s="s"
-      p:p="1"
-      s:xsd="http://www.w3.org/2001/XMLSchema">
-      <d
-        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-        <r
-          uid="{20E3883C-C16D-41D7-B5D3-C4AC60D8386D}">
+    <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r uid="{20E3883C-C16D-41D7-B5D3-C4AC60D8386D}">
           <p:d />
         </r>
-        <r
-          uid="{66422117-69C1-4B62-9323-482F16C4F244}"
-          s:id="{A85A0B65-D3B7-48B8-B362-F17AA3CA7DF1}" />
+        <r uid="{66422117-69C1-4B62-9323-482F16C4F244}" s:id="{A85A0B65-D3B7-48B8-B362-F17AA3CA7DF1}" />
       </d>
     </r>
 Languages:
@@ -31,318 +25,131 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
       Hint: __Final Renderings
       Type: Layout
       Value: |
-        <r xmlns:p="p" xmlns:s="s"
-          p:p="1"
-          s:xsd="http://www.w3.org/2001/XMLSchema">
-          <d
-            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-            <p
-              uid="{524C9B59-7F81-470A-91FD-3B702E511478}"
-              p:before="p[@uid='{8DE8FD5A-D48D-4B90-90D0-5D922F969648}']"
-              s:key="/page-layout/sidebar"
-              s:md="/sitecore/layout/Placeholder Settings/Project/Legal/sidebar" />
-            <p
-              uid="{8DE8FD5A-D48D-4B90-90D0-5D922F969648}"
-              p:before="p[@uid='{CC014EE3-970C-41FE-BDE2-0EA05208BD46}']"
-              s:key="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-2_b9ad35db-bb36-4df8-b9d3-3242ec9527b5"
-              s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-2" />
-            <p
-              uid="{CC014EE3-970C-41FE-BDE2-0EA05208BD46}"
-              p:before="p[@uid='{F8825690-0442-4A5A-858C-DD114DEF2036}']"
-              s:key="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-3_b9ad35db-bb36-4df8-b9d3-3242ec9527b5"
-              s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-3" />
-            <p
-              uid="{F8825690-0442-4A5A-858C-DD114DEF2036}"
-              p:before="p[@uid='{F31A22B4-1FBB-4FC1-988B-EA78F2900510}']"
-              s:key="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-4_b9ad35db-bb36-4df8-b9d3-3242ec9527b5"
-              s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-4" />
-            <p
-              uid="{F31A22B4-1FBB-4FC1-988B-EA78F2900510}"
-              p:before="p[@uid='{0C8AEAAD-CE01-49AE-8E1E-156EC09AEF5A}']"
-              s:key="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-5_b9ad35db-bb36-4df8-b9d3-3242ec9527b5"
-              s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-5" />
-            <p
-              uid="{0C8AEAAD-CE01-49AE-8E1E-156EC09AEF5A}"
-              p:before="r[@uid='{98F2749E-9C91-49DC-800F-CE1003415B4F}']"
-              s:key="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-6_b9ad35db-bb36-4df8-b9d3-3242ec9527b5"
-              s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-6" />
-            <r
-              uid="{98F2749E-9C91-49DC-800F-CE1003415B4F}"
-              p:before="r[@uid='{80CD8E31-93BE-4A68-B479-E89C5C39B5ED}']"
-              s:ds="{2589D3F3-B646-4709-AF86-C0F5C3C43C9D}"
-              s:id="{EE5A9F3D-C2CB-4710-8053-04D1A7135EBE}"
-              s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-huge_075cc2ff-1cd4-41ed-b913-f0504a049986" />
-            <r
-              uid="{80CD8E31-93BE-4A68-B479-E89C5C39B5ED}"
-              p:before="r[@uid='{075CC2FF-1CD4-41ED-B913-F0504A049986}']"
-              s:ds="location:{AC67D144-7CAC-4D7F-A40A-9F800F2C8F7C}"
-              s:id="{D0B4FD9F-3AEE-4AD7-BBC4-F37F0A1A3309}"
-              s:par="SearchResultsLimit=10"
-              s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-huge_075cc2ff-1cd4-41ed-b913-f0504a049986" />
-            <r
-              uid="{075CC2FF-1CD4-41ED-B913-F0504A049986}"
-              p:before="r[@uid='{4825A418-2B7B-43C5-99C1-BBA804DC0BBB}']"
-              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
-              s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4" />
-            <r
-              uid="{4825A418-2B7B-43C5-99C1-BBA804DC0BBB}"
-              p:before="r[@uid='{16F72E48-23FB-44CF-9F58-AF00F2553244}']"
-              s:ds="{89A92ACA-2E50-477E-B8D2-A1D9EA9253BB}"
-              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
-              s:ph="/page-layout/section/col-narrow-1" />
-            <r
-              uid="{16F72E48-23FB-44CF-9F58-AF00F2553244}"
-              p:before="r[@uid='{98E53CA3-A399-4179-BA72-C51852816D3F}']"
-              s:ds="{F84917ED-9ACA-4A6F-B65F-00E6B209D371}"
-              s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}"
-              s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-6_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" />
-            <r
-              uid="{98E53CA3-A399-4179-BA72-C51852816D3F}"
-              p:before="r[@uid='{CC12D9CB-1F66-4B08-B1E6-D083E88CE372}']"
-              s:ds="{17F0B1C7-0D17-4039-962D-6B5894DEF4DF}"
-              s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}"
-              s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-5_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" />
-            <r
-              uid="{CC12D9CB-1F66-4B08-B1E6-D083E88CE372}"
-              p:before="r[@uid='{25053555-E1FE-49D9-BCE2-D3E776507BB3}']"
-              s:ds="{1BEE7175-8126-4F1F-B0D3-1C0C3879795D}"
-              s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}"
-              s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-4_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" />
-            <r
-              uid="{25053555-E1FE-49D9-BCE2-D3E776507BB3}"
-              p:before="r[@uid='{078BF6D3-14A9-4CFB-A93C-5457D2730B36}']"
-              s:ds="{C9BFB6A6-5B20-42EF-82FD-E79CEC01CC80}"
-              s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}"
-              s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-3_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" />
-            <r
-              uid="{078BF6D3-14A9-4CFB-A93C-5457D2730B36}"
-              p:before="r[@uid='{D5E5B075-C0CE-48BE-B1BA-F2FD9F847D76}']"
-              s:ds="{3D1C0597-EB53-4216-BA7C-215624C3A641}"
-              s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}"
-              s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-2_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" />
-            <r
-              uid="{D5E5B075-C0CE-48BE-B1BA-F2FD9F847D76}"
-              p:before="r[@uid='{C0331280-9D2C-4BE9-8DA6-32D36EBD6456}']"
-              s:ds="{B7264CE2-345E-4760-A3A8-619435E65A89}"
-              s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}"
-              s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-1_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" />
-            <r
-              uid="{C0331280-9D2C-4BE9-8DA6-32D36EBD6456}"
-              p:before="r[@uid='{E4CC5A90-0AFD-42FB-A337-7058AF90204B}']"
-              s:ds="{FB063740-6663-411E-95C0-1CD49A5EB7FC}"
-              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
-              s:ph="/page-layout/section/col-narrow-2">
+        <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <p uid="{524C9B59-7F81-470A-91FD-3B702E511478}" p:before="p[@uid='{8DE8FD5A-D48D-4B90-90D0-5D922F969648}']" s:key="/page-layout/sidebar" s:md="/sitecore/layout/Placeholder Settings/Project/Legal/sidebar" />
+            <p uid="{8DE8FD5A-D48D-4B90-90D0-5D922F969648}" p:before="p[@uid='{CC014EE3-970C-41FE-BDE2-0EA05208BD46}']" s:key="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-2_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-2" />
+            <p uid="{CC014EE3-970C-41FE-BDE2-0EA05208BD46}" p:before="p[@uid='{F8825690-0442-4A5A-858C-DD114DEF2036}']" s:key="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-3_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-3" />
+            <p uid="{F8825690-0442-4A5A-858C-DD114DEF2036}" p:before="p[@uid='{F31A22B4-1FBB-4FC1-988B-EA78F2900510}']" s:key="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-4_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-4" />
+            <p uid="{F31A22B4-1FBB-4FC1-988B-EA78F2900510}" p:before="p[@uid='{0C8AEAAD-CE01-49AE-8E1E-156EC09AEF5A}']" s:key="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-5_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-5" />
+            <p uid="{0C8AEAAD-CE01-49AE-8E1E-156EC09AEF5A}" p:before="r[@uid='{98F2749E-9C91-49DC-800F-CE1003415B4F}']" s:key="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-6_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-6" />
+            <r uid="{98F2749E-9C91-49DC-800F-CE1003415B4F}" p:before="r[@uid='{80CD8E31-93BE-4A68-B479-E89C5C39B5ED}']" s:ds="{2589D3F3-B646-4709-AF86-C0F5C3C43C9D}" s:id="{EE5A9F3D-C2CB-4710-8053-04D1A7135EBE}" s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-huge_075cc2ff-1cd4-41ed-b913-f0504a049986" />
+            <r uid="{80CD8E31-93BE-4A68-B479-E89C5C39B5ED}" p:before="r[@uid='{075CC2FF-1CD4-41ED-B913-F0504A049986}']" s:ds="location:{AC67D144-7CAC-4D7F-A40A-9F800F2C8F7C}" s:id="{D0B4FD9F-3AEE-4AD7-BBC4-F37F0A1A3309}" s:par="SearchResultsLimit=10" s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-huge_075cc2ff-1cd4-41ed-b913-f0504a049986" />
+            <r uid="{075CC2FF-1CD4-41ED-B913-F0504A049986}" p:before="r[@uid='{4825A418-2B7B-43C5-99C1-BBA804DC0BBB}']" s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}" s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4" />
+            <r uid="{4825A418-2B7B-43C5-99C1-BBA804DC0BBB}" p:before="r[@uid='{16F72E48-23FB-44CF-9F58-AF00F2553244}']" s:ds="{89A92ACA-2E50-477E-B8D2-A1D9EA9253BB}" s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}" s:ph="/page-layout/section/col-narrow-1" />
+            <r uid="{16F72E48-23FB-44CF-9F58-AF00F2553244}" p:before="r[@uid='{98E53CA3-A399-4179-BA72-C51852816D3F}']" s:ds="{F84917ED-9ACA-4A6F-B65F-00E6B209D371}" s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}" s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-6_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" />
+            <r uid="{98E53CA3-A399-4179-BA72-C51852816D3F}" p:before="r[@uid='{CC12D9CB-1F66-4B08-B1E6-D083E88CE372}']" s:ds="{17F0B1C7-0D17-4039-962D-6B5894DEF4DF}" s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}" s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-5_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" />
+            <r uid="{CC12D9CB-1F66-4B08-B1E6-D083E88CE372}" p:before="r[@uid='{25053555-E1FE-49D9-BCE2-D3E776507BB3}']" s:ds="{1BEE7175-8126-4F1F-B0D3-1C0C3879795D}" s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}" s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-4_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" />
+            <r uid="{25053555-E1FE-49D9-BCE2-D3E776507BB3}" p:before="r[@uid='{078BF6D3-14A9-4CFB-A93C-5457D2730B36}']" s:ds="{C9BFB6A6-5B20-42EF-82FD-E79CEC01CC80}" s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}" s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-3_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" />
+            <r uid="{078BF6D3-14A9-4CFB-A93C-5457D2730B36}" p:before="r[@uid='{D5E5B075-C0CE-48BE-B1BA-F2FD9F847D76}']" s:ds="{3D1C0597-EB53-4216-BA7C-215624C3A641}" s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}" s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-2_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" />
+            <r uid="{D5E5B075-C0CE-48BE-B1BA-F2FD9F847D76}" p:before="r[@uid='{C0331280-9D2C-4BE9-8DA6-32D36EBD6456}']" s:ds="{B7264CE2-345E-4760-A3A8-619435E65A89}" s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}" s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-1_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" />
+            <r uid="{C0331280-9D2C-4BE9-8DA6-32D36EBD6456}" p:before="r[@uid='{E4CC5A90-0AFD-42FB-A337-7058AF90204B}']" s:ds="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}" s:ph="/page-layout/section/col-narrow-2">
               <rls>
                 <ruleset>
-                  <rule
-                    uid="{BBEF5923-4EE5-45C5-89E4-5FE2B466C41E}"
-                    s:name="Download Goal">
+                  <rule uid="{BBEF5923-4EE5-45C5-89E4-5FE2B466C41E}" s:name="Download Goal">
                     <conditions>
-                      <condition
-                        uid="00ABC952231B4FEDABF2D4CF4FDFE4A5"
-                        s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
-                        s:GoalId="{2036D3C2-9E84-44D2-A9F2-264108E6236D}"
-                        s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
-                        s:NumberOfElapsedDays="100"
-                        s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
-                        s:NumberOfPastInteractions="100" />
+                      <condition uid="00ABC952231B4FEDABF2D4CF4FDFE4A5" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{2036D3C2-9E84-44D2-A9F2-264108E6236D}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
                     </conditions>
                     <actions>
-                      <action
-                        uid="FA4321F1251B4EACAB0217190EF94D70"
-                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="{9AED814E-4DBF-4592-BEBD-DB03776AFA63}" />
+                      <action uid="FA4321F1251B4EACAB0217190EF94D70" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{9AED814E-4DBF-4592-BEBD-DB03776AFA63}" />
                     </actions>
                   </rule>
-                  <rule
-                    uid="{AF17F455-A4EE-4E5F-BD58-E4B35065E3F4}"
-                    s:name="Register Goal">
+                  <rule uid="{AF17F455-A4EE-4E5F-BD58-E4B35065E3F4}" s:name="Register Goal">
                     <conditions>
-                      <condition
-                        uid="FB58A4CC5BD24A5992E401F8734726C4"
-                        s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
-                        s:GoalId="{95F2499A-DC5E-4CE1-B45C-0CA42BF239FB}"
-                        s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
-                        s:NumberOfElapsedDays="100"
-                        s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
-                        s:NumberOfPastInteractions="100" />
+                      <condition uid="FB58A4CC5BD24A5992E401F8734726C4" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{95F2499A-DC5E-4CE1-B45C-0CA42BF239FB}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
                     </conditions>
                     <actions>
-                      <action
-                        uid="81575B87007E4A6E8E58C15AA76516CF"
-                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="{BEBB2420-28F4-4209-A5B7-D2A46647F43D}" />
+                      <action uid="81575B87007E4A6E8E58C15AA76516CF" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{BEBB2420-28F4-4209-A5B7-D2A46647F43D}" />
                     </actions>
                   </rule>
-                  <rule
-                    uid="{17CB9058-E031-4C46-9B40-D295411CBA8B}"
-                    s:name="More Info Goal">
+                  <rule uid="{17CB9058-E031-4C46-9B40-D295411CBA8B}" s:name="More Info Goal">
                     <conditions>
-                      <condition
-                        uid="C675F81768FF4770A651B7E4AF9EB0D5"
-                        s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
-                        s:GoalId="{7E113DEF-BA08-4D12-A3A4-822BC93518CB}"
-                        s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
-                        s:NumberOfElapsedDays="100"
-                        s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
-                        s:NumberOfPastInteractions="100" />
+                      <condition uid="C675F81768FF4770A651B7E4AF9EB0D5" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{7E113DEF-BA08-4D12-A3A4-822BC93518CB}" s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}" s:NumberOfPastInteractions="100" />
                     </conditions>
                     <actions>
-                      <action
-                        uid="824FE1EE1531475C96DE3D7384645551"
-                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="{72A00C8B-EAF3-4A4B-9B04-E3BFE7EE0A85}" />
+                      <action uid="824FE1EE1531475C96DE3D7384645551" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{72A00C8B-EAF3-4A4B-9B04-E3BFE7EE0A85}" />
                     </actions>
                   </rule>
-                  <rule
-                    uid="{00000000-0000-0000-0000-000000000000}"
-                    s:name="Default">
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
                     <conditions>
-                      <condition
-                        uid="45A4874874DF4C8CA3D292D8425463EF"
-                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                      <condition uid="45A4874874DF4C8CA3D292D8425463EF" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
                     </conditions>
                     <actions>
-                      <action
-                        uid="A05489E4493F45C882A7A39F4516CBE5"
-                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" />
+                      <action uid="A05489E4493F45C882A7A39F4516CBE5" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" />
                     </actions>
                   </rule>
                 </ruleset>
               </rls>
             </r>
-            <r
-              uid="{E4CC5A90-0AFD-42FB-A337-7058AF90204B}"
-              p:before="r[@uid='{C4B60845-97CE-43CF-A09D-843D67B3ECB0}']"
-              s:ds="{2AE21DEF-82EC-403E-A8A8-16761CF85995}"
-              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
-              s:ph="/page-layout/section/col-narrow-2" />
-            <r
-              uid="{C4B60845-97CE-43CF-A09D-843D67B3ECB0}"
-              p:before="r[@uid='{6D27F201-7AF5-462B-8ABA-48C313DC375D}']"
-              s:id="{CA748838-E6D5-4BAD-9126-CAD10DD1B0DB}"
-              s:ph="/page-layout/section/col-narrow-1" />
-            <r
-              uid="{6D27F201-7AF5-462B-8ABA-48C313DC375D}"
-              p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']"
-              s:ds="{3F7B49B0-8E2A-414A-AB9D-988F2915840A}"
-              s:id="{0CF58F14-D0F8-4C41-9896-3D69048A0B19}"
-              s:ph="/page-layout/section/col-narrow-1" />
-            <r
-              uid="{72AFA1D9-C667-4E02-9B90-ED4A897174A4}"
-              p:before="r[@uid='{66422117-69C1-4B62-9323-482F16C4F244}']"
-              s:ds=""
-              s:id="{1149A3C7-C69A-4E6B-A6C3-32687EC2F8D4}"
-              s:par="UseStaticPlaceholderNames&amp;Type=bg-primary&amp;Media&amp;Parallax"
-              s:ph="page-layout" />
-            <r
-              uid="{A85893F9-5DF5-4C28-AC0F-67AD85D29661}">
+            <r uid="{E4CC5A90-0AFD-42FB-A337-7058AF90204B}" p:before="r[@uid='{C4B60845-97CE-43CF-A09D-843D67B3ECB0}']" s:ds="{2AE21DEF-82EC-403E-A8A8-16761CF85995}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/section/col-narrow-2" />
+            <r uid="{C4B60845-97CE-43CF-A09D-843D67B3ECB0}" p:before="r[@uid='{6D27F201-7AF5-462B-8ABA-48C313DC375D}']" s:id="{CA748838-E6D5-4BAD-9126-CAD10DD1B0DB}" s:ph="/page-layout/section/col-narrow-1" />
+            <r uid="{6D27F201-7AF5-462B-8ABA-48C313DC375D}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:ds="{3F7B49B0-8E2A-414A-AB9D-988F2915840A}" s:id="{0CF58F14-D0F8-4C41-9896-3D69048A0B19}" s:ph="/page-layout/section/col-narrow-1" />
+            <r uid="{72AFA1D9-C667-4E02-9B90-ED4A897174A4}" p:before="r[@uid='{66422117-69C1-4B62-9323-482F16C4F244}']" s:ds="" s:id="{1149A3C7-C69A-4E6B-A6C3-32687EC2F8D4}" s:par="UseStaticPlaceholderNames&amp;Type=bg-primary&amp;Media&amp;Parallax" s:ph="page-layout" />
+            <r uid="{A85893F9-5DF5-4C28-AC0F-67AD85D29661}">
               <p:d />
             </r>
-            <r
-              uid="{1480F351-1265-4203-A9B2-E70940438419}"
-              p:before="r[@uid='{565F9960-4E47-4DA4-9406-0A29DD09911F}']"
-              s:ds=""
-              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
-              s:par=""
-              s:ph="/page-layout/col-narrow-2">
+            <r uid="{1480F351-1265-4203-A9B2-E70940438419}" p:before="r[@uid='{565F9960-4E47-4DA4-9406-0A29DD09911F}']" s:ds="" s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}" s:par="" s:ph="/page-layout/col-narrow-2">
               <rls>
                 <ruleset>
-                  <rule
-                    uid="{ABF67130-5924-4DA8-BEE9-FAEFD31C8029}"
-                    s:name="Register Goal">
+                  <rule uid="{ABF67130-5924-4DA8-BEE9-FAEFD31C8029}" s:name="Register Goal">
                     <conditions>
-                      <condition
-                        uid="F75613BF3D8F483284E0E17767CA3160"
-                        s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
-                        s:GoalId="{95F2499A-DC5E-4CE1-B45C-0CA42BF239FB}"
-                        s:NumberOfElapsedDaysOperatorId="{E362A3A4-E230-4A40-A7C4-FC42767E908F}"
-                        s:NumberOfElapsedDays="100"
-                        s:NumberOfPastInteractionsOperatorId="{B88CD556-082E-4385-BB76-E4D1B565F290}"
-                        s:NumberOfPastInteractions="0" />
+                      <condition uid="F75613BF3D8F483284E0E17767CA3160" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{95F2499A-DC5E-4CE1-B45C-0CA42BF239FB}" s:NumberOfElapsedDaysOperatorId="{E362A3A4-E230-4A40-A7C4-FC42767E908F}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{B88CD556-082E-4385-BB76-E4D1B565F290}" s:NumberOfPastInteractions="0" />
                     </conditions>
                     <actions>
-                      <action
-                        uid="4713F794EDB745A2B1EB669235A93CB6"
-                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="{BEBB2420-28F4-4209-A5B7-D2A46647F43D}" />
+                      <action uid="4713F794EDB745A2B1EB669235A93CB6" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{BEBB2420-28F4-4209-A5B7-D2A46647F43D}" />
                     </actions>
                   </rule>
-                  <rule
-                    uid="{DD10F879-58FB-4F47-9187-46E5A8865C31}"
-                    s:name="More Info Goal">
+                  <rule uid="{DD10F879-58FB-4F47-9187-46E5A8865C31}" s:name="More Info Goal">
                     <conditions>
-                      <condition
-                        uid="65DF4DF0E70949BFBD4B65E1A94A07B3"
-                        s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
-                        s:GoalId="{7E113DEF-BA08-4D12-A3A4-822BC93518CB}"
-                        s:NumberOfElapsedDaysOperatorId="{E362A3A4-E230-4A40-A7C4-FC42767E908F}"
-                        s:NumberOfElapsedDays="100"
-                        s:NumberOfPastInteractionsOperatorId="{B88CD556-082E-4385-BB76-E4D1B565F290}"
-                        s:NumberOfPastInteractions="0" />
+                      <condition uid="65DF4DF0E70949BFBD4B65E1A94A07B3" s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" s:GoalId="{7E113DEF-BA08-4D12-A3A4-822BC93518CB}" s:NumberOfElapsedDaysOperatorId="{E362A3A4-E230-4A40-A7C4-FC42767E908F}" s:NumberOfElapsedDays="100" s:NumberOfPastInteractionsOperatorId="{B88CD556-082E-4385-BB76-E4D1B565F290}" s:NumberOfPastInteractions="0" />
                     </conditions>
                     <actions>
-                      <action
-                        uid="9C5E6BD4B2574E22A623BAF8999E195B"
-                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="{72A00C8B-EAF3-4A4B-9B04-E3BFE7EE0A85}" />
+                      <action uid="9C5E6BD4B2574E22A623BAF8999E195B" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{72A00C8B-EAF3-4A4B-9B04-E3BFE7EE0A85}" />
                     </actions>
                   </rule>
-                  <rule
-                    uid="{00000000-0000-0000-0000-000000000000}"
-                    s:name="Default">
+                  <rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default">
                     <conditions>
-                      <condition
-                        uid="102FEE236077429FA2634BFE4C65B0F7"
-                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                      <condition uid="102FEE236077429FA2634BFE4C65B0F7" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
                     </conditions>
                     <actions>
-                      <action
-                        uid="E4FC4042D5474FF98D938B4A59168550"
-                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" />
+                      <action uid="E4FC4042D5474FF98D938B4A59168550" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{FB063740-6663-411E-95C0-1CD49A5EB7FC}" />
                     </actions>
                   </rule>
                 </ruleset>
               </rls>
             </r>
-            <r
-              uid="{29CD4722-5DDA-4DFE-8CBC-726661E56A5E}"
-              s:id="{CA748838-E6D5-4BAD-9126-CAD10DD1B0DB}"
-              s:ph="/page-layout/col-narrow-1" />
+            <r uid="{29CD4722-5DDA-4DFE-8CBC-726661E56A5E}" s:id="{CA748838-E6D5-4BAD-9126-CAD10DD1B0DB}" s:ph="/page-layout/col-narrow-1" />
           </d>
         </r>
-    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
       Hint: NavigationTitle
       Value: About Us
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       Hint: __Created
       Value: 20151216T034607Z
-    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+    - ID: ac3fd4db-8266-476d-9635-67814d91e901
       Hint: Summary
       Value: <span>For decades, our lawyers have been key figures and played pivotal roles in the growth of California—advancing both public and private interests, Chase Ridley clients are frequently at the center of the State’s most strategic and vital activities and investments. </span>
-    - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
+    - ID: bb7a38c0-323c-4f81-8eb9-288abf7c4638
       Hint: MetaDescription
-      Value: "Chase Ridley, lawyers, law firm, legal advice, disputes, California, public law, private law, intellectual property, taxation, corporate, civil litigation, business planning, bankruptcy, employment, construction, real estate, family law, mergers and acquisition financial institutions, retail, construction, real estate, public agencies, non-profit organizations, professional service companies"
-    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Value: Chase Ridley, lawyers, law firm, legal advice, disputes, California, public law, private law, intellectual property, taxation, corporate, civil litigation, business planning, bankruptcy, employment, construction, real estate, family law, mergers and acquisition financial institutions, retail, construction, real estate, public agencies, non-profit organizations, professional service companies
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
       Hint: Title
       Value: About Us
-    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
       Hint: BrowserTitle
       Value: About Us
-    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+    - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
       Hint: Body
       Value: |
-        <p>For decades, our lawyers have been key figures and played pivotal roles in the growth of California—advancing both public and private interests, Chase Ridley clients are frequently at the center of the State’s most strategic and vital activities and investments.</p>
         <h2>The best reputation</h2>
         <p>Clients turn to us for practical legal advice and to help them uncover opportunities that lead to the resolution of legal issues and disputes. We have built a reputation of understanding the industries and businesses of our clients and working with them to achieve just that.</p>
         <h2>Your full-service law firm</h2>
-        <p>Founded in San Francisco, Chase Ridley is strategically positioned to serve clients in business and litigation matters throughout Northern and Southern California, and beyond. As a preeminent full-service law firm, we offer counsel in more than 20 areas of civil practice including intellectual property, taxation, corporate, civil litigation, business planning, bankruptcy, employment, construction, real estate, family law, and mergers and acquisitions. We focus on providing these services to public corporations, governmental entities, privately held companies, family-owned businesses and individuals. Our clients’ industries are as vast and diverse as our region – financial institutions, retail, construction, real estate, public agencies and non-profit organizations, professional service companies, and even other legal firms and individuals.</p>
-        <p>This, is only half the picture of our firm. The other half of the picture can be found in the attorneys who comprise our firm and the role they play in their communities. Our attorneys’ participate in our diverse pro bono programs helping many charities and disadvantaged individuals. And, we serve on over 35 charitable boards throughout the State supporting such causes as animal welfare, food banks, women’s shelters, hospice services, and the arts. </p>
+        <p>Founded in San Francisco, Chase Ridley is strategically positioned to serve clients in business and litigation matters throughout Northern and Southern California, and beyond. As a preeminent full-service law firm, we offer counsel in more than 20 areas of civil practice including intellectual property, taxation, corporate, civil litigation, business planning, bankruptcy, employment, construction, real estate, family law, and mergers and acquisitions. We focus on providing these services to public corporations, governmental entities, privately held companies, family-owned businesses and individuals. Our clients&rsquo; industries are as vast and diverse as our region &ndash; financial institutions, retail, construction, real estate, public agencies and non-profit organizations, professional service companies, and even other legal firms and individuals.</p>
+        <p>This, is only half the picture of our firm. The other half of the picture can be found in the attorneys who comprise our firm and the role they play in their communities. Our attorneys&rsquo; participate in our diverse pro bono programs helping many charities and disadvantaged individuals. And, we serve on over 35 charitable boards throughout the State supporting such causes as animal welfare, food banks, women&rsquo;s shelters, hospice services, and the arts.&nbsp;</p>
         <h2>At your service</h2>
-        <p>For more than 40 years, our success has grown from earning the trust of our clients. Many of these relationships have spanned decades, which we proudly credit to our legal skills, our responsiveness and our ability to uncover opportunities that lead to our client’s goals. We intend to continue this track record for many years to come.</p>
+        <p>For more than 40 years, our success has grown from earning the trust of our clients. Many of these relationships have spanned decades, which we proudly credit to our legal skills, our responsiveness and our ability to uncover opportunities that lead to our client&rsquo;s goals. We intend to continue this track record for many years to come.</p>
