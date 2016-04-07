@@ -219,7 +219,7 @@ gulp.task("CI-Prepare-Package-Files", function (callback) {
       config.websiteRoot + "\\packages.config",
       config.websiteRoot + "\\App_Config\\Include\\Rainbow*",
       config.websiteRoot + "\\App_Config\\Include\\Unicorn\\*",
-      config.websiteRoot + "\\App_Config\\Include\\Habitat\\*Serialization.config",
+      config.websiteRoot + "\\App_Config\\Include\\{Feature,Foundation,Project}\\*Serialization.config",
       "!" + config.websiteRoot + "\\bin\\Sitecore.Support*dll",
       "!" + config.websiteRoot + "\\bin\\Sitecore.{Feature,Foundation,Habitat}*dll"
     ];
