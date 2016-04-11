@@ -1,8 +1,8 @@
 ﻿---
 ID: "6df4cea4-ae9a-45e2-a08c-e96557abdf74"
-Parent: "eefa227b-f23f-4085-a9cf-d7e44d0c702f"
+Parent: "eae30575-9d83-4802-871d-1c4909cea766"
 Template: "40ad8a9b-c75c-428d-9e1a-51372b21f63e"
-Path: /sitecore/content/Legal/Global/Quotes/Eduado Perez
+Path: /sitecore/content/Legal/Global/Teasers/Our Insights/Eduado Perez
 DB: master
 Languages:
 - Language: en
@@ -26,4 +26,4 @@ Languages:
       Value: Chase Ridley
     - ID: "c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38"
       Hint: Picture
-      Value: "<image mediaid=\"{71BB982B-938D-4772-8E77-7658791DDBC2}\" />"
+      Value: "<image mediaid=\"{71BB982B-938D-4772-8E77-7658791DDBC2}\" ></image>"

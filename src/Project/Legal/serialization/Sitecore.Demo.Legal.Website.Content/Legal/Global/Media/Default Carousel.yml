@@ -1,7 +1,7 @@
 ﻿---
-ID: 087838f6-e315-4a5f-aec8-00b5b85e9bfb
-Parent: eb9bdb69-b821-4d8c-94f2-254cf6823d29
-Template: c18d3794-d126-4548-bfc8-89358de6e9c1
+ID: "087838f6-e315-4a5f-aec8-00b5b85e9bfb"
+Parent: "eb9bdb69-b821-4d8c-94f2-254cf6823d29"
+Template: "c18d3794-d126-4548-bfc8-89358de6e9c1"
 Path: /sitecore/content/Legal/Global/Media/Default Carousel
 DB: master
 Languages:
@@ -9,13 +9,17 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20151216T031127Z
-    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin
-    - ID: 72ea8682-24d2-4beb-951c-3e2164974105
+    - ID: "72ea8682-24d2-4beb-951c-3e2164974105"
       Hint: MediaSelector
       Type: Multilist
-      Value: {493B5E2E-E0A4-4FB4-B4CB-00AC4AAE329F}
+      Value: |
+        {493B5E2E-E0A4-4FB4-B4CB-00AC4AAE329F}
+        {B60A7A92-A3E5-4E8D-A79A-27399E0CC5E9}
+        {99533E95-D095-4A21-9970-F8C5B9E01033}
+        {F23BC4ED-2B15-4935-B4BE-E6493FFA972D}

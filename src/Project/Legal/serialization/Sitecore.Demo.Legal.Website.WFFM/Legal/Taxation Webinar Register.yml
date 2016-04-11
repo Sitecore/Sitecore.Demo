@@ -1,23 +1,34 @@
 ﻿---
-ID: d0f65bca-8836-4285-aed7-00949a6a0eb3
-Parent: 77c7e4f0-1787-431e-827f-4cd216d5b9ac
-Template: ffb1da32-2764-47db-83b0-95b843546a7e
+ID: "d0f65bca-8836-4285-aed7-00949a6a0eb3"
+Parent: "77c7e4f0-1787-431e-827f-4cd216d5b9ac"
+Template: "ffb1da32-2764-47db-83b0-95b843546a7e"
 Path: /sitecore/system/Modules/Web Forms for Marketers/Legal/Taxation Webinar Register
 DB: master
 SharedFields:
-- ID: 3e2bbfc4-5668-47d2-a4fd-67773d155112
+- ID: "3e2bbfc4-5668-47d2-a4fd-67773d155112"
   Hint: Is Ajax Mvc Form
   Value: 
-- ID: 46fb324a-9741-43bd-a0c9-5081a39d40aa
+- ID: "46fb324a-9741-43bd-a0c9-5081a39d40aa"
   Hint: Show Introduction
-  Value: 0
-- ID: 87b37b02-ba9e-4464-ab4e-50737bb1d06e
+  Value: 
+- ID: "87b37b02-ba9e-4464-ab4e-50737bb1d06e"
   Hint: User Profile
-  Value: {DEDEEE27-A46D-4317-B49D-ECDB7D5378EC}
-- ID: a42052f7-6c18-424a-a2a1-7a72054cb1a6
+  Value: "{DEDEEE27-A46D-4317-B49D-ECDB7D5378EC}"
+- ID: "a42052f7-6c18-424a-a2a1-7a72054cb1a6"
   Hint: Show Title
   Value: 1
-- ID: af08c32b-f101-44a4-baae-677383e8eb02
+- ID: "a7f779b9-5fcf-45cc-866b-7c973f5c4fac"
+  Hint: Save Actions
+  Value: |
+    <?xml version="1.0" encoding="utf-16"?>
+    <li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <g id="{E5EABB1F-40BC-45BB-8D87-3B6C239B521B}" displayName="Actions" onclick="javascript:return scForm.postEvent(this,event,'forms:addaction')">
+        <li id="{90538392-5648-4326-B506-E1913ED1DAA8}" unicid="1154941E2BA147428F9E43E7100BA463">
+          <parameters>&amp;lt;outcome&amp;gt;{52054874-4767-47DC-8099-8C08BFA307AA}&amp;lt;/outcome&amp;gt;</parameters>
+        </li>
+      </g>
+    </li>
+- ID: "af08c32b-f101-44a4-baae-677383e8eb02"
   Hint: Check Actions
   Value: |
     <?xml version="1.0" encoding="utf-16"?>
@@ -28,92 +39,110 @@ SharedFields:
         </li>
       </g>
     </li>
-- ID: b0a67b2a-8b07-4e0b-8809-69f751709806
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
   Hint: __Tracking
   Type: Tracking
   Value: |
     <tracking>
-      <event name="Submit Success Event" id="{2FF08489-2A47-4F04-8D8E-0C25A294B2C4}" />
-      <event name="Form Submit" id="{A2C2CF51-9360-4084-9BA0-1A15F1A41096}" />
-      <event name="Field Completed" id="{F0113A93-570A-4F69-8C7C-BA08037D1E34}" />
-      <event name="Field Not Completed" id="{7E86B2F5-ACEC-4C60-8922-4EB5AE5D9874}" />
-      <event name="Field Out of Boundary" id="{F3D7B20C-675C-4707-84CC-5E5B4481B0EE}" />
-      <event name="Form Check Action Error" id="{7144C4C9-E56A-4529-B3C1-A1DEDC454AB8}" />
-      <event name="Form Save Action Failure" id="{DE302E25-E5AF-465E-8BB1-5C3E8145615D}" />
-      <event name="Invalid Field Syntax" id="{844BBD40-91F6-42CE-8823-5EA4D089ECA2}" />
-      <event name="Registered Legal Webinar" id="{95F2499A-DC5E-4CE1-B45C-0CA42BF239FB}" />
+      <event
+        name="Submit Success Event"
+        id="{2FF08489-2A47-4F04-8D8E-0C25A294B2C4}" />
+      <event
+        name="Form Submit"
+        id="{A2C2CF51-9360-4084-9BA0-1A15F1A41096}" />
+      <event
+        name="Field Completed"
+        id="{F0113A93-570A-4F69-8C7C-BA08037D1E34}" />
+      <event
+        name="Field Not Completed"
+        id="{7E86B2F5-ACEC-4C60-8922-4EB5AE5D9874}" />
+      <event
+        name="Field Out of Boundary"
+        id="{F3D7B20C-675C-4707-84CC-5E5B4481B0EE}" />
+      <event
+        name="Form Check Action Error"
+        id="{7144C4C9-E56A-4529-B3C1-A1DEDC454AB8}" />
+      <event
+        name="Form Save Action Failure"
+        id="{DE302E25-E5AF-465E-8BB1-5C3E8145615D}" />
+      <event
+        name="Invalid Field Syntax"
+        id="{844BBD40-91F6-42CE-8823-5EA4D089ECA2}" />
+      <event
+        name="Registered Legal Webinar"
+        id="{95F2499A-DC5E-4CE1-B45C-0CA42BF239FB}" />
     </tracking>
-- ID: d755de87-9c62-4eb3-83dc-2293784a3a3f
+- ID: "d755de87-9c62-4eb3-83dc-2293784a3a3f"
   Hint: Success Mode
-  Value: {F4D50806-6B89-4F2D-89FE-F77FC0A07D48}
-- ID: faeacd39-b059-4f46-bec4-74ba468a97b8
+  Value: "{F4D50806-6B89-4F2D-89FE-F77FC0A07D48}"
+- ID: "faeacd39-b059-4f46-bec4-74ba468a97b8"
   Hint: Show Footer
-  Value: 0
+  Value: 
 Languages:
-- Language: de-DE
+- Language: "de-DE"
   Fields:
-  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: Abonnieren Sie unseren Newsletter
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20141119T105445:635519912853716590Z
-    - ID: 86d6a401-5a20-49c9-a2f8-0312398ee946
+      Value: "20141119T105445:635519912853716590Z"
+    - ID: "86d6a401-5a20-49c9-a2f8-0312398ee946"
       Hint: Title
       Value: Abonnieren Sie unseren Newsletter
-    - ID: b71296b6-32b9-4703-a8cb-fb7437271103
+    - ID: "b71296b6-32b9-4703-a8cb-fb7437271103"
       Hint: Name
       Value: Abonnieren
 - Language: en
   Fields:
-  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: Taxation Webinar Register
   Versions:
   - Version: 1
     Fields:
-    - ID: 0f2414bd-a95d-419c-a238-a6637a3fab76
+    - ID: "0f2414bd-a95d-419c-a238-a6637a3fab76"
       Hint: Introduction
       Value: |
         		<p>The text you enter here is displayed directly below the form name. This could be, for example, a description, some instructions, or any other information.</p>
         
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20100712T155416Z
-    - ID: 4e2dc894-59a2-49bb-a49c-562f611169a2
+    - ID: "4e2dc894-59a2-49bb-a49c-562f611169a2"
       Hint: Success Message
       Value: Thank you for registering for our taxation webinar. We will send an email invitation to you with, if possible, your preferred month.
-    - ID: 86d6a401-5a20-49c9-a2f8-0312398ee946
+    - ID: "86d6a401-5a20-49c9-a2f8-0312398ee946"
       Hint: Title
       Value: Taxation Webinar Register
-    - ID: 95968a5a-db52-4f50-b471-c6c7da81f7e8
+    - ID: "95968a5a-db52-4f50-b471-c6c7da81f7e8"
       Hint: Footer
       Value: |
         		<p>The text you enter here is displayed at the end of the form.</p>
         
-    - ID: 9c4c1994-5140-49d3-bad7-db997816f816
+    - ID: "9c4c1994-5140-49d3-bad7-db997816f816"
       Hint: Success Page
       Value: "<link url=\"/sitecore/content/Legal/Home/Landing Pages/Taxation Webinar/Thank You\" id=\"{B71088CD-0CB3-4C66-A066-B819312CB7ED}\" />"
-    - ID: b71296b6-32b9-4703-a8cb-fb7437271103
+    - ID: "b71296b6-32b9-4703-a8cb-fb7437271103"
       Hint: Name
       Value: Register Now
-- Language: ja-JP
+- Language: "ja-JP"
   Fields:
-  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: ニュースレターの購読
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20141119T105635:635519913951266590Z
-    - ID: 86d6a401-5a20-49c9-a2f8-0312398ee946
+      Value: "20141119T105635:635519913951266590Z"
+    - ID: "86d6a401-5a20-49c9-a2f8-0312398ee946"
       Hint: Title
       Value: ニュースレターの購読
-    - ID: b71296b6-32b9-4703-a8cb-fb7437271103
+    - ID: "b71296b6-32b9-4703-a8cb-fb7437271103"
       Hint: Name
       Value: 購読する

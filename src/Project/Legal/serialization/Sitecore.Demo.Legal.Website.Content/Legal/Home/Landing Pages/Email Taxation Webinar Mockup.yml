@@ -1,7 +1,7 @@
 ﻿---
-ID: a91bce10-0c35-4631-8673-db73e5bb19a8
-Parent: d12879df-80cc-4b16-b179-c03813f0a26d
-Template: aa8556ee-6f5b-4b07-9909-11a5189f9ffc
+ID: "a91bce10-0c35-4631-8673-db73e5bb19a8"
+Parent: "d12879df-80cc-4b16-b179-c03813f0a26d"
+Template: "aa8556ee-6f5b-4b07-9909-11a5189f9ffc"
 Path: /sitecore/content/Legal/Home/Landing Pages/Email Taxation Webinar Mockup
 DB: master
 Languages:
@@ -9,7 +9,7 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 0bc0aedf-a6d0-4f74-933c-bd1779cd40b2
+    - ID: "0bc0aedf-a6d0-4f74-933c-bd1779cd40b2"
       Hint: HTML Content
       Value: |
         <!DOCTYPE html>
@@ -79,9 +79,8 @@ Languages:
         <div class="container">
           <div class="row">
             <div class="col-md-8">
-              
         <div class="article image">
-          <img src="/-/media/Legal/Images/stock-photo-16721898-business-man-hands-signing-on-document-at-his-desk.jpg?h=200&amp;la=en&amp;mw=500&amp;w=200&amp;hash=72DFB80A3369DD44EC57D834A1F504FA6A55EAE1" class="img-responsive" alt="stock-photo-26464533-businesswomans-making-arrangements" width="278" height="185" DisableWebEdit="False" />
+          <img src="/-/media/Legal/Images/3x2/Business-Woman-Making-Arrangements.jpg?h=333&amp;la=en&amp;mw=500&amp;w=500&amp;hash=6D62EE5820C48C18077C03D4CD887074D2F1E156" class="img-responsive" alt="Business Woman Making Arrangements" width="500" height="333" disablewebedit="False">
         </div>
         <div class="article body">
         
@@ -134,6 +133,6 @@ Languages:
         
         </body>
         </html>
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160209T151137Z
