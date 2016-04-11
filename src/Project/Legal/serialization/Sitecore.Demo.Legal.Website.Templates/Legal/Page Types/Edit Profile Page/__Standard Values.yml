@@ -9,10 +9,10 @@ SharedFields:
   Hint: __Renderings
   Type: layout
   Value: |
-    <r>
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
-        l="{ED043C36-CD48-4EDF-A288-EC404EE1CD42}">
+        l="{5F53E1F4-CFBA-45E4-8F86-A786EB590BAA}">
         <r
           id="{E7AE3F87-CF66-40F2-A9F5-33ECF08BC777}"
           ph="head"

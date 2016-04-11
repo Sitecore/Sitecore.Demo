@@ -46,9 +46,26 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <p
               uid="{87190E6F-0A13-4A13-93B2-C66A0CE6D740}"
-              p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']"
+              p:before="r[@uid='{A9FAFDB1-E75B-491D-880F-4EA315B74487}']"
               s:key="/page-layout/sidebar"
               s:md="/sitecore/layout/Placeholder Settings/Project/Legal/sidebar" />
+            <r
+              uid="{A9FAFDB1-E75B-491D-880F-4EA315B74487}"
+              p:before="r[@uid='{C0B6182B-18A6-4E84-B39C-E54AB6E993B7}']"
+              s:ds="{6C120B9D-8923-43F3-A0C3-CC4A8A07FDF4}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/footer/section/col-wide-1_fef37f9b-f799-4f99-b246-71b76818d121" />
+            <r
+              uid="{C0B6182B-18A6-4E84-B39C-E54AB6E993B7}"
+              p:before="r[@uid='{FEF37F9B-F799-4F99-B246-71B76818D121}']"
+              s:ds="{2AA6D06E-4B12-411F-BA11-9AC1D0D2BDD7}"
+              s:id="{A1AD34DD-535E-47AF-A911-34C57CCC26F6}"
+              s:ph="/footer/section/col-narrow-1_fef37f9b-f799-4f99-b246-71b76818d121" />
+            <r
+              uid="{FEF37F9B-F799-4F99-B246-71B76818D121}"
+              p:before="r[@uid='{07C9FE71-A5E2-4E5F-B276-5F2B73481D44}']"
+              s:id="{E6D8107A-D811-4826-82BB-1A6279830C5A}"
+              s:ph="/footer/section" />
             <r
               uid="{FBE1D835-CB96-4AC5-A732-5A31432E7F04}"
               p:before="r[@uid='{565F9960-4E47-4DA4-9406-0A29DD09911F}']"

@@ -95,6 +95,17 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
+              uid="{2824D540-F2C7-4B4E-930F-306266C17DDC}"
+              p:before="r[@uid='{2FBE5FFB-016B-49E1-90AF-BFDCFD08671C}']"
+              s:ds="{8CB3203A-3660-4F26-93B9-8E0B9DF6D8EB}"
+              s:id="{EE5A9F3D-C2CB-4710-8053-04D1A7135EBE}"
+              s:ph="/page-layout/section_2bf81f8c-b5e2-4ba7-9eb8-98d0d339786b/col-huge_2fbe5ffb-016b-49e1-90af-bfdcfd08671c" />
+            <r
+              uid="{2FBE5FFB-016B-49E1-90AF-BFDCFD08671C}"
+              p:before="r[@uid='{8F276F15-0EFD-4A25-80E4-3AA0B1020E29}']"
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:ph="/page-layout/section_2bf81f8c-b5e2-4ba7-9eb8-98d0d339786b" />
+            <r
               uid="{8F276F15-0EFD-4A25-80E4-3AA0B1020E29}"
               p:before="r[@uid='{EC5F9161-A4E0-4AED-A2EF-518DC1DE53FA}']"
               s:ds="{F84917ED-9ACA-4A6F-B65F-00E6B209D371}"
@@ -125,12 +136,18 @@ Languages:
               s:par="UseStaticPlaceholderNames&amp;Type=bg-primary&amp;Media&amp;Parallax"
               s:ph="page-layout" />
             <r
-              uid="{BA64AAD3-F58F-4CE0-87E0-E90EE537D10B}"
+              uid="{CC5757A4-C261-4A46-85E5-3527CB86108C}"
               p:before="r[@uid='{565F9960-4E47-4DA4-9406-0A29DD09911F}']"
-              s:ds="{6E532AF2-459C-49B5-911C-41BFEE7AE9D4}"
-              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
-              s:par=""
+              s:ds="{A48C26AA-CF72-4136-B111-5FD5CAD9AB43}"
+              s:id="{96EFEFFC-4D53-4F29-913E-84EDBFBE4DAB}"
               s:ph="/page-layout/section/col-narrow-1" />
+            <r
+              uid="{BA64AAD3-F58F-4CE0-87E0-E90EE537D10B}"
+              p:before="r[@uid='{A3BAD4D4-8E21-4B30-8C4C-B04163653D62}']"
+              s:ds="{6E532AF2-459C-49B5-911C-41BFEE7AE9D4}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:par=""
+              s:ph="/page-layout/section/col-wide-1" />
           </d>
         </r>
     - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"

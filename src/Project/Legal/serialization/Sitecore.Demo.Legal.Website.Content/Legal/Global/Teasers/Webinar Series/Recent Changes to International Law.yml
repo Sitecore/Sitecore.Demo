@@ -1,7 +1,7 @@
 ﻿---
-ID: de787636-d111-4b9b-bc4a-35cdd3a2c1a2
-Parent: 00477629-830c-4bcb-8899-4a3f15b145b1
-Template: c7d9d293-4ef8-4380-8e10-c4632e729f39
+ID: "de787636-d111-4b9b-bc4a-35cdd3a2c1a2"
+Parent: "00477629-830c-4bcb-8899-4a3f15b145b1"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
 Path: /sitecore/content/Legal/Global/Teasers/Webinar Series/Recent Changes to International Law
 DB: master
 Languages:
@@ -9,15 +9,18 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 0f6b5546-e0ab-4487-81de-640c1aa1b65b
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
       Hint: TeaserImage
-      Value: "<image mediaid=\"{917C6730-7E50-4C71-A036-8618FDBD5B27}\" ></image>"
-    - ID: 13d97a52-7c4e-407c-960d-fadde8a3c1b1
+      Value: "<image mediaid=\"{80F14E13-8080-44E2-BBC4-2C2DC093B3B4}\"></image>"
+    - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
       Hint: TeaserSummary
       Value: This regular webinar helps you keep up to date with the latest changes in laws that affect international companies and trade.
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160229T162432Z
-    - ID: 4a59d072-5b41-4a79-a157-2b2ccac10f2b
+    - ID: "3f7e7e3a-4e8e-4639-b079-fc5aeff172f5"
+      Hint: Teaser Label
+      Value: Webinar
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
       Hint: TeaserTitle
-      Value: Webinar: International Law Update
+      Value: International Law Update

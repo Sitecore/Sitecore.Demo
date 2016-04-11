@@ -1,0 +1,25 @@
+﻿---
+ID: "984f2a11-a72e-4418-b821-586d754d484f"
+Parent: "eb9bdb69-b821-4d8c-94f2-254cf6823d29"
+Template: "f1c095e2-b3e0-46d0-b838-02a9e8b880d9"
+Path: /sitecore/content/Legal/Global/Media/Boardroom
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160325T100859Z
+    - ID: "2628705d-9434-4448-978c-c3bf166fa1eb"
+      Hint: MediaVideoLink
+      Value: "<link text=\"Boardroom\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{C3098D0A-B58C-4DAF-9D96-75D13F6B276C}\" />"
+    - ID: "302c9f8d-f703-4f76-a4ab-73d222648232"
+      Hint: MediaDescription
+      Value: |
+        <p><span style="font-family: Times New Roman;">Almost every board meeting results in new ideas. Some are simple but other require complex legal advice.</span></p>
+        <p><span style="font-family: Times New Roman;">We can provide expert advice on corporate law.</span></p>
+    - ID: "63dda48b-b0cb-45a7-9a1b-b26ddb41009b"
+      Hint: MediaTitle
+      Value: Boardroom
