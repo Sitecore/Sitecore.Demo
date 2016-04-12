@@ -4,19 +4,19 @@
     I want to see a site visitor progress
 	though my site directed to the outcome I want
 
-@NeedReview
+@InDesign
 Scenario: Nurture_UC1_Open Webinar Nurture plan in the Marketing Control panel
-	Given User logged to the Sitecore 
+	Given User logged to the Sitecore as Emma
 	And Marketing Control Panel is launched
 	When User expands Engagement Plans section
 	And User expands Legal folder
 	And User selects the Webinar Nurture plan
-	Then This shows how a visitor will progress from requesting information to being offered access to the legal portal
+	Then 
 
 
-@NeedReview
+@InDesign
 Scenario: Nurture_UC2_Open Webinar Nurture plan in Supersisor mode
-	Given User logged to the Sitecore
+	Given User logged to the Sitecore as Emma
 	And Marketing Control Panel is launched
 	And Engagement Plans section is opened
 	And Legal engagement plan is expanded
@@ -94,7 +94,7 @@ Scenario: Nurture_UC8_Check Onsite Behavior section
 	And Actor enters following data in to the form fields
 	| Email              | First Name  | Last Name      |
 	| ace8@sitecore.net  | Anna        | Chervonchenko  |      
-	And Actor clicks <Send Me Information button>
+	And Actor clicks <Send Me Information> button
 	And Actor expands xDB panel
 	And Actor expands Onsite Behavior section
 	Then following information is present in the section
@@ -130,7 +130,7 @@ Scenario: Nurture_UC10_Check registration form pre-population
 	 
 
 @NeedReview
-Scenario: Nurture_UC11_
+Scenario: Nurture_UC11_Register now
 	Given Legal website is opened on the /Landing-Pages/Taxation-Webinar/Taxation-Webinar-Register page
 	When Actor enters followind data into form fields
 	| Email               | First Name  | Last Name      | Month Preference  |
@@ -140,7 +140,7 @@ Scenario: Nurture_UC11_
 
 
 @NeedReview
-Scenario: Nurture_UC12_
+Scenario: Nurture_UC12_Trigger outcomes on registration
 	Given Legal website is opened on the /Landing-Pages/Taxation-Webinar/Taxation-Webinar-Register page
 	When Actor enters followind data into form fields
 	| Email               | First Name  | Last Name      | Month Preference  |
@@ -152,9 +152,10 @@ Scenario: Nurture_UC12_
     | Triggered goals          | Outcomes             |
 	| Registered Legal Webinar | Marketing Lead       | 
 
-@NeedReview
-Scenario: Nurture_UC13_
-Given Legal website is opened on the /Landing-Pages/Taxation-Webinar/Taxation-Webinar-Register page
+
+@InDesign
+Scenario: Nurture_UC13_Download whitepaper
+	Given Legal website is opened on the /Landing-Pages/Taxation-Webinar/Taxation-Webinar-Register page
 	When Actor enters followind data into form fields
 	| Email               | First Name  | Last Name      | Month Preference  |
 	| ace12@sitecore.net  | Anna        | Chervonchenko  | January           |
@@ -164,3 +165,108 @@ Given Legal website is opened on the /Landing-Pages/Taxation-Webinar/Taxation-We
 	Then following information is present in the section
     | Triggered goals          | Outcomes             |
 	| Registered Legal Webinar | Marketing Lead       | 
+
+
+@NeedReview
+Scenario: Nurture_UC14_Alternate demo path. Email mock-up page. Check personalized info page
+	Given Legal website is opened on the /Legal/Email page
+	When Actor clicks <Register now> link
+	Then page URL contains sc_camp=356A7E5445E14860AFBBF922E8A3018F
+    And <Taxation Webinar Register> form with following fields is opened
+	| Field				|
+	| Email				|
+	| First Name		|
+	| Last Name			|
+	| Month Preference	|
+	And <Register Now> button presents on the page
+
+
+@NeedReview
+Scenario: Nurture_UC15_Alternate demo path. Email mock-up page. Verify xDB panel
+	Given Legal website is opened on the /Legal/Email page
+	When Actor clicks <Register now> link
+	And Actor expands xDB panel
+	And Actor expands Refferal section
+	Then following information is present in the Campaigns section
+    | Field values                           |
+    | Active                                 |
+    | Email Legal Webinar                    |
+    | Online/Email campaigns/Email marketing |
+
+
+@NeedReview
+Scenario: Nurture_UC16_Alternate demo path. Facebook campaign. Check personalized info page
+	Given Facebook website is opened on the https://www.facebook.com/ridleysc/ page
+	When Actor clicks link with sc_camp=23A9161A0CA847ACB718D100B65A1328
+    Then <Taxation Webinar Information> form with following fields is opened
+	| Field				|
+	| Email				|
+	| First Name		|
+	| Last Name			|
+	And <Send Me Information> button presents on the page
+	And ...
+
+
+@NeedReview
+Scenario: Nurture_UC17_Alternate demo path. Facebook campaign. Verify xDB panel
+	Given Facebook website is opened on the https://www.facebook.com/ridleysc/ page
+	When Actor clicks link with sc_camp=23A9161A0CA847ACB718D100B65A1328
+	And Actor expands xDB panel
+	And Actor expands Refferal section
+	Then following information is present in the Campaigns section
+    | Field values                                      |
+    | Active                                            |
+    | Facebook Legal Webinar                            |
+    | Online/Social community/Facebook social community |
+
+
+@NeedReview
+Scenario: Nurture_UC18_Alternate demo path. Twitter campaign. Check personalized info page
+	Given Twitter website is opened on the https://twitter.com/DSTChase page
+	When Actor clicks link with sc_camp=63FEB1E773A0420B9CED034CF07F7D78
+    Then <Taxation Webinar Information> form with following fields is opened
+	| Field				|
+	| Email				|
+	| First Name		|
+	| Last Name			|
+	And <Send Me Information> button presents on the page
+	And image with alt="twitter" presents on the page
+
+
+@NeedReview
+Scenario: Nurture_UC19_Alternate demo path. Twitter campaign. Verify xDB panel
+	Given Twitter website is opened on the https://twitter.com/DSTChase page
+	When Actor clicks link with sc_camp=63FEB1E773A0420B9CED034CF07F7D78
+	And Actor expands xDB panel
+	And Actor expands Refferal section
+	Then following information is present in the Campaigns section
+    | Field values                                     |
+    | Active                                           |
+    | Twitter Legal Webinar                            |
+    | Online/Social community/Twitter social community |
+
+
+@NeedReview
+Scenario: Nurture_UC20_Alternate demo path. Mock-up of a paid search page. Check personalized info page
+	Given Legal website is opened on the Legal/Search page
+	When Actor clicks link with sc_camp=D0D5445D-C856-4FEA-9133-30E69A341D5C
+    Then <Taxation Webinar Information> form with following fields is opened
+	| Field				|
+	| Email				|
+	| First Name		|
+	| Last Name			|
+	And <Send Me Information> button presents on the page
+	And ...
+
+
+@NeedReview
+Scenario: Nurture_UC21_Alternate demo path. Mock-up of a paid search page. Verify xDB panel
+	Given Legal website is opened on the Legal/Search page
+	When Actor clicks link with sc_camp=D0D5445D-C856-4FEA-9133-30E69A341D5C
+	And Actor expands xDB panel
+	And Actor expands Refferal section
+	Then following information is present in the Campaigns section
+    | Field values                  |
+    | Active                        |
+    | Search Legal Webinar          |
+    | Online/Paid search/Google ads | 
