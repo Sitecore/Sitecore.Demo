@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{61DBB28E-BC37-49B0-8F56-6FA6B39FAC3E}"
 EndProject
@@ -17,6 +17,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configurat
 		publishsettings.targets = publishsettings.targets
 		README.md = README.md
 		src\Project\Legal\code\App_Config\Include\Project\z.Sitecore.Demo.DevSettings.config = src\Project\Legal\code\App_Config\Include\Project\z.Sitecore.Demo.DevSettings.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{90478177-AEE1-4224-B707-0346FF0D0B98}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\habitat.js = scripts\habitat.js
+		scripts\unicorn.js = scripts\unicorn.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unicorn", "Unicorn", "{A7BFFFD9-5B43-4A4C-8C27-7A58739354B3}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\Unicorn\Sync.ps1 = scripts\Unicorn\Sync.ps1
+		scripts\Unicorn\Unicorn.psm1 = scripts\Unicorn\Unicorn.psm1
 	EndProjectSection
 EndProject
 Global
@@ -36,5 +48,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6E37A750-6E7F-406F-B7E7-BE329C9D1791} = {61DBB28E-BC37-49B0-8F56-6FA6B39FAC3E}
 		{0BC33B3D-3E16-4C5C-BDB7-9C06CC52C715} = {6E37A750-6E7F-406F-B7E7-BE329C9D1791}
+		{90478177-AEE1-4224-B707-0346FF0D0B98} = {DB09CB9A-DEF0-43BF-B0C6-41C57E1D81C2}
+		{A7BFFFD9-5B43-4A4C-8C27-7A58739354B3} = {90478177-AEE1-4224-B707-0346FF0D0B98}
 	EndGlobalSection
 EndGlobal
