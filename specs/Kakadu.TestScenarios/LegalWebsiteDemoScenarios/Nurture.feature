@@ -4,28 +4,33 @@
     I want to see a site visitor progress
 	though my site directed to the outcome I want
 
-@InDesign
+@OnlyManual
 Scenario: Nurture_UC1_Open Webinar Nurture plan in the Marketing Control panel
 	Given User logged to the Sitecore as Emma
 	And Marketing Control Panel is launched
 	When User expands Engagement Plans section
 	And User expands Legal folder
 	And User selects the Webinar Nurture plan
-	Then 
+	Then Webinar Nurture contains following sections
+	| Section name | State       | Title                |
+	| Search       | Registered? | Requested More Info  |
+	| Register     | Downloaded  | Registered ForWebinar|
+	| Engaged      | <empty>     | Downloaded Whitepaper|
 
 
-@InDesign
-Scenario: Nurture_UC2_Open Webinar Nurture plan in Supersisor mode
+@OnlyManual
+Scenario: Nurture_UC2_Open Webinar Nurture plan in Supervisor mode
 	Given User logged to the Sitecore as Emma
 	And Marketing Control Panel is launched
 	And Engagement Plans section is opened
 	And Legal engagement plan is expanded
 	When User selects the Webinar Nurture plan
 	And User selects Supervise button
-	Then this shows which site visitors are in which part of the plan
+	Then Then Supervisor window has opened 
+    And System shows 0% for each state 
 
 
-@NeedReview
+@NeedImplementation
 Scenario: Nurture_UC3_Open Taxation Webinar Information form
 	Given Legal website homepage is opened in private browsing session
 	When Actor clicks <Find Out More> link
@@ -36,7 +41,7 @@ Scenario: Nurture_UC3_Open Taxation Webinar Information form
 	| Last Name  |
 
 
-@NeedReview
+@NeedImplementation
 Scenario: Nurture_UC4_Open Taxation Webinar Information form About Us page
 	Given Legal website homepage is opened in private browsing session
 	When Actor navigates to the /About-Us page
@@ -48,7 +53,7 @@ Scenario: Nurture_UC4_Open Taxation Webinar Information form About Us page
 	| Last Name  |
 
 
-@NeedReview
+@NeedImplementation
 Scenario: Nurture_UC5_Submit Taxation Webinar Information form
 	Given Legal website homepage is opened in private browsing session
 	When Actor clicks <Find Out More> link
@@ -57,9 +62,13 @@ Scenario: Nurture_UC5_Submit Taxation Webinar Information form
 	| ace5@sitecore.net  | Anna        | Chervonchenko  |      
 	And Actor clicks <Send Me Information> button
 	Then Landing-Pages/Taxation-Webinar/Thank-You page is opened
-	
-	
-@NeedReview
+    And <Thank you> title presents
+	And Following registration text presents:
+	|Text																																	   				 |
+	| Our servers are processing your request now. As soon as your request has been processed, we will send a confirmation email to the address you supplied.|
+
+		
+@NeedImplementation
 Scenario: Nurture_UC6_Check Engagement plans section
 	Given Legal website homepage is opened in private browsing session
 	When Actor clicks <Find Out More> link
@@ -70,9 +79,10 @@ Scenario: Nurture_UC6_Check Engagement plans section
 	And Actor expands xDB panel
 	And Actor expands Engagement section
 	Then Engagement plans section contains <Webinar Nurture>
+	And Engagement plan sate equals to <Requested More Info>
 
 
-@NeedReview
+@NeedImplementation
 Scenario: Nurture_UC7_Check Personal Information section
 	Given Legal website homepage is opened in private browsing session
 	When Actor clicks <Find Out More> link
@@ -87,7 +97,7 @@ Scenario: Nurture_UC7_Check Personal Information section
 	| ace7@sitecore.net|extranet\ace7_at_sitecore_dot_net  |
 
 
-@NeedReview
+@NeedImplementation
 Scenario: Nurture_UC8_Check Onsite Behavior section
 	Given Legal website homepage is opened in private browsing session
 	When Actor clicks <Find Out More> link
@@ -102,7 +112,7 @@ Scenario: Nurture_UC8_Check Onsite Behavior section
 	| Lucas the Lawyer | More Info Legal Webinar | Contact Acquisition  |
 
 
-@NeedReview
+@NeedImplementation
 Scenario: Nurture_UC9_Check Carousel personalization
 	Given Legal website homepage is opened in private browsing session
 	And Actor clicked <Find Out More> link
@@ -114,7 +124,7 @@ Scenario: Nurture_UC9_Check Carousel personalization
 	Then <Register Now> link available in the Carousel
 
 
-@NeedReview
+@NeedImplementation
 Scenario: Nurture_UC10_Check registration form pre-population
 	Given Legal website homepage is opened in private browsing session
 	And Actor clicked <Find Out More> link
@@ -129,7 +139,7 @@ Scenario: Nurture_UC10_Check registration form pre-population
 	| ace10@sitecore.net  | Anna        | Chervonchenko  | January           |
 	 
 
-@NeedReview
+@NeedImplementation
 Scenario: Nurture_UC11_Register now
 	Given Legal website is opened on the /Landing-Pages/Taxation-Webinar/Taxation-Webinar-Register page
 	When Actor enters followind data into form fields
@@ -139,7 +149,7 @@ Scenario: Nurture_UC11_Register now
 	Then /Landing-Pages/Taxation-Webinar/Thank-You page is opened
 
 
-@NeedReview
+@NeedImplementation
 Scenario: Nurture_UC12_Trigger outcomes on registration
 	Given Legal website is opened on the /Landing-Pages/Taxation-Webinar/Taxation-Webinar-Register page
 	When Actor enters followind data into form fields
@@ -151,23 +161,28 @@ Scenario: Nurture_UC12_Trigger outcomes on registration
 	Then following information is present in the section
     | Triggered goals          | Outcomes             |
 	| Registered Legal Webinar | Marketing Lead       | 
+	And <Thank you> title presents
+	And Following registration text presents:
+	| Text                                                                                                                                                    |
+	| Our servers are processing your request now. As soon as your request has been processed, we will send a confirmation email to the address you supplied. |
 
 
-@InDesign
+@NeedImplementation
 Scenario: Nurture_UC13_Download whitepaper
-	Given Legal website is opened on the /Landing-Pages/Taxation-Webinar/Taxation-Webinar-Register page
-	When Actor enters followind data into form fields
-	| Email               | First Name  | Last Name      | Month Preference  |
-	| ace12@sitecore.net  | Anna        | Chervonchenko  | January           |
-	And Actor clicks <Register Now> button
+	Given <Taxation Webinar Information> form is submitted
+	And <Taxation Webinar Registration> form is submitted
+	And  Legal website homepage is opened in private browsing session
+	When Actor clicks <Download Now> link
+	And Actor saves pdf file on file sysytem
 	And Actor expands xDB panel
+	And Actor clicks <Refresh> button on teh left side of the xDB panel
 	And Actor expands Onsite Behavior section
 	Then following information is present in the section
-    | Triggered goals          | Outcomes             |
-	| Registered Legal Webinar | Marketing Lead       | 
+    | Triggered goals                    | Value |
+	| Download White Paper Legal Webinar | 20    | 
 
 
-@NeedReview
+@NeedImplementation
 Scenario: Nurture_UC14_Alternate demo path. Email mock-up page. Check personalized info page
 	Given Legal website is opened on the /Legal/Email page
 	When Actor clicks <Register now> link
@@ -181,12 +196,12 @@ Scenario: Nurture_UC14_Alternate demo path. Email mock-up page. Check personaliz
 	And <Register Now> button presents on the page
 
 
-@NeedReview
+@NeedImplementation
 Scenario: Nurture_UC15_Alternate demo path. Email mock-up page. Verify xDB panel
 	Given Legal website is opened on the /Legal/Email page
 	When Actor clicks <Register now> link
 	And Actor expands xDB panel
-	And Actor expands Refferal section
+	And Actor expands Referral section
 	Then following information is present in the Campaigns section
     | Field values                           |
     | Active                                 |
@@ -194,7 +209,7 @@ Scenario: Nurture_UC15_Alternate demo path. Email mock-up page. Verify xDB panel
     | Online/Email campaigns/Email marketing |
 
 
-@NeedReview
+@NeedImplementation
 Scenario: Nurture_UC16_Alternate demo path. Facebook campaign. Check personalized info page
 	Given Facebook website is opened on the https://www.facebook.com/ridleysc/ page
 	When Actor clicks link with sc_camp=23A9161A0CA847ACB718D100B65A1328
@@ -204,15 +219,15 @@ Scenario: Nurture_UC16_Alternate demo path. Facebook campaign. Check personalize
 	| First Name		|
 	| Last Name			|
 	And <Send Me Information> button presents on the page
-	And ...
+	And Title contains <Taxation Webinar Information>
 
 
-@NeedReview
+@NeedImplementation
 Scenario: Nurture_UC17_Alternate demo path. Facebook campaign. Verify xDB panel
 	Given Facebook website is opened on the https://www.facebook.com/ridleysc/ page
 	When Actor clicks link with sc_camp=23A9161A0CA847ACB718D100B65A1328
 	And Actor expands xDB panel
-	And Actor expands Refferal section
+	And Actor expands Referral section
 	Then following information is present in the Campaigns section
     | Field values                                      |
     | Active                                            |
@@ -220,7 +235,7 @@ Scenario: Nurture_UC17_Alternate demo path. Facebook campaign. Verify xDB panel
     | Online/Social community/Facebook social community |
 
 
-@NeedReview
+@NeedImplementation
 Scenario: Nurture_UC18_Alternate demo path. Twitter campaign. Check personalized info page
 	Given Twitter website is opened on the https://twitter.com/DSTChase page
 	When Actor clicks link with sc_camp=63FEB1E773A0420B9CED034CF07F7D78
@@ -233,12 +248,12 @@ Scenario: Nurture_UC18_Alternate demo path. Twitter campaign. Check personalized
 	And image with alt="twitter" presents on the page
 
 
-@NeedReview
+@NeedImplementation
 Scenario: Nurture_UC19_Alternate demo path. Twitter campaign. Verify xDB panel
 	Given Twitter website is opened on the https://twitter.com/DSTChase page
 	When Actor clicks link with sc_camp=63FEB1E773A0420B9CED034CF07F7D78
 	And Actor expands xDB panel
-	And Actor expands Refferal section
+	And Actor expands Referral section
 	Then following information is present in the Campaigns section
     | Field values                                     |
     | Active                                           |
@@ -246,7 +261,7 @@ Scenario: Nurture_UC19_Alternate demo path. Twitter campaign. Verify xDB panel
     | Online/Social community/Twitter social community |
 
 
-@NeedReview
+@NeedImplementation
 Scenario: Nurture_UC20_Alternate demo path. Mock-up of a paid search page. Check personalized info page
 	Given Legal website is opened on the Legal/Search page
 	When Actor clicks link with sc_camp=D0D5445D-C856-4FEA-9133-30E69A341D5C
@@ -256,10 +271,10 @@ Scenario: Nurture_UC20_Alternate demo path. Mock-up of a paid search page. Check
 	| First Name		|
 	| Last Name			|
 	And <Send Me Information> button presents on the page
-	And ...
+	And Title contains <Taxation Webinar Information>
 
 
-@NeedReview
+@NeedImplementation
 Scenario: Nurture_UC21_Alternate demo path. Mock-up of a paid search page. Verify xDB panel
 	Given Legal website is opened on the Legal/Search page
 	When Actor clicks link with sc_camp=D0D5445D-C856-4FEA-9133-30E69A341D5C
