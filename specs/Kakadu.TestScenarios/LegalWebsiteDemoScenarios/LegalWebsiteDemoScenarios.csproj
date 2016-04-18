@@ -79,6 +79,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Nurture.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nurture.feature</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Personalisation.feature.cs">
       <AutoGen>True</AutoGen>
@@ -88,6 +93,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Nurture.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Nurture.feature.cs</LastGenOutput>
+    </None>
     <None Include="packages.config" />
     <None Include="Personalisation.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
