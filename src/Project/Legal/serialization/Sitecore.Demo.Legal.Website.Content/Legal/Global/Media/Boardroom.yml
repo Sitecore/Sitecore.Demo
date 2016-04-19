@@ -14,7 +14,7 @@ Languages:
       Value: 20160325T100859Z
     - ID: "2628705d-9434-4448-978c-c3bf166fa1eb"
       Hint: MediaVideoLink
-      Value: "<link text=\"Boardroom\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{C3098D0A-B58C-4DAF-9D96-75D13F6B276C}\" />"
+      Value: "<link id=\"{C3098D0A-B58C-4DAF-9D96-75D13F6B276C}\" querystring=\"\" text=\"Boardroom\" title=\"\" class=\"\" linktype=\"internal\" url=\"/sitecore/media library/Legal/Video/Conference Room Chairs Office\" target=\"\" />"
     - ID: "302c9f8d-f703-4f76-a4ab-73d222648232"
       Hint: MediaDescription
       Value: |
