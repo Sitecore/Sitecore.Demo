@@ -11,6 +11,7 @@ namespace ClassLibrary1.Steps
 {
   public class LegalNavigationSteps: StepsBase
   {
+    [Given(@"User has opened Legal website")]
     [Given(@"Legal website homepage is opened in private browsing session")]
     public void GivenLegalWebsiteHomepageIsOpenedInPrivateBrowsingSession()
     {
