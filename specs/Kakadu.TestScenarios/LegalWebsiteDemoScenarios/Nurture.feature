@@ -1,4 +1,5 @@
-﻿Feature: Nurture
+﻿@UI
+Feature: Nurture
 
 	As a marketer
     I want to see a site visitor progress

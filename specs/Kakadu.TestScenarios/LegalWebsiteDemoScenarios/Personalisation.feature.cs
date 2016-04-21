@@ -17,6 +17,7 @@ namespace ClassLibrary1
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.0.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+    [Xunit.TraitAttribute("Category", "UI")]
     public partial class PersonalisationFeature : Xunit.IClassFixture<PersonalisationFeature.FixtureData>, System.IDisposable
     {
         
@@ -34,7 +35,8 @@ namespace ClassLibrary1
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
             TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Personalisation", "\tIn order to avoid silly mistakes\r\n\tAs a math idiot\r\n\tI want to be told the sum o" +
-                    "f two numbers", ProgrammingLanguage.CSharp, ((string[])(null)));
+                    "f two numbers", ProgrammingLanguage.CSharp, new string[] {
+                        "UI"});
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -80,34 +82,34 @@ namespace ClassLibrary1
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("xDB Panel_UC1_no information for visitor", new string[] {
                         "NeedImplementation"});
-#line 7
-this.ScenarioSetup(scenarioInfo);
 #line 8
- testRunner.Given("User has opened Legal website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
 #line 9
- testRunner.And("User has opened xDB info panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Given("User has opened Legal website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 10
+ testRunner.And("User has opened xDB info panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 11
  testRunner.When("User selects Onsite Behavior section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
                         "field value"});
             table1.AddRow(new string[] {
                         "You have not been profiled yet"});
-#line 11
+#line 12
  testRunner.Then("<Profiling> contains following values", ((string)(null)), table1, "Then ");
 #line hidden
             TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
                         "field value"});
             table2.AddRow(new string[] {
                         "You have triggered no goals so far"});
-#line 14
+#line 15
  testRunner.And("<Triggered goals> contains following values", ((string)(null)), table2, "And ");
 #line hidden
             TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
                         "field value"});
             table3.AddRow(new string[] {
                         "You have reached no outcomes"});
-#line 17
+#line 18
  testRunner.And("<Outcomes> contains following values", ((string)(null)), table3, "And ");
 #line hidden
             this.ScenarioCleanup();
@@ -121,15 +123,15 @@ this.ScenarioSetup(scenarioInfo);
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("xDB Panel_UC2_associated persona for Corporate Finance page", new string[] {
                         "NeedImplementation"});
-#line 22
-this.ScenarioSetup(scenarioInfo);
 #line 23
- testRunner.Given("User has opened Legal website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
 #line 24
- testRunner.And("User has opened Corporate Finance page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Given("User has opened Legal website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 25
- testRunner.And("User has opened xDB info panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("User has opened Corporate Finance page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 26
+ testRunner.And("User has opened xDB info panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 27
  testRunner.When("User selects Onsite Behavior section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
@@ -144,21 +146,21 @@ this.ScenarioSetup(scenarioInfo);
                         "Margaret the Mother"});
             table4.AddRow(new string[] {
                         "Lucas the Lawyer"});
-#line 27
+#line 28
  testRunner.Then("<Profiling> contains following values", ((string)(null)), table4, "Then ");
 #line hidden
             TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
                         "field value"});
             table5.AddRow(new string[] {
                         "You have triggered no goals so far"});
-#line 34
+#line 35
  testRunner.And("<Triggered goals> contains following values", ((string)(null)), table5, "And ");
 #line hidden
             TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
                         "field value"});
             table6.AddRow(new string[] {
                         "You have reached no outcomes"});
-#line 37
+#line 38
  testRunner.And("<Outcomes> contains following values", ((string)(null)), table6, "And ");
 #line hidden
             this.ScenarioCleanup();
@@ -170,17 +172,17 @@ this.ScenarioSetup(scenarioInfo);
         public virtual void XDBPanel_UC3_AssociatedPersonaForHomePage()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("xDB Panel_UC3_associated persona for Home page", ((string[])(null)));
-#line 41
- this.ScenarioSetup(scenarioInfo);
 #line 42
- testRunner.Given("User has opened Legal website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ this.ScenarioSetup(scenarioInfo);
 #line 43
- testRunner.And("User has opened Corporate Finance page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Given("User has opened Legal website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 44
- testRunner.When("User has opened Home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.And("User has opened Corporate Finance page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 45
- testRunner.And("User has opened xDB info panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.When("User has opened Home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 46
+ testRunner.And("User has opened xDB info panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 47
  testRunner.And("User selects Onsite Behavior section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             TechTalk.SpecFlow.Table table7 = new TechTalk.SpecFlow.Table(new string[] {
@@ -195,21 +197,21 @@ this.ScenarioSetup(scenarioInfo);
                         "Margaret the Mother"});
             table7.AddRow(new string[] {
                         "Lucas the Lawyer"});
-#line 47
+#line 48
  testRunner.Then("<Profiling> contains following values", ((string)(null)), table7, "Then ");
 #line hidden
             TechTalk.SpecFlow.Table table8 = new TechTalk.SpecFlow.Table(new string[] {
                         "field value"});
             table8.AddRow(new string[] {
                         "You have triggered no goals so far"});
-#line 54
+#line 55
  testRunner.And("<Triggered goals> contains following values", ((string)(null)), table8, "And ");
 #line hidden
             TechTalk.SpecFlow.Table table9 = new TechTalk.SpecFlow.Table(new string[] {
                         "field value"});
             table9.AddRow(new string[] {
                         "You have reached no outcomes"});
-#line 57
+#line 58
  testRunner.And("<Outcomes> contains following values", ((string)(null)), table9, "And ");
 #line hidden
             this.ScenarioCleanup();
@@ -223,15 +225,15 @@ this.ScenarioSetup(scenarioInfo);
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("xDB Panel_UC4_associated persona for Trust, Estate, and Tax Law page", new string[] {
                         "NeedImplementation"});
-#line 62
-this.ScenarioSetup(scenarioInfo);
 #line 63
- testRunner.Given("User has opened Legal website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
 #line 64
- testRunner.And("User has opened Trust, Estate, and Tax Law page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Given("User has opened Legal website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 65
- testRunner.And("User has opened xDB info panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("User has opened Trust, Estate, and Tax Law page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 66
+ testRunner.And("User has opened xDB info panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 67
  testRunner.When("User selects Onsite Behavior section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table10 = new TechTalk.SpecFlow.Table(new string[] {
@@ -246,21 +248,21 @@ this.ScenarioSetup(scenarioInfo);
                         "Susan the CEO"});
             table10.AddRow(new string[] {
                         "Lucas the Lawyer"});
-#line 67
+#line 68
  testRunner.Then("<Profiling> contains following values", ((string)(null)), table10, "Then ");
 #line hidden
             TechTalk.SpecFlow.Table table11 = new TechTalk.SpecFlow.Table(new string[] {
                         "field value"});
             table11.AddRow(new string[] {
                         "You have triggered no goals so far"});
-#line 74
+#line 75
  testRunner.And("<Triggered goals> contains following values", ((string)(null)), table11, "And ");
 #line hidden
             TechTalk.SpecFlow.Table table12 = new TechTalk.SpecFlow.Table(new string[] {
                         "field value"});
             table12.AddRow(new string[] {
                         "You have reached no outcomes"});
-#line 77
+#line 78
  testRunner.And("<Outcomes> contains following values", ((string)(null)), table12, "And ");
 #line hidden
             this.ScenarioCleanup();
@@ -274,17 +276,17 @@ this.ScenarioSetup(scenarioInfo);
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("xDB Panel_UC5_associated persona for Home page", new string[] {
                         "NeedImplementation"});
-#line 82
-this.ScenarioSetup(scenarioInfo);
 #line 83
- testRunner.Given("User has opened Legal website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
 #line 84
- testRunner.And("User has opened Trust, Estate, and Tax Law page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Given("User has opened Legal website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 85
- testRunner.When("User has opened Home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.And("User has opened Trust, Estate, and Tax Law page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 86
- testRunner.And("User has opened xDB info panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.When("User has opened Home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 87
+ testRunner.And("User has opened xDB info panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 88
  testRunner.And("User selects Onsite Behavior section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             TechTalk.SpecFlow.Table table13 = new TechTalk.SpecFlow.Table(new string[] {
@@ -299,21 +301,21 @@ this.ScenarioSetup(scenarioInfo);
                         "Susan the CEO"});
             table13.AddRow(new string[] {
                         "Lucas the Lawyer"});
-#line 88
+#line 89
  testRunner.Then("<Profiling> contains following values", ((string)(null)), table13, "Then ");
 #line hidden
             TechTalk.SpecFlow.Table table14 = new TechTalk.SpecFlow.Table(new string[] {
                         "field value"});
             table14.AddRow(new string[] {
                         "You have triggered no goals so far"});
-#line 95
+#line 96
  testRunner.And("<Triggered goals> contains following values", ((string)(null)), table14, "And ");
 #line hidden
             TechTalk.SpecFlow.Table table15 = new TechTalk.SpecFlow.Table(new string[] {
                         "field value"});
             table15.AddRow(new string[] {
                         "You have reached no outcomes"});
-#line 98
+#line 99
  testRunner.And("<Outcomes> contains following values", ((string)(null)), table15, "And ");
 #line hidden
             this.ScenarioCleanup();
