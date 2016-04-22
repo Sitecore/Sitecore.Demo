@@ -5,62 +5,104 @@ var foreach = require("gulp-foreach");
 var rename = require("gulp-rename");
 var watch = require("gulp-watch");
 var newer = require("gulp-newer");
-var util = require("gulp-util");
-var rimrafDir = require("rimraf");
-var rimraf = require("gulp-rimraf");
 var runSequence = require("run-sequence");
-var fs = require("fs");
 var path = require("path");
-var xmlpoke = require("xmlpoke");
 var config = require("./gulp-config.js")();
-var websiteRootBackup = config.websiteRoot;
+var nugetRestore = require('gulp-nuget-restore');
+var fs = require('fs');
+var unicorn = require("./scripts/unicorn.js");
+var habitat = require("./scripts/habitat.js");
+
+module.exports.config = config;
+
+gulp.task("default", function (callback) {
+  config.runCleanBuilds = true;
+  return runSequence(
+    "01-Copy-Sitecore-Lib",
+    "02-Nuget-Restore",
+    "03-Publish-All-Projects",
+    "04-Apply-Xml-Transform",
+    "05-Sync-Unicorn",
+    "06-Deploy-Transforms",
+	callback);
+});
 
 /*****************************
   Initial setup
 *****************************/
 gulp.task("01-Copy-Sitecore-Lib", function () {
   console.log("Copying Sitecore Libraries");
+
+  fs.statSync(config.sitecoreLibraries);
+
   var files = config.sitecoreLibraries + "/**/*";
-  gulp.src(files)
-    .pipe(gulp.dest("./lib/Sitecore"));
 
-  var root = "./src";
-  var projects = root + "/**/code/bin";
-  gulp.src(projects, { base: root })
-    .pipe(foreach(function (stream, file) {
-      console.log("copying to " + file.path);
-      gulp.src(files)
-        .pipe(gulp.dest(file.path));
-      return stream;
-    }));
-
+  return gulp.src(files).pipe(gulp.dest("./lib/Sitecore"));
 });
 
-gulp.task("02-Publish-All-Projects", function (callback) {
-  runSequence(
+gulp.task("02-Nuget-Restore", function (callback) {
+  var solution = "./" + config.solutionName + ".sln";
+  return gulp.src(solution).pipe(nugetRestore());
+});
+
+
+gulp.task("03-Publish-All-Projects", function (callback) {
+  return runSequence(
     "Publish-Foundation-Projects",
     "Publish-Feature-Projects",
     "Publish-Project-Projects", callback);
 });
 
-gulp.task("03-Apply-Xml-Transform", function () {
-  return gulp.src("./src/Project/**/code/*.csproj")
+gulp.task("04-Apply-Xml-Transform", function () {
+  var layerPathFilters = ["./src/Foundation/**/code/*.csproj", "./src/Feature/**/code/*.csproj", "./src/Project/**/code/*.csproj"];
+  return gulp.src(layerPathFilters)
     .pipe(foreach(function (stream, file) {
       return stream
         .pipe(debug({ title: "Applying transform project:" }))
         .pipe(msbuild({
           targets: ["ApplyTransform"],
           configuration: config.buildConfiguration,
-          logCommand: true,
+          logCommand: false,
           verbosity: "normal",
           maxcpucount: 0,
           toolsVersion: 14.0,
           properties: {
-            WebConfigToTransform: config.websiteRoot + "\\web.config"
+            WebConfigToTransform: config.websiteRoot
           }
         }));
     }));
+});
 
+gulp.task("05-Sync-Unicorn", function (callback) {
+  var options = {};
+  options.siteHostName = habitat.getSiteUrl();
+  options.authenticationConfigFile = config.websiteRoot + "/App_config/Include/Unicorn/Unicorn.UI.config";
+
+  unicorn(function () { return callback() }, options);
+});
+
+
+gulp.task("06-Deploy-Transforms", function () {
+  return gulp.src("./src/**/code/**/*.transform")
+      .pipe(gulp.dest(config.websiteRoot + "/temp/transforms"));
+});
+
+/*****************************
+  Copy assemblies to all local projects
+*****************************/
+gulp.task("Copy-Local-Assemblies", function () {
+  console.log("Copying site assemblies to all local projects");
+  var files = config.sitecoreLibraries + "/**/*";
+
+  var root = "./src";
+  var projects = root + "/**/code/bin";
+  return gulp.src(projects, { base: root })
+    .pipe(foreach(function (stream, file) {
+      console.log("copying to " + file.path);
+      gulp.src(files)
+        .pipe(gulp.dest(file.path));
+      return stream;
+    }));
 });
 
 /*****************************
@@ -68,13 +110,17 @@ gulp.task("03-Apply-Xml-Transform", function () {
 *****************************/
 var publishProjects = function (location, dest) {
   dest = dest || config.websiteRoot;
+  var targets = ["Build"];
+  if (config.runCleanBuilds) {
+    targets = ["Clean", "Build"]
+  }
   console.log("publish to " + dest + " folder");
-  return gulp.src([location + "/**/*.csproj", "!" + location + "/**/*Tests.csproj", "!" + location + "/**/*Specflow.csproj"])
+  return gulp.src([location + "/**/code/*.csproj"])
     .pipe(foreach(function (stream, file) {
       return stream
         .pipe(debug({ title: "Building project:" }))
         .pipe(msbuild({
-          targets: ["Clean", "Build"],
+          targets: targets,
           configuration: config.buildConfiguration,
           logCommand: false,
           verbosity: "minimal",
@@ -106,7 +152,7 @@ gulp.task("Publish-Project-Projects", function () {
 
 gulp.task("Publish-Assemblies", function () {
   var root = "./src";
-  var binFiles = root + "/**/bin/Sitecore.{Feature,Foundation,Habitat}.*.{dll,pdb}";
+  var binFiles = root + "/**/code/**/bin/Sitecore.{Feature,Foundation,Habitat}.*.{dll,pdb}";
   var destination = config.websiteRoot + "/bin/";
   return gulp.src(binFiles, { base: root })
     .pipe(rename({ dirname: "" }))
@@ -132,14 +178,31 @@ gulp.task("Publish-All-Views", function () {
   );
 });
 
+gulp.task("Publish-All-Configs", function () {
+  var root = "./src";
+  var roots = [root + "/**/App_Config", "!" + root + "/**/obj/**/App_Config"];
+  var files = "/**/*.config";
+  var destination = config.websiteRoot + "\\App_Config";
+  return gulp.src(roots, { base: root }).pipe(
+    foreach(function (stream, file) {
+      console.log("Publishing from " + file.path);
+      gulp.src(file.path + files, { base: file.path })
+        .pipe(newer(destination))
+        .pipe(debug({ title: "Copying " }))
+        .pipe(gulp.dest(destination));
+      return stream;
+    })
+  );
+});
+
 /*****************************
  Watchers
 *****************************/
 gulp.task("Auto-Publish-Css", function () {
   var root = "./src";
-  var roots = [root + "/**/assets", "!" + root + "/**/obj/**/assets"];
+  var roots = [root + "/**/styles", "!" + root + "/**/obj/**/styles"];
   var files = "/**/*.css";
-  var destination = config.websiteRoot + "\\assets";
+  var destination = config.websiteRoot + "\\styles";
   gulp.src(roots, { base: root }).pipe(
     foreach(function (stream, rootFolder) {
       gulp.watch(rootFolder.path + files, function (event) {
@@ -175,7 +238,7 @@ gulp.task("Auto-Publish-Views", function () {
 
 gulp.task("Auto-Publish-Assemblies", function () {
   var root = "./src";
-  var roots = [root + "/**/code/bin"];
+  var roots = [root + "/**/code/**/bin"];
   var files = "/**/Sitecore.{Feature,Foundation,Habitat}.*.{dll,pdb}";;
   var destination = config.websiteRoot + "/bin/";
   gulp.src(roots, { base: root }).pipe(
@@ -190,71 +253,4 @@ gulp.task("Auto-Publish-Assemblies", function () {
       return stream;
     })
   );
-});
-
-/*****************************
- CI stuff
-*****************************/
-var packageFiles = [];
-gulp.task("CI-Publish", function (callback) {
-    packageFiles = [];
-    config.websiteRoot = path.resolve("./temp");
-    config.buildConfiguration = "Release";
-    fs.mkdirSync(config.websiteRoot);
-    runSequence(
-      "Publish-Foundation-Projects",
-      "Publish-Feature-Projects",
-      "Publish-Project-Projects", callback);
-});
-
-gulp.task("CI-Prepare-Package-Files", function (callback) {
-    var foldersToExclude = [config.websiteRoot + "\\App_config\\include\\Unicorn"];
-    foldersToExclude.forEach(function (item, index, array) {
-        rimrafDir.sync(config.websiteRoot + item);
-    });
-
-    var excludeList = [
-      config.websiteRoot + "\\bin\\{Sitecore,Lucene,Newtonsoft,Unicorn,Kamsar,Rainbow,System,Microsoft.Web.Infrastructure}*dll",
-      config.websiteRoot + "\\compilerconfig.json.defaults",
-      config.websiteRoot + "\\packages.config",
-      config.websiteRoot + "\\App_Config\\Include\\Rainbow*",
-      config.websiteRoot + "\\App_Config\\Include\\Unicorn\\*",
-      config.websiteRoot + "\\App_Config\\Include\\{Feature,Foundation,Project}\\*Serialization.config",
-      "!" + config.websiteRoot + "\\bin\\Sitecore.Support*dll",
-      "!" + config.websiteRoot + "\\bin\\Sitecore.{Feature,Foundation,Habitat}*dll"
-    ];
-    console.log(excludeList);
-
-    return gulp.src(excludeList, { read: false }).pipe(rimraf({ force: true }));
-});
-
-gulp.task("CI-Enumerate-Files", function () {
-    config.websiteRoot = websiteRootBackup;
-
-    return gulp.src(path.resolve("./temp") + "/**/*.*", { base: "temp", read: false })
-      .pipe(foreach(function (stream, file) {
-          var item = "/" + file.relative.replace(/\\/g, "/");
-          console.log("Added to the package:" + item);
-          packageFiles.push(item);
-          return stream;
-      }));
-});
-
-
-gulp.task("CI-Update-Xml", function (cb) {
-    xmlpoke("./package.xml", function (xml) {
-        for (var idx in packageFiles) {
-            xml.add("project/Sources/xfiles/Entries/x-item", packageFiles[idx]);
-        }
-    });
-    cb();
-});
-
-gulp.task("CI-Clean", function (callback) {
-    rimrafDir.sync(path.resolve("./temp"));
-    callback();
-});
-
-gulp.task("CI-Do-magic", function (callback) {
-    runSequence("CI-Clean", "CI-Publish", "CI-Prepare-Package-Files", "CI-Enumerate-Files", "CI-Clean", "CI-Update-Xml", callback);
 });

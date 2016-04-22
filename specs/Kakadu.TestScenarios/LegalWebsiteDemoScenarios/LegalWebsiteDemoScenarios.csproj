@@ -32,17 +32,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FluentAssertions, Version=4.3.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
-      <HintPath>..\packages\FluentAssertions.4.3.0\lib\net45\FluentAssertions.dll</HintPath>
+    <Reference Include="FluentAssertions, Version=4.4.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentAssertions.4.4.0\lib\net45\FluentAssertions.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="FluentAssertions.Core, Version=4.3.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
-      <HintPath>..\packages\FluentAssertions.4.3.0\lib\net45\FluentAssertions.Core.dll</HintPath>
+    <Reference Include="FluentAssertions.Core, Version=4.4.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentAssertions.4.4.0\lib\net45\FluentAssertions.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -79,19 +82,253 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions\SeleniumExtensions.cs" />
+    <Compile Include="Infrastructure\ActionType.cs" />
+    <Compile Include="Infrastructure\ContextExtensions.cs" />
+    <Compile Include="Infrastructure\EditFieldPayload.cs" />
+    <Compile Include="Infrastructure\Settings.cs" />
+    <Compile Include="Infrastructure\StepsBase.cs" />
+    <Compile Include="Infrastructure\TestCleanupAction.cs" />
+    <Compile Include="Infrastructure\TestsSetup.cs" />
+    <Compile Include="Locators\CommonLocators.cs" />
+    <Compile Include="Locators\LegalAboutUsPage.cs" />
+    <Compile Include="Locators\LegalHomePage.cs" />
+    <Compile Include="Locators\TaxationWebinarMoreInfoPage.cs" />
+    <Compile Include="Locators\ThankYouPage.cs" />
+    <Compile Include="Locators\xDBpanel.cs" />
+    <Compile Include="Nurture.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Nurture.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Personalisation.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Personalisation.feature</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\AutoTestsHelperServiceSoapClient\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\HelperService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Steps\GivenSetupSteps.cs" />
+    <Compile Include="Steps\LegalNavigationSteps.cs" />
+    <Compile Include="Steps\ThenResultSteps.cs" />
+    <Compile Include="Steps\WhenActionSteps.cs" />
+    <Compile Include="Steps\xDbPanelActions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Nurture.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Nurture.feature.cs</LastGenOutput>
+    </None>
     <None Include="packages.config" />
     <None Include="Personalisation.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Personalisation.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.ArrayOfString.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.AttachToMediaItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.CreateUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.DeleteUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.GetAllRolesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.GetContactEmailResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.GetContactPersonalInfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.GetContactPhoneResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.GetContactSystemInfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.GetContactTagsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.GetFieldSecurityRightResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.GetItemSecurityRightResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.GetRolesForUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.GetUserPropertiesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.PersonalInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.RenameItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.SerializableKeyValuePairOfStringString.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.SetRoleForUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.SetSiteHostNameResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.SystemInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\ClassLibrary1.AutoTestsHelperServiceSoapClient.UploadMediaItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\tests.wsdl" />
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.AccessPermission.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.ArrayOfString.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.CreateItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.CreateRoleResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.CreateUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.DeleteChildrenResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.DeleteFilesAndFoldersResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.DeleteItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.DeleteUserOrRoleResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.EditItemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.EditXmlFileResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.FileOrFolderExistsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.GetChildrenResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.GetErrorsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.GetItemFieldValueResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.GetLogFileContentResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.GetLogFilesNamesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.GetSecurityRightResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.GetSitecoreVersionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.GetWarningsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.InstallPackageResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.ItemExistsByIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.ItemExistsByPathResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.KickUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.PublishSiteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.RebuildCustomIndexResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.RebuildIndexResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.SetCEUserOptionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.SetSecurityRightResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.UploadFileResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\ClassLibrary1.HelperService.UserOrRoleExistsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\HelperService\HelperWebService.wsdl" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\AutoTestsHelperServiceSoapClient\" />
+    <WCFMetadataStorage Include="Service References\HelperService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\HelperService\HelperWebService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\HelperService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\HelperService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\HelperService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\tests.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AutoTestsHelperServiceSoapClient\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
