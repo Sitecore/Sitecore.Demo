@@ -274,13 +274,13 @@ this.ScenarioSetup(scenarioInfo);
                         "Anna",
                         "Chervonchenko"});
 #line 76
- testRunner.And("Actor enters following data in to the form fields", ((string)(null)), table6, "And ");
+ testRunner.And("Actor enters following data in to the Taxation Webinar Information form fields", ((string)(null)), table6, "And ");
 #line 79
- testRunner.And("Actor clicks <Send Me Information> button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("Actor clicks Send Me Information button on form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 80
- testRunner.And("Actor expands xDB panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("Actor selects Open visit details panel slidebar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 81
- testRunner.And("Actor expands Engagement section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("Actor expands Engagement header on xDB panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 82
  testRunner.Then("Engagement plans section contains <Webinar Nurture>", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 83
@@ -313,7 +313,7 @@ this.ScenarioSetup(scenarioInfo);
                         "Anna",
                         "Chervonchenko"});
 #line 90
- testRunner.And("Actor enters following data in to the form fields", ((string)(null)), table7, "And ");
+ testRunner.And("Actor enters following data in to the Taxation Webinar Information form fields", ((string)(null)), table7, "And ");
 #line 93
  testRunner.And("Actor clicks <Send Me Information> button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 94
@@ -357,7 +357,7 @@ this.ScenarioSetup(scenarioInfo);
                         "Anna",
                         "Chervonchenko"});
 #line 105
- testRunner.And("Actor enters following data in to the form fields", ((string)(null)), table9, "And ");
+ testRunner.And("Actor enters following data in to the Taxation Webinar Information form fields", ((string)(null)), table9, "And ");
 #line 108
  testRunner.And("Actor clicks <Send Me Information> button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 109
@@ -403,7 +403,7 @@ this.ScenarioSetup(scenarioInfo);
                         "Anna",
                         "Chervonchenko"});
 #line 120
- testRunner.And("Actor entered following data in to the form fields", ((string)(null)), table11, "And ");
+ testRunner.And("Actor enters following data in to the Taxation Webinar Information form fields", ((string)(null)), table11, "And ");
 #line 123
  testRunner.And("Actor clicked <Send Me Information> button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 124
@@ -438,7 +438,7 @@ this.ScenarioSetup(scenarioInfo);
                         "Anna",
                         "Chervonchenko"});
 #line 132
- testRunner.And("Actor entered following data in to the form fields", ((string)(null)), table12, "And ");
+ testRunner.And("Actor enters following data in to the Taxation Webinar Information form fields", ((string)(null)), table12, "And ");
 #line 135
  testRunner.And("Actor clicked <Send Me Information button>", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 136

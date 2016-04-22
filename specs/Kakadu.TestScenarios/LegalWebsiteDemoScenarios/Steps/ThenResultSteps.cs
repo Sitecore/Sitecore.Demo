@@ -41,7 +41,7 @@ namespace ClassLibrary1.Steps
     public void ThenFollowingRegistrationTextPresents(Table table)
     {
       var tableRows = table.Rows.First();
-      var text = tableRows.Values.ToString();
+      var text = tableRows.First().Value;
       ThankYouPage.ThanksTextArea.Text.Contains(text).Should().BeTrue();
     }
 

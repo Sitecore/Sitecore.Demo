@@ -121,6 +121,7 @@
     <Compile Include="Steps\LegalNavigationSteps.cs" />
     <Compile Include="Steps\ThenResultSteps.cs" />
     <Compile Include="Steps\WhenActionSteps.cs" />
+    <Compile Include="Steps\xDbPanelActions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

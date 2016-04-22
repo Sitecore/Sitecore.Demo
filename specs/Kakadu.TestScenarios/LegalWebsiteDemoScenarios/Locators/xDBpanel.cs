@@ -7,13 +7,19 @@ using ClassLibrary1.Extensions;
 using OpenQA.Selenium;
 using TechTalk.SpecFlow;
 
+
 namespace ClassLibrary1.Locators
 {
-  public class xDBpanel
+  
+  public class XdBpanel
   {
     public static IWebDriver Driver => FeatureContext.Current.Get<IWebDriver>();
 
-    public static IEnumerable<IWebElement> OpenXDBSlidebar
-      => Driver.WaitUntilElementsPresent(By.CssSelector(".btn.btn-info.sidebar-closed"));
+    public static IEnumerable<IWebElement> OpenXdbSlidebar
+      => 
+      Driver.WaitUntilElementsPresent(By.CssSelector(".btn.btn-info.sidebar-closed"));
+
+    public static IEnumerable<IWebElement> XDBpanelHeader
+      => Driver.WaitUntilElementsPresent(By.CssSelector(".panel-title.collapsed"));
   }
 }

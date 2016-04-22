@@ -73,12 +73,12 @@ Scenario: Nurture_UC5_Submit Taxation Webinar Information form
 Scenario: Nurture_UC6_Check Engagement plans section
 	Given Legal website homepage is opened in private browsing session
 	When Actor clicks <Find Out More> link
-	And Actor enters following data in to the form fields
+	And Actor enters following data in to the Taxation Webinar Information form fields
 	| Email              | First Name  | Last Name      |
 	| ace6@sitecore.net  | Anna        | Chervonchenko  |      
-	And Actor clicks <Send Me Information> button
-	And Actor expands xDB panel
-	And Actor expands Engagement section
+	And Actor clicks Send Me Information button on form
+	And Actor selects Open visit details panel slidebar
+	And Actor expands Engagement header on xDB panel
 	Then Engagement plans section contains <Webinar Nurture>
 	And Engagement plan sate equals to <Requested More Info>
 
@@ -87,7 +87,7 @@ Scenario: Nurture_UC6_Check Engagement plans section
 Scenario: Nurture_UC7_Check Personal Information section
 	Given Legal website homepage is opened in private browsing session
 	When Actor clicks <Find Out More> link
-	And Actor enters following data in to the form fields
+	And Actor enters following data in to the Taxation Webinar Information form fields
 	| Email              | First Name  | Last Name     |
 	| ace7@sitecore.net  | Anna        | Chervonchenko |      
 	And Actor clicks <Send Me Information> button
@@ -102,7 +102,7 @@ Scenario: Nurture_UC7_Check Personal Information section
 Scenario: Nurture_UC8_Check Onsite Behavior section
 	Given Legal website homepage is opened in private browsing session
 	When Actor clicks <Find Out More> link
-	And Actor enters following data in to the form fields
+	And Actor enters following data in to the Taxation Webinar Information form fields
 	| Email              | First Name  | Last Name      |
 	| ace8@sitecore.net  | Anna        | Chervonchenko  |      
 	And Actor clicks <Send Me Information> button
@@ -117,7 +117,7 @@ Scenario: Nurture_UC8_Check Onsite Behavior section
 Scenario: Nurture_UC9_Check Carousel personalization
 	Given Legal website homepage is opened in private browsing session
 	And Actor clicked <Find Out More> link
-	And Actor entered following data in to the form fields
+	And Actor enters following data in to the Taxation Webinar Information form fields
 	| Email              | First Name  | Last Name      |
 	| ace9@sitecore.net  | Anna        | Chervonchenko  |      
 	And Actor clicked <Send Me Information> button
@@ -129,7 +129,7 @@ Scenario: Nurture_UC9_Check Carousel personalization
 Scenario: Nurture_UC10_Check registration form pre-population
 	Given Legal website homepage is opened in private browsing session
 	And Actor clicked <Find Out More> link
-	And Actor entered following data in to the form fields
+	And Actor enters following data in to the Taxation Webinar Information form fields
 	| Email               | First Name  | Last Name      |
 	| ace10@sitecore.net  | Anna        | Chervonchenko  |      
 	And Actor clicked <Send Me Information button>
