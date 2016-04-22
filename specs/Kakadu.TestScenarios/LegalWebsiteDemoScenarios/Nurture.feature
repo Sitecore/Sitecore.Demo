@@ -31,39 +31,39 @@ Scenario: Nurture_UC2_Open Webinar Nurture plan in Supervisor mode
     And System shows 0% for each state 
 
 
-@NeedImplementation
+@Ready
 Scenario: Nurture_UC3_Open Taxation Webinar Information form
 	Given Legal website homepage is opened in private browsing session
-	When Actor clicks <Find Out More> link
-	Then <Taxation Webinar Information> form with following fields is opened:
+	When Actor clicks Find Out More link
+	Then Taxation Webinar Information form with following fields is opened:
 	| Field      |
 	| Email      |
 	| First Name |
 	| Last Name  |
 
 
-@NeedImplementation
+@Ready
 Scenario: Nurture_UC4_Open Taxation Webinar Information form About Us page
 	Given Legal website homepage is opened in private browsing session
-	When Actor navigates to the /About-Us page
-	And Actor clicks <Find Out More> link
-	Then <Taxation Webinar Information> form with following fields is opened:
+	When Actor navigates to the About-Us page
+	And Actor clicks Find Out More link
+	Then Taxation Webinar Information form with following fields is opened:
 	| Field      |
 	| Email      |
 	| First Name |
 	| Last Name  |
 
 
-@NeedImplementation
+@Ready
 Scenario: Nurture_UC5_Submit Taxation Webinar Information form
 	Given Legal website homepage is opened in private browsing session
-	When Actor clicks <Find Out More> link
-	And Actor enters following data in to the <Taxation Webinar Information> form fields
+	When Actor clicks Find Out More link
+	And Actor enters following data in to the Taxation Webinar Information form fields
 	| Email              | First Name  | Last Name      |
 	| ace5@sitecore.net  | Anna        | Chervonchenko  |      
-	And Actor clicks <Send Me Information> button
+	And Actor clicks Send Me Information button on form 
 	Then Landing-Pages/Taxation-Webinar/Thank-You page is opened
-    And <Thank you> title presents
+    And Thank You title presents
 	And Following registration text presents:
 	|Text																																	   				 |
 	| Our servers are processing your request now. As soon as your request has been processed, we will send a confirmation email to the address you supplied.|

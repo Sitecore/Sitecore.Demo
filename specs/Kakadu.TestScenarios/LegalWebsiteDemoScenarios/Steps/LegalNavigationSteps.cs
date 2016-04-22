@@ -18,5 +18,12 @@ namespace ClassLibrary1.Steps
       NavigateToPage(Settings.BaseUrl);
     }
 
+    [When(@"Actor navigates to the About-Us page")]
+    public void WhenActorNavigatesToTheAbout_UsPage()
+    {
+      NavigateToPage(Settings.AboutUsUrl);
+    }
+
+
   }
 }

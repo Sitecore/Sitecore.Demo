@@ -150,17 +150,17 @@ this.ScenarioSetup(scenarioInfo);
         [Xunit.FactAttribute()]
         [Xunit.TraitAttribute("FeatureTitle", "Nurture")]
         [Xunit.TraitAttribute("Description", "Nurture_UC3_Open Taxation Webinar Information form")]
-        [Xunit.TraitAttribute("Category", "NeedImplementation")]
+        [Xunit.TraitAttribute("Category", "Ready")]
         public virtual void Nurture_UC3_OpenTaxationWebinarInformationForm()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Nurture_UC3_Open Taxation Webinar Information form", new string[] {
-                        "NeedImplementation"});
+                        "Ready"});
 #line 35
 this.ScenarioSetup(scenarioInfo);
 #line 36
  testRunner.Given("Legal website homepage is opened in private browsing session", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 37
- testRunner.When("Actor clicks <Find Out More> link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("Actor clicks Find Out More link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
                         "Field"});
@@ -171,7 +171,7 @@ this.ScenarioSetup(scenarioInfo);
             table2.AddRow(new string[] {
                         "Last Name"});
 #line 38
- testRunner.Then("<Taxation Webinar Information> form with following fields is opened:", ((string)(null)), table2, "Then ");
+ testRunner.Then("Taxation Webinar Information form with following fields is opened:", ((string)(null)), table2, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -179,19 +179,19 @@ this.ScenarioSetup(scenarioInfo);
         [Xunit.FactAttribute()]
         [Xunit.TraitAttribute("FeatureTitle", "Nurture")]
         [Xunit.TraitAttribute("Description", "Nurture_UC4_Open Taxation Webinar Information form About Us page")]
-        [Xunit.TraitAttribute("Category", "NeedImplementation")]
+        [Xunit.TraitAttribute("Category", "Ready")]
         public virtual void Nurture_UC4_OpenTaxationWebinarInformationFormAboutUsPage()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Nurture_UC4_Open Taxation Webinar Information form About Us page", new string[] {
-                        "NeedImplementation"});
+                        "Ready"});
 #line 46
 this.ScenarioSetup(scenarioInfo);
 #line 47
  testRunner.Given("Legal website homepage is opened in private browsing session", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 48
- testRunner.When("Actor navigates to the /About-Us page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("Actor navigates to the About-Us page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 49
- testRunner.And("Actor clicks <Find Out More> link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("Actor clicks Find Out More link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
                         "Field"});
@@ -202,7 +202,7 @@ this.ScenarioSetup(scenarioInfo);
             table3.AddRow(new string[] {
                         "Last Name"});
 #line 50
- testRunner.Then("<Taxation Webinar Information> form with following fields is opened:", ((string)(null)), table3, "Then ");
+ testRunner.Then("Taxation Webinar Information form with following fields is opened:", ((string)(null)), table3, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -210,17 +210,17 @@ this.ScenarioSetup(scenarioInfo);
         [Xunit.FactAttribute()]
         [Xunit.TraitAttribute("FeatureTitle", "Nurture")]
         [Xunit.TraitAttribute("Description", "Nurture_UC5_Submit Taxation Webinar Information form")]
-        [Xunit.TraitAttribute("Category", "NeedImplementation")]
+        [Xunit.TraitAttribute("Category", "Ready")]
         public virtual void Nurture_UC5_SubmitTaxationWebinarInformationForm()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Nurture_UC5_Submit Taxation Webinar Information form", new string[] {
-                        "NeedImplementation"});
+                        "Ready"});
 #line 58
 this.ScenarioSetup(scenarioInfo);
 #line 59
  testRunner.Given("Legal website homepage is opened in private browsing session", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 60
- testRunner.When("Actor clicks <Find Out More> link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("Actor clicks Find Out More link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
                         "Email",
@@ -231,13 +231,13 @@ this.ScenarioSetup(scenarioInfo);
                         "Anna",
                         "Chervonchenko"});
 #line 61
- testRunner.And("Actor enters following data in to the <Taxation Webinar Information> form fields", ((string)(null)), table4, "And ");
+ testRunner.And("Actor enters following data in to the Taxation Webinar Information form fields", ((string)(null)), table4, "And ");
 #line 64
- testRunner.And("Actor clicks <Send Me Information> button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("Actor clicks Send Me Information button on form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 65
  testRunner.Then("Landing-Pages/Taxation-Webinar/Thank-You page is opened", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 66
-    testRunner.And("<Thank you> title presents", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+    testRunner.And("Thank You title presents", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
                         "Text"});

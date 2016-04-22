@@ -12,6 +12,8 @@ namespace ClassLibrary1.Infrastructure
   {
     public static string BaseUrl => ConfigurationManager.AppSettings["baseUrl"];
 
+    public static string AboutUsUrl => BaseUrl + ConfigurationManager.AppSettings["aboutUsUrl"];
+
     public static string UserName => "sitecore\\admin";
     public static string Password => "b";
 

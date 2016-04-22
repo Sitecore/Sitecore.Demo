@@ -8,14 +8,12 @@ using TechTalk.SpecFlow;
 
 namespace ClassLibrary1.Locators
 {
-  public class LegalHomePage
+  public class ThankYouPage
   {
     public static IWebDriver Driver => FeatureContext.Current.Get<IWebDriver>();
 
-    public static IEnumerable<IWebElement> LinkButton
-      => Driver.FindElements(By.CssSelector(".btn.btn-default"));
-
-
-
+    public static IWebElement ThanksTextArea
+      =>
+        Driver.FindElement(By.CssSelector(".container.m-b-1 h1"));
   }
 }
