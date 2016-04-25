@@ -9,19 +9,20 @@ using TechTalk.SpecFlow;
 
 namespace ClassLibrary1.Steps
 {
-  class xDbPanelActions: StepsBase
-  {
-    [When(@"Actor selects (.*) slidebar")]
-    public void WhenActorSelectsSlidebar(string button)
+    class xDbPanelActions : StepsBase
     {
-      XdBpanel.OpenXdbSlidebar.First(el => el.GetAttribute("title").Contains(button)).Click();
-    }
+        [Given(@"Actor selects (.*) slidebar")]
+        [When(@"Actor selects (.*) slidebar")]
+        public void WhenActorSelectsSlidebar(string button)
+        {
+            XdBpanel.OpenXdbSlidebar.First(el => el.GetAttribute("title").Contains(button)).Click();
+        }
 
-    [When(@"Actor expands (.*) header on xDB panel")]
-    public void WhenActorExpandsEngagementHeaderOnXDBPanel(string header)
-    {
-      XdBpanel.XDBpanelHeader.First(el => el.Text.Equals(header)).Click();
-    }
+        [When(@"Actor expands (.*) header on xDB panel")]
+        public void WhenActorExpandsEngagementHeaderOnXdbPanel(string header)
+        {
+            XdBpanel.XDBpanelHeader.First(el => el.Text.Equals(header)).Click();
+        }
 
-  }
+    }
 }
