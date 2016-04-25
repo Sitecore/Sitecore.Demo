@@ -23,5 +23,7 @@ namespace ClassLibrary1.Infrastructure
         public static string TestHelperService => BaseUrl + ConfigurationManager.AppSettings["testsProxyUrl"];
 
         public static string CorporateFinanceUrl => BaseUrl + ConfigurationManager.AppSettings["CorporateFinanceUrl"];
+
+        public static string TrustEstateTaxLawUrl => BaseUrl + ConfigurationManager.AppSettings["TrustEstateTaxLawUrl"];
     }
 }
