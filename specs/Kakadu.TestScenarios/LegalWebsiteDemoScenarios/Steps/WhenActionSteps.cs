@@ -14,12 +14,14 @@ namespace ClassLibrary1.Steps
 {
   public class WhenActionSteps : StepsBase
   {
+    [Given(@"Actor clicked (.*) link")]
     [When(@"Actor clicks (.*) link")]
     public void WhenActorClicksLink(string link)
     {
       LegalHomePage.LinkButton.First(x => x.Text.Equals(link)).Click();
     }
 
+    [Given(@"Actor enters following data in to the (.*) form fields")]
     [When(@"Actor enters following data in to the (.*) form fields")]
     public void WhenActorEntersFollowingDataInToTheFormFields(string formTitle, Table table)
     {
@@ -35,10 +37,17 @@ namespace ClassLibrary1.Steps
       }
     }
 
+    [Given(@"Actor clicked (.*) button on form")]
     [When(@"Actor clicks (.*) button on form")]
     public void WhenActorClicksButtonOnForm(string button)
     {
       CommonLocators.LinkButton.Single(el =>el.GetAttribute("value") == button).Submit();
+    }
+
+    [When(@"Actor clicks (.*) button on Carousel")]
+    public void WhenActorClicksButtonOnCarousel(string button)
+    {
+      HomePage.WebinarRegistrationButton.Click();
     }
 
 

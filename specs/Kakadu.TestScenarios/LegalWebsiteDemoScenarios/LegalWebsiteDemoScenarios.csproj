@@ -91,9 +91,11 @@
     <Compile Include="Infrastructure\TestCleanupAction.cs" />
     <Compile Include="Infrastructure\TestsSetup.cs" />
     <Compile Include="Locators\CommonLocators.cs" />
+    <Compile Include="Locators\HomePage.cs" />
     <Compile Include="Locators\LegalAboutUsPage.cs" />
     <Compile Include="Locators\LegalHomePage.cs" />
     <Compile Include="Locators\TaxationWebinarMoreInfoPage.cs" />
+    <Compile Include="Locators\TaxationWebinarRegisterPage.cs" />
     <Compile Include="Locators\ThankYouPage.cs" />
     <Compile Include="Locators\xDBpanel.cs" />
     <Compile Include="Nurture.feature.cs">

@@ -45,6 +45,19 @@ namespace ClassLibrary1.Steps
       ThankYouPage.ThanksTextArea.Text.Contains(text).Should().BeTrue();
     }
 
+    [Then(@"(.*) link available in the Carousel")]
+    public void ThenLinkAvailableInTheCarousel(string button)
+    {      
+      HomePage.WebinarRegistrationButton.Displayed.Should().BeTrue();
+      HomePage.WebinarRegistrationButton.Text.Equals(button).Should().BeTrue();
+    }
+
+    [Then(@"Taxation Webinar Register form fields contain following data")]
+    public void ThenTaxationWebinarRegisterFormFieldsContainFollowingData(Table table)
+    {
+      
+    }
+
 
   }
 }
