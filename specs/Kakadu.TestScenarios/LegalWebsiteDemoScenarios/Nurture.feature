@@ -69,73 +69,74 @@ Scenario: Nurture_UC5_Submit Taxation Webinar Information form
 	| Our servers are processing your request now. As soon as your request has been processed, we will send a confirmation email to the address you supplied.|
 
 		
-@NeedImplementation
+@Ready
 Scenario: Nurture_UC6_Check Engagement plans section
 	Given Legal website homepage is opened in private browsing session
-	When Actor clicks <Find Out More> link
+	When Actor clicks Find Out More link
 	And Actor enters following data in to the Taxation Webinar Information form fields
 	| Email              | First Name  | Last Name      |
 	| ace6@sitecore.net  | Anna        | Chervonchenko  |      
 	And Actor clicks Send Me Information button on form
 	And Actor selects Open visit details panel slidebar
 	And Actor expands Engagement header on xDB panel
-	Then Engagement plans section contains <Webinar Nurture>
-	And Engagement plan sate equals to <Requested More Info>
+	Then Engagement plans section contains Webinar Nurture
+	And Engagement plan sate equals to Requested More Info
 
 
-@NeedImplementation
+@Ready
 Scenario: Nurture_UC7_Check Personal Information section
 	Given Legal website homepage is opened in private browsing session
-	When Actor clicks <Find Out More> link
+	When Actor clicks Find Out More link
 	And Actor enters following data in to the Taxation Webinar Information form fields
 	| Email              | First Name  | Last Name     |
 	| ace7@sitecore.net  | Anna        | Chervonchenko |      
-	And Actor clicks <Send Me Information> button
-	And Actor expands xDB panel
-	And Actor expands Personal Information section
+	And Actor clicks Send Me Information button on form
+	And Actor selects Open visit details panel slidebar
+	And Actor expands Personal Information header on xDB panel
 	Then Personal Information section contains followind data
-	|Email (Preferred) | Identification                    |                   
-	| ace7@sitecore.net|extranet\ace7_at_sitecore_dot_net  |
+	| Data                              |
+	| ace7@sitecore.net                 |
+	| extranet\ace7_at_sitecore_dot_net |
 
 
-@NeedImplementation
+@Ready
 Scenario: Nurture_UC8_Check Onsite Behavior section
 	Given Legal website homepage is opened in private browsing session
-	When Actor clicks <Find Out More> link
+	When Actor clicks Find Out More link
 	And Actor enters following data in to the Taxation Webinar Information form fields
 	| Email              | First Name  | Last Name      |
 	| ace8@sitecore.net  | Anna        | Chervonchenko  |      
-	And Actor clicks <Send Me Information> button
-	And Actor expands xDB panel
-	And Actor expands Onsite Behavior section
-	Then following information is present in the section
+	And Actor clicks Send Me Information button on form
+	And Actor selects Open visit details panel slidebar
+	And Actor expands Onsite Behavior header on xDB panel
+	Then Following information is present in the section
 	| Legal Persona    | Triggered goals         | Outcomes             |
 	| Lucas the Lawyer | More Info Legal Webinar | Contact Acquisition  |
 
 
-@NeedImplementation
+@Ready
 Scenario: Nurture_UC9_Check Carousel personalization
 	Given Legal website homepage is opened in private browsing session
-	And Actor clicked <Find Out More> link
+	And Actor clicked Find Out More link
 	And Actor enters following data in to the Taxation Webinar Information form fields
 	| Email              | First Name  | Last Name      |
 	| ace9@sitecore.net  | Anna        | Chervonchenko  |      
-	And Actor clicked <Send Me Information> button
+	And Actor clicked Send Me Information button on form
 	When Actor navigates to Home page
-	Then <Register Now> link available in the Carousel
+	Then Register Now link available in the Carousel
 
 
 @NeedImplementation
 Scenario: Nurture_UC10_Check registration form pre-population
 	Given Legal website homepage is opened in private browsing session
-	And Actor clicked <Find Out More> link
+	And Actor clicked Find Out More link
 	And Actor enters following data in to the Taxation Webinar Information form fields
 	| Email               | First Name  | Last Name      |
 	| ace10@sitecore.net  | Anna        | Chervonchenko  |      
-	And Actor clicked <Send Me Information button>
+	And Actor clicked Send Me Information button on form
 	When Actor navigates to Home page
-	And Actor clicks <Register Now> link
-	Then form fields contain following data 
+	And Actor clicks Register Now button on Carousel
+	Then Taxation Webinar Register form fields contain following data 
 	| Email               | First Name  | Last Name      | Month Preference  |
 	| ace10@sitecore.net  | Anna        | Chervonchenko  | January           |
 	 

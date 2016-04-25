@@ -10,19 +10,19 @@ using TechTalk.SpecFlow;
 namespace ClassLibrary1.Steps
 {
     public class LegalNavigationSteps : StepsBase
+  {
+    [Given(@"User has opened Legal website")]
+    [Given(@"Legal website homepage is opened in private browsing session")]
+    public void GivenLegalWebsiteHomepageIsOpenedInPrivateBrowsingSession()
     {
-        [Given(@"User has opened Legal website")]
-        [Given(@"Legal website homepage is opened in private browsing session")]
-        public void GivenLegalWebsiteHomepageIsOpenedInPrivateBrowsingSession()
-        {
-            NavigateToPage(Settings.BaseUrl);
-        }
+      NavigateToPage(Settings.BaseUrl);
+    }
 
-        [When(@"Actor navigates to the About-Us page")]
-        public void WhenActorNavigatesToTheAbout_UsPage()
-        {
-            NavigateToPage(Settings.AboutUsUrl);
-        }
+    [When(@"Actor navigates to the About-Us page")]
+    public void WhenActorNavigatesToTheAbout_UsPage()
+    {
+      NavigateToPage(Settings.AboutUsUrl);
+    }
 
         [Given(@"User has opened Corporate Finance page")]
         public void GivenUserHasOpenedCorporateFinancePage()
@@ -30,6 +30,12 @@ namespace ClassLibrary1.Steps
             NavigateToPage(Settings.CorporateFinanceUrl);
         }
 
-
+    [When(@"Actor navigates to Home page")]
+    public void WhenActorNavigatesToHomePage()
+    {
+      NavigateToPage(Settings.BaseUrl);
     }
+
+
+  }
 }

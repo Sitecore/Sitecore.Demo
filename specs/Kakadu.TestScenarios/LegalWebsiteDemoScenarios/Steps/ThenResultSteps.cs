@@ -13,39 +13,52 @@ using TechTalk.SpecFlow;
 
 namespace ClassLibrary1.Steps
 {
-    [Binding]
+  [Binding]
     public class ThenResultSteps : StepsBase
+  {
+    [Then(@"(.*) form with following fields is opened:")]
+    public void ThenFormWithFollowingFieldsIsOpened(string formTitle, Table table)
     {
-        [Then(@"(.*) form with following fields is opened:")]
-        public void ThenFormWithFollowingFieldsIsOpened(string formTitle, Table table)
-        {
-            var fields = table.Rows.Select(x => x.Values.First());
+      var fields = table.Rows.Select(x => x.Values.First());
             fields.All(f => TaxationWebinarMoreInfoPage.FormFieldNames.Any(x => x.Text == f)).Should().BeTrue();
 
-            TaxationWebinarMoreInfoPage.FormTitle.Any(el => el.Text.Equals(formTitle)).Should().BeTrue();
+      TaxationWebinarMoreInfoPage.FormTitle.Any(el => el.Text.Equals(formTitle)).Should().BeTrue();
 
-        }
+    }
 
-        [Then(@"(.*) page is opened")]
-        public void ThenPageIsOpened(string url)
-        {
+    [Then(@"(.*) page is opened")]
+    public void ThenPageIsOpened(string url)
+    {
             Driver.Url.Contains(Settings.BaseUrl + url).Should().BeTrue();
-        }
+    }
 
-        [Then(@"(.*) title presents")]
-        public void ThenTitlePresents(string title)
-        {
-            var text = title;
-            ThankYouPage.ThanksTextArea.Text.Contains(text).Should().BeTrue();
-        }
+    [Then(@"(.*) title presents")]
+    public void ThenTitlePresents(string title)
+    {
+      var text = title;
+      ThankYouPage.ThanksTextArea.Text.Contains(text).Should().BeTrue();
+    }
 
-        [Then(@"Following registration text presents:")]
-        public void ThenFollowingRegistrationTextPresents(Table table)
-        {
-            var tableRows = table.Rows.First();
-            var text = tableRows.First().Value;
-            ThankYouPage.ThanksTextArea.Text.Contains(text).Should().BeTrue();
-        }
+    [Then(@"Following registration text presents:")]
+    public void ThenFollowingRegistrationTextPresents(Table table)
+    {
+      var tableRows = table.Rows.First();
+      var text = tableRows.First().Value;
+      ThankYouPage.ThanksTextArea.Text.Contains(text).Should().BeTrue();
+    }
+
+    [Then(@"(.*) link available in the Carousel")]
+    public void ThenLinkAvailableInTheCarousel(string button)
+    {      
+      HomePage.WebinarRegistrationButton.Displayed.Should().BeTrue();
+      HomePage.WebinarRegistrationButton.Text.Equals(button).Should().BeTrue();
+    }
+
+    [Then(@"Taxation Webinar Register form fields contain following data")]
+    public void ThenTaxationWebinarRegisterFormFieldsContainFollowingData(Table table)
+    {
+      
+    }
 
 
         [Then(@"(.*) contains following values")]
@@ -55,5 +68,5 @@ namespace ClassLibrary1.Steps
             var values = table.Rows.Select(x => x.Values.First());
             values.All(f => XdBpanel.XdBpanelText.Any(x => x.Text == f)).Should().BeTrue();
         }
-    }
+  }
 }
