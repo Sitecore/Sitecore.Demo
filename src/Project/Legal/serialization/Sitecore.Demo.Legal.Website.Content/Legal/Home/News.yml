@@ -1,39 +1,39 @@
 ﻿---
-ID: 8235f890-e581-4f79-8acf-b04f90ccc0dd
-Parent: 6eb0f80b-a1d5-40e0-a472-9308b24228b5
-Template: 1d83c3eb-ea3b-4b71-baa1-3938397fe99b
+ID: "8235f890-e581-4f79-8acf-b04f90ccc0dd"
+Parent: "6eb0f80b-a1d5-40e0-a472-9308b24228b5"
+Template: "1d83c3eb-ea3b-4b71-baa1-3938397fe99b"
 Path: /sitecore/content/Legal/Home/News
 DB: master
 SharedFields:
-- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 200
-- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
   Hint: __Security
-  Value: au|sitecore\Caroline|pe|+item:create|+item:read|+item:rename|+item:delete|+item:write|^*|+item:admin|pd|+item:create|+item:read|+item:rename|+item:delete|+item:write|^*|+item:admin|
+  Value: "au|legal\Caroline|pe|+item:create|pd|+item:create|"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
       Hint: NavigationTitle
       Value: News
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20151216T034720Z
-    - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
       Value: "<image mediaid=\"{9E963E05-2573-4BA4-96B8-714F6F739224}\" />"
-    - ID: ac3fd4db-8266-476d-9635-67814d91e901
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: <span>Keeping you informed. A few noteworthy news items about the law and the people it impacts.</span>
-    - ID: bb7a38c0-323c-4f81-8eb9-288abf7c4638
+    - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
       Hint: MetaDescription
       Value: Chase Ridley News, Chase Ridley press, 2016 legal news
-    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: News
-    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: News List
