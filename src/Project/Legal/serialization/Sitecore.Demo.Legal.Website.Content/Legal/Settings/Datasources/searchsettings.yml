@@ -1,8 +1,8 @@
 ﻿---
-ID: "d2c1837a-0a32-41e3-b8b9-ba3876a355fc"
-Parent: "400a5520-2c64-43e3-a5cc-adfac1b75ae3"
+ID: "f3b99db3-46ea-4a7b-a92c-46a3f188a96b"
+Parent: "ca325d9a-67ab-49bd-88ae-929b07b52458"
 Template: "c82dc5ff-09ef-4403-96d3-3caf377b8c5b"
-Path: /sitecore/content/Legal/Settings/dynamicteaser
+Path: /sitecore/content/Legal/Settings/Datasources/searchsettings
 DB: master
 Languages:
 - Language: en
@@ -11,13 +11,13 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160105T105241Z
+      Value: 20160112T103731Z
     - ID: "498dd5b6-7dae-44a7-9213-1d32596ad14f"
       Hint: DatasourceTemplate
-      Value: /sitecore/templates/Project/Common/Content Types/Teasers/Dynamic Teaser
+      Value: /sitecore/templates/Feature/Search/_SearchResults
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin
     - ID: "5fe1cc43-f86c-459c-a379-cd75950d85af"
       Hint: DatasourceLocation
-      Value: /sitecore/content/Legal/Global/Teasers
+      Value: /sitecore/content/Legal/Home
