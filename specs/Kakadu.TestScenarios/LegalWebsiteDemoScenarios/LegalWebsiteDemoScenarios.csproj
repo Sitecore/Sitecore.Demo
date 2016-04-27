@@ -93,7 +93,9 @@
     <Compile Include="Locators\CommonLocators.cs" />
     <Compile Include="Locators\HomePage.cs" />
     <Compile Include="Locators\LegalAboutUsPage.cs" />
+    <Compile Include="Locators\LegalEmailPage.cs" />
     <Compile Include="Locators\LegalHomePage.cs" />
+    <Compile Include="Locators\LegalSearchPage.cs" />
     <Compile Include="Locators\TaxationWebinarMoreInfoPage.cs" />
     <Compile Include="Locators\TaxationWebinarRegisterPage.cs" />
     <Compile Include="Locators\ThankYouPage.cs" />
@@ -121,6 +123,7 @@
     </Compile>
     <Compile Include="Steps\GivenSetupSteps.cs" />
     <Compile Include="Steps\LegalNavigationSteps.cs" />
+    <Compile Include="Steps\LegalSearchPageSteps.cs" />
     <Compile Include="Steps\ThenResultSteps.cs" />
     <Compile Include="Steps\WhenActionSteps.cs" />
     <Compile Include="Steps\xDbPanelActions.cs" />

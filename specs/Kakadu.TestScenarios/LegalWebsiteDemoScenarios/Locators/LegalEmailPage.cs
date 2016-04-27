@@ -8,14 +8,12 @@ using TechTalk.SpecFlow;
 
 namespace ClassLibrary1.Locators
 {
-  public class HomePage
+  public class LegalEmailPage
   {
     public static IWebDriver Driver => FeatureContext.Current.Get<IWebDriver>();
 
-    public static IWebElement WebinarRegistrationButton
-      => Driver.FindElement(By.CssSelector(".btn.btn-hollow.btn-lg"));
-
-
+    public static IWebElement Link
+      => Driver.FindElement(By.CssSelector(".article.body>h5>a"));
 
   }
 }

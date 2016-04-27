@@ -26,5 +26,6 @@ namespace ClassLibrary1.Locators
         Driver.FindElements(By.CssSelector
           (".required-field.form-group"));
 
+
   }
 }

@@ -14,6 +14,12 @@ namespace ClassLibrary1.Infrastructure
 
         public static string AboutUsUrl => BaseUrl + ConfigurationManager.AppSettings["aboutUsUrl"];
 
+        public static string TaxationWebinarRegister
+        => BaseUrl + ConfigurationManager.AppSettings["TaxationWebinarRegister"];
+
+      public static string TaxationWebinarMoreInfo
+        => BaseUrl + ConfigurationManager.AppSettings["TaxationWebinarMoreInfo"];
+
         public static string UserName => "sitecore\\admin";
         public static string Password => "b";
 
@@ -23,5 +29,9 @@ namespace ClassLibrary1.Infrastructure
         public static string TestHelperService => BaseUrl + ConfigurationManager.AppSettings["testsProxyUrl"];
 
         public static string CorporateFinanceUrl => BaseUrl + ConfigurationManager.AppSettings["CorporateFinanceUrl"];
+
+        public static string LegalEmailPage => BaseUrl + ConfigurationManager.AppSettings["LegalEmailPage"];
+
+        public static string LegalSearchPage => BaseUrl + ConfigurationManager.AppSettings["LegalSearchPage"];
     }
 }

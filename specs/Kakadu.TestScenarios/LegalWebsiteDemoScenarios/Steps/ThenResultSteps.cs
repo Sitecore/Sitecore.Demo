@@ -29,7 +29,7 @@ namespace ClassLibrary1.Steps
     [Then(@"(.*) page is opened")]
     public void ThenPageIsOpened(string url)
     {
-            Driver.Url.Contains(Settings.BaseUrl + url).Should().BeTrue();
+      Driver.Url.Contains(Settings.BaseUrl + url).Should().BeTrue();
     }
 
     [Then(@"(.*) title presents")]
@@ -57,16 +57,36 @@ namespace ClassLibrary1.Steps
     [Then(@"Taxation Webinar Register form fields contain following data")]
     public void ThenTaxationWebinarRegisterFormFieldsContainFollowingData(Table table)
     {
-      
+      var fields = table.Rows.Select(x => x.Values.First());
+      fields.All(f => TaxationWebinarRegisterPage.Driver.FindElements(By.TagName("input"))
+      .Any(x => x.GetAttribute("value") == f))
+        .Should()
+        .BeTrue();
+    }
+    [Then(@"(.*) contains following values")]
+    public void ThenContainsFollowingValues(string p0, Table table)
+    {
+      XdBpanel.XdBpanelMediaTitle.Any(el => el.Text.Equals(p0)).Should().BeTrue();
+      var values = table.Rows.Select(x => x.Values.First());
+      values.All(f => XdBpanel.XdBpanelText.Any(x => x.Text == f)).Should().BeTrue();
+    }
+
+    [Then(@"Page URL contains (.*)")]
+    public void ThenPageUrlContains(string urlEnding)
+    {
+      Driver.Url.Contains(urlEnding).Should().BeTrue();
+    }
+
+    [Then(@"(.*) button presents on the page")]
+    public void ThenButtonPresentsOnThePage(string button)
+    {
+      CommonLocators.LinkButton.First(x => x.GetAttribute("value") == button)
+      .Displayed
+      .Should()
+      .BeTrue();
+
     }
 
 
-        [Then(@"(.*) contains following values")]
-        public void ThenContainsFollowingValues(string p0, Table table)
-        {
-            XdBpanel.XdBpanelMediaTitle.Any(el => el.Text.Equals(p0)).Should().BeTrue();
-            var values = table.Rows.Select(x => x.Values.First());
-            values.All(f => XdBpanel.XdBpanelText.Any(x => x.Text == f)).Should().BeTrue();
-        }
   }
 }

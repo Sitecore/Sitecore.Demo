@@ -12,11 +12,23 @@ namespace ClassLibrary1.Extensions
 {
   [Binding]
   public static class SeleniumExtensions 
-  {      
+  {
+    public static IWebDriver Driver => FeatureContext.Current.Get<IWebDriver>();
     public static IWebElement GetField(this IEnumerable<IWebElement> elements, string formField)
     {
       return elements.First(x => x.GetAttribute("name") == formField);
     }
+
+    public static IWebElement GetValue(this IEnumerable<IWebElement> elements, string formValue)
+    {
+      return elements.First(x => x.GetAttribute("value") == formValue);
+    }
+
+    public static IWebElement GetType(this IEnumerable<IWebElement> elements, string formType)
+    {
+      return elements.First(x => x.GetAttribute("value") == formType);
+    }
+
     public static IWebElement WaitUntilElementPresent(this IWebDriver driver, By selector)
     {
       var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(60));

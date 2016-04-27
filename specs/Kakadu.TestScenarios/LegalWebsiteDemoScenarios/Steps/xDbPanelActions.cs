@@ -57,9 +57,30 @@ namespace ClassLibrary1.Steps
           mediaSection.Text.Should().Contain(col.Value);
         }
       }
-
     }
 
+    [When(@"Actor clicks (.*) button on xDB panel")]
+    public void WhenActorClicksButtonOnXDBPanel(string button)
+    {
+      XdBpanel.ManageXDBpanelButtons.First(el => el.Text.Contains(button)).Click();
+    }
+
+
+    [Then(@"(.*) goal contains value (.*) points")]
+    public void ThenGoalContainsValuePoints(string goal, string value)
+    {
+      XdBpanel.TriggeredGoalElementWithHearth.First(el => el.Text.Contains(goal)).Text.Should().Contain(value);
+    }
+
+
+    [Then(@"Following information is present in the (.*) section:")]
+    public void ThenFollowingInformationIsPresentInTheCampaignsSection(string sectionName, Table table)
+    {
+      var rows = table.Rows.Select(x => x.Values.First());
+      rows.Any(r => XdBpanel.CampaignNames.Any(x => x.GetAttribute("title").Contains(r))).Should().BeTrue();
+      rows.Any(r => XdBpanel.CampaignStates.Any(x => x.Text.Contains(r))).Should().BeTrue();
+
+    }
 
 
   }

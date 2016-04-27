@@ -39,13 +39,25 @@ namespace ClassLibrary1.Locators
     public static IEnumerable<IWebElement> OnsiteBehaviorSections
       => XdBpanel.OnsiteBehavior.FindElements(By.CssSelector(".media"));
 
+    public static IEnumerable<IWebElement> XdBpanelMediaTitle
+      => Driver.WaitUntilElementsPresent(By.CssSelector(".panel-collapse.collapse.in h4.media-title"));
+    public static IEnumerable<IWebElement> XdBpanelText
+      => Driver.WaitUntilElementsPresent(By.CssSelector("div.alert.alert-info"));
 
+    public static IEnumerable<IWebElement> ManageXDBpanelButtons
+      => Driver.FindElements(By.CssSelector(".hover-only"));
 
-          => Driver.WaitUntilElementsPresent(By.CssSelector(".panel-title.collapsed"));
+    public static IEnumerable<IWebElement> TriggeredGoalElementWithHearth
+      => Driver.FindElements(By.CssSelector(".text-nowrap"));
 
-        public static IEnumerable<IWebElement> XdBpanelMediaTitle
-              => Driver.WaitUntilElementsPresent(By.CssSelector(".panel-collapse.collapse.in h4.media-title"));
-        public static IEnumerable<IWebElement> XdBpanelText
-          => Driver.WaitUntilElementsPresent(By.CssSelector("div.alert.alert-info"));
+    public static IEnumerable<IWebElement> CampaignsSection
+      => Driver.FindElements(By.CssSelector(".media"));
+
+    public static IEnumerable<IWebElement> CampaignStates
+      => Driver.FindElements(By.CssSelector(".list-unstyled>li>div>small>strong"));
+
+    public static IEnumerable<IWebElement> CampaignNames
+      =>Driver.FindElements(By.CssSelector(".text-nowrap")); 
+
   }
 }

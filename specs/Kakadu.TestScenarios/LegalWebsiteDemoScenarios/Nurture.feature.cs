@@ -417,11 +417,11 @@ this.ScenarioSetup(scenarioInfo);
         [Xunit.FactAttribute()]
         [Xunit.TraitAttribute("FeatureTitle", "Nurture")]
         [Xunit.TraitAttribute("Description", "Nurture_UC10_Check registration form pre-population")]
-        [Xunit.TraitAttribute("Category", "NeedImplementation")]
+        [Xunit.TraitAttribute("Category", "Ready")]
         public virtual void Nurture_UC10_CheckRegistrationFormPre_Population()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Nurture_UC10_Check registration form pre-population", new string[] {
-                        "NeedImplementation"});
+                        "Ready"});
 #line 130
 this.ScenarioSetup(scenarioInfo);
 #line 131
@@ -465,33 +465,42 @@ this.ScenarioSetup(scenarioInfo);
         [Xunit.FactAttribute()]
         [Xunit.TraitAttribute("FeatureTitle", "Nurture")]
         [Xunit.TraitAttribute("Description", "Nurture_UC11_Register now")]
-        [Xunit.TraitAttribute("Category", "NeedImplementation")]
+        [Xunit.TraitAttribute("Category", "Ready")]
         public virtual void Nurture_UC11_RegisterNow()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Nurture_UC11_Register now", new string[] {
-                        "NeedImplementation"});
+                        "Ready"});
 #line 145
 this.ScenarioSetup(scenarioInfo);
 #line 146
- testRunner.Given("Legal website is opened on the /Landing-Pages/Taxation-Webinar/Taxation-Webinar-R" +
-                    "egister page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Legal website is opened on the Taxation-Webinar-Register page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             TechTalk.SpecFlow.Table table14 = new TechTalk.SpecFlow.Table(new string[] {
                         "Email",
                         "First Name",
-                        "Last Name",
-                        "Month Preference"});
+                        "Last Name"});
             table14.AddRow(new string[] {
                         "ace11@sitecore.net",
                         "Anna",
-                        "Chervonchenko",
-                        "January"});
+                        "Chervonchenko"});
 #line 147
  testRunner.When("Actor enters followind data into form fields", ((string)(null)), table14, "When ");
 #line 150
- testRunner.And("Actor clicks <Register Now> button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("Actor sets Month Preference combobox to May", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 151
- testRunner.Then("/Landing-Pages/Taxation-Webinar/Thank-You page is opened", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.And("Actor clicks Register Now button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 152
+ testRunner.Then("en/Landing-Pages/Taxation-Webinar/Thank-You page is opened", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 153
+ testRunner.And("Thank You title presents", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+            TechTalk.SpecFlow.Table table15 = new TechTalk.SpecFlow.Table(new string[] {
+                        "Text"});
+            table15.AddRow(new string[] {
+                        "Our servers are processing your request now. As soon as your request has been pro" +
+                            "cessed, we will send a confirmation email to the address you supplied."});
+#line 154
+ testRunner.And("Following registration text presents:", ((string)(null)), table15, "And ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -499,54 +508,41 @@ this.ScenarioSetup(scenarioInfo);
         [Xunit.FactAttribute()]
         [Xunit.TraitAttribute("FeatureTitle", "Nurture")]
         [Xunit.TraitAttribute("Description", "Nurture_UC12_Trigger outcomes on registration")]
-        [Xunit.TraitAttribute("Category", "NeedImplementation")]
+        [Xunit.TraitAttribute("Category", "Ready")]
         public virtual void Nurture_UC12_TriggerOutcomesOnRegistration()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Nurture_UC12_Trigger outcomes on registration", new string[] {
-                        "NeedImplementation"});
-#line 155
-this.ScenarioSetup(scenarioInfo);
-#line 156
- testRunner.Given("Legal website is opened on the /Landing-Pages/Taxation-Webinar/Taxation-Webinar-R" +
-                    "egister page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line hidden
-            TechTalk.SpecFlow.Table table15 = new TechTalk.SpecFlow.Table(new string[] {
-                        "Email",
-                        "First Name",
-                        "Last Name",
-                        "Month Preference"});
-            table15.AddRow(new string[] {
-                        "ace12@sitecore.net",
-                        "Anna",
-                        "Chervonchenko",
-                        "January"});
-#line 157
- testRunner.When("Actor enters followind data into form fields", ((string)(null)), table15, "When ");
+                        "Ready"});
 #line 160
- testRunner.And("Actor clicks <Register Now> button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+this.ScenarioSetup(scenarioInfo);
 #line 161
- testRunner.And("Actor expands xDB panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 162
- testRunner.And("Actor expands Onsite Behavior section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Given("Legal website is opened on the Taxation-Webinar-Register page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             TechTalk.SpecFlow.Table table16 = new TechTalk.SpecFlow.Table(new string[] {
-                        "Triggered goals",
-                        "Outcomes"});
+                        "Email",
+                        "First Name",
+                        "Last Name"});
             table16.AddRow(new string[] {
-                        "Registered Legal Webinar",
-                        "Marketing Lead"});
-#line 163
- testRunner.Then("following information is present in the section", ((string)(null)), table16, "Then ");
+                        "ace12@sitecore.net",
+                        "Anna",
+                        "Chervonchenko"});
+#line 162
+ testRunner.When("Actor enters followind data into form fields", ((string)(null)), table16, "When ");
+#line 165
+ testRunner.And("Actor clicks Register Now button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 166
- testRunner.And("<Thank you> title presents", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("Actor selects Open visit details panel slidebar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 167
+ testRunner.And("Actor expands Onsite Behavior header on xDB panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             TechTalk.SpecFlow.Table table17 = new TechTalk.SpecFlow.Table(new string[] {
-                        "Text"});
+                        "Triggered goals",
+                        "Outcomes"});
             table17.AddRow(new string[] {
-                        "Our servers are processing your request now. As soon as your request has been pro" +
-                            "cessed, we will send a confirmation email to the address you supplied."});
-#line 167
- testRunner.And("Following registration text presents:", ((string)(null)), table17, "And ");
+                        "Registered Legal Webinar",
+                        "Marketing Lead"});
+#line 168
+ testRunner.Then("Following information is present in the section", ((string)(null)), table17, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -554,38 +550,49 @@ this.ScenarioSetup(scenarioInfo);
         [Xunit.FactAttribute()]
         [Xunit.TraitAttribute("FeatureTitle", "Nurture")]
         [Xunit.TraitAttribute("Description", "Nurture_UC13_Download whitepaper")]
-        [Xunit.TraitAttribute("Category", "NeedImplementation")]
+        [Xunit.TraitAttribute("Category", "Ready")]
         public virtual void Nurture_UC13_DownloadWhitepaper()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Nurture_UC13_Download whitepaper", new string[] {
-                        "NeedImplementation"});
-#line 173
-this.ScenarioSetup(scenarioInfo);
-#line 174
- testRunner.Given("<Taxation Webinar Information> form is submitted", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+                        "Ready"});
 #line 175
- testRunner.And("<Taxation Webinar Registration> form is submitted", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+this.ScenarioSetup(scenarioInfo);
 #line 176
- testRunner.And("Legal website homepage is opened in private browsing session", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 177
- testRunner.When("Actor clicks <Download Now> link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 178
- testRunner.And("Actor saves pdf file on file sysytem", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 179
- testRunner.And("Actor expands xDB panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 180
- testRunner.And("Actor clicks <Refresh> button on teh left side of the xDB panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 181
- testRunner.And("Actor expands Onsite Behavior section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Given("Legal website is opened on the Taxation-Webinar-Register page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             TechTalk.SpecFlow.Table table18 = new TechTalk.SpecFlow.Table(new string[] {
-                        "Triggered goals",
-                        "Value"});
+                        "Email",
+                        "First Name",
+                        "Last Name"});
             table18.AddRow(new string[] {
-                        "Download White Paper Legal Webinar",
-                        "20"});
+                        "ace11@sitecore.net",
+                        "Anna",
+                        "Chervonchenko"});
+#line 177
+ testRunner.And("Actor enters followind data into form fields", ((string)(null)), table18, "And ");
+#line 180
+ testRunner.And("Actor sets Month Preference combobox to May", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 181
+ testRunner.And("Actor clicks Register Now button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 182
- testRunner.Then("following information is present in the section", ((string)(null)), table18, "Then ");
+ testRunner.And("Actor navigates to Home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 183
+ testRunner.When("Actor clicks Download Now link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 184
+ testRunner.And("Actor selects Open visit details panel slidebar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 185
+ testRunner.And("Actor clicks Refresh button on xDB panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 186
+ testRunner.And("Actor expands Onsite Behavior header on xDB panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+            TechTalk.SpecFlow.Table table19 = new TechTalk.SpecFlow.Table(new string[] {
+                        "Triggered goals"});
+            table19.AddRow(new string[] {
+                        "Download White Paper Legal Webinar"});
+#line 187
+ testRunner.Then("Following information is present in the section", ((string)(null)), table19, "Then ");
+#line 190
+ testRunner.And("Download White Paper Legal Webinar goal contains value 20 points", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -594,35 +601,35 @@ this.ScenarioSetup(scenarioInfo);
         [Xunit.TraitAttribute("FeatureTitle", "Nurture")]
         [Xunit.TraitAttribute("Description", "Nurture_UC14_Alternate demo path. Email mock-up page. Check personalized info pag" +
             "e")]
-        [Xunit.TraitAttribute("Category", "NeedImplementation")]
+        [Xunit.TraitAttribute("Category", "Ready")]
         public virtual void Nurture_UC14_AlternateDemoPath_EmailMock_UpPage_CheckPersonalizedInfoPage()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Nurture_UC14_Alternate demo path. Email mock-up page. Check personalized info pag" +
                     "e", new string[] {
-                        "NeedImplementation"});
-#line 188
+                        "Ready"});
+#line 195
 this.ScenarioSetup(scenarioInfo);
-#line 189
- testRunner.Given("Legal website is opened on the /Legal/Email page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 190
- testRunner.When("Actor clicks <Register now> link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 191
- testRunner.Then("page URL contains sc_camp=356A7E5445E14860AFBBF922E8A3018F", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-            TechTalk.SpecFlow.Table table19 = new TechTalk.SpecFlow.Table(new string[] {
-                        "Field"});
-            table19.AddRow(new string[] {
-                        "Email"});
-            table19.AddRow(new string[] {
-                        "First Name"});
-            table19.AddRow(new string[] {
-                        "Last Name"});
-            table19.AddRow(new string[] {
-                        "Month Preference"});
-#line 192
-    testRunner.And("<Taxation Webinar Register> form with following fields is opened", ((string)(null)), table19, "And ");
+#line 196
+ testRunner.Given("Legal website is opened on the Legal/Email page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 197
+ testRunner.When("Actor clicks Register now link on Legal/Email page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 198
- testRunner.And("<Register Now> button presents on the page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("Page URL contains sc_camp=356A7E5445E14860AFBBF922E8A3018F", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            TechTalk.SpecFlow.Table table20 = new TechTalk.SpecFlow.Table(new string[] {
+                        "Field"});
+            table20.AddRow(new string[] {
+                        "Email"});
+            table20.AddRow(new string[] {
+                        "First Name"});
+            table20.AddRow(new string[] {
+                        "Last Name"});
+            table20.AddRow(new string[] {
+                        "Month Preference"});
+#line 199
+    testRunner.And("Taxation Webinar Register form with following fields is opened:", ((string)(null)), table20, "And ");
+#line 205
+ testRunner.And("Register Now button presents on the page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -630,32 +637,32 @@ this.ScenarioSetup(scenarioInfo);
         [Xunit.FactAttribute()]
         [Xunit.TraitAttribute("FeatureTitle", "Nurture")]
         [Xunit.TraitAttribute("Description", "Nurture_UC15_Alternate demo path. Email mock-up page. Verify xDB panel")]
-        [Xunit.TraitAttribute("Category", "NeedImplementation")]
+        [Xunit.TraitAttribute("Category", "Ready")]
         public virtual void Nurture_UC15_AlternateDemoPath_EmailMock_UpPage_VerifyXDBPanel()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Nurture_UC15_Alternate demo path. Email mock-up page. Verify xDB panel", new string[] {
-                        "NeedImplementation"});
-#line 202
+                        "Ready"});
+#line 209
 this.ScenarioSetup(scenarioInfo);
-#line 203
- testRunner.Given("Legal website is opened on the /Legal/Email page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 204
- testRunner.When("Actor clicks <Register now> link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 205
- testRunner.And("Actor expands xDB panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 206
- testRunner.And("Actor expands Referral section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 210
+ testRunner.Given("Legal website is opened on the Legal/Email page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 211
+ testRunner.When("Actor clicks Register now link on Legal/Email page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 212
+ testRunner.And("Actor selects Open visit details panel slidebar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 213
+ testRunner.And("Actor expands Referral header on xDB panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-            TechTalk.SpecFlow.Table table20 = new TechTalk.SpecFlow.Table(new string[] {
+            TechTalk.SpecFlow.Table table21 = new TechTalk.SpecFlow.Table(new string[] {
                         "Field values"});
-            table20.AddRow(new string[] {
+            table21.AddRow(new string[] {
                         "Active"});
-            table20.AddRow(new string[] {
+            table21.AddRow(new string[] {
                         "Email Legal Webinar"});
-            table20.AddRow(new string[] {
+            table21.AddRow(new string[] {
                         "Online/Email campaigns/Email marketing"});
-#line 207
- testRunner.Then("following information is present in the Campaigns section", ((string)(null)), table20, "Then ");
+#line 214
+ testRunner.Then("Following information is present in the Campaigns section:", ((string)(null)), table21, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -664,32 +671,32 @@ this.ScenarioSetup(scenarioInfo);
         [Xunit.TraitAttribute("FeatureTitle", "Nurture")]
         [Xunit.TraitAttribute("Description", "Nurture_UC16_Alternate demo path. Facebook campaign. Check personalized info page" +
             "")]
-        [Xunit.TraitAttribute("Category", "NeedImplementation")]
+        [Xunit.TraitAttribute("Category", "OnlyManual")]
         public virtual void Nurture_UC16_AlternateDemoPath_FacebookCampaign_CheckPersonalizedInfoPage()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Nurture_UC16_Alternate demo path. Facebook campaign. Check personalized info page" +
                     "", new string[] {
-                        "NeedImplementation"});
-#line 215
+                        "OnlyManual"});
+#line 222
 this.ScenarioSetup(scenarioInfo);
-#line 216
+#line 223
  testRunner.Given("Facebook website is opened on the https://www.facebook.com/ridleysc/ page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 217
+#line 224
  testRunner.When("Actor clicks link with sc_camp=23A9161A0CA847ACB718D100B65A1328", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-            TechTalk.SpecFlow.Table table21 = new TechTalk.SpecFlow.Table(new string[] {
+            TechTalk.SpecFlow.Table table22 = new TechTalk.SpecFlow.Table(new string[] {
                         "Field"});
-            table21.AddRow(new string[] {
+            table22.AddRow(new string[] {
                         "Email"});
-            table21.AddRow(new string[] {
+            table22.AddRow(new string[] {
                         "First Name"});
-            table21.AddRow(new string[] {
+            table22.AddRow(new string[] {
                         "Last Name"});
-#line 218
-    testRunner.Then("<Taxation Webinar Information> form with following fields is opened", ((string)(null)), table21, "Then ");
-#line 223
+#line 225
+    testRunner.Then("<Taxation Webinar Information> form with following fields is opened", ((string)(null)), table22, "Then ");
+#line 230
  testRunner.And("<Send Me Information> button presents on the page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 224
+#line 231
  testRunner.And("Title contains <Taxation Webinar Information>", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
@@ -698,32 +705,32 @@ this.ScenarioSetup(scenarioInfo);
         [Xunit.FactAttribute()]
         [Xunit.TraitAttribute("FeatureTitle", "Nurture")]
         [Xunit.TraitAttribute("Description", "Nurture_UC17_Alternate demo path. Facebook campaign. Verify xDB panel")]
-        [Xunit.TraitAttribute("Category", "NeedImplementation")]
+        [Xunit.TraitAttribute("Category", "OnlyManual")]
         public virtual void Nurture_UC17_AlternateDemoPath_FacebookCampaign_VerifyXDBPanel()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Nurture_UC17_Alternate demo path. Facebook campaign. Verify xDB panel", new string[] {
-                        "NeedImplementation"});
-#line 228
+                        "OnlyManual"});
+#line 235
 this.ScenarioSetup(scenarioInfo);
-#line 229
+#line 236
  testRunner.Given("Facebook website is opened on the https://www.facebook.com/ridleysc/ page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 230
+#line 237
  testRunner.When("Actor clicks link with sc_camp=23A9161A0CA847ACB718D100B65A1328", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 231
+#line 238
  testRunner.And("Actor expands xDB panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 232
+#line 239
  testRunner.And("Actor expands Referral section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-            TechTalk.SpecFlow.Table table22 = new TechTalk.SpecFlow.Table(new string[] {
+            TechTalk.SpecFlow.Table table23 = new TechTalk.SpecFlow.Table(new string[] {
                         "Field values"});
-            table22.AddRow(new string[] {
+            table23.AddRow(new string[] {
                         "Active"});
-            table22.AddRow(new string[] {
+            table23.AddRow(new string[] {
                         "Facebook Legal Webinar"});
-            table22.AddRow(new string[] {
+            table23.AddRow(new string[] {
                         "Online/Social community/Facebook social community"});
-#line 233
- testRunner.Then("following information is present in the Campaigns section", ((string)(null)), table22, "Then ");
+#line 240
+ testRunner.Then("following information is present in the Campaigns section", ((string)(null)), table23, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -731,31 +738,31 @@ this.ScenarioSetup(scenarioInfo);
         [Xunit.FactAttribute()]
         [Xunit.TraitAttribute("FeatureTitle", "Nurture")]
         [Xunit.TraitAttribute("Description", "Nurture_UC18_Alternate demo path. Twitter campaign. Check personalized info page")]
-        [Xunit.TraitAttribute("Category", "NeedImplementation")]
+        [Xunit.TraitAttribute("Category", "OnlyManual")]
         public virtual void Nurture_UC18_AlternateDemoPath_TwitterCampaign_CheckPersonalizedInfoPage()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Nurture_UC18_Alternate demo path. Twitter campaign. Check personalized info page", new string[] {
-                        "NeedImplementation"});
-#line 241
+                        "OnlyManual"});
+#line 248
 this.ScenarioSetup(scenarioInfo);
-#line 242
+#line 249
  testRunner.Given("Twitter website is opened on the https://twitter.com/DSTChase page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 243
+#line 250
  testRunner.When("Actor clicks link with sc_camp=63FEB1E773A0420B9CED034CF07F7D78", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-            TechTalk.SpecFlow.Table table23 = new TechTalk.SpecFlow.Table(new string[] {
+            TechTalk.SpecFlow.Table table24 = new TechTalk.SpecFlow.Table(new string[] {
                         "Field"});
-            table23.AddRow(new string[] {
+            table24.AddRow(new string[] {
                         "Email"});
-            table23.AddRow(new string[] {
+            table24.AddRow(new string[] {
                         "First Name"});
-            table23.AddRow(new string[] {
+            table24.AddRow(new string[] {
                         "Last Name"});
-#line 244
-    testRunner.Then("<Taxation Webinar Information> form with following fields is opened", ((string)(null)), table23, "Then ");
-#line 249
+#line 251
+    testRunner.Then("<Taxation Webinar Information> form with following fields is opened", ((string)(null)), table24, "Then ");
+#line 256
  testRunner.And("<Send Me Information> button presents on the page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 250
+#line 257
  testRunner.And("image with alt=\"twitter\" presents on the page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
@@ -764,32 +771,32 @@ this.ScenarioSetup(scenarioInfo);
         [Xunit.FactAttribute()]
         [Xunit.TraitAttribute("FeatureTitle", "Nurture")]
         [Xunit.TraitAttribute("Description", "Nurture_UC19_Alternate demo path. Twitter campaign. Verify xDB panel")]
-        [Xunit.TraitAttribute("Category", "NeedImplementation")]
+        [Xunit.TraitAttribute("Category", "OnlyManual")]
         public virtual void Nurture_UC19_AlternateDemoPath_TwitterCampaign_VerifyXDBPanel()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Nurture_UC19_Alternate demo path. Twitter campaign. Verify xDB panel", new string[] {
-                        "NeedImplementation"});
-#line 254
+                        "OnlyManual"});
+#line 261
 this.ScenarioSetup(scenarioInfo);
-#line 255
+#line 262
  testRunner.Given("Twitter website is opened on the https://twitter.com/DSTChase page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 256
+#line 263
  testRunner.When("Actor clicks link with sc_camp=63FEB1E773A0420B9CED034CF07F7D78", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 257
+#line 264
  testRunner.And("Actor expands xDB panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 258
+#line 265
  testRunner.And("Actor expands Referral section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-            TechTalk.SpecFlow.Table table24 = new TechTalk.SpecFlow.Table(new string[] {
+            TechTalk.SpecFlow.Table table25 = new TechTalk.SpecFlow.Table(new string[] {
                         "Field values"});
-            table24.AddRow(new string[] {
+            table25.AddRow(new string[] {
                         "Active"});
-            table24.AddRow(new string[] {
+            table25.AddRow(new string[] {
                         "Twitter Legal Webinar"});
-            table24.AddRow(new string[] {
+            table25.AddRow(new string[] {
                         "Online/Social community/Twitter social community"});
-#line 259
- testRunner.Then("following information is present in the Campaigns section", ((string)(null)), table24, "Then ");
+#line 266
+ testRunner.Then("following information is present in the Campaigns section", ((string)(null)), table25, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -798,33 +805,31 @@ this.ScenarioSetup(scenarioInfo);
         [Xunit.TraitAttribute("FeatureTitle", "Nurture")]
         [Xunit.TraitAttribute("Description", "Nurture_UC20_Alternate demo path. Mock-up of a paid search page. Check personaliz" +
             "ed info page")]
-        [Xunit.TraitAttribute("Category", "NeedImplementation")]
+        [Xunit.TraitAttribute("Category", "Ready")]
         public virtual void Nurture_UC20_AlternateDemoPath_Mock_UpOfAPaidSearchPage_CheckPersonalizedInfoPage()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Nurture_UC20_Alternate demo path. Mock-up of a paid search page. Check personaliz" +
                     "ed info page", new string[] {
-                        "NeedImplementation"});
-#line 267
+                        "Ready"});
+#line 274
 this.ScenarioSetup(scenarioInfo);
-#line 268
- testRunner.Given("Legal website is opened on the Legal/Search page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 269
- testRunner.When("Actor clicks link with sc_camp=D0D5445D-C856-4FEA-9133-30E69A341D5C", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-            TechTalk.SpecFlow.Table table25 = new TechTalk.SpecFlow.Table(new string[] {
-                        "Field"});
-            table25.AddRow(new string[] {
-                        "Email"});
-            table25.AddRow(new string[] {
-                        "First Name"});
-            table25.AddRow(new string[] {
-                        "Last Name"});
-#line 270
-    testRunner.Then("<Taxation Webinar Information> form with following fields is opened", ((string)(null)), table25, "Then ");
 #line 275
- testRunner.And("<Send Me Information> button presents on the page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Given("Legal website is opened on the Legal/Search page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 276
- testRunner.And("Title contains <Taxation Webinar Information>", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.When("Actor clicks Chase Ridley Free Legal Webinar link on Search Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+            TechTalk.SpecFlow.Table table26 = new TechTalk.SpecFlow.Table(new string[] {
+                        "Field"});
+            table26.AddRow(new string[] {
+                        "Email"});
+            table26.AddRow(new string[] {
+                        "First Name"});
+            table26.AddRow(new string[] {
+                        "Last Name"});
+#line 277
+    testRunner.Then("Taxation Webinar Information form with following fields is opened:", ((string)(null)), table26, "Then ");
+#line 282
+ testRunner.And("Send Me Information button presents on the page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -833,33 +838,33 @@ this.ScenarioSetup(scenarioInfo);
         [Xunit.TraitAttribute("FeatureTitle", "Nurture")]
         [Xunit.TraitAttribute("Description", "Nurture_UC21_Alternate demo path. Mock-up of a paid search page. Verify xDB panel" +
             "")]
-        [Xunit.TraitAttribute("Category", "NeedImplementation")]
+        [Xunit.TraitAttribute("Category", "Ready")]
         public virtual void Nurture_UC21_AlternateDemoPath_Mock_UpOfAPaidSearchPage_VerifyXDBPanel()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Nurture_UC21_Alternate demo path. Mock-up of a paid search page. Verify xDB panel" +
                     "", new string[] {
-                        "NeedImplementation"});
-#line 280
+                        "Ready"});
+#line 287
 this.ScenarioSetup(scenarioInfo);
-#line 281
+#line 288
  testRunner.Given("Legal website is opened on the Legal/Search page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 282
- testRunner.When("Actor clicks link with sc_camp=D0D5445D-C856-4FEA-9133-30E69A341D5C", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 283
- testRunner.And("Actor expands xDB panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 284
- testRunner.And("Actor expands Refferal section", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 289
+ testRunner.When("Actor clicks Chase Ridley Free Legal Webinar link on Search Results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 290
+ testRunner.And("Actor selects Open visit details panel slidebar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 291
+ testRunner.And("Actor expands Referral header on xDB panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-            TechTalk.SpecFlow.Table table26 = new TechTalk.SpecFlow.Table(new string[] {
+            TechTalk.SpecFlow.Table table27 = new TechTalk.SpecFlow.Table(new string[] {
                         "Field values"});
-            table26.AddRow(new string[] {
+            table27.AddRow(new string[] {
                         "Active"});
-            table26.AddRow(new string[] {
+            table27.AddRow(new string[] {
                         "Search Legal Webinar"});
-            table26.AddRow(new string[] {
+            table27.AddRow(new string[] {
                         "Online/Paid search/Google ads"});
-#line 285
- testRunner.Then("following information is present in the Campaigns section", ((string)(null)), table26, "Then ");
+#line 292
+ testRunner.Then("Following information is present in the Campaigns section:", ((string)(null)), table27, "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
