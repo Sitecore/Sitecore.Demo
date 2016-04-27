@@ -30,6 +30,8 @@ namespace ClassLibrary1.Infrastructure
 
         public static string CorporateFinanceUrl => BaseUrl + ConfigurationManager.AppSettings["CorporateFinanceUrl"];
 
+        public static string TrustEstateTaxLawUrl => BaseUrl + ConfigurationManager.AppSettings["TrustEstateTaxLawUrl"];
+
         public static string LegalEmailPage => BaseUrl + ConfigurationManager.AppSettings["LegalEmailPage"];
 
         public static string LegalSearchPage => BaseUrl + ConfigurationManager.AppSettings["LegalSearchPage"];

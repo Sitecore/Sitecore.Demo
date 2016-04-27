@@ -33,16 +33,16 @@ namespace ClassLibrary1.Locators
     public static IEnumerable<IWebElement> MediaBody
       => Driver.FindElements(By.CssSelector(".media-body>dl>dd"));
 
-   public static  IWebElement OnsiteBehavior
+        public static IWebElement OnsiteBehavior
       => Driver.FindElement(By.CssSelector("#onsiteBehaviorPanel"));
 
     public static IEnumerable<IWebElement> OnsiteBehaviorSections
       => XdBpanel.OnsiteBehavior.FindElements(By.CssSelector(".media"));
 
-    public static IEnumerable<IWebElement> XdBpanelMediaTitle
-      => Driver.WaitUntilElementsPresent(By.CssSelector(".panel-collapse.collapse.in h4.media-title"));
-    public static IEnumerable<IWebElement> XdBpanelText
-      => Driver.WaitUntilElementsPresent(By.CssSelector("div.alert.alert-info"));
+        public static IEnumerable<IWebElement> XdBpanelMediaTitle
+              => Driver.WaitUntilElementsPresent(By.CssSelector(".panel-collapse.collapse.in h4.media-title"));
+        public static IEnumerable<IWebElement> XdBpanelText
+          => Driver.WaitUntilElementsPresent(By.CssSelector("div.alert.alert-info"));
 
     public static IEnumerable<IWebElement> ManageXDBpanelButtons
       => Driver.FindElements(By.CssSelector(".hover-only"));

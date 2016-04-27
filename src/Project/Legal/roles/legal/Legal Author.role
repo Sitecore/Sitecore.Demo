@@ -1,0 +1,8 @@
+----role----
+name: legal\Legal Author
+
+----parent-roles----
+rolename: sitecore\Designer
+rolename: habitat\Project Habitat Content Author
+rolename: modules\Feature News Admin
+rolename: sitecore\Author

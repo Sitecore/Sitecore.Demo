@@ -15,6 +15,7 @@ namespace ClassLibrary1.Steps
     [Given(@"Actor has opened Home page")]
     [Given(@"User has opened Legal website")]
     [Given(@"Legal website homepage is opened in private browsing session")]
+        [When(@"User has opened Legal website")]
     public void GivenLegalWebsiteHomepageIsOpenedInPrivateBrowsingSession()
     {
       NavigateToPage(Settings.BaseUrl);
@@ -31,6 +32,13 @@ namespace ClassLibrary1.Steps
         {
             NavigateToPage(Settings.CorporateFinanceUrl);
         }
+
+        [Given(@"User has opened Trust, Estate, and Tax Law page")]
+        public void GivenUserHasOpenedTrustEstateAndTaxLawPage()
+        {
+            NavigateToPage(Settings.TrustEstateTaxLawUrl);
+        }
+
 
     [When(@"Actor navigates to Home page")]
     public void WhenActorNavigatesToHomePage()
