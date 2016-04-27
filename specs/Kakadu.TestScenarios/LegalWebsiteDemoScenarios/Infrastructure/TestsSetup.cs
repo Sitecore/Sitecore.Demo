@@ -23,7 +23,7 @@ namespace ClassLibrary1.Infrastructure
       Thread.Sleep(3000);
     }
 
-    [BeforeFeature("UI")]
+    [BeforeScenario("UI")]
     public static void Setup()
     {
 
@@ -77,7 +77,7 @@ namespace ClassLibrary1.Infrastructure
     }
 
 
-    [AfterFeature]
+    [AfterScenario]
     public static void TeardownTest()
     {
       try
