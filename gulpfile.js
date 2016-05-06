@@ -54,24 +54,26 @@ gulp.task("03-Publish-All-Projects", function (callback) {
 });
 
 gulp.task("04-Apply-Xml-Transform", function () {
-  var layerPathFilters = ["./src/Foundation/**/code/*.csproj", "./src/Feature/**/code/*.csproj", "./src/Project/**/code/*.csproj"];
-  return gulp.src(layerPathFilters)
-    .pipe(foreach(function (stream, file) {
-      return stream
-        .pipe(debug({ title: "Applying transform project:" }))
-        .pipe(msbuild({
-          targets: ["ApplyTransform"],
-          configuration: config.buildConfiguration,
-          logCommand: false,
-          verbosity: "normal",
-          maxcpucount: 0,
-          toolsVersion: 14.0,
-          properties: {
-            WebConfigToTransform: config.websiteRoot
-          }
-        }));
-    }));
+    var layerPathFilters = ["./src/Foundation/**/code/*.csproj", "./src/Feature/**/code/*.csproj", "./src/Project/**/code/*.csproj"];
+    return gulp.src(layerPathFilters)
+      .pipe(foreach(function (stream, file) {
+          return gulp.src("./applytransform.targets")
+            .pipe(debug({ title: "Applying transform project:" }))
+            .pipe(msbuild({
+                targets: ["ApplyTransform"],
+                configuration: config.buildConfiguration,
+                logCommand: false,
+                verbosity: "normal",
+                maxcpucount: 0,
+                toolsVersion: 14.0,
+                properties: {
+                    WebConfigToTransform: config.websiteRoot,
+                    ProjectDir: path.dirname(file.path)
+                }
+            }));
+      }));
 });
+
 
 gulp.task("05-Sync-Unicorn", function (callback) {
   var options = {};
