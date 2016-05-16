@@ -1,60 +1,60 @@
 ﻿---
-ID: e2a658ab-b142-4ad9-aaca-c69200622f44
-Parent: cb0c64bc-c0d7-477c-88b8-504f22bef9b0
-Template: 1c0acc50-37be-4742-b43c-96a07a7410a5
-Path: /sitecore/system/Workflows/Legal/Legal Workflow
+ID: "e2a658ab-b142-4ad9-aaca-c69200622f44"
+Parent: "05592656-56d7-4d85-aacf-30919ee494f9"
+Template: "1c0acc50-37be-4742-b43c-96a07a7410a5"
+Path: /sitecore/system/Workflows/Legal Workflow
 DB: master
 SharedFields:
-- ID: b5166b38-e4bf-4410-953c-2037f2bf6a56
+- ID: "b5166b38-e4bf-4410-953c-2037f2bf6a56"
   Hint: Initial state
-  Value: {FF21E8D4-EB3D-400E-83CB-34065712FC18}
+  Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
 Languages:
 - Language: da
   Fields:
-  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: Eksempel på workflow
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20151207T115304Z
-    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin
-- Language: de-DE
+- Language: "de-DE"
   Fields:
-  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: Beispiel Workflow
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20151207T115428Z
-    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160219T042252Z
-- Language: ja-JP
+- Language: "ja-JP"
   Fields:
-  - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: サンプル ワークフロー
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20151207T115555Z
-    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin
