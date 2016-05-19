@@ -12,3 +12,4 @@
 *.sln text=auto eol=crlf merge=union 
 
 *.item -text
+*.mdf filter=lfs diff=lfs merge=lfs -text
