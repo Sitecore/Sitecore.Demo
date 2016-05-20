@@ -1,31 +1,31 @@
 ﻿---
-ID: aa8556ee-6f5b-4b07-9909-11a5189f9ffc
-Parent: 788cb1eb-bf51-4951-b41f-8d557d5386cf
-Template: ab86861a-6030-46c5-b394-e8f99e8b87db
+ID: "aa8556ee-6f5b-4b07-9909-11a5189f9ffc"
+Parent: "788cb1eb-bf51-4951-b41f-8d557d5386cf"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Project/Legal/Page Types/Demo Page
 DB: master
 SharedFields:
-- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: People/32x32/teacher.png
-- ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
   Value: |
     {1930BBEB-7805-471A-A3BE-4858AC7CF696}
     {1224B40E-7B6C-42B3-A6D0-C40A6C61345C}
     {0FCCFE4F-B087-498F-BD26-5CDFFC522C9A}
-- ID: f7d48a55-2158-4f02-9356-756654404f73
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: {BC934798-7AD3-441F-AB14-39BBD64C9992}
+  Value: "{BC934798-7AD3-441F-AB14-39BBD64C9992}"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20151109T235136Z
-    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin

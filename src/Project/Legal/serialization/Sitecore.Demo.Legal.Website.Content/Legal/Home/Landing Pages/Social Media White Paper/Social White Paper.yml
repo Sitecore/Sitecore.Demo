@@ -1,7 +1,7 @@
 ﻿---
-ID: b5583a97-7f68-40c6-ba8b-f82c9d3abcc6
-Parent: 0da7e492-fb74-4714-a168-596e03675eb7
-Template: 9917c92b-0f13-4f96-b50b-84c874e25783
+ID: "b5583a97-7f68-40c6-ba8b-f82c9d3abcc6"
+Parent: "0da7e492-fb74-4714-a168-596e03675eb7"
+Template: "9917c92b-0f13-4f96-b50b-84c874e25783"
 Path: /sitecore/content/Legal/Home/Landing Pages/Social Media White Paper/Social White Paper
 DB: master
 Languages:
@@ -9,19 +9,19 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20151223T144538Z
-    - ID: ac3fd4db-8266-476d-9635-67814d91e901
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: <span>The Legal Guide to the Risks and Rewards of Our Social Media Phenomenon</span>
-    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: Social White Paper
-    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Social White Paper
-    - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
         

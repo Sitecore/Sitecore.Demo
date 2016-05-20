@@ -1,30 +1,37 @@
 ﻿---
-ID: 1f24e086-703a-48c1-a67e-636e5b066f78
-Parent: d0f65bca-8836-4285-aed7-00949a6a0eb3
-Template: c9e1bf85-800a-4247-a3a3-c3f5dfbfd6aa
+ID: "1f24e086-703a-48c1-a67e-636e5b066f78"
+Parent: "d0f65bca-8836-4285-aed7-00949a6a0eb3"
+Template: "c9e1bf85-800a-4247-a3a3-c3f5dfbfd6aa"
 Path: /sitecore/system/Modules/Web Forms for Marketers/Legal/Taxation Webinar Register/First Name
 DB: master
 SharedFields:
-- ID: 35c76a0b-b630-458c-aecc-1d62c50d24fc
+- ID: "35c76a0b-b630-458c-aecc-1d62c50d24fc"
   Hint: Field Link
-  Value: {6353E864-D3AE-4FF9-88DD-60B0F779A44A}
-- ID: acd3122b-f975-433e-9802-35bc5f8fe2b4
+  Value: "{6353E864-D3AE-4FF9-88DD-60B0F779A44A}"
+- ID: "acd3122b-f975-433e-9802-35bc5f8fe2b4"
   Hint: Required
+  Type: Checkbox
   Value: 1
-- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100
-- ID: e312bdfa-ddba-4acc-907a-89a0b59638d4
+- ID: "e312bdfa-ddba-4acc-907a-89a0b59638d4"
   Hint: Rules
   Type: Rules
   Value: |
     <ruleset>
-      <rule uid="{826D1F7F-3ABA-4DDD-A589-A23DAE6812E7}">
+      <rule
+        uid="{826D1F7F-3ABA-4DDD-A589-A23DAE6812E7}">
         <conditions>
-          <condition id="{4888ABBB-F17D-4485-B14B-842413F88732}" uid="A049C7A6A40F42629D56F79DBC7138AB" />
+          <condition
+            id="{4888ABBB-F17D-4485-B14B-842413F88732}"
+            uid="A049C7A6A40F42629D56F79DBC7138AB" />
         </conditions>
         <actions>
-          <action id="{65A7EAD2-9ECF-4CA1-A517-A27A6CD65019}" uid="BCA334F5A6534BC99A02E869D31F196B" Name="First Name" />
+          <action
+            id="{65A7EAD2-9ECF-4CA1-A517-A27A6CD65019}"
+            uid="BCA334F5A6534BC99A02E869D31F196B"
+            Name="First Name" />
         </actions>
       </rule>
     </ruleset>
@@ -33,9 +40,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160111T162210Z
-    - ID: 821724f3-30bb-4152-a770-88bc43ac175a
+    - ID: "821724f3-30bb-4152-a770-88bc43ac175a"
       Hint: Title
       Value: First Name

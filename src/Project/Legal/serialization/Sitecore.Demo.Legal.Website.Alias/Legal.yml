@@ -1,7 +1,7 @@
 ﻿---
-ID: 4f9cbddb-aa01-41bb-9a60-f2aa5c1e0649
-Parent: 5f094fe4-cc4b-40fd-9377-9ab00e7f7ca5
-Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
+ID: "4f9cbddb-aa01-41bb-9a60-f2aa5c1e0649"
+Parent: "5f094fe4-cc4b-40fd-9377-9ab00e7f7ca5"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
 Path: /sitecore/system/Aliases/Legal
 DB: master
 Languages:
@@ -9,9 +9,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160217T143151Z
-    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin

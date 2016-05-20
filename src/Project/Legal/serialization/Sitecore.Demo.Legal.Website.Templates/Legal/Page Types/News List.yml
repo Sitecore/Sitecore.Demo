@@ -1,14 +1,14 @@
 ﻿---
-ID: 1d83c3eb-ea3b-4b71-baa1-3938397fe99b
-Parent: 788cb1eb-bf51-4951-b41f-8d557d5386cf
-Template: ab86861a-6030-46c5-b394-e8f99e8b87db
+ID: "1d83c3eb-ea3b-4b71-baa1-3938397fe99b"
+Parent: "788cb1eb-bf51-4951-b41f-8d557d5386cf"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Project/Legal/Page Types/News List
 DB: master
 SharedFields:
-- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: Network/16x16/news_view.png
-- ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
   Value: |
@@ -19,17 +19,17 @@ SharedFields:
     {91962B60-25F6-428F-8D10-02AA1E49D6A5}
     {BDD24F35-05E8-4466-8798-7D3DD6A6C991}
     {74889B26-061C-4D6A-8CDB-422665FC34EC}
-- ID: f7d48a55-2158-4f02-9356-756654404f73
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: {490CC202-B693-487A-B5CF-99A4C3F6A528}
+  Value: "{490CC202-B693-487A-B5CF-99A4C3F6A528}"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20150824T175244Z
-    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin

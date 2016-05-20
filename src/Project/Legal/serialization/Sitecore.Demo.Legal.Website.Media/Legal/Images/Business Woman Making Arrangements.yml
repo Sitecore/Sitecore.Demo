@@ -8,9 +8,6 @@ SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: "-/media/5345CE5DA51E4F7DA5BBABDB29EAC4A6.ashx?h=16&thn=1&w=16"
-- ID: "0ad015cb-e1a7-4cd7-bfbb-f8b50ab1fc8c"
-  Hint: Copyright
-  Value: 
 - ID: "22eac599-f13b-4607-a89d-c091763a467d"
   Hint: Width
   Value: 500

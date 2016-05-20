@@ -4,10 +4,6 @@ Parent: "ac931f1e-a59a-4658-ae45-bffe9bdd4ef4"
 Template: "4393883a-d15e-4297-b15b-765a0346f2a9"
 Path: /sitecore/content/Legal/Home/Accounts/Login Page
 DB: master
-SharedFields:
-- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
-  Hint: ShowInNavigation
-  Value: 
 Languages:
 - Language: en
   Versions:

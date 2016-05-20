@@ -4,10 +4,6 @@ Parent: "34712652-4df9-4d20-9ca6-a1549cf0b34e"
 Template: "390333c8-751b-4332-84a3-6360b969a19f"
 Path: /sitecore/content/Legal/Global/Links/Accounts Links/Edit Profile
 DB: master
-SharedFields:
-- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
-  Hint: ShowInNavigation
-  Value: 
 Languages:
 - Language: en
   Versions:

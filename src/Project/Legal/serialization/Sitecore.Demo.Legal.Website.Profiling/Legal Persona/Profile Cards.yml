@@ -1,15 +1,15 @@
 ﻿---
-ID: 94dd6cae-ede9-41f5-8852-e6e01b57f46d
-Parent: ad3b7c5c-5bdd-4000-91cf-57f7407f9050
-Template: 1ad02405-7207-4962-ba96-6d6c3ba30ba7
+ID: "94dd6cae-ede9-41f5-8852-e6e01b57f46d"
+Parent: "ad3b7c5c-5bdd-4000-91cf-57f7407f9050"
+Template: "1ad02405-7207-4962-ba96-6d6c3ba30ba7"
 Path: /sitecore/system/Marketing Control Panel/Profiles/Legal Persona/Profile Cards
 DB: master
-BranchID: 07624a03-bb2f-45d8-abe1-15e2b1705ff3
+BranchID: "07624a03-bb2f-45d8-abe1-15e2b1705ff3"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160104T144139Z

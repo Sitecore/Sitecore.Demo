@@ -1,11 +1,11 @@
 ﻿---
-ID: 4d9fde75-163f-4b5f-9ede-b23b547ab8de
-Parent: 000c8311-1ab4-40bf-9b09-e4917b7be5c9
-Template: 4a6a7e36-2481-438f-a9ba-0453ecc638fa
+ID: "4d9fde75-163f-4b5f-9ede-b23b547ab8de"
+Parent: "000c8311-1ab4-40bf-9b09-e4917b7be5c9"
+Template: "4a6a7e36-2481-438f-a9ba-0453ecc638fa"
 Path: /sitecore/system/Marketing Control Panel/Profiles/Legal Persona/Pattern Cards/Margaret the Mother
 DB: master
 SharedFields:
-- ID: 6da71ad3-5849-4482-9317-d21390e5a348
+- ID: "6da71ad3-5849-4482-9317-d21390e5a348"
   Hint: Pattern
   Value: |
     <tracking>
@@ -17,10 +17,10 @@ SharedFields:
         <key name="B2B" value="1" />
       </profile>
     </tracking>
-- ID: 98535f26-6c9d-4fd7-a7e2-392c7cb82d65
+- ID: "98535f26-6c9d-4fd7-a7e2-392c7cb82d65"
   Hint: Image
   Value: "<image mediaid=\"{9B397DA3-6702-47AC-B0B4-250FB1ED38BD}\" />"
-- ID: fe732790-2ddb-4657-a882-c2fce1fbf0c9
+- ID: "fe732790-2ddb-4657-a882-c2fce1fbf0c9"
   Hint: Name
   Value: Margaret the Mother
 Languages:
@@ -28,9 +28,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 03db5c50-d4bf-4e87-9ab4-0e5b4bf4e1a9
+    - ID: "03db5c50-d4bf-4e87-9ab4-0e5b4bf4e1a9"
       Hint: Description
       Value: Margaret is married with two children. Within the legal vertical her main interests are in trust, estate, and tax law as she and her husband seek tax savings and plan to establish a life insurance trust and an estate plan for their children.
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160106T145027Z

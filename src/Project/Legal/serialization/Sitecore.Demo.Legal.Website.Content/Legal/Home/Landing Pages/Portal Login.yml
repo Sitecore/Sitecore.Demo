@@ -1,7 +1,7 @@
 ﻿---
-ID: 74c429b7-d8b0-4f92-a134-2aaa61991d4b
-Parent: d12879df-80cc-4b16-b179-c03813f0a26d
-Template: 9917c92b-0f13-4f96-b50b-84c874e25783
+ID: "74c429b7-d8b0-4f92-a134-2aaa61991d4b"
+Parent: "d12879df-80cc-4b16-b179-c03813f0a26d"
+Template: "9917c92b-0f13-4f96-b50b-84c874e25783"
 Path: /sitecore/content/Legal/Home/Landing Pages/Portal Login
 DB: master
 Languages:
@@ -9,21 +9,21 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160210T172404Z
-    - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
       Value: "<image mediaid=\"{F2844FE0-9AE2-4311-8654-8279837A9F66}\" />"
-    - ID: ac3fd4db-8266-476d-9635-67814d91e901
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: See the benefits of using our legal portal
-    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: Portal Login
-    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Portal Login
-    - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: There are many reasons to use our legal portal but the key benefits our customers tell us is the access you receive to client information and management.

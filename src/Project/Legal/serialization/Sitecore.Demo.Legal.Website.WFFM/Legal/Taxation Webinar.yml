@@ -7,18 +7,18 @@ DB: master
 SharedFields:
 - ID: "3e2bbfc4-5668-47d2-a4fd-67773d155112"
   Hint: Is Ajax Mvc Form
-  Value: 
-- ID: "46fb324a-9741-43bd-a0c9-5081a39d40aa"
-  Hint: Show Introduction
-  Value: 
+  Type: Checkbox
+  Value: 0
 - ID: "5b891b54-4fce-489e-a7e6-841d92e9859a"
   Hint: Save Form Data To Storage
-  Value: 
+  Type: Checkbox
+  Value: 0
 - ID: "87b37b02-ba9e-4464-ab4e-50737bb1d06e"
   Hint: User Profile
   Value: "{DEDEEE27-A46D-4317-B49D-ECDB7D5378EC}"
 - ID: "a42052f7-6c18-424a-a2a1-7a72054cb1a6"
   Hint: Show Title
+  Type: Checkbox
   Value: 1
 - ID: "a7f779b9-5fcf-45cc-866b-7c973f5c4fac"
   Hint: Save Actions
@@ -90,9 +90,6 @@ SharedFields:
 - ID: "d755de87-9c62-4eb3-83dc-2293784a3a3f"
   Hint: Success Mode
   Value: "{F4D50806-6B89-4F2D-89FE-F77FC0A07D48}"
-- ID: "faeacd39-b059-4f46-bec4-74ba468a97b8"
-  Hint: Show Footer
-  Value: 
 Languages:
 - Language: "de-DE"
   Fields:

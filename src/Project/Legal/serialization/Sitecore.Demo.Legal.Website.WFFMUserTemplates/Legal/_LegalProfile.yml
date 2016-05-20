@@ -1,7 +1,7 @@
 ﻿---
-ID: f656083b-beeb-484e-a1c0-ddbb49139c7a
-Parent: 500ec50c-9084-4faf-ae42-0320209795ae
-Template: ab86861a-6030-46c5-b394-e8f99e8b87db
+ID: "f656083b-beeb-484e-a1c0-ddbb49139c7a"
+Parent: "500ec50c-9084-4faf-ae42-0320209795ae"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Project/Legal/_LegalProfile
 DB: core
 Languages:
@@ -15,4 +15,3 @@ Languages:
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin
-

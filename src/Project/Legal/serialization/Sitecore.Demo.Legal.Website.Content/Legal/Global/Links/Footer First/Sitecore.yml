@@ -1,7 +1,7 @@
 ﻿---
-ID: de0098ce-daa7-4015-ae5d-98e46d74aa01
-Parent: a9d88aff-2dde-458a-87ac-7a3a3fcd5c93
-Template: 390333c8-751b-4332-84a3-6360b969a19f
+ID: "de0098ce-daa7-4015-ae5d-98e46d74aa01"
+Parent: "a9d88aff-2dde-458a-87ac-7a3a3fcd5c93"
+Template: "390333c8-751b-4332-84a3-6360b969a19f"
 Path: /sitecore/content/Legal/Global/Links/Footer First/Sitecore
 DB: master
 Languages:
@@ -9,9 +9,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
       Hint: NavigationTitle
       Value: Sitecore
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20151216T033150Z

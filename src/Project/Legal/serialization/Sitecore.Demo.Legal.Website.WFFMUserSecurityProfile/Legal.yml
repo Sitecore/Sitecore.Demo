@@ -1,7 +1,7 @@
 ﻿---
-ID: a9ad83be-c8b9-427e-abdc-e8a47721f86f
-Parent: 65701ce7-6ffc-4a76-88f0-05834afd7e9d
-Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
+ID: "a9ad83be-c8b9-427e-abdc-e8a47721f86f"
+Parent: "65701ce7-6ffc-4a76-88f0-05834afd7e9d"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
 Path: /sitecore/system/Settings/Security/Profiles/Legal
 DB: core
 Languages:
@@ -9,6 +9,6 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160209T101118Z

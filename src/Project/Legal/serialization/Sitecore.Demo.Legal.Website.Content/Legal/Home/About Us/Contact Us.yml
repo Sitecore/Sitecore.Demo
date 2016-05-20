@@ -4,10 +4,6 @@ Parent: "53c59369-b0c7-40b2-b76f-ded99916d309"
 Template: "4b0a2893-4e7b-4248-86a9-dab6da3bb230"
 Path: /sitecore/content/Legal/Home/About Us/Contact Us
 DB: master
-SharedFields:
-- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
-  Hint: ShowInNavigation
-  Value: 
 Languages:
 - Language: en
   Versions:

@@ -1,7 +1,7 @@
 ﻿---
-ID: ad82930a-63cb-4164-9b11-55d8446d7556
-Parent: d12879df-80cc-4b16-b179-c03813f0a26d
-Template: 49c651ba-4004-40a9-9b0f-e95d0573f3ae
+ID: "ad82930a-63cb-4164-9b11-55d8446d7556"
+Parent: "d12879df-80cc-4b16-b179-c03813f0a26d"
+Template: "49c651ba-4004-40a9-9b0f-e95d0573f3ae"
 Path: /sitecore/content/Legal/Home/Landing Pages/Google Search
 DB: master
 Languages:
@@ -9,7 +9,7 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 0bc0aedf-a6d0-4f74-933c-bd1779cd40b2
+    - ID: "0bc0aedf-a6d0-4f74-933c-bd1779cd40b2"
       Hint: HTML Content
       Value: |
         <!DOCTYPE html>
@@ -8203,6 +8203,6 @@ Languages:
         </div>
         </body>
         </html>
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160224T150024Z

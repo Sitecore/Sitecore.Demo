@@ -1,14 +1,14 @@
 ﻿---
-ID: 3d11d427-df37-4760-ab99-6e1e3a253e86
-Parent: 94dd6cae-ede9-41f5-8852-e6e01b57f46d
-Template: 448c4d57-f0f1-4278-8ab8-93db46c94f1b
+ID: "3d11d427-df37-4760-ab99-6e1e3a253e86"
+Parent: "94dd6cae-ede9-41f5-8852-e6e01b57f46d"
+Template: "448c4d57-f0f1-4278-8ab8-93db46c94f1b"
 Path: /sitecore/system/Marketing Control Panel/Profiles/Legal Persona/Profile Cards/Eric the Entrepreneur
 DB: master
 SharedFields:
-- ID: 709b879b-7264-49c7-8864-e254d9129302
+- ID: "709b879b-7264-49c7-8864-e254d9129302"
   Hint: Image
   Value: "<image mediaid=\"{A9B854B9-73FD-4087-90D3-3700E572630C}\" />"
-- ID: 85970ab7-22ea-4206-be86-c0167178860b
+- ID: "85970ab7-22ea-4206-be86-c0167178860b"
   Hint: Profile Card Value
   Value: |
     <tracking>
@@ -23,15 +23,15 @@ SharedFields:
 Languages:
 - Language: en
   Fields:
-  - ID: 462c9ea6-1bc7-4131-9d65-9976801daa48
+  - ID: "462c9ea6-1bc7-4131-9d65-9976801daa48"
     Hint: Title
     Value: Entrepreneur
-  - ID: 823bfc0a-3e62-40a5-8882-1a622882c45b
+  - ID: "823bfc0a-3e62-40a5-8882-1a622882c45b"
     Hint: Description
     Value: "<p style=\"margin: 0cm 0cm 0pt;\"><span>Eric is the owner of a small start-up tech company. Given that he&rsquo;s starting his own company from the ground up, his interests lie specifically in legal areas affecting company organization, contract development (employee, vendor, and SLAs), and expertise within intellectual property and taxation law.</span></p>"
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160104T152945Z

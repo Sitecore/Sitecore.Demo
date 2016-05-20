@@ -1,14 +1,14 @@
 ﻿---
-ID: d91ded72-c3fe-46bc-8ab4-eeaf8864adf2
-Parent: 94dd6cae-ede9-41f5-8852-e6e01b57f46d
-Template: 448c4d57-f0f1-4278-8ab8-93db46c94f1b
+ID: "d91ded72-c3fe-46bc-8ab4-eeaf8864adf2"
+Parent: "94dd6cae-ede9-41f5-8852-e6e01b57f46d"
+Template: "448c4d57-f0f1-4278-8ab8-93db46c94f1b"
 Path: /sitecore/system/Marketing Control Panel/Profiles/Legal Persona/Profile Cards/Susan the CEO
 DB: master
 SharedFields:
-- ID: 709b879b-7264-49c7-8864-e254d9129302
+- ID: "709b879b-7264-49c7-8864-e254d9129302"
   Hint: Image
   Value: "<image mediaid=\"{CD8E3ACD-4E0B-4A7D-87B6-F8EB63F9681A}\" />"
-- ID: 85970ab7-22ea-4206-be86-c0167178860b
+- ID: "85970ab7-22ea-4206-be86-c0167178860b"
   Hint: Profile Card Value
   Value: |
     <tracking>
@@ -23,15 +23,15 @@ SharedFields:
 Languages:
 - Language: en
   Fields:
-  - ID: 462c9ea6-1bc7-4131-9d65-9976801daa48
+  - ID: "462c9ea6-1bc7-4131-9d65-9976801daa48"
     Hint: Title
     Value: CEO
-  - ID: 823bfc0a-3e62-40a5-8882-1a622882c45b
+  - ID: "823bfc0a-3e62-40a5-8882-1a622882c45b"
     Hint: Description
     Value: "<p style=\"margin: 0cm 0cm 0pt;\"><span>Susan is the CEO of an Inc. 5,000 corporation and leader of one of the world&rsquo;s fastest growing companies. Her interests within the legal profession reside in all areas affecting corporate-business law, employment law, IPO law, corporate finance, and all issues surrounding privacy, security, and technology.</span></p>"
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160106T144451Z

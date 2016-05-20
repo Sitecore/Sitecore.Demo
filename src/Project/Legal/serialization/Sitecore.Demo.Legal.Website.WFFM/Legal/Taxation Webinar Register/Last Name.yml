@@ -1,30 +1,38 @@
 ﻿---
-ID: 73efdad2-6e3f-41de-a218-3b1d664e4df6
-Parent: d0f65bca-8836-4285-aed7-00949a6a0eb3
-Template: c9e1bf85-800a-4247-a3a3-c3f5dfbfd6aa
+ID: "73efdad2-6e3f-41de-a218-3b1d664e4df6"
+Parent: "d0f65bca-8836-4285-aed7-00949a6a0eb3"
+Template: "c9e1bf85-800a-4247-a3a3-c3f5dfbfd6aa"
 Path: /sitecore/system/Modules/Web Forms for Marketers/Legal/Taxation Webinar Register/Last Name
 DB: master
 SharedFields:
-- ID: 35c76a0b-b630-458c-aecc-1d62c50d24fc
+- ID: "35c76a0b-b630-458c-aecc-1d62c50d24fc"
   Hint: Field Link
-  Value: {6353E864-D3AE-4FF9-88DD-60B0F779A44A}
-- ID: acd3122b-f975-433e-9802-35bc5f8fe2b4
+  Value: "{6353E864-D3AE-4FF9-88DD-60B0F779A44A}"
+- ID: "acd3122b-f975-433e-9802-35bc5f8fe2b4"
   Hint: Required
+  Type: Checkbox
   Value: 1
-- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 200
-- ID: e312bdfa-ddba-4acc-907a-89a0b59638d4
+- ID: "e312bdfa-ddba-4acc-907a-89a0b59638d4"
   Hint: Rules
   Type: Rules
   Value: |
     <ruleset>
-      <rule uid="{4CD3A4B0-29B7-42EF-A7D4-A1F3426865A6}" name="New Condition">
+      <rule
+        uid="{4CD3A4B0-29B7-42EF-A7D4-A1F3426865A6}"
+        name="New Condition">
         <actions>
-          <action id="{65A7EAD2-9ECF-4CA1-A517-A27A6CD65019}" uid="83CA25C7F9D44433BC69FCB7E28F06A4" Name="Last Name" />
+          <action
+            id="{65A7EAD2-9ECF-4CA1-A517-A27A6CD65019}"
+            uid="83CA25C7F9D44433BC69FCB7E28F06A4"
+            Name="Last Name" />
         </actions>
         <conditions>
-          <condition id="{4888ABBB-F17D-4485-B14B-842413F88732}" uid="52229E908E4E44B1B9CA8E1FC96571F0" />
+          <condition
+            id="{4888ABBB-F17D-4485-B14B-842413F88732}"
+            uid="52229E908E4E44B1B9CA8E1FC96571F0" />
         </conditions>
       </rule>
     </ruleset>
@@ -33,9 +41,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160111T162211Z
-    - ID: 821724f3-30bb-4152-a770-88bc43ac175a
+    - ID: "821724f3-30bb-4152-a770-88bc43ac175a"
       Hint: Title
       Value: Last Name

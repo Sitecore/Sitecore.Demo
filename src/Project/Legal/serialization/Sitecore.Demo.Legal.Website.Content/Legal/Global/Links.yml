@@ -1,7 +1,7 @@
 ﻿---
-ID: 8a8f47b2-b3b7-4697-ada4-14d06e2a56a1
-Parent: 9b5a91b1-a83d-4fe6-9e50-2bb90530c785
-Template: ac7394d5-2aa7-4fdb-a7d8-b1b87f9fa661
+ID: "8a8f47b2-b3b7-4697-ada4-14d06e2a56a1"
+Parent: "9b5a91b1-a83d-4fe6-9e50-2bb90530c785"
+Template: "ac7394d5-2aa7-4fdb-a7d8-b1b87f9fa661"
 Path: /sitecore/content/Legal/Global/Links
 DB: master
 Languages:
@@ -9,6 +9,6 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20150910T050716Z

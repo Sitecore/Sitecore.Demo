@@ -10,28 +10,25 @@ SharedFields:
   Type: Multilist
   Value: "{AF584191-45C9-4201-8740-5409F4CF8BDD}"
 - ID: "60745023-ffd5-400e-8f80-4bca9f2abb29"
-  Hint: LoginPage
+  Hint: Login Page
   Value: /sitecore/content/Legal/Home/Accounts/Login Page
 - ID: "71962360-10d8-4b98-bb8d-57660ce11127"
-  Hint: RegisterPage
+  Hint: Register Page
   Value: /sitecore/content/Legal/Home/Accounts/Register Page
-- ID: "989351f9-6c42-4623-bc83-dbefb398a56b"
-  Hint: InterestsFolder
-  Value: "{144211C0-6E3F-4A9B-8274-60AFE4E8AE63}"
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
 - ID: "b128e2b3-3865-4f1c-a147-5f248676d3f5"
-  Hint: AfterLoginPage
+  Hint: After Login Page
   Value: /sitecore/content/Legal/Home
 - ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
   Hint: __Security
   Value: "ar|legal\Legal Author|pe|+item:write|+item:read|!*|pd|+item:write|+item:read|!*|"
 - ID: "ed71d374-8c33-4561-991d-77482ae01330"
-  Hint: AccountsDetailsPage
+  Hint: Accounts Details Page
   Value: /sitecore/content/Legal/Home/Accounts/Edit Profile Page
 - ID: "f3cd2bb8-472b-4df0-87c0-a13098e391ca"
-  Hint: ForgotPasswordPage
+  Hint: Forgot Password Page
   Value: /sitecore/content/Legal/Home/Accounts/Forgot Password Page
 Languages:
 - Language: en
@@ -50,16 +47,17 @@ Languages:
       Hint: Copyright
       Value: "Please read our <a href=\"~/link.aspx?_id=291E554415F0429294AECA7FABAC3858&_z=z\">Legal Notice</a> and our <a href=\"~/link.aspx?_id=61DEBA6DA8A94DDB83E5448AC46AC289&_z=z\">Privacy Policy</a>. Copyright 2016 Sitecore Legal Services"
     - ID: "021aa3f7-206f-4acc-9538-f6d7fe86b168"
-      Hint: InterestFolder
+      Hint: Interests Folder
       Value: "{144211C0-6E3F-4A9B-8274-60AFE4E8AE63}"
     - ID: "12537182-f35c-403f-afb5-747d55c450b8"
       Hint: ShowInMenu
+      Type: Checkbox
       Value: 1
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20151215T064228Z
     - ID: "378b7d87-5775-4eb6-86b7-282d5359b1c6"
-      Hint: UserProfile
+      Hint: User Profile
       Value: "{DEDEEE27-A46D-4317-B49D-ECDB7D5378EC}"
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
@@ -72,9 +70,6 @@ Languages:
       Value: |
         100 West California Boulevard
         Pasadena, CA 91105
-    - ID: "b8027200-aab0-4876-b454-dbb85add9e3c"
-      Hint: HostName
-      Value: legal.demo.habitat.local
     - ID: "e748d808-64c1-4dec-9718-f35cf9689e4b"
       Hint: Logo
       Value: "<image mediapath=\"/Default Website/sc_logo\" src=\"~/media/Default Website/sc_logo\" height=\"50\" mediaid=\"{92DD68A8-A4E3-469B-97AD-F1C2A7BCBB0B}\" hspace=\"\" usethumbnail=\"\" showineditor=\"\" width=\"200\" alt=\"\" vspace=\"\" />"

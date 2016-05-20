@@ -1,7 +1,7 @@
 ﻿---
-ID: 03bdbe3c-b263-48aa-955b-7c568a464b3a
-Parent: deb61fd5-a20b-4029-84ae-84ef68997a4f
-Template: adb6ca4f-03ef-4f47-b9ac-9ce2ba53ff97
+ID: "03bdbe3c-b263-48aa-955b-7c568a464b3a"
+Parent: "deb61fd5-a20b-4029-84ae-84ef68997a4f"
+Template: "adb6ca4f-03ef-4f47-b9ac-9ce2ba53ff97"
 Path: /sitecore/content/Legal/Home/News/2015/12/17/15/42
 DB: master
 Languages:
@@ -9,6 +9,6 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20151217T154226Z

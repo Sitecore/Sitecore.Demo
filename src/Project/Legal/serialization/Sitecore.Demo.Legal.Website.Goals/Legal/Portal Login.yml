@@ -16,7 +16,8 @@ SharedFields:
   Value: Portal Login
 - ID: "e4d0faf3-61e7-44d4-a921-ce5c606a8da8"
   Hint: IsSystem
-  Value: false
+  Type: Checkbox
+  Value: 0
 Languages:
 - Language: en
   Fields:

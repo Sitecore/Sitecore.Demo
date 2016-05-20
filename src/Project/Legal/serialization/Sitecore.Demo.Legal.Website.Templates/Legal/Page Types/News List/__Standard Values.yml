@@ -11,6 +11,7 @@ SharedFields:
   Value: "{BB6A204D-2B9E-46CA-82CD-00751803B03E}"
 - ID: "d312103c-b36c-4ca5-864a-c85f9abda503"
   Hint: __Is Bucket
+  Type: Checkbox
   Value: 1
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings

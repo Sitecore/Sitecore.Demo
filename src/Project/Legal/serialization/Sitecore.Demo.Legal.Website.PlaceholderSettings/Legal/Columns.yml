@@ -1,7 +1,7 @@
 ﻿---
-ID: 2f0c0529-88dd-40be-9a1e-7649ccd151e3
-Parent: 68204818-5785-47c2-a7cd-2d79e9a5197d
-Template: c3b037a0-46e5-4b67-ac7a-a144b962a56f
+ID: "2f0c0529-88dd-40be-9a1e-7649ccd151e3"
+Parent: "68204818-5785-47c2-a7cd-2d79e9a5197d"
+Template: "c3b037a0-46e5-4b67-ac7a-a144b962a56f"
 Path: /sitecore/layout/Placeholder Settings/Project/Legal/Columns
 DB: master
 Languages:
@@ -9,6 +9,6 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160111T161535Z

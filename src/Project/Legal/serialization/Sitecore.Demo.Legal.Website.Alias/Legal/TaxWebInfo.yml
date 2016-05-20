@@ -1,11 +1,11 @@
 ﻿---
-ID: f5f9aa17-9b45-4cd6-b017-d1928c2d552e
-Parent: 4f9cbddb-aa01-41bb-9a60-f2aa5c1e0649
-Template: 54bcffb7-8f46-4948-ae74-da5b6b5afa86
+ID: "f5f9aa17-9b45-4cd6-b017-d1928c2d552e"
+Parent: "4f9cbddb-aa01-41bb-9a60-f2aa5c1e0649"
+Template: "54bcffb7-8f46-4948-ae74-da5b6b5afa86"
 Path: /sitecore/system/Aliases/Legal/TaxWebInfo
 DB: master
 SharedFields:
-- ID: 8cbab1df-cf26-4c80-9002-62aa153d1e4c
+- ID: "8cbab1df-cf26-4c80-9002-62aa153d1e4c"
   Hint: Linked item
   Value: "<link linktype=\"internal\" url=\"/Legal/Home/Landing Pages/Taxation Webinar/Taxation Webinar More Info\" id=\"{BCF8524F-D93A-47FB-BD2F-D4D9B887A2A6}\" />"
 Languages:
@@ -13,9 +13,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160216T115335Z
-    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin
