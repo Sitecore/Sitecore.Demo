@@ -90,8 +90,15 @@
     <Compile Include="Infrastructure\StepsBase.cs" />
     <Compile Include="Infrastructure\TestCleanupAction.cs" />
     <Compile Include="Infrastructure\TestsSetup.cs" />
+    <Compile Include="Locators\CommonLocators.cs" />
+    <Compile Include="Locators\HomePage.cs" />
     <Compile Include="Locators\LegalAboutUsPage.cs" />
+    <Compile Include="Locators\LegalEmailPage.cs" />
     <Compile Include="Locators\LegalHomePage.cs" />
+    <Compile Include="Locators\LegalSearchPage.cs" />
+    <Compile Include="Locators\TaxationWebinarMoreInfoPage.cs" />
+    <Compile Include="Locators\TaxationWebinarRegisterPage.cs" />
+    <Compile Include="Locators\ThankYouPage.cs" />
     <Compile Include="Locators\xDBpanel.cs" />
     <Compile Include="Nurture.feature.cs">
       <AutoGen>True</AutoGen>
@@ -114,7 +121,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Steps\GivenSetupSteps.cs" />
     <Compile Include="Steps\LegalNavigationSteps.cs" />
+    <Compile Include="Steps\LegalSearchPageSteps.cs" />
+    <Compile Include="Steps\ThenResultSteps.cs" />
+    <Compile Include="Steps\WhenActionSteps.cs" />
+    <Compile Include="Steps\xDbPanelActions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

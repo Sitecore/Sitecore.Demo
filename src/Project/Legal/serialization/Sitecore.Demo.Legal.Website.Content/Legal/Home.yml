@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
   Hint: __Security
-  Value: "au|sitecore\Emma|pe|+item:create|+item:read|+item:rename|+item:delete|+item:write|^*|pd|+item:create|+item:read|+item:rename|+item:delete|+item:write|^*|"
+  Value: 
 Languages:
 - Language: en
   Versions:

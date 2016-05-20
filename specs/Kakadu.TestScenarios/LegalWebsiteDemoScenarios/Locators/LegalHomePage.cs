@@ -12,6 +12,10 @@ namespace ClassLibrary1.Locators
   {
     public static IWebDriver Driver => FeatureContext.Current.Get<IWebDriver>();
 
+    public static IEnumerable<IWebElement> LinkButton
+      => Driver.FindElements(By.CssSelector(".btn.btn-default"));
+
+
 
   }
 }

@@ -1,0 +1,24 @@
+﻿---
+ID: "a50c5930-6903-4603-b25d-a46360f7f75b"
+Parent: "b1bab248-ffb4-4295-9783-e8fe17e2fe34"
+Template: "66882e97-c8aa-4e37-8901-7a8aa35ed2ed"
+Path: /sitecore/system/Workflows/Legal Workflow/Approved/Auto Publish
+DB: master
+SharedFields:
+- ID: "1507131d-cee3-49e9-af32-de5403a37b49"
+  Hint: Parameters
+  Value: deep=1
+- ID: "a291a22b-99e2-46bb-a27b-8ec744275396"
+  Hint: Type
+  Value: Sitecore.Workflows.Simple.PublishAction, Sitecore.Kernel
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160202T141010Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

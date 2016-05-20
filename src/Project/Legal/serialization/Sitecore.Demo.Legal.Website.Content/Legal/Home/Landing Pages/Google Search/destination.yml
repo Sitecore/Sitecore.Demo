@@ -17,4 +17,4 @@ Languages:
       Value: sitecore\admin
     - ID: 7b9f4fe3-6285-4969-9784-b96d49973161
       Hint: Token Value
-      Value: http://legal.demo.habitat.local/en/Landing-Pages/Taxation-Webinar/Taxation-Webinar-More-Info
+      Value: /Landing-Pages/Taxation-Webinar/Taxation-Webinar-More-Info
