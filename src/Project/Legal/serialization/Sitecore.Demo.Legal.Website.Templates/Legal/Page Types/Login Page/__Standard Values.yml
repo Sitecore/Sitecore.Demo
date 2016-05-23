@@ -5,6 +5,10 @@ Template: "4393883a-d15e-4297-b15b-765a0346f2a9"
 Path: /sitecore/templates/Project/Legal/Page Types/Login Page/__Standard Values
 DB: master
 SharedFields:
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 0
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
