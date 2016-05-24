@@ -13,6 +13,86 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{242C9A0C-7FC3-4E55-A834-289905C8E830}"
+              p:before="*"
+              s:ds="{6C120B9D-8923-43F3-A0C3-CC4A8A07FDF4}"
+              s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"
+              s:par="Background=%7B22EFB258-62F5-4B49-9D7E-DE07F70C9F37%7D"
+              s:ph="/page-layout/section_a01c5508-383d-4fdd-bb9b-e0d3be2ea7ac/col-huge_746ffdc8-e1ee-472a-a714-0949b1d0fb23/teaser-placeholder-6_983aac8b-63c9-49c1-bfb9-8cc57e516c39" />
+            <r
+              uid="{598244D7-336C-4DCD-AE66-A2DA65E754B9}"
+              p:after="r[@uid='{242C9A0C-7FC3-4E55-A834-289905C8E830}']"
+              s:ds="{2AE21DEF-82EC-403E-A8A8-16761CF85995}"
+              s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"
+              s:par="Background=%7B22EFB258-62F5-4B49-9D7E-DE07F70C9F37%7D"
+              s:ph="/page-layout/section_a01c5508-383d-4fdd-bb9b-e0d3be2ea7ac/col-huge_746ffdc8-e1ee-472a-a714-0949b1d0fb23/teaser-placeholder-5_983aac8b-63c9-49c1-bfb9-8cc57e516c39" />
+            <r
+              uid="{5465E8F3-1B6C-49D4-99EB-361F56B6FFDA}"
+              p:after="r[@uid='{598244D7-336C-4DCD-AE66-A2DA65E754B9}']"
+              s:ds="{BEBB2420-28F4-4209-A5B7-D2A46647F43D}"
+              s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"
+              s:par="Background=%7B22EFB258-62F5-4B49-9D7E-DE07F70C9F37%7D"
+              s:ph="/page-layout/section_a01c5508-383d-4fdd-bb9b-e0d3be2ea7ac/col-huge_746ffdc8-e1ee-472a-a714-0949b1d0fb23/teaser-placeholder-2_983aac8b-63c9-49c1-bfb9-8cc57e516c39" />
+            <r
+              uid="{42512259-DACB-48D8-9E9A-88C73D2D1904}"
+              p:after="r[@uid='{5465E8F3-1B6C-49D4-99EB-361F56B6FFDA}']"
+              s:ds="{3C9607A2-104E-4753-A88D-C575CFA478F1}"
+              s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"
+              s:par="Background=%7B22EFB258-62F5-4B49-9D7E-DE07F70C9F37%7D"
+              s:ph="/page-layout/section_a01c5508-383d-4fdd-bb9b-e0d3be2ea7ac/col-huge_746ffdc8-e1ee-472a-a714-0949b1d0fb23/teaser-placeholder-3_983aac8b-63c9-49c1-bfb9-8cc57e516c39" />
+            <r
+              uid="{118BA024-EBA0-40FA-BB59-0D78CD566635}"
+              p:after="r[@uid='{42512259-DACB-48D8-9E9A-88C73D2D1904}']"
+              s:ds="{6E532AF2-459C-49B5-911C-41BFEE7AE9D4}"
+              s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"
+              s:par="Background=%7B22EFB258-62F5-4B49-9D7E-DE07F70C9F37%7D"
+              s:ph="/page-layout/section_a01c5508-383d-4fdd-bb9b-e0d3be2ea7ac/col-huge_746ffdc8-e1ee-472a-a714-0949b1d0fb23/teaser-placeholder-4_983aac8b-63c9-49c1-bfb9-8cc57e516c39" />
+            <r
+              uid="{11F4A737-3FFA-4AF7-8D4B-34C344B265E6}"
+              p:after="r[@uid='{118BA024-EBA0-40FA-BB59-0D78CD566635}']"
+              s:ds="{FC989D9E-38A7-4279-A5CA-603DCDEA7DA2}"
+              s:id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"
+              s:par="Background=%7B22EFB258-62F5-4B49-9D7E-DE07F70C9F37%7D"
+              s:ph="/page-layout/section_a01c5508-383d-4fdd-bb9b-e0d3be2ea7ac/col-huge_746ffdc8-e1ee-472a-a714-0949b1d0fb23/teaser-placeholder-1_983aac8b-63c9-49c1-bfb9-8cc57e516c39" />
+            <r
+              uid="{EC98E18C-9EBE-44FC-B716-878E593DD0C1}"
+              p:after="r[@uid='{11F4A737-3FFA-4AF7-8D4B-34C344B265E6}']"
+              s:ds="{8881920D-82DF-4D70-B819-3FE181E2D6EF}"
+              s:id="{EE5A9F3D-C2CB-4710-8053-04D1A7135EBE}"
+              s:ph="/page-layout/section_a01c5508-383d-4fdd-bb9b-e0d3be2ea7ac/col-huge_746ffdc8-e1ee-472a-a714-0949b1d0fb23" />
+            <r
+              uid="{983AAC8B-63C9-49C1-BFB9-8CC57E516C39}"
+              p:after="r[@uid='{EC98E18C-9EBE-44FC-B716-878E593DD0C1}']"
+              s:ds="{EDFFFCC2-3682-40AD-BB2B-531BD1060BE2}"
+              s:id="{5D35C31F-0770-4498-BAB8-C88BEF41F153}"
+              s:ph="/page-layout/section_a01c5508-383d-4fdd-bb9b-e0d3be2ea7ac/col-huge_746ffdc8-e1ee-472a-a714-0949b1d0fb23" />
+            <r
+              uid="{746FFDC8-E1EE-472A-A714-0949B1D0FB23}"
+              p:after="r[@uid='{983AAC8B-63C9-49C1-BFB9-8CC57E516C39}']"
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:ph="/page-layout/section_a01c5508-383d-4fdd-bb9b-e0d3be2ea7ac" />
+            <r
+              uid="{A01C5508-383D-4FDD-BB9B-E0D3BE2EA7AC}"
+              p:after="r[@uid='{A3CA17FF-693C-46F1-87AA-B8C1833F1890}']"
+              s:ds=""
+              s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+              s:par="Background=%7B22EFB258-62F5-4B49-9D7E-DE07F70C9F37%7D&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames"
+              s:ph="page-layout" />
+            <r
+              uid="{025588CB-DFC0-4B02-8223-0015C525AE52}">
+              <p:d />
+            </r>
+          </d>
+        </r>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
       Hint: OpenGraphTitle
       Value: Register Page
@@ -22,12 +102,17 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160318T101434Z
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: "<image mediaid=\"{F2844FE0-9AE2-4311-8654-8279837A9F66}\" />"
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: Please register with our site. All you need is a valid email address.
+      Value: |
+        <p>Please register with our legal portal.Here you can collaborate directly with our great team of legal experts and gain direct access to all our valuable information.</p>
+        <p>All you need is a valid email address.</p>
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: Register Page
+      Value: Register for our Legal Portal
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Register Page

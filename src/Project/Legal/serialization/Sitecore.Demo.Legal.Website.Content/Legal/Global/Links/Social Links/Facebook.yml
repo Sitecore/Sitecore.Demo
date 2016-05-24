@@ -1,0 +1,20 @@
+﻿---
+ID: "9204ff37-ad9f-4fb3-bc22-f320b70c0476"
+Parent: "35853996-19de-4285-8203-128b4174d5fd"
+Template: "390333c8-751b-4332-84a3-6360b969a19f"
+Path: /sitecore/content/Legal/Global/Links/Social Links/Facebook
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Facebook
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160524T022830Z
+    - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
+      Hint: Link
+      Value: "<link text=\"Facebook\" linktype=\"external\" url=\"http://www.facebook.com\" anchor=\"\" target=\"_blank\" />"
