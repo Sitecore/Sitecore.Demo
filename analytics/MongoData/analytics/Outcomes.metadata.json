@@ -1,1 +1,1 @@
-{"indexes":[{"v":1,"key":{"_id":1},"name":"_id_","ns":"legal_analytics.Outcomes"},{"v":1,"key":{"EntityId":1,"InteractionId":1},"name":"EntityId_1_InteractionId_1","ns":"legal_analytics.Outcomes","background":true}]}
+{ "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "name" : "_id_", "ns" : "habitat_local_analytics.Outcomes" }, { "v" : 1, "key" : { "EntityId" : 1, "InteractionId" : 1 }, "name" : "EntityId_1_InteractionId_1", "ns" : "habitat_local_analytics.Outcomes", "background" : true } ] }
