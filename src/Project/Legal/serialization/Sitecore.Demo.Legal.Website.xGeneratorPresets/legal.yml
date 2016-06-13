@@ -1,0 +1,14 @@
+﻿---
+ID: "5b8ed56c-f50b-486a-a09c-f5c9db626817"
+Parent: "b4ef340e-be30-4959-a586-11ddf7c6f66c"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/client/Applications/ExperienceGenerator/Common/Presets/legal
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160510T113811Z
