@@ -7,4 +7,4 @@ This solution hosts the demo websites for Sitecore.
 To install, set up a website running the Habitat framework.  
 For more information about the Habitat project, please check out the [Habitat Wiki](https://github.com/sitecore/habitat/wiki)
 
-Please contact [Mike Carter (mca)](mca@sitecore.net) for more information about the demo projects.
+Please contact [Mike Carter (mca)](mailto:mca@sitecore.net) for more information about the demo projects.
