@@ -1,0 +1,17 @@
+﻿---
+ID: "1a8d905c-11d5-426b-8940-12aacb4c0992"
+Parent: "5cc6a147-4a2a-4275-a374-d1165bc6bbcf"
+Template: "dad532fa-6524-45cb-a57c-848cc34eb238"
+Path: /sitecore/client/Applications/ExperienceAnalytics/Shared/LaunchPad/Parameters/Top five campaigns by visits Parameters
+DB: core
+SharedFields:
+- ID: "5d6bc769-813b-4d41-8a88-73dca65d66b5"
+  Hint: KeysSortDirection
+  Value: "{D54D6C57-A761-412F-BCE8-A2B181B443FF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Value: "20160621T165351:636021248310411964Z"
