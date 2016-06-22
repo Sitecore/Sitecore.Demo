@@ -1,0 +1,23 @@
+﻿---
+ID: "8669bbd6-8b3b-4c75-a3d7-4217d162f4b5"
+Parent: "35853996-19de-4285-8203-128b4174d5fd"
+Template: "390333c8-751b-4332-84a3-6360b969a19f"
+Path: /sitecore/content/Legal/Global/Links/Social Links/Twitter
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Twitter
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160524T022834Z
+    - ID: "2c24649e-4460-4114-b026-886cfbe1a96d"
+      Hint: Icon
+      Value: 
+    - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
+      Hint: Link
+      Value: "<link text=\"Twitter\" linktype=\"external\" url=\"http://www.twitter.com\" anchor=\"\" target=\"_blank\" />"
