@@ -5,13 +5,34 @@ Template: "dad532fa-6524-45cb-a57c-848cc34eb238"
 Path: /sitecore/client/Applications/ExperienceAnalytics/Shared/LaunchPad/Parameters/Top five campaigns by visits Parameters
 DB: core
 SharedFields:
+- ID: "13cf962b-9899-4421-8206-8bdc3bf117d1"
+  Hint: KeysSortByMetric
+  Value: "{CC835378-DE1E-41E9-A603-2F7997C14157}"
 - ID: "5d6bc769-813b-4d41-8a88-73dca65d66b5"
   Hint: KeysSortDirection
   Value: "{D54D6C57-A761-412F-BCE8-A2B181B443FF}"
+- ID: "7489900f-c46f-4d41-b704-1f96694a7190"
+  Hint: KeysCount
+  Value: 5
+- ID: "7a078f89-9956-4f04-9006-ee085053ddf4"
+  Hint: Metrics
+  Type: Multilist
+  Value: "{CC835378-DE1E-41E9-A603-2F7997C14157}"
+- ID: "c254b1a3-db3b-40e2-ae0b-6b50b1e7e297"
+  Hint: TimeResolution
+  Value: "{36C502F2-6D51-453D-8C5B-60E2D939BC5A}"
+- ID: "d1184319-38ca-4d82-899d-64a76f8f7603"
+  Hint: Segments
+  Type: Treelist
+  Value: "{7A9A483F-195D-4F96-AD88-473CD6854C4F}"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Value: "20160621T165351:636021248310411964Z"
+      Hint: __Created
+      Value: 20160621T165351Z
+    - ID: "8c985be6-4752-4134-ba85-f52055c8012e"
+      Hint: Title
+      Value: Top five campaigns by visits
