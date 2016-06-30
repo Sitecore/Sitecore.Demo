@@ -33,12 +33,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sitecore/Kakadu.git"
+    "url": "git+https://github.com/Sitecore/Sitecore.Demo.git"
   },
   "author": "Sitecore Corporation A/S",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sitecore/Kakadu/issues"
+    "url": "https://github.com/Sitecore/Sitecore.Demo/issues"
   },
-  "homepage": "https://github.com/Sitecore/Kakadu#readme"
+  "homepage": "https://github.com/Sitecore/Sitecore.Demo#readme"
 }

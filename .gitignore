@@ -22,4 +22,5 @@ vars.user.cmd
 /node_modules
 temp/
 *.ncrunchproject
-*.ncrunchsolution
+*.ncrunchsolution.vscode
+nCrunchTemp*.*
