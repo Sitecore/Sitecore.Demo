@@ -5,6 +5,7 @@ var foreach = require("gulp-foreach");
 var rename = require("gulp-rename");
 var watch = require("gulp-watch");
 var newer = require("gulp-newer");
+var util = require("gulp-util");
 var runSequence = require("run-sequence");
 var path = require("path");
 var config = require("./gulp-config.js")();
@@ -48,32 +49,36 @@ gulp.task("02-Nuget-Restore", function (callback) {
 
 gulp.task("03-Publish-All-Projects", function (callback) {
   return runSequence(
+    "Build-Solution",
     "Publish-Foundation-Projects",
     "Publish-Feature-Projects",
     "Publish-Project-Projects", callback);
 });
 
 gulp.task("04-Apply-Xml-Transform", function () {
-    var layerPathFilters = ["./src/Foundation/**/code/*.csproj", "./src/Feature/**/code/*.csproj", "./src/Project/**/code/*.csproj"];
+  var layerPathFilters = ["./src/Foundation/**/*.transform", "./src/Feature/**/*.transform", "./src/Project/**/*.transform", "!./src/**/obj/**/*.transform", "!./src/**/bin/**/*.transform"];
     return gulp.src(layerPathFilters)
       .pipe(foreach(function (stream, file) {
+      var fileToTransform = file.path.replace(/.+code\\(.+)\.transform/, "$1");
+      util.log("Applying configuration transform: " + file.path);
           return gulp.src("./applytransform.targets")
-            .pipe(debug({ title: "Applying transform project:" }))
             .pipe(msbuild({
                 targets: ["ApplyTransform"],
                 configuration: config.buildConfiguration,
                 logCommand: false,
-                verbosity: "normal",
+          verbosity: "minimal",
+          stdout: true,
+          errorOnFail: true,
                 maxcpucount: 0,
                 toolsVersion: 14.0,
                 properties: {
                     WebConfigToTransform: config.websiteRoot,
-                    ProjectDir: path.dirname(file.path)
+            TransformFile: file.path,
+            FileToTransform: fileToTransform
                 }
             }));
       }));
 });
-
 
 gulp.task("05-Sync-Unicorn", function (callback) {
   var options = {};
@@ -113,9 +118,7 @@ gulp.task("Copy-Local-Assemblies", function () {
 var publishProjects = function (location, dest) {
   dest = dest || config.websiteRoot;
   var targets = ["Build"];
-  if (config.runCleanBuilds) {
-    targets = ["Clean", "Build"]
-  }
+
   console.log("publish to " + dest + " folder");
   return gulp.src([location + "/**/code/*.csproj"])
     .pipe(foreach(function (stream, file) {
@@ -126,6 +129,8 @@ var publishProjects = function (location, dest) {
           configuration: config.buildConfiguration,
           logCommand: false,
           verbosity: "minimal",
+          stdout: true,
+          errorOnFail: true,
           maxcpucount: 0,
           toolsVersion: 14.0,
           properties: {
@@ -139,6 +144,25 @@ var publishProjects = function (location, dest) {
         }));
     }));
 };
+
+gulp.task("Build-Solution", function () {
+  var targets = ["Build"];
+  if (config.runCleanBuilds) {
+    targets = ["Clean", "Build"];
+  }
+  var solution = "./" + config.solutionName + ".sln";
+  return gulp.src(solution)
+      .pipe(msbuild({
+        targets: targets,
+        configuration: config.buildConfiguration,
+        logCommand: false,
+        verbosity: "minimal",
+        stdout: true,
+        errorOnFail: true,
+        maxcpucount: 0,
+        toolsVersion: 14.0
+      }));
+});
 
 gulp.task("Publish-Foundation-Projects", function () {
   return publishProjects("./src/Foundation");
