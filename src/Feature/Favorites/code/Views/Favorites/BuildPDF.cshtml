@@ -1,0 +1,17 @@
+﻿@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Repositories
+@using PrintStudio.PublishingEngine.Helpers;
+@model Sitecore.Feature.Favorites.Models.IFavorites
+
+
+
+    <div>
+    Hello World from PXM
+    You should never see this page.
+    @foreach (var favorite in Model.Items)
+    {
+
+        @Logger.Info("Favourites:" + favorite + System.Environment.NewLine);
+
+    }
+</div>
