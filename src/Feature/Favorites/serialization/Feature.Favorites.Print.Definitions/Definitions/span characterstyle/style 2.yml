@@ -1,0 +1,61 @@
+﻿---
+ID: "f851fff1-38a8-4d4a-ac79-c218c12d23ff"
+Parent: "f6525d6b-8ff9-4436-b87a-a6ead27528a1"
+Template: "7cd0ed9c-975d-41ed-b106-e4c60e06d4f7"
+Path: /sitecore/Print Studio/Modules/InDesign connector/Transformations/Definitions/span characterstyle/style 2
+DB: master
+SharedFields:
+- ID: "6bcb71d1-9fb5-4af5-96d5-9fc1e4284e49"
+  Hint: XHTML Default value
+  Value: characterstyle2
+- ID: "89ad5209-b1c5-44d0-99e8-46f391b12e0f"
+  Hint: XHTML Attribute
+  Value: class
+- ID: "9f94d809-627e-468e-99dc-ab523d8f2e56"
+  Hint: XML Default value
+  Value: Character Style 2
+- ID: "a05e1d55-b7c5-4b57-aa0c-c1a7845cfc7c"
+  Hint: XML Attribute
+  Value: Style
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Style 2
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160511T150737Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20100908T075600
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\Admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: スタイル 2
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160511T151104Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

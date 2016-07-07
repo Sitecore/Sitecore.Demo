@@ -1,0 +1,33 @@
+﻿---
+ID: "a79ffb1e-0fa4-470b-8f04-a1a3949f649f"
+Parent: "ae724e20-2918-442e-ae9e-5696b2bfbc5f"
+Template: "6bfa47ba-f73c-48db-9170-c0cc94179ec7"
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/PXM on Demand/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Welcome Page
+DB: master
+SharedFields:
+- ID: "19f9b0a4-6259-4136-b2a3-668c77f0df99"
+  Hint: Number
+  Value: 2
+- ID: "4acf4a9f-e50e-47a3-abf6-02871c2f1e0e"
+  Hint: MasterBase
+  Value: Inners
+- ID: "8715924c-ec10-4d60-98d8-048a92b21fda"
+  Hint: MasterPrefix
+  Value: B
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160615T084617Z
+    - ID: "55096646-7245-404d-9dde-c71c081e9fac"
+      Hint: Name
+      Value: Welcome Page
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

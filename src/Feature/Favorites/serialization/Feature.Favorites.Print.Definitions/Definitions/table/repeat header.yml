@@ -1,0 +1,52 @@
+﻿---
+ID: "c1e5836c-4e96-426b-89dd-6924602a39d0"
+Parent: "05069b2c-3c12-428b-92de-a33c314c0031"
+Template: "7cd0ed9c-975d-41ed-b106-e4c60e06d4f7"
+Path: /sitecore/Print Studio/Modules/InDesign connector/Transformations/Definitions/table/repeat header
+DB: master
+SharedFields:
+- ID: "9f94d809-627e-468e-99dc-ab523d8f2e56"
+  Hint: XML Default value
+  Value: EveryTextColumn
+- ID: "a05e1d55-b7c5-4b57-aa0c-c1a7845cfc7c"
+  Hint: XML Attribute
+  Value: RepeatHeader
+Languages:
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Header wiederholen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160511T150702Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20130903T101833
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\Admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ヘッダーを繰り返し使用する
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160511T151018Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
