@@ -170,6 +170,12 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\code\Sitecore.Feature.Brochure.csproj">
+      <Project>{78298d6f-e94d-4e88-a822-e55ed8a448eb}</Project>
+      <Name>Sitecore.Feature.Brochure</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

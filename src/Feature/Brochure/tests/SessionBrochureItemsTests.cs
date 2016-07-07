@@ -25,7 +25,7 @@
     {
       context.Session.Add(SessionBrochureItems.SessionKey, itemList);
       var brochureItems = new SessionBrochureItems(context);
-      
+
       brochureItems.Items.ShouldBeEquivalentTo(itemList);
     }
 
@@ -77,12 +77,14 @@
       brochureItems.Remove(item).Should().BeTrue();
       brochureItems.Items.Should().NotContain(f => f.ItemID == itemID);
     }
+
     [Theory, AutoDbData]
     public void Remove_ItemIsNull_ThrowsException(HttpContext context)
     {
       var brochureItems = new SessionBrochureItems(context);
       Assert.Throws<ArgumentNullException>(() => brochureItems.Remove(null));
     }
+
     [Theory, AutoDbData]
     public void Add_ItemIsNull_ThrowsException(HttpContext context)
     {
