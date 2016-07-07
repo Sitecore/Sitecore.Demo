@@ -26,6 +26,9 @@ SharedFields:
       <event
         id="{F216482C-3A18-4E24-9126-BB245A0088E3}"
         name="Corporate Law Download" />
+      <event
+        id="{FA72E131-3CFD-481C-8E15-04496E9586DC}"
+        name="Download" />
     </tracking>
 - ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
   Hint: Extension
