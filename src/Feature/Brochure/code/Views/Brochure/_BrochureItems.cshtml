@@ -1,0 +1,33 @@
+﻿@using Sitecore.Foundation.Dictionary.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Repositories
+@model Sitecore.Feature.Brochure.Models.IBrochureItems
+<div id="brochureItems">
+  @if (Model.Items.Any())
+  {
+    <table class="table table-condensed table-hover table-borderless">
+      @foreach (var item in Model.Items)
+        {
+        <tr>
+          <td class="text-nowrap">
+            <a href="@item.ItemUrl">@item.Title</a>
+          </td>
+          <td>
+            <a class="item" href="#" onclick="jQuery('head').trigger('brochure:removePage', ['@item.ItemID.ToGuid().ToString("D")'])" data-item="@item.ItemID.ToGuid().ToString("D")">
+              <i class="fa fa-trash pull-right"></i>
+            </a>
+          </td>
+        </tr>
+      }
+    </table>
+  }
+  else
+  {
+    <div class="m-b-1">
+      <em>
+        @Html.Sitecore().Dictionary("/Brochure/Brochure Menu/None", "No items have been selected")
+      </em>
+    </div>
+  }
+</div>
+
+

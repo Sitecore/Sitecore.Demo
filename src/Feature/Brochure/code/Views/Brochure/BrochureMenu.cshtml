@@ -1,0 +1,22 @@
+﻿@using Sitecore.Foundation.Dictionary.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Repositories
+@using Sitecore.Mvc.Presentation
+@using System.Web.Mvc.Html
+@model Sitecore.Feature.Brochure.Models.IBrochureItems
+
+<li class="dropdown hidden-xs">
+  <a href="#" class="btn dropdown-toggle" data-toggle="dropdown" title="@Html.Sitecore().Dictionary("/Brochure/Brochure Menu/Tooltip", "My Brochure")">
+    <i class="fa fa-file-pdf-o"></i>
+  </a>
+  <div class="dropdown-menu">
+    <h4>@Html.Sitecore().Dictionary("/Brochure/Brochure Menu/Title", "My Brochure")</h4>
+    @Html.Partial("_BrochureItems", Model)
+    <a href="#" onclick="jQuery('head').trigger('brochure:addCurrentPage', '@Html.Sitecore().CurrentRendering.Item.ID.ToGuid().ToString("D")')" class="btn btn-block btn-default">
+      <i class="fa fa-plus-square"></i> @Html.Sitecore().Dictionary("/Brochure/Brochure Menu/Add To Brochure", "Add Current Page")
+    </a>
+    <a href="@Url.Action("Print", "Brochure")" class="btn btn-block btn-primary">
+      <i class="fa fa-file-pdf-o"></i> @Html.Sitecore().Dictionary("/Brochure/Brochure Menu/Print Brochure", "Download PDF")
+    </a>
+  </div>
+</li>
