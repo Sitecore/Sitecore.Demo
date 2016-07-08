@@ -1,0 +1,24 @@
+﻿---
+ID: "8fc69ca7-cacd-49f0-a32c-c7938ed3e61f"
+Parent: "31580133-9ee2-4c76-bb0b-6bbf8a8c62f3"
+Template: "31580133-9ee2-4c76-bb0b-6bbf8a8c62f3"
+Path: /sitecore/templates/Project/Legal/Content Types/Brochure Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {CA7D256A-9971-445C-A3BB-3BEBA48F08D9}
+    {31580133-9EE2-4C76-BB0B-6BBF8A8C62F3}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160708T010404Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

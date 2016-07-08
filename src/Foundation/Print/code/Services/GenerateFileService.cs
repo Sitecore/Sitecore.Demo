@@ -11,11 +11,14 @@
 
   public class GenerateFileService : IGenerateFileService
   {
-    public FileInfo GenerateFile(string projectPath, IEnumerable<ID> items, string fileName)
+    public FileInfo GenerateFile([NotNull] Item projectItem, [NotNull] IEnumerable<ID> items, [NotNull] string fileName)
     {
-      var projectItem = Context.Database.GetItem(projectPath);
       if (projectItem == null)
-        return null;
+        throw new ArgumentNullException(nameof(projectItem));
+      if (items == null)
+        throw new ArgumentNullException(nameof(items));
+      if (fileName == null)
+        throw new ArgumentNullException(nameof(fileName));
 
       Logger.Info("File name at creation point:" + fileName + Environment.NewLine);
       var printOptions = new PrintOptions {

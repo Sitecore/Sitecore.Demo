@@ -4,6 +4,10 @@ Parent: "9243c5bf-32d8-422c-879f-d92cc57af4f1"
 Template: "76658f1d-0ac3-4280-b2a4-dd4b3e8d5311"
 Path: /sitecore/Print Studio/Print Studio Projects/Legal/PXM on Demand/Books/P_Book
 DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: people/16x16/book_blue.png
 Languages:
 - Language: en
   Versions:

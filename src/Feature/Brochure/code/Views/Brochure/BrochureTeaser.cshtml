@@ -1,0 +1,39 @@
+﻿@using Sitecore.Feature.Brochure
+@using Sitecore.Foundation.Alerts
+@using Sitecore.Foundation.Alerts.Extensions
+@using Sitecore.Foundation.Dictionary.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Foundation.Theming.Extensions
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Data.Items.Item
+@{
+  if (!Model?.IsDerived(Templates.Brochure.ID) ?? true)
+  {
+    @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(Templates.Brochure.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model?.ID, RenderingContext.Current.Rendering.Item?.ID)
+    return;
+  }
+  var backgroundClass = RenderingContext.Current.Rendering.GetBackgroundClass();
+}
+
+
+<div class="thumbnail @(string.IsNullOrEmpty(backgroundClass) ? "" : "thumbnail-focus " + backgroundClass) m-b-1">
+  <header class="thumbnail-header">
+    <span class="label">
+      @Html.Sitecore().Dictionary("/Brochure/Brochure Teaser/Label", "Brochure")
+    </span>
+    <h3>
+      @Html.Sitecore().Field(Templates.Brochure.Fields.Title.ToString(), Model)
+    </h3>
+  </header>
+  <div>
+    <a href="@Url.Action("Print", "Brochure", new {brochure=Model.ID})">
+      @Html.Sitecore().ImageField(Templates.Brochure.Fields.Image, Model, mw: 500, cssClass: "img-responsive")
+    </a>
+  </div>
+  <div class="caption">
+    @Html.Sitecore().Field(Templates.Brochure.Fields.Description, Model)
+    <a href="@Url.Action("Print", "Brochure", new {brochure=Model.ID})" class="btn btn-default">
+      @Html.Sitecore().Dictionary("/Brochure/Brochure Teaser/Button", "Download")
+    </a>
+  </div>
+</div>

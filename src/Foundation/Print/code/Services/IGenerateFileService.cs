@@ -7,6 +7,6 @@
 
   public interface IGenerateFileService
   {
-    FileInfo GenerateFile(string projectPath, IEnumerable<ID> items, string fileName);
+    FileInfo GenerateFile(Item projectItem, IEnumerable<ID> items, string fileName);
   }
 }

@@ -66,6 +66,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Foundation.SitecoreExtensions.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.Foundation.Theming">
+      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Foundation.Theming.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
@@ -125,6 +128,7 @@
     <Content Include="Views\Brochure\BrochureMenu.cshtml" />
     <Content Include="Views\Brochure\_BrochureItems.cshtml" />
     <Content Include="Views\Brochure\BuildPDF.cshtml" />
+    <Content Include="Views\Brochure\BrochureTeaser.cshtml" />
     <None Include="Views\Web.config" />
     <None Include="Web.config">
       <SubType>Designer</SubType>
@@ -138,6 +142,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\BrochureController.cs" />
+    <Compile Include="Models\Brochure.cs" />
+    <Compile Include="Models\BrochureMenuViewModel.cs" />
     <Compile Include="Models\SessionBrochureItems.cs" />
     <Compile Include="Models\BrochureItem.cs" />
     <Compile Include="Models\IBrochureItems.cs" />
@@ -146,6 +152,7 @@
     <Compile Include="Repositories\BrochureItemsRepository.cs" />
     <Compile Include="Repositories\IBrochureItemsRepository.cs" />
     <Compile Include="Services\GenerateBrochureFileService.cs" />
+    <Compile Include="Templates.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

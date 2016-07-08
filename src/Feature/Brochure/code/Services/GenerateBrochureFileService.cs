@@ -1,34 +1,88 @@
 ﻿namespace Sitecore.Feature.Brochure.Services
 {
   using System;
+  using System.Collections.Generic;
   using System.IO;
   using System.Linq;
+  using Sitecore.Data;
+  using Sitecore.Data.Fields;
+  using Sitecore.Data.Items;
+  using Sitecore.Feature.Brochure.Models;
   using Sitecore.Feature.Brochure.Repositories;
   using Sitecore.Foundation.Print.Services;
+  using Sitecore.Foundation.SitecoreExtensions.Extensions;
+  using Sitecore.Resources.Media;
 
-  public class GenerateBrochureFileService
+  public class GenerateBrochureService
   {
-    public IBrochureItemsRepository BrochureItemsRepository { get; }
     public GenerateFileService GenerateFileService { get; set; }
 
-    public GenerateBrochureFileService() : this(new BrochureItemsRepository(), new GenerateFileService())
+    public GenerateBrochureService() : this(new GenerateFileService())
     {
       
     }
 
-    private GenerateBrochureFileService(IBrochureItemsRepository brochureItemsRepository, GenerateFileService generateFileService)
+    private GenerateBrochureService([NotNull] GenerateFileService generateFileService)
     {
-      BrochureItemsRepository = brochureItemsRepository;
+      if (generateFileService == null)
+        throw new ArgumentNullException(nameof(generateFileService));
       GenerateFileService = generateFileService;
     }
 
-    public FileInfo GenerateBrochureFile()
+    public Brochure GenerateBrochure([NotNull] Item brochureItem, [NotNull] IEnumerable<ID> items)
     {
-      var pxmProjectPath = "/sitecore/Print Studio/Print Studio Projects/Legal/PXM on Demand";
-      var itemIDs = BrochureItemsRepository.Get().Items.Select(f => f.ItemID);
-      var fileName = $"CR_Practise_Areas_{DateTime.Now.Ticks}";
+      if (brochureItem == null)
+        throw new ArgumentNullException(nameof(brochureItem));
+      if (items == null)
+        throw new ArgumentNullException(nameof(items));
 
-      return GenerateFileService.GenerateFile(pxmProjectPath, itemIDs, fileName);
+      var fileName = GenerateValidFileName(brochureItem[Templates.Brochure.Fields.Title]) + $"_{DateTime.Now.Ticks}";
+
+      var brochure = GetBrochureFromPrintStudio(brochureItem, fileName, items);
+      return brochure ?? GetBrochureFromMediaLibrary(brochureItem, fileName);
+    }
+
+    private Brochure GetBrochureFromMediaLibrary(Item brochureItem, string fileName)
+    {
+      var mediaItem = brochureItem.TargetItem(Templates.Brochure.Fields.StaticDownload);
+      if (mediaItem == null)
+        return null;
+      var media = MediaManager.GetMedia(mediaItem);
+      return new Brochure()
+             {
+               Content = media.GetStream().Stream,
+               MimeType = media.MimeType,
+               Filename = fileName
+             };
+    }
+
+    private Brochure GetBrochureFromPrintStudio([NotNull] Item brochureItem, [NotNull] string fileName, IEnumerable<ID> items)
+    {
+      if (brochureItem == null)
+        throw new ArgumentNullException(nameof(brochureItem));
+      if (fileName == null)
+        throw new ArgumentNullException(nameof(fileName));
+      var projectItem = ((ReferenceField)brochureItem.Fields[Templates.Brochure.Fields.PrintStudioProject]).TargetItem;
+      if (projectItem == null)
+        return null;
+      var fileInfo = GenerateFileService.GenerateFile(projectItem, items, fileName);
+      if (fileInfo == null)
+        return null;
+      return new Brochure()
+             {
+               Content = new FileStream(fileInfo.FullName, FileMode.Open, FileAccess.Read),
+               MimeType = "application/pdf",
+               Filename = fileName + ".pdf"
+             };
+    }
+
+    private string GenerateValidFileName(string fileName)
+    {
+      foreach (var c in System.IO.Path.GetInvalidFileNameChars())
+      {
+        fileName = fileName.Replace(c, '_');
+      }
+      return fileName;
     }
   }
 }

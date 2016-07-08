@@ -9,6 +9,17 @@ namespace Sitecore.Foundation.Print
 
   public struct Templates
   {
+    public struct P_Project
+    {
+      public static readonly ID ID = new ID("{E4ECDCD7-AC0C-42B7-937D-31783F64F02B}");
+
+      public struct Fields
+      {
+        public static readonly ID Name = new ID("{0718E406-0124-439B-8E32-BA2C56E88B35}");
+        public static readonly ID Description = new ID("{9B1C53E2-1C0E-495F-9A4B-1F8F624E027E}");
+      }
+    }
+
     public struct ParagraphStyle
     {
       public static readonly ID ID = new ID("{013A39C1-6F18-445C-9E5F-70ED2D4646D7}");
