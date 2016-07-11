@@ -21,7 +21,7 @@ Languages:
         {
           "Overview": {
             "Visits": {
-              "NumberOfUniqueVisitors": "2000",
+              "NumberOfUniqueVisitors": "3000",
               "NumberOfVisitsGenerated": "9900",
               "BounceRate": "7",
               "PercentageIdentifiedVisitors": "2",
@@ -29,9 +29,7 @@ Languages:
               "TimeSpentPerPageAvg": "00:30"
             },
             "TrafficDistribution": {
-              "system_layouts": "0",
               "legal": "95",
-              "demo": "0",
               "habitat": "11"
             },
             "DailyDistribution": {
@@ -59,8 +57,8 @@ Languages:
             },
             "Dates": {
               "AnnualIncreaseInTraffic": "50",
-              "StartDate": "02/03/2016",
-              "EndDate": "02/06/2016"
+              "StartDate": "11/04/2016",
+              "EndDate": "11/07/2016"
             }
           },
           "Locations": {
@@ -88,8 +86,8 @@ Languages:
             "021": "91"
           },
           "Channels": {
-            "Percentage": "20",
-            "{ADA3552B-264F-4B5F-BDEF-73463AF33290}": "4",
+            "Percentage": "100",
+            "{ADA3552B-264F-4B5F-BDEF-73463AF33290}": "0",
             "{DF9900DE-61DD-47BF-9628-058E78EF05C6}": "0",
             "{A709D712-D835-4168-ACDF-D427BC138DA7}": "0",
             "{15C3060B-CADC-47CA-B1FB-6931A43D48A2}": "0",
@@ -103,13 +101,13 @@ Languages:
             "{61288021-478A-4802-8DF7-617C6B8D8D21}": "0",
             "{4F4E0E1F-B3EE-4175-950D-B353F5764FDE}": "0",
             "{35E92942-82FF-4057-AB2B-4FE41FF4366C}": "0",
-            "{B418E4F2-1013-4B42-A053-B6D4DCA988BF}": "50",
+            "{B418E4F2-1013-4B42-A053-B6D4DCA988BF}": "71",
             "{030BDC09-7720-4EC2-B778-EB0BC7FD13BC}": "0",
             "{5783355A-F9E4-476E-BA9D-9620E3E452EB}": "0",
             "{829FAEB1-1393-44DA-B04A-B5C01986610A}": "0",
             "{A43E7EB6-8610-4DF7-BD6B-FEE899743D30}": "0",
             "{4A0B6C13-EFC8-4A00-8A6A-B709A89B1E11}": "6",
-            "{DDAFB85B-1511-48B8-9374-2A8A1F371645}": "0",
+            "{DDAFB85B-1511-48B8-9374-2A8A1F371645}": "5",
             "{52B75873-4CE0-4E98-B63A-B535739E6180}": "0",
             "{A03FFC6F-6851-42BA-A5EC-F1A73CFF0B3A}": "0",
             "{C8D1E13E-F697-417C-A53D-E3C3130A05FD}": "0",
