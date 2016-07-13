@@ -1,0 +1,33 @@
+﻿---
+ID: "e302c1dd-ba50-4811-8d8f-d9ba3238b88a"
+Parent: "9c800308-7298-4064-b05e-c38a43bc38d0"
+Template: "6bfa47ba-f73c-48db-9170-c0cc94179ec7"
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Copy of PXM on Demand/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Back Cover
+DB: master
+SharedFields:
+- ID: "19f9b0a4-6259-4136-b2a3-668c77f0df99"
+  Hint: Number
+  Value: 4
+- ID: "4acf4a9f-e50e-47a3-abf6-02871c2f1e0e"
+  Hint: MasterBase
+  Value: BackCover
+- ID: "8715924c-ec10-4d60-98d8-048a92b21fda"
+  Hint: MasterPrefix
+  Value: C
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160615T084554Z
+    - ID: "55096646-7245-404d-9dde-c71c081e9fac"
+      Hint: Name
+      Value: Back Cover
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

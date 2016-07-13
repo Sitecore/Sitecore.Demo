@@ -1,13 +1,13 @@
 ﻿---
-ID: "cc347b96-6bca-4a96-bfe6-0fc1a819dd68"
-Parent: "ae724e20-2918-442e-ae9e-5696b2bfbc5f"
+ID: "42d2cdf6-aa15-42a6-9ad0-b4f205f8e719"
+Parent: "9c800308-7298-4064-b05e-c38a43bc38d0"
 Template: "8c36ec32-f547-4f6e-b529-863f436d38ea"
-Path: /sitecore/Print Studio/Print Studio Projects/Legal/PXM on Demand/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Practise Page Repeater
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Copy of PXM on Demand/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Practise Page Repeater
 DB: master
 SharedFields:
 - ID: "4f3ecf8f-077e-487b-adaa-15b9554d9a62"
   Hint: Parameters
-  Value: ChildDataKeyName=items
+  Value: ChildDataKeyName=practiseAreas
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 250
@@ -24,4 +24,4 @@ Languages:
       Value: "{56DFE58F-6C17-4FD6-84C4-F82512F9F648}"
     - ID: "df94a83f-2b11-4dc6-9737-dfcb4d6facef"
       Hint: Data Key
-      Value: items
+      Value: practiseAreas

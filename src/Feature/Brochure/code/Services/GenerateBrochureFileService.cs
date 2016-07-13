@@ -12,7 +12,7 @@
   using Sitecore.Foundation.Print.Services;
   using Sitecore.Foundation.SitecoreExtensions.Extensions;
   using Sitecore.Resources.Media;
-
+  using PrintStudio.PublishingEngine.Helpers;
   public class GenerateBrochureService
   {
     public GenerateFileService GenerateFileService { get; set; }
@@ -37,6 +37,8 @@
         throw new ArgumentNullException(nameof(items));
 
       var fileName = GenerateValidFileName(brochureItem[Templates.Brochure.Fields.Title]) + $"_{DateTime.Now.Ticks}";
+      //var fileName = (brochureItem[Templates.Brochure.Fields.Title]) + $"_{DateTime.Now.Ticks}";
+
 
       var brochure = GetBrochureFromPrintStudio(brochureItem, fileName, items);
       return brochure ?? GetBrochureFromMediaLibrary(brochureItem, fileName);
@@ -66,6 +68,7 @@
       if (projectItem == null)
         return null;
       var fileInfo = GenerateFileService.GenerateFile(projectItem, items, fileName);
+      Logger.Info("File Info in generateFS:" + fileName);
       if (fileInfo == null)
         return null;
       return new Brochure()

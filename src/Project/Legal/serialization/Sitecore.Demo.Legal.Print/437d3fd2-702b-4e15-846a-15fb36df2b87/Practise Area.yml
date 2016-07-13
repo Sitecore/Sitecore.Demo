@@ -1,8 +1,8 @@
 ﻿---
-ID: "48d923b3-065a-4672-8821-5a087f877e13"
-Parent: "f75e2f48-ea5b-437a-999c-83ac28768724"
+ID: "8804f408-32c4-486e-a3e5-f1b512063f91"
+Parent: "437d3fd2-702b-4e15-846a-15fb36df2b87"
 Template: "e7e439e8-c699-4608-ac77-cc6273702e54"
-Path: /sitecore/Print Studio/Print Studio Projects/Legal/PXM on Demand/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Practise Page Repeater/Practise Page/Practise Area
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Copy of PXM on Demand/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Practise Page Repeater/Practise Page/Practise Area
 DB: master
 SharedFields:
 - ID: "6896e84a-3269-4833-9e2e-47015780bbf3"
@@ -10,7 +10,7 @@ SharedFields:
   Value: "{56DFE58F-6C17-4FD6-84C4-F82512F9F648}"
 - ID: "6a937e7b-992e-4b75-a822-eda1cd0445e3"
   Hint: Data Key
-  Value: items
+  Value: practiseArea
 Languages:
 - Language: en
   Versions:
