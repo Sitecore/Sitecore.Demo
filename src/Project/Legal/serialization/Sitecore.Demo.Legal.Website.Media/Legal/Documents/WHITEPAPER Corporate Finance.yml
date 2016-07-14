@@ -26,6 +26,9 @@ SharedFields:
       <event
         id="{A4C5726D-A54B-49C2-8A7A-4B671AC343DD}"
         name="Corporate Finance Download" />
+      <event
+        id="{FA72E131-3CFD-481C-8E15-04496E9586DC}"
+        name="Download" />
     </tracking>
 - ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
   Hint: Extension

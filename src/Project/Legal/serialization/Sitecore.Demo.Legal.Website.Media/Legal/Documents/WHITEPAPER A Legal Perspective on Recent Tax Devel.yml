@@ -26,6 +26,9 @@ SharedFields:
       <event
         id="{2036D3C2-9E84-44D2-A9F2-264108E6236D}"
         name="Download White Paper Legal Webinar" />
+      <event
+        id="{FA72E131-3CFD-481C-8E15-04496E9586DC}"
+        name="Download" />
     </tracking>
 - ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
   Hint: Extension
