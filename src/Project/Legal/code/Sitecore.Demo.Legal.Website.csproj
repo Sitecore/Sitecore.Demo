@@ -103,6 +103,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Project\Sitecore.Demo.Legal.ExmSetting.config" />
     <None Include="Views\web.config" />
     <None Include="packages.config" />
     <Content Include="App_Config\Include\Project\Sitecore.Demo.Legal.Website.config" />
@@ -157,7 +158,7 @@
     <ItemGroup>
       <Transforms Include="*.transform" />
     </ItemGroup>
-    <TransformXml Source="$(WebConfigToTransform)" Transform="@(Transforms)" Destination="$(WebConfigToTransform)" Condition="Exists(@(Transforms))"/>
+    <TransformXml Source="$(WebConfigToTransform)" Transform="@(Transforms)" Destination="$(WebConfigToTransform)" Condition="Exists(@(Transforms))" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
