@@ -121,6 +121,8 @@
     <Compile Include="Renderers\ParagraphStyleRenderer.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
+    <Compile Include="Renderers\XmlLookupImage.cs" />
+    <Compile Include="Renderers\XmlLookupTextframe.cs" />
     <Compile Include="Renderers\XMLRepeaterRenderer.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>

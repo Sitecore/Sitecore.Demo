@@ -1,0 +1,17 @@
+﻿---
+ID: "e68275f5-bc02-4417-8a76-413d94e6bdc5"
+Parent: "e89120fc-7229-4ff7-b653-f6d54daa6359"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/Print/InlineElement/Attributes
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160714T122148Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

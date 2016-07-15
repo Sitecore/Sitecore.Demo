@@ -1,0 +1,18 @@
+﻿---
+ID: "3c19f15c-5530-4885-b17a-834fcdae5fea"
+Parent: "4790e71f-4e14-4613-8e53-d0a1ed505a07"
+Template: "e89120fc-7229-4ff7-b653-f6d54daa6359"
+Path: /sitecore/Print Studio/Libraries/Renderers library/Custom PXM Renderers/Foundation/Print/Inline Element Renderer
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160714T125045Z

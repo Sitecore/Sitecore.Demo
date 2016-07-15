@@ -1,16 +1,16 @@
 ﻿---
-ID: "46dec53d-98d5-47a2-bb26-0eb6278006b9"
+ID: "44fabbfa-2cee-4593-8798-fbcd5ff9e23f"
 Parent: "4790e71f-4e14-4613-8e53-d0a1ed505a07"
 Template: "5a802afb-006d-457c-955a-d37de75e390b"
-Path: /sitecore/Print Studio/Libraries/Renderers library/Custom PXM Renderers/Foundation/Print/Paragraph Style Renderer
+Path: /sitecore/Print Studio/Libraries/Renderers library/Custom PXM Renderers/Foundation/Print/XML Lookup Image Renderer
 DB: master
 SharedFields:
 - ID: "26b4fc70-7400-455c-80d4-ffd115d7e3c4"
   Hint: Type
-  Value: Sitecore.Foundation.Print.Renderers.ParagraphStyleRenderer, Sitecore.Foundation.Print
+  Value: Sitecore.Foundation.Print.Renderers.XmlLookupImage, Sitecore.Foundation.Print
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 500
 Languages:
 - Language: en
   Versions:
@@ -18,7 +18,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160615T082742Z
+      Value: 20160714T125741Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin

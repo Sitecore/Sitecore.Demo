@@ -12,7 +12,7 @@
   using Sitecore.Foundation.Print.Services;
   using Sitecore.Foundation.SitecoreExtensions.Extensions;
   using Sitecore.Resources.Media;
-  using PrintStudio.PublishingEngine.Helpers;
+
   public class GenerateBrochureService
   {
     public GenerateFileService GenerateFileService { get; set; }
@@ -68,7 +68,6 @@
       if (projectItem == null)
         return null;
       var fileInfo = GenerateFileService.GenerateFile(projectItem, items, fileName);
-      Logger.Info("File Info in generateFS:" + fileName);
       if (fileInfo == null)
         return null;
       return new Brochure()

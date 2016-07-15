@@ -8,6 +8,9 @@ SharedFields:
 - ID: "26b4fc70-7400-455c-80d4-ffd115d7e3c4"
   Hint: Type
   Value: Sitecore.Foundation.Print.Renderers.XMLRepeaterRenderer, Sitecore.Foundation.Print
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
 Languages:
 - Language: en
   Versions:
