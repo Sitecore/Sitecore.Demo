@@ -65,8 +65,20 @@
     <Reference Include="Sitecore.Mvc">
       <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.PrintStudio.Configuration">
+      <HintPath>..\..\..\..\lib\Sitecore\PXMAssemblies\Sitecore.PrintStudio.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.PrintStudio.DashBoardClient">
+      <HintPath>..\..\..\..\lib\Sitecore\PXMAssemblies\Sitecore.PrintStudio.DashBoardClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.PrintStudio.InDesign.Soap">
+      <HintPath>..\..\..\..\lib\Sitecore\PXMAssemblies\Sitecore.PrintStudio.InDesign.Soap.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.PrintStudio.InDesignConnectorService">
+      <HintPath>..\..\..\..\lib\Sitecore\PXMAssemblies\Sitecore.PrintStudio.InDesignConnectorService.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.PrintStudio.PublishingEngine">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.PrintStudio.PublishingEngine.dll</HintPath>
+      <HintPath>..\..\..\..\lib\Sitecore\PXMAssemblies\Sitecore.PrintStudio.PublishingEngine.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
