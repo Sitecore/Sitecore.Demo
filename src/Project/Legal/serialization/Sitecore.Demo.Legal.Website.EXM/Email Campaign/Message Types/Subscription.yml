@@ -1,0 +1,18 @@
+﻿---
+ID: "9793357a-a4a6-4a8d-871b-c60c78682afd"
+Parent: "5d23dbe6-cacc-401e-a139-4d40d6bcc254"
+Template: "60e4a220-b639-46e8-93ef-8466990256aa"
+Path: /sitecore/content/Email Campaign/Message Types/Subscription
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Subscription Message
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160714T112552Z
