@@ -7,12 +7,11 @@
   using Sitecore.Data;
   using Sitecore.FakeDb;
   using Sitecore.Feature.Brochure.Models;
-  using Sitecore.Foundation.Testing.Attributes;
   using Xunit;
 
   public class SessionBrochureItemsTests
   {
-    [Theory, AutoDbData]
+    [Theory]
     public void SessionBrochureItems_EmptySession_ItemsNotNullAndEmpty(HttpContext context)
     {
       var brochureItems = new SessionBrochureItems(context);
@@ -20,7 +19,7 @@
       brochureItems.Items.Should().BeEmpty();
     }
 
-    [Theory, AutoDbData]
+    [Theory]
     public void SessionBrochureItems_InitialisedSession_ItemsReturnsListOfBrochureItems(HttpContext context, List<BrochureItem> itemList)
     {
       context.Session.Add(SessionBrochureItems.SessionKey, itemList);
@@ -29,7 +28,7 @@
       brochureItems.Items.ShouldBeEquivalentTo(itemList);
     }
 
-    [Theory, AutoDbData]
+    [Theory]
     public void Add_ItemAlreadyExists_ReturnsFalse(Db database, HttpContext context, List<BrochureItem> itemList)
     {
       database.Add(new DbItem("existing item", itemList[0].ItemID));
@@ -40,7 +39,7 @@
       brochureItems.Add(item).Should().BeFalse();
     }
 
-    [Theory, AutoDbData]
+    [Theory]
     public void Add_ItemDoesNotExist_ReturnsTrueAndItemsContainItem(Db database, HttpContext context, List<BrochureItem> itemList)
     {
       var itemID = ID.NewID;
@@ -53,7 +52,7 @@
       brochureItems.Items.Should().Contain(f => f.ItemID == itemID);
     }
 
-    [Theory, AutoDbData]
+    [Theory]
     public void Remove_ItemNotInItems_ReturnsFalse(Db database, HttpContext context, List<BrochureItem> itemList)
     {
       var itemID = ID.NewID;
@@ -65,7 +64,7 @@
       brochureItems.Remove(item).Should().BeFalse();
     }
 
-    [Theory, AutoDbData]
+    [Theory]
     public void Remove_ItemInItems_ReturnsTrueAndItemsNotContainItem(Db database, HttpContext context, List<BrochureItem> itemList)
     {
       var itemID = itemList[0].ItemID;
@@ -78,14 +77,14 @@
       brochureItems.Items.Should().NotContain(f => f.ItemID == itemID);
     }
 
-    [Theory, AutoDbData]
+    [Theory]
     public void Remove_ItemIsNull_ThrowsException(HttpContext context)
     {
       var brochureItems = new SessionBrochureItems(context);
       Assert.Throws<ArgumentNullException>(() => brochureItems.Remove(null));
     }
 
-    [Theory, AutoDbData]
+    [Theory]
     public void Add_ItemIsNull_ThrowsException(HttpContext context)
     {
       var brochureItems = new SessionBrochureItems(context);

@@ -89,9 +89,6 @@
       <HintPath>..\..\..\..\packages\Sitecore.FakeDb.NSubstitute.1.1.0\lib\net45\Sitecore.FakeDb.NSubstitute.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Sitecore.Foundation.Testing">
-      <HintPath>..\..\..\..\..\Habitat\src\Foundation\Testing\tests\bin\Debug\Sitecore.Foundation.Testing.dll</HintPath>
-    </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Kernel.dll</HintPath>
     </Reference>
