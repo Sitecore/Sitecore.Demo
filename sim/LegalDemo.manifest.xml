@@ -1,0 +1,11 @@
+<manifest version="1.4">
+  <standalone>
+    <name>Legal Demo</name>
+    <shortName>legal</shortName>
+	<limitations>
+      <framework>
+        <supportedVersion attr="1">v4.0</supportedVersion>        
+      </framework>
+    </limitations>
+  </standalone>
+</manifest>
