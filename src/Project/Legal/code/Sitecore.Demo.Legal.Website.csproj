@@ -53,11 +53,13 @@
       <HintPath>..\..\..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Sitecore.Foundation.Assets">
-      <HintPath>..\..\..\..\..\Habitat\src\Foundation\Assets\code\bin\Debug\Sitecore.Foundation.Assets.dll</HintPath>
+    <Reference Include="Sitecore.Foundation.Assets, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Foundation.Assets.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Foundation.SitecoreExtensions">
-      <HintPath>..\..\..\..\..\Habitat\src\Foundation\SitecoreExtensions\code\bin\Debug\Sitecore.Foundation.SitecoreExtensions.dll</HintPath>
+    <Reference Include="Sitecore.Foundation.SitecoreExtensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Foundation.SitecoreExtensions.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Kernel, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
