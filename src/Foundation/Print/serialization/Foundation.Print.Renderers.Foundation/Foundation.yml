@@ -1,0 +1,21 @@
+﻿---
+ID: "33e0f3d2-01b2-4ea1-8cf7-fd19626c77d0"
+Parent: "d3a4224e-3e74-424b-a80a-f8a7d914b3d2"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/Print Studio/Libraries/Renderers library/Foundation
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/folder_gear.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160706T002518Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

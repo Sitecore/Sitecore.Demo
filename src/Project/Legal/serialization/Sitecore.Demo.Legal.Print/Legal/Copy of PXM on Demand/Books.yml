@@ -1,0 +1,17 @@
+﻿---
+ID: "6f3f6cde-ce8a-4a0c-b2b4-9c2a5fa330a8"
+Parent: "7ac08152-b594-4a95-8f78-8917c98c497d"
+Template: "485348e1-74a2-4e9f-92bb-ff96d262b73d"
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Copy of PXM on Demand/Books
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160615T084436Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

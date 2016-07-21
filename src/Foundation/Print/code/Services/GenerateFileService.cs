@@ -8,7 +8,7 @@
   using Sitecore.Data.Items;
   using Sitecore.PrintStudio.PublishingEngine;
   using Sitecore.PrintStudio.PublishingEngine.Helpers;
-
+  using Configuration;
   public class GenerateFileService : IGenerateFileService
   {
     public FileInfo GenerateFile([NotNull] Item projectItem, [NotNull] IEnumerable<ID> items, [NotNull] string fileName)
@@ -20,7 +20,7 @@
       if (fileName == null)
         throw new ArgumentNullException(nameof(fileName));
 
-      Logger.Info("File name at creation point:" + fileName + Environment.NewLine);
+      Logger.Info("GenerateFileService File name at creation point:" + fileName + Environment.NewLine);
       var printOptions = new PrintOptions {
                            PrintExportType = PrintExportType.Pdf,
                            ResultFileName = fileName,
@@ -29,10 +29,21 @@
 
       var itemsIDs = string.Join("|", items);
       printOptions.Parameters.Add("items", itemsIDs);
+           
 
-      var printManager = new PrintManager(Context.Database, Context.Language);
+      //var printManager = new PrintManager(Context.Database, Context.Language);
+      PrintManager printManager = new PrintManager(Context.Database, Context.Language);
+
+
+      Logger.Info("We got a print manager: " + printManager.ToString());
+
       var result = printManager.Print(projectItem.ID.ToString(), printOptions);
-      if (!File.Exists(result))
+
+      Logger.Info("We got a project item: " + projectItem.ID.ToString());
+
+      Logger.Info("Result:" + result.ToString());
+
+   if (!File.Exists(result))
       {
         throw new InvalidOperationException($"File generation failed, result: {result}");
       }
