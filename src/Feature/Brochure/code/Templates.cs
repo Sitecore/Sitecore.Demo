@@ -10,6 +10,7 @@
 
       public struct Fields
       {
+        public static readonly ID Label = new ID("{E4ECC89E-54E8-45FC-8CAB-30EACC42C214}");
         public static readonly ID Title = new ID("{D643FE17-ED04-455A-8C3B-18BABF0869C5}");
         public static readonly ID Description = new ID("{3A9A48BA-DE47-4DE2-A8D7-25D44780D568}");
         public static readonly ID Image = new ID("{ED5A056D-E0B5-4E12-BCA8-1CDCF92080F8}");

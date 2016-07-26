@@ -16,6 +16,7 @@
   using Sitecore.Foundation.SitecoreExtensions.Attributes;
   using Sitecore.Foundation.SitecoreExtensions.Extensions;
   using Sitecore.Mvc.Presentation;
+  using Sitecore.Reflection;
 
   public class BrochureController : Controller
   {
@@ -39,7 +40,7 @@
 
       var allowInBrochure = addToBrochureItem.IsDerived(Templates.AllowInBrochure.ID) && addToBrochureItem.Fields[Templates.AllowInBrochure.Fields.AllowInBrochure].IsChecked();
 
-      var viewModel = new BrochureMenuViewModel()
+      var viewModel = new BrochureMenuViewModel
                       {
                         Items = brochureItemsRepository.Get(),
                         AllowCurrentItemInBrochure = allowInBrochure,
@@ -48,14 +49,6 @@
                       };
 
       return View(viewModel);
-    }
-
-    public ActionResult BrochureTeaser()
-    {
-      var brochureItem = RenderingContext.Current.Rendering.Item;
-      if (brochureItem == null || !brochureItem.IsDerived(Templates.Brochure.ID))
-        return new EmptyResult();
-      return View(brochureItem);
     }
 
     public ActionResult Print(Guid brochure)
@@ -69,11 +62,28 @@
         return this.InfoMessage(InfoMessage.Error(DictionaryPhraseRepository.Current.Get("/Brochure/Print/File Generation Failed", "The personalised file could not be generated. Please try again.")));
       return File(generatedBrochure.Content, generatedBrochure.MimeType, generatedBrochure.Filename);
     }
+    public ActionResult PrintPage(Guid brochure, Guid page)
+    {
+      var brochureItem = Context.Database.GetItem(new ID(brochure));
+
+      var pageItemId = new ID(page);
+      var item = Context.Database.GetItem(pageItemId);
+      if (brochureItem == null || item == null)
+        return this.InfoMessage(InfoMessage.Error(DictionaryPhraseRepository.Current.Get("/Brochure/Print/No Brochure Specified", "No brochure was specified.")));
+
+      var items = new[] { pageItemId };
+      var generatedBrochure = new GenerateBrochureService().GenerateBrochure(brochureItem, items);
+      if (generatedBrochure == null)
+        return this.InfoMessage(InfoMessage.Error(DictionaryPhraseRepository.Current.Get("/Brochure/Print/File Generation Failed", "The personalised file could not be generated. Please try again.")));
+
+      return File(generatedBrochure.Content, generatedBrochure.MimeType, generatedBrochure.Filename);
+    }
+
 
     private IEnumerable<ID> GetBrochureItemIDs()
     {
       var brochureItems = brochureItemsRepository.Get();
-      return brochureItems.Items.Any() ? brochureItems.Items.Select(i => i.ItemID) : new []{RenderingContext.Current.ContextItem.ID};
+      return brochureItems.Items.Any() ? brochureItems.Items.Select(i => i.ItemID) : null;
     }
 
 

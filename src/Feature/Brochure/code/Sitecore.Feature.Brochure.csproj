@@ -127,7 +127,6 @@
     <Content Include="Scripts\Brochure\Brochure.js" />
     <Content Include="Views\Brochure\BrochureMenu.cshtml" />
     <Content Include="Views\Brochure\_BrochureItems.cshtml" />
-    <Content Include="Views\Brochure\BuildPDF.cshtml" />
     <Content Include="Views\Brochure\BrochureTeaser.cshtml" />
     <None Include="Views\Web.config" />
     <None Include="Web.config">

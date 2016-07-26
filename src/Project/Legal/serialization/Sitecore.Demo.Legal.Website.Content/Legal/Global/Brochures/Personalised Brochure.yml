@@ -18,7 +18,7 @@ Languages:
     - ID: "3a9a48ba-de47-4de2-a8d7-25d44780d568"
       Hint: Description
       Value: |
-        <p>Download&nbsp;an on-demand brochure with the topic areas you select.</p>
+        <p>Download an on-demand brochure with the topic areas you select.</p>
         <p>Please add the practise areas you are interested in.</p>
     - ID: "681376e7-326f-471d-b83e-82e113ea1cdb"
       Hint: Static Download
@@ -26,6 +26,9 @@ Languages:
     - ID: "d643fe17-ed04-455a-8c3b-18babf0869c5"
       Hint: Title
       Value: Personalised Brochure
+    - ID: "e4ecc89e-54e8-45fc-8cab-30eacc42c214"
+      Hint: Label
+      Value: Brochure
     - ID: "ed5a056d-e0b5-4e12-bca8-1cdcf92080f8"
       Hint: Image
       Value: "<image mediaid=\"{A16A8555-91E2-4328-8BE9-3EA43FE9BA74}\" />"

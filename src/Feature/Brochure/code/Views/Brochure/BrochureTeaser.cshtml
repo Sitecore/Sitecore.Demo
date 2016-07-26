@@ -1,39 +1,51 @@
-﻿@using Sitecore.Feature.Brochure
+﻿@using System.Diagnostics
+@using Sitecore.Data.Fields
+@using Sitecore.Feature.Brochure
 @using Sitecore.Foundation.Alerts
 @using Sitecore.Foundation.Alerts.Extensions
 @using Sitecore.Foundation.Dictionary.Extensions
 @using Sitecore.Foundation.SitecoreExtensions.Extensions
 @using Sitecore.Foundation.Theming.Extensions
 @using Sitecore.Mvc.Presentation
-@model Sitecore.Data.Items.Item
+@model Sitecore.Mvc.Presentation.RenderingModel
+
 @{
-  if (!Model?.IsDerived(Templates.Brochure.ID) ?? true)
+  Debug.Assert(Model != null, "Model != null");
+
+  if (!Model?.Item?.IsDerived(Templates.Brochure.ID) ?? true)
   {
-    @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(Templates.Brochure.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model?.ID, RenderingContext.Current.Rendering.Item?.ID)
+    @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(Templates.Brochure.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model?.Item?.ID, RenderingContext.Current.Rendering.Item?.ID)
     return;
   }
-  var backgroundClass = RenderingContext.Current.Rendering.GetBackgroundClass();
+
+  var fixedHeight = Model.Rendering.IsFixedHeight();
+  var height = Model.Rendering.GetHeight();
+  var style = $"background-image: {Model.Item.ImageUrl(Templates.Brochure.Fields.Image).ToCssUrlValue()}";
+  if (fixedHeight)
+  {
+    if (height == 0)
+    {
+      int.TryParse(((ImageField)Model?.Item?.Fields[Templates.Brochure.Fields.Image]).Height, out height);
+    }
+    style += $"; height:{height}px;";
+  }
+  var isMedia = Model.Item.FieldHasValue(Templates.Brochure.Fields.Image);
 }
 
 
-<div class="thumbnail @(string.IsNullOrEmpty(backgroundClass) ? "" : "thumbnail-focus " + backgroundClass) m-b-1">
-  <header class="thumbnail-header">
-    <span class="label">
-      @Html.Sitecore().Dictionary("/Brochure/Brochure Teaser/Label", "Brochure")
-    </span>
-    <h3>
-      @Html.Sitecore().Field(Templates.Brochure.Fields.Title.ToString(), Model)
-    </h3>
-  </header>
-  <div>
-    <a href="@Url.Action("Print", "Brochure", new {brochure=Model.ID})">
-      @Html.Sitecore().ImageField(Templates.Brochure.Fields.Image, Model, mw: 500, cssClass: "img-responsive")
-    </a>
-  </div>
+<div class="jumbotron text-center @(isMedia ? "bg-media" : Model.Rendering.GetBackgroundClass())" style="@style">
+  <span class="label">
+    @Html.Sitecore().Field(Templates.Brochure.Fields.Label.ToString(), Model)
+  </span>
+  <h2>
+    @Html.Sitecore().Field(Templates.Brochure.Fields.Title.ToString(), Model)
+  </h2>
+  <p class="">
+    @Html.Sitecore().Field(Templates.Brochure.Fields.Description.ToString(), Model)
+  </p>
   <div class="caption">
-    @Html.Sitecore().Field(Templates.Brochure.Fields.Description, Model)
-    <a href="@Url.Action("Print", "Brochure", new {brochure=Model.ID})" class="btn btn-default">
-      @Html.Sitecore().Dictionary("/Brochure/Brochure Teaser/Button", "Download")
+    <a href="@Url.Action("PrintPage", "Brochure", new {brochure=Model?.Item?.ID, page=Model?.PageItem?.ID})" _target="blank" class="btn btn-primary btn-lg">
+      @Html.Sitecore().Dictionary("/Brochure/Brochure Teaser/Button", "Download Now")
     </a>
   </div>
 </div>
