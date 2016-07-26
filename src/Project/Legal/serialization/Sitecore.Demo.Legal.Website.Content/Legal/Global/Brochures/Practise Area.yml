@@ -18,6 +18,9 @@ Languages:
     - ID: "3a9a48ba-de47-4de2-a8d7-25d44780d568"
       Hint: Description
       Value: Get a detailed brochure for this practise area.
+    - ID: "681376e7-326f-471d-b83e-82e113ea1cdb"
+      Hint: Static Download
+      Value: "<file mediaid=\"{65B4B9D9-14D9-4338-A495-7D217F41FEC6}\" src=\"-/media/65B4B9D914D94338A4957D217F41FEC6.ashx\" />"
     - ID: "d643fe17-ed04-455a-8c3b-18babf0869c5"
       Hint: Title
       Value: Learn More

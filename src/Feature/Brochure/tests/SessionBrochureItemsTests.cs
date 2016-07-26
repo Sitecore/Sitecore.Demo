@@ -7,10 +7,12 @@
   using Sitecore.Data;
   using Sitecore.FakeDb;
   using Sitecore.Feature.Brochure.Models;
+  using Sitecore.Foundation.Testing.Attributes;
   using Xunit;
 
   public class SessionBrochureItemsTests
   {
+    [AutoDbData]
     [Theory]
     public void SessionBrochureItems_EmptySession_ItemsNotNullAndEmpty(HttpContext context)
     {
@@ -19,6 +21,7 @@
       brochureItems.Items.Should().BeEmpty();
     }
 
+    [AutoDbData]
     [Theory]
     public void SessionBrochureItems_InitialisedSession_ItemsReturnsListOfBrochureItems(HttpContext context, List<BrochureItem> itemList)
     {
@@ -28,6 +31,7 @@
       brochureItems.Items.ShouldBeEquivalentTo(itemList);
     }
 
+    [AutoDbData]
     [Theory]
     public void Add_ItemAlreadyExists_ReturnsFalse(Db database, HttpContext context, List<BrochureItem> itemList)
     {
@@ -39,6 +43,7 @@
       brochureItems.Add(item).Should().BeFalse();
     }
 
+    [AutoDbData]
     [Theory]
     public void Add_ItemDoesNotExist_ReturnsTrueAndItemsContainItem(Db database, HttpContext context, List<BrochureItem> itemList)
     {
@@ -52,6 +57,7 @@
       brochureItems.Items.Should().Contain(f => f.ItemID == itemID);
     }
 
+    [AutoDbData]
     [Theory]
     public void Remove_ItemNotInItems_ReturnsFalse(Db database, HttpContext context, List<BrochureItem> itemList)
     {
@@ -64,6 +70,7 @@
       brochureItems.Remove(item).Should().BeFalse();
     }
 
+    [AutoDbData]
     [Theory]
     public void Remove_ItemInItems_ReturnsTrueAndItemsNotContainItem(Db database, HttpContext context, List<BrochureItem> itemList)
     {
@@ -77,6 +84,7 @@
       brochureItems.Items.Should().NotContain(f => f.ItemID == itemID);
     }
 
+    [AutoDbData]
     [Theory]
     public void Remove_ItemIsNull_ThrowsException(HttpContext context)
     {
@@ -84,6 +92,7 @@
       Assert.Throws<ArgumentNullException>(() => brochureItems.Remove(null));
     }
 
+    [AutoDbData]
     [Theory]
     public void Add_ItemIsNull_ThrowsException(HttpContext context)
     {

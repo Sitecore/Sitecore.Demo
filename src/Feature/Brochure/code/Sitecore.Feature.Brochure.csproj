@@ -150,7 +150,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BrochureItemsRepository.cs" />
     <Compile Include="Repositories\IBrochureItemsRepository.cs" />
-    <Compile Include="Services\GenerateBrochureFileService.cs" />
+    <Compile Include="Services\GenerateBrochureService.cs" />
     <Compile Include="Templates.cs" />
   </ItemGroup>
   <PropertyGroup>

@@ -89,6 +89,9 @@
       <HintPath>..\..\..\..\packages\Sitecore.FakeDb.NSubstitute.1.1.0\lib\net45\Sitecore.FakeDb.NSubstitute.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Sitecore.Foundation.Testing">
+      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Foundation.Testing.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Kernel.dll</HintPath>
     </Reference>
@@ -156,6 +159,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GenerateBrochureServiceTests.cs" />
     <Compile Include="SessionBrochureItemsTests.cs" />
     <Compile Include="BrochureItemsRepositoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -168,6 +172,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\Print\code\Sitecore.Foundation.Print.csproj">
+      <Project>{8A3B0F1F-5CC2-49A9-9F80-EFACBD7EBC02}</Project>
+      <Name>Sitecore.Foundation.Print</Name>
+    </ProjectReference>
     <ProjectReference Include="..\code\Sitecore.Feature.Brochure.csproj">
       <Project>{78298d6f-e94d-4e88-a822-e55ed8a448eb}</Project>
       <Name>Sitecore.Feature.Brochure</Name>

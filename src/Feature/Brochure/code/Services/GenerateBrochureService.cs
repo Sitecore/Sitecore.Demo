@@ -22,7 +22,7 @@
       
     }
 
-    private GenerateBrochureService([NotNull] GenerateFileService generateFileService)
+    public GenerateBrochureService([NotNull] GenerateFileService generateFileService)
     {
       if (generateFileService == null)
         throw new ArgumentNullException(nameof(generateFileService));
@@ -44,7 +44,7 @@
 
     private Brochure GetBrochureFromMediaLibrary(Item brochureItem, string fileName)
     {
-      var mediaItem = brochureItem.TargetItem(Templates.Brochure.Fields.StaticDownload);
+      var mediaItem = ((FileField)brochureItem.Fields[Templates.Brochure.Fields.StaticDownload]).MediaItem;
       if (mediaItem == null)
         return null;
       var media = MediaManager.GetMedia(mediaItem);
@@ -52,12 +52,14 @@
              {
                Content = media.GetStream().Stream,
                MimeType = media.MimeType,
-               Filename = fileName
+               Filename = fileName + "." + media.Extension
              };
     }
 
     private Brochure GetBrochureFromPrintStudio([NotNull] Item brochureItem, [NotNull] string fileName, IEnumerable<ID> items)
     {
+      if (!GenerateFileService.Enabled)
+        return null;
       if (brochureItem == null)
         throw new ArgumentNullException(nameof(brochureItem));
       if (fileName == null)
