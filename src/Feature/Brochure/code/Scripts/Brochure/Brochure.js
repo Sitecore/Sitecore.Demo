@@ -25,7 +25,6 @@
   });
   jQuery("head").on("brochure:addCurrentPage", function (event, itemID) {
     var panel = jQuery("#brochureItems");
-    var button = jQuery("#brochureMenuButton");
     jQuery.ajax(
     {
       url: "/api/Brochure/AddPage?ItemID=" + itemID,
@@ -34,8 +33,12 @@
       success: function (data) {
         panel.replaceWith(data);
         toggleButton();
+      },
+      error: function (data) {
+        alert(data.statusText);
       }
     });
   });
+
   toggleButton();
 });

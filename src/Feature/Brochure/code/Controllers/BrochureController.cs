@@ -38,17 +38,21 @@
         return new EmptyResult();
       var addToBrochureItem = RenderingContext.Current.ContextItem;
 
-      var allowInBrochure = addToBrochureItem.IsDerived(Templates.AllowInBrochure.ID) && addToBrochureItem.Fields[Templates.AllowInBrochure.Fields.AllowInBrochure].IsChecked();
 
       var viewModel = new BrochureMenuViewModel
-                      {
+      {
                         Items = brochureItemsRepository.Get(),
-                        AllowCurrentItemInBrochure = allowInBrochure,
+                        AllowCurrentItemInBrochure = CheckAllowInBrochure(addToBrochureItem),
                         BrochureItem = brochureItem,
                         AddToBrochureItem = addToBrochureItem
                       };
 
       return View(viewModel);
+    }
+
+    private static bool CheckAllowInBrochure(Item item)
+    {
+      return item.IsDerived(Templates.AllowInBrochure.ID) && item.Fields[Templates.AllowInBrochure.Fields.AllowInBrochure].IsChecked();
     }
 
     public ActionResult Print(Guid brochure)
@@ -67,7 +71,7 @@
       var brochureItem = Context.Database.GetItem(new ID(brochure));
 
       var pageItemId = new ID(page);
-      var item = Context.Database.GetItem(pageItemId);
+      var item = GetItem(pageItemId.ToString());
       if (brochureItem == null || item == null)
         return this.InfoMessage(InfoMessage.Error(DictionaryPhraseRepository.Current.Get("/Brochure/Print/No Brochure Specified", "No brochure was specified.")));
 
@@ -110,12 +114,12 @@
     public ActionResult AddPage(string ItemID)
     {
       var item = GetItem(ItemID);
-      if (item == null)
-        return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+      if (item == null || !CheckAllowInBrochure(item))
+        return new HttpStatusCodeResult(HttpStatusCode.BadRequest, DictionaryPhraseRepository.Current.Get("/Brochure/Brochure Menu/Invalid Item", "This page cannot be added to the brochure. Please select a valid page."));
 
       var brochureItems = brochureItemsRepository.Get();
       if (!brochureItems.Add(item))
-        return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+        return new HttpStatusCodeResult(HttpStatusCode.BadRequest, DictionaryPhraseRepository.Current.Get("/Brochure/Brochure Menu/Cannot Add", "This page has already been be added to the brochure, or cannot be added. Please select a valid page."));
       return View("_BrochureItems", brochureItems);
     }
   }
