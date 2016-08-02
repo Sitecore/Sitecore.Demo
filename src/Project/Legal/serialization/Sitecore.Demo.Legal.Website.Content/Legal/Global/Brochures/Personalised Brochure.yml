@@ -1,0 +1,34 @@
+﻿---
+ID: "ca12194b-4464-475f-a875-8fd86080f5a4"
+Parent: "114ebe52-2640-4cdd-8f1e-3c6a553ca579"
+Template: "ca7d256a-9971-445c-a3bb-3beba48f08d9"
+Path: /sitecore/content/Legal/Global/Brochures/Personalised Brochure
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "20e38f7b-5a24-4d33-a7ec-55007e78e532"
+      Hint: Print Studio Project
+      Value: "{76140C1F-A70E-4B0A-A928-16D783894324}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160708T010440Z
+    - ID: "3a9a48ba-de47-4de2-a8d7-25d44780d568"
+      Hint: Description
+      Value: |
+        <p>Download an on-demand brochure with the topic areas you select.</p>
+        <p>Please add the practise areas you are interested in.</p>
+    - ID: "681376e7-326f-471d-b83e-82e113ea1cdb"
+      Hint: Static Download
+      Value: "<file mediaid=\"{08B0131D-5F5D-43E1-A2A9-87070FFE25A5}\" src=\"-/media/08B0131D5F5D43E1A2A987070FFE25A5.ashx\" />"
+    - ID: "d643fe17-ed04-455a-8c3b-18babf0869c5"
+      Hint: Title
+      Value: Personalised Brochure
+    - ID: "e4ecc89e-54e8-45fc-8cab-30eacc42c214"
+      Hint: Label
+      Value: Brochure
+    - ID: "ed5a056d-e0b5-4e12-bca8-1cdcf92080f8"
+      Hint: Image
+      Value: "<image mediaid=\"{A16A8555-91E2-4328-8BE9-3EA43FE9BA74}\" />"

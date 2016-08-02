@@ -1,6 +1,6 @@
 ﻿<Project>
   <PropertyGroup>
-    <Site Server="habitat.local" UserName="sitecore\admin" IsRemoteSitecore="False" />
+    <Site Server="habitat.dev.local" UserName="sitecore\admin" IsRemoteSitecore="False" />
   </PropertyGroup>
   <File Include="Views\Legal\Layouts\Default.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{5F53E1F4-CFBA-45E4-8F86-A786EB590BAA}</Item>

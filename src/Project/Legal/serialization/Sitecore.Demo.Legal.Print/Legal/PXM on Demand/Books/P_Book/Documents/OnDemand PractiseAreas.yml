@@ -1,0 +1,33 @@
+﻿---
+ID: "b09ec8ae-bb36-4c10-9b89-9f4dd27ff59a"
+Parent: "e55b6593-bf6f-4840-adaa-b24ada060f10"
+Template: "b2c7d259-b0ee-4e9a-b344-30e789adefa6"
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/PXM on Demand/Books/P_Book/Documents/OnDemand PractiseAreas
+DB: master
+SharedFields:
+- ID: "054ceb43-b145-4b02-91a9-8f570f6afab4"
+  Hint: PageHeight
+  Value: 210
+- ID: "724dddd4-e16f-4929-a615-243c90b364ce"
+  Hint: Reference
+  Value: "{ECB8C83E-F31E-4AE9-9944-2CFD77246E47}"
+- ID: "7386adec-2c63-4c27-887b-d630d42c9797"
+  Hint: ID Number
+  Value: D00001
+- ID: "90b9731a-9488-4f99-b14f-b2292e947a17"
+  Hint: Bleed
+  Value: 3
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160615T084516Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "6e842645-b560-4c8d-8861-0e5d4291ee83"
+      Hint: Name
+      Value: OnDemand PractiseAreas

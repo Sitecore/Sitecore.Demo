@@ -1,0 +1,17 @@
+﻿---
+ID: "16129031-8163-406c-b473-c8206d11401f"
+Parent: "013a39c1-6f18-445c-9e5f-70ed2d4646d7"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/Print/Paragraph Style/Attributes
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160615T081145Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

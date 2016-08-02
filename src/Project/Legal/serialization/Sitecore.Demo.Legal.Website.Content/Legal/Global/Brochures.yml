@@ -1,0 +1,17 @@
+﻿---
+ID: "114ebe52-2640-4cdd-8f1e-3c6a553ca579"
+Parent: "9b5a91b1-a83d-4fe6-9e50-2bb90530c785"
+Template: "31580133-9ee2-4c76-bb0b-6bbf8a8c62f3"
+Path: /sitecore/content/Legal/Global/Brochures
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160708T010332Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

@@ -1,0 +1,55 @@
+﻿---
+ID: "05069b2c-3c12-428b-92de-a33c314c0031"
+Parent: "ab84eeec-a279-433c-a895-2ba6044f5c8d"
+Template: "0ef07066-419a-4c9c-b6cd-9dd98857893f"
+Path: /sitecore/Print Studio/Modules/InDesign connector/Transformations/Definitions/table
+DB: master
+SharedFields:
+- ID: "7c4c84a5-d522-4d78-8a32-183b71b85062"
+  Hint: XHTML Name
+  Value: table
+- ID: "80090593-07b3-4e16-843d-336d83dbd355"
+  Hint: XML Name
+  Value: Table
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1500
+- ID: "f29087bf-de4d-46eb-8c9f-072d8f098458"
+  Hint: Type
+  Value: Sitecore.PrintStudio.PublishingEngine.Text.Parsers.Html.TableParser, Sitecore.PrintStudio.PublishingEngine
+Languages:
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Tabelle
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160511T150527Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20130823T104300
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: テーブル
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160511T150753Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

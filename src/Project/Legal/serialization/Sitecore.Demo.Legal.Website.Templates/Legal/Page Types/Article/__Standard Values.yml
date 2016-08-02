@@ -9,6 +9,10 @@ SharedFields:
   Hint: __Masters
   Type: TreelistEx
   Value: "{4B0A2893-4E7B-4248-86A9-DAB6DA3BB230}"
+- ID: "b5c41973-af3f-4d7d-8551-5cc1eb37a616"
+  Hint: Allow In Brochure
+  Type: Checkbox
+  Value: 1
 - ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
   Hint: __Default workflow
   Value: "{E2A658AB-B142-4AD9-AACA-C69200622F44}"
@@ -56,6 +60,11 @@ SharedFields:
           id="{28BD7068-7FF6-4CE6-98E6-85CFE9967E14}"
           ph="navbar-activity"
           uid="{79242576-4E0A-4CBF-BC2B-8B0C47FE9B64}" />
+        <r
+          ds="{CA12194B-4464-475F-A875-8FD86080F5A4}"
+          id="{3A5195F0-1269-4B20-91BB-611698515BD2}"
+          ph="navbar-activity"
+          uid="{AE9A972A-0AB9-483A-9AC1-2855C49E4CA0}" />
         <r
           ds="{774C6FFC-8FEE-4C84-8264-1236ED365229}"
           id="{8C3A2CFC-18FB-4BF5-8584-50EA88978ED6}"

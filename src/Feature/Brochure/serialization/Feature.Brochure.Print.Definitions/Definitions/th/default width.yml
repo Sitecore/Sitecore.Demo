@@ -1,0 +1,55 @@
+﻿---
+ID: "5d748016-f724-4340-9f46-04c904da56d8"
+Parent: "2d44c386-bfca-458f-8d88-a8a2ba11fbc1"
+Template: "7cd0ed9c-975d-41ed-b106-e4c60e06d4f7"
+Path: /sitecore/Print Studio/Modules/InDesign connector/Transformations/Definitions/th/default width
+DB: master
+SharedFields:
+- ID: "9f94d809-627e-468e-99dc-ab523d8f2e56"
+  Hint: XML Default value
+  Value: 5
+- ID: "a05e1d55-b7c5-4b57-aa0c-c1a7845cfc7c"
+  Hint: XML Attribute
+  Value: ColWidth
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+Languages:
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Standard Breite
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160511T150603Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20130823T104300
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\Admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: デフォルトの幅
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160511T150856Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

@@ -1,0 +1,24 @@
+﻿---
+ID: "0a7de328-3456-45c0-937c-d9db47a38e1b"
+Parent: "4790e71f-4e14-4613-8e53-d0a1ed505a07"
+Template: "5a802afb-006d-457c-955a-d37de75e390b"
+Path: /sitecore/Print Studio/Libraries/Renderers library/Foundation/Print/XML Repeater Renderer
+DB: master
+SharedFields:
+- ID: "26b4fc70-7400-455c-80d4-ffd115d7e3c4"
+  Hint: Type
+  Value: Sitecore.Foundation.Print.Renderers.XMLRepeaterRenderer, Sitecore.Foundation.Print
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160615T082742Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
