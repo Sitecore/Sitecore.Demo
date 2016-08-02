@@ -12,6 +12,10 @@ SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{E2A658AB-B142-4AD9-AACA-C69200622F44}"
+- ID: "b5c41973-af3f-4d7d-8551-5cc1eb37a616"
+  Hint: Allow In Brochure
+  Type: Checkbox
+  Value: 0
 Languages:
 - Language: en
   Versions:

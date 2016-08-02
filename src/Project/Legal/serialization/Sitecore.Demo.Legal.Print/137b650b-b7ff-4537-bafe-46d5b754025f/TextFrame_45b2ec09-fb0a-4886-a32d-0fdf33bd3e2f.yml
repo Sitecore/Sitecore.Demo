@@ -2,7 +2,7 @@
 ID: "45b2ec09-fb0a-4886-a32d-0fdf33bd3e2f"
 Parent: "137b650b-b7ff-4537-bafe-46d5b754025f"
 Template: "0637de6e-33fe-40c1-9233-98a3a6b88792"
-Path: /sitecore/Print Studio/Print Studio Projects/Legal/PXM on Demand/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Welcome Page/New snippet/TextFrame
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Practise Areas Brochure/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Welcome Page/New snippet/TextFrame
 DB: master
 SharedFields:
 - ID: "02e7e1fb-d37e-4100-99d4-00249c745576"

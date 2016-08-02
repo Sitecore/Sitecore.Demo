@@ -5,6 +5,10 @@ Template: "4b0a2893-4e7b-4248-86a9-dab6da3bb230"
 Path: /sitecore/content/Legal/Home/About Us
 DB: master
 SharedFields:
+- ID: "b5c41973-af3f-4d7d-8551-5cc1eb37a616"
+  Hint: Allow In Brochure
+  Type: Checkbox
+  Value: 0
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 300

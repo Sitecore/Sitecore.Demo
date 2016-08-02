@@ -2,12 +2,9 @@
 ID: "3162ba99-7ff5-41d5-ba68-00d1309f6284"
 Parent: "d9d3b9bc-4c02-45d5-8ee2-762c9332b675"
 Template: "e7e439e8-c699-4608-ac77-cc6273702e54"
-Path: /sitecore/Print Studio/Print Studio Projects/Legal/PXM on Demand/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Front Cover/User Selections
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Practise Areas Brochure/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Front Cover/User Selections
 DB: master
 SharedFields:
-- ID: "09772857-332a-4e06-a337-787f87e6c89f"
-  Hint: Xml Renderer
-  Value: "{F808C8BA-5832-4C46-B5F7-A8EA85975CD8}"
 - ID: "6a937e7b-992e-4b75-a822-eda1cd0445e3"
   Hint: Data Key
   Value: items
