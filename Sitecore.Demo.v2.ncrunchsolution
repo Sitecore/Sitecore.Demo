@@ -9,6 +9,7 @@
   <FrameworkUtilisationTypeForMSTest>UseStaticAnalysis</FrameworkUtilisationTypeForMSTest>
   <FrameworkUtilisationTypeForXUnit2>UseDynamicAnalysis</FrameworkUtilisationTypeForXUnit2>
   <NCrunchCacheStoragePath></NCrunchCacheStoragePath>
+  <AdditionalFilesToInclude>lib\license.xml</AdditionalFilesToInclude>
   <MetricsExclusionList>
 Pipelines\RegisterWebApiRoutes.cs:src\Feature\Brochure\code\Sitecore.Feature.Brochure.csproj
 </MetricsExclusionList>

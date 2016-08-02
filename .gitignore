@@ -5,12 +5,13 @@ specs/**/[Bb]in/
 _ReSharper.*
 packages/
 artifacts/
-*Local.pubxml.user
+*.user
 *.cache
 *.suo
 *.userprefs
 *DS_Store
 *.sln.ide
+lib/license.xml
 lib/Sitecore/*
 !lib/Sitecore/readme.MD
 lib/System/*
@@ -22,5 +23,6 @@ vars.user.cmd
 /node_modules
 temp/
 *.ncrunchproject
-*.ncrunchsolution.vscode
+*.ncrunchsolution
+.vscode
 nCrunchTemp*.*
