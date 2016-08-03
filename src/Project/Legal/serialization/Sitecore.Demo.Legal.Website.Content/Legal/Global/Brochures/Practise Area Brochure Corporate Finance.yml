@@ -2,7 +2,7 @@
 ID: "1aa44372-9665-4bfb-8110-63ee85664108"
 Parent: "114ebe52-2640-4cdd-8f1e-3c6a553ca579"
 Template: "ca7d256a-9971-445c-a3bb-3beba48f08d9"
-Path: /sitecore/content/Legal/Global/Brochures/Practise Area
+Path: /sitecore/content/Legal/Global/Brochures/Practise Area Brochure Corporate Finance
 DB: master
 Languages:
 - Language: en
@@ -11,19 +11,19 @@ Languages:
     Fields:
     - ID: "20e38f7b-5a24-4d33-a7ec-55007e78e532"
       Hint: Print Studio Project
-      Value: "{60F98088-B640-410B-97F0-77EE4A2BC3EC}"
+      Value: "{76140C1F-A70E-4B0A-A928-16D783894324}"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160725T110918Z
     - ID: "3a9a48ba-de47-4de2-a8d7-25d44780d568"
       Hint: Description
-      Value: Get a detailed brochure for this practise area.
+      Value: Get a detailed brochure covering our Corporate Finance area.
     - ID: "681376e7-326f-471d-b83e-82e113ea1cdb"
       Hint: Static Download
-      Value: "<file mediaid=\"{65B4B9D9-14D9-4338-A495-7D217F41FEC6}\" src=\"-/media/65B4B9D914D94338A4957D217F41FEC6.ashx\" />"
+      Value: "<file mediaid=\"{1C5DF9D9-A698-4242-87A1-8601F835CE19}\" src=\"-/media/1C5DF9D9A698424287A18601F835CE19.ashx\" />"
     - ID: "d643fe17-ed04-455a-8c3b-18babf0869c5"
       Hint: Title
-      Value: Learn More
+      Value: Corporate Finance
     - ID: "e4ecc89e-54e8-45fc-8cab-30eacc42c214"
       Hint: Label
       Value: Brochure
