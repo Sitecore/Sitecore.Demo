@@ -9,9 +9,6 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: "149a67a5-d693-4bc1-a2b8-f6c34e475bf3"
-      Hint: LinkText
-      Value: Read more
     - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
       Hint: Heading
       Value: $name
