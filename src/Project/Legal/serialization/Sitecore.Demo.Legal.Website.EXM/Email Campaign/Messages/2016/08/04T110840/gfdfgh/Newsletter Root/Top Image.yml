@@ -1,0 +1,18 @@
+﻿---
+ID: "99ed10ec-4893-42d6-b32f-1956362f68c2"
+Parent: "398192ba-b03c-4b7e-bdb1-eb923f2d1389"
+Template: "0e5c0114-6917-4c36-b77a-b60aa9bff4e5"
+Path: /sitecore/content/Email Campaign/Messages/2016/08/04T110840/gfdfgh/Newsletter Root/Top Image
+DB: master
+BranchID: "f112bdef-8d86-4cea-9b9a-8477a582926c"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160816T092727Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

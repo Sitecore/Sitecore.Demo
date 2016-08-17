@@ -1,0 +1,25 @@
+﻿---
+ID: "4b352418-eb49-4e40-9a4a-87da5720f141"
+Parent: "9482c284-b26c-4f9a-860d-752c10a2319c"
+Template: "9795c562-98d9-4a9e-bc9c-c6b7a079fdf4"
+Path: /sitecore/content/Legal/Legal Campaigns/Message Types/Triggered/Default
+DB: master
+BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {BDB49A2E-9BE1-456F-BEBB-4F72DA36524E}
+    {614FC1F2-1633-4049-9E9F-0134610E6719}
+    {ECF0A9C8-FE56-45D8-B750-6BDE3A34A532}
+    {1AFE38A7-9461-4278-ADAF-D807F27F36E4}
+    {F868C724-50D0-4347-9C9B-BABB8DB705FE}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T022739Z

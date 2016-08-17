@@ -19,7 +19,9 @@ SharedFields:
 - ID: "9e4027b2-0360-4b48-b665-fc51e55fc766"
   Hint: Manager Roots
   Type: Treelist
-  Value: "{0E817A9B-6787-4E90-9C79-3DD50C164520}"
+  Value: |
+    {0E817A9B-6787-4E90-9C79-3DD50C164520}
+    {5EBC8DC1-B219-4B0E-B600-5BE2826D73EA}
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 300

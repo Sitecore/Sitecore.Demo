@@ -1,0 +1,107 @@
+﻿@using System.Diagnostics
+@using Sitecore.Data.Fields
+@using Sitecore.Feature.Newsletter
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Feature.Newsletter.Models.IListSectionViewModel
+
+@using (Html.BeginEditFrame(Model.ParentItem.ID.ToString(), ""))
+{
+  <table cellpadding="0" cellspacing="0" width="100%" bgcolor="@Model.SectionOptions.BackgroundColor" style="background-color: @Model.SectionOptions.BackgroundColor">
+    <tbody>
+      <tr>
+        <td bgcolor="@Model.SectionOptions.BackgroundColor" style="background-color: @Model.SectionOptions.BackgroundColor">
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="@Model.SectionOptions.BackgroundColor" style="background-color: @Model.SectionOptions.BackgroundColor">
+            <tbody>
+              <tr>
+                <td height="20"></td>
+              </tr>
+            </tbody>
+          </table>
+          @{
+            foreach (var item in Model.Items)
+            {
+              <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="@Model.SectionOptions.BackgroundColor" style="background-color: @Model.SectionOptions.BackgroundColor">
+                <tbody>
+                  <tr>
+                    <td height="35">
+                      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                          <tr>
+                            <td width="20"></td>
+                            <td width="72" valign="top">
+                              @Html.Sitecore().ImageField(Templates.SectionContent.Fields.Image, item, mw: 64)
+                              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tbody>
+                                  <tr>
+                                    <td height="15"></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                            <td valign="top" style="color: @Model.SectionOptions.ContentFontColor">
+                              <h4 style="margin: 0; font-size: @Model.SectionOptions.ContentFontColor; font-family: @Model.NewsletterOptions.FontFamily">@Html.Sitecore().Field(Templates.SectionContent.Fields.Heading, item)</h4>
+                              <div style="margin: 0; font-size: @Model.NewsletterOptions.ContentFontSize; font-family: @Model.NewsletterOptions.FontFamily">
+                                @Html.Sitecore().Field(Templates.SectionContent.Fields.Content, item)
+                              </div>
+                              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tbody>
+                                  <tr>
+                                    <td height="10"></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              @{
+                                if (item.FieldHasValue(Templates.SectionContent.Fields.Link) || Sitecore.Context.PageMode.IsExperienceEditor)
+                                {
+                                  <table cellpadding="0" cellspacing="0" border="0">
+                                    <tbody>
+                                      <tr>
+                                        <td height="35" border="2" bordercolor="@Model.SectionOptions.LinkColor" style="border: 2px solid @Model.SectionOptions.LinkColor">
+                                          <img src="/images/1x1.gif" height="6" alt="">
+                                          @if (Sitecore.Context.PageMode.IsExperienceEditor)
+                                          {
+                                            @Html.Sitecore().Field(Templates.SectionContent.Fields.Link.ToString(), item, new { style = $"font-weight: bold; color: {Model.SectionOptions.LinkColor}; font-family: {Model.NewsletterOptions.FontFamily}; font-size: {Model.NewsletterOptions.ContentFontSize}; text-decoration: none" })
+                                          }
+                                          else
+                                          {
+                                            <a href="@item.LinkFieldUrl(Templates.SectionContent.Fields.Link)" style="color: @Model.SectionOptions.LinkColor; font-family: @Model.NewsletterOptions.FontFamily; font-size: @Model.NewsletterOptions.ContentFontSize; text-decoration: none" color="@Model.SectionOptions.LinkColor">
+                                              <b style="color: @Model.SectionOptions.LinkColor">&nbsp;&nbsp;&nbsp;@item.LinkFieldOptions(Templates.SectionContent.Fields.Link, LinkFieldOption.Text)&nbsp;&nbsp;&nbsp;</b>
+                                            </a>
+                                          }
+                                          <img src="/images/1x1.gif" height="6" alt="">
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                }
+                              }
+                              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tbody>
+                                  <tr>
+                                    <td height="15"></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            }
+          }
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="@Model.SectionOptions.BackgroundColor" style="background-color: @Model.SectionOptions.BackgroundColor">
+            <tbody>
+              <tr>
+                <td height="5"></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+}

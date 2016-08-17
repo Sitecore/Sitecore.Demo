@@ -1,0 +1,105 @@
+﻿@using System.Diagnostics
+@using Sitecore.Data.Fields
+@using Sitecore.Feature.Newsletter
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Resources.Media
+@model Sitecore.Feature.Newsletter.Models.IListSectionViewModel
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      @{
+        var index = 0;
+        foreach (var item in Model.Items.Take(2))
+        {
+          if (index++ > 0)
+          {
+            <td width="20"></td>
+          }
+
+          <td>
+            <table cellpadding="0" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td height="20"></td>
+                </tr>
+              </tbody>
+            </table>
+            @if (Sitecore.Context.PageMode.IsExperienceEditor)
+            {
+              <center style="font-size: 0">
+                @Html.Sitecore().ImageField(Templates.SectionContent.Fields.Image, mw: Model.NewsletterOptions.MaxWidth/2-10, item: item)
+              </center>
+            }
+            else if (item.FieldHasValue(Templates.SectionContent.Fields.Image))
+            {
+              <center style="font-size: 0">
+                <img src="@item.ImageUrl(Templates.SectionContent.Fields.Image, new MediaUrlOptions() {MaxWidth = Model.NewsletterOptions.MaxWidth/2-10})" alt="" width="100%">
+              </center>
+            }
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="@Model.SectionOptions.BackgroundColor" style="background-color: @Model.SectionOptions.BackgroundColor">
+              <tbody>
+                <tr>
+                  <td width="20"></td>
+                  <td>
+                    <h3 style="margin: 20px 0 10px 0; font-size: @Model.NewsletterOptions.HeadingFontSize; color: @Model.SectionOptions.HeadingFontColor; font-family: @Model.NewsletterOptions.FontFamily">@Html.Sitecore().Field(Templates.SectionContent.Fields.Heading, item)</h3>
+                  </td>
+                  <td width="20"></td>
+                </tr>
+                <tr>
+                  <td width="20"></td>
+                  <td style="margin: 0; color: @Model.SectionOptions.ContentFontColor; font-family: @Model.NewsletterOptions.FontFamily; font-size: @Model.NewsletterOptions.ContentFontSize; line-height: 145%">
+                    @Html.Sitecore().Field(Templates.SectionContent.Fields.Content, item)
+                  </td>
+                  <td width="20"></td>
+                </tr>
+                @{
+                  if (item.FieldHasValue(Templates.SectionContent.Fields.Link) || Sitecore.Context.PageMode.IsExperienceEditor)
+                  {
+                    <tr>
+                      <td width="20"></td>
+                      <td height="45" valign="bottom">
+                        <table cellpadding="0" cellspacing="0" border="0">
+                          <tbody>
+                            <tr>
+                              <td height="35" border="2" bordercolor="@Model.SectionOptions.LinkColor" style="border: 2px solid @Model.SectionOptions.LinkColor">
+                                <img src="/images/1x1.gif" height="6" alt="">
+                                @if (Sitecore.Context.PageMode.IsExperienceEditor)
+                                {
+                                  @Html.Sitecore().Field(Templates.SectionContent.Fields.Link.ToString(), item, new { style = $"font-weight: bold; color: {Model.SectionOptions.LinkColor}; font-family: {Model.NewsletterOptions.FontFamily}; font-size: {Model.NewsletterOptions.ContentFontSize}; text-decoration: none" })
+                                }
+                                else
+                                {
+                                  <a href="@item.LinkFieldUrl(Templates.SectionContent.Fields.Link)" style="color: @Model.SectionOptions.LinkColor; font-family: @Model.NewsletterOptions.FontFamily; font-size: @Model.NewsletterOptions.ContentFontSize; text-decoration: none" color="@Model.SectionOptions.LinkColor">
+                                    <b style="color: @Model.SectionOptions.LinkColor">&nbsp;&nbsp;&nbsp;@item.LinkFieldOptions(Templates.SectionContent.Fields.Link, LinkFieldOption.Text)&nbsp;&nbsp;&nbsp;</b>
+                                  </a>
+                                }
+                                <img src="/images/1x1.gif" height="6" alt="">
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                      <td></td>
+                    </tr>
+                  }
+                }
+                <tr>
+                  <td colspan="3" height="25"></td>
+                </tr>
+              </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td height="20"></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        }
+      }
+    </tr>
+  </tbody>
+</table>

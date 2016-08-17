@@ -1,0 +1,15 @@
+﻿---
+ID: "4a515d2f-75e2-434a-bc63-067923ace417"
+Parent: "05df1539-3564-4d9c-81e1-242fe16f0a97"
+Template: "69474581-3668-4fed-b0f0-0b88c2532cae"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/Service Messages
+DB: master
+BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T022739Z

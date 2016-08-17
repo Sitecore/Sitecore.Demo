@@ -1,0 +1,21 @@
+﻿---
+ID: "7ea29a81-c4ea-424d-8cb8-5423b2b580da"
+Parent: "b055b746-24c9-4421-937e-6968e535c4a3"
+Template: "23c8efd2-99e7-44e9-bf8a-c97d1ec826dd"
+Path: /sitecore/templates/Branches/Legal/Webinar Campaign/$name/Message Root/Header
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T021847Z
+    - ID: "2fac8d4a-25ff-46cc-b2ff-a46e996d2913"
+      Hint: Logo
+      Value: "<image mediaid=\"{92DD68A8-A4E3-469B-97AD-F1C2A7BCBB0B}\" alt=\"\" height=\"38\" width=\"150\" hspace=\"\" vspace=\"\" />"

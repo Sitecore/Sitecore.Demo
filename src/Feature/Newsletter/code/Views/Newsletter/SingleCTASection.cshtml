@@ -1,0 +1,59 @@
+﻿@using System.Diagnostics
+@using Sitecore.Data.Fields
+@using Sitecore.Feature.Newsletter
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Feature.Newsletter.Models.ISectionViewModel
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="@Model.SectionOptions.BackgroundColor" style="background-color: @Model.SectionOptions.BackgroundColor">
+  <tbody>
+    <tr>
+      <td width="20"></td>
+      <td>
+        <h3 style="margin: 20px 0 10px 0; font-size: @Model.NewsletterOptions.HeadingFontSize; color: @Model.SectionOptions.HeadingFontColor; font-family: @Model.NewsletterOptions.FontFamily">@Html.Sitecore().Field(Templates.SectionContent.Fields.Heading, Model.ContentItem)</h3>
+      </td>
+      <td width="20"></td>
+    </tr>
+    <tr>
+      <td width="20"></td>
+      <td style="margin: 0; color: @Model.SectionOptions.ContentFontColor; font-family: @Model.NewsletterOptions.FontFamily; font-size: @Model.NewsletterOptions.ContentFontSize; line-height: 145%">
+        @Html.Sitecore().Field(Templates.SectionContent.Fields.Content, Model.ContentItem)
+      </td>
+      <td width="20"></td>
+    </tr>
+    @{
+      if (Model.ContentItem.FieldHasValue(Templates.SectionContent.Fields.Link) || Sitecore.Context.PageMode.IsExperienceEditor)
+      {
+        <tr>
+          <td width="20"></td>
+          <td height="45" valign="bottom">
+            <table cellpadding="0" cellspacing="0" border="0">
+              <tbody>
+                <tr>
+                  <td height="35" border="2" bordercolor="@Model.SectionOptions.LinkColor" style="border: 2px solid @Model.SectionOptions.LinkColor">
+                    <img src="/images/1x1.gif" height="6" alt="">
+                    @if (Sitecore.Context.PageMode.IsExperienceEditor)
+                    {
+                      @Html.Sitecore().Field(Templates.SectionContent.Fields.Link.ToString(), Model.ContentItem, new {style=$"font-weight: bold; color: {Model.SectionOptions.LinkColor}; font-family: {Model.NewsletterOptions.FontFamily}; font-size: {Model.NewsletterOptions.ContentFontSize}; text-decoration: none" })
+                    }
+                    else
+                    {
+                      <a href="@Model.ContentItem.LinkFieldUrl(Templates.SectionContent.Fields.Link)" style="color: @Model.SectionOptions.LinkColor; font-family: @Model.NewsletterOptions.FontFamily; font-size: @Model.NewsletterOptions.ContentFontSize; text-decoration: none" color="@Model.SectionOptions.LinkColor">
+                        <b style="color: @Model.SectionOptions.LinkColor">&nbsp;&nbsp;&nbsp;@Model.ContentItem.LinkFieldOptions(Templates.SectionContent.Fields.Link, LinkFieldOption.Text)&nbsp;&nbsp;&nbsp;</b>
+                      </a>
+                    }
+                    <img src="/images/1x1.gif" height="6" alt="">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td></td>
+        </tr>
+      }
+    }
+    <tr>
+      <td colspan="3" height="25"></td>
+    </tr>
+  </tbody>
+</table>

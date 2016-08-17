@@ -1,0 +1,116 @@
+﻿---
+ID: "cd75174b-da06-4a01-88fd-bc5a6d195f02"
+Parent: "cbba09a8-f454-44a5-8907-a78c289862b0"
+Template: "3f12d78c-b7b7-4157-98fc-da3322ee1a5b"
+Path: /sitecore/content/Email Campaign/Messages/2016/08/04T110840/test/Newsletter Root
+DB: master
+BranchID: "f112bdef-8d86-4cea-9b9a-8477a582926c"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {545FA681-19A5-488B-9F2B-AECE411BD7E0}
+    {0E5C0114-6917-4C36-B77A-B60AA9BFF4E5}
+    {050C8A20-E616-47A1-85D1-B11A0025F869}
+    {A4CE4035-5BD0-423E-BC64-1394CB17487B}
+    {A5B51631-4357-45EE-B2B8-99502F351324}
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{9808DE3B-D902-4B0F-B946-842BCD8C4A05}">
+        <r
+          cac="1"
+          cnd=""
+          ds=""
+          id="{69EB7A6D-ACEF-4D06-A923-804918AA245E}"
+          mvt=""
+          par=""
+          ph="nl-html-title"
+          uid="{0D647F06-CCD6-4A06-A33E-A5F12649F078}"
+          vbd="1"
+          vbp="1" />
+        <r
+          cac="1"
+          cnd=""
+          ds="{F77EBEBF-E314-4E32-8363-C8319DE1CDE6}"
+          id="{9A0D5C00-EF39-481F-A124-57632E7EBD2F}"
+          mvt=""
+          par=""
+          ph="nl-header"
+          uid="{75C1DEA5-E95F-4B6F-B99D-CB2D6B73BB55}"
+          vbd="1"
+          vbp="1" />
+        <r
+          cac="1"
+          cnd=""
+          ds="{FC8C0C89-89A1-4E04-9986-20BF242352AB}"
+          id="{03A3131F-80D2-42D9-AFB4-E01D8D927FEC}"
+          mvt=""
+          par=""
+          ph="nl-top-image"
+          uid="{FA15C3E6-3195-408A-9DD1-5304B0E12D52}"
+          vbd="1"
+          vbp="1" />
+        <r
+          cac="1"
+          cnd=""
+          ds="{0100160B-0575-4398-A3C6-25A8E7A55DBA}"
+          id="{CC003124-656D-4380-AF33-1CFC703D4242}"
+          mvt=""
+          par=""
+          ph="nl-body"
+          uid="{010CAE5A-51CA-41FE-BA80-3D4FB3BF1720}"
+          vbd="1"
+          vbdev="0"
+          vbl="0"
+          vbp="1"
+          vbqs="0"
+          vbu="0" />
+        <r
+          cac="1"
+          cnd=""
+          ds="{84B57C9C-47F6-4641-B7CC-62D5EE6EB16E}"
+          id="{8C20800B-BFB5-4264-9CFF-C156C11840D0}"
+          mvt=""
+          par=""
+          ph="nl-sidebar"
+          uid="{56EC5710-F46B-4287-9824-84ED26C14DA8}"
+          vbd="1"
+          vbdev="0"
+          vbl="0"
+          vbp="1"
+          vbqs="0"
+          vbu="0" />
+        <r
+          cac="1"
+          cnd=""
+          ds="{76745F28-CCD4-4B77-842E-F25FD996C10D}"
+          id="{5240D8F0-98DD-4686-8395-CF206427680A}"
+          mvt=""
+          par=""
+          ph="nl-footer"
+          uid="{9C7EA6F7-52B2-4F62-B147-E59F5F160381}"
+          vbd="1"
+          vbp="1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Newsletter Root
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160804T110841Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

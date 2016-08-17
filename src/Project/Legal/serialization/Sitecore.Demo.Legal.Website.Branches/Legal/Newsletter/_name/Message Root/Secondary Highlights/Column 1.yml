@@ -1,0 +1,23 @@
+﻿---
+ID: "7b224f54-a89c-4005-8bcc-d5ee3b64d560"
+Parent: "e2714d4c-40c5-4e9a-bdae-5e6deb09185a"
+Template: "24d19d8f-907b-47b7-9703-6174e760bd91"
+Path: /sitecore/templates/Branches/Legal/Newsletter/$name/Message Root/Secondary Highlights/Column 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "18b3ef15-ec40-46fe-b03d-26cb3db243cb"
+      Hint: Image
+      Value: "<image mediaid=\"{203E715B-1550-4FB1-A52E-2AD7F465498D}\" />"
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: Highlight 2
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T053134Z
+    - ID: "2e2c5fb3-ff5b-4f13-aa18-cfba9c9a97d3"
+      Hint: Link
+      Value: "<link text=\"Read More\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{6EB0F80B-A1D5-40E0-A472-9308B24228B5}\" />"

@@ -1,0 +1,29 @@
+﻿---
+ID: "f05c0a64-0085-4d44-8398-b4dee81a8c4c"
+Parent: "43c6a745-d28b-4277-a0a2-99c96dc721f1"
+Template: "54e7880d-2621-49ea-a417-982fcd372903"
+Path: /sitecore/content/Legal/Legal Campaigns/Message Types/OneTime/Default
+DB: master
+BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {614FC1F2-1633-4049-9E9F-0134610E6719}
+    {BDB49A2E-9BE1-456F-BEBB-4F72DA36524E}
+    {0CAEACDC-D7AA-49D6-B8B4-CD7CF10A9023}
+    {ECF0A9C8-FE56-45D8-B750-6BDE3A34A532}
+    {1AFE38A7-9461-4278-ADAF-D807F27F36E4}
+    {F868C724-50D0-4347-9C9B-BABB8DB705FE}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T022739Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

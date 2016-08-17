@@ -1,0 +1,17 @@
+﻿---
+ID: "baa44d51-0cf0-43d9-8d76-43c9f2890a84"
+Parent: "108d905f-68dc-4652-a9f9-be6c733376b7"
+Template: "f0818351-eed1-453e-8325-684eeb1a827a"
+Path: /sitecore/templates/Branches/Legal/General Campaign/$name/Message Root/Footer/Sitecore
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T035037Z
+    - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
+      Hint: Link
+      Value: "<link text=\"Sitecore\" linktype=\"external\" url=\"http://www.sitecore.net\" anchor=\"\" target=\"\" />"

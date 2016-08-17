@@ -1,0 +1,37 @@
+﻿@using System.Diagnostics
+@using Sitecore.Data.Fields
+@using Sitecore.Feature.Newsletter
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Feature.Newsletter.Models.ISectionViewModel
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="@Model.SectionOptions.BackgroundColor" style="background-color: @Model.SectionOptions.BackgroundColor">
+  <tbody>
+    <tr>
+      <td colspan="4" height="20"></td>
+    </tr>
+    <tr>
+      <td width="20"></td>
+      <td>
+        @Html.Sitecore().Field(Templates.Header.Fields.Logo, Model.ContentItem)
+      </td>
+      <td align="right" style="color: @Model.SectionOptions.LinkColor">
+        @{
+          var links = Model.ContentItem.Children.Where(c => c.IsDerived(Templates.Link.ID)).ToArray();
+          foreach (var item in links)
+          {
+            @Html.Sitecore().Field(Templates.Link.Fields.Link, item, new {style= $"font-weight: bold; font-size: {Model.NewsletterOptions.ContentFontSize}; color: {Model.SectionOptions.LinkColor}; font-family: {@Model.NewsletterOptions.FontFamily}; text-decoration: none" })
+            if (links.Last() != item)
+            {
+              @:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            }
+          }
+        }
+      </td>
+      <td width="20"></td>
+    </tr>
+    <tr>
+      <td colspan="4" height="20"></td>
+    </tr>
+  </tbody>
+</table>

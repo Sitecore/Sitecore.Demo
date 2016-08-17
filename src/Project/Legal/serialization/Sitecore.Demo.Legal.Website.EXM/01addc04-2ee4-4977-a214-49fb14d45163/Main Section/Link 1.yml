@@ -1,0 +1,25 @@
+﻿---
+ID: "8e37e338-6991-4225-a41e-6c77e2512067"
+Parent: "a90883a4-f751-49a0-ab2b-93d47b760cbf"
+Template: "4df80be6-ae83-40e4-81b4-480f7b60ae15"
+Path: /sitecore/content/Email Campaign/Messages/2016/08/04T110840/gfdfgh/Newsletter Root/Content Sections/Main Section/Link 1
+DB: master
+BranchID: "f112bdef-8d86-4cea-9b9a-8477a582926c"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Link 1
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160816T092727Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "6f9efd52-70bb-4ee0-b7d3-1c8f8e6c4957"
+      Hint: Text
+      Value: Link 1

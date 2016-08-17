@@ -1,0 +1,50 @@
+﻿@using System.Diagnostics
+@using Sitecore.Data.Fields
+@using Sitecore.Feature.Newsletter
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc.Presentation
+@model Sitecore.Feature.Newsletter.Models.ISectionViewModel
+
+<!-- Footer -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="@Model.SectionOptions.BackgroundColor" style="background-color: @Model.SectionOptions.BackgroundColor">
+  <tbody>
+    <tr>
+      <td width="100%">
+        <table width="100%" cellpadding="0" cellspacing="0">
+          <tbody>
+            <tr>
+              <td height="60" valign="middle">
+                <center>
+                  <p style="font-size: @Model.NewsletterOptions.ContentFontSize; color: @Model.SectionOptions.LinkColor">
+                    @{
+                      var links = Model.ContentItem.Children.Where(c => c.IsDerived(Templates.Link.ID)).ToArray();
+                      foreach (var item in links)
+                      {
+                        @Html.Sitecore().Field(Templates.Link.Fields.Link, item, new { style = $"font-size: {Model.NewsletterOptions.ContentFontSize}; color: {Model.SectionOptions.LinkColor}; font-family: {@Model.NewsletterOptions.FontFamily}; text-decoration: none" })
+                        if (links.Last() != item) {
+                          @:&nbsp;|&nbsp;
+                        }
+                      }
+                    }
+                  </p>
+                </center>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <center>
+          <p style="font-size: @Model.NewsletterOptions.ContentFontSize; color: @Model.SectionOptions.ContentFontColor; font-family: @Model.NewsletterOptions.FontFamily; margin: 0">
+            @Html.Sitecore().Field(Templates.Footer.Fields.LegalFooterText, Model.ContentItem)
+          </p>
+        </center>
+      </td>
+    </tr>
+    <tr>
+      <td height="15"></td>
+    </tr>
+  </tbody>
+</table>

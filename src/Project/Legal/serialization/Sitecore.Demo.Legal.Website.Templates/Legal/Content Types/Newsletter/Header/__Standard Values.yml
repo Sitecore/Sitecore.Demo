@@ -1,0 +1,19 @@
+﻿---
+ID: "bff5e1e3-60d7-4cd3-ac29-26e963a2d22c"
+Parent: "23c8efd2-99e7-44e9-bf8a-c97d1ec826dd"
+Template: "23c8efd2-99e7-44e9-bf8a-c97d1ec826dd"
+Path: /sitecore/templates/Project/Legal/Content Types/Newsletter/Header/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{F0818351-EED1-453E-8325-684EEB1A827A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160816T055432Z

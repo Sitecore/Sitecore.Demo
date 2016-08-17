@@ -1,0 +1,17 @@
+﻿---
+ID: "f0b200b1-4d8a-4265-bfe5-b471c9907e0a"
+Parent: "7ea29a81-c4ea-424d-8cb8-5423b2b580da"
+Template: "f0818351-eed1-453e-8325-684eeb1a827a"
+Path: /sitecore/templates/Branches/Legal/Webinar Campaign/$name/Message Root/Header/About
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T033232Z
+    - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
+      Hint: Link
+      Value: "<link text=\"About Us\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{53C59369-B0C7-40B2-B76F-DED99916D309}\" />"

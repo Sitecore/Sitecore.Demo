@@ -1,0 +1,128 @@
+﻿---
+ID: "76b5bd99-4073-44b8-ac49-9e4b056c1c55"
+Parent: "867228b4-8075-4c2f-975f-9c6ed5f2ff23"
+Template: "078d8a76-f971-4891-b422-76c0bcf9fa03"
+Path: /sitecore/content/Email Campaign/Messages/2016/08/04T110840/gfdfgh
+DB: master
+BranchID: "f112bdef-8d86-4cea-9b9a-8477a582926c"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Network/32x32/news.png
+- ID: "0934bec4-325a-427b-95bb-46f78cea9591"
+  Hint: Message Type
+  Value: "{C2786C9C-B267-4DD8-B8FB-4452A23F9969}"
+- ID: "09ad7c00-a8de-46f7-bc54-e7572e38c136"
+  Hint: Body
+  Value: "{398192BA-B03C-4B7E-BDB1-EB923F2D1389}"
+- ID: "2bbf5276-ed11-4cd0-946f-66678b524457"
+  Hint: Campaign Position
+  Value: "{C1B8669B-C41A-4ED3-BF0D-E859CF880D42}"
+- ID: "af0fe26a-a78b-491d-885c-03d95bc17342"
+  Hint: State
+  Value: Draft
+- ID: "ed5a9033-96ed-41f8-9731-7499c55ecbfa"
+  Hint: Engagement Plan
+  Value: "{700659C9-C521-40D3-9BE4-FB20F79C04E5}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{9808DE3B-D902-4B0F-B946-842BCD8C4A05}">
+        <r
+          cac="1"
+          cnd=""
+          ds=""
+          id="{69EB7A6D-ACEF-4D06-A923-804918AA245E}"
+          mvt=""
+          par=""
+          ph="nl-html-title"
+          uid="{0D647F06-CCD6-4A06-A33E-A5F12649F078}"
+          vbd="1"
+          vbp="1" />
+        <r
+          cac="1"
+          cnd=""
+          ds="{F01B4BAC-E221-4CD9-B9E0-D302513B2FCC}"
+          id="{9A0D5C00-EF39-481F-A124-57632E7EBD2F}"
+          mvt=""
+          par=""
+          ph="nl-header"
+          uid="{75C1DEA5-E95F-4B6F-B99D-CB2D6B73BB55}"
+          vbd="1"
+          vbp="1" />
+        <r
+          cac="1"
+          cnd=""
+          ds="{99ED10EC-4893-42D6-B32F-1956362F68C2}"
+          id="{03A3131F-80D2-42D9-AFB4-E01D8D927FEC}"
+          mvt=""
+          par=""
+          ph="nl-top-image"
+          uid="{FA15C3E6-3195-408A-9DD1-5304B0E12D52}"
+          vbd="1"
+          vbp="1" />
+        <r
+          cac="1"
+          cnd=""
+          ds="{A90883A4-F751-49A0-AB2B-93D47B760CBF}"
+          id="{CC003124-656D-4380-AF33-1CFC703D4242}"
+          mvt=""
+          par=""
+          ph="nl-body"
+          uid="{010CAE5A-51CA-41FE-BA80-3D4FB3BF1720}"
+          vbd="1"
+          vbdev="0"
+          vbl="0"
+          vbp="1"
+          vbqs="0"
+          vbu="0" />
+        <r
+          cac="1"
+          cnd=""
+          ds="{74AD196C-1C28-498C-8165-72A22A88B8A2}"
+          id="{8C20800B-BFB5-4264-9CFF-C156C11840D0}"
+          mvt=""
+          par=""
+          ph="nl-sidebar"
+          uid="{56EC5710-F46B-4287-9824-84ED26C14DA8}"
+          vbd="1"
+          vbdev="0"
+          vbl="0"
+          vbp="1"
+          vbqs="0"
+          vbu="0" />
+        <r
+          cac="1"
+          cnd=""
+          ds="{A34DE44A-285C-40C8-AD79-AAB975174AA6}"
+          id="{5240D8F0-98DD-4686-8395-CF206427680A}"
+          mvt=""
+          par=""
+          ph="nl-footer"
+          uid="{9C7EA6F7-52B2-4F62-B147-E59F5F160381}"
+          vbd="1"
+          vbp="1" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: gfdfgh
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d844c9c-bd6c-49b8-9475-947da791f268"
+      Hint: From Address
+      Value: no_reply@sitecore.net
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160816T092726Z
+    - ID: "8436a90c-85c0-4f16-8373-393c4c0a82c6"
+      Hint: From Name
+      Value: Sitecore

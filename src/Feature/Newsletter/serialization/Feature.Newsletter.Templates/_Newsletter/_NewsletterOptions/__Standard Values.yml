@@ -1,0 +1,39 @@
+﻿---
+ID: "618d0118-e885-4399-8943-da811aff8a36"
+Parent: "3b0eef2e-9de6-4bdd-a9e9-93cf1a88d3d1"
+Template: "3b0eef2e-9de6-4bdd-a9e9-93cf1a88d3d1"
+Path: /sitecore/templates/Feature/_Newsletter/_NewsletterOptions/__Standard Values
+DB: master
+SharedFields:
+- ID: "0ee036a5-975f-43e7-8e32-4279bc80665e"
+  Hint: Max Width
+  Value: 800px
+- ID: "1b417f04-7923-4826-b999-5b064d4eaa57"
+  Hint: Font Family
+  Value: Bitter, Palatino Linotype, Georgia, serif
+- ID: "4bafec3d-21bb-4278-9df0-7d66c137bdeb"
+  Hint: Before Body Html
+  Value: |
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Bitter:400,700,400italic);
+    </style>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "cb3d04a8-b195-4f13-ab0b-b8c320ac66d5"
+  Hint: Content Font Size
+  Value: 15px
+- ID: "eb627abe-e800-41f9-90f8-82435f287243"
+  Hint: Heading Font Size
+  Value: 24px
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160816T000443Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

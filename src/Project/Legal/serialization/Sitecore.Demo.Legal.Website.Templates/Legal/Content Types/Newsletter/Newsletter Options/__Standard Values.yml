@@ -1,0 +1,58 @@
+﻿---
+ID: "80099187-d77f-480c-8141-fa69f5d92832"
+Parent: "957ac850-52c7-4add-907b-7d557eb6b14f"
+Template: "957ac850-52c7-4add-907b-7d557eb6b14f"
+Path: /sitecore/templates/Project/Legal/Content Types/Newsletter/Newsletter Options/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {24D19D8F-907B-47B7-9703-6174E760BD91}
+    {23C8EFD2-99E7-44E9-BF8A-C97D1EC826DD}
+    {BCDBB585-DCBB-4459-A797-6D86EAEB7403}
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{8F1F6DC7-08FF-4E3A-BA0D-924BDC354540}">
+        <r
+          ds=""
+          id="{7B33308F-2118-4C3C-95A0-F12D389AE5CD}"
+          par="Background Color=%232E384E&amp;Heading Font Color=%23FFF&amp;Content Font Color=%23FFF&amp;Link Color=%23FFF"
+          ph="newsletter"
+          uid="{D9448EF6-E6E2-4C4C-9786-AAC43900313C}" />
+        <r
+          id="{13D138CA-D979-4CF0-A664-F647B1E2187D}"
+          ph="newsletter"
+          uid="{B7BAF799-A2E3-4696-ABB2-214029B0EF5D}" />
+        <r
+          id="{75CF2D93-EFF1-46E6-8DBA-575656A62955}"
+          ph="newsletter"
+          uid="{A991A8EE-F1E9-4557-A824-A3BE37EE100A}" />
+        <r
+          ds=""
+          id="{F7539AE8-F96C-4D93-87A4-CEBA02E6B14F}"
+          par="Background Color=%23C8244F&amp;Heading Font Color=%23FFF&amp;Content Font Color=%23FFF&amp;Link Color=%23FFF"
+          ph="newsletter"
+          uid="{AF95FA7A-E2A4-47E0-BEF3-FFDB20AA3103}" />
+        <r
+          ds=""
+          id="{7429DFC1-4BAE-4CDC-BA38-AA7AB27EED33}"
+          par="Background Color=%232E384E&amp;Heading Font Color=%239499A4&amp;Content Font Color=%239499A4&amp;Link Color=%239499A4"
+          ph="newsletter"
+          uid="{7D7A027C-0941-4B2A-8FDB-086392497DA8}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160816T055441Z

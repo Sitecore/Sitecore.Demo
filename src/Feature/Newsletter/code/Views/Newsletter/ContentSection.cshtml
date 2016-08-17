@@ -1,0 +1,29 @@
+﻿@using System.Diagnostics
+@using Sitecore.Data.Fields
+@using Sitecore.Feature.Newsletter
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Foundation.SitecoreExtensions.Extensions;
+@model Sitecore.Feature.Newsletter.Models.ISectionViewModel
+
+<!-- First text element, a well with custom text content -->
+<table cellpadding="0" cellspacing="0" width="100%" bgcolor="@Model.SectionOptions.BackgroundColor" style="background-color: @Model.SectionOptions.BackgroundColor" border="0">
+  <tbody>
+    <tr>
+      <td width="20"></td>
+      <td>
+        <h3 style="margin: 20px 0 10px 0; font-size: @Model.NewsletterOptions.HeadingFontSize; color: @Model.SectionOptions.HeadingFontColor; font-family: @Model.NewsletterOptions.FontFamily">@Html.Sitecore().Field(Templates.SectionContent.Fields.Heading, Model.ContentItem)</h3>
+      </td>
+      <td width="20"></td>
+    </tr>
+    <tr>
+      <td width="20"></td>
+      <td style="color: @Model.SectionOptions.ContentFontColor; font-family: @Model.NewsletterOptions.FontFamily; font-size: @Model.NewsletterOptions.ContentFontSize; line-height: 145%">
+        @Html.Sitecore().Field(Templates.SectionContent.Fields.Content, Model.ContentItem)
+      </td>
+      <td width="20"></td>
+    </tr>
+    <tr>
+      <td colspan="3" height="25"></td>
+    </tr>
+  </tbody>
+</table>
