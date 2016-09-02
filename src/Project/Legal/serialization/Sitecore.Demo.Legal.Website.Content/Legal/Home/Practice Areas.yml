@@ -2,7 +2,7 @@
 ID: "c03a4278-a428-4c5a-a451-97e6c3d17115"
 Parent: "6eb0f80b-a1d5-40e0-a472-9308b24228b5"
 Template: "4b0a2893-4e7b-4248-86a9-dab6da3bb230"
-Path: /sitecore/content/Legal/Home/Practise Areas
+Path: /sitecore/content/Legal/Home/Practice Areas
 DB: master
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
@@ -48,7 +48,7 @@ Languages:
         </r>
     - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
       Hint: NavigationTitle
-      Value: Practise Areas
+      Value: Practice Areas
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20151216T034619Z
@@ -57,7 +57,7 @@ Languages:
       Value: <p>Clients turn to us for practical legal advice and to help them uncover opportunities that lead to the resolution of legal issues and disputes. We have built a reputation of understanding the industries and businesses of our clients and working with them to achieve just that.</p>
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: Practise Areas
+      Value: Practice Areas
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
-      Value: Practise Areas
+      Value: Practice Areas
