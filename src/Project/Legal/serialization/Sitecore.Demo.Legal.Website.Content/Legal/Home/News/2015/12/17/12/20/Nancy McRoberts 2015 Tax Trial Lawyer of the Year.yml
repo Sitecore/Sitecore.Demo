@@ -22,11 +22,11 @@ Languages:
     - ID: "801612c7-5e98-4e3c-80d2-a34d0eebcbda"
       Hint: NewsBody
       Value: |
-        <p><span>San Francisco, California&mdash;We are very pleased to announce that Nancy was named as the 2015 Tax Trial Lawyer of the Year by the San Francisco Chapter of the American Board of Trial Advocates. ABOTA is a national peer-reviewed organization of trial lawyers dedicated to the preservation of the right to trial by jury. Nancy is the second Chase Ridley partner to be named the Trial Lawyer of the Year (Ryan Jacobs was the recipient in 2014) and the first woman in the Chapter to receive this esteemed award. Being first is nothing new for Nancy. She was also the first woman partner in the firm, and continues to lead by example in demonstrating the respect and courtesy towards others that led to her receiving the ABOTA Civility Award in 2010.</span></p>
+        <p><span>San Francisco, California&mdash;We are very pleased to announce that Nancy was named as the 2015 Tax Trial Lawyer of the Year by the San Francisco Chapter of the American Board of Trial Advocates. ABOTA is a national peer-reviewed organization of trial lawyers dedicated to the preservation of the right to trial by jury. Nancy is the second Habitat Legal partner to be named the Trial Lawyer of the Year (Ryan Jacobs was the recipient in 2014) and the first woman in the Chapter to receive this esteemed award. Being first is nothing new for Nancy. She was also the first woman partner in the firm, and continues to lead by example in demonstrating the respect and courtesy towards others that led to her receiving the ABOTA Civility Award in 2010.</span></p>
         <p>The presentation of the accolade was made at the Chapter&rsquo;s annual dinner on September 28th. ABOTA member Michael Ferrard entertained the group with stories about Nancy&rsquo;s career, including her cross examination during her first tax law trial. &ldquo;It is a wonderful honor to receive this award from a group of people who are not only the best litigators in this region, but also my professional peers and most importantly, my friends,&rdquo; Nancy said.</p>
     - ID: "9d08271a-1672-44dd-b7ef-0a6ec34fcba7"
       Hint: NewsSummary
-      Value: <span>We are very pleased to announce that Nancy was named as the 2015 Tax Trial Lawyer of the Year by the San Francisco Chapter of the American Board of Trial Advocates. </span>
+      Value: <p><span>We are very pleased to announce that Nancy was named as the 2015 Tax Trial Lawyer of the Year by the San Francisco Chapter of the American Board of Trial Advocates.&nbsp;</span></p>
     - ID: "bd9ecd4a-c0b0-4233-a3cd-d995519ac87b"
       Hint: NewsTitle
       Value: Nancy McRoberts, 2015 Tax Trial Lawyer of the Year
