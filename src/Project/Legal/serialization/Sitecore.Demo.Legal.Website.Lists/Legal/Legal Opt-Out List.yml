@@ -1,0 +1,18 @@
+﻿---
+ID: "345043e9-8a82-4c3c-a74e-f42c355dbda4"
+Parent: "4b830ac7-9d2b-411b-a0b5-76126de27cf8"
+Template: "8288d4ea-6576-486f-aaec-4680329a2d5c"
+Path: "/sitecore/system/List Manager/All Lists/Legal/Legal Opt-Out List"
+DB: master
+SharedFields:
+- ID: "55a40513-eb5e-4411-9128-38c2caec0c62"
+  Hint: Name
+  Value: "Legal Global Opt-Out List"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160816T235408Z

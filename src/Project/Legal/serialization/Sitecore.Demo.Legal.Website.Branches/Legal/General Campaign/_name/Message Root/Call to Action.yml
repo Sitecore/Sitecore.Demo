@@ -9,9 +9,6 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: "149a67a5-d693-4bc1-a2b8-f6c34e475bf3"
-      Hint: Link Text
-      Value: 
     - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
       Hint: Heading
       Value: Call to Action
@@ -21,6 +18,3 @@ Languages:
     - ID: "2e2c5fb3-ff5b-4f13-aa18-cfba9c9a97d3"
       Hint: Link
       Value: "<link text=\"Read More\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{6EB0F80B-A1D5-40E0-A472-9308B24228B5}\" />"
-    - ID: "94d50f81-f040-4b51-b895-d2fd2c27c223"
-      Hint: Content
-      Value: 

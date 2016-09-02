@@ -1,8 +1,11 @@
 ----role----
 name: legal\Legal Author
 
+----role-in-role----
+rolename: legal\Legal Marketer
+
 ----parent-roles----
-rolename: sitecore\Designer
 rolename: habitat\Project Habitat Content Author
+rolename: sitecore\Designer
 rolename: modules\Feature News Admin
 rolename: sitecore\Author

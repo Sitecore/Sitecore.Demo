@@ -8,9 +8,6 @@ SharedFields:
 - ID: "13f89250-ad6b-4548-882e-118a12c18094"
   Hint: Parameters Template
   Value: "{FD7942B0-B35B-4331-AEDC-929E2C64FA43}"
-- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
-  Hint: Datasource Template
-  Value: 
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: "site:newsletterlist"

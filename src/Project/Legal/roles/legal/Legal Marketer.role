@@ -2,8 +2,8 @@
 name: legal\Legal Marketer
 
 ----parent-roles----
-rolename: sitecore\Analytics Reporting
 rolename: sitecore\Experience Explorer
 rolename: sitecore\Analytics Testing
 rolename: sitecore\Sitecore Marketer Form Author
 rolename: legal\Legal Author
+rolename: sitecore\Analytics Reporting

@@ -9,9 +9,18 @@ SharedFields:
 - ID: "1b963507-6176-4336-a14d-d5070c3b0286"
   Hint: Base URL
   Value: "http://legal.dev.local"
+- ID: "1ec023fb-dbb4-4a7b-837d-55f9614737b8"
+  Hint: POP3 Password
+  Value: b
+- ID: "52d572ad-9678-423f-96e2-477528418ba1"
+  Hint: "Global Opt-out List"
+  Value: "{345043E9-8A82-4C3C-A74E-F42C355DBDA4}"
 - ID: "9b82216d-f53b-4558-b30a-e6952c8587f3"
   Hint: Website Site Configuration Name
   Value: legal
+- ID: "afb3e366-dab4-4e10-b61f-bc3776542bb8"
+  Hint: POP3 User Name
+  Value: sitecore\admin
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 300
@@ -25,7 +34,13 @@ Languages:
     Fields:
     - ID: "0f383cd8-c031-4a9d-9ed0-d55217f91287"
       Hint: From Address
-      Value: "do-not-reply@sitecore.net"
+      Value: "do-not-reply@habitat-legal.net"
+    - ID: "15b8e428-a2d3-4736-8708-3b6ce509aa86"
+      Hint: Reply To
+      Value: "info@habitat-legal.net"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160817T022738Z
+    - ID: "69aad409-ca36-4767-b945-abb77f3611fd"
+      Hint: From Name
+      Value: Habitat Legal Marketing

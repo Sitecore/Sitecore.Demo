@@ -13,9 +13,6 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: "18b3ef15-ec40-46fe-b03d-26cb3db243cb"
-      Hint: Image
-      Value: 
     - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
       Hint: Heading
       Value: Main Story

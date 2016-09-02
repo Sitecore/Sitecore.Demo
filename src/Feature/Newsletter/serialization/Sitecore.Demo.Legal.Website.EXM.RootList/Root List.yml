@@ -12,10 +12,6 @@ SharedFields:
   Hint: __Hidden
   Type: Checkbox
   Value: 1
-- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
-  Hint: __Read Only
-  Type: Checkbox
-  Value: 1
 - ID: "9e4027b2-0360-4b48-b665-fc51e55fc766"
   Hint: Manager Roots
   Type: Treelist
