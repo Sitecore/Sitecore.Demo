@@ -1,0 +1,31 @@
+﻿---
+ID: "5b28b45a-4394-472a-a6f8-661febb4ab7c"
+Parent: "022e936f-feeb-46c9-9195-f9a600b224df"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Feature/_Newsletter/newsletter
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: newsletter
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {F7539AE8-F96C-4D93-87A4-CEBA02E6B14F}
+    {75CF2D93-EFF1-46E6-8DBA-575656A62955}
+    {13D138CA-D979-4CF0-A664-F647B1E2187D}
+    {1BB68678-1954-4315-A063-392BE3F84C7A}
+    {66F89B1A-C696-4089-A50F-C2B11A09D874}
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20101203T045311Z

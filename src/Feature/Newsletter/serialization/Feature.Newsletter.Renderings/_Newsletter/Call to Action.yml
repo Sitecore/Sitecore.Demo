@@ -17,6 +17,13 @@ SharedFields:
 - ID: "e144d9d4-b135-42d4-a5a0-53c09704671c"
   Hint: Parameters
   Value: Background Color=%23C8244F&amp;Heading Font Color=%23FFF&amp;Content Font Color=%23FFF&amp;Link Color=%23FFF
+- ID: "e441abe7-2ca3-4640-ae26-3789967925d7"
+  Hint: Compatible Renderings
+  Type: Treelist
+  Value: |
+    {F7539AE8-F96C-4D93-87A4-CEBA02E6B14F}
+    {75CF2D93-EFF1-46E6-8DBA-575656A62955}
+    {13D138CA-D979-4CF0-A664-F647B1E2187D}
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
   Value: Sitecore.Feature.Newsletter.Controllers.NewsletterController, Sitecore.Feature.Newsletter
