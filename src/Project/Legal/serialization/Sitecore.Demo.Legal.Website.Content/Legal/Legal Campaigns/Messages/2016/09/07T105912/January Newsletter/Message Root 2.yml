@@ -1,9 +1,10 @@
 ﻿---
-ID: "aaf21c72-fa69-469c-9f45-ed08cb501102"
-Parent: "ef703d1b-6b94-49ba-822c-905a738d7417"
+ID: "6019795d-0436-418f-a34b-2407ac3d05da"
+Parent: "7373cd36-8de7-4ac5-984c-53c7c292ffb0"
 Template: "3f12d78c-b7b7-4157-98fc-da3322ee1a5b"
-Path: /sitecore/templates/Branches/Legal/Newsletter/$name/Message Root
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/January Newsletter/Message Root 2
 DB: master
+BranchID: "0caeacdc-d7aa-49d6-b8b4-cd7cf10a9023"
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
@@ -14,6 +15,9 @@ SharedFields:
     {24D19D8F-907B-47B7-9703-6174E760BD91}
     {957AC850-52C7-4ADD-907B-7D557EB6B14F}
     {856F628A-B9D2-45E2-AE60-E81FE7CC7785}
+- ID: "eb0b7cdf-d971-4539-916d-c5cf11e3fd4f"
+  Hint: VariantCreated
+  Value: "20160907T153254:636088591746032897Z"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
@@ -23,31 +27,31 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{8F1F6DC7-08FF-4E3A-BA0D-924BDC354540}">
         <r
-          ds="{22ED0541-B745-4A86-BA46-4F78CCDCA04A}"
+          ds="{AAA23ECA-7DA4-486B-AF22-3E98005F0AE7}"
           id="{7B33308F-2118-4C3C-95A0-F12D389AE5CD}"
           par="Background Color=White&amp;Heading Font Color=Black&amp;Content Font Color=Black&amp;Link Color=Black"
           ph="newsletter"
           uid="{E92C50F8-79B0-4F4D-B679-5CEEB5F7B1A5}" />
         <r
-          ds="{87F97FB6-7A33-499F-99B3-3127FE5446D9}"
+          ds="{B8206847-E691-47E7-9A0A-940F208D24D7}"
           id="{75CF2D93-EFF1-46E6-8DBA-575656A62955}"
           par="Background Color=%23f5f5f5&amp;Heading Font Color=Black&amp;Content Font Color=Black&amp;Link Color=Black"
           ph="newsletter"
           uid="{6E6559CA-04A1-411A-A590-2E89DEBE40F8}" />
         <r
-          ds="{84049503-41E2-431A-9170-8996C6F50175}"
+          ds="{655F9ED1-F5C8-4F49-BE70-4EF7E036401B}"
           id="{13D138CA-D979-4CF0-A664-F647B1E2187D}"
           par="Background Color&amp;Heading Font Color&amp;Content Font Color&amp;Link Color"
           ph="newsletter"
           uid="{BEE7C3D8-6994-4DB9-8FDB-3071D156D237}" />
         <r
-          ds="{84049503-41E2-431A-9170-8996C6F50175}"
+          ds="{655F9ED1-F5C8-4F49-BE70-4EF7E036401B}"
           id="{F7539AE8-F96C-4D93-87A4-CEBA02E6B14F}"
           par="Background Color=%23424C5F&amp;Heading Font Color=White&amp;Content Font Color=White&amp;Link Color=White"
           ph="newsletter"
           uid="{A7E7FB43-808B-4BEF-B122-DEF9AE7404B9}" />
         <r
-          ds="{E2714D4C-40C5-4E9A-BDAE-5E6DEB09185A}"
+          ds="{D4235E1A-FD34-4155-912C-71E83DC1F9C2}"
           id="{66F89B1A-C696-4089-A50F-C2B11A09D874}"
           par="Background Color&amp;Heading Font Color&amp;Content Font Color&amp;Link Color"
           ph="newsletter"
@@ -73,4 +77,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160817T021354Z
+      Value: 20160907T152706Z
+    - ID: "69909e89-5e8f-4a4b-9c16-b06a13f7b056"
+      Hint: AlternateText
+      Value: |
+        January Newsletter
+        Welcome to the January newsletter. As our friends in the Northern hemisphere deal with the winter winds and snow, our friends in the Southern hemisphere are basking in the warm weather.
+        
+        Shane Nevins Joins Our Team
+        The most significant news since our June newsletter is that Shane Nevins has joined the team as a Shareholder. Shane was originally a trial lawyer, but is now focused on counselling production companies, direct response companies and multi-level marketing organizations. You can read all about Shane in his profile on our web site.
+        
+        Corporate Legal Updates
+        One of Shane’s first significant contributions was to update the Legal Services area of our web site. This has been updated to account for the latest changes in the law.
+        
+        Webinar series 
+        We are again running our webinar series of free lectures. Last year this proved to be very popular and most of our sessions were oversubscribed. Make sure you don’t miss out by signing up now.
+        
+    - ID: "c0bfd467-0b74-4efe-b7c9-1ecf7f0e5370"
+      Hint: Subject
+      Value: January Newsletter

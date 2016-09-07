@@ -1,0 +1,57 @@
+﻿---
+ID: "1d0cafd4-cddc-4117-9a1f-8229ce7f579f"
+Parent: "c21e1a1f-8b80-4afa-b3f6-139a24eec6ba"
+Template: "0a43a0fe-7e0e-49ef-95d4-e3de34f4f175"
+Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Legal/Emails/January Newsletter/Clicked Through/One page
+DB: master
+SharedFields:
+- ID: "21f3482b-bb14-4555-ba5d-af20d400d5b9"
+  Hint: Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule
+        uid="{590D59BD-82C8-4272-A7A8-CFC1F886A9B4}">
+        <conditions>
+          <condition
+            id="{687D6908-052B-4CA3-8FF4-A5DBD75745BE}"
+            uid="F865AC3D746D4AF98C3F89083F635F17"
+            operatorid="{066602E2-ED1D-44C2-A698-7ED27FD3A2CC}"
+            index="1"
+            value="1" />
+        </conditions>
+      </rule>
+    </ruleset>
+- ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
+  Hint: Designer ID
+  Value: "d3ef607a-07aa-4b0e-8fcb-b3264af192b0"
+- ID: "7642ed71-348b-4b88-8634-cc7b28949472"
+  Hint: Origin ID
+  Value: "00000000-0000-0000-0000-000000000000"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1
+- ID: "d2368879-c784-4031-9b79-6a3bf3cb444e"
+  Hint: Next state
+  Value: "93c17e52-8bb7-4297-a1a1-61ffc51ea84d"
+- ID: "e13dcd09-d9bb-43c9-8d7d-438c79d714ca"
+  Hint: Evaluate
+  Value: "{B81C1F4C-8B83-44D9-902F-448463DBCCBC}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "06f2d72a-1924-4b9a-ba1e-186ce4e57efd"
+    Hint: Description
+    Value: 
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Visited one page
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20110401T124858:634372589380498587"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

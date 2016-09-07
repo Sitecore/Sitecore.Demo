@@ -29,6 +29,9 @@ SharedFields:
           name="B2B"
           value="3" />
       </profile>
+      <event
+        id="{4DDBAC1D-32F9-41A3-84B0-08AEFD1C056E}"
+        name="Brenda Barkley" />
     </tracking>
 Languages:
 - Language: en

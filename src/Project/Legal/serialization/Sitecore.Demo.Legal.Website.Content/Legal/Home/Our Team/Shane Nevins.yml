@@ -29,6 +29,9 @@ SharedFields:
           name="B2B"
           value="1" />
       </profile>
+      <event
+        id="{98FEC571-FFE2-4916-8D80-AF9E0AEC4B22}"
+        name="Shane Nevins" />
     </tracking>
 Languages:
 - Language: en

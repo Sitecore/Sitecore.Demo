@@ -1,19 +1,32 @@
 ﻿---
-ID: "aaf21c72-fa69-469c-9f45-ed08cb501102"
-Parent: "ef703d1b-6b94-49ba-822c-905a738d7417"
-Template: "3f12d78c-b7b7-4157-98fc-da3322ee1a5b"
-Path: /sitecore/templates/Branches/Legal/Newsletter/$name/Message Root
+ID: "7373cd36-8de7-4ac5-984c-53c7c292ffb0"
+Parent: "ce3526bf-e9c1-458b-9ad4-fc311acaeaf2"
+Template: "078d8a76-f971-4891-b422-76c0bcf9fa03"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/January Newsletter
 DB: master
+BranchID: "0caeacdc-d7aa-49d6-b8b4-cd7cf10a9023"
 SharedFields:
-- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
-  Hint: __Masters
-  Type: TreelistEx
-  Value: |
-    {BCDBB585-DCBB-4459-A797-6D86EAEB7403}
-    {23C8EFD2-99E7-44E9-BF8A-C97D1EC826DD}
-    {24D19D8F-907B-47B7-9703-6174E760BD91}
-    {957AC850-52C7-4ADD-907B-7D557EB6B14F}
-    {856F628A-B9D2-45E2-AE60-E81FE7CC7785}
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: People/32x32/target.png
+- ID: "0934bec4-325a-427b-95bb-46f78cea9591"
+  Hint: Message Type
+  Value: "{C2786C9C-B267-4DD8-B8FB-4452A23F9969}"
+- ID: "09ad7c00-a8de-46f7-bc54-e7572e38c136"
+  Hint: Body
+  Value: "{103B7F0A-718D-4C5E-8010-344ECCB7CD96}"
+- ID: "21f2a1e0-ac16-443b-b7a9-83504159f2bb"
+  Hint: Device
+  Value: "{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+- ID: "2bbf5276-ed11-4cd0-946f-66678b524457"
+  Hint: Campaign Position
+  Value: "{0A1E7823-DCCE-4BFE-8970-41EFADEABE1C}"
+- ID: "af0fe26a-a78b-491d-885c-03d95bc17342"
+  Hint: State
+  Value: Draft
+- ID: "ed5a9033-96ed-41f8-9731-7499c55ecbfa"
+  Hint: Engagement Plan
+  Value: "{7F206F23-3029-4414-9B1B-0FFAF61ACC91}"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
@@ -23,31 +36,31 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{8F1F6DC7-08FF-4E3A-BA0D-924BDC354540}">
         <r
-          ds="{22ED0541-B745-4A86-BA46-4F78CCDCA04A}"
+          ds="{686397EB-BE87-487B-B323-CC06DD5CB0D3}"
           id="{7B33308F-2118-4C3C-95A0-F12D389AE5CD}"
           par="Background Color=White&amp;Heading Font Color=Black&amp;Content Font Color=Black&amp;Link Color=Black"
           ph="newsletter"
           uid="{E92C50F8-79B0-4F4D-B679-5CEEB5F7B1A5}" />
         <r
-          ds="{87F97FB6-7A33-499F-99B3-3127FE5446D9}"
+          ds="{2987AF5C-5E90-4152-9393-DD6F62F82C1F}"
           id="{75CF2D93-EFF1-46E6-8DBA-575656A62955}"
           par="Background Color=%23f5f5f5&amp;Heading Font Color=Black&amp;Content Font Color=Black&amp;Link Color=Black"
           ph="newsletter"
           uid="{6E6559CA-04A1-411A-A590-2E89DEBE40F8}" />
         <r
-          ds="{84049503-41E2-431A-9170-8996C6F50175}"
+          ds="{B958BE83-5F16-4836-8E63-D5124FD03682}"
           id="{13D138CA-D979-4CF0-A664-F647B1E2187D}"
           par="Background Color&amp;Heading Font Color&amp;Content Font Color&amp;Link Color"
           ph="newsletter"
           uid="{BEE7C3D8-6994-4DB9-8FDB-3071D156D237}" />
         <r
-          ds="{84049503-41E2-431A-9170-8996C6F50175}"
+          ds="{B958BE83-5F16-4836-8E63-D5124FD03682}"
           id="{F7539AE8-F96C-4D93-87A4-CEBA02E6B14F}"
           par="Background Color=%23424C5F&amp;Heading Font Color=White&amp;Content Font Color=White&amp;Link Color=White"
           ph="newsletter"
           uid="{A7E7FB43-808B-4BEF-B122-DEF9AE7404B9}" />
         <r
-          ds="{E2714D4C-40C5-4E9A-BDAE-5E6DEB09185A}"
+          ds="{78064509-0815-46BF-AA39-748F8FE86C25}"
           id="{66F89B1A-C696-4089-A50F-C2B11A09D874}"
           par="Background Color&amp;Heading Font Color&amp;Content Font Color&amp;Link Color"
           ph="newsletter"
@@ -66,11 +79,30 @@ SharedFields:
           uid="{060548F7-B9E0-498A-80C0-D165CC9AD1C6}" />
       </d>
     </r>
+- ID: "fade34d8-c101-420d-9620-e4deb659c36b"
+  Hint: Campaign Group
+  Value: "{AB2F413C-4854-48EB-B7EB-6FD2E8142B19}"
 Languages:
 - Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: General Legal newsletter for January
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: January Newsletter
   Versions:
   - Version: 1
     Fields:
+    - ID: "0d844c9c-bd6c-49b8-9475-947da791f268"
+      Hint: From Address
+      Value: "do-not-reply@habitat-legal.net"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160817T021354Z
+      Value: 20160907T152706Z
+    - ID: "8436a90c-85c0-4f16-8373-393c4c0a82c6"
+      Hint: From Name
+      Value: Habitat Legal Marketing
+    - ID: "ced0c05f-d1cb-46e9-875b-e2c01eec85bc"
+      Hint: Reply To
+      Value: "info@habitat-legal.net"
