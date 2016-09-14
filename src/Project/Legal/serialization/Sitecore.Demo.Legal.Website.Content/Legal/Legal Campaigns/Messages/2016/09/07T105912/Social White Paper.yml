@@ -1,0 +1,102 @@
+﻿---
+ID: "8dce7c35-16f9-4b2a-a3d2-3a4da3aa0723"
+Parent: "ce3526bf-e9c1-458b-9ad4-fc311acaeaf2"
+Template: "078d8a76-f971-4891-b422-76c0bcf9fa03"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/Social White Paper
+DB: master
+BranchID: "bdb49a2e-9be1-456f-bebb-4f72da36524e"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: People/32x32/target.png
+- ID: "0934bec4-325a-427b-95bb-46f78cea9591"
+  Hint: Message Type
+  Value: "{C2786C9C-B267-4DD8-B8FB-4452A23F9969}"
+- ID: "09ad7c00-a8de-46f7-bc54-e7572e38c136"
+  Hint: Body
+  Value: "{FC6A0A59-5FBE-4478-940A-0AF2AFBF4602}"
+- ID: "21f2a1e0-ac16-443b-b7a9-83504159f2bb"
+  Hint: Device
+  Value: "{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+- ID: "2bbf5276-ed11-4cd0-946f-66678b524457"
+  Hint: Campaign Position
+  Value: "{0A1E7823-DCCE-4BFE-8970-41EFADEABE1C}"
+- ID: "af0fe26a-a78b-491d-885c-03d95bc17342"
+  Hint: State
+  Value: Draft
+- ID: "ed5a9033-96ed-41f8-9731-7499c55ecbfa"
+  Hint: Engagement Plan
+  Value: "{A4086636-A666-4DFA-B1A1-5EAACD646825}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{8F1F6DC7-08FF-4E3A-BA0D-924BDC354540}">
+        <r
+          ds="{E0D29DC2-C9D7-47A1-9B83-7F0F037D9E15}"
+          id="{7B33308F-2118-4C3C-95A0-F12D389AE5CD}"
+          par="Background Color=White&amp;Heading Font Color=Black&amp;Content Font Color=Black&amp;Link Color=Black"
+          ph="newsletter"
+          uid="{E92C50F8-79B0-4F4D-B679-5CEEB5F7B1A5}" />
+        <r
+          ds="{872430BB-C395-4F7C-A6A4-E53B0914A26F}"
+          id="{13D138CA-D979-4CF0-A664-F647B1E2187D}"
+          par="Background Color&amp;Heading Font Color&amp;Content Font Color&amp;Link Color"
+          ph="newsletter"
+          uid="{69F10AB0-E868-4F02-9086-55A34A6858DA}" />
+        <r
+          ds="{872430BB-C395-4F7C-A6A4-E53B0914A26F}"
+          id="{75CF2D93-EFF1-46E6-8DBA-575656A62955}"
+          par="Background Color&amp;Heading Font Color&amp;Content Font Color&amp;Link Color"
+          ph="newsletter"
+          uid="{6E6559CA-04A1-411A-A590-2E89DEBE40F8}" />
+        <r
+          ds="{7533E53A-ED55-48D4-B938-78882AD1A0F7}"
+          id="{F7539AE8-F96C-4D93-87A4-CEBA02E6B14F}"
+          par="Background Color=%23c8244f&amp;Heading Font Color=White&amp;Content Font Color=White&amp;Link Color=White"
+          ph="newsletter"
+          uid="{A7E7FB43-808B-4BEF-B122-DEF9AE7404B9}" />
+        <r
+          ds="{326B08D0-579C-426D-B464-3207D11E5EB7}"
+          id="{7429DFC1-4BAE-4CDC-BA38-AA7AB27EED33}"
+          par="Background Color=%232e384e&amp;Heading Font Color=%23d5d7dc&amp;Content Font Color=%23d5d7dc&amp;Link Color=%23d5d7dc"
+          ph="newsletter"
+          uid="{5B33AB23-ADDC-4DDC-AF0C-4179EE4B7031}" />
+        <r
+          ds=""
+          id="{69EB7A6D-ACEF-4D06-A923-804918AA245E}"
+          par=""
+          ph="newsletter_head"
+          uid="{3E8BCD3D-2B6C-45CC-A523-FAE5B7E6D3DE}" />
+      </d>
+    </r>
+- ID: "fade34d8-c101-420d-9620-e4deb659c36b"
+  Hint: Campaign Group
+  Value: "{AB2F413C-4854-48EB-B7EB-6FD2E8142B19}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: Social White Paper download campaign
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Social White Paper
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d844c9c-bd6c-49b8-9475-947da791f268"
+      Hint: From Address
+      Value: no_reply@sitecore.net
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160914T171852Z
+    - ID: "8436a90c-85c0-4f16-8373-393c4c0a82c6"
+      Hint: From Name
+      Value: no_reply@sitecore.net
+    - ID: "ced0c05f-d1cb-46e9-875b-e2c01eec85bc"
+      Hint: Reply To
+      Value: no_reply@sitecore.net

@@ -1,0 +1,95 @@
+﻿---
+ID: "d9ad4d96-5595-4fc6-b89d-8c3309c99b25"
+Parent: "0beed6a1-15ec-4087-9252-43236c332ddd"
+Template: "3f12d78c-b7b7-4157-98fc-da3322ee1a5b"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/June Newsletter/Message Root
+DB: master
+BranchID: "0caeacdc-d7aa-49d6-b8b4-cd7cf10a9023"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {BCDBB585-DCBB-4459-A797-6D86EAEB7403}
+    {23C8EFD2-99E7-44E9-BF8A-C97D1EC826DD}
+    {24D19D8F-907B-47B7-9703-6174E760BD91}
+    {957AC850-52C7-4ADD-907B-7D557EB6B14F}
+    {856F628A-B9D2-45E2-AE60-E81FE7CC7785}
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{8F1F6DC7-08FF-4E3A-BA0D-924BDC354540}">
+        <r
+          ds="{B34F3427-C0A2-4D2C-8416-76DD81F88748}"
+          id="{7B33308F-2118-4C3C-95A0-F12D389AE5CD}"
+          par="Background Color=White&amp;Heading Font Color=Black&amp;Content Font Color=Black&amp;Link Color=Black"
+          ph="newsletter"
+          uid="{E92C50F8-79B0-4F4D-B679-5CEEB5F7B1A5}" />
+        <r
+          ds="{2D3FE179-B356-4E1F-8C2B-4966CDE8025D}"
+          id="{75CF2D93-EFF1-46E6-8DBA-575656A62955}"
+          par="Background Color=%23f5f5f5&amp;Heading Font Color=Black&amp;Content Font Color=Black&amp;Link Color=Black"
+          ph="newsletter"
+          uid="{6E6559CA-04A1-411A-A590-2E89DEBE40F8}" />
+        <r
+          ds="{7A2BE4CB-199E-4DC9-AB61-6AD2BF0A7DCE}"
+          id="{13D138CA-D979-4CF0-A664-F647B1E2187D}"
+          par="Background Color&amp;Heading Font Color&amp;Content Font Color&amp;Link Color"
+          ph="newsletter"
+          uid="{BEE7C3D8-6994-4DB9-8FDB-3071D156D237}" />
+        <r
+          ds="{7A2BE4CB-199E-4DC9-AB61-6AD2BF0A7DCE}"
+          id="{F7539AE8-F96C-4D93-87A4-CEBA02E6B14F}"
+          par="Background Color=%23424C5F&amp;Heading Font Color=White&amp;Content Font Color=White&amp;Link Color=White"
+          ph="newsletter"
+          uid="{A7E7FB43-808B-4BEF-B122-DEF9AE7404B9}" />
+        <r
+          ds="{62339926-E264-46C7-87D9-261C118388F6}"
+          id="{66F89B1A-C696-4089-A50F-C2B11A09D874}"
+          par="Background Color&amp;Heading Font Color&amp;Content Font Color&amp;Link Color"
+          ph="newsletter"
+          uid="{49816F70-1E80-4A7A-8507-B489E31E9CF9}" />
+        <r
+          ds="{108D905F-68DC-4652-A9F9-BE6C733376B7}"
+          id="{7429DFC1-4BAE-4CDC-BA38-AA7AB27EED33}"
+          par="Background Color=%232e384e&amp;Heading Font Color=%23d5d7dc&amp;Content Font Color=%23d5d7dc&amp;Link Color=%23d5d7dc"
+          ph="newsletter"
+          uid="{5B33AB23-ADDC-4DDC-AF0C-4179EE4B7031}" />
+        <r
+          ds=""
+          id="{69EB7A6D-ACEF-4D06-A923-804918AA245E}"
+          par=""
+          ph="newsletter_head"
+          uid="{060548F7-B9E0-498A-80C0-D165CC9AD1C6}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160914T173354Z
+    - ID: "69909e89-5e8f-4a4b-9c16-b06a13f7b056"
+      Hint: AlternateText
+      Value: |
+        June Newsletter
+        Welcome to the June newsletter. Lots has happened since our last newsletter in January. Here are the highlights.
+        
+        Email and the Law
+        Yes, you are receiving this newsletter by email. That means you must have signed up the newsletter list. Not all email systems make it easy for you to unsubscribe and prevent spam (our system does so don’t worry). You might be surprised to know how different the laws are in each county regarding email and the information that is held about you
+        
+        Family Legal Updates
+        Close on the heels of our updates to the Corporate law section, we have not updated our family law section extensively. There is now a lot more information about personal tax and wills. You can see all the updates by following the link.
+        
+        Webinar series 
+        We are still running our very popular webinar series following our success with this earlier in the year. We have included some additional information about the extra services we offer. These are all free so make sure you don’t miss out by signing up now.
+        
+    - ID: "c0bfd467-0b74-4efe-b7c9-1ecf7f0e5370"
+      Hint: Subject
+      Value: June Newsletter
