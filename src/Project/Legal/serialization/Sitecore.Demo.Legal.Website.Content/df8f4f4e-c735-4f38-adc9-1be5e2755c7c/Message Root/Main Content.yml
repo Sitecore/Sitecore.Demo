@@ -1,0 +1,28 @@
+﻿---
+ID: "0c789621-df45-42e4-b151-8b55c1bee641"
+Parent: "5ce7078e-6db6-40e9-958f-bc9a2f994e48"
+Template: "24d19d8f-907b-47b7-9703-6174e760bd91"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/Solving Transaction Tax Challenges in Mergers and Acquisitions/Message Root/Main Content
+DB: master
+BranchID: "614fc1f2-1633-4049-9e9f-0134610e6719"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "18b3ef15-ec40-46fe-b03d-26cb3db243cb"
+      Hint: Image
+      Value: "<image mediaid=\"{76C6808D-2572-4707-9F81-1B03356475A9}\" />"
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: Solving Tax Challenges in Mergers and Acquisitions
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160915T093236Z
+    - ID: "94d50f81-f040-4b51-b895-d2fd2c27c223"
+      Hint: Content
+      Value: <span>This webinar series will provide attorneys with a deep dive into a variety of topics and considerations for taxation law—transactional tax planning, audits, and tax litigation.</span><br>

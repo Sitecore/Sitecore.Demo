@@ -1,8 +1,8 @@
 ﻿---
-ID: "a6f0ed9a-84e1-4b44-8213-9e41c695dd8e"
+ID: "df8f4f4e-c735-4f38-adc9-1be5e2755c7c"
 Parent: "ce3526bf-e9c1-458b-9ad4-fc311acaeaf2"
 Template: "078d8a76-f971-4891-b422-76c0bcf9fa03"
-Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/Updates For Lawyers
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/Solving Transaction Tax Challenges in Mergers and Acquisitions
 DB: master
 BranchID: "614fc1f2-1633-4049-9e9f-0134610e6719"
 SharedFields:
@@ -14,7 +14,7 @@ SharedFields:
   Value: "{C2786C9C-B267-4DD8-B8FB-4452A23F9969}"
 - ID: "09ad7c00-a8de-46f7-bc54-e7572e38c136"
   Hint: Body
-  Value: "{CBE10ACE-6EA7-4E08-97B9-5EDE33E1847D}"
+  Value: "{5CE7078E-6DB6-40E9-958F-BC9A2F994E48}"
 - ID: "21f2a1e0-ac16-443b-b7a9-83504159f2bb"
   Hint: Device
   Value: "{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
@@ -24,13 +24,9 @@ SharedFields:
 - ID: "af0fe26a-a78b-491d-885c-03d95bc17342"
   Hint: State
   Value: Draft
-- ID: "ccf21e1b-ee11-4a0b-942a-b4de2dfa3685"
-  Hint: Excluded Recipient Lists
-  Type: TreelistEx
-  Value: 
 - ID: "ed5a9033-96ed-41f8-9731-7499c55ecbfa"
   Hint: Engagement Plan
-  Value: "{986222DE-FDDD-43AC-B647-7A607CA32CEC}"
+  Value: "{2320D9E9-F1E9-4B99-9AAB-3D5A9ACBE6EA}"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
@@ -40,31 +36,31 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{8F1F6DC7-08FF-4E3A-BA0D-924BDC354540}">
         <r
-          ds="{40BBCA65-A3DD-4D2D-9653-4DC2F59FFA45}"
+          ds="{25DB03D8-9303-4C3E-80B2-F1B1201A7465}"
           id="{7B33308F-2118-4C3C-95A0-F12D389AE5CD}"
           par="Background Color=White&amp;Heading Font Color=Black&amp;Content Font Color=Black&amp;Link Color=Black"
           ph="newsletter"
           uid="{E92C50F8-79B0-4F4D-B679-5CEEB5F7B1A5}" />
         <r
-          ds="{0DB96C93-C0B5-4CD8-8CFB-5FF30C9D9932}"
+          ds="{0C789621-DF45-42E4-B151-8B55C1BEE641}"
           id="{13D138CA-D979-4CF0-A664-F647B1E2187D}"
           par="Background Color&amp;Heading Font Color&amp;Content Font Color&amp;Link Color"
           ph="newsletter"
           uid="{69F10AB0-E868-4F02-9086-55A34A6858DA}" />
         <r
-          ds="{0DB96C93-C0B5-4CD8-8CFB-5FF30C9D9932}"
+          ds="{0C789621-DF45-42E4-B151-8B55C1BEE641}"
           id="{75CF2D93-EFF1-46E6-8DBA-575656A62955}"
           par="Background Color&amp;Heading Font Color&amp;Content Font Color&amp;Link Color"
           ph="newsletter"
           uid="{6E6559CA-04A1-411A-A590-2E89DEBE40F8}" />
         <r
-          ds="{70F2803B-FAE5-45E4-8169-DB040478D422}"
+          ds="{C06DB10E-253D-4F7B-9DCF-1B02595CCC64}"
           id="{F7539AE8-F96C-4D93-87A4-CEBA02E6B14F}"
           par="Background Color=%23c8244f&amp;Heading Font Color=White&amp;Content Font Color=White&amp;Link Color=White"
           ph="newsletter"
           uid="{A7E7FB43-808B-4BEF-B122-DEF9AE7404B9}" />
         <r
-          ds="{48EF0F08-62F9-4A56-9EC4-98CA5A7ECED0}"
+          ds="{0CE3926A-8ABA-4C61-83A5-B390010000DD}"
           id="{7429DFC1-4BAE-4CDC-BA38-AA7AB27EED33}"
           par="Background Color=%232e384e&amp;Heading Font Color=%23d5d7dc&amp;Content Font Color=%23d5d7dc&amp;Link Color=%23d5d7dc"
           ph="newsletter"
@@ -77,19 +73,18 @@ SharedFields:
           uid="{40853298-0115-4D97-84DD-3D23C57E17EE}" />
       </d>
     </r>
-- ID: "f8d592cc-f3e5-4a8e-a600-8aebe8cc36e4"
-  Hint: Included Recipient Lists
-  Type: TreelistEx
-  Value: 
 - ID: "fade34d8-c101-420d-9620-e4deb659c36b"
   Hint: Campaign Group
   Value: "{AB2F413C-4854-48EB-B7EB-6FD2E8142B19}"
 Languages:
 - Language: en
   Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This webinar series will provide attorneys with a deep dive into a variety of topics and considerations for taxation law—transactional tax planning, audits, and tax litigation.
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Updates For Lawyers
+    Value: Solving Transaction Tax Challenges in Mergers and Acquisitions
   Versions:
   - Version: 1
     Fields:
@@ -98,7 +93,7 @@ Languages:
       Value: no_reply@sitecore.net
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160914T174050Z
+      Value: 20160915T093235Z
     - ID: "8436a90c-85c0-4f16-8373-393c4c0a82c6"
       Hint: From Name
       Value: no_reply@sitecore.net
