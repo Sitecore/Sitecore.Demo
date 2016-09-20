@@ -1,0 +1,47 @@
+﻿---
+ID: "a9f8e470-110b-4dcc-905a-1ff06ea5e37e"
+Parent: "3622c9e8-8a51-4e12-847c-f6cadb685b51"
+Template: "0a43a0fe-7e0e-49ef-95d4-e3de34f4f175"
+Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Legal/Emails/Download Social White Paper/Clicked Through/Is not email click handler session
+DB: master
+SharedFields:
+- ID: "21f3482b-bb14-4555-ba5d-af20d400d5b9"
+  Hint: Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule
+        uid="{06047A01-F174-48AF-82D9-04AF278B7CD7}">
+        <conditions>
+          <condition
+            id="{E6AF0AA4-D0A1-4A44-9F24-A984AD3505EA}"
+            uid="3EE15C943D8541F58723A9B26ADF2C76"
+            GoalId="{87431B9B-FA39-4780-BEB3-1047B9E61876}"
+            except="true" />
+        </conditions>
+      </rule>
+    </ruleset>
+- ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
+  Hint: Designer ID
+  Value: "871e9e61-b780-4b1d-b636-2ef5af647b3a"
+- ID: "7642ed71-348b-4b88-8634-cc7b28949472"
+  Hint: Origin ID
+  Value: "00000000-0000-0000-0000-000000000000"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "d2368879-c784-4031-9b79-6a3bf3cb444e"
+  Hint: Next state
+  Value: "00000000-0000-0000-0000-000000000000"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Is not email click handler session
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20140718T131052:635412858526205943"

@@ -1,0 +1,19 @@
+﻿---
+ID: "371dfa7d-8cd1-4145-b27b-266539a47ab8"
+Parent: "9f4e575e-5094-4f5e-be3d-66151b35d839"
+Template: "957ac850-52c7-4add-907b-7d557eb6b14f"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/Transaction Tax Challenges/Message Root/Options
+DB: master
+BranchID: "614fc1f2-1633-4049-9e9f-0134610e6719"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160920T173124Z

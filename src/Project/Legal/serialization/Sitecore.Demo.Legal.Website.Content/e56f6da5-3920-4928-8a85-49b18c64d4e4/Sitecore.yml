@@ -1,0 +1,18 @@
+﻿---
+ID: "2a4f9423-cc90-448d-9a85-74ccddb3c778"
+Parent: "e56f6da5-3920-4928-8a85-49b18c64d4e4"
+Template: "f0818351-eed1-453e-8325-684eeb1a827a"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/May Newsletter/Message Root/Footer/Sitecore
+DB: master
+BranchID: "0caeacdc-d7aa-49d6-b8b4-cd7cf10a9023"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160914T173356Z
+    - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
+      Hint: Link
+      Value: "<link text=\"Sitecore\" linktype=\"external\" url=\"http://www.sitecore.net\" anchor=\"\" target=\"\" />"
