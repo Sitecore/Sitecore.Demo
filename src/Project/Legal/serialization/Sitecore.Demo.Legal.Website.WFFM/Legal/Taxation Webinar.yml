@@ -9,6 +9,10 @@ SharedFields:
   Hint: Is Ajax Mvc Form
   Type: Checkbox
   Value: 0
+- ID: "46fb324a-9741-43bd-a0c9-5081a39d40aa"
+  Hint: Show Introduction
+  Type: Checkbox
+  Value: 0
 - ID: "5b891b54-4fce-489e-a7e6-841d92e9859a"
   Hint: Save Form Data To Storage
   Type: Checkbox
@@ -40,6 +44,9 @@ SharedFields:
         </li>
         <li id="{90538392-5648-4326-B506-E1913ED1DAA8}" unicid="864187984DA34D7EB41EFA4F0683626D">
           <parameters>&amp;lt;outcome&amp;gt;{75D53206-47B3-4391-BD48-75C42E5FC2CE}&amp;lt;/outcome&amp;gt;</parameters>
+        </li>
+        <li id="{EB59E095-5B61-4C04-8286-9469DAFD9A13}" unicid="E0DEB89053084B4AB966B769C8A957B3">
+          <parameters>&amp;lt;messageid&amp;gt;{4DC01DA3-D231-4185-8E87-4F35A0739D07}&amp;lt;/messageid&amp;gt;&amp;lt;receiver&amp;gt;&amp;lt;/receiver&amp;gt;&amp;lt;customtokens&amp;gt;&amp;lt;/customtokens&amp;gt;&amp;lt;waitforconfirmation&amp;gt;False&amp;lt;/waitforconfirmation&amp;gt;</parameters>
         </li>
       </g>
     </li>
@@ -90,6 +97,10 @@ SharedFields:
 - ID: "d755de87-9c62-4eb3-83dc-2293784a3a3f"
   Hint: Success Mode
   Value: "{F4D50806-6B89-4F2D-89FE-F77FC0A07D48}"
+- ID: "faeacd39-b059-4f46-bec4-74ba468a97b8"
+  Hint: Show Footer
+  Type: Checkbox
+  Value: 0
 Languages:
 - Language: "de-DE"
   Fields:
@@ -130,6 +141,9 @@ Languages:
     - ID: "53aff40d-e61f-43dc-96d6-a5c7f4882e20"
       Hint: Save Action Failed Message
       Value: This user has already been registered
+    - ID: "6739fa82-a9b4-40f1-aefe-3d67ae3e8dfc"
+      Hint: Title Tag
+      Value: H1
     - ID: "86d6a401-5a20-49c9-a2f8-0312398ee946"
       Hint: Title
       Value: Taxation Webinar Information
