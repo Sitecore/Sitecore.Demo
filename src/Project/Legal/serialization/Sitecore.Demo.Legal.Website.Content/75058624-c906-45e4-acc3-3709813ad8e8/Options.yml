@@ -1,0 +1,19 @@
+﻿---
+ID: "fd7bd103-3cd3-4229-ac17-52417cb32ac0"
+Parent: "75058624-c906-45e4-acc3-3709813ad8e8"
+Template: "957ac850-52c7-4add-907b-7d557eb6b14f"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/Q3 Updates for Lawyers/Message Root/Options
+DB: master
+BranchID: "614fc1f2-1633-4049-9e9f-0134610e6719"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160914T174051Z

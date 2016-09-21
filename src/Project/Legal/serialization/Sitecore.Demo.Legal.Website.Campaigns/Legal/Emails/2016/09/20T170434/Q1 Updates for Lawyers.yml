@@ -1,0 +1,46 @@
+﻿---
+ID: "a7dd55e7-1839-41e3-85f5-58265864a29f"
+Parent: "9dc4a534-bc56-47f8-8bc8-054f4314b555"
+Template: "94fd1606-139e-46ee-86ff-bc5bf3c79804"
+Path: /sitecore/system/Marketing Control Panel/Campaigns/Legal/Emails/2016/09/20T170434/Q1 Updates for Lawyers
+DB: master
+SharedFields:
+- ID: "43aa1c9a-d1be-498a-9841-1def2c2231ba"
+  Hint: Select Traffic Type
+  Value: "{3E11F7A7-0059-45EF-95D9-3B03425B3BAF}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{689E2994-4656-4C58-9112-7826CB46EE69}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Q1 Updates for Lawyers
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f47d1b4-bcb4-4f7f-9065-6ecb46aab9a1"
+      Hint: Title
+      Value: Q1 Updates for Lawyers
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160921T110249Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{EDCBB550-BED3-490F-82B8-7B2F14CCD26E}"
+    - ID: "4c1bf83b-06e2-4b07-ad16-0e65d95e356e"
+      Hint: Channel
+      Value: "{DDAFB85B-1511-48B8-9374-2A8A1F371645}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: 
+    - ID: "aa6a984d-37e6-478b-afc1-a8072e76d5bb"
+      Hint: Data
+      Value: "{5EBC8DC1-B219-4B0E-B600-5BE2826D73EA}{B036DBC5-20D4-4D02-9446-D7AE199073F7}"
+    - ID: "bd4720d7-9ed6-4438-959b-7b1c5c32c10b"
+      Hint: StartDate
+      Value: "20160921T110249:636100525690000000Z"
+    - ID: "ffaea943-df50-4f11-94ed-4690418a7d96"
+      Hint: Campaign group
+      Value: "{AB2F413C-4854-48EB-B7EB-6FD2E8142B19}"

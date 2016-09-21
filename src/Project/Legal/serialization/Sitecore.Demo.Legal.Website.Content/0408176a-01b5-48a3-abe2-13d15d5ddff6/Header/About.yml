@@ -1,0 +1,18 @@
+﻿---
+ID: "8311e13b-174d-4064-a855-fc26d7b4dc6a"
+Parent: "e50511f2-de2d-403e-b036-eea5c2c8082f"
+Template: "f0818351-eed1-453e-8325-684eeb1a827a"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/Q2 Updates for Lawyers/Message Root/Header/About
+DB: master
+BranchID: "614fc1f2-1633-4049-9e9f-0134610e6719"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160914T174050Z
+    - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
+      Hint: Link
+      Value: "<link text=\"About Us\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{53C59369-B0C7-40B2-B76F-DED99916D309}\" />"

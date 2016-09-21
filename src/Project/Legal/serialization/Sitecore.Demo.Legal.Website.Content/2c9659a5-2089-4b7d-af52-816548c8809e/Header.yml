@@ -1,0 +1,22 @@
+﻿---
+ID: "b5b165e5-179f-4261-ac89-0f087c8d2b1e"
+Parent: "2c9659a5-2089-4b7d-af52-816548c8809e"
+Template: "23c8efd2-99e7-44e9-bf8a-c97d1ec826dd"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/Q4 Updates for Lawyers/Message Root/Header
+DB: master
+BranchID: "614fc1f2-1633-4049-9e9f-0134610e6719"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160914T174050Z
+    - ID: "2fac8d4a-25ff-46cc-b2ff-a46e996d2913"
+      Hint: Logo
+      Value: "<image mediaid=\"{92DD68A8-A4E3-469B-97AD-F1C2A7BCBB0B}\" alt=\"\" height=\"38\" width=\"150\" hspace=\"\" vspace=\"\" />"
