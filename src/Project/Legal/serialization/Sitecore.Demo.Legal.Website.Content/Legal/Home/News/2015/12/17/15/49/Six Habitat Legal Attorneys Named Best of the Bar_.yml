@@ -2,7 +2,7 @@
 ID: "81115d57-3055-4f74-ab5a-cfaa0a7ce1b6"
 Parent: "3a88773e-6125-4097-8d13-e04ddf7dcd78"
 Template: "bb6a204d-2b9e-46ca-82cd-00751803b03e"
-Path: /sitecore/content/Legal/Home/News/2015/12/17/15/49/Six Chase Ridley Attorneys Named Best of the Bar 2015
+Path: /sitecore/content/Legal/Home/News/2015/12/17/15/49/Six Habitat Legal Attorneys Named Best of the Bar 2015
 DB: master
 SharedFields:
 - ID: "c464d2d7-3382-428a-bcdf-0963c60ba0e3"
@@ -18,24 +18,24 @@ Languages:
       Value: 20151217T154936Z
     - ID: "3437eaac-6ee8-460b-a33d-da1f714b5a93"
       Hint: NewsImage
-      Value: "<image mediaid=\"{BC33364E-0985-4E10-862C-CECE26721CCA}\" />"
+      Value: 
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin
     - ID: "801612c7-5e98-4e3c-80d2-a34d0eebcbda"
       Hint: NewsBody
       Value: |
-        <p><span>San Francisco, California&mdash;Chase Ridley Law Corporation congratulates its six attorneys who have been included in San Francisco Business Journal&rsquo;s Best of the Bar 2015: Brenda Linus, Katie Brooks, Dale Kent, Sara Sage, Edward J. Stein, Jr., and Daniel Yashimoto.</span></p>
+        <p><span>San Francisco, California&mdash;Habitat Legal&nbsp;Corporation congratulates its six attorneys who have been included in San Francisco Business Journal&rsquo;s Best of the Bar 2015: Brenda Linus, Katie Brooks, Dale Kent, Sara Sage, Edward J. Stein, Jr., and Daniel Yashimoto.</span></p>
         <p><em><span>About San Francisco&rsquo;s Business Journal&rsquo;s Best of the Bar</span></em></p>
         <p><span>This annual list highlights outstanding attorneys in the greater San Francisco area who demonstrate excellence in their practice of law. Attorneys are nominated and selected by their peers. According to the San Francisco Business Journal, &ldquo;There&rsquo;s no substitute for the opinion of lawyers who have worked with &ndash; and against &ndash; one another.&rdquo;</span></p>
-        <p><em><span>About Chase Ridley Law Corporation:</span></em></p>
-        <p><span>With offices in San Francisco, Beverly Hills, Newport Beach, Sacramento, and San Diego Chase Ridley is an innovative provider of sophisticated legal services to dynamic businesses and owners, as well as non-profits and individuals with litigation and advanced legal needs.</span></p>
+        <p><em><span>About Habitat Legal&nbsp;Corporation:</span></em></p>
+        <p><span>With offices in San Francisco, Beverly Hills, Newport Beach, Sacramento, and San Diego Habitat Legal&nbsp;is an innovative provider of sophisticated legal services to dynamic businesses and owners, as well as non-profits and individuals with litigation and advanced legal needs.</span></p>
     - ID: "9d08271a-1672-44dd-b7ef-0a6ec34fcba7"
       Hint: NewsSummary
-      Value: <span>Chase Ridley Law Corporation congratulates its six attorneys who have been included in San Francisco Business Journal’s Best of the Bar 2015</span>
+      Value: <p><span>Habitat Legal&nbsp;Corporation congratulates its six attorneys who have been included in San Francisco Business Journal&rsquo;s Best of the Bar 2015</span></p>
     - ID: "bd9ecd4a-c0b0-4233-a3cd-d995519ac87b"
       Hint: NewsTitle
-      Value: Chase Ridley Law Corporation congratulates its six attorneys who have been included in Best of the Bar 2015
+      Value: Habitat Legal Corporation congratulates its six attorneys who have been included in Best of the Bar 2015
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
-      Value: Six Chase Ridley Attorneys Named Best of the Bar 2015
+      Value: Six Habitat Legal Attorneys Named Best of the Bar 2015

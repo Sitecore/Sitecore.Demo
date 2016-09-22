@@ -50,7 +50,7 @@ Languages:
     - ID: "801612c7-5e98-4e3c-80d2-a34d0eebcbda"
       Hint: NewsBody
       Value: |
-        <p><span>In 2016, a number of legal and economic developments will change how companies assess and manage legal risks. Chase Ridley researchers interviewed and surveyed more than 100 general counsel of Fortune 500 companies. The goal was to map future developments in the law, and assess the skills needed to address them. The result was a list of three trends that will change the legal world in 2016.</span></p>
+        <p><span>In 2016, a number of legal and economic developments will change how companies assess and manage legal risks. Habitat Legal researchers interviewed and surveyed more than 100 general counsel of Fortune 500 companies. The goal was to map future developments in the law, and assess the skills needed to address them. The result was a list of three trends that will change the legal world in 2016.</span></p>
         <p><span>1. Issues will converge; regulations will fragment.</span></p>
         <p><span>There is current global interest in issues like privacy, corruption, governance, transparency, and intellectual property. These issues have converged in recent years, both in developing and developed nations, but the regulations relating to those issues have not. In fact, they have diverged and will continue to diverge, driven by public and media outrage of a perceived regulatory gap, protection of national interests or key domestic companies, revenue generation in an era of significant government budget shortfalls, and a preservation of regulators&rsquo; and enforcers&rsquo; power and influence.</span></p>
         <p><span>2. Information will grow exponentially.</span></p>
@@ -61,7 +61,7 @@ Languages:
         <p><span>&nbsp;</span></p>
     - ID: "9d08271a-1672-44dd-b7ef-0a6ec34fcba7"
       Hint: NewsSummary
-      Value: <span>In 2016, a number of legal and economic developments will change how companies assess and manage legal risks. We take a closer look at three. </span>
+      Value: <p><span>In 2016, a number of legal and economic developments will change how companies assess and manage legal risks. We take a closer look at three.&nbsp;</span></p>
     - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
       Hint: MetaDescription
       Value: Corporate law, 2016 corporate law, corporate legal changes, new for 2016

@@ -5,6 +5,10 @@ Template: "75e42a73-0ae1-44c5-ac04-c9d5c4568680"
 Path: /sitecore/content/Legal/Home/Our Team/Brenda Barkley
 DB: master
 SharedFields:
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 0
 - ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
   Hint: __Tracking
   Type: Tracking
@@ -66,7 +70,7 @@ Languages:
     - ID: "0cc9785e-54fe-4fae-93e4-d0d2ae75f339"
       Hint: Biography
       Value: |
-        <p style="margin-left: 13.5pt;"><span>Brenda is a shareholder in the firm’s corporate law group. Brenda represents businesses from initial formation through all stages of growth, assisting clients in many areas including employment, shareholder and director-level contracts, corporate governance and other company issues. She also counsels clients with purchases and sales of businesses, with an emphasis on mergers and acquisitions and stock purchases across all business verticals. She represents all types of individuals and entities including corporations, general partnerships, limited partnerships, limited liability companies and limited liability partnerships. Brenda is a chair on the Business Law Section of the San Francisco County Bar.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Brenda is a shareholder in the firm&rsquo;s corporate law group. Brenda represents businesses from initial formation through all stages of growth, assisting clients in many areas including employment, shareholder and director-level contracts, corporate governance and other company issues. She also counsels clients with purchases and sales of businesses, with an emphasis on mergers and acquisitions and stock purchases across all business verticals. She represents all types of individuals and entities including corporations, general partnerships, limited partnerships, limited liability companies and limited liability partnerships. Brenda is a chair on the Business Law Section of the San Francisco County Bar.</span></p>
         <p style="margin-left: 13.5pt;"><span>Brenda also has deep-level experience helping companies in financing to fund both operations and expansion. These financing options have included unsecured loans and loans secured by personal property. Brenda has taught courses and regularly gives webcasts and webinars on the Uniform Commercial Code (UCC).</span></p>
         <p style="margin-left: 13.5pt;"><span>Brenda was named as one of the Top 100 Northern California Super Lawyers in 2012 and 2015, and was selected for inclusion in Northern California Super Lawyers for 2010, 2011, 2012, 2013, 2014, and 2015. She was also named one of the Top 25 San Francisco Super Lawyers for 2013, 2014, and 2015.</span></p>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
@@ -86,7 +90,7 @@ Languages:
       Value: Brenda Barkley
     - ID: "5978b330-1d46-4065-8751-f74bf17d815e"
       Hint: Email
-      Value: b.barkley@chaseridley.com
+      Value: b.barkley@habitatlegal.com
     - ID: "76972fcd-4bb0-4255-864e-077745efdf50"
       Hint: Title
       Value: Shareholder
