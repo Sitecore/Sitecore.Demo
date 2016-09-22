@@ -5,10 +5,6 @@ Template: "75e42a73-0ae1-44c5-ac04-c9d5c4568680"
 Path: /sitecore/content/Legal/Home/Our Team/Shane Nevins
 DB: master
 SharedFields:
-- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
-  Hint: ShowInNavigation
-  Type: Checkbox
-  Value: 0
 - ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
   Hint: __Tracking
   Type: Tracking
@@ -33,6 +29,9 @@ SharedFields:
           name="B2B"
           value="1" />
       </profile>
+      <event
+        id="{98FEC571-FFE2-4916-8D80-AF9E0AEC4B22}"
+        name="Shane Nevins" />
     </tracking>
 Languages:
 - Language: en

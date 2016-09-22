@@ -1,0 +1,27 @@
+﻿---
+ID: "ae8f7c8a-1bc5-42ba-8769-edfb5bdc70fe"
+Parent: "78064509-0815-46bf-aa39-748f8fe86c25"
+Template: "24d19d8f-907b-47b7-9703-6174e760bd91"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/January Newsletter/Message Root/Secondary Highlights/Column 2
+DB: master
+BranchID: "0caeacdc-d7aa-49d6-b8b4-cd7cf10a9023"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "18b3ef15-ec40-46fe-b03d-26cb3db243cb"
+      Hint: Image
+      Value: "<image mediaid=\"{91ADE8FB-531B-46B6-A3BD-23C6096EC7B5}\" />"
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: Webinar Series
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160907T152707Z
+    - ID: "2e2c5fb3-ff5b-4f13-aa18-cfba9c9a97d3"
+      Hint: Link
+      Value: "<link linktype=\"internal\" text=\"Read More\" querystring=\"\" target=\"\" id=\"{BCF8524F-D93A-47FB-BD2F-D4D9B887A2A6}\" />"
+    - ID: "94d50f81-f040-4b51-b895-d2fd2c27c223"
+      Hint: Content
+      Value: "<p style=\"margin: 0cm 0cm 8pt;\">We are again running our webinar series of free lectures. Last year this proved to be very popular and most of our sessions were oversubscribed. Make sure you don’t miss out by signing up now.</p>"

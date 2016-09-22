@@ -1,0 +1,18 @@
+﻿---
+ID: "cbc7083a-c549-4ead-bbd7-0db3895573dc"
+Parent: "e0d29dc2-c9d7-47a1-9b83-7f0f037d9e15"
+Template: "f0818351-eed1-453e-8325-684eeb1a827a"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/Social White Paper/Message Root/Header/About
+DB: master
+BranchID: "bdb49a2e-9be1-456f-bebb-4f72da36524e"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160914T171852Z
+    - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
+      Hint: Link
+      Value: "<link text=\"About Us\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{53C59369-B0C7-40B2-B76F-DED99916D309}\" />"

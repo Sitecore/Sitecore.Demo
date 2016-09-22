@@ -1,0 +1,19 @@
+﻿---
+ID: "049c92e5-054f-4fe7-a796-b5425c5663d7"
+Parent: "5ce7078e-6db6-40e9-958f-bc9a2f994e48"
+Template: "957ac850-52c7-4add-907b-7d557eb6b14f"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/Solving Transaction Tax Challenges in Mergers and Acquisitions/Message Root/Options
+DB: master
+BranchID: "614fc1f2-1633-4049-9e9f-0134610e6719"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160915T093236Z

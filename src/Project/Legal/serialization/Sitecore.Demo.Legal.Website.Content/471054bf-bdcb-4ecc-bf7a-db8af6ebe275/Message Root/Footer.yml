@@ -1,0 +1,19 @@
+﻿---
+ID: "1dd9f75f-f2d3-47d2-892a-6026480f857a"
+Parent: "d08cbcc6-418c-4f4b-96da-361d6d7f2546"
+Template: "bcdbb585-dcbb-4459-a797-6d86eaeb7403"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/Download Social White Paper/Message Root/Footer
+DB: master
+BranchID: "bdb49a2e-9be1-456f-bebb-4f72da36524e"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160914T171853Z

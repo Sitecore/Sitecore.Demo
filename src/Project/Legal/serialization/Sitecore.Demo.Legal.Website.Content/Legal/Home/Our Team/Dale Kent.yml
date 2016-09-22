@@ -29,6 +29,9 @@ SharedFields:
           name="B2B"
           value="2" />
       </profile>
+      <event
+        id="{BF22AC9D-34D9-4319-9251-A4E45A5FAF11}"
+        name="Dale Kent" />
     </tracking>
 Languages:
 - Language: en

@@ -1,0 +1,18 @@
+﻿---
+ID: "0c93b24d-08bc-4b8a-b1af-10531dfd9640"
+Parent: "48ef0f08-62f9-4a56-9ec4-98ca5a7eced0"
+Template: "f0818351-eed1-453e-8325-684eeb1a827a"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/Updates For Lawyers/Message Root/Footer/Unsubscribe
+DB: master
+BranchID: "614fc1f2-1633-4049-9e9f-0134610e6719"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160914T174051Z
+    - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
+      Hint: Link
+      Value: "<link text=\"Unsubscribe\" linktype=\"external\" url=\"/sitecore/unsubscribe.aspx\" anchor=\"\" target=\"\" />"

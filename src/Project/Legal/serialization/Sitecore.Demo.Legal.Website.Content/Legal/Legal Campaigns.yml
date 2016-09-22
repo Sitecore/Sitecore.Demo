@@ -34,13 +34,13 @@ Languages:
     Fields:
     - ID: "0f383cd8-c031-4a9d-9ed0-d55217f91287"
       Hint: From Address
-      Value: "do-not-reply@habitat-legal.net"
+      Value: no_reply@sitecore.net
     - ID: "15b8e428-a2d3-4736-8708-3b6ce509aa86"
       Hint: Reply To
-      Value: "info@habitat-legal.net"
+      Value: no_reply@sitecore.net
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160817T022738Z
     - ID: "69aad409-ca36-4767-b945-abb77f3611fd"
       Hint: From Name
-      Value: Habitat Legal Marketing
+      Value: no_reply@sitecore.net

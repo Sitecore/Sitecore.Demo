@@ -29,6 +29,9 @@ SharedFields:
           name="B2B"
           value="2" />
       </profile>
+      <event
+        id="{C7A4C8FE-C947-4E92-9ADC-1009846BEDAC}"
+        name="Eduardo Perez" />
     </tracking>
 Languages:
 - Language: en

@@ -4,6 +4,16 @@ Parent: "0da7e492-fb74-4714-a168-596e03675eb7"
 Template: "9917c92b-0f13-4f96-b50b-84c874e25783"
 Path: /sitecore/content/Legal/Home/Landing Pages/Social Media White Paper/Social White Paper
 DB: master
+SharedFields:
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <event
+        id="{F0218997-1581-49C0-81E2-F88A43C36488}"
+        name="Viewed Social White Paper Page" />
+    </tracking>
 Languages:
 - Language: en
   Versions:

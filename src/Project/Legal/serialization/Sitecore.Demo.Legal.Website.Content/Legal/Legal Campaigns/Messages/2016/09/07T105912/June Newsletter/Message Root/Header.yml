@@ -1,0 +1,22 @@
+﻿---
+ID: "b34f3427-c0a2-4d2c-8416-76dd81f88748"
+Parent: "d9ad4d96-5595-4fc6-b89d-8c3309c99b25"
+Template: "23c8efd2-99e7-44e9-bf8a-c97d1ec826dd"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/June Newsletter/Message Root/Header
+DB: master
+BranchID: "0caeacdc-d7aa-49d6-b8b4-cd7cf10a9023"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160914T173354Z
+    - ID: "2fac8d4a-25ff-46cc-b2ff-a46e996d2913"
+      Hint: Logo
+      Value: "<image mediaid=\"{987FD235-5E68-4760-B351-66FEB02AE7E2}\" alt=\"\" height=\"38\" width=\"150\" hspace=\"\" vspace=\"\" />"

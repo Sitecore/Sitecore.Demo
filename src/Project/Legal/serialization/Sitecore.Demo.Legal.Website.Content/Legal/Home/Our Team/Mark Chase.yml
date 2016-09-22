@@ -29,6 +29,9 @@ SharedFields:
           name="B2B"
           value="2" />
       </profile>
+      <event
+        id="{96FE1F55-0831-45D6-8960-3059DDEA3677}"
+        name="Mark Chase" />
     </tracking>
 Languages:
 - Language: en
