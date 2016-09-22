@@ -1,0 +1,70 @@
+﻿---
+ID: "acfe0443-14b2-4173-a2c0-f5d917de0b1a"
+Parent: "10d7357b-515d-47b5-9f51-cadd0feb7ed8"
+Template: "bb6a204d-2b9e-46ca-82cd-00751803b03e"
+Path: /sitecore/content/Legal/Home/News/2016/01/Cybersecurity Requires a Heightened Level of Collaboration
+DB: master
+SharedFields:
+- ID: "9dafca1d-d618-4616-86b8-a8acd6b28a63"
+  Hint: __Bucket Parent Reference
+  Value: 
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}"
+        name="Legal Persona"
+        presets="susan the ceo|100||">
+        <key
+          name="Self-employed"
+          value="0" />
+        <key
+          name="Large Corporate"
+          value="5" />
+        <key
+          name="Legal trade"
+          value="3" />
+        <key
+          name="Personal-Civil"
+          value="0" />
+        <key
+          name="B2B"
+          value="1" />
+      </profile>
+    </tracking>
+- ID: "c464d2d7-3382-428a-bcdf-0963c60ba0e3"
+  Hint: NewsDate
+  Value: 20160107T142500Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160107T142343Z
+    - ID: "3437eaac-6ee8-460b-a33d-da1f714b5a93"
+      Hint: NewsImage
+      Value: "<image mediaid=\"{486D73A3-4C5B-44E3-8AA8-5C84F939D618}\" />"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "801612c7-5e98-4e3c-80d2-a34d0eebcbda"
+      Hint: NewsBody
+      Value: |
+        <p><span>In the first wave of many to follow, a number of Fortune 500 banks are collaborating with law firms on a program that would allow the legal industry to share information, anonymously, about cybersecurity threats they may be experiencing. The program go its start because the banks were individually talking to their law firms about security information and someone finally admitted, &ldquo;That the current approach was painfully inefficient. &rdquo; This man was Joe Parker, a managing director at American Express who serves as chairman of the Financial Services Information Sharing and Analysis Center, an established group that facilitates transmission of such information to the financial industry.</span></p>
+        <p><span>Law firms can now apply to participate as an adjunct to these participating Fortune 500 banks. In addition to major law firms such as Horvath Smithe &amp; Tate and Sullivan &amp; Comstock, representatives of the International Legal Technology Association are also now able to participate in discussions about sharing cybersecurity information between the financial and legal industry.</span></p>
+    - ID: "9d08271a-1672-44dd-b7ef-0a6ec34fcba7"
+      Hint: NewsSummary
+      Value: <span>Fortune 500 banks are collaborating with law firms on a program that would allow the legal industry to share information, anonymously, about cybersecurity threats. </span>
+    - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
+      Hint: MetaDescription
+      Value: cybersecurity, legal trends, legal collaboration, partnerships, cyber threats 
+    - ID: "bd9ecd4a-c0b0-4233-a3cd-d995519ac87b"
+      Hint: NewsTitle
+      Value: Cybersecurity Requires a Heightened Level of Collaboration
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Cybersecurity Requires a Heightened Level of Collaboration

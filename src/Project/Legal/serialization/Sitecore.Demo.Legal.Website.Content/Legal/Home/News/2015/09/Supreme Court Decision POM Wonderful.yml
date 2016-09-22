@@ -1,0 +1,45 @@
+﻿---
+ID: "08694c60-4ee1-4c66-bed3-5da856eb82c1"
+Parent: "d62519c1-966c-435d-97be-62aec008a812"
+Template: "bb6a204d-2b9e-46ca-82cd-00751803b03e"
+Path: /sitecore/content/Legal/Home/News/2015/09/Supreme Court Decision POM Wonderful
+DB: master
+SharedFields:
+- ID: "9dafca1d-d618-4616-86b8-a8acd6b28a63"
+  Hint: __Bucket Parent Reference
+  Value: 
+- ID: "c464d2d7-3382-428a-bcdf-0963c60ba0e3"
+  Hint: NewsDate
+  Value: 20150928T140000Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151223T140421Z
+    - ID: "3437eaac-6ee8-460b-a33d-da1f714b5a93"
+      Hint: NewsImage
+      Value: "<image mediaid=\"{73A2D107-CF16-496C-BDBB-0926D37D9736}\" />"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "801612c7-5e98-4e3c-80d2-a34d0eebcbda"
+      Hint: NewsBody
+      Value: |
+        <p><span>San Francisco, California&mdash;Yesterday&rsquo;s ruling indicates that the reach of the Lanham Act regarding false and misleading advertising extends beyond the FDCA labeling requirements in protecting companies from having their customers deceived or misled by their competitors&rsquo; advertising or labeling. In view of this ruling, companies should not rely only on complying with FDA labeling regulations but should also be aware of the broader requirements under the Lanham Act to not &ldquo;misrepresent the nature, characteristics, qualities, or geographic origin&rdquo; of their products or services.</span></p>
+        <p><em><span>Case Summary:</span></em></p>
+        <p><span>Yesterday the Supreme Court issued a decision in POM Wonderful LLC v. Coca-Cola Company, a case involving allegations of misleading food and beverage labels. The Court ruled that federal FDA regulations and private Lanham Act claims complement each other, and that POM&rsquo;s Lanham Act claim therefore was not preempted or barred by the FDA regulations.</span></p>
+        <p><span>POM sells various pomegranate products including a pomegranate-blueberry juice blend, and competes with Coca-Cola in the pomegranate-blueberry juice market. Under its Minute Maid brand, Coca-Cola sells pomegranate-blueberry juice blends, prominently labeled as &ldquo;pomegranate blueberry&rdquo; in all capital letters despite having only minuscule amounts of pomegranate and blueberry juices in the blend. Coca-Cola&rsquo;s compliance with the Federal Food, Drug, and Cosmetic Act (FDCA) was not in dispute. POM brought a private suit as a competitor of Coca-Cola under the false and misleading advertising provisions of the Lanham Act (15 U.S.C. Section 1125(a)(1)(B)).</span></p>
+        <p><span>The main issue of the case was whether a private party such as POM may still bring a suit for false and misleading advertising against its competitor under the federal trademark law even though food and beverage labels are federally regulated under the FDCA. The Court noted that &ldquo;[b]y serv[ing] a distinct compensatory function that may motivate injured persons to come forward, Lanham Act suits, to the extent they touch on the same subject matter as the FDCA, provide incentives for manufacturers to behave well.&rdquo; The Court further noted that, unlike drug regulations, food and beverage labeling does not require a preapproval process, and if private Lanham Act claims are precluded by the FDCA, commercial interests (which may indirectly benefit the public) could be left less effectively protected. Based on the text, history, and structure of the Lanham Act and the FDCA, the Court concluded that the best way to harmonize the two statutes is to permit a private cause of action by a competitor under the Lanham Act.</span></p>
+        <p><span>For more information regarding false and misleading advertising matters, please contact Chase Ridley Partner Kristy Sparks.<strong></strong></span></p>
+    - ID: "9d08271a-1672-44dd-b7ef-0a6ec34fcba7"
+      Hint: NewsSummary
+      Value: <span>Yesterday’s ruling indicates that the reach of the Lanham Act regarding false and misleading advertising extends beyond the FDCA labeling requirements in protecting companies from having their customers deceived or misled by their competitors’ advertising or labeling. </span>
+    - ID: "bd9ecd4a-c0b0-4233-a3cd-d995519ac87b"
+      Hint: NewsTitle
+      Value: "Supreme Court Decision POM Wonderful LLC v. Coca-Cola Co: What You Need to Know"
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Supreme Court Decision POM Wonderful
