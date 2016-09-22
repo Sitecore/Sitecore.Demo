@@ -72,10 +72,10 @@ Languages:
       Value: "{B1BAB248-FFB4-4295-9783-E8FE17E2FE34}"
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
-      Value: "<image mediaid=\"{BFEBCC8D-046C-43FF-AE82-504B2DAC9F62}\" />"
+      Value: 
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: "<span>Chase Ridley’s corporate finance clients range from large privately-held companies to publicly traded companies, family businesses, and start-ups, across many verticals. For this wide spectrum of clients, our attorneys conduct a broad range of public and private finance transactions, both equity and debt, tailored to the need of the client’s industry and individual business circumstances. </span>"
+      Value: "<p><span>Habitat Legal&rsquo;s corporate finance clients range from large privately-held companies to publicly traded companies, family businesses, and start-ups, across many verticals. For this wide spectrum of clients, our attorneys conduct a broad range of public and private finance transactions, both equity and debt, tailored to the need of the client&rsquo;s industry and individual business circumstances.</span></p>"
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: Corporate Finance
@@ -85,9 +85,9 @@ Languages:
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
-        <p style="margin-left: 13.5pt;"><span>Our clients require a wide range of financing needs. Their business may want to grow, or restructure, or address a long-term capital need. An entrepreneur may want venture capital for a new business. An established business may want to buy or merge with a complementary business. Depending on the need, the best financing approach might be secured debt, the issuance of equity, or some other transaction. Chase Ridley attorneys bring the experience and knowledge from having successfully completed any of these wide range of solutions.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Our clients require a wide range of financing needs. Their business may want to grow, or restructure, or address a long-term capital need. An entrepreneur may want venture capital for a new business. An established business may want to buy or merge with a complementary business. Depending on the need, the best financing approach might be secured debt, the issuance of equity, or some other transaction. Habitat Legal&nbsp;attorneys bring the experience and knowledge from having successfully completed any of these wide range of solutions.</span></p>
         <p style="margin-left: 13.5pt;"><span>We also represent the finance provider side of transactions, acting as counsel to financial institutions. In addition to representing lenders, we also counsels borrowers in obtaining loans of varying sizes and complexity, depending on the need. This includes secured credit opportunities, loans, revolving lines of credit, letters of credit, term and equipment financing, real estate loans and a broad array of other corporate lending transactions.</span></p>
-        <p style="margin-left: 13.5pt;"><span>Chase Ridley also provides our clients with expertise on compensation questions, including equity compensation plans, and on-going SEC disclosure for publicly traded companies.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Habitat Legal&nbsp;also provides our clients with expertise on compensation questions, including equity compensation plans, and on-going SEC disclosure for publicly traded companies.</span></p>
   - Version: 2
     Fields:
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
@@ -207,7 +207,7 @@ Languages:
       Value: "<image mediaid=\"{618070EE-1448-4E8F-AD35-5EA220CAC4C5}\" />"
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: "<span>Chase Ridley’s corporate finance clients range from large privately-held companies to publicly traded companies, family businesses, and start-ups, across many verticals. For this wide spectrum of clients, our attorneys conduct a broad range of public and private finance transactions, both equity and debt, tailored to the need of the client’s industry and individual business circumstances. </span>"
+      Value: "<p><span>Habitat Legal&rsquo;s corporate finance clients range from large privately-held companies to publicly traded companies, family businesses, and start-ups, across many verticals. For this wide spectrum of clients, our attorneys conduct a broad range of public and private finance transactions, both equity and debt, tailored to the need of the client&rsquo;s industry and individual business circumstances.&nbsp;</span></p>"
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: Corporate Finance
@@ -220,6 +220,6 @@ Languages:
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
-        <p style="margin-left: 13.5pt;"><span>Our clients require a wide range of financing needs. Their business may want to grow, or restructure, or address a long-term capital need. An entrepreneur may want venture capital for a new business. An established business may want to buy or merge with a complementary business. Depending on the need, the best financing approach might be secured debt, the issuance of equity, or some other transaction. Chase Ridley attorneys bring the experience and knowledge from having successfully completed any of these wide range of solutions.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Our clients require a wide range of financing needs. Their business may want to grow, or restructure, or address a long-term capital need. An entrepreneur may want venture capital for a new business. An established business may want to buy or merge with a complementary business. Depending on the need, the best financing approach might be secured debt, the issuance of equity, or some other transaction. Habitat Legal&nbsp;attorneys bring the experience and knowledge from having successfully completed any of these wide range of solutions.</span></p>
         <p style="margin-left: 13.5pt;"><span>We also represent the finance provider side of transactions, acting as counsel to financial institutions. In addition to representing lenders, we also counsels borrowers in obtaining loans of varying sizes and complexity, depending on the need. This includes secured credit opportunities, loans, revolving lines of credit, letters of credit, term and equipment financing, real estate loans and a broad array of other corporate lending transactions.</span></p>
-        <p style="margin-left: 13.5pt;"><span>Chase Ridley also provides our clients with expertise on compensation questions, including equity compensation plans, and on-going SEC disclosure for publicly traded companies.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Habitat Legal&nbsp;also provides our clients with expertise on compensation questions, including equity compensation plans, and on-going SEC disclosure for publicly traded companies.</span></p>

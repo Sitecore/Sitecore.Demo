@@ -16,189 +16,122 @@ Languages:
         <!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
         <!--[if !IE]><!-->
         <html lang="en">
-          <!--<![endif]-->
-          <head>
-            <meta charset="utf-8"/>
-            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-            <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-            <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-            <title>Tax Webinar Email</title>
-            <meta name="keywords" content=""/>
-            <meta name="description" content="Mergers, acquisitions, M&A, MA, legal mergers, legal resource, B2B, transaction tax, webinar, legal webinar"/>
-          </head>
-          <body>
-            <style type="text/css">
-              @import url(https://fonts.googleapis.com/css?family=Bitter:400,700,400italic);
-            </style>
-            
-            <!-- Max width content begin-start-->
-            <table border="0" cellpadding="0" cellspacing="0" width="100%">
-              <tbody>
-                <tr>
-                  <td/>
-                  <td width="800">
-                    <!-- Max width content begin-end -->
-        
-                    <!-- Header -->
-        
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFF" style="background-color: #FFF;">
-                      <tbody>
-                        <tr>
-                          <td colspan="4" height="20"/>
-                        </tr>
-                        <tr>
-                          <td width="20"/>
-                          <td>
+        <!--<![endif]-->
+        <head>
+          <meta charset="utf-8"/>
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
         
         
-                            <img src="/-/media/Legal/Images/ChaseRidleyLogo.png?h=50&amp;la=en&amp;w=200&amp;hash=6FA9B4666AD27B5785C6BCAB4AB67C94459E05A6" alt="Chase Ridley" width="150">
+        <title>Tax Webinar Email</title>
+        <meta name="keywords" content=""/>
+        <meta name="description" content="Mergers, acquisitions, M&A, MA, legal mergers, legal resource, B2B, transaction tax, webinar, legal webinar"/>
+        <meta property="og:title" content=""/>
+        <meta property="og:image" content=""/>
+        <meta property="og:description" content=""/>
+        <!-- Latest compiled and minified JavaScript -->
+          <script src="/Scripts/jquery-2.1.4.min.js"></script>
+        
+          <link href="/assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="/assets/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" />
+        <link href="/assets/plugins/animate/animate.min.css" rel="stylesheet" />
+        <link href="/assets/Sitecore.Foundation.Theming.css" rel="stylesheet" />
+        
+          
+        </head>
+        <body class="">
+        <div class="page-layout">
+          <div class="container-fluid page-header-container">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <div class="page-header">
+                      
         
         
-                          </td>
-                          <td align="right" style="color: white;">
-                            <a href="/News" style="color: #000; font-family: Bitter, Palatino Linotype, Georgia, serif; text-decoration: none;">
-                              <b>News</b>
-                            </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="/About-Us" style="color: #000; font-family: Bitter, Palatino Linotype, Georgia, serif; text-decoration: none;">
-                              <b>About</b>
-                            </a> 
-                          </td>
-                          <td width="20"/>
-                        </tr>
-                        <tr>
-                          <td colspan="4" height="20"/>
-                        </tr>
-                      </tbody>
-                    </table>
-                           
-                    <center style="font-size: 0;">
-                      <img src="/-/media/Legal/Images/Wide/Two-Businessmen-Using-Touchpad.jpg" alt="Large Image" width="100%">
-                    </center>
-                    
-                    <table cellpadding="0" cellspacing="0" width="100%" bgcolor="white" style="background-color: white;" border="0">
-                      <tbody>
-                        <tr>
-                          <td width="20"/>
-                          <td>
-                            <h3 style="margin: 20px 0 10px 0; font-size: 24px; color: black; font-family: Bitter, Palatino Linotype, Georgia, serif;">What’s the best choice of entity for your client’s startup?</h3>
-                          </td>
-                          <td width="20"/>
-                        </tr>
-                        <tr>
-                          <td width="20"/>
-                          <td style="color: black; font-family: Bitter, Palatino Linotype, Georgia, serif; font-size: 15px; line-height: 145%;">
-                            <p>For startups that envision the need to issue stock options, explore venture capital, plan on the possibility of spinning off separate business lines, moving into global markets, or dealing with special issues of cashing out, the choice of entity the owner makes at the beginning can have significant tax and operational impact on their business.</p>
-                            <p>Tax attorneys, like yourself, can provide detailed and valuable guidance in outlining the different tax planning opportunities associated with various business entity structures, not only at startup but throughout the life of your client’s business. Tax counsel must provide guidance to business owners to set up the right type of entity to meet the owner's initial goals while providing sufficient flexibility to change the form of the entity as the business evolves.</p>
-                            <p>Advisers need to know the details of choice of entity to enable their clients to operate businesses in a tax-efficient manner.</p>
-                            <p>Listen as our experienced panel provides a detailed examination into the tax planning considerations and opportunities in advising clients on choosing a business entity.</p>
-                          </td>
-                          <td width="20"/>
-                        </tr>
+            <div>To: <span style="color:blue">Jared Jones (jared@sc-demo.net)</span></div>
+        	<div>From: <span style="color:blue">Habitat Legal Marketing (noreply@habitatlegal.com)</span></div>
+        	<h5>Solving Transaction Tax Challenges in Mergers and Acquisitions</h5>
         
-                        <tr>
-                          <td colspan="3" height="25">
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              
         
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#C8244F" style="background-color: #C8244F;">
-                      <tbody>
-                        <tr>
-                          <td width="20"/>
-                          <td>
+        <div class="section-title">
+          <h1>
+            &#160;What’s the best choice of entity for your client’s startup?
+          </h1>
+        </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+        <div class="article image">
+          <img src="/-/media/Legal/Images/3x2/Business-Woman-Making-Arrangements.jpg?h=333&amp;la=en&amp;mw=500&amp;w=500&amp;hash=6D62EE5820C48C18077C03D4CD887074D2F1E156" class="img-responsive" alt="Business Woman Making Arrangements" width="500" height="333" disablewebedit="False">
+        </div>
+        <div class="article body">
         
-                            <h3 style="margin: 20px 0 10px 0; font-size: 24px; color: white; font-family: Bitter, Palatino Linotype, Georgia, serif;">Solving Transaction Tax Challenges in Mergers and Acquisitions</h3>
+        	<p>For startups that envision the need to issue stock options, explore venture capital, plan on the possibility of spinning off separate business lines, moving into global markets, or dealing with special issues of cashing out, the choice of entity the owner makes at the beginning can have significant tax and operational impact on their business.</p>
+        	<p>Tax attorneys, like yourself, can provide detailed and valuable guidance in outlining the different tax planning opportunities associated with various business entity structures, not only at startup but throughout the life of your client’s business. Tax counsel must provide guidance to business owners to set up the right type of entity to meet the owner's initial goals while providing sufficient flexibility to change the form of the entity as the business evolves.</p>
+        	<p>Advisers need to know the details of choice of entity to enable their clients to operate businesses in a tax-efficient manner.</p>
+        	<p>Listen as our experienced panel provides a detailed examination into the tax planning considerations and opportunities in advising clients on choosing a business entity.</p>
+        	<h5><a href="/Landing%20Pages/Taxation%20Webinar/Taxation%20Webinar%20Register?sc_camp=356A7E5445E14860AFBBF922E8A3018F">Register now</a></h5>
+        </div>
         
-                          </td>
-                          <td width="20"/>
-                        </tr>
-                        <tr>
-                          <td width="20"/>
-                          <td style="margin: 0; color: white; font-family: Bitter, Palatino Linotype, Georgia, serif; font-size: 15px; line-height: 145%;">
-                            <p>This webinar will provide legal professionals with a detailed exploration of the challenges that arise with sales and use, real estate transfer, and other transaction taxes arising from a merger and acquisition event.</p>
-                          </td>
-                          <td width="20"/>
-                        </tr>
         
-                        <tr>
-                          <td width="20"/>
-                          <td height="45" valign="bottom">
+            </div>
         
-                            <table cellpadding="0" cellspacing="0" border="0">
-                              <tbody>
-                                <tr>
-                                  <td height="35" border="2" bordercolor="white" style="border: 2px solid white;">
-                                    <img src="http://i66.tinypic.com/17p83a.gif" height="6" alt=""/>
-                                    <a href="/Landing%20Pages/Taxation%20Webinar/Taxation%20Webinar%20Register?sc_camp=356A7E5445E14860AFBBF922E8A3018F" style="color: white; font-family: Bitter, Palatino Linotype, Georgia, serif; font-size: 14px; text-decoration: none;" color="white">
-                                      <b style="color: white;">&nbsp;&nbsp;&nbsp;Sign Up Now&nbsp;&nbsp;&nbsp;</b>
-                                    </a>
-                                    <img src="http://i66.tinypic.com/17p83a.gif" height="6" alt=""/>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
+          </div>
+        </div>
+        </div>
+        <footer>
         
-                          </td>
-                          <td/>
-                        </tr>
+        <div class="postfooter">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-8">
+                
+        <div class="copyright">
+          Copyright 2015 Sitecore Legal Services
+        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="prefooter">
+                <div class="container">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <div class="page-header">
+        				<span style="color:blue;font-weight: 600;">Reply</span>&nbsp;&nbsp;&nbsp; <span style="color:blue;font-weight: 600;">Reply All</span>&nbsp;&nbsp;&nbsp; <span style="color:blue;font-weight: 600;">Forward</span>&nbsp;&nbsp;&nbsp; <span style="color:blue;font-weight: 600;">More</span> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
         
-                        <tr>
-                          <td colspan="3" height="25">
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <!-- Footer -->
+        </div>
+        </footer>
         
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#2E384E" style="background-color: #2E384E;">
-                      <tbody>
-                        <tr>
-                          <td width="100%">
-                            <table width="100%" cellpadding="0" cellspacing="0">
-                              <tbody>
-                                <tr>
-                                  <td height="60" valign="middle">
-                                    <center>
-                                      <p style="font-size: 14px; color: #9499A4;">
-                                        <a style="color: #9499A4; text-decoration: none; font-family: Bitter, Palatino Linotype, Georgia, serif;" href="https://github.com/PentiaLabs/SitecoreHabitatTheme/">
-                                          <b> Chase Ridley</b>
-                                        </a> |
-                                        <a style="color: #9499A4; text-decoration: none; font-family: Bitter, Palatino Linotype, Georgia, serif;" href="http://www.sitecore.net/">
-                                          <b>Sitecore</b>
-                                        </a> |
-                                        <a style="color: #9499A4; text-decoration: none; font-family: Bitter, Palatino Linotype, Georgia, serif;" href="#">
-                                          <b>Unsubscribe</b>
-                                        </a>
-                                      </p>
-                                    </center>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <center>
-                              <p style="font-size: 14px; color: #9499A4; font-family: Bitter, Palatino Linotype, Georgia, serif; margin: 0;">Copyright 2015 Sitecore Legal Services</p>
-                            </center>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td height="15"/>
-                        </tr>
-                      </tbody>
-                    </table>
-               
-                    <!-- Max width content end-start-->
-                  </td>
-                  <td/>
-                </tr>
-              </tbody>
-            </table>
-          <!-- Max width content end-end-->
-          </body>
+          
+        
+        <script src="/javascripts/bootstrap.min.js"></script>
+        <script src="/scripts/Sitecore.Foundation.Theming.js"></script>
+        
+        </body>
         </html>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
