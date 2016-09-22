@@ -1,0 +1,137 @@
+﻿---
+ID: "47fb2fee-670b-4631-9640-e9ba97ba315b"
+Parent: "c03a4278-a428-4c5a-a451-97e6c3d17115"
+Template: "4b0a2893-4e7b-4248-86a9-dab6da3bb230"
+Path: /sitecore/content/Legal/Home/Practice Areas/Intellectual Property
+DB: master
+SharedFields:
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{AD3B7C5C-5BDD-4000-91CF-57F7407F9050}"
+        name="Legal Persona"
+        presets="eric the entrepreneur|100||">
+        <key
+          name="Self-employed"
+          value="5" />
+        <key
+          name="Large Corporate"
+          value="1" />
+        <key
+          name="Legal trade"
+          value="1" />
+        <key
+          name="Personal-Civil"
+          value="1" />
+        <key
+          name="B2B"
+          value="1" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <p
+              uid="{3E58EA74-D8AB-48CC-9EDE-1EA7206FACB5}"
+              p:before="r[@uid='{9CF3EA6D-5BBF-4CEA-BB16-A0095928B9C0}']"
+              s:key="/page-layout/sidebar"
+              s:md="/sitecore/layout/Placeholder Settings/Project/Legal/sidebar" />
+            <r
+              uid="{9CF3EA6D-5BBF-4CEA-BB16-A0095928B9C0}"
+              p:before="r[@uid='{DFB09FE6-4B42-436F-A621-CAC6610F5B29}']"
+              s:ds="{8CB3203A-3660-4F26-93B9-8E0B9DF6D8EB}"
+              s:id="{EE5A9F3D-C2CB-4710-8053-04D1A7135EBE}"
+              s:ph="/page-layout/section_374196a5-57f1-4286-b359-9eadbeed0dd7/col-huge_dfb09fe6-4b42-436f-a621-cac6610f5b29" />
+            <r
+              uid="{DFB09FE6-4B42-436F-A621-CAC6610F5B29}"
+              p:before="r[@uid='{A619C7FE-74FC-45A2-A21B-5F3E195A62F7}']"
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:ph="/page-layout/section_374196a5-57f1-4286-b359-9eadbeed0dd7" />
+            <r
+              uid="{A619C7FE-74FC-45A2-A21B-5F3E195A62F7}"
+              p:before="r[@uid='{A2BB2AEC-8E40-4DF4-A058-B25A407F1320}']"
+              s:ds="{3D1C0597-EB53-4216-BA7C-215624C3A641}"
+              s:id="{EBB6DC33-F281-49BE-B273-29ECCD6085A8}"
+              s:ph="/page-layout/section_374196a5-57f1-4286-b359-9eadbeed0dd7/col-narrow-3_1a1dfb15-7368-443b-9e9b-48b6f98b43f6" />
+            <r
+              uid="{A2BB2AEC-8E40-4DF4-A058-B25A407F1320}"
+              p:before="r[@uid='{51641A40-D88B-4F0D-98D1-6420053CB8A4}']"
+              s:ds="{C9BFB6A6-5B20-42EF-82FD-E79CEC01CC80}"
+              s:id="{EBB6DC33-F281-49BE-B273-29ECCD6085A8}"
+              s:ph="/page-layout/section_374196a5-57f1-4286-b359-9eadbeed0dd7/col-narrow-2_1a1dfb15-7368-443b-9e9b-48b6f98b43f6" />
+            <r
+              uid="{51641A40-D88B-4F0D-98D1-6420053CB8A4}"
+              p:before="r[@uid='{1A1DFB15-7368-443B-9E9B-48B6F98B43F6}']"
+              s:ds="{17F0B1C7-0D17-4039-962D-6B5894DEF4DF}"
+              s:id="{EBB6DC33-F281-49BE-B273-29ECCD6085A8}"
+              s:ph="/page-layout/section_374196a5-57f1-4286-b359-9eadbeed0dd7/col-narrow-1_1a1dfb15-7368-443b-9e9b-48b6f98b43f6" />
+            <r
+              uid="{1A1DFB15-7368-443B-9E9B-48B6F98B43F6}"
+              p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']"
+              s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}"
+              s:ph="/page-layout/section_374196a5-57f1-4286-b359-9eadbeed0dd7" />
+            <r
+              uid="{374196A5-57F1-4286-B359-9EADBEED0DD7}"
+              p:before="r[@uid='{66422117-69C1-4B62-9323-482F16C4F244}']"
+              s:ds=""
+              s:id="{1149A3C7-C69A-4E6B-A6C3-32687EC2F8D4}"
+              s:par="UseStaticPlaceholderNames&amp;Type=bg-primary&amp;Media&amp;Parallax"
+              s:ph="page-layout" />
+            <r
+              uid="{91613C40-5DCA-4509-A7FC-35727FF9E15A}"
+              p:before="r[@uid='{565F9960-4E47-4DA4-9406-0A29DD09911F}']"
+              s:ds="{BEEAFD65-59E5-4D72-BDFF-7BAEE75369BC}"
+              s:id="{96EFEFFC-4D53-4F29-913E-84EDBFBE4DAB}"
+              s:par="Background={ECCA6054-1534-4C34-AF46-7EB610433229}"
+              s:ph="/page-layout/section/col-narrow-1" />
+            <r
+              uid="{B910B9ED-F242-489F-A7BA-4101DC639F2B}"
+              p:before="r[@uid='{A3BAD4D4-8E21-4B30-8C4C-B04163653D62}']"
+              s:ds="{3C9607A2-104E-4753-A88D-C575CFA478F1}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:par=""
+              s:ph="/page-layout/section/col-wide-1" />
+          </d>
+        </r>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Intellectual Property
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151223T142722Z
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: "<image mediaid=\"{D46D0E55-FC52-4CB9-B4F4-2676D862462F}\" />"
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "<p><span>Habitat Legal&nbsp;has one of the strongest Intellectual Property and digital media practices in the region. We represent a variety of clients (from small businesses and multi-billion dollar publicly traded companies, to professional service firms and individual consultants) in securing, protecting, and using Intellectual Property, and with handling complex issues involving technology, the internet, and social media.</span></p>"
+    - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
+      Hint: MetaDescription
+      Value: intellectual property, IP law, digital media IP, SMB, corporate, technology, internet, social media
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Intellectual Property
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Intellectual Property
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <span></span>
+        <p style="margin-left: 13.5pt;"><span>Our Intellectual Property team routinely represents clients in handling complex Intellectual Property disputes, including prosecuting and defending claims involving patents, trademarks, copyrights, trade secrets, and competition disputes. We also have one of the Region&rsquo;s&rsquo;s strongest trademark and copyright practices&mdash;in which we register, manage, and protect trademarks and copyrights on a regular basis. In addition, we routinely counsel clients on strategies aimed at protecting and policing Intellectual Property and limiting liability and risk in the use of Intellectual Property. We also provide Intellectual Property rights counseling in corporate mergers and acquisitions and counseling venture capitalists and start-up companies on the contribution and protection of Intellectual Property.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Habitat Legal&nbsp;also has a special team dedicated to technology, focused on analyzing, negotiating, and writing agreements involving Intellectual Property, the internet, software development, and other technologies&mdash;including licensing agreements, acquisition, and partnership agreements, strategic alliances and joint ventures, outsourcing and manufacturing agreements, and development and tech support agreements. In addition, we have deep-level experience counseling clients in specialized issues involving ISV development, software, the internet, social media, and privacy, such as domain name acquisition and enforcement, and other emerging technology issues.</span></p>
+        <p style="margin-left: 13.5pt;"><span>We represent clients from a wide array of industries in California (including technology consulting, software development, professional marketing and public relations, grocery chains, private universities, and gaming) in complex technology and intellectual property transactions.</span></p>
