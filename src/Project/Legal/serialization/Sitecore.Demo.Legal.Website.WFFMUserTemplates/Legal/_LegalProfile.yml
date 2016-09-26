@@ -4,6 +4,11 @@ Parent: "500ec50c-9084-4faf-ae42-0320209795ae"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Project/Legal/_LegalProfile
 DB: core
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{696D276B-786A-4D1E-B8BB-8E139DB7BE7C}"
 Languages:
 - Language: en
   Versions:

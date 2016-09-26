@@ -62,12 +62,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20151223T142834Z
-    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
-      Hint: Image
-      Value: "<image mediaid=\"{4F077DF2-F8F4-44DF-AC98-DA8DEBFB5EA5}\" />"
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: <span>Chase Ridley’s attorneys have concentrated their practices on Trusts and Estates for more than 20 years. With all of this expertise, we know how to focus on clients’ personal concerns as well as their estate planning, tax, and litigation goals. Our top priority is to provide our clients with the customized service they need and want.</span>
+      Value: <p><span>Habitat Legal&rsquo;s attorneys have concentrated their practices on Trusts and Estates for more than 20 years. With all of this expertise, we know how to focus on clients&rsquo; personal concerns as well as their estate planning, tax, and litigation goals. Our top priority is to provide our clients with the customized service they need and want.</span></p>
     - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
       Hint: MetaDescription
       Value: tax law, estate law, tax and estate planning, estate tax, gift tax, trusts, valuation, philanthropy planning, life insurance trusts, estat valuation, charitable trusts, estate planning strategies, tax planning
@@ -79,7 +76,7 @@ Languages:
       Value: Trusts, Estates, and Tax Law
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
-      Value: <span>Chase Ridley’s estate planners advise individuals and families in connection with minimizing estate tax, gift tax, and tax burdens associated with the transfer of wealth between generations. We have extensive experience with designing and implementing sophisticated estate, valuation, and philanthropic planning techniques, including such planning vehicles as family limited partnerships and limited liability companies, grantor trusts, life insurance trusts, charitable lead and charitable remainder trusts, and other charitable planning devices. As a result of recent tax law changes, our planning strategies include full consideration of income tax basis and value appreciation in our clients’ various assets, and the potential for portability of our clients’ unused estate and gift tax exemptions. We also have expertise in tax planning and tax controversies, including representation in audits and tax court proceedings. We advise clients on all aspects of federal, state and local taxation issues, including estate, gift, GST, income, and property taxation.</span>
+      Value: <p><span>Habitat Legal&rsquo;s estate planners advise individuals and families in connection with minimizing estate tax, gift tax, and tax burdens associated with the transfer of wealth between generations. We have extensive experience with designing and implementing sophisticated estate, valuation, and philanthropic planning techniques, including such planning vehicles as family limited partnerships and limited liability companies, grantor trusts, life insurance trusts, charitable lead and charitable remainder trusts, and other charitable planning devices. As a result of recent tax law changes, our planning strategies include full consideration of income tax basis and value appreciation in our clients&rsquo; various assets, and the potential for portability of our clients&rsquo; unused estate and gift tax exemptions. We also have expertise in tax planning and tax controversies, including representation in audits and tax court proceedings. We advise clients on all aspects of federal, state and local taxation issues, including estate, gift, GST, income, and property taxation.</span></p>
   - Version: 2
     Fields:
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
@@ -111,12 +108,9 @@ Languages:
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\Caroline
-    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
-      Hint: Image
-      Value: "<image mediaid=\"{99AC60F4-68E0-44CE-A612-91DBC1400691}\" />"
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: <span>Chase Ridley’s attorneys have concentrated their practices on Trusts and Estates for more than 20 years. With all of this expertise, we know how to focus on clients’ personal concerns as well as their estate planning, tax, and litigation goals. Our top priority is to provide our clients with the customized service they need and want.</span>
+      Value: <p><span>Habitat Legal&rsquo;s attorneys have concentrated their practices on Trusts and Estates for more than 20 years. With all of this expertise, we know how to focus on clients&rsquo; personal concerns as well as their estate planning, tax, and litigation goals. Our top priority is to provide our clients with the customized service they need and want.</span></p>
     - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
       Hint: MetaDescription
       Value: tax law, estate law, tax and estate planning, estate tax, gift tax, trusts, valuation, philanthropy planning, life insurance trusts, estat valuation, charitable trusts, estate planning strategies, tax planning
@@ -131,7 +125,7 @@ Languages:
       Value: Trusts, Estates, and Tax Law
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
-      Value: <span>Chase Ridley’s estate planners advise individuals and families in connection with minimizing estate tax, gift tax, and tax burdens associated with the transfer of wealth between generations. We have extensive experience with designing and implementing sophisticated estate, valuation, and philanthropic planning techniques, including such planning vehicles as family limited partnerships and limited liability companies, grantor trusts, life insurance trusts, charitable lead and charitable remainder trusts, and other charitable planning devices. As a result of recent tax law changes, our planning strategies include full consideration of income tax basis and value appreciation in our clients’ various assets, and the potential for portability of our clients’ unused estate and gift tax exemptions. We also have expertise in tax planning and tax controversies, including representation in audits and tax court proceedings. We advise clients on all aspects of federal, state and local taxation issues, including estate, gift, GST, income, and property taxation.</span>
+      Value: <p><span>Habitat Legal&rsquo;s estate planners advise individuals and families in connection with minimizing estate tax, gift tax, and tax burdens associated with the transfer of wealth between generations. We have extensive experience with designing and implementing sophisticated estate, valuation, and philanthropic planning techniques, including such planning vehicles as family limited partnerships and limited liability companies, grantor trusts, life insurance trusts, charitable lead and charitable remainder trusts, and other charitable planning devices. As a result of recent tax law changes, our planning strategies include full consideration of income tax basis and value appreciation in our clients&rsquo; various assets, and the potential for portability of our clients&rsquo; unused estate and gift tax exemptions. We also have expertise in tax planning and tax controversies, including representation in audits and tax court proceedings. We advise clients on all aspects of federal, state and local taxation issues, including estate, gift, GST, income, and property taxation.</span></p>
   - Version: 3
     Fields:
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
@@ -163,12 +157,9 @@ Languages:
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\Caroline
-    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
-      Hint: Image
-      Value: "<image mediaid=\"{99AC60F4-68E0-44CE-A612-91DBC1400691}\" />"
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: <span>Chase Ridley’s attorneys have concentrated their practices on Trusts and Estates for more than 20 years. With all of this expertise, we know how to focus on clients’ personal concerns as well as their estate planning, tax, and litigation goals. Our top priority is to provide our clients with the customized service they need and want.</span>
+      Value: <p><span>Habitat Legal&rsquo;s attorneys have concentrated their practices on Trusts and Estates for more than 20 years. With all of this expertise, we know how to focus on clients&rsquo; personal concerns as well as their estate planning, tax, and litigation goals. Our top priority is to provide our clients with the customized service they need and want.</span></p>
     - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
       Hint: MetaDescription
       Value: tax law, estate law, tax and estate planning, estate tax, gift tax, trusts, valuation, philanthropy planning, life insurance trusts, estat valuation, charitable trusts, estate planning strategies, tax planning
@@ -183,7 +174,7 @@ Languages:
       Value: Trusts, Estates, and Tax Law
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
-      Value: <span>Chase Ridley’s estate planners advise individuals and families in connection with minimizing estate tax, gift tax, and tax burdens associated with the transfer of wealth between generations. We have extensive experience with designing and implementing sophisticated estate, valuation, and philanthropic planning techniques, including such planning vehicles as family limited partnerships and limited liability companies, grantor trusts, life insurance trusts, charitable lead and charitable remainder trusts, and other charitable planning devices. As a result of recent tax law changes, our planning strategies include full consideration of income tax basis and value appreciation in our clients’ various assets, and the potential for portability of our clients’ unused estate and gift tax exemptions. We also have expertise in tax planning and tax controversies, including representation in audits and tax court proceedings. We advise clients on all aspects of federal, state and local taxation issues, including estate, gift, GST, income, and property taxation.</span>
+      Value: <p><span>Habitat Legal&rsquo;s estate planners advise individuals and families in connection with minimizing estate tax, gift tax, and tax burdens associated with the transfer of wealth between generations. We have extensive experience with designing and implementing sophisticated estate, valuation, and philanthropic planning techniques, including such planning vehicles as family limited partnerships and limited liability companies, grantor trusts, life insurance trusts, charitable lead and charitable remainder trusts, and other charitable planning devices. As a result of recent tax law changes, our planning strategies include full consideration of income tax basis and value appreciation in our clients&rsquo; various assets, and the potential for portability of our clients&rsquo; unused estate and gift tax exemptions. We also have expertise in tax planning and tax controversies, including representation in audits and tax court proceedings. We advise clients on all aspects of federal, state and local taxation issues, including estate, gift, GST, income, and property taxation.</span></p>
   - Version: 4
     Fields:
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
@@ -215,12 +206,9 @@ Languages:
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\Caroline
-    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
-      Hint: Image
-      Value: "<image mediaid=\"{BFEBCC8D-046C-43FF-AE82-504B2DAC9F62}\" />"
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: <span>Chase Ridley’s attorneys have concentrated their practices on Trusts and Estates for more than 20 years. With all of this expertise, we know how to focus on clients’ personal concerns as well as their estate planning, tax, and litigation goals. Our top priority is to provide our clients with the customized service they need and want.</span>
+      Value: <p><span>Habitat Legal&rsquo;s attorneys have concentrated their practices on Trusts and Estates for more than 20 years. With all of this expertise, we know how to focus on clients&rsquo; personal concerns as well as their estate planning, tax, and litigation goals. Our top priority is to provide our clients with the customized service they need and want.</span></p>
     - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
       Hint: MetaDescription
       Value: tax law, estate law, tax and estate planning, estate tax, gift tax, trusts, valuation, philanthropy planning, life insurance trusts, estat valuation, charitable trusts, estate planning strategies, tax planning
@@ -235,7 +223,7 @@ Languages:
       Value: Trusts, Estates, and Tax Law
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
-      Value: <span>Chase Ridley’s estate planners advise individuals and families in connection with minimizing estate tax, gift tax, and tax burdens associated with the transfer of wealth between generations. We have extensive experience with designing and implementing sophisticated estate, valuation, and philanthropic planning techniques, including such planning vehicles as family limited partnerships and limited liability companies, grantor trusts, life insurance trusts, charitable lead and charitable remainder trusts, and other charitable planning devices. As a result of recent tax law changes, our planning strategies include full consideration of income tax basis and value appreciation in our clients’ various assets, and the potential for portability of our clients’ unused estate and gift tax exemptions. We also have expertise in tax planning and tax controversies, including representation in audits and tax court proceedings. We advise clients on all aspects of federal, state and local taxation issues, including estate, gift, GST, income, and property taxation.</span>
+      Value: <p><span>Habitat Legal&rsquo;s estate planners advise individuals and families in connection with minimizing estate tax, gift tax, and tax burdens associated with the transfer of wealth between generations. We have extensive experience with designing and implementing sophisticated estate, valuation, and philanthropic planning techniques, including such planning vehicles as family limited partnerships and limited liability companies, grantor trusts, life insurance trusts, charitable lead and charitable remainder trusts, and other charitable planning devices. As a result of recent tax law changes, our planning strategies include full consideration of income tax basis and value appreciation in our clients&rsquo; various assets, and the potential for portability of our clients&rsquo; unused estate and gift tax exemptions. We also have expertise in tax planning and tax controversies, including representation in audits and tax court proceedings. We advise clients on all aspects of federal, state and local taxation issues, including estate, gift, GST, income, and property taxation.</span></p>
   - Version: 5
     Fields:
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
@@ -317,7 +305,7 @@ Languages:
       Value: "<image mediaid=\"{E8A054CA-AAC4-4D45-BB31-5B190441DED9}\" />"
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: <span>Chase Ridley’s attorneys have concentrated their practices on Trusts and Estates for more than 20 years. With all of this expertise, we know how to focus on clients’ personal concerns as well as their estate planning, tax, and litigation goals. Our top priority is to provide our clients with the customized service they need and want.</span>
+      Value: <p><span>Habitat Legal&rsquo;s attorneys have concentrated their practices on Trusts and Estates for more than 20 years. With all of this expertise, we know how to focus on clients&rsquo; personal concerns as well as their estate planning, tax, and litigation goals. Our top priority is to provide our clients with the customized service they need and want.</span></p>
     - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
       Hint: MetaDescription
       Value: tax law, estate law, tax and estate planning, estate tax, gift tax, trusts, valuation, philanthropy planning, life insurance trusts, estat valuation, charitable trusts, estate planning strategies, tax planning
@@ -333,5 +321,5 @@ Languages:
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
-        <p><span>Chase Ridley’s estate planners advise individuals and families in connection with minimizing estate tax, gift tax, and tax burdens associated with the transfer of wealth between generations. We have extensive experience with designing and implementing sophisticated estate, valuation, and philanthropic planning techniques, including such planning vehicles as family limited partnerships and limited liability companies, grantor trusts, life insurance trusts, charitable lead and charitable remainder trusts, and other charitable planning devices. </span></p>
-        <p><span>As a result of recent tax law changes, our planning strategies include full consideration of income tax basis and value appreciation in our clients’ various assets, and the potential for portability of our clients’ unused estate and gift tax exemptions. We also have expertise in tax planning and tax controversies, including representation in audits and tax court proceedings. We advise clients on all aspects of federal, state and local taxation issues, including estate, gift, GST, income, and property taxation.</span></p>
+        <p><span>Habitat Legal&rsquo;s estate planners advise individuals and families in connection with minimizing estate tax, gift tax, and tax burdens associated with the transfer of wealth between generations. We have extensive experience with designing and implementing sophisticated estate, valuation, and philanthropic planning techniques, including such planning vehicles as family limited partnerships and limited liability companies, grantor trusts, life insurance trusts, charitable lead and charitable remainder trusts, and other charitable planning devices. </span></p>
+        <p><span>As a result of recent tax law changes, our planning strategies include full consideration of income tax basis and value appreciation in our clients&rsquo; various assets, and the potential for portability of our clients&rsquo; unused estate and gift tax exemptions. We also have expertise in tax planning and tax controversies, including representation in audits and tax court proceedings. We advise clients on all aspects of federal, state and local taxation issues, including estate, gift, GST, income, and property taxation.</span></p>

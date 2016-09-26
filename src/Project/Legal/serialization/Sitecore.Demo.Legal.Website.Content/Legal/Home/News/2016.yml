@@ -1,5 +1,5 @@
 ﻿---
-ID: "42353966-bf67-4d78-b456-9b6e635624d4"
+ID: "3d79b91a-723a-444c-96c8-c9bfa0486424"
 Parent: "8235f890-e581-4f79-8acf-b04f90ccc0dd"
 Template: "adb6ca4f-03ef-4f47-b9ac-9ce2ba53ff97"
 Path: /sitecore/content/Legal/Home/News/2016
@@ -11,4 +11,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160107T142343Z
+      Value: 20160901T230219Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\Anonymous

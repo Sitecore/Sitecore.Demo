@@ -24,10 +24,6 @@ SharedFields:
 - ID: "af0fe26a-a78b-491d-885c-03d95bc17342"
   Hint: State
   Value: Draft
-- ID: "ccf21e1b-ee11-4a0b-942a-b4de2dfa3685"
-  Hint: Excluded Recipient Lists
-  Type: TreelistEx
-  Value: 
 - ID: "ed5a9033-96ed-41f8-9731-7499c55ecbfa"
   Hint: Engagement Plan
   Value: "{986222DE-FDDD-43AC-B647-7A607CA32CEC}"
@@ -77,10 +73,6 @@ SharedFields:
           uid="{40853298-0115-4D97-84DD-3D23C57E17EE}" />
       </d>
     </r>
-- ID: "f8d592cc-f3e5-4a8e-a600-8aebe8cc36e4"
-  Hint: Included Recipient Lists
-  Type: TreelistEx
-  Value: 
 - ID: "fade34d8-c101-420d-9620-e4deb659c36b"
   Hint: Campaign Group
   Value: "{AB2F413C-4854-48EB-B7EB-6FD2E8142B19}"

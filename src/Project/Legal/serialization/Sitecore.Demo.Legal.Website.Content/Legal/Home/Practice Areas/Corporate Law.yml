@@ -62,12 +62,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20151223T143702Z
-    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
-      Hint: Image
-      Value: "<image mediaid=\"{A5EFF65E-3632-45BC-B78D-CD3AB712283E}\" />"
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: "<span>Whether privately held and family-owned companies, non-profits, limited partnerships, LLCs, and publicly traded companies, Chase Ridley serves as outside counsel, handling all legal matters. For other national and regional-level clients, our corporate lawyers are called upon to act as special counsel to handle complex business transactions.</span>"
+      Value: "<p><span>Whether privately held and family-owned companies, non-profits, limited partnerships, LLCs, and publicly traded companies, Habitat Legal&nbsp;serves as outside counsel, handling all legal matters. For other national and regional-level clients, our corporate lawyers are called upon to act as special counsel to handle complex business transactions.</span></p>"
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: Corporate Law
@@ -77,7 +74,7 @@ Languages:
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
-        <p style="margin-left: 13.5pt;"><span>As outside corporate counsel, Chase Ridley become highly familiar with our clients’ businesses to better serve them and help them accomplish their legal goals. We are often utilized to provide strategic legal advice as well as to negotiate and document specific transactions. We also assist clients with legal issues they encounter regarding ongoing operational and legal compliance questions, including regulatory compliance, employment law, and the financial obligations of officers and directors. Other examples of services include the formation of business entities, the development and negotiation of shareholder agreements, and the structuring of joint ventures.</span></p>
+        <p style="margin-left: 13.5pt;"><span>As outside corporate counsel, Habitat Legal&nbsp;become highly familiar with our clients&rsquo; businesses to better serve them and help them accomplish their legal goals. We are often utilized to provide strategic legal advice as well as to negotiate and document specific transactions. We also assist clients with legal issues they encounter regarding ongoing operational and legal compliance questions, including regulatory compliance, employment law, and the financial obligations of officers and directors. Other examples of services include the formation of business entities, the development and negotiation of shareholder agreements, and the structuring of joint ventures.</span></p>
         <p style="margin-left: 13.5pt;"><span>Our corporate law clients include companies in the software, hardware, electronics, biotechnology, marketing/public relations, accounting, retail, and restaurant industries.</span></p>
         <p style="margin-left: 13.5pt;"><span>We also have special expertise in advising parties involved in emerging businesses and high-technology startups. We regularly represent these types of businesses as well as, securities underwriters, and venture capital and other investors. The firm provides advice regarding types of financings, including venture capital financing, private placements, and initial public offerings.</span></p>
   - Version: 2
@@ -164,7 +161,7 @@ Languages:
       Value: "<image mediaid=\"{01EB0D7E-CA56-482E-BF1F-B495E375BAEB}\" />"
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: "<span>Whether privately held and family-owned companies, non-profits, limited partnerships, LLCs, and publicly traded companies, Chase Ridley serves as outside counsel, handling all legal matters. For other national and regional-level clients, our corporate lawyers are called upon to act as special counsel to handle complex business transactions.</span>"
+      Value: "<p><span>Whether privately held and family-owned companies, non-profits, limited partnerships, LLCs, and publicly traded companies, Habitat Legal&nbsp;serves as outside counsel, handling all legal matters. For other national and regional-level clients, our corporate lawyers are called upon to act as special counsel to handle complex business transactions.</span></p>"
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: Corporate Law
@@ -177,6 +174,6 @@ Languages:
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
-        <p style="margin-left: 13.5pt;"><span>As outside corporate counsel, Chase Ridley become highly familiar with our clients’ businesses to better serve them and help them accomplish their legal goals. We are often utilized to provide strategic legal advice as well as to negotiate and document specific transactions. We also assist clients with legal issues they encounter regarding ongoing operational and legal compliance questions, including regulatory compliance, employment law, and the financial obligations of officers and directors. Other examples of services include the formation of business entities, the development and negotiation of shareholder agreements, and the structuring of joint ventures.</span></p>
+        <p style="margin-left: 13.5pt;"><span>As outside corporate counsel, Habitat Legal&nbsp;become highly familiar with our clients&rsquo; businesses to better serve them and help them accomplish their legal goals. We are often utilized to provide strategic legal advice as well as to negotiate and document specific transactions. We also assist clients with legal issues they encounter regarding ongoing operational and legal compliance questions, including regulatory compliance, employment law, and the financial obligations of officers and directors. Other examples of services include the formation of business entities, the development and negotiation of shareholder agreements, and the structuring of joint ventures.</span></p>
         <p style="margin-left: 13.5pt;"><span>Our corporate law clients include companies in the software, hardware, electronics, biotechnology, marketing/public relations, accounting, retail, and restaurant industries.</span></p>
-        <p style="margin-left: 13.5pt;"><span>We also have special expertise in advising parties involved in emerging businesses and high-technology startups. We regularly represent these types of businesses as well as, securities underwriters, and venture capital and other investors. The firm provides advice regarding types of financings, including venture capital financing, private placements, and initial public offerings.</span></p>
+        <p style="margin-left: 13.5pt;"><span>We also have special expertise in advising parties involved in emerging businesses and high-technology startups. We regularly represent these types of businesses as well as, securities underwriters, and venture capital and other investors. The firm provides advice regarding types of financing, including venture capital financing, private placements, and initial public offerings.</span></p>

@@ -5,6 +5,13 @@ Template: "1d83c3eb-ea3b-4b71-baa1-3938397fe99b"
 Path: /sitecore/content/Legal/Home/News
 DB: master
 SharedFields:
+- ID: "a0cb3965-8884-4c7a-8815-b6b2e5ced162"
+  Hint: __Editors
+  Type: TreelistEx
+  Value: "{59F53BBB-D1F5-4E38-8EBA-0D73109BB59B}"
+- ID: "ac51462c-8a8d-493b-9492-34d1f26f20f1"
+  Hint: __Default Bucket Query
+  Value: "+location:8235f890e5814f798acfb04f90ccc0dd;+custom:_templatename|news article"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 200
@@ -30,7 +37,7 @@ Languages:
       Value: <span>Keeping you informed. A few noteworthy news items about the law and the people it impacts.</span>
     - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
       Hint: MetaDescription
-      Value: Chase Ridley News, Chase Ridley press, 2016 legal news
+      Value: Habitat Legal News, Habitat Legal Press, 2016 legal news
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: News
