@@ -1,0 +1,14 @@
+﻿---
+ID: "3a69cab3-aaf0-4b77-ad8f-1e06c29d0592"
+Parent: "2997da51-6ed5-4f73-aa67-e97f9799d35e"
+Template: "ba1d3932-28ba-4cc3-9527-38afc8b529c4"
+Path: /sitecore/client/Applications/ExmExperienceGenerator/Common/Presets/legal/Q1234 Updates for Lawyers
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20160922T121655:636101434150542944Z"

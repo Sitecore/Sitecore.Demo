@@ -9,9 +9,15 @@ SharedFields:
 - ID: "0934bec4-325a-427b-95bb-46f78cea9591"
   Hint: Message Type
   Value: "{B2F77E26-C5AC-4A6B-BBB3-F290100EB3D8}"
+- ID: "78f0b1f8-fdf4-4c1c-bec6-1ac68a210a52"
+  Hint: Campaign
+  Value: "{AAF3C17B-5E5B-4B1B-9C82-68CB08FC24F0}"
 - ID: "af0fe26a-a78b-491d-885c-03d95bc17342"
   Hint: State
   Value: Active
+- ID: "ed5a9033-96ed-41f8-9731-7499c55ecbfa"
+  Hint: Engagement Plan
+  Value: "{F846E6D5-7005-49BD-9534-15BE8AADAA61}"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
@@ -55,6 +61,9 @@ Languages:
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin
+    - ID: "6ec7a9e6-9fd5-4892-bbf6-11e76e0e5db8"
+      Hint: Start Time
+      Value: 20160922T122123Z
     - ID: "89b7628a-3564-4c9a-8116-dcb15f692573"
       Hint: Body
       Value: <p>You have successfully unsubscribed from this email group.</p>

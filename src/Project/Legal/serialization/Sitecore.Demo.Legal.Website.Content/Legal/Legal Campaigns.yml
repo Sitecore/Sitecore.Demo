@@ -14,7 +14,10 @@ SharedFields:
   Value: b
 - ID: "52d572ad-9678-423f-96e2-477528418ba1"
   Hint: "Global Opt-out List"
-  Value: "{345043E9-8A82-4C3C-A74E-F42C355DBDA4}"
+  Value: "345043e9-8a82-4c3c-a74e-f42c355dbda4"
+- ID: "943d8e5d-b924-41f8-ba1e-e0b630960e6e"
+  Hint: Preview base URL
+  Value: "http://legal.dev.local"
 - ID: "9b82216d-f53b-4558-b30a-e6952c8587f3"
   Hint: Website Site Configuration Name
   Value: legal

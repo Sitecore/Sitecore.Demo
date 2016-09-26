@@ -1,0 +1,235 @@
+﻿---
+ID: "fcfee2b9-7f4f-428c-8cb6-1afca864d06e"
+Parent: "2997da51-6ed5-4f73-aa67-e97f9799d35e"
+Template: "ba1d3932-28ba-4cc3-9527-38afc8b529c4"
+Path: /sitecore/client/Applications/ExmExperienceGenerator/Common/Presets/legal/Q134 Lawyers
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160922T115029Z
+    - ID: "387fb35f-d93f-47ed-a7b3-48b070b28297"
+      Hint: Specification
+      Value: |
+        {
+          "{D1496F24-703B-44C5-A872-E37F66082117}": {
+            "startDate": "2016-06-30T23:00:00Z",
+            "endDate": "2016-07-17T23:00:00Z",
+            "events": {
+              "uniqueOpenRate": "65",
+              "uniqueClickRate": "34",
+              "bounced": "4",
+              "openRate": "75",
+              "clickRate": 50,
+              "unsubscribed": "4",
+              "totalSent": "91",
+              "delivered": "85",
+              "spamComplaints": "4"
+            },
+            "dayDistribution": [
+              "87",
+              "55",
+              "39",
+              "25",
+              "16",
+              "8"
+            ],
+            "devices": {
+              "sony xperia z3": "4",
+              "samsung galaxy s4": "7",
+              "samsung galaxy note ii": "28",
+              "sony xperia z2": "28",
+              "nokia lumia 930": "31",
+              "apple iphone 4s 5 5c 5s 6 6 plus ios 8": "66",
+              "apple ipad 2 3 4 air mini 1 mini 2": "72",
+              "samsung galaxy note 10.1": "32",
+              "macintosh pc": "87",
+              "windows pc": "91",
+              "linux pc": "30",
+              "microsoft xbox one": "18"
+            },
+            "locations": {
+              "143": "12",
+              "145": "28",
+              "151": "21",
+              "154": "97",
+              "155": "0",
+              "034": "15",
+              "035": "22",
+              "030": "9",
+              "039": "2",
+              "015": "12",
+              "017": "23",
+              "011": "1",
+              "018": "14",
+              "014": "16",
+              "061": "18",
+              "053": "17",
+              "054": "21",
+              "057": "10",
+              "029": "0",
+              "005": "0",
+              "013": "10",
+              "021": "90"
+            },
+            "landingPages": {
+              "{56DFE58F-6C17-4FD6-84C4-F82512F9F648}": "50",
+              "{47930298-52C8-4370-8FFC-425648A1D627}": "96",
+              "{47FB2FEE-670B-4631-9640-E9BA97BA315B}": "29",
+              "{D302EFA4-1332-4D8C-9F5D-F5D99AC5884A}": "5",
+              "{B5583A97-7F68-40C6-BA8B-F82C9D3ABCC6}": "21",
+              "{BCF8524F-D93A-47FB-BD2F-D4D9B887A2A6}": "83",
+              "{3D1C0597-EB53-4216-BA7C-215624C3A641}": "61",
+              "{C9BFB6A6-5B20-42EF-82FD-E79CEC01CC80}": "23"
+            }
+          },
+          "{23B8552B-686D-4A2F-928F-AE2A0AEEE9FE}": {
+            "startDate": "2015-09-30T23:00:00Z",
+            "endDate": "2015-10-21T23:00:00Z",
+            "events": {
+              "uniqueOpenRate": "59",
+              "uniqueClickRate": "41",
+              "bounced": "5",
+              "openRate": "68",
+              "clickRate": 50,
+              "unsubscribed": "8",
+              "totalSent": "85",
+              "delivered": "84",
+              "spamComplaints": "1"
+            },
+            "dayDistribution": [
+              "94",
+              50,
+              "27",
+              "8",
+              "1",
+              "0"
+            ],
+            "devices": {
+              "sony xperia z3": "50",
+              "samsung galaxy s4": "50",
+              "samsung galaxy note ii": "50",
+              "sony xperia z2": "50",
+              "nokia lumia 930": "50",
+              "apple iphone 4s 5 5c 5s 6 6 plus ios 8": "82",
+              "apple ipad 2 3 4 air mini 1 mini 2": "95",
+              "samsung galaxy note 10.1": "76",
+              "macintosh pc": "50",
+              "windows pc": "100",
+              "linux pc": "50",
+              "microsoft xbox one": "50"
+            },
+            "locations": {
+              "143": "0",
+              "145": "0",
+              "151": "68",
+              "154": "92",
+              "155": "30",
+              "034": "0",
+              "035": "0",
+              "030": "0",
+              "039": "50",
+              "015": "0",
+              "017": "0",
+              "011": "0",
+              "018": "0",
+              "014": "0",
+              "061": "0",
+              "053": "0",
+              "054": "0",
+              "057": "0",
+              "029": "0",
+              "005": "9",
+              "013": "24",
+              "021": "83"
+            },
+            "landingPages": {
+              "{56DFE58F-6C17-4FD6-84C4-F82512F9F648}": "49",
+              "{47930298-52C8-4370-8FFC-425648A1D627}": "92",
+              "{47FB2FEE-670B-4631-9640-E9BA97BA315B}": "59",
+              "{D302EFA4-1332-4D8C-9F5D-F5D99AC5884A}": "5",
+              "{B5583A97-7F68-40C6-BA8B-F82C9D3ABCC6}": "11",
+              "{BCF8524F-D93A-47FB-BD2F-D4D9B887A2A6}": "90",
+              "{3D1C0597-EB53-4216-BA7C-215624C3A641}": "35",
+              "{C9BFB6A6-5B20-42EF-82FD-E79CEC01CC80}": "62"
+            }
+          },
+          "{B036DBC5-20D4-4D02-9446-D7AE199073F7}": {
+            "startDate": "2016-01-04T00:00:00Z",
+            "endDate": "2016-01-18T00:00:00Z",
+            "events": {
+              "uniqueOpenRate": "58",
+              "uniqueClickRate": "43",
+              "bounced": "5",
+              "openRate": "73",
+              "clickRate": 50,
+              "unsubscribed": "3",
+              "totalSent": "107",
+              "delivered": "88",
+              "spamComplaints": "5"
+            },
+            "dayDistribution": [
+              "89",
+              "69",
+              50,
+              "34",
+              "21",
+              "9"
+            ],
+            "devices": {
+              "sony xperia z3": "0",
+              "samsung galaxy s4": "0",
+              "samsung galaxy note ii": "0",
+              "sony xperia z2": "10",
+              "nokia lumia 930": "9",
+              "apple iphone 4s 5 5c 5s 6 6 plus ios 8": "87",
+              "apple ipad 2 3 4 air mini 1 mini 2": "96",
+              "samsung galaxy note 10.1": "16",
+              "macintosh pc": "54",
+              "windows pc": "53",
+              "linux pc": "2",
+              "microsoft xbox one": "13"
+            },
+            "locations": {
+              "143": "0",
+              "145": "0",
+              "151": "50",
+              "154": "89",
+              "155": "31",
+              "034": "0",
+              "035": "0",
+              "030": "0",
+              "039": "50",
+              "015": "0",
+              "017": "0",
+              "011": "0",
+              "018": "14",
+              "014": "0",
+              "061": "0",
+              "053": "0",
+              "054": "0",
+              "057": "0",
+              "029": "0",
+              "005": "0",
+              "013": "0",
+              "021": "74"
+            },
+            "landingPages": {
+              "{56DFE58F-6C17-4FD6-84C4-F82512F9F648}": "37",
+              "{47930298-52C8-4370-8FFC-425648A1D627}": "91",
+              "{47FB2FEE-670B-4631-9640-E9BA97BA315B}": "21",
+              "{D302EFA4-1332-4D8C-9F5D-F5D99AC5884A}": "5",
+              "{B5583A97-7F68-40C6-BA8B-F82C9D3ABCC6}": "26",
+              "{BCF8524F-D93A-47FB-BD2F-D4D9B887A2A6}": "92",
+              "{3D1C0597-EB53-4216-BA7C-215624C3A641}": "37",
+              "{C9BFB6A6-5B20-42EF-82FD-E79CEC01CC80}": "12"
+            }
+          }
+        }
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
