@@ -87,7 +87,6 @@ SharedFields:
           uid="{40853298-0115-4D97-84DD-3D23C57E17EE}" />
       </d>
     </r>
-<<<<<<< HEAD
 - ID: "f8d592cc-f3e5-4a8e-a600-8aebe8cc36e4"
   Hint: Included Recipient Lists
   Type: TreelistEx
@@ -95,8 +94,6 @@ SharedFields:
     {EB83E11E-9D6A-4B2E-A61E-5A029B84A277}
     {21EB145A-46CB-452F-A736-B9CFACD7ED52}
     {1909E7B8-ED51-4B66-8F1B-DBB2650B2E2C}
-=======
->>>>>>> 1d943349b98b22f63c5e4a52dd888783bb359b75
 - ID: "fade34d8-c101-420d-9620-e4deb659c36b"
   Hint: Campaign Group
   Value: "{AB2F413C-4854-48EB-B7EB-6FD2E8142B19}"
