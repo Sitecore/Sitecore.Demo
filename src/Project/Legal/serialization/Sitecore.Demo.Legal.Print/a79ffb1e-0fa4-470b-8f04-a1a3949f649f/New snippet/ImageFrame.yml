@@ -44,6 +44,9 @@ SharedFields:
 - ID: "705730ac-a29f-4af3-bcb0-af02d6cb8f1c"
   Hint: Rotation
   Value: 0.000000000000000
+- ID: "71de5dd4-bbc3-4078-8d7c-a7f808154221"
+  Hint: MediaLibrary Reference
+  Value: "{8BFEA0E2-BB15-4DDE-B9C6-2F487538A5B4}"
 - ID: "7268db38-45b7-4e4f-981b-80d195561434"
   Hint: CropAmount
   Value: "4.311728395112886|28.222222222230442|-4.311728395112966|63.499999999949836|"
