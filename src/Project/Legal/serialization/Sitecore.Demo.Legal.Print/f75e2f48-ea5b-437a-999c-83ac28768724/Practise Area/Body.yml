@@ -10,7 +10,7 @@ SharedFields:
   Value: 0.000000000000000
 - ID: "08b5223c-a85f-4db2-90d4-1210e80659f6"
   Hint: OriginalHeight
-  Value: 80.000000000000057
+  Value: 69.250000000000128
 - ID: "09dd0d5f-3ff9-4f3c-bb55-955a9e03ad82"
   Hint: VerticalAlignment
   Value: Top
@@ -22,7 +22,7 @@ SharedFields:
   Value: PractiseBody
 - ID: "278a743f-1ccb-4c8a-866e-67fc6b1c1687"
   Hint: Height
-  Value: 80.000000000000057
+  Value: 69.250000000000128
 - ID: "2faf193e-88fa-448c-bf71-7000ebf28585"
   Hint: Item Reference
   Value: "{D302EFA4-1332-4D8C-9F5D-F5D99AC5884A}"
@@ -65,12 +65,15 @@ SharedFields:
 - ID: "9b59c31e-fe2d-4f85-add4-8992603deb06"
   Hint: Item Field
   Value: Body
+- ID: "a44f176b-78d7-4b10-b255-f8ddae1c55a3"
+  Hint: FlowName
+  Value: PracticeFlow
 - ID: "b48cd9ec-8d66-453b-9a9b-ecd5d8eb4493"
   Hint: VerticalScale
   Value: 1.000000000000000
 - ID: "b499ceff-3016-4998-9c02-71084f236f85"
   Hint: StrokeThickness
-  Value: 1.000000000000000
+  Value: 0.000000000000000
 - ID: "b9a4f35a-98a6-4a77-8300-abc8b5396eba"
   Hint: Width
   Value: 179.999999999936080
@@ -94,7 +97,7 @@ SharedFields:
   Value: 0.000000000000000
 - ID: "cbf5e87a-8967-44e6-ab98-b3a77db870ab"
   Hint: Y
-  Value: 154.999999999999940
+  Value: 149.624999999999970
 - ID: "d2530d9b-5b8d-48ec-bd3f-0a3306f78609"
   Hint: Opacity
   Value: 100.000000000000000

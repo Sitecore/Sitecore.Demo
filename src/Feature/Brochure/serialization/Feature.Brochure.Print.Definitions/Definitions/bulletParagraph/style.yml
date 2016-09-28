@@ -1,22 +1,19 @@
 ﻿---
-ID: "e63631dd-baa0-4f51-b299-606378b41b3c"
-Parent: "3dddff68-662a-4766-83be-0eecb5e0f59d"
+ID: "a0f465d2-a3df-490e-9b91-d88d58fcdaa2"
+Parent: "dae1c359-3315-47fd-873e-4cd52f1dab3a"
 Template: "7cd0ed9c-975d-41ed-b106-e4c60e06d4f7"
-Path: /sitecore/Print Studio/Modules/InDesign connector/Transformations/Definitions/img/style
+Path: /sitecore/Print Studio/Modules/InDesign connector/Transformations/Definitions/bulletParagraph/style
 DB: master
 SharedFields:
-- ID: "6bcb71d1-9fb5-4af5-96d5-9fc1e4284e49"
-  Hint: XHTML Default value
-  Value: class
 - ID: "89ad5209-b1c5-44d0-99e8-46f391b12e0f"
   Hint: XHTML Attribute
   Value: class
 - ID: "9f94d809-627e-468e-99dc-ab523d8f2e56"
   Hint: XML Default value
-  Value: PracticeImage
+  Value: bulletPara
 - ID: "a05e1d55-b7c5-4b57-aa0c-c1a7845cfc7c"
   Hint: XML Attribute
-  Value: ObjectStyle
+  Value: Style
 Languages:
 - Language: "de-DE"
   Fields:
@@ -28,7 +25,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160511T150725Z
+      Value: 20160511T150527Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin
@@ -38,7 +35,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20130823T104200
+      Value: 20100908T075600
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\Admin
@@ -52,7 +49,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160511T151049Z
+      Value: 20160511T150752Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin
