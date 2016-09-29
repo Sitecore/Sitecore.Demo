@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "4f3ecf8f-077e-487b-adaa-15b9554d9a62"
   Hint: Parameters
-  Value: ChildDataKeyName=items
+  Value: 
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 250
@@ -21,7 +21,7 @@ Languages:
       Value: 20160615T085137Z
     - ID: "34b8300b-a942-482b-a5c7-50cef63aa71c"
       Hint: Item Reference
-      Value: "{47930298-52C8-4370-8FFC-425648A1D627}"
+      Value: "{47FB2FEE-670B-4631-9640-E9BA97BA315B}"
     - ID: "df94a83f-2b11-4dc6-9737-dfcb4d6facef"
       Hint: Data Key
       Value: items
