@@ -46,97 +46,97 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <p
               uid="{524C9B59-7F81-470A-91FD-3B702E511478}"
-              p:before="p[@uid='{8DE8FD5A-D48D-4B90-90D0-5D922F969648}']"
+              p:before="*"
               s:key="/page-layout/sidebar"
               s:md="/sitecore/layout/Placeholder Settings/Project/Legal/sidebar" />
             <p
               uid="{8DE8FD5A-D48D-4B90-90D0-5D922F969648}"
-              p:before="p[@uid='{CC014EE3-970C-41FE-BDE2-0EA05208BD46}']"
+              p:after="p[@uid='{524C9B59-7F81-470A-91FD-3B702E511478}']"
               s:key="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-2_b9ad35db-bb36-4df8-b9d3-3242ec9527b5"
               s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-2" />
             <p
               uid="{CC014EE3-970C-41FE-BDE2-0EA05208BD46}"
-              p:before="p[@uid='{F8825690-0442-4A5A-858C-DD114DEF2036}']"
+              p:after="p[@uid='{8DE8FD5A-D48D-4B90-90D0-5D922F969648}']"
               s:key="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-3_b9ad35db-bb36-4df8-b9d3-3242ec9527b5"
               s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-3" />
             <p
               uid="{F8825690-0442-4A5A-858C-DD114DEF2036}"
-              p:before="p[@uid='{F31A22B4-1FBB-4FC1-988B-EA78F2900510}']"
+              p:after="p[@uid='{CC014EE3-970C-41FE-BDE2-0EA05208BD46}']"
               s:key="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-4_b9ad35db-bb36-4df8-b9d3-3242ec9527b5"
               s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-4" />
             <p
               uid="{F31A22B4-1FBB-4FC1-988B-EA78F2900510}"
-              p:before="p[@uid='{0C8AEAAD-CE01-49AE-8E1E-156EC09AEF5A}']"
+              p:after="p[@uid='{F8825690-0442-4A5A-858C-DD114DEF2036}']"
               s:key="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-5_b9ad35db-bb36-4df8-b9d3-3242ec9527b5"
               s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-5" />
             <p
               uid="{0C8AEAAD-CE01-49AE-8E1E-156EC09AEF5A}"
-              p:before="r[@uid='{98F2749E-9C91-49DC-800F-CE1003415B4F}']"
+              p:after="p[@uid='{F31A22B4-1FBB-4FC1-988B-EA78F2900510}']"
               s:key="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-6_b9ad35db-bb36-4df8-b9d3-3242ec9527b5"
               s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-narrow-6" />
             <r
               uid="{98F2749E-9C91-49DC-800F-CE1003415B4F}"
-              p:before="r[@uid='{80CD8E31-93BE-4A68-B479-E89C5C39B5ED}']"
+              p:after="p[@uid='{0C8AEAAD-CE01-49AE-8E1E-156EC09AEF5A}']"
               s:ds="{2589D3F3-B646-4709-AF86-C0F5C3C43C9D}"
               s:id="{EE5A9F3D-C2CB-4710-8053-04D1A7135EBE}"
               s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-huge_075cc2ff-1cd4-41ed-b913-f0504a049986" />
             <r
               uid="{80CD8E31-93BE-4A68-B479-E89C5C39B5ED}"
-              p:before="r[@uid='{075CC2FF-1CD4-41ED-B913-F0504A049986}']"
+              p:after="r[@uid='{98F2749E-9C91-49DC-800F-CE1003415B4F}']"
               s:ds="location:{AC67D144-7CAC-4D7F-A40A-9F800F2C8F7C}"
               s:id="{D0B4FD9F-3AEE-4AD7-BBC4-F37F0A1A3309}"
               s:par="SearchResultsLimit=10"
               s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-huge_075cc2ff-1cd4-41ed-b913-f0504a049986" />
             <r
               uid="{075CC2FF-1CD4-41ED-B913-F0504A049986}"
-              p:before="r[@uid='{4825A418-2B7B-43C5-99C1-BBA804DC0BBB}']"
+              p:after="r[@uid='{80CD8E31-93BE-4A68-B479-E89C5C39B5ED}']"
               s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
               s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4" />
             <r
               uid="{4825A418-2B7B-43C5-99C1-BBA804DC0BBB}"
-              p:before="r[@uid='{16F72E48-23FB-44CF-9F58-AF00F2553244}']"
+              p:after="r[@uid='{075CC2FF-1CD4-41ED-B913-F0504A049986}']"
               s:ds="{89A92ACA-2E50-477E-B8D2-A1D9EA9253BB}"
               s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
               s:ph="/page-layout/section/col-narrow-1" />
             <r
               uid="{16F72E48-23FB-44CF-9F58-AF00F2553244}"
-              p:before="r[@uid='{98E53CA3-A399-4179-BA72-C51852816D3F}']"
+              p:after="r[@uid='{4825A418-2B7B-43C5-99C1-BBA804DC0BBB}']"
               s:ds="{F84917ED-9ACA-4A6F-B65F-00E6B209D371}"
               s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}"
               s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-6_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" />
             <r
               uid="{98E53CA3-A399-4179-BA72-C51852816D3F}"
-              p:before="r[@uid='{CC12D9CB-1F66-4B08-B1E6-D083E88CE372}']"
+              p:after="r[@uid='{16F72E48-23FB-44CF-9F58-AF00F2553244}']"
               s:ds="{17F0B1C7-0D17-4039-962D-6B5894DEF4DF}"
               s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}"
               s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-5_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" />
             <r
               uid="{CC12D9CB-1F66-4B08-B1E6-D083E88CE372}"
-              p:before="r[@uid='{25053555-E1FE-49D9-BCE2-D3E776507BB3}']"
+              p:after="r[@uid='{98E53CA3-A399-4179-BA72-C51852816D3F}']"
               s:ds="{1BEE7175-8126-4F1F-B0D3-1C0C3879795D}"
               s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}"
               s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-4_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" />
             <r
               uid="{25053555-E1FE-49D9-BCE2-D3E776507BB3}"
-              p:before="r[@uid='{078BF6D3-14A9-4CFB-A93C-5457D2730B36}']"
+              p:after="r[@uid='{CC12D9CB-1F66-4B08-B1E6-D083E88CE372}']"
               s:ds="{C9BFB6A6-5B20-42EF-82FD-E79CEC01CC80}"
               s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}"
               s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-3_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" />
             <r
               uid="{078BF6D3-14A9-4CFB-A93C-5457D2730B36}"
-              p:before="r[@uid='{D5E5B075-C0CE-48BE-B1BA-F2FD9F847D76}']"
+              p:after="r[@uid='{25053555-E1FE-49D9-BCE2-D3E776507BB3}']"
               s:ds="{3D1C0597-EB53-4216-BA7C-215624C3A641}"
               s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}"
               s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-2_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" />
             <r
               uid="{D5E5B075-C0CE-48BE-B1BA-F2FD9F847D76}"
-              p:before="r[@uid='{C0331280-9D2C-4BE9-8DA6-32D36EBD6456}']"
+              p:after="r[@uid='{078BF6D3-14A9-4CFB-A93C-5457D2730B36}']"
               s:ds="{B7264CE2-345E-4760-A3A8-619435E65A89}"
               s:id="{7B7DD1F9-A0DB-45D9-9A3F-B704BB28903E}"
               s:ph="/page-layout/section_72afa1d9-c667-4e02-9b90-ed4a897174a4/col-narrow-1_b9ad35db-bb36-4df8-b9d3-3242ec9527b5" />
             <r
               uid="{C0331280-9D2C-4BE9-8DA6-32D36EBD6456}"
-              p:before="r[@uid='{E4CC5A90-0AFD-42FB-A337-7058AF90204B}']"
+              p:after="r[@uid='{D5E5B075-C0CE-48BE-B1BA-F2FD9F847D76}']"
               s:ds="{FB063740-6663-411E-95C0-1CD49A5EB7FC}"
               s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
               s:ph="/page-layout/section/col-narrow-2">
@@ -222,24 +222,24 @@ Languages:
             </r>
             <r
               uid="{E4CC5A90-0AFD-42FB-A337-7058AF90204B}"
-              p:before="r[@uid='{C4B60845-97CE-43CF-A09D-843D67B3ECB0}']"
-              s:ds="{2AE21DEF-82EC-403E-A8A8-16761CF85995}"
+              p:after="r[@uid='{C0331280-9D2C-4BE9-8DA6-32D36EBD6456}']"
+              s:ds="{B4FB2844-5914-44B8-A0BF-2468EB15AA0B}"
               s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
               s:ph="/page-layout/section/col-narrow-2" />
             <r
               uid="{C4B60845-97CE-43CF-A09D-843D67B3ECB0}"
-              p:before="r[@uid='{6D27F201-7AF5-462B-8ABA-48C313DC375D}']"
+              p:after="r[@uid='{E4CC5A90-0AFD-42FB-A337-7058AF90204B}']"
               s:id="{CA748838-E6D5-4BAD-9126-CAD10DD1B0DB}"
               s:ph="/page-layout/section/col-narrow-1" />
             <r
               uid="{6D27F201-7AF5-462B-8ABA-48C313DC375D}"
-              p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']"
+              p:after="r[@uid='{C4B60845-97CE-43CF-A09D-843D67B3ECB0}']"
               s:ds="{3F7B49B0-8E2A-414A-AB9D-988F2915840A}"
               s:id="{0CF58F14-D0F8-4C41-9896-3D69048A0B19}"
               s:ph="/page-layout/section/col-narrow-1" />
             <r
               uid="{72AFA1D9-C667-4E02-9B90-ED4A897174A4}"
-              p:before="r[@uid='{66422117-69C1-4B62-9323-482F16C4F244}']"
+              p:after="r[@uid='{69DEF693-8A46-4558-9018-2C5B431824B1}']"
               s:ds=""
               s:id="{1149A3C7-C69A-4E6B-A6C3-32687EC2F8D4}"
               s:par="UseStaticPlaceholderNames&amp;Type=bg-primary&amp;Media&amp;Parallax"
@@ -250,7 +250,7 @@ Languages:
             </r>
             <r
               uid="{1480F351-1265-4203-A9B2-E70940438419}"
-              p:before="r[@uid='{565F9960-4E47-4DA4-9406-0A29DD09911F}']"
+              p:after="r[@uid='{66422117-69C1-4B62-9323-482F16C4F244}']"
               s:ds=""
               s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
               s:par=""
@@ -317,6 +317,7 @@ Languages:
             </r>
             <r
               uid="{29CD4722-5DDA-4DFE-8CBC-726661E56A5E}"
+              p:after="*[1=2]"
               s:id="{CA748838-E6D5-4BAD-9126-CAD10DD1B0DB}"
               s:ph="/page-layout/col-narrow-1" />
           </d>
@@ -345,7 +346,7 @@ Languages:
         <h2>The best reputation</h2>
         <p>Clients turn to us for practical legal advice and to help them uncover opportunities that lead to the resolution of legal issues and disputes. We have built a reputation of understanding the industries and businesses of our clients and working with them to achieve just that.</p>
         <h2>Your full-service law firm</h2>
-        <p>Founded in San Francisco, Habitat Legal is strategically positioned to serve clients in business and litigation matters throughout Northern and Southern California, and beyond. As a preeminent full-service law firm, we offer counsel in more than 20 areas of civil practice including intellectual property, taxation, corporate, civil litigation, business planning, bankruptcy, employment, construction, real estate, family law, and mergers and acquisitions. We focus on providing these services to public corporations, governmental entities, privately held companies, family-owned businesses and individuals. Our clients&rsquo; industries are as vast and diverse as our region &ndash; financial institutions, retail, construction, real estate, public agencies and non-profit organizations, professional service companies, and even other legal firms and individuals.</p>
-        <p>This, is only half the picture of our firm. The other half of the picture can be found in the attorneys who comprise our firm and the role they play in their communities. Our attorneys&rsquo; participate in our diverse pro bono programs helping many charities and disadvantaged individuals. And, we serve on over 35 charitable boards throughout the State supporting such causes as animal welfare, food banks, women&rsquo;s shelters, hospice services, and the arts.&nbsp;</p>
+        <p>Founded in San Francisco, Chase Ridley is strategically positioned to serve clients in business and litigation matters throughout Northern and Southern California, and beyond. As a preeminent full-service law firm, we offer counsel in more than 20 areas of civil practice including intellectual property, taxation, corporate, civil litigation, business planning, bankruptcy, employment, construction, real estate, family law, and mergers and acquisitions. We focus on providing these services to public corporations, governmental entities, privately held companies, family-owned businesses and individuals. Our clients’ industries are as vast and diverse as our region – financial institutions, retail, construction, real estate, public agencies and non-profit organizations, professional service companies, and even other legal firms and individuals.</p>
+        <p>This, is only half the picture of our firm. The other half of the picture can be found in the attorneys who comprise our firm and the role they play in their communities. Our attorneys’ participate in our diverse pro bono programs helping many charities and disadvantaged individuals. And, we serve on over 35 charitable boards throughout the State supporting such causes as animal welfare, food banks, women’s shelters, hospice services, and the arts. </p>
         <h2>At your service</h2>
-        <p>For more than 40 years, our success has grown from earning the trust of our clients. Many of these relationships have spanned decades, which we proudly credit to our legal skills, our responsiveness and our ability to uncover opportunities that lead to our client&rsquo;s goals. We intend to continue this track record for many years to come.</p>
+        <p>For more than 40 years, our success has grown from earning the trust of our clients. Many of these relationships have spanned decades, which we proudly credit to our legal skills, our responsiveness and our ability to uncover opportunities that lead to our client’s goals. We intend to continue this track record for many years to come.</p>
