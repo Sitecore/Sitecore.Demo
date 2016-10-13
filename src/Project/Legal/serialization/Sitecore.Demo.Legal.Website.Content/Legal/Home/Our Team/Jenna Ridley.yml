@@ -5,6 +5,10 @@ Template: "75e42a73-0ae1-44c5-ac04-c9d5c4568680"
 Path: /sitecore/content/Legal/Home/Our Team/Jenna Ridley
 DB: master
 SharedFields:
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 0
 - ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
   Hint: __Tracking
   Type: Tracking
@@ -71,8 +75,8 @@ Languages:
     - ID: "0cc9785e-54fe-4fae-93e4-d0d2ae75f339"
       Hint: Biography
       Value: |
-        <p style="margin-left: 13.5pt;"><span>Jenna is a partner and member of the firm’s Taxation Law group. Her areas of practice include primarily financial and tax counsel for corporate businesses as well as individual income, estate and gift tax planning, general business matters, international financial planning, and tax dispute resolution before the Internal Revenue Service, the Franchise Tax Board, and the State Board of Equalization. She regularly advises clients in connection with the acquisition and disposition of interests in business enterprises and disputes between owners within the same business.</span></p>
-        <p style="margin-left: 13.5pt;"><span>Jenna counsels trustees, including family members, as to a wide range of tax issues that arise during the administration of trust. In advising trustees, Jenna’s expertise includes the taxation of estates and trusts. She has extensive knowledge about the many taxes that are required to be filed with federal, state, and local government.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Jenna is a senior partner and member of the firm&rsquo;s Taxation Law group. Her areas of practice include primarily financial and tax counsel for corporate businesses as well as individual income, estate and gift tax planning, general business matters, international financial planning, and tax dispute resolution before the Internal Revenue Service, the Franchise Tax Board, and the State Board of Equalization. She regularly advises clients in connection with the acquisition and disposition of interests in business enterprises and disputes between owners within the same business.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Jenna counsels trustees, including family members, as to a wide range of tax issues that arise during the administration of trust. In advising trustees, Jenna&rsquo;s expertise includes the taxation of estates and trusts. She has extensive knowledge about the many taxes that are required to be filed with federal, state, and local government.</span></p>
         <p style="margin-left: 13.5pt;"><span>Jenna has been practicing in the Bay Area area for more than 30 years. She lectures on business and corporate tax issues to a variety of community and business groups. She is actively involved in non-profit organizations in the community. Jenna is a member of the Board of Overseers for the UCSF Benioff Medical Center, and she is a board member of UCP of the Golden Gate. She was recognized on The Best Lawyers in America 2014 and 2015.</span></p>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
       Hint: OpenGraphTitle
