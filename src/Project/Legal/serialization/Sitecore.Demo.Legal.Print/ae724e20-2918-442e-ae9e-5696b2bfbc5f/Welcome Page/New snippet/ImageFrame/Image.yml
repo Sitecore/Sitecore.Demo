@@ -10,7 +10,8 @@ SharedFields:
   Value: "-1.3750000000159304"
 - ID: "07238f47-1214-4b54-a985-4be783cf9909"
   Hint: HighResSrc
-  Value: "C:\Users\sli\AppData\Local\Adobe\InDesign\Version 11.0\en_GB\Caches\InDesignProjects\legal.demo.habitat.local\ImageViewer\{8BFEA0E2-BB15-4DDE-B9C6-2F487538A5B4}.jpg"
+  Value: |
+    C:\Users\sli\AppData\Local\Adobe\InDesign\Version 11.0\en_GB\Caches\InDesignProjects\legal.demo.habitat.local\ImageViewer\{8BFEA0E2-BB15-4DDE-B9C6-2F487538A5B4}.jpg
 - ID: "0a796bcc-c5f6-4db5-9a7d-cacf6e784fe2"
   Hint: Skew
   Value: 0.000000000000000
@@ -31,7 +32,8 @@ SharedFields:
   Value: 215.9999999999361
 - ID: "ac0ab3fa-4f48-4d2b-9512-4e97b9135f00"
   Hint: LowResSrc
-  Value: "C:\Users\sli\AppData\Local\Adobe\InDesign\Version 11.0\en_GB\Caches\InDesignProjects\legal.demo.habitat.local\ImageViewer\{8BFEA0E2-BB15-4DDE-B9C6-2F487538A5B4}.jpg"
+  Value: |
+    C:\Users\sli\AppData\Local\Adobe\InDesign\Version 11.0\en_GB\Caches\InDesignProjects\legal.demo.habitat.local\ImageViewer\{8BFEA0E2-BB15-4DDE-B9C6-2F487538A5B4}.jpg
 - ID: "b99dfd89-085b-4c93-a1e4-720540262546"
   Hint: WCont
   Value: 5
@@ -48,4 +50,5 @@ Languages:
       Value: 20160615T084803Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: sitecore\admin
+      Value: |
+        sitecore\admin

@@ -7,7 +7,8 @@ DB: master
 SharedFields:
 - ID: "8cbab1df-cf26-4c80-9002-62aa153d1e4c"
   Hint: Linked item
-  Value: "<link linktype=\"internal\" url=\"/Legal/Home/Landing Pages/Email Taxation Webinar Mockup\" id=\"{A91BCE10-0C35-4631-8673-DB73E5BB19A8}\" />"
+  Value: |
+    <link linktype="internal" url="/Legal/Home/Landing Pages/Email Taxation Webinar Mockup" id="{A91BCE10-0C35-4631-8673-DB73E5BB19A8}" />
 Languages:
 - Language: en
   Versions:
@@ -18,4 +19,5 @@ Languages:
       Value: 20160217T142821Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: sitecore\admin
+      Value: |
+        sitecore\admin

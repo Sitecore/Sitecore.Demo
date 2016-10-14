@@ -7,7 +7,8 @@ DB: master
 SharedFields:
 - ID: "e8ab122c-6f54-4d4e-aec6-f81addc558fc"
   Hint: TeaserLink
-  Value: "<link id=\"{62B8DE00-380C-4287-9541-CEE68E1DA9D7}\" querystring=\"\" text=\"Register Now\" title=\"Taxation Webinar\" class=\"\" linktype=\"internal\" url=\"/Legal/Home/Landing Pages/Taxation Webinar/Taxation Webinar Register\" target=\"\" />"
+  Value: |
+    <link id="{62B8DE00-380C-4287-9541-CEE68E1DA9D7}" querystring="" text="Register Now" title="Taxation Webinar" class="" linktype="internal" url="/Legal/Home/Landing Pages/Taxation Webinar/Taxation Webinar Register" target="" />
 Languages:
 - Language: en
   Versions:
@@ -15,7 +16,8 @@ Languages:
     Fields:
     - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
       Hint: TeaserImage
-      Value: "<image mediaid=\"{76C6808D-2572-4707-9F81-1B03356475A9}\" alt=\"\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"
+      Value: |
+        <image mediaid="{76C6808D-2572-4707-9F81-1B03356475A9}" alt="" height="" width="" hspace="" vspace="" />
     - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
       Hint: TeaserSummary
       Value: Sign up to this webinar as the spaces are limited. To keep the information flow and questions as efficient as possible, we only allow a small number of attendees for each webinar. There are places available now so don't delay and miss out.

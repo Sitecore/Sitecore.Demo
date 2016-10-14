@@ -113,7 +113,8 @@ Languages:
       Value: Mark Chase, founder, business formation, business law, transactions, financing, acquisitions, corporate counsel
     - ID: "c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38"
       Hint: Picture
-      Value: "<image mediaid=\"{CED90285-5ADA-423D-AF9D-16B2B1DFC3CC}\"></image>"
+      Value: |
+        <image mediaid="{CED90285-5ADA-423D-AF9D-16B2B1DFC3CC}"></image>
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Mark Chase

@@ -14,7 +14,9 @@ Languages:
       Value: 20160615T084803Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: sitecore\admin
+      Value: |
+        sitecore\admin
     - ID: "9744ccf8-abbe-4de1-a74b-69fb6254b897"
       Hint: Content
-      Value: "<ParagraphStyle Style=\"PractiseArea Header\" Tag=\"p\"><![CDATA[Welcome]]></ParagraphStyle>"
+      Value: |
+        <ParagraphStyle Style="PractiseArea Header" Tag="p"><![CDATA[Welcome]]></ParagraphStyle>

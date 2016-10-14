@@ -116,7 +116,8 @@ Languages:
       Value: Eduardo Perez, partner, corporate law, property law, litigation attorney, corporate finance, IP, intellectual property, joint ventures, professional services
     - ID: "c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38"
       Hint: Picture
-      Value: "<image mediaid=\"{71BB982B-938D-4772-8E77-7658791DDBC2}\"></image>"
+      Value: |
+        <image mediaid="{71BB982B-938D-4772-8E77-7658791DDBC2}"></image>
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Eduardo Perez Jr

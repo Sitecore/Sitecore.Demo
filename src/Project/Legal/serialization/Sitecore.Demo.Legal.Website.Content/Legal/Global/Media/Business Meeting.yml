@@ -14,7 +14,8 @@ Languages:
       Value: 20160326T143015Z
     - ID: "2628705d-9434-4448-978c-c3bf166fa1eb"
       Hint: MediaVideoLink
-      Value: "<link id=\"{15BB8276-9B00-4D18-B580-B4D27CB13579}\" querystring=\"\" text=\"Business Meeting\" title=\"\" class=\"\" linktype=\"internal\" url=\"/sitecore/media library/Legal/Video/Diverse Happy Business Team Meeting\" target=\"\" />"
+      Value: |
+        <link id="{15BB8276-9B00-4D18-B580-B4D27CB13579}" querystring="" text="Business Meeting" title="" class="" linktype="internal" url="/sitecore/media library/Legal/Video/Diverse Happy Business Team Meeting" target="" />
     - ID: "302c9f8d-f703-4f76-a4ab-73d222648232"
       Hint: MediaDescription
       Value: |

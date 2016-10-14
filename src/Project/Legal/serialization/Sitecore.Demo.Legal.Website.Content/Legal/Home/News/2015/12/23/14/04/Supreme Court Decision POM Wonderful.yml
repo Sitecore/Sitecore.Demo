@@ -18,10 +18,12 @@ Languages:
       Value: 20151223T140421Z
     - ID: "3437eaac-6ee8-460b-a33d-da1f714b5a93"
       Hint: NewsImage
-      Value: "<image mediaid=\"{73A2D107-CF16-496C-BDBB-0926D37D9736}\" />"
+      Value: |
+        <image mediaid="{73A2D107-CF16-496C-BDBB-0926D37D9736}" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: sitecore\admin
+      Value: |
+        sitecore\admin
     - ID: "801612c7-5e98-4e3c-80d2-a34d0eebcbda"
       Hint: NewsBody
       Value: |

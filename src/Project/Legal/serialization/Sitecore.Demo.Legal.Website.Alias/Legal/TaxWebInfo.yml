@@ -7,7 +7,8 @@ DB: master
 SharedFields:
 - ID: "8cbab1df-cf26-4c80-9002-62aa153d1e4c"
   Hint: Linked item
-  Value: "<link linktype=\"internal\" url=\"/Legal/Home/Landing Pages/Taxation Webinar/Taxation Webinar More Info\" id=\"{BCF8524F-D93A-47FB-BD2F-D4D9B887A2A6}\" />"
+  Value: |
+    <link linktype="internal" url="/Legal/Home/Landing Pages/Taxation Webinar/Taxation Webinar More Info" id="{BCF8524F-D93A-47FB-BD2F-D4D9B887A2A6}" />
 Languages:
 - Language: en
   Versions:
@@ -18,4 +19,5 @@ Languages:
       Value: 20160216T115335Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: sitecore\admin
+      Value: |
+        sitecore\admin

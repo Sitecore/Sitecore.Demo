@@ -19,7 +19,8 @@ SharedFields:
     </tracking>
 - ID: "98535f26-6c9d-4fd7-a7e2-392c7cb82d65"
   Hint: Image
-  Value: "<image mediaid=\"{A9B854B9-73FD-4087-90D3-3700E572630C}\" />"
+  Value: |
+    <image mediaid="{A9B854B9-73FD-4087-90D3-3700E572630C}" />
 - ID: "fe732790-2ddb-4657-a882-c2fce1fbf0c9"
   Hint: Name
   Value: Eric the Entrepreneur
@@ -30,7 +31,8 @@ Languages:
     Fields:
     - ID: "03db5c50-d4bf-4e87-9ab4-0e5b4bf4e1a9"
       Hint: Description
-      Value: "<p style=\"margin: 0cm 0cm 0pt;\">Eric is the owner of a small start-up tech company. Given that he&rsquo;s starting his own company from the ground up, his interests lie specifically in legal areas affecting company organization, contract development (employee, vendor, and SLAs), and expertise within intellectual property and taxation law.</p>"
+      Value: |
+        <p style="margin: 0cm 0cm 0pt;">Eric is the owner of a small start-up tech company. Given that he&rsquo;s starting his own company from the ground up, his interests lie specifically in legal areas affecting company organization, contract development (employee, vendor, and SLAs), and expertise within intellectual property and taxation law.</p>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160104T145142Z

@@ -115,7 +115,8 @@ Languages:
       Value: 20151223T142722Z
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
-      Value: "<image mediaid=\"{D46D0E55-FC52-4CB9-B4F4-2676D862462F}\" />"
+      Value: |
+        <image mediaid="{D46D0E55-FC52-4CB9-B4F4-2676D862462F}" />
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: "<span>Chase Ridley has one of the strongest Intellectual Property and digital media practices in the region. We represent a variety of clients (from small businesses and multi-billion dollar publicly traded companies, to professional service firms and individual consultants) in securing, protecting, and using Intellectual Property, and with handling complex issues involving technology, the internet, and social media.</span>"

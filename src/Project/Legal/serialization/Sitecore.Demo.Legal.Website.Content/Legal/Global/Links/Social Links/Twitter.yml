@@ -20,4 +20,5 @@ Languages:
       Value: 
     - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
       Hint: Link
-      Value: "<link text=\"Twitter\" linktype=\"external\" url=\"http://www.twitter.com\" anchor=\"\" target=\"_blank\" />"
+      Value: |
+        <link text="Twitter" linktype="external" url="http://www.twitter.com" anchor="" target="_blank" />

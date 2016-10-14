@@ -26,4 +26,5 @@ Languages:
       Value: Chase Ridley
     - ID: "c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38"
       Hint: Picture
-      Value: "<image mediaid=\"{71BB982B-938D-4772-8E77-7658791DDBC2}\" ></image>"
+      Value: |
+        <image mediaid="{71BB982B-938D-4772-8E77-7658791DDBC2}" ></image>

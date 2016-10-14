@@ -17,10 +17,12 @@ Languages:
       Value: <p>Providing the latest information for laywers</p>
     - ID: "4ff62b0a-d73b-4436-bea2-023154f2ffc4"
       Hint: MediaThumbnail
-      Value: "<image mediaid=\"{8CB72B0E-E879-41F1-A80D-947C7818AB11}\" />"
+      Value: |
+        <image mediaid="{8CB72B0E-E879-41F1-A80D-947C7818AB11}" />
     - ID: "63dda48b-b0cb-45a7-9a1b-b26ddb41009b"
       Hint: MediaTitle
       Value: Sitecore Legal Services
     - ID: "9f51dead-ad6e-41c2-9759-7be17eb474a4"
       Hint: MediaImage
-      Value: "<image mediaid=\"{8CB72B0E-E879-41F1-A80D-947C7818AB11}\" />"
+      Value: |
+        <image mediaid="{8CB72B0E-E879-41F1-A80D-947C7818AB11}" />

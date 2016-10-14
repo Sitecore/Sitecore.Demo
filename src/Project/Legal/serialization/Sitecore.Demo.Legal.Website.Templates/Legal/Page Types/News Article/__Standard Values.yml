@@ -129,7 +129,8 @@ Languages:
       Value: 20150824T175451Z
     - ID: "3437eaac-6ee8-460b-a33d-da1f714b5a93"
       Hint: NewsImage
-      Value: "<image mediaid=\"{732E8624-A9B7-4F16-B2D1-61FE6E12B6E7}\" />"
+      Value: |
+        <image mediaid="{732E8624-A9B7-4F16-B2D1-61FE6E12B6E7}" />
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: $name

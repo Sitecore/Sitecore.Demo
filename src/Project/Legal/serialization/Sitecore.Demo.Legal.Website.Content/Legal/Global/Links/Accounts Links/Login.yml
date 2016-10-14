@@ -17,4 +17,5 @@ Languages:
       Value: 20160318T101900Z
     - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
       Hint: Link
-      Value: "<link text=\"Login\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{50E54A47-2355-45E8-B6B4-8A268C38A0C1}\" />"
+      Value: |
+        <link text="Login" linktype="internal" class="" title="" target="" querystring="" id="{50E54A47-2355-45E8-B6B4-8A268C38A0C1}" />

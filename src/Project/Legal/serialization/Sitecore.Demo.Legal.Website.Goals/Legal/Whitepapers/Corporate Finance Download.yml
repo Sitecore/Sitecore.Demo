@@ -7,7 +7,8 @@ DB: master
 SharedFields:
 - ID: "0cf2654b-6e8b-44eb-9555-d2458b8092a5"
   Hint: Event Image
-  Value: "<image mediaid=\"{93D49B7D-0308-4678-AABF-0DE750C55194}\" />"
+  Value: |
+    <image mediaid="{93D49B7D-0308-4678-AABF-0DE750C55194}" />
 - ID: "2f2ae296-8b58-4d94-8eee-0e82589d61a4"
   Hint: Show in Page Events
   Type: Checkbox

@@ -7,7 +7,8 @@ DB: master
 SharedFields:
 - ID: "709b879b-7264-49c7-8864-e254d9129302"
   Hint: Image
-  Value: "<image mediaid=\"{9B397DA3-6702-47AC-B0B4-250FB1ED38BD}\" />"
+  Value: |
+    <image mediaid="{9B397DA3-6702-47AC-B0B4-250FB1ED38BD}" />
 - ID: "85970ab7-22ea-4206-be86-c0167178860b"
   Hint: Profile Card Value
   Value: |

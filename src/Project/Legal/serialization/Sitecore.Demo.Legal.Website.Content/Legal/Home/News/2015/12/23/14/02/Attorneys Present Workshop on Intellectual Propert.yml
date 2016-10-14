@@ -18,10 +18,12 @@ Languages:
       Value: 20151223T140207Z
     - ID: "3437eaac-6ee8-460b-a33d-da1f714b5a93"
       Hint: NewsImage
-      Value: "<image mediaid=\"{EA1F82BC-BB1B-4708-97CF-A7B39EEE9FC1}\" />"
+      Value: |
+        <image mediaid="{EA1F82BC-BB1B-4708-97CF-A7B39EEE9FC1}" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: sitecore\admin
+      Value: |
+        sitecore\admin
     - ID: "801612c7-5e98-4e3c-80d2-a34d0eebcbda"
       Hint: NewsBody
       Value: <span>San Francisco, California&mdash;</span><span>Chase Ridley attorneys Dale Kent, Shane Nevins, and Lorie Mackie presented an intellectual property workshop in conjunction with FAB Authority on Thursday, July 16. Attendees learned how to use IP legal tools to help protect their brands, including copyrights and how to best protect designs and ideas. Below is a recap video of the workshop. (VIDEO)</span>
