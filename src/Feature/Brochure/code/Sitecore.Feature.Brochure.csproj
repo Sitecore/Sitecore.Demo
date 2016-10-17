@@ -70,11 +70,11 @@
       <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Foundation.Theming.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Kernel">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Kernel.dll</HintPath>
+      <HintPath>..\..\..\..\packages\Sitecore.Kernel.NoReferences.8.2.160729\lib\net452\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Mvc">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.Mvc.dll</HintPath>
+      <HintPath>..\..\..\..\packages\Sitecore.Mvc.NoReferences.8.2.160729\lib\net452\Sitecore.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.PrintStudio.PublishingEngine">
       <HintPath>..\..\..\..\lib\Sitecore\Sitecore.PrintStudio.PublishingEngine.dll</HintPath>
