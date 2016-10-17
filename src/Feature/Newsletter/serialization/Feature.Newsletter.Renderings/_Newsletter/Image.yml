@@ -11,6 +11,9 @@ SharedFields:
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: "site:newslettercontent"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: "<image mediaid=\"{B564C5C2-EC17-46D7-AD14-F059AD1800B6}\" />"
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
   Value: ImageSection
