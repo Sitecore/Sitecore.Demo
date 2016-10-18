@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "6896e84a-3269-4833-9e2e-47015780bbf3"
   Hint: Item Reference
-  Value: "{56DFE58F-6C17-4FD6-84C4-F82512F9F648}"
+  Value: 
 - ID: "6a937e7b-992e-4b75-a822-eda1cd0445e3"
   Hint: Data Key
   Value: items

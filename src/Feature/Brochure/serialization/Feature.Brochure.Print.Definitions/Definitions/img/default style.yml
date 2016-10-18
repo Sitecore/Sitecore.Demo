@@ -8,6 +8,9 @@ SharedFields:
 - ID: "89ad5209-b1c5-44d0-99e8-46f391b12e0f"
   Hint: XHTML Attribute
   Value: class
+- ID: "9f94d809-627e-468e-99dc-ab523d8f2e56"
+  Hint: XML Default value
+  Value: PracticeImage
 - ID: "a05e1d55-b7c5-4b57-aa0c-c1a7845cfc7c"
   Hint: XML Attribute
   Value: ObjectStyle

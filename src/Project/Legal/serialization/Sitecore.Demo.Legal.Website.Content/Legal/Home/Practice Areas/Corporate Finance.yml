@@ -5,6 +5,10 @@ Template: "4b0a2893-4e7b-4248-86a9-dab6da3bb230"
 Path: /sitecore/content/Legal/Home/Practice Areas/Corporate Finance
 DB: master
 SharedFields:
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 1
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{E2A658AB-B142-4AD9-AACA-C69200622F44}"
@@ -34,6 +38,10 @@ SharedFields:
           value="0" />
       </profile>
     </tracking>
+- ID: "b5c41973-af3f-4d7d-8551-5cc1eb37a616"
+  Hint: Allow In Brochure
+  Type: Checkbox
+  Value: 0
 Languages:
 - Language: en
   Versions:

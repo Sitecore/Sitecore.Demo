@@ -38,6 +38,9 @@ SharedFields:
 - ID: "e3415938-c913-42e4-ab4a-9ac63382aa59"
   Hint: Rotation
   Value: 0.000000000000000
+- ID: "f2d812b5-99ed-48d4-8720-c5c5a1862392"
+  Hint: MediaLibrary Reference
+  Value: "{8BFEA0E2-BB15-4DDE-B9C6-2F487538A5B4}"
 Languages:
 - Language: en
   Versions:

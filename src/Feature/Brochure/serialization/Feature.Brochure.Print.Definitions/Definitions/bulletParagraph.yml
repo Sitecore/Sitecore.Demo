@@ -1,34 +1,34 @@
 ﻿---
-ID: "e63631dd-baa0-4f51-b299-606378b41b3c"
-Parent: "3dddff68-662a-4766-83be-0eecb5e0f59d"
-Template: "7cd0ed9c-975d-41ed-b106-e4c60e06d4f7"
-Path: /sitecore/Print Studio/Modules/InDesign connector/Transformations/Definitions/img/style
+ID: "dae1c359-3315-47fd-873e-4cd52f1dab3a"
+Parent: "ab84eeec-a279-433c-a895-2ba6044f5c8d"
+Template: "0ef07066-419a-4c9c-b6cd-9dd98857893f"
+Path: /sitecore/Print Studio/Modules/InDesign connector/Transformations/Definitions/bulletParagraph
 DB: master
 SharedFields:
-- ID: "6bcb71d1-9fb5-4af5-96d5-9fc1e4284e49"
-  Hint: XHTML Default value
-  Value: class
-- ID: "89ad5209-b1c5-44d0-99e8-46f391b12e0f"
-  Hint: XHTML Attribute
-  Value: class
-- ID: "9f94d809-627e-468e-99dc-ab523d8f2e56"
-  Hint: XML Default value
-  Value: PracticeImage
-- ID: "a05e1d55-b7c5-4b57-aa0c-c1a7845cfc7c"
-  Hint: XML Attribute
-  Value: ObjectStyle
+- ID: "7c4c84a5-d522-4d78-8a32-183b71b85062"
+  Hint: XHTML Name
+  Value: h1
+- ID: "80090593-07b3-4e16-843d-336d83dbd355"
+  Hint: XML Name
+  Value: ParagraphStyle
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "f29087bf-de4d-46eb-8c9f-072d8f098458"
+  Hint: Type
+  Value: Sitecore.PrintStudio.PublishingEngine.Text.Parsers.Html.HtmlNodeParser, Sitecore.PrintStudio.PublishingEngine
 Languages:
 - Language: "de-DE"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Style
+    Value: h1
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160511T150725Z
+      Value: 20160511T150616Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin
@@ -38,7 +38,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20130823T104200
+      Value: 20100708T173200
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\Admin
@@ -46,13 +46,13 @@ Languages:
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: スタイル
+    Value: h1
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160511T151049Z
+      Value: 20160511T150915Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin
