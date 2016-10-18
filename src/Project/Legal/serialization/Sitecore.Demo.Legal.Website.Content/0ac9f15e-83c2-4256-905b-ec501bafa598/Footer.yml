@@ -1,0 +1,19 @@
+﻿---
+ID: "ea14cac1-7a1b-4146-9a11-1950bb2cdb16"
+Parent: "0ac9f15e-83c2-4256-905b-ec501bafa598"
+Template: "bcdbb585-dcbb-4459-a797-6d86eaeb7403"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/December Newsletter/Message Root/Footer
+DB: master
+BranchID: "0caeacdc-d7aa-49d6-b8b4-cd7cf10a9023"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160914T173356Z

@@ -1,0 +1,24 @@
+﻿---
+ID: "cf973201-dd83-41a9-a5c0-de3e8008790a"
+Parent: "67a0dc32-9d30-4228-8d0a-ca0ffab78d8c"
+Template: "24d19d8f-907b-47b7-9703-6174e760bd91"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/Q1 Updates for Lawyers/Message Root/Call to Action
+DB: master
+BranchID: "614fc1f2-1633-4049-9e9f-0134610e6719"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: Monthly Update Webinar
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160914T174050Z
+    - ID: "2e2c5fb3-ff5b-4f13-aa18-cfba9c9a97d3"
+      Hint: Link
+      Value: "<link linktype=\"internal\" text=\"Sign Up Now\" querystring=\"\" target=\"\" id=\"{BCF8524F-D93A-47FB-BD2F-D4D9B887A2A6}\" />"
+    - ID: "94d50f81-f040-4b51-b895-d2fd2c27c223"
+      Hint: Content
+      Value: <p>This webinar covers all the important updates to the law in the last month. You don't need to listen in every month. We record all out update webinars and registered users can listen to the full collection.</p>

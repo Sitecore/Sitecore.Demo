@@ -1,0 +1,28 @@
+﻿---
+ID: "f899f517-50e0-47ed-b970-de6d8461a478"
+Parent: "75058624-c906-45e4-acc3-3709813ad8e8"
+Template: "24d19d8f-907b-47b7-9703-6174e760bd91"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/Q3 Updates for Lawyers/Message Root/Main Content
+DB: master
+BranchID: "614fc1f2-1633-4049-9e9f-0134610e6719"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "18b3ef15-ec40-46fe-b03d-26cb3db243cb"
+      Hint: Image
+      Value: "<image mediaid=\"{2E09CA0B-B74A-45D2-BDF2-23D51597CB8B}\" />"
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: Updates for Lawyers
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160914T174050Z
+    - ID: "94d50f81-f040-4b51-b895-d2fd2c27c223"
+      Hint: Content
+      Value: <p>There are always change to the law all the time. It’s hard to keep in touch of what are the most significant changes for you. Let us do that for you and read about what we think are the updates that affect you the most.</p>

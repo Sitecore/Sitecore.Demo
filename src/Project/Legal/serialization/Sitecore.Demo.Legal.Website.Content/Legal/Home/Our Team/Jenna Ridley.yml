@@ -29,6 +29,9 @@ SharedFields:
           name="B2B"
           value="2" />
       </profile>
+      <event
+        id="{AAA5BA9E-7058-4239-B7C0-6E6C6A311255}"
+        name="Jenna Ridley" />
     </tracking>
 Languages:
 - Language: en

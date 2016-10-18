@@ -1,0 +1,17 @@
+﻿---
+ID: "c37900a6-aad7-40a1-b953-ea6cc8173a6e"
+Parent: "0a1e7823-dcce-4bfe-8970-41efadeabe1c"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Marketing Control Panel/Campaigns/Legal/Emails/2016
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160920T170434Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

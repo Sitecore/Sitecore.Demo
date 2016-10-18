@@ -1,0 +1,38 @@
+﻿---
+ID: "e4e1087d-c5e8-4840-97c9-b60ac0e1b47f"
+Parent: "ed608ee0-107b-4df4-a2b8-e21580808178"
+Template: "8ce2707a-3742-4a89-933b-065e5be02bc9"
+Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Legal/Emails/Sent Newsletters/May Newsletter/Invalid Address
+DB: master
+SharedFields:
+- ID: "07ce07cb-078c-415e-8f92-96690babd6c7"
+  Hint: Time interval
+  Value: 0
+- ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
+  Hint: Designer ID
+  Value: "f9698ba6-7716-45e8-8a87-17614c023338"
+- ID: "7642ed71-348b-4b88-8634-cc7b28949472"
+  Hint: Origin ID
+  Value: "c62503fb-3316-4395-a496-a2d93939ae1c"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 250
+- ID: "fb8abc73-7acf-45a0-898c-d3ccb889c3ee"
+  Hint: Final
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Fields:
+  - ID: "06f2d72a-1924-4b9a-ba1e-186ce4e57efd"
+    Hint: Description
+    Value: The server received a failure message for these recipients.
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Invalid Address
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20110307T115245:634350955655619571"

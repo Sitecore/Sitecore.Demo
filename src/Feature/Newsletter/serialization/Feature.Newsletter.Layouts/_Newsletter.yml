@@ -1,0 +1,18 @@
+﻿---
+ID: "709c0096-a25b-4b87-b32c-ea02c6235828"
+Parent: "470a0483-80dc-4425-93b9-9c79c7c57a11"
+Template: "93227c5d-4fef-474d-94c0-f252ec8e8219"
+Path: /sitecore/layout/Layouts/Feature/_Newsletter
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Newsletter
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160816T053348Z

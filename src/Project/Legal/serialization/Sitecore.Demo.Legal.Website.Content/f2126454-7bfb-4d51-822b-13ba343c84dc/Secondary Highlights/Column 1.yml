@@ -1,0 +1,27 @@
+﻿---
+ID: "584d9448-c750-4ca7-a6b5-2ee6e3a41744"
+Parent: "1ccf284f-a28d-4c16-9f6f-fa615c38b0d3"
+Template: "24d19d8f-907b-47b7-9703-6174e760bd91"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/July Newsletter/Message Root/Secondary Highlights/Column 1
+DB: master
+BranchID: "0caeacdc-d7aa-49d6-b8b4-cd7cf10a9023"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "18b3ef15-ec40-46fe-b03d-26cb3db243cb"
+      Hint: Image
+      Value: "<image mediaid=\"{203E715B-1550-4FB1-A52E-2AD7F465498D}\" />"
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: Family Legal Updates
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160914T173355Z
+    - ID: "2e2c5fb3-ff5b-4f13-aa18-cfba9c9a97d3"
+      Hint: Link
+      Value: "<link linktype=\"internal\" text=\"Read More\" querystring=\"\" target=\"\" id=\"{D302EFA4-1332-4D8C-9F5D-F5D99AC5884A}\" />"
+    - ID: "94d50f81-f040-4b51-b895-d2fd2c27c223"
+      Hint: Content
+      Value: <p>Close on the heels of our updates to the Corporate law section, we have not updated our family law section extensively. There is now a lot more information about personal tax and wills. You can see all the updates by following the link.</p>

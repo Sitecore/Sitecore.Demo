@@ -1,0 +1,27 @@
+﻿---
+ID: "60eafb37-7743-4548-abc7-0cfbb291a6e9"
+Parent: "7bc10454-b803-4d77-8d7c-834f3e92c925"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/Project/Legal/MVC Subscription Form
+DB: master
+SharedFields:
+- ID: "13f89250-ad6b-4548-882e-118a12c18094"
+  Hint: Parameters Template
+  Value: "{80F387F1-9D36-466C-A4A6-BEC41EC58148}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: "<image mediaid=\"{0F64B981-0813-44ED-9011-09E4E7E6752B}\" />"
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: Index
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Sitecore.Modules.EmailCampaign.Controllers.SubscriptionForm.SubscriptionFormController, Sitecore.EmailCampaign.Content
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150911T135227Z

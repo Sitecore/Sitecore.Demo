@@ -1,0 +1,20 @@
+﻿@using System.Diagnostics
+@using Sitecore.Data.Fields
+@using Sitecore.Feature.Newsletter
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Resources.Media
+@model Sitecore.Feature.Newsletter.Models.ISectionViewModel
+
+@if (Sitecore.Context.PageMode.IsExperienceEditor)
+{
+  <center style="font-size: 0">
+    @Html.Sitecore().ImageField(Templates.SectionContent.Fields.Image, mw: Model.NewsletterOptions.MaxWidth, item: Model.ContentItem)
+  </center>
+}
+else if (Model.ContentItem.FieldHasValue(Templates.SectionContent.Fields.Image))
+{
+  <center style="font-size: 0">
+    <img src="@Model.ContentItem.ImageUrl(Templates.SectionContent.Fields.Image, new MediaUrlOptions() {MaxWidth = Model.NewsletterOptions.MaxWidth})" alt="" width="100%">
+  </center>
+}

@@ -1,0 +1,27 @@
+﻿---
+ID: "9d9e3939-fe30-443f-928d-ff5c5cadf360"
+Parent: "81de906d-89cf-4bc5-8f3a-8bfd994136fb"
+Template: "24d19d8f-907b-47b7-9703-6174e760bd91"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/May Newsletter/Message Root/Secondary Highlights/Column 2
+DB: master
+BranchID: "0caeacdc-d7aa-49d6-b8b4-cd7cf10a9023"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "18b3ef15-ec40-46fe-b03d-26cb3db243cb"
+      Hint: Image
+      Value: "<image mediaid=\"{91ADE8FB-531B-46B6-A3BD-23C6096EC7B5}\" />"
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: Webinar Series
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160914T173356Z
+    - ID: "2e2c5fb3-ff5b-4f13-aa18-cfba9c9a97d3"
+      Hint: Link
+      Value: "<link linktype=\"internal\" text=\"Read More\" querystring=\"\" target=\"\" id=\"{BCF8524F-D93A-47FB-BD2F-D4D9B887A2A6}\" />"
+    - ID: "94d50f81-f040-4b51-b895-d2fd2c27c223"
+      Hint: Content
+      Value: <p>We are still running our very popular webinar series following our success with this earlier in the year. We have included some additional information about the extra services we offer. These are all free so make sure you don’t miss out by signing up now.</p>

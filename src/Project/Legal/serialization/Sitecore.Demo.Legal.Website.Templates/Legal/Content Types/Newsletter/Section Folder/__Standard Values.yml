@@ -1,0 +1,26 @@
+﻿---
+ID: "8a02fe51-1051-4d8f-b7f8-7a58969e74ee"
+Parent: "856f628a-b9d2-45e2-ae60-e81fe7cc7785"
+Template: "856f628a-b9d2-45e2-ae60-e81fe7cc7785"
+Path: /sitecore/templates/Project/Legal/Content Types/Newsletter/Section Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{24D19D8F-907B-47B7-9703-6174E760BD91}"
+- ID: "a0cb3965-8884-4c7a-8815-b6b2e5ced162"
+  Hint: __Editors
+  Type: TreelistEx
+  Value: "{A0C460F4-DBAE-4A5A-8F3A-C4ADFCDACEEA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T052907Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

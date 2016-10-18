@@ -1,0 +1,23 @@
+﻿---
+ID: "817e2a1b-b5bb-491a-b4cd-447458b45642"
+Parent: "b055b746-24c9-4421-937e-6968e535c4a3"
+Template: "24d19d8f-907b-47b7-9703-6174e760bd91"
+Path: /sitecore/templates/Branches/Legal/Webinar Campaign/$name/Message Root/Call to Action
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: Webinar Title
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T021903Z
+    - ID: "2e2c5fb3-ff5b-4f13-aa18-cfba9c9a97d3"
+      Hint: Link
+      Value: "<link text=\"Sign Up Now\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{6EB0F80B-A1D5-40E0-A472-9308B24228B5}\" />"
+    - ID: "94d50f81-f040-4b51-b895-d2fd2c27c223"
+      Hint: Content
+      Value: <p>Webinar description goes here.</p>

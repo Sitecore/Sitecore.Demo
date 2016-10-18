@@ -1,0 +1,27 @@
+﻿---
+ID: "5a35a29b-e9d4-4e72-a8d5-bde36512fbf4"
+Parent: "68204818-5785-47c2-a7cd-2d79e9a5197d"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Project/Legal/newsletter
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: newsletter
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {F7539AE8-F96C-4D93-87A4-CEBA02E6B14F}
+    {75CF2D93-EFF1-46E6-8DBA-575656A62955}
+    {13D138CA-D979-4CF0-A664-F647B1E2187D}
+    {1BB68678-1954-4315-A063-392BE3F84C7A}
+    {66F89B1A-C696-4089-A50F-C2B11A09D874}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T054948Z

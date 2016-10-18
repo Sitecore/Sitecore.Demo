@@ -1,0 +1,24 @@
+﻿---
+ID: "c06db10e-253d-4f7b-9dcf-1b02595ccc64"
+Parent: "5ce7078e-6db6-40e9-958f-bc9a2f994e48"
+Template: "24d19d8f-907b-47b7-9703-6174e760bd91"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/Solving Transaction Tax Challenges in Mergers and Acquisitions/Message Root/Call to Action
+DB: master
+BranchID: "614fc1f2-1633-4049-9e9f-0134610e6719"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: Solving Transaction Tax Challenges in Mergers and Acquisitions
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160915T093236Z
+    - ID: "2e2c5fb3-ff5b-4f13-aa18-cfba9c9a97d3"
+      Hint: Link
+      Value: "<link linktype=\"internal\" text=\"Sign Up Now\" querystring=\"\" target=\"\" id=\"{BCF8524F-D93A-47FB-BD2F-D4D9B887A2A6}\" />"
+    - ID: "94d50f81-f040-4b51-b895-d2fd2c27c223"
+      Hint: Content
+      Value: <span>This webinar will provide legal professionals with a detailed exploration of the challenges that arise with sales and use, real estate transfer, and other transaction taxes arising from a merger and acquisition event.</span>

@@ -1,0 +1,19 @@
+﻿---
+ID: "43c6a745-d28b-4277-a0a2-99c96dc721f1"
+Parent: "ae78c5db-8b36-48eb-afec-fc4a57a55a20"
+Template: "fa257176-aa15-4999-91c5-c03f3bda5027"
+Path: /sitecore/content/Legal/Legal Campaigns/Message Types/OneTime
+DB: master
+BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: One Time Message
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T022739Z

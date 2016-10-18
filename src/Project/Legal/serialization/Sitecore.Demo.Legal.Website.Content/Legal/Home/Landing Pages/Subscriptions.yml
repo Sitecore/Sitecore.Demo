@@ -1,0 +1,98 @@
+﻿---
+ID: "1dfbc1e3-5f2f-412a-b718-c808fdc27c69"
+Parent: "d12879df-80cc-4b16-b179-c03813f0a26d"
+Template: "9917c92b-0f13-4f96-b50b-84c874e25783"
+Path: /sitecore/content/Legal/Home/Landing Pages/Subscriptions
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DF995856-9917-4E1F-9BAA-42EC7751D21A}"
+              p:before="*"
+              s:ds="{C9BFB6A6-5B20-42EF-82FD-E79CEC01CC80}"
+              s:id="{EBB6DC33-F281-49BE-B273-29ECCD6085A8}"
+              s:ph="/page-layout/section_68168905-c768-43e4-a7c0-0ec10a39e9c5/col-narrow-3_9d707c3f-7f54-4cd0-8093-c85891185967" />
+            <r
+              uid="{142AC34D-93CF-4590-8D44-01A7E800315E}"
+              p:after="r[@uid='{DF995856-9917-4E1F-9BAA-42EC7751D21A}']"
+              s:ds="{3D1C0597-EB53-4216-BA7C-215624C3A641}"
+              s:id="{EBB6DC33-F281-49BE-B273-29ECCD6085A8}"
+              s:ph="/page-layout/section_68168905-c768-43e4-a7c0-0ec10a39e9c5/col-narrow-2_9d707c3f-7f54-4cd0-8093-c85891185967" />
+            <r
+              uid="{9DAD51F5-9D2A-40A6-8D84-DADB623540D2}"
+              p:after="r[@uid='{142AC34D-93CF-4590-8D44-01A7E800315E}']"
+              s:ds="{B7264CE2-345E-4760-A3A8-619435E65A89}"
+              s:id="{EBB6DC33-F281-49BE-B273-29ECCD6085A8}"
+              s:ph="/page-layout/section_68168905-c768-43e4-a7c0-0ec10a39e9c5/col-narrow-1_9d707c3f-7f54-4cd0-8093-c85891185967" />
+            <r
+              uid="{9D707C3F-7F54-4CD0-8093-C85891185967}"
+              p:after="r[@uid='{9DAD51F5-9D2A-40A6-8D84-DADB623540D2}']"
+              s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}"
+              s:ph="/page-layout/section_68168905-c768-43e4-a7c0-0ec10a39e9c5" />
+            <r
+              uid="{8952B359-8695-47D0-A348-E7DF9227839C}"
+              p:after="r[@uid='{9D707C3F-7F54-4CD0-8093-C85891185967}']"
+              s:ds="{FC989D9E-38A7-4279-A5CA-603DCDEA7DA2}"
+              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
+              s:ph="/page-layout/section/col-narrow-1" />
+            <r
+              uid="{4233A61F-C18E-48A3-81F9-535EFB6231DD}"
+              p:after="r[@uid='{8952B359-8695-47D0-A348-E7DF9227839C}']"
+              s:id="{7266CF74-731A-4CE4-9E9F-2D9983F62F62}"
+              s:ph="/page-layout/section/section-narrow/col-wide-1_5150e522-a41e-433b-b14e-61a86cfd69fb" />
+            <r
+              uid="{90A2EA2A-B4B1-4AC4-A675-12C4702C39E6}"
+              p:after="r[@uid='{4233A61F-C18E-48A3-81F9-535EFB6231DD}']"
+              s:id="{7266CF74-731A-4CE4-9E9F-2D9983F62F62}"
+              s:ph="/page-layout/section/section-narrow/col-wide-1_5150e522-a41e-433b-b14e-61a86cfd69fb" />
+            <r
+              uid="{5150E522-A41E-433B-B14E-61A86CFD69FB}"
+              p:after="r[@uid='{90A2EA2A-B4B1-4AC4-A675-12C4702C39E6}']"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:ph="/page-layout/section/section-narrow" />
+            <r
+              uid="{68168905-C768-43E4-A7C0-0EC10A39E9C5}"
+              p:after="r[@uid='{826F2A9A-8690-4861-A7E5-40380F2C79C1}']"
+              s:ds=""
+              s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+              s:par="Background=%7BEFA6AD59-AE21-4524-90F8-A92440B869AF%7D&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames"
+              s:ph="page-layout" />
+            <r
+              uid="{D1242781-6161-440A-A076-796C59DBA763}"
+              p:after="r[@uid='{18389D63-23B8-4E29-A9BF-EB98E18992BC}']"
+              s:ds=""
+              s:id="{60EAFB37-7743-4548-ABC7-0CFBB291A6E9}"
+              s:par="Show List=1&amp;Manager root=%7B5EBC8DC1-B219-4B0E-B600-5BE2826D73EA%7D&amp;Recipient Lists=%7B26AF8BB0-2CAC-4EC7-ADAF-1824295D0005%7D%7C%7BF8400B59-CC6C-4FF8-9364-5B7F58966065%7D%7C%7BFA2CEBF9-566C-4F8A-9B95-9F55F5241BE5%7D&amp;Exclude Lists"
+              s:ph="/page-layout/section/col-wide-1" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160210T172404Z
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: "<image mediaid=\"{F2844FE0-9AE2-4311-8654-8279837A9F66}\" />"
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Add or remove your email address from our email subscriptions lists
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Email Service Subscriptions
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: unsubscribe
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: Use the following form to select the email lists to which you would like to subscribe.

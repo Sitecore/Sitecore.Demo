@@ -1,0 +1,19 @@
+﻿---
+ID: "91a0ed3b-c094-4ecb-b8b1-fd2f566710af"
+Parent: "ae78c5db-8b36-48eb-afec-fc4a57a55a20"
+Template: "60e4a220-b639-46e8-93ef-8466990256aa"
+Path: /sitecore/content/Legal/Legal Campaigns/Message Types/Subscription
+DB: master
+BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Subscription Message
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T022739Z

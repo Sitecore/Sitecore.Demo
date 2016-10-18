@@ -1,0 +1,14 @@
+﻿---
+ID: "2997da51-6ed5-4f73-aa67-e97f9799d35e"
+Parent: "3a9f920b-2350-4088-b9a7-2dedfef1cbc9"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/client/Applications/ExmExperienceGenerator/Common/Presets/legal
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160922T090143Z

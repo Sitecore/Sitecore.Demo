@@ -1,0 +1,25 @@
+﻿---
+ID: "b8206847-e691-47e7-9a0a-940f208d24d7"
+Parent: "6019795d-0436-418f-a34b-2407ac3d05da"
+Template: "24d19d8f-907b-47b7-9703-6174e760bd91"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/January Newsletter/Message Root 2/Main Story
+DB: master
+BranchID: "0caeacdc-d7aa-49d6-b8b4-cd7cf10a9023"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: January Newsletter
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160907T152706Z
+    - ID: "94d50f81-f040-4b51-b895-d2fd2c27c223"
+      Hint: Content
+      Value: "<p style=\"margin: 0cm 0cm 8pt;\">Welcome to the January newsletter. As our friends in the Northern hemisphere deal with the winter winds and snow, our friends in the Southern hemisphere are basking in the warm weather.</p>"

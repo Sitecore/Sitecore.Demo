@@ -1,0 +1,17 @@
+﻿---
+ID: "1b364dbb-c623-4c2a-8288-19ab5e0dd6f4"
+Parent: "6f576e03-9ae4-4674-af47-e1a0beafbb2e"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Email Campaign/Subscription Sublayout Parameters/Control Options/Manager root
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Droptree
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Value: "20161017T122928:636123041682915301Z"

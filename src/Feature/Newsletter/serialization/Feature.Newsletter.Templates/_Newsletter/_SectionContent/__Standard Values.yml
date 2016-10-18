@@ -1,0 +1,20 @@
+﻿---
+ID: "073df086-6a22-4c36-ac35-1db53249421f"
+Parent: "67e66179-1e97-49cf-b58f-056f5250731d"
+Template: "67e66179-1e97-49cf-b58f-056f5250731d"
+Path: /sitecore/templates/Feature/_Newsletter/_SectionContent/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160816T055504Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

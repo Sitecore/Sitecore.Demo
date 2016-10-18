@@ -1,0 +1,28 @@
+﻿---
+ID: "a9dc799a-108d-4d3c-8d8b-cd93b83f6298"
+Parent: "d08cbcc6-418c-4f4b-96da-361d6d7f2546"
+Template: "24d19d8f-907b-47b7-9703-6174e760bd91"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/Download Social White Paper/Message Root/Main Content
+DB: master
+BranchID: "bdb49a2e-9be1-456f-bebb-4f72da36524e"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "18b3ef15-ec40-46fe-b03d-26cb3db243cb"
+      Hint: Image
+      Value: "<image mediaid=\"{CF4D563A-ECB9-4613-B021-ADB5856F5932}\" />"
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: Social Media White Paper
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160914T171852Z
+    - ID: "94d50f81-f040-4b51-b895-d2fd2c27c223"
+      Hint: Content
+      Value: <span>Social media is now a revolutionary way in which corporations communicate with consumers on an everyday basis.</span><br>

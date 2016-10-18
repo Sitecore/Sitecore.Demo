@@ -1,0 +1,17 @@
+﻿---
+ID: "cc863775-9e30-4818-807a-983baa34da4a"
+Parent: "3fa340e1-9f47-4d44-b1b9-00f1c425147e"
+Template: "3fa340e1-9f47-4d44-b1b9-00f1c425147e"
+Path: /sitecore/templates/Feature/_Newsletter/_Footer/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160816T055109Z
+    - ID: "7224f1e8-7dca-41ac-b2cf-e32dea2dd077"
+      Hint: Legal Footer Text
+      Value: Copyright (c) Sitecore

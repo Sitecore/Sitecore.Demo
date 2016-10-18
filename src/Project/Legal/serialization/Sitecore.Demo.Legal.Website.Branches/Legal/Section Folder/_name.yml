@@ -1,0 +1,14 @@
+﻿---
+ID: "ca551d6c-8d03-4505-abaa-6f41dd0b1bf5"
+Parent: "46404baf-49d8-4eba-8851-4f09e8d3b376"
+Template: "856f628a-b9d2-45e2-ae60-e81fe7cc7785"
+Path: /sitecore/templates/Branches/Legal/Section Folder/$name
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T062634Z

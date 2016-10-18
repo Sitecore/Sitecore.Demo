@@ -1,0 +1,18 @@
+﻿---
+ID: "01f579d3-deee-4cbc-8098-73709851e6c1"
+Parent: "aaf21c72-fa69-469c-9f45-ed08cb501102"
+Template: "957ac850-52c7-4add-907b-7d557eb6b14f"
+Path: /sitecore/templates/Branches/Legal/Newsletter/$name/Message Root/Options
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T021914Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "a9546c26-16de-468d-a8e5-8fab0db5a027"
+Parent: "fd7942b0-b35b-4331-aedc-929e2c64fa43"
+Template: "fd7942b0-b35b-4331-aedc-929e2c64fa43"
+Path: /sitecore/templates/Feature/_Newsletter/ParametersTemplate_NewsletterSection/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160816T060246Z

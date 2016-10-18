@@ -1,0 +1,27 @@
+﻿---
+ID: "b4fb2844-5914-44b8-a0bf-2468eb15aa0b"
+Parent: "ea263b2a-c269-452c-ac31-1fe6a8ee5188"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: /sitecore/content/Legal/Global/Teasers/Email Subscription
+DB: master
+SharedFields:
+- ID: "e8ab122c-6f54-4d4e-aec6-f81addc558fc"
+  Hint: TeaserLink
+  Value: "<link text=\"Manage Subscriptions\" linktype=\"internal\" class=\"\" title=\"Manage Subscriptions\" target=\"\" querystring=\"\" id=\"{1DFBC1E3-5F2F-412A-B718-C808FDC27C69}\" />"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
+      Hint: TeaserImage
+      Value: "<image mediaid=\"{3925B556-1805-4CEE-97FD-00740C8A0DB6}\" ></image>"
+    - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
+      Hint: TeaserSummary
+      Value: Why not treat yourself to out free email newsletters. You can sign up yourself and choose what you receive as we;; as manage your existing subscriptions.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161010T172433Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Email Subscription

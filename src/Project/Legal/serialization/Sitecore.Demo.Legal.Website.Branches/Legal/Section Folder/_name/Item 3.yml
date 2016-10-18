@@ -1,0 +1,20 @@
+﻿---
+ID: "783bab5d-7334-48ea-935a-e223185885e8"
+Parent: "ca551d6c-8d03-4505-abaa-6f41dd0b1bf5"
+Template: "24d19d8f-907b-47b7-9703-6174e760bd91"
+Path: /sitecore/templates/Branches/Legal/Section Folder/$name/Item 3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "18b3ef15-ec40-46fe-b03d-26cb3db243cb"
+      Hint: Image
+      Value: "<image mediaid=\"{297CA79C-1213-437F-BA55-29B22B02B2FC}\" />"
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: Item 3
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T062658Z

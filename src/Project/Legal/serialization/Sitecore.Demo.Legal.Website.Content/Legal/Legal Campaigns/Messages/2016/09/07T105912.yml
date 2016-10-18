@@ -1,0 +1,21 @@
+﻿---
+ID: "ce3526bf-e9c1-458b-9ad4-fc311acaeaf2"
+Parent: "ce0ae876-6883-4aac-a98b-f2768aab985e"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912
+DB: master
+SharedFields:
+- ID: "6fd695e7-7f6d-4ca5-8b49-a829e5950ae9"
+  Hint: __Subitems Sorting
+  Value: "{32416A95-4197-4D33-8CE7-7BB4FFEBEB42}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160907T105912Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

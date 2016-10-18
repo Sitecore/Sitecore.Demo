@@ -1,0 +1,15 @@
+﻿---
+ID: "3c696f6c-44e7-461e-a7ec-847bf2ffcf50"
+Parent: "33497d0a-c207-4b4b-b225-85778f448e05"
+Template: "856f628a-b9d2-45e2-ae60-e81fe7cc7785"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/August Newsletter/Message Root/Secondary Highlights
+DB: master
+BranchID: "0caeacdc-d7aa-49d6-b8b4-cd7cf10a9023"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160914T173355Z

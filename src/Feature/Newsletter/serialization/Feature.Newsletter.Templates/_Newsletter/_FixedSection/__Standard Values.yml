@@ -1,0 +1,23 @@
+﻿---
+ID: "60baa7ff-4f88-41fd-848b-9eeb1d3383de"
+Parent: "e7293bbd-8ffb-41a7-af0d-1d92379bcddc"
+Template: "e7293bbd-8ffb-41a7-af0d-1d92379bcddc"
+Path: /sitecore/templates/Feature/_Newsletter/_FixedSection/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160816T055054Z
+    - ID: "332bbfbb-47b2-4fde-9ea3-db800b586437"
+      Hint: Font Color
+      Value: #000
+    - ID: "4ba95567-e774-48a4-967a-1bdebf71b7e1"
+      Hint: Background Color
+      Value: #FFF
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

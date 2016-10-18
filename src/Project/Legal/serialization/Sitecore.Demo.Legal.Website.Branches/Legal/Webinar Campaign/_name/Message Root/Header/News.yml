@@ -1,0 +1,17 @@
+﻿---
+ID: "5b93800e-7a40-4e47-8263-a1fc4629c6e0"
+Parent: "7ea29a81-c4ea-424d-8cb8-5423b2b580da"
+Template: "f0818351-eed1-453e-8325-684eeb1a827a"
+Path: /sitecore/templates/Branches/Legal/Webinar Campaign/$name/Message Root/Header/News
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T033229Z
+    - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
+      Hint: Link
+      Value: "<link text=\"News\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{8235F890-E581-4F79-8ACF-B04F90CCC0DD}\" />"

@@ -30,6 +30,9 @@ SharedFields:
           name="Self-employed"
           value="1" />
       </profile>
+      <event
+        id="{793C3681-A320-4D53-899D-81780603520B}"
+        name="Viewed Legal Webinar Page" />
     </tracking>
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings

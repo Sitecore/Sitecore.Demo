@@ -1,0 +1,24 @@
+﻿---
+ID: "a2766e5d-025a-4c12-88dc-57d864edc126"
+Parent: "d08cbcc6-418c-4f4b-96da-361d6d7f2546"
+Template: "24d19d8f-907b-47b7-9703-6174e760bd91"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/Download Social White Paper/Message Root/Call to Action
+DB: master
+BranchID: "bdb49a2e-9be1-456f-bebb-4f72da36524e"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: Download the Legal Guide
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160914T171853Z
+    - ID: "2e2c5fb3-ff5b-4f13-aa18-cfba9c9a97d3"
+      Hint: Link
+      Value: "<link linktype=\"internal\" text=\"Read More\" querystring=\"\" target=\"\" id=\"{B5583A97-7F68-40C6-BA8B-F82C9D3ABCC6}\" />"
+    - ID: "94d50f81-f040-4b51-b895-d2fd2c27c223"
+      Hint: Content
+      Value: Practically everyone is a user and, like every new communication channel there is huge potential and huge potential risks. This White Paper will help you maximize the huge potential benefits of this revolution and protect against the inherent legal risks surrounding social media.

@@ -1,0 +1,17 @@
+﻿---
+ID: "16c86d52-2b0f-43aa-9878-d0d9d5aa297d"
+Parent: "33f56e6f-c456-4b08-9246-46538f24705e"
+Template: "f0818351-eed1-453e-8325-684eeb1a827a"
+Path: /sitecore/templates/Branches/Legal/Newsletter/$name/Message Root/Footer/Habitat Legal
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T034925Z
+    - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
+      Hint: Link
+      Value: "<link text=\"Habitat Legal\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{6EB0F80B-A1D5-40E0-A472-9308B24228B5}\" />"
