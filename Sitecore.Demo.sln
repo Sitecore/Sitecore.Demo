@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.Newsletter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.Newsletter.Tests", "src\Feature\Newsletter\tests\Sitecore.Feature.Newsletter.Tests.csproj", "{1B143302-8132-4F7F-B87C-C7B7E5B8E098}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.Print.Tests", "src\Foundation\Print\tests\Sitecore.Foundation.Print.Tests.csproj", "{0B525AD2-4402-4EDB-A4AF-A75B65172A09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{1B143302-8132-4F7F-B87C-C7B7E5B8E098}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B143302-8132-4F7F-B87C-C7B7E5B8E098}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B143302-8132-4F7F-B87C-C7B7E5B8E098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B525AD2-4402-4EDB-A4AF-A75B65172A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B525AD2-4402-4EDB-A4AF-A75B65172A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B525AD2-4402-4EDB-A4AF-A75B65172A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B525AD2-4402-4EDB-A4AF-A75B65172A09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,5 +104,6 @@ Global
 		{EC57A49B-78A7-4D1E-A77A-8538B4CF9A3B} = {CDE6EC6D-413C-4EFE-A495-6BC0BC4509E1}
 		{81B8052F-6E9D-4624-ABA6-49319939A675} = {EC57A49B-78A7-4D1E-A77A-8538B4CF9A3B}
 		{1B143302-8132-4F7F-B87C-C7B7E5B8E098} = {EC57A49B-78A7-4D1E-A77A-8538B4CF9A3B}
+		{0B525AD2-4402-4EDB-A4AF-A75B65172A09} = {328C0A4F-8409-4FF2-B6A6-F340C844F338}
 	EndGlobalSection
 EndGlobal
