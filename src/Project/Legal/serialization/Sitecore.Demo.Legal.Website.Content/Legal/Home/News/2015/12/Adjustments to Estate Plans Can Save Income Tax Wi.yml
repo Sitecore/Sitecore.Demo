@@ -43,10 +43,12 @@ Languages:
       Value: 20160107T145954Z
     - ID: "3437eaac-6ee8-460b-a33d-da1f714b5a93"
       Hint: NewsImage
-      Value: "<image mediaid=\"{5A653EA0-D0E1-4358-AEB8-C236B08C569A}\" />"
+      Value: |
+        <image mediaid="{5A653EA0-D0E1-4358-AEB8-C236B08C569A}" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: sitecore\admin
+      Value: |
+        sitecore\admin
     - ID: "801612c7-5e98-4e3c-80d2-a34d0eebcbda"
       Hint: NewsBody
       Value: |

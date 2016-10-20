@@ -26,4 +26,5 @@ Languages:
       Value: Habitat Legal
     - ID: "c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38"
       Hint: Picture
-      Value: "<image mediaid=\"{DBA76CC5-D35A-4527-9516-65D22ED35441}\" ></image>"
+      Value: |
+        <image mediaid="{DBA76CC5-D35A-4527-9516-65D22ED35441}" ></image>

@@ -23,7 +23,8 @@ SharedFields:
   Value: /sitecore/content/Legal/Home
 - ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
   Hint: __Security
-  Value: "ar|legal\Legal Author|pe|+item:write|+item:read|!*|pd|+item:write|+item:read|!*|"
+  Value: |
+    ar|legal\Legal Author|pe|+item:write|+item:read|!*|pd|+item:write|+item:read|!*|
 - ID: "ed71d374-8c33-4561-991d-77482ae01330"
   Hint: Accounts Details Page
   Value: /sitecore/content/Legal/Home/Accounts/Edit Profile Page
@@ -45,7 +46,8 @@ Languages:
       Value: "(626) 397-5000"
     - ID: "02115632-fe1e-4b3d-9ad4-a4ddf1f782f0"
       Hint: Copyright
-      Value: "Please read our <a href=\"~/link.aspx?_id=291E554415F0429294AECA7FABAC3858&amp;_z=z\">Legal Notice</a>&nbsp;and our <a href=\"~/link.aspx?_id=61DEBA6DA8A94DDB83E5448AC46AC289&amp;_z=z\">Privacy Policy</a>. Copyright 2016 Habitat Legal Corporation"
+      Value: |
+        Please read our <a href="~/link.aspx?_id=291E554415F0429294AECA7FABAC3858&_z=z">Legal Notice</a> and our <a href="~/link.aspx?_id=61DEBA6DA8A94DDB83E5448AC46AC289&_z=z">Privacy Policy</a>. Copyright 2016 Sitecore Legal Services
     - ID: "021aa3f7-206f-4acc-9538-f6d7fe86b168"
       Hint: Interests Folder
       Value: "{144211C0-6E3F-4A9B-8274-60AFE4E8AE63}"

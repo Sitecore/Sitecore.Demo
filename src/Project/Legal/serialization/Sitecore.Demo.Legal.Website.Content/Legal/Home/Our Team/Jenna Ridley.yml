@@ -112,7 +112,8 @@ Languages:
       Value: Jenna Ridley, partner, trust, estate, taxation, individual income, gift tax planning
     - ID: "c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38"
       Hint: Picture
-      Value: "<image mediaid=\"{75E9EE88-69FF-47D1-BE59-ED83E6664483}\"></image>"
+      Value: |
+        <image mediaid="{75E9EE88-69FF-47D1-BE59-ED83E6664483}"></image>
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Jenna Ridley

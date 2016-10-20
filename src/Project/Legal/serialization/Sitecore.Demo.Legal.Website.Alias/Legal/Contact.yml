@@ -7,7 +7,8 @@ DB: master
 SharedFields:
 - ID: "8cbab1df-cf26-4c80-9002-62aa153d1e4c"
   Hint: Linked item
-  Value: "<link id=\"{EEEB4C47-E0D5-4871-A793-C00501923D99}\" url=\"/Legal/Home/About Us/Contact Us\" linktype=\"internal\" />"
+  Value: |
+    <link id="{EEEB4C47-E0D5-4871-A793-C00501923D99}" url="/Legal/Home/About Us/Contact Us" linktype="internal" />
 Languages:
 - Language: en
   Versions:
@@ -18,4 +19,5 @@ Languages:
       Value: 20160301T173444Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: sitecore\admin
+      Value: |
+        sitecore\admin

@@ -7,7 +7,8 @@ DB: master
 SharedFields:
 - ID: "709b879b-7264-49c7-8864-e254d9129302"
   Hint: Image
-  Value: "<image mediaid=\"{CD8E3ACD-4E0B-4A7D-87B6-F8EB63F9681A}\" />"
+  Value: |
+    <image mediaid="{CD8E3ACD-4E0B-4A7D-87B6-F8EB63F9681A}" />
 - ID: "85970ab7-22ea-4206-be86-c0167178860b"
   Hint: Profile Card Value
   Value: |
@@ -28,7 +29,8 @@ Languages:
     Value: CEO
   - ID: "823bfc0a-3e62-40a5-8882-1a622882c45b"
     Hint: Description
-    Value: "<p style=\"margin: 0cm 0cm 0pt;\"><span>Susan is the CEO of an Inc. 5,000 corporation and leader of one of the world&rsquo;s fastest growing companies. Her interests within the legal profession reside in all areas affecting corporate-business law, employment law, IPO law, corporate finance, and all issues surrounding privacy, security, and technology.</span></p>"
+    Value: |
+      <p style="margin: 0cm 0cm 0pt;"><span>Susan is the CEO of an Inc. 5,000 corporation and leader of one of the world&rsquo;s fastest growing companies. Her interests within the legal profession reside in all areas affecting corporate-business law, employment law, IPO law, corporate finance, and all issues surrounding privacy, security, and technology.</span></p>
   Versions:
   - Version: 1
     Fields:

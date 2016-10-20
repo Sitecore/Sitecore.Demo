@@ -67,7 +67,8 @@ Languages:
       Value: Leave a message and we will get right back to you.
     - ID: "9c4c1994-5140-49d3-bad7-db997816f816"
       Hint: Success Page
-      Value: "<link id=\"{00000000-0000-0000-0000-000000000000}\" />"
+      Value: |
+        <link id="{00000000-0000-0000-0000-000000000000}" />
     - ID: "b71296b6-32b9-4703-a8cb-fb7437271103"
       Hint: Name
       Value: Send Message

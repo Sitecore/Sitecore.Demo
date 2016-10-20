@@ -7,7 +7,8 @@ DB: master
 SharedFields:
 - ID: "8cbab1df-cf26-4c80-9002-62aa153d1e4c"
   Hint: Linked item
-  Value: "<link text=\"google search\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{AD82930A-63CB-4164-9B11-55D8446D7556}\" />"
+  Value: |
+    <link text="google search" linktype="internal" class="" title="" target="" querystring="" id="{AD82930A-63CB-4164-9B11-55D8446D7556}" />
 Languages:
 - Language: en
   Versions:
@@ -18,4 +19,5 @@ Languages:
       Value: 20160223T144543Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: sitecore\admin
+      Value: |
+        sitecore\admin

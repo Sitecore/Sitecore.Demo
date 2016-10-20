@@ -17,4 +17,5 @@ Languages:
       Value: 20160318T102111Z
     - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
       Hint: Link
-      Value: "<link text=\"Register\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{3C44CC07-77B9-4394-A337-1C9966064748}\" />"
+      Value: |
+        <link text="Register" linktype="internal" class="" title="" target="" querystring="" id="{3C44CC07-77B9-4394-A337-1C9966064748}" />

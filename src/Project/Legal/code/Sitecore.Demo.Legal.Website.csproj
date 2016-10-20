@@ -64,6 +64,9 @@
     <Reference Include="Sitecore.Kernel, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Kernel.NoReferences.8.2.160729\lib\NET452\Sitecore.Kernel.dll</HintPath>
       <Private>True</Private>
+    <Reference Include="Sitecore.Kernel, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\packages\Sitecore.Kernel.NoReferences.8.2.160729\lib\net452\Sitecore.Kernel.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
@@ -111,7 +114,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="App_Config\Include\Project\Sitecore.Demo.Legal.ExmSetting.config" />
+    <None Include="App_Config\Include\Project\Sitecore.Demo.Legal.ExmSetting.config.disabled" />
     <None Include="Views\web.config" />
     <Content Include="App_Config\Include\Project\Sitecore.Demo.Legal.Website.config" />
     <Content Include="App_Config\Include\Project\Sitecore.Demo.Legal.Website.Serialization.config">

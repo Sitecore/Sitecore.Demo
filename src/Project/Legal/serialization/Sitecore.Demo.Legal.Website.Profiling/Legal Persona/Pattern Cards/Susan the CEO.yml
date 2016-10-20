@@ -19,7 +19,8 @@ SharedFields:
     </tracking>
 - ID: "98535f26-6c9d-4fd7-a7e2-392c7cb82d65"
   Hint: Image
-  Value: "<image mediaid=\"{CD8E3ACD-4E0B-4A7D-87B6-F8EB63F9681A}\" />"
+  Value: |
+    <image mediaid="{CD8E3ACD-4E0B-4A7D-87B6-F8EB63F9681A}" />
 - ID: "fe732790-2ddb-4657-a882-c2fce1fbf0c9"
   Hint: Name
   Value: Susan the CEO
@@ -30,7 +31,8 @@ Languages:
     Fields:
     - ID: "03db5c50-d4bf-4e87-9ab4-0e5b4bf4e1a9"
       Hint: Description
-      Value: "<p style=\"margin: 0cm 0cm 0pt;\">Susan is the CEO of an Inc. 5,000 corporation and leader of one of the world&rsquo;s fastest growing companies. Her interests within the legal profession reside in all areas affecting corporate-business law, employment law, IPO law, corporate finance, and all issues surrounding privacy, security, and technology.</p>"
+      Value: |
+        <p style="margin: 0cm 0cm 0pt;">Susan is the CEO of an Inc. 5,000 corporation and leader of one of the world&rsquo;s fastest growing companies. Her interests within the legal profession reside in all areas affecting corporate-business law, employment law, IPO law, corporate finance, and all issues surrounding privacy, security, and technology.</p>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160106T145056Z

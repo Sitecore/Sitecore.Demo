@@ -115,7 +115,8 @@ Languages:
       Value: Dale Kent, entertainment law, IP law, corporate law, digital media, technology, restaurant, wine and spirit, licensing, mergers and acquisitions, financing
     - ID: "c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38"
       Hint: Picture
-      Value: "<image mediaid=\"{545A8BE0-E0C2-422D-9FBF-D3601F107C31}\"></image>"
+      Value: |
+        <image mediaid="{545A8BE0-E0C2-422D-9FBF-D3601F107C31}"></image>
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Dale Kent

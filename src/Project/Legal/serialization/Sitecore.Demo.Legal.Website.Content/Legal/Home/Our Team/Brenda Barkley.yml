@@ -104,7 +104,8 @@ Languages:
       Value: Brenda Barkley, corporate law, business law, employment law, contracts, corporate governance, mergers and acquisitions, stock purchases, corporations, LLCs, partnerships, financing
     - ID: "c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38"
       Hint: Picture
-      Value: "<image mediaid=\"{DBA76CC5-D35A-4527-9516-65D22ED35441}\"></image>"
+      Value: |
+        <image mediaid="{DBA76CC5-D35A-4527-9516-65D22ED35441}"></image>
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Brenda Barkley
