@@ -48,18 +48,8 @@ Languages:
               s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
               s:ph="/page-layout/section/col-narrow-1" />
             <r
-              uid="{4233A61F-C18E-48A3-81F9-535EFB6231DD}"
-              p:after="r[@uid='{8952B359-8695-47D0-A348-E7DF9227839C}']"
-              s:id="{7266CF74-731A-4CE4-9E9F-2D9983F62F62}"
-              s:ph="/page-layout/section/section-narrow/col-wide-1_5150e522-a41e-433b-b14e-61a86cfd69fb" />
-            <r
-              uid="{90A2EA2A-B4B1-4AC4-A675-12C4702C39E6}"
-              p:after="r[@uid='{4233A61F-C18E-48A3-81F9-535EFB6231DD}']"
-              s:id="{7266CF74-731A-4CE4-9E9F-2D9983F62F62}"
-              s:ph="/page-layout/section/section-narrow/col-wide-1_5150e522-a41e-433b-b14e-61a86cfd69fb" />
-            <r
               uid="{5150E522-A41E-433B-B14E-61A86CFD69FB}"
-              p:after="r[@uid='{90A2EA2A-B4B1-4AC4-A675-12C4702C39E6}']"
+              p:after="r[@uid='{8952B359-8695-47D0-A348-E7DF9227839C}']"
               s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
               s:ph="/page-layout/section/section-narrow" />
             <r
@@ -83,7 +73,8 @@ Languages:
       Value: 20160210T172404Z
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
-      Value: "<image mediaid=\"{F2844FE0-9AE2-4311-8654-8279837A9F66}\" />"
+      Value: |
+        <image mediaid="{F2844FE0-9AE2-4311-8654-8279837A9F66}" />
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: Add or remove your email address from our email subscriptions lists
