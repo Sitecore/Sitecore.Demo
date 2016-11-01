@@ -26,4 +26,5 @@ Languages:
       Value: Personal Finance Magazine
     - ID: "c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38"
       Hint: Picture
-      Value: "<image mediaid=\"{F97906A8-E43E-49C6-B734-846F0CB7E321}\" />"
+      Value: |
+        <image mediaid="{F97906A8-E43E-49C6-B734-846F0CB7E321}" />

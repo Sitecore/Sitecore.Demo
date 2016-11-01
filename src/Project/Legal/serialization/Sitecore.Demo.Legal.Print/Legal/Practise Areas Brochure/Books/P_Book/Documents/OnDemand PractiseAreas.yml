@@ -27,7 +27,8 @@ Languages:
       Value: 20160615T084516Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: sitecore\admin
+      Value: |
+        sitecore\admin
     - ID: "6e842645-b560-4c8d-8861-0e5d4291ee83"
       Hint: Name
       Value: OnDemand PractiseAreas

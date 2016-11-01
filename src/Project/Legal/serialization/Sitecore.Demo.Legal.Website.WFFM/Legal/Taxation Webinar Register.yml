@@ -121,7 +121,8 @@ Languages:
         
     - ID: "9c4c1994-5140-49d3-bad7-db997816f816"
       Hint: Success Page
-      Value: "<link url=\"/sitecore/content/Legal/Home/Landing Pages/Taxation Webinar/Thank You\" id=\"{B71088CD-0CB3-4C66-A066-B819312CB7ED}\" />"
+      Value: |
+        <link url="/sitecore/content/Legal/Home/Landing Pages/Taxation Webinar/Thank You" id="{B71088CD-0CB3-4C66-A066-B819312CB7ED}" />
     - ID: "b71296b6-32b9-4703-a8cb-fb7437271103"
       Hint: Name
       Value: Register Now

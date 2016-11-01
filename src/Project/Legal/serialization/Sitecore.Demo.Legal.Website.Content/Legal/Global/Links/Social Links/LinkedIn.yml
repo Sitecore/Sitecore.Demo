@@ -17,4 +17,5 @@ Languages:
       Value: 20160524T022843Z
     - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
       Hint: Link
-      Value: "<link text=\"LinkedIn\" linktype=\"external\" url=\"http://www.linkedin.com\" anchor=\"\" target=\"_blank\" />"
+      Value: |
+        <link text="LinkedIn" linktype="external" url="http://www.linkedin.com" anchor="" target="_blank" />

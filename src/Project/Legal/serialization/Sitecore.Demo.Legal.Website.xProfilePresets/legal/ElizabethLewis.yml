@@ -14,7 +14,8 @@ Languages:
       Value: 20160505T154432Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: sitecore\admin
+      Value: |
+        sitecore\admin
     - ID: "a0ee2080-2cc8-4de0-8efd-8e29cd39194f"
       Hint: Specification
       Value: |

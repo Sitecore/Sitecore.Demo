@@ -109,7 +109,8 @@ Languages:
       Value: Shane Nevins, operati0nal and compliance law, multilevel marketing, production company, marketing, direct response
     - ID: "c9baf3eb-8cfa-4bf6-9b19-51d38db5fc38"
       Hint: Picture
-      Value: "<image mediaid=\"{220D5B75-CC20-4ADF-B4B8-BAE4CB4E0B9C}\"></image>"
+      Value: |
+        <image mediaid="{220D5B75-CC20-4ADF-B4B8-BAE4CB4E0B9C}"></image>
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Shane Nevins

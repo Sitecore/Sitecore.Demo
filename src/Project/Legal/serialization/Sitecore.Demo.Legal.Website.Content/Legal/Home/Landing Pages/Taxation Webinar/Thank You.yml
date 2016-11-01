@@ -78,7 +78,8 @@ Languages:
       Value: 20160229T152359Z
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
-      Value: "<image mediaid=\"{B5284895-61BD-4FB4-B70E-A5DA4761C4C7}\" />"
+      Value: |
+        <image mediaid="{B5284895-61BD-4FB4-B70E-A5DA4761C4C7}" />
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: Our servers are processing your request now. As soon as your request has been processed, we will send a confirmation email to the address you supplied.

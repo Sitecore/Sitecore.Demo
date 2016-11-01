@@ -1,0 +1,14 @@
+﻿---
+Role: |
+  legal\Legal Marketer
+MemberOf:
+  Role: |
+    sitecore\Analytics Testing
+  Role: |
+    sitecore\Experience Explorer
+  Role: |
+    legal\Legal Author
+  Role: |
+    sitecore\Sitecore Marketer Form Author
+  Role: |
+    sitecore\Analytics Reporting

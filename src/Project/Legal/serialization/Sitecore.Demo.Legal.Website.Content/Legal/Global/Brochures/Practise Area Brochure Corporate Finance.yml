@@ -20,7 +20,8 @@ Languages:
       Value: Get a detailed brochure covering our Corporate Finance area.
     - ID: "681376e7-326f-471d-b83e-82e113ea1cdb"
       Hint: Static Download
-      Value: "<file mediaid=\"{1C5DF9D9-A698-4242-87A1-8601F835CE19}\" src=\"-/media/1C5DF9D9A698424287A18601F835CE19.ashx\" />"
+      Value: |
+        <file mediaid="{1C5DF9D9-A698-4242-87A1-8601F835CE19}" src="-/media/1C5DF9D9A698424287A18601F835CE19.ashx" />
     - ID: "d643fe17-ed04-455a-8c3b-18babf0869c5"
       Hint: Title
       Value: Corporate Finance
@@ -29,4 +30,5 @@ Languages:
       Value: Brochure
     - ID: "ed5a056d-e0b5-4e12-bca8-1cdcf92080f8"
       Hint: Image
-      Value: "<image mediaid=\"{9E963E05-2573-4BA4-96B8-714F6F739224}\" ></image>"
+      Value: |
+        <image mediaid="{9E963E05-2573-4BA4-96B8-714F6F739224}" ></image>

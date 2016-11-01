@@ -1,0 +1,12 @@
+﻿---
+Role: |
+  legal\Legal Author
+MemberOf:
+  Role: |
+    habitat\Project Habitat Content Author
+  Role: |
+    sitecore\Designer
+  Role: |
+    modules\Feature News Admin
+  Role: |
+    sitecore\Author

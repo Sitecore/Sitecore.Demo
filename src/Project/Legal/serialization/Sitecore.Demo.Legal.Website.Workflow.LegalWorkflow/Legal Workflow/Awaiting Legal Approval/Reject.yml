@@ -13,7 +13,8 @@ SharedFields:
   Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
 - ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
   Hint: __Security
-  Value: "ar|sitecore\Sitecore Client Authoring|pe|+workflowCommand:execute|pd|+workflowCommand:execute|"
+  Value: |
+    ar|sitecore\Sitecore Client Authoring|pe|+workflowCommand:execute|pd|+workflowCommand:execute|
 Languages:
 - Language: en
   Versions:
