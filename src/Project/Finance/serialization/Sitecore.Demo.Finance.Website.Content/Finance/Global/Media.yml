@@ -1,0 +1,14 @@
+﻿---
+ID: "c2790edb-0e48-4f15-9ed1-a88697d1264b"
+Parent: "060d3d50-c5e0-4d4d-846e-5793e271979b"
+Template: "920a1781-559f-4e1c-bb2e-6b9a2113fe6b"
+Path: /sitecore/content/Finance/Global/Media
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150901T054311Z

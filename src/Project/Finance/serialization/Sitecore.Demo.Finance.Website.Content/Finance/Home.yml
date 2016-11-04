@@ -1,0 +1,49 @@
+﻿---
+ID: "97f499e7-0dca-43cf-aa06-8954a5426166"
+Parent: "eea2316b-d42a-4be9-97c0-f9efe34ab8c2"
+Template: "9aefc86f-3d1e-444c-931f-5c86a3a73a0a"
+Path: /sitecore/content/Finance/Home
+DB: master
+SharedFields:
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{2DC86E64-2A87-4E70-A42B-F9D1F612CC7B}"
+              p:before="*"
+              s:ds="{7771E373-0C3B-4FA4-AEA1-1B53096196C1}"
+              s:id="{A9B002E1-963F-4F35-B6DB-14A8D4BF171A}"
+              s:ph="/page-layout/page-header" />
+            <r
+              uid="{7C5DD7A6-5D7D-4651-A9FE-8C693399FB77}"
+              p:after="r[@uid='{2DC86E64-2A87-4E70-A42B-F9D1F612CC7B}']"
+              s:ds=""
+              s:id="{26B33DEB-F1DB-4338-B043-AAF2F90E04A3}"
+              s:par="UseStaticPlaceholderNames&amp;Type=bg-media&amp;Media={B0CF0C13-99F5-4FE0-85C0-1FE6495BF04A}&amp;Parallax"
+              s:ph="page-layout" />
+          </d>
+        </r>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Home
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161104T033805Z
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Habitat Finance

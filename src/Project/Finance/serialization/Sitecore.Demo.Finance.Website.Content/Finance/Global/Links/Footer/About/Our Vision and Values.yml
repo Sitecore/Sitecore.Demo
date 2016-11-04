@@ -1,0 +1,21 @@
+﻿---
+ID: "93a6869c-a127-4712-8a8b-5fa2cca84f6b"
+Parent: "c2e57508-c70d-4c74-a4ec-360e6a18d0c7"
+Template: "390333c8-751b-4332-84a3-6360b969a19f"
+Path: /sitecore/content/Finance/Global/Links/Footer/About/Our Vision and Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Our Vision and Values
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161104T042115Z
+    - ID: "4231cd60-47c1-42ad-b838-0a6f8f1c4cfb"
+      Hint: DividerBefore
+      Type: Checkbox
+      Value: 1

@@ -1,0 +1,17 @@
+﻿---
+ID: "6487e45e-0b8c-4cdc-8663-727a290218ea"
+Parent: "16d24062-2547-4045-ba7c-438afc4ed3a3"
+Template: "390333c8-751b-4332-84a3-6360b969a19f"
+Path: /sitecore/content/Finance/Global/Links/Footer/Personal/Personal Services
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Personal Services
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161104T042407Z

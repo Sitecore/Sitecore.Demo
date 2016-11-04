@@ -1,0 +1,14 @@
+﻿---
+ID: "16d24062-2547-4045-ba7c-438afc4ed3a3"
+Parent: "7680ab76-ee01-4415-bdef-7cba3c85ae81"
+Template: "ac7394d5-2aa7-4fdb-a7d8-b1b87f9fa661"
+Path: /sitecore/content/Finance/Global/Links/Footer/Personal
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161104T042400Z

@@ -1,0 +1,21 @@
+﻿---
+ID: "267231f5-9f0d-429f-8c19-0d76efeaacca"
+Parent: "16d24062-2547-4045-ba7c-438afc4ed3a3"
+Template: "390333c8-751b-4332-84a3-6360b969a19f"
+Path: /sitecore/content/Finance/Global/Links/Footer/Personal/Our Services
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Our Services
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161104T043014Z

@@ -1,0 +1,17 @@
+﻿---
+ID: "8cdc0369-e3ee-4462-a52a-f1975f1300e4"
+Parent: "c2e57508-c70d-4c74-a4ec-360e6a18d0c7"
+Template: "390333c8-751b-4332-84a3-6360b969a19f"
+Path: /sitecore/content/Finance/Global/Links/Footer/About/About Habitat Finance
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: About Habitat Finance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161104T042054Z

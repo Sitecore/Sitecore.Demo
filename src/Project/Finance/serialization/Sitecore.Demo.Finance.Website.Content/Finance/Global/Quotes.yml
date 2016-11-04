@@ -1,0 +1,14 @@
+﻿---
+ID: "65c206ce-539b-44c4-99c5-85b63c1c60af"
+Parent: "060d3d50-c5e0-4d4d-846e-5793e271979b"
+Template: "a8f1b162-041f-46bf-81eb-5213ae8bc579"
+Path: /sitecore/content/Finance/Global/Quotes
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151124T105754Z

@@ -1,8 +1,8 @@
 ﻿---
-ID: "859d1b0a-aa9b-42ac-a1cc-67af8b0b05fa"
-Parent: "ca325d9a-67ab-49bd-88ae-929b07b52458"
+ID: "b17aa67f-b046-4bcf-ab67-c99515b86ce1"
+Parent: "a0db5858-836b-46d3-937c-ee9b66a0d587"
 Template: "c82dc5ff-09ef-4403-96d3-3caf377b8c5b"
-Path: /sitecore/content/Legal/Settings/Datasources/quote
+Path: /sitecore/content/Finance/Settings/Datasources/newsarticle
 DB: master
 Languages:
 - Language: en
@@ -11,14 +11,14 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160112T104529Z
+      Value: 20160104T051350Z
     - ID: "498dd5b6-7dae-44a7-9213-1d32596ad14f"
       Hint: DatasourceTemplate
-      Value: /sitecore/templates/Project/Common/Content Types/Teasers/Quote
+      Value: /sitecore/templates/Project/Legal/Page Types/News Article
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\admin
     - ID: "5fe1cc43-f86c-459c-a379-cd75950d85af"
       Hint: DatasourceLocation
-      Value: /sitecore/content/Legal/Global/Quotes
+      Value: /sitecore/content/Finance/Home/News

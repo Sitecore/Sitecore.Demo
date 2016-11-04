@@ -1,0 +1,25 @@
+﻿---
+ID: "e5c99d5d-39c8-43cc-8155-ee2dc4e86ca1"
+Parent: "7c0ed076-fb3b-400a-b370-a35d74d1c805"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: /sitecore/content/Finance/Home/Portal/Register/_Local/Need Help
+DB: master
+SharedFields:
+- ID: "e8ab122c-6f54-4d4e-aec6-f81addc558fc"
+  Hint: TeaserLink
+  Value: |
+    <link linktype="mailto" text="Send us a Mail" url="mailto:register@habitat-finance.com" anchor="" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
+      Hint: TeaserSummary
+      Value: "Give us a call on 1-800-HABITAT or send us an e-mail"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161104T045130Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: "Need Help?"

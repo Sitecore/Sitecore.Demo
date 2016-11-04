@@ -1,0 +1,154 @@
+﻿---
+ID: "c8e94c57-b401-428b-987d-0536fddd3bac"
+Parent: "9000e07d-0e7c-4e42-a2fc-cd947444adbe"
+Template: "9000e07d-0e7c-4e42-a2fc-cd947444adbe"
+Path: /sitecore/templates/Project/Finance/Page Types/Forgot Password Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 0
+- ID: "8d5c486e-a0e3-4dbe-9a4a-cdff93594bda"
+  Hint: IncludeInSearchResults
+  Type: Checkbox
+  Value: 0
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{7E600430-2DEF-403E-8F1D-D6471093A8CE}">
+        <r
+          id="{E7AE3F87-CF66-40F2-A9F5-33ECF08BC777}"
+          ph="head"
+          uid="{EA4110A5-9606-4F54-AE85-48A722A28BA9}" />
+        <r
+          id="{3389CAFC-000C-41E5-921C-92821B3DB7B5}"
+          ph="head"
+          uid="{FB535F21-FDF0-4C1F-94AB-22E0AB25C239}" />
+        <r
+          id="{C28B9C5F-8E01-42EC-ADF6-3324FAF92C7D}"
+          ph="header-top"
+          uid="{EED65D05-79EE-4F05-B24A-27F6DD1D7E45}" />
+        <r
+          ds="{86368A63-D78B-4C80-B774-9098BA1BF1C6}"
+          id="{69B9C355-004B-4268-BB1E-2F725B8752B7}"
+          ph="right-header-top"
+          uid="{7E920ECE-06F5-420D-B462-5FC47159A5AD}" />
+        <r
+          id="{E26A158B-FA1E-4E9B-8622-E4458243FF46}"
+          ph="navbar"
+          uid="{3B1CD21D-0155-46C6-89DF-F45F6876AD1C}" />
+        <r
+          id="{A47C8288-7D4C-45FF-B75F-4AEDBF58A02D}"
+          ph="navbar-left"
+          uid="{3762E77A-AEF2-4296-8DDF-ECA19742379A}" />
+        <r
+          id="{53B085DB-6824-4941-9F28-9011CB151832}"
+          ph="navbar-center"
+          uid="{8A61F105-208B-4C38-8B57-53AC5F566512}" />
+        <r
+          id="{8832BA30-99C3-4D20-9B1C-237D910A153F}"
+          ph="navbar-right"
+          uid="{355BD478-C067-43CF-BFD7-C91A94B8D58C}" />
+        <r
+          id="{604ECBB6-2BBF-45AF-AC6E-BA9F853E7A03}"
+          ph="navbar-activity"
+          uid="{88AA4CA8-D039-422D-9E06-4646B67E9CB9}" />
+        <r
+          id="{2695013C-DD51-410B-9983-F271F16C727D}"
+          ph="navbar-activity"
+          uid="{7727A550-BAF1-46AD-9557-1A4904E0E211}" />
+        <r
+          ds="{3D56230C-36F0-4BBC-A75C-558EEDA21C98}"
+          id="{8C3A2CFC-18FB-4BF5-8584-50EA88978ED6}"
+          ph="navbar-activity"
+          uid="{DD624BB6-8285-49BF-B9B5-213859BB6B9B}" />
+        <r
+          id="{26B33DEB-F1DB-4338-B043-AAF2F90E04A3}"
+          ph="page-layout"
+          uid="{1DDDB9BE-9213-4F79-88CD-CD08CD2C185B}" />
+        <r
+          id="{45B8E1D9-D522-49E0-B9B7-04C965CC7089}"
+          ph="page-header"
+          uid="{FD60ABC9-287B-4CDA-896E-72346F88E470}" />
+        <r
+          id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+          par="UseStaticPlaceholderNames=1"
+          ph="page-layout"
+          uid="{27A148C1-FEB3-4785-AB64-B12076753B3C}" />
+        <r
+          id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+          par="UseStaticPlaceholderNames=1"
+          ph="/page-layout/section"
+          uid="{39283C80-4605-4094-8662-3CAD6EA0F1EA}" />
+        <r
+          id="{41EA568D-C3AF-45DF-B1D0-B7813CD06093}"
+          ph="/page-layout/section/col-huge"
+          uid="{81A48767-DFF7-4398-ADAE-39ABFFF75D43}" />
+        <r
+          id="{299FD8EA-2CFD-4A69-9CA4-7EA24CD34A46}"
+          ph="footer"
+          uid="{F006B2FE-2546-47F9-B1D2-CE538DE8529E}" />
+        <r
+          id="{DE648E12-A568-4919-802E-A688EBC9B9F3}"
+          par="UseStaticPlaceholderNames=1"
+          ph="/footer/section"
+          uid="{782A0C8C-67BF-448A-BFE9-B834226CDCE8}" />
+        <r
+          ds="{A9B8870B-A3C3-445F-944D-BC62C3813A7F}"
+          id="{F366FBA9-EF26-4007-988A-63CB64649C46}"
+          ph="/footer/section/col-narrow-1"
+          uid="{8F2C4023-D1D2-44BC-81D4-CB616D7C1B34}" />
+        <r
+          ds="{C2E57508-C70D-4C74-A4EC-360E6A18D0C7}"
+          id="{F366FBA9-EF26-4007-988A-63CB64649C46}"
+          ph="/footer/section/col-narrow-2"
+          uid="{2847814D-CFF7-4377-95EC-652925932A24}" />
+        <r
+          ds="{16D24062-2547-4045-BA7C-438AFC4ED3A3}"
+          id="{F366FBA9-EF26-4007-988A-63CB64649C46}"
+          ph="/footer/section/col-narrow-3"
+          uid="{2815A728-A9BE-44A3-8F67-ACB1DF633A2B}" />
+        <r
+          ds="{856CB32B-8D72-4C5A-9A10-3B66101C5FA2}"
+          id="{F366FBA9-EF26-4007-988A-63CB64649C46}"
+          ph="/footer/section/col-narrow-4"
+          uid="{B3634D85-3211-4438-8799-1890A0DA2D20}" />
+        <r
+          id="{7DAE9F23-890F-4E06-99A7-CCEDB74D3D8E}"
+          ph="postfooter"
+          uid="{D48ACD06-AFD5-4873-B600-3A00F6843A76}" />
+        <r
+          id="{CED18F24-62C2-445E-B0D9-045E3325297B}"
+          ph="page-sidebar"
+          uid="{F6477ED7-659D-4A4D-A02E-808057B79F61}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
+      Hint: OpenGraphTitle
+      Value: $name
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160215T221148Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: $name
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: $name

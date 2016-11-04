@@ -1,8 +1,8 @@
 ﻿---
-ID: "859d1b0a-aa9b-42ac-a1cc-67af8b0b05fa"
-Parent: "ca325d9a-67ab-49bd-88ae-929b07b52458"
+ID: "b70b5c44-533b-4e50-a239-a93f712d10ca"
+Parent: "a0db5858-836b-46d3-937c-ee9b66a0d587"
 Template: "c82dc5ff-09ef-4403-96d3-3caf377b8c5b"
-Path: /sitecore/content/Legal/Settings/Datasources/quote
+Path: /sitecore/content/Finance/Settings/Datasources/quote
 DB: master
 Languages:
 - Language: en
@@ -21,4 +21,4 @@ Languages:
         sitecore\admin
     - ID: "5fe1cc43-f86c-459c-a379-cd75950d85af"
       Hint: DatasourceLocation
-      Value: /sitecore/content/Legal/Global/Quotes
+      Value: /sitecore/content/Finance/Global/Quotes

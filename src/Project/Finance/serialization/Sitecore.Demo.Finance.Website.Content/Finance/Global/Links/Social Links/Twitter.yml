@@ -1,0 +1,21 @@
+﻿---
+ID: "acbc79b2-792e-4fb3-85af-3993a941b74f"
+Parent: "a9b8870b-a3c3-445f-944d-bc62c3813a7f"
+Template: "390333c8-751b-4332-84a3-6360b969a19f"
+Path: /sitecore/content/Finance/Global/Links/Social Links/Twitter
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Twitter
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160524T022834Z
+    - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
+      Hint: Link
+      Value: |
+        <link text="Twitter" linktype="external" url="http://www.twitter.com" anchor="" target="_blank" />
