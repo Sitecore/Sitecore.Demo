@@ -1,0 +1,14 @@
+﻿---
+ID: "eea2316b-d42a-4be9-97c0-f9efe34ab8c2"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "6906b4df-148f-4f7d-afdd-8288801389af"
+Path: /sitecore/content/Finance
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161104T023733Z

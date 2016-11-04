@@ -112,12 +112,13 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <None Include="App_Config\Include\Project\Sitecore.Demo.Legal.ExmSetting.config.disabled" />
+    <Content Include="App_Config\Security\domains.config.transform" />
     <None Include="Views\web.config" />
     <Content Include="App_Config\Include\Project\Sitecore.Demo.Legal.Website.config" />
     <Content Include="App_Config\Include\Project\Sitecore.Demo.Legal.Website.Serialization.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="App_Config\Include\Project\z.Sitecore.Demo.DevSettings.config" />
+    <Content Include="App_Config\Include\Project\z.Sitecore.Demo.Legal.Website.DevSettings.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\Legal\Layouts\Default.cshtml" />
     <None Include="web.config" />

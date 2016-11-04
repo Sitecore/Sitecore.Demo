@@ -4,6 +4,10 @@ Parent: "bd726323-e745-47d0-99f7-d25a870fe211"
 Template: "f77fc8c9-8888-414d-8fc7-d20609b52c59"
 Path: /sitecore/system/Social/Accounts/Legal
 DB: master
+SharedFields:
+- ID: "233d3295-bf88-45c8-88da-ba51107fd155"
+  Hint: Default Application Folder
+  Value: "{04E76C3C-AC05-48C3-8F4A-401AB277909E}"
 Languages:
 - Language: en
   Versions:

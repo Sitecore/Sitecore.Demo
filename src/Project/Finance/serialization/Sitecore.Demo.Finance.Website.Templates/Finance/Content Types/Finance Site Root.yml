@@ -1,0 +1,39 @@
+﻿---
+ID: "6906b4df-148f-4f7d-afdd-8288801389af"
+Parent: "7f5456c7-38c6-46cb-bdeb-5fe5b8e662e9"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Finance/Content Types/Finance Site Root
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/16x16/window_earth.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {FA8DE5B9-D5D8-40A7-866A-23AF4F5A9629}
+    {CF38E914-9298-47CC-9205-210553E79F97}
+    {C6D4DDD5-B912-4C1A-A3A3-E1D90E4D0939}
+    {0FCCFE4F-B087-498F-BD26-5CDFFC522C9A}
+    {748EBA96-3F0C-4F45-8AFB-DE8DCC707B84}
+    {59D216D1-035C-4497-97B4-E3C5E9F1C06B}
+    {2D9AA1E4-3359-4F02-9EAA-5CF972FD990D}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{6852FC48-DB99-4A10-9564-53DA2BE8340D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20130917T160321
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

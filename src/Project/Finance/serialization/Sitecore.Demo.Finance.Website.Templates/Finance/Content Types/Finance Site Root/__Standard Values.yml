@@ -1,0 +1,19 @@
+﻿---
+ID: "6852fc48-db99-4a10-9564-53da2be8340d"
+Parent: "6906b4df-148f-4f7d-afdd-8288801389af"
+Template: "6906b4df-148f-4f7d-afdd-8288801389af"
+Path: /sitecore/templates/Project/Finance/Content Types/Finance Site Root/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{BDB637A6-8E93-467D-8CAF-39264E1B7076}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20140305T094105

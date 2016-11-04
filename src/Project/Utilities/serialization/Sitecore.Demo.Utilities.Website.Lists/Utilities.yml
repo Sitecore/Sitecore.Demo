@@ -1,0 +1,14 @@
+﻿---
+ID: "8abf11b3-cc6a-4e1e-9269-5087e5f5c889"
+Parent: "bc799b34-8423-48ac-a2fe-d128e6300659"
+Template: "c4d09683-5eb3-4d8e-bf9e-13cb41c197b5"
+Path: /sitecore/system/List Manager/All Lists/Utilities
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161104T021825Z

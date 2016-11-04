@@ -1,0 +1,19 @@
+﻿---
+ID: "19ef692b-7625-4ead-8030-1ee0398da128"
+Parent: "d016adef-7737-4289-a85f-fe0055f49c8e"
+Template: "0771b0a2-5bcf-4f87-91de-13474618b6bf"
+Path: /sitecore/system/Marketing Control Panel/Profiles/Utilities Persona/Pattern Cards
+DB: master
+BranchID: "07624a03-bb2f-45d8-abe1-15e2b1705ff3"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161104T022159Z

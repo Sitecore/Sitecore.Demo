@@ -1,0 +1,18 @@
+﻿---
+ID: "b1b1e3e7-8f35-47c6-9c07-4300ad6e52ed"
+Parent: "bd726323-e745-47d0-99f7-d25a870fe211"
+Template: "f77fc8c9-8888-414d-8fc7-d20609b52c59"
+Path: /sitecore/system/Social/Accounts/Utilities
+DB: master
+SharedFields:
+- ID: "233d3295-bf88-45c8-88da-ba51107fd155"
+  Hint: Default Application Folder
+  Value: "{FAA4B7CC-0844-47B3-95E5-4BA51D07A4A3}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160106T044756Z

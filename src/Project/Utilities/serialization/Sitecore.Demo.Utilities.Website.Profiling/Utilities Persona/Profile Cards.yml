@@ -1,0 +1,15 @@
+﻿---
+ID: "87828730-051f-4638-b6c5-e9c7af590233"
+Parent: "d016adef-7737-4289-a85f-fe0055f49c8e"
+Template: "1ad02405-7207-4962-ba96-6d6c3ba30ba7"
+Path: /sitecore/system/Marketing Control Panel/Profiles/Utilities Persona/Profile Cards
+DB: master
+BranchID: "07624a03-bb2f-45d8-abe1-15e2b1705ff3"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161104T022159Z

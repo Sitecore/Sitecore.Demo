@@ -1,0 +1,18 @@
+﻿---
+ID: "16f7af4d-9508-485a-92a7-a62e9772c550"
+Parent: "bd726323-e745-47d0-99f7-d25a870fe211"
+Template: "f77fc8c9-8888-414d-8fc7-d20609b52c59"
+Path: /sitecore/system/Social/Accounts/Finance
+DB: master
+SharedFields:
+- ID: "233d3295-bf88-45c8-88da-ba51107fd155"
+  Hint: Default Application Folder
+  Value: "{5BD5B36A-A2D9-4CE4-A398-5A74E14038D3}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160106T044756Z
