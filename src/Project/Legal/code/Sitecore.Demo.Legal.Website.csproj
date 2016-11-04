@@ -111,7 +111,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <None Include="App_Config\Include\Project\Sitecore.Demo.Legal.ExmSetting.config.disabled" />
+    <None Include="App_Config\Include\Project\Sitecore.Demo.Legal.ExmSetting.config" />
     <None Include="Views\web.config" />
     <Content Include="App_Config\Include\Project\Sitecore.Demo.Legal.Website.config" />
     <Content Include="App_Config\Include\Project\Sitecore.Demo.Legal.Website.Serialization.config">
