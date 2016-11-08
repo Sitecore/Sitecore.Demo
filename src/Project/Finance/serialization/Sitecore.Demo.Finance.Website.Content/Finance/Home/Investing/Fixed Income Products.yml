@@ -1,0 +1,43 @@
+﻿---
+ID: "b0770b82-b3ea-4224-9cc5-fabdd4d34aea"
+Parent: "0c65055c-c4e6-4bf6-9622-70d625b45a70"
+Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Path: /sitecore/content/Finance/Home/Investing/Fixed Income Products
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E2A658AB-B142-4AD9-AACA-C69200622F44}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-450"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Fixed Income Products
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161108T145806Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{A2BB5237-7A58-46B2-95EF-B29BEB15DB0C}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: <br>Let Helix provide an established return on a set schedule with our wide variety of fixed income products.
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: "Fixed income products: Safe and sound investments"
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Fixed Income Products
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: "<p>Helix Financial offers access to a wide variety of fixed income products including:</p><ul>    <li><strong>Municipal bonds:</strong> Debts issued by municipalities that are free from federal taxes and usually free of state and local taxes.</li>    <li><strong>Treasury notes and bonds:</strong> Government debt that carries a fixed interest rate, usually with a maturity of one to ten years. Interest income is exempt from state and local income taxes, but subject to federal income taxes.</li>    <li><strong>Government-sponsored enterprises (GSEs):</strong> Bonds issued by financing entities to fund loans to certain groups of borrowers such as homeowners, farmers and students.</li>    <li><strong>Sovereign bonds:</strong> Issued by a national government and denominated in a foreign currency.</li>    <li><strong>Brokered CDs:</strong> CDs offer insurance providing a guarantee of the invested principal up to certain limits.</li></ul>"
