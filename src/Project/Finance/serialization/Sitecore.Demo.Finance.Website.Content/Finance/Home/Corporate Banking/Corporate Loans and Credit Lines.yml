@@ -1,0 +1,54 @@
+﻿---
+ID: "48a2dc6f-e381-4e60-a3f2-8eabaac65073"
+Parent: "eb449a31-01d0-4a44-8dbe-f3fcef69fca7"
+Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Path: /sitecore/content/Finance/Home/Corporate Banking/Corporate Loans and Credit Lines
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E2A658AB-B142-4AD9-AACA-C69200622F44}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Corporate Loans and Credit Lines
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T120027Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{E76198DB-B3B0-4412-BA4C-6C8A2CCBB16B}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Helix Financial’s loan program options give you the flexibility you need to grow your company.
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Fuel for your business
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Corporate Loans and Credit Lines
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Let us help you realize your business' potential through Helix Financial loan products. Below is an outline of our basic financing programs:</p>
+        <h3>Lines of Credit</h3>
+        <p>Fund short-term borrowing needs through a renewable credit program in which credit again becomes available as the loan is repaid.</p>
+        <h3>Business Checking Plus</h3>
+        <p>A revolving line of credit linked to a Helix business checking account for overdraft protection.</p>
+        <h3>Term Loans</h3>
+        <p>Benefit from flexible loan terms and lower rates, whether financing working capital or large capital purchases.</p>
+        <h3>Commercial Mortgages</h3>
+        <p>Purchase or refinance commercial real estate properties that are for the primary business location, or finance renovations or improvements to primary business properties.</p>
+        <h3>Asset Based Lending</h3>
+        <p>Helix can provide lending solutions for manufacturers, distributors, and retailers. Our secured lending solutions are taken against current assets, but can also provide solutions to finance machinery, equipment and real estate.</p>

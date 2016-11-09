@@ -1,0 +1,26 @@
+﻿---
+ID: "b06eb5a6-55a5-47a6-a5ec-70d2297d459b"
+Parent: "3c0af444-432e-4ca3-babc-2a4b1cdcd37f"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: /sitecore/content/Finance/Home/Borrowing/_Local/Borrowing Home Equity Loans
+DB: master
+SharedFields:
+- ID: "e8ab122c-6f54-4d4e-aec6-f81addc558fc"
+  Hint: TeaserLink
+  Value: |
+    <link linktype="internal" text="Learn more" querystring="" target="" id="{7FBC3F62-EF72-4675-83FA-948ED8FFF97C}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{A37A6330-247F-4C81-B4E4-3D3BA714CD01}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T111140Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Home Equity Loans

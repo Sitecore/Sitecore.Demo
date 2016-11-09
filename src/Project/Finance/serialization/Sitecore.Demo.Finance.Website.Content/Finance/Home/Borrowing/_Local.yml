@@ -1,0 +1,22 @@
+﻿---
+ID: "3c0af444-432e-4ca3-babc-2a4b1cdcd37f"
+Parent: "ba86c857-6f07-4064-9512-e740247d4ac2"
+Template: "fff5f245-ffc0-4022-a998-9b07aa5e761f"
+Path: /sitecore/content/Finance/Home/Borrowing/_Local
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{C7D9D293-4EF8-4380-8E10-C4632E729F39}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-1000"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T111108Z

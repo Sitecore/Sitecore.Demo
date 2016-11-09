@@ -1,0 +1,75 @@
+﻿---
+ID: "1f1ec40b-b672-489c-9df4-e8a84a26011b"
+Parent: "eb449a31-01d0-4a44-8dbe-f3fcef69fca7"
+Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Path: /sitecore/content/Finance/Home/Corporate Banking/Corporate Cash Management
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E2A658AB-B142-4AD9-AACA-C69200622F44}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Corporate Cash Management
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T120010Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{B0579D05-0F46-4458-9DAD-3A0E010D6CA7}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Let Helix help your corporation optimize your cash flow.
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Cash flow is king
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Corporate Cash Management
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Accelerate collections, control payments and manage transactions and reporting using Helix specialists and Helix Financial&rsquo;s  web-based banking platform designed specifically for companies like yours. Here&rsquo;s how it works:</p>
+        <h3>Payments</h3>
+        <ul>
+            <li><em>Domestic and International Wire Transfer</em> &mdash; Move funds domestically and internationally in any of 135 currencies.</li>
+            <li><em>ACH origination</em> &mdash; Originate credits and debits for payments such as payroll, vendor payments and taxes through the Automated Clearing House.</li>
+            <li><em>Debit Blocks and Filters</em>&mdash;Prevent fraudulent debits to your account by blocking all ACH debits (blocks) or allowing only those you admin.</li>
+            <li><em>Payroll Manager</em> &mdash; Manage all aspects of your business' payroll process including payment and employee direct deposit, and tax filing. Employees can access payroll statements from a dedicated payroll portal. </li>
+            <li><em>Helix Corporate Card</em> &mdash; Simplify expense management with a single card program for all your business purchases. Powerful management tools and  access to account activity and reports are available 24/7.</li>
+        </ul>
+        <h3>Receivables </h3>
+        <ul>
+            <li><em>Remote Check Deposit</em> &mdash; Capture electronic images of paper checks at your business site for deposit to your Helix Financial Business account. Use a scanner or your mobile phone to securely transmit check images via the web.</li>
+            <li><em>Currency Services</em> &mdash; Send and receive cash, coin, and check deposits securely between your business location and a Helix Commercial Bank Vault.</li>
+            <li><em>ACH/EDI Addenda Reporting</em> &mdash; Electronic Data Interchange (EDI) receive detailed reports of remittance information from trading partners today via Helix&rsquo;s website or mobile app.</li>
+        </ul>
+        <h3>Information </h3>
+        <ul>
+            <li><em>Helix Business Portal </em>&mdash; Increase your efficiency and control by using Helix&rsquo;s Business Portal&mdash;a secure, web-based online platform designed for businesses, to access Treasury Services including cash management, trade finance, and foreign exchange. Manage escrow accounts and other specialized deposit account services. Optional cash manager suite of services provides real-time reporting and extensive wire transfer functionality.</li>
+        </ul>
+        <h3>Deposit Accounts Options</h3>
+        <ul>
+            <li><em>Helix InstaChecking</em> &mdash; For businesses and professional organizations with few cash management requirements.</li>
+            <li><em>Helix FlexChecking</em> &mdash; Primarily for growing business and professional organizations with some cash management requirements.</li>
+            <li><em>Helix LLC-Checking</em> &mdash; Designed to meet the needs of corporations, partnerships, sole proprietorships, not-for-profit organizations that require a range of cash management and other bank services.</li>
+            <li><em>HelixbInterest Checking</em> &mdash; An interest-earning checking account designed for businesses looking to maintain a liquid reserve and earn interest on checking balances.</li>
+            <li><em>Helix BizChecking Plus </em>&mdash; A revolving line of credit linked to a business checking account for overdraft and uncollected funds protection.</li>
+        </ul>
+        <h3>Investment Options</h3>
+        <ul>
+            <li><em>Helix Sweep Accounts</em> &mdash; Earn interest on demand deposit funds by automatically sweeping end-of-day account balances over a pre-determined amount to a linked account offshore.</li>
+            <li><em>Helix Short-term Investing</em> &mdash; Invest in short term instruments including commercial paper, repurchase agreement and Nassau or Puerto Rico time deposits through our web-based investment portal accessible through CitiBusiness&reg; Online.</li>
+        </ul>

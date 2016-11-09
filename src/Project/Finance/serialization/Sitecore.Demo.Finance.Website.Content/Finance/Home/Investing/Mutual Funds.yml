@@ -1,0 +1,50 @@
+﻿---
+ID: "d972ca4c-7c61-46b1-b9bf-91620e309d04"
+Parent: "0c65055c-c4e6-4bf6-9622-70d625b45a70"
+Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Path: /sitecore/content/Finance/Home/Investing/Mutual Funds
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E2A658AB-B142-4AD9-AACA-C69200622F44}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Mutual Funds
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161108T145825Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{B0436D0E-D902-4715-9583-5537527223A9}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Whether you prefer to manage your own portfolio online or receiving the guidance of a specialist, Helix Financial makes it easier to invest in mutual funds.
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: "Mutual funds: Diversification and management at its best"
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Mutual Funds
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <h3>What are mutual funds and are they right for you?</h3>
+        <p>Mutual funds are a pooled investment.  Shareholders of a mutual fund invest their money by purchasing shares of the fund. The money that they pay is pooled together and invested in a portfolio made up of products such as stocks, bonds, or money markets. Mutual funds are professionally managed and operated by money managers, who maintain the portfolio in accordance with specific objectives as stated in the prospectus. Over the past 30 years, mutual funds have emerged as one of the most popular ways to invest in the financial markets. </p>
+        <p>But do funds make sense for you&mdash;and which funds might you buy? As you look to build an investment portfolio, Helix Financial can help you buy individual mutual funds or purchase a diverse collection of funds through an advisory account.</p>
+        <p>Working with a Helix Financial Specialist, you might select from our mutual funds&rsquo; list. Below are a few benefits of mutual funds in general:</p>
+        <h3>Diversification</h3>
+        <p>This can be one of the biggest advantages of investing in some mutual funds that are designed for diversification. By buying fund shares and effectively pooling your money with others, you can spread your investments more widely than if you were purchasing individual securities on your own. You can also tap into foreign markets&mdash;including emerging markets&mdash;that are often difficult for individual investors to access.</p>
+        <h3>Professional Management</h3>
+        <p>By pooling your money with others in a mutual fund, you also get the services of a professional money manager&mdash;somebody you probably couldn't afford to hire on your own. Alternatively, if you are skeptical that a professional money manager will generate superior returns, you can purchase index funds. An index fund buys many or all of the securities that make up a market index, in an effort to replicate the index's performance.</p>
+        <h3>Lower Trading Costs</h3>
+        <p>While it can be costly to purchase individual securities on your own, you can get the benefit of volume buying power when you invest in mutual funds, thus lowering the cost of building your investment portfolio.</p>
