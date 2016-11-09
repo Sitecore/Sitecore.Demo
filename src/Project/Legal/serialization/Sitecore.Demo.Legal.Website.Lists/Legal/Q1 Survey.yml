@@ -1,0 +1,43 @@
+﻿---
+ID: "4d9234c8-2c65-4889-860f-a11b315c4359"
+Parent: "4b830ac7-9d2b-411b-a0b5-76126de27cf8"
+Template: "8288d4ea-6576-486f-aaec-4680329a2d5c"
+Path: /sitecore/system/List Manager/All Lists/Legal/Q1 Survey
+DB: master
+SharedFields:
+- ID: "08b40ff0-f812-4dcf-83a8-f05e493831f9"
+  Hint: UseAllDatabase
+  Type: Checkbox
+  Value: 0
+- ID: "49dbf157-8c47-41d7-bb8f-6b8151b5405c"
+  Hint: Owner
+  Value: xGenerator
+- ID: "55a40513-eb5e-4411-9128-38c2caec0c62"
+  Hint: Name
+  Value: Auto List 636142382668398085
+- ID: "63087a5b-2ea8-4f1b-811b-a82c0ecf52af"
+  Hint: Recipients
+  Value: 104
+- ID: "84e7df9e-a319-417b-a15d-84b40ea2d8e4"
+  Hint: BulkOperationsId
+  Type: Multilist
+  Value: |
+    {3CA34D12-10FD-4B24-B860-1B3B9A4BF020}
+    {95DFCCD4-1618-40DA-AB07-1EDD90D8AD4B}
+    {0F4034E8-AC67-48A7-AFF2-46E26A0E8624}
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Q1 Survey
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161108T214426Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        extranet\Anonymous

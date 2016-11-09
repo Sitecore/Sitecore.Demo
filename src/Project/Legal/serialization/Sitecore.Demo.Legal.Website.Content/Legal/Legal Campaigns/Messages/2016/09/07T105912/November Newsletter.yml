@@ -96,9 +96,7 @@ SharedFields:
 - ID: "f8d592cc-f3e5-4a8e-a600-8aebe8cc36e4"
   Hint: Included Recipient Lists
   Type: TreelistEx
-  Value: |
-    {EB83E11E-9D6A-4B2E-A61E-5A029B84A277}
-    {C96132CF-03A2-4A6F-AD45-8C8B47EBE6DF}
+  Value: "{9B5CF0A1-EDE1-49F5-815E-D08A95D279B3}"
 - ID: "fade34d8-c101-420d-9620-e4deb659c36b"
   Hint: Campaign Group
   Value: "{AB2F413C-4854-48EB-B7EB-6FD2E8142B19}"

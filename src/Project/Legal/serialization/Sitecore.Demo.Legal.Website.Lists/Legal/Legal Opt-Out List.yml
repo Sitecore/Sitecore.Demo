@@ -14,11 +14,15 @@ SharedFields:
   Value: "Legal Opt-Out List"
 - ID: "63087a5b-2ea8-4f1b-811b-a82c0ecf52af"
   Hint: Recipients
-  Value: 134
+  Value: 188
 - ID: "84e7df9e-a319-417b-a15d-84b40ea2d8e4"
   Hint: BulkOperationsId
   Type: Multilist
-  Value: 
+  Value: |
+    {452CE2AF-6604-4387-955B-17DCF0700EEA}
+    {086C8D88-B32A-4D85-B4F0-CA389C0BC74C}
+    {3FB6F702-DA55-41BD-ADD0-9501BBB424D9}
+    {1068601A-1895-4576-BEAE-3B3839DEC6FA}
 Languages:
 - Language: en
   Versions:
