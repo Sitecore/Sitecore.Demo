@@ -1,0 +1,14 @@
+﻿---
+ID: "0933b9e5-de8f-4487-993c-8c8e5dc6fdc6"
+Parent: "0f399369-16cf-4534-b8b0-2458c21d129a"
+Template: "adb6ca4f-03ef-4f47-b9ac-9ce2ba53ff97"
+Path: /sitecore/content/Finance/Home/News/2016/11
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T143021Z
