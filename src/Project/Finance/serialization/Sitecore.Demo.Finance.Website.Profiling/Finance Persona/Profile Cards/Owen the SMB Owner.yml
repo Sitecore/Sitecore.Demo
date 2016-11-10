@@ -1,0 +1,18 @@
+﻿---
+ID: "6e66c7cb-5f81-46a3-aa2e-d76c4355f329"
+Parent: "c795d529-66a7-4dde-8431-cd41a27151c9"
+Template: "0fc09ea4-8d87-4b0e-a5c9-8076ae863d9c"
+Path: /sitecore/system/Marketing Control Panel/Profiles/Finance Persona/Profile Cards/Owen the SMB Owner
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "a26fc256-1db0-44aa-ba3d-1c830bf882a2"
+    Hint: Name
+    Value: Owen the SMB Owner
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161110T142440Z
