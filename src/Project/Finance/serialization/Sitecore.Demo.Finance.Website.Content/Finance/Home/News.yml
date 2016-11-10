@@ -5,6 +5,10 @@ Template: "622ed2b6-35b3-4c77-8ee3-3310d0e50705"
 Path: /sitecore/content/Finance/Home/News
 DB: master
 SharedFields:
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 0
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100

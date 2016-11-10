@@ -26,6 +26,13 @@ Languages:
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {3623D3A4-B7B4-40FD-9480-3411BF52BC0B}
+        {DA68856A-CF9F-4489-9C49-75133DBF35FD}
+        {B49D8641-9872-4F36-9EDD-E6BF8AF9F700}
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

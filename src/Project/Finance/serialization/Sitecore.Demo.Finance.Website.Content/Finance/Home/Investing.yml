@@ -55,6 +55,15 @@ Languages:
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {A83BC191-672B-4C63-A7F8-BD86B1A3AEAB}
+        {EFB73BFA-2BA1-4D61-8170-56021C6089BC}
+        {D9F95401-B0FE-469A-A6D7-6F24A54872E0}
+        {7D8BDCA5-46C2-4A66-89AD-86E04C4827D3}
+        {79F5C107-4E79-4A69-A076-F345508A30E4}
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
       Value: |
