@@ -1,0 +1,86 @@
+﻿---
+ID: "2dc31313-78c2-4749-9583-bb50171fe10f"
+Parent: "544cf284-eda1-48c5-b967-749b7ce5e93b"
+Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
+Path: /sitecore/content/Finance/Home/Landing Pages/Personal/Landing Page Trigger 4
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1"
+      s:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{A797B73B-2F9B-4A52-BED9-E0D7F35C0256}"
+          s:ds=""
+          s:par=""
+          s:ph="/page-layout/section/col-huge" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{3F97DAB2-D3FB-46E0-9B8C-FD6052E90812}"
+              p:before="*"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:ph="/page-layout/section/section-narrow" />
+            <r
+              uid="{951DC6A5-DF04-4CCB-A85A-4D95848B7605}"
+              p:after="r[@uid='{3F97DAB2-D3FB-46E0-9B8C-FD6052E90812}']"
+              s:ds="{A7A061B8-E611-4CCC-9A37-61460DE885AB}"
+              s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}"
+              s:ph="/page-layout/section_1a4cc7d8-e74f-4810-b1b0-9130873e776e/col-huge_e1c7d56c-1f98-4c7b-ac48-d4f796a43bb5" />
+            <r
+              uid="{E1C7D56C-1F98-4C7B-AC48-D4F796A43BB5}"
+              p:after="r[@uid='{951DC6A5-DF04-4CCB-A85A-4D95848B7605}']"
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:ph="/page-layout/section_1a4cc7d8-e74f-4810-b1b0-9130873e776e" />
+            <r
+              uid="{1A4CC7D8-E74F-4810-B1B0-9130873E776E}"
+              p:after="r[@uid='{A607CCB4-81BC-4DC1-897B-BC33B2C52E6D}']"
+              s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+              s:ph="page-layout" />
+            <r
+              uid="{DFDD703B-D723-4BCD-8D49-B7FBE85283EB}">
+              <p:d />
+            </r>
+            <r
+              uid="{A718BD6D-A49E-43BF-8933-9D4C65C2C3DB}">
+              <p:d />
+            </r>
+            <r
+              uid="{A797B73B-2F9B-4A52-BED9-E0D7F35C0256}"
+              s:ph="/page-layout/section/col-wide-1" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161110T145556Z
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{CCF790F5-A9E2-4023-B654-6DEF47E1FDAD}" />
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Your banking bird’s eye view
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Landing Page Trigger 1
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: "Sign-up to gain access to an invaluable tool on which you can look holistically across your short, medium and long-term finances and interact via a secure, online hub from any mobile or web device."

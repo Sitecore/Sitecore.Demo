@@ -1,8 +1,8 @@
 ﻿---
-ID: "c673b5cd-e875-4bd6-bebb-3b127916c695"
-Parent: "97f499e7-0dca-43cf-aa06-8954a5426166"
-Template: "1a9e6291-f7c5-44fb-968f-550ed50549f6"
-Path: /sitecore/content/Finance/Home/Section 2
+ID: "4a072e0c-910a-47bb-a563-df602a794cfc"
+Parent: "bff1d0f6-4d4b-462d-a98b-90dbd43d6c55"
+Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Path: /sitecore/content/Finance/Home/Portal/Account Balance_Overviews
 DB: master
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
@@ -15,16 +15,16 @@ Languages:
     Fields:
     - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
       Hint: NavigationTitle
-      Value: Section 2
+      Value: New Content Page
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20161104T062643Z
+      Value: 20161111T121228Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: Section 2
+      Value: New Content Page
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
-      Value: Section 2
+      Value: New Content Page

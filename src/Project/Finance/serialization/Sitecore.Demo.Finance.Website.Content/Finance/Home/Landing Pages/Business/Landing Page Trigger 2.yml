@@ -1,0 +1,67 @@
+﻿---
+ID: "c341d7bf-0385-45c5-a42a-4d08702213ef"
+Parent: "76a383b0-91f0-478f-9e70-10fb4e82b5ff"
+Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
+Path: /sitecore/content/Finance/Home/Landing Pages/Business/Landing Page Trigger 2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{88314FC0-E8C5-48EF-AAB0-C759ECD9EE68}"
+              p:before="*"
+              s:ds="{966A6E71-E80F-4473-988A-DD78255327FC}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/page-layout/section/col-narrow-1/section_4ae39c66-f51d-442a-8ffb-91e4746bf467/col-huge_69b02b4f-1c7b-41b4-9025-fb0dc0bc8700" />
+            <r
+              uid="{69B02B4F-1C7B-41B4-9025-FB0DC0BC8700}"
+              p:after="r[@uid='{88314FC0-E8C5-48EF-AAB0-C759ECD9EE68}']"
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:ph="/page-layout/section/col-narrow-1/section_4ae39c66-f51d-442a-8ffb-91e4746bf467" />
+            <r
+              uid="{83D25ECD-1935-4F55-B9A1-F659068419C2}"
+              p:after="r[@uid='{69B02B4F-1C7B-41B4-9025-FB0DC0BC8700}']"
+              s:ds="{09686D64-21FD-4C91-B617-99F9B72DED6A}"
+              s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}"
+              s:ph="/page-layout/section/section-narrow/col-wide-1_4e7ebf30-84bd-42af-8aa2-654ba46d0c48" />
+            <r
+              uid="{4E7EBF30-84BD-42AF-8AA2-654BA46D0C48}"
+              p:after="r[@uid='{83D25ECD-1935-4F55-B9A1-F659068419C2}']"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:ph="/page-layout/section/section-narrow" />
+            <r
+              uid="{4AE39C66-F51D-442A-8FFB-91E4746BF467}"
+              p:after="*[1=2]"
+              s:ds=""
+              s:id="{1149A3C7-C69A-4E6B-A6C3-32687EC2F8D4}"
+              s:par="UseStaticPlaceholderNames&amp;Type=bg-media&amp;Media={C198533C-53C7-4323-80F0-E79713EDA48C}&amp;Parallax"
+              s:ph="/page-layout/section/col-narrow-1" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161110T152510Z
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{A5E8AF25-512D-4A11-A02B-116166173F62}" />
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: "Thinking about going international? Read these 7 considerations before you do."
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Landing Page Trigger 1
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: Companies expanding internationally generally end up following one of two paths—organic or inorganic expansion—each of which introduces a number of important decisions that should be taken into consideration as you plan for global expansion. This white paper will cover seven of the most important decisions you will face.
