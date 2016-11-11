@@ -1,0 +1,54 @@
+﻿---
+ID: "6966a0df-c598-4648-a31f-964d686df6c6"
+Parent: "7634e702-ee07-4f0b-bc28-d62df77802b4"
+Template: "0a43a0fe-7e0e-49ef-95d4-e3de34f4f175"
+Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Finance/Business Banking/State 1/Newsletter Signup
+DB: master
+SharedFields:
+- ID: "21f3482b-bb14-4555-ba5d-af20d400d5b9"
+  Hint: Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule
+        uid="{56450CEB-6879-435C-A6C4-EC4DD92293CB}">
+        <conditions>
+          <condition
+            id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
+            uid="3391E39B44A7409CA702772734835846"
+            GoalId="{C9C57982-0384-49CF-A067-CA5D32570482}"
+            NumberOfElapsedDays="100"
+            NumberOfElapsedDaysOperatorId="{E362A3A4-E230-4A40-A7C4-FC42767E908F}"
+            NumberOfPastInteractionsOperatorId="{B88CD556-082E-4385-BB76-E4D1B565F290}"
+            NumberOfPastInteractions="0" />
+        </conditions>
+      </rule>
+    </ruleset>
+- ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
+  Hint: Designer ID
+  Value: "0ac1e583-02dd-4429-aa94-a34c65577cb1"
+- ID: "7642ed71-348b-4b88-8634-cc7b28949472"
+  Hint: Origin ID
+  Value: "00000000-0000-0000-0000-000000000000"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "d2368879-c784-4031-9b79-6a3bf3cb444e"
+  Hint: Next state
+  Value: "445dd611-317d-4e92-b5cc-b83360b36a6c"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Newsletter Signup?"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161111T142225Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

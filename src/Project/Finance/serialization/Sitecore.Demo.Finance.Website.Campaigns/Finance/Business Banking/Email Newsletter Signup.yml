@@ -1,0 +1,38 @@
+﻿---
+ID: "58b7658c-1b53-4f56-bb8e-fc8b477a6f49"
+Parent: "2a7bbc86-5c00-455f-a1f3-b8de13d3ffb9"
+Template: "94fd1606-139e-46ee-86ff-bc5bf3c79804"
+Path: /sitecore/system/Marketing Control Panel/Campaigns/Finance/Business Banking/Email Newsletter Signup
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{689E2994-4656-4C58-9112-7826CB46EE69}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Email Newsletter Signup
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f47d1b4-bcb4-4f7f-9065-6ecb46aab9a1"
+      Hint: Title
+      Value: Email Newsletter Signup
+    - ID: "1c534a2d-0b6d-4e89-8fca-6289475a3a46"
+      Hint: Enroll in Engagement Plan
+      Type: TreelistEx
+      Value: "{7634E702-EE07-4F0B-BC28-D62DF77802B4}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161111T143559Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{EDCBB550-BED3-490F-82B8-7B2F14CCD26E}"
+    - ID: "4c1bf83b-06e2-4b07-ad16-0e65d95e356e"
+      Hint: Channel
+      Value: "{DDAFB85B-1511-48B8-9374-2A8A1F371645}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: 

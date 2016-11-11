@@ -4,6 +4,16 @@ Parent: "544cf284-eda1-48c5-b967-749b7ce5e93b"
 Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
 Path: /sitecore/content/Finance/Home/Landing Pages/Personal/Landing Page Trigger 1
 DB: master
+SharedFields:
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <campaign
+        title="Landing Page Trigger 1"
+        id="{C0017B4A-9ABA-4F87-9AC9-051B9C74EFAD}" />
+    </tracking>
 Languages:
 - Language: en
   Versions:
