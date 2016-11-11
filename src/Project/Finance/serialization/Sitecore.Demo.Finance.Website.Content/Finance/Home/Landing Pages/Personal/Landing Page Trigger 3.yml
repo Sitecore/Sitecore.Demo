@@ -1,0 +1,101 @@
+﻿---
+ID: "9f4f6ae3-cba3-492a-bf5b-fe49d827dbc3"
+Parent: "544cf284-eda1-48c5-b967-749b7ce5e93b"
+Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
+Path: /sitecore/content/Finance/Home/Landing Pages/Personal/Landing Page Trigger 3
+DB: master
+SharedFields:
+- ID: "0dca829c-9fce-41f5-9990-c6182fefe905"
+  Hint: SeoFollowLinks
+  Type: Checkbox
+  Value: 0
+- ID: "683d7237-206a-488f-9dee-4a4e41fb161d"
+  Hint: CanIndex
+  Type: Checkbox
+  Value: 0
+- ID: "8d5c486e-a0e3-4dbe-9a4a-cdff93594bda"
+  Hint: IncludeInSearchResults
+  Type: Checkbox
+  Value: 0
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="everyday elizabeth|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="0" />
+        <key
+          name="Large Corporate Business"
+          value="0" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{7089E63C-DFCE-4D1C-8F1D-D0C3B6D27E58}"
+              p:before="*"
+              s:ds="{10AF8FF0-19F2-4231-BBD1-8D7BF0907516}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/page-layout/section/col-narrow-1" />
+            <r
+              uid="{D83E1A0E-1B99-4F00-A0C9-E9E12FC59891}"
+              p:after="r[@uid='{7089E63C-DFCE-4D1C-8F1D-D0C3B6D27E58}']"
+              s:ds="{C57A7E1E-E1F6-4541-BD95-362EFF889718}"
+              s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}"
+              s:ph="/page-layout/section/section-narrow/col-wide-1_85f14f69-7ed7-42b5-a283-6debe769b09f" />
+            <r
+              uid="{85F14F69-7ED7-42B5-A283-6DEBE769B09F}"
+              p:after="r[@uid='{D83E1A0E-1B99-4F00-A0C9-E9E12FC59891}']"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:ph="/page-layout/section/section-narrow" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161110T145556Z
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {32DE4701-16F5-48F2-AA88-7FC7096E4BF6}
+        {FC201511-36EE-41CA-93A4-75FDBE1B95E1}
+        {8AC66E0D-387E-4720-8B6E-21AF4D38321F}
+        {77D098CB-E648-47B3-9237-1DDC0C952358}
+        {72836B7C-4F47-48F8-9A5D-37D50D2EF3FB}
+        {B8CC6F7B-DF06-4E17-9C92-8ED978A0BF20}
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{B9EA1C21-5629-459B-94B7-E474FDA1857C}" />
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: "Mobile banking: Anytime. Anywhere"
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: "Mobile banking: Anytime. Anywhere"
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: Whether you're on the go&mdash;or on the couch&mdash; this informative video will give you an overview of the latest mobile banking technologies&mdash;text banking, mobile websites, and mobile apps&mdash;that are right at your fingertips, literally.

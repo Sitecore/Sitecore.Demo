@@ -1,0 +1,21 @@
+﻿---
+ID: "71fc505a-9062-4d0d-ab1a-2b23a5a85b96"
+Parent: "76474166-02c0-4008-9602-f05e9156fb37"
+Template: "44ab5107-3c73-42f0-a427-bec549f944b9"
+Path: /sitecore/system/Marketing Control Panel/Profiles/Finance Persona/Large Corporate Business
+DB: master
+SharedFields:
+- ID: "12e2c64a-5f08-4948-86c8-55ae06afeef8"
+  Hint: MaxValue
+  Value: 5
+- ID: "2e1a9aab-f7c1-49ee-b032-28b98d3688d6"
+  Hint: Name
+  Value: Large Corporate Business
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161110T141704Z

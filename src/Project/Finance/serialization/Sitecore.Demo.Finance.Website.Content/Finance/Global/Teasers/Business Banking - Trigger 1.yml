@@ -1,0 +1,45 @@
+﻿---
+ID: "8aa0c63c-db85-4e5c-9b33-fc45004678a1"
+Parent: "02b1ae3a-59f2-4df7-af4d-2542e823f864"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: "/sitecore/content/Finance/Global/Teasers/Business Banking - Trigger 1"
+DB: master
+SharedFields:
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="stephen the cfo|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="0" />
+        <key
+          name="Large Corporate Business"
+          value="0" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{A5E8AF25-512D-4A11-A02B-116166173F62}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161111T104609Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: "Business Banking - Trigger 1"

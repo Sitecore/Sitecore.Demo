@@ -1,0 +1,36 @@
+﻿---
+ID: "d80dbf15-d781-4db3-9eda-b5d3e0ace339"
+Parent: "021f3463-b992-4630-84ef-9ea08a784242"
+Template: "c9e1bf85-800a-4247-a3a3-c3f5dfbfd6aa"
+Path: /sitecore/system/Modules/Web Forms for Marketers/Finance/Contact and Location Finder/Additional Features
+DB: master
+SharedFields:
+- ID: "35c76a0b-b630-458c-aecc-1d62c50d24fc"
+  Hint: Field Link
+  Value: "{E994EAE0-EDB0-4D89-B545-FEBEF07DD7CD}"
+- ID: "acd3122b-f975-433e-9802-35bc5f8fe2b4"
+  Hint: Required
+  Type: Checkbox
+  Value: 0
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Fields:
+  - ID: "26cdc7c2-5307-4591-a7f9-5c034a05630a"
+    Hint: Localized Parameters
+    Value: <Items>%3cquery+t%3d%22default%22+sov%3d%22true%22%3e%3cvalue%3eATM+(Lobby)%3c%2fvalue%3e%3c%2fquery%3e%3cquery+t%3d%22default%22+sov%3d%22true%22%3e%3cvalue%3eATM+(24+Hour)%3c%2fvalue%3e%3c%2fquery%3e%3cquery+t%3d%22default%22+sov%3d%22true%22%3e%3cvalue%3eExtended+Hours+(open+after+5%3a00+p.m.+and+Weekends)%3c%2fvalue%3e%3c%2fquery%3e%3cquery+t%3d%22default%22+sov%3d%22true%22%3e%3cvalue%3eWheelchair+Accessible%3c%2fvalue%3e%3c%2fquery%3e%3cquery+t%3d%22default%22+sov%3d%22true%22%3e%3cvalue%3eDeposit+Drop+Box%3c%2fvalue%3e%3c%2fquery%3e%3cquery+t%3d%22default%22+sov%3d%22true%22%3e%3cvalue%3eForeign+Currency+Exchange%3c%2fvalue%3e%3c%2fquery%3e</Items>
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161111T133206Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "821724f3-30bb-4152-a770-88bc43ac175a"
+      Hint: Title
+      Value: Additional Features

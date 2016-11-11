@@ -15,3 +15,7 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161104T051105Z
+    - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
+      Hint: Link
+      Value: |
+        <link text="" linktype="internal" class="" title="" target="" querystring="" id="{305010AA-074F-47B1-903E-F7D8569062A8}" />
