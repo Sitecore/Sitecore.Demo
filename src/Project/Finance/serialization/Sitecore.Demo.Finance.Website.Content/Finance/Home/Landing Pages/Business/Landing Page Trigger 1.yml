@@ -27,6 +27,9 @@ SharedFields:
           name="SMB Financial Services"
           value="0" />
       </profile>
+      <campaign
+        title="Business Banking Landing Page Trigger 1"
+        id="{8469BF91-5B6C-4AA0-80C1-E2BA52A5F4BB}" />
     </tracking>
 Languages:
 - Language: en

@@ -10,9 +10,6 @@ SharedFields:
   Type: Tracking
   Value: |
     <tracking>
-      <campaign
-        title="Landing Page Trigger 1"
-        id="{C0017B4A-9ABA-4F87-9AC9-051B9C74EFAD}" />
       <profile
         id="{76474166-02C0-4008-9602-F05E9156FB37}"
         name="Finance Persona"
@@ -30,6 +27,9 @@ SharedFields:
           name="SMB Financial Services"
           value="0" />
       </profile>
+      <campaign
+        title="Personal Banking Landing Page Trigger 1"
+        id="{C0017B4A-9ABA-4F87-9AC9-051B9C74EFAD}" />
     </tracking>
 Languages:
 - Language: en
