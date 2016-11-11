@@ -17,6 +17,10 @@ SharedFields:
   Value: 400
 Languages:
 - Language: en
+  Fields:
+  - ID: "26cdc7c2-5307-4591-a7f9-5c034a05630a"
+    Hint: Localized Parameters
+    Value: <Items>%3cquery+t%3d%22default%22+sov%3d%22true%22%3e%3cvalue%3eATM+(Lobby)%3c%2fvalue%3e%3c%2fquery%3e%3cquery+t%3d%22default%22+sov%3d%22true%22%3e%3cvalue%3eATM+(24+Hour)%3c%2fvalue%3e%3c%2fquery%3e%3cquery+t%3d%22default%22+sov%3d%22true%22%3e%3cvalue%3eExtended+Hours+(open+after+5%3a00+p.m.+and+Weekends)%3c%2fvalue%3e%3c%2fquery%3e%3cquery+t%3d%22default%22+sov%3d%22true%22%3e%3cvalue%3eWheelchair+Accessible%3c%2fvalue%3e%3c%2fquery%3e%3cquery+t%3d%22default%22+sov%3d%22true%22%3e%3cvalue%3eDeposit+Drop+Box%3c%2fvalue%3e%3c%2fquery%3e%3cquery+t%3d%22default%22+sov%3d%22true%22%3e%3cvalue%3eForeign+Currency+Exchange%3c%2fvalue%3e%3c%2fquery%3e</Items>
   Versions:
   - Version: 1
     Fields:
