@@ -104,8 +104,8 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="App_Config\Include\Project\z.Sitecore.Demo.Finance.Website.DevSettings.config" />
-    <Content Include="App_Config\Include\Security\domains.config.transform" />
     <Content Include="Views\Finance\Layouts\Finance.cshtml" />
+    <Content Include="App_Config\Security\domains.config.transform" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Views\web.config" />
     <None Include="Web.Debug.config">
