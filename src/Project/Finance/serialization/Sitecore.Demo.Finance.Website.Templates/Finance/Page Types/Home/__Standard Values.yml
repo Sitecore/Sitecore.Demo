@@ -12,11 +12,12 @@ SharedFields:
     {6FCC3641-2EC4-489F-8CA0-C07F7F025D1F}
     {622ED2B6-35B3-4C77-8EE3-3310D0E50705}
     {1A9E6291-F7C5-44FB-968F-550ED50549F6}
+    {4FE8A36A-95E1-41AC-840C-560B9FDB0A26}
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
   Value: |
-    <r>
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{7E600430-2DEF-403E-8F1D-D6471093A8CE}">
@@ -32,6 +33,12 @@ SharedFields:
           id="{C28B9C5F-8E01-42EC-ADF6-3324FAF92C7D}"
           ph="header-top"
           uid="{CA9CB145-3DA7-4CD1-A821-1561A69D5148}" />
+        <r
+          ds="{E70B8747-413C-4CE5-943E-609C7BA2FE27}"
+          id="{69B9C355-004B-4268-BB1E-2F725B8752B7}"
+          par=""
+          ph="left-header-top"
+          uid="{8865FCD4-C94C-466A-86F6-DA9A7D88D67B}" />
         <r
           ds="{86368A63-D78B-4C80-B774-9098BA1BF1C6}"
           id="{69B9C355-004B-4268-BB1E-2F725B8752B7}"

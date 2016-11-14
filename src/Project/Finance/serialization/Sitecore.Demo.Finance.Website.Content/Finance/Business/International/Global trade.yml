@@ -1,0 +1,55 @@
+﻿---
+ID: "7309ab43-85ff-430d-b619-e35b33049659"
+Parent: "7982752c-68b2-4570-b78d-4a18731dfee7"
+Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Path: /sitecore/content/Finance/Business/International/Global trade
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E2A658AB-B142-4AD9-AACA-C69200622F44}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Global trade
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T122626Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{24B900AA-1922-4B44-A385-D4B1D73BAABF}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Helix Financial’s international experience will help you navigate international trade risks and keep your business running smoothly.
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Open new markets with an established partner on your side
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Global trade
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Helix Financial has been developing global trade and supply chain management solutions for over 50 years. Our Global Trade Product Suite helps make it easier, more convenient and less risky for companies to buy and sell internationally. Below are a few of our most popular global features:</p>
+        <h3>Importing solutions</h3>
+        <p>Helix offers a full range of import solutions to give you confidence that your transactions will be processed quickly and efficiently with less risk.</p>
+        <h3>Exporting solutions</h3>
+        <p>Leverage Helix Financial&rsquo;s global experience and regional knowledge as you work to control your exports, maintain cash flow and manage overseas risks.</p>
+        <h3>Trade Financing Program</h3>
+        <br>
+        <h4>Letters of Credit</h4>
+        <ul>
+            <li>As a primary risk mitigation payment tool between importers and exporters, letters of credit ensure shipments of goods and payments to enable efficient transactions.</li>
+        </ul>
+        <h4>Trade Services Online</h4>
+        <ul>
+            <li>Use Helix&rsquo;s online Global Trade Portal for corporate clients around the world, to issue, amend, and advise a Letter of Credit, initiate an export document, review, track and settle import documentation.</li>
+        </ul>

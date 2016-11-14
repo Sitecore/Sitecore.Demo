@@ -34,6 +34,11 @@ SharedFields:
           ph="header-top"
           uid="{EED65D05-79EE-4F05-B24A-27F6DD1D7E45}" />
         <r
+          ds="{E70B8747-413C-4CE5-943E-609C7BA2FE27}"
+          id="{69B9C355-004B-4268-BB1E-2F725B8752B7}"
+          ph="left-header-top"
+          uid="{B039C0E3-9E0A-43B1-8E3B-F1B8418DF6F1}" />
+        <r
           ds="{86368A63-D78B-4C80-B774-9098BA1BF1C6}"
           id="{69B9C355-004B-4268-BB1E-2F725B8752B7}"
           ph="right-header-top"

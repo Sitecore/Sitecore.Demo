@@ -19,3 +19,7 @@ Languages:
       Hint: DividerBefore
       Type: Checkbox
       Value: 1
+    - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
+      Hint: Link
+      Value: |
+        <link id="{798439B8-09F8-47F2-8CDA-4194C1EDAF33}" querystring="" target="" text="" title="" class="" url="/Finance/Home/About/Vision and Values" linktype="internal" />

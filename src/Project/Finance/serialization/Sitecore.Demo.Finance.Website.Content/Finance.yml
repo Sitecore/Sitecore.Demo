@@ -7,19 +7,19 @@ DB: master
 SharedFields:
 - ID: "60745023-ffd5-400e-8f80-4bca9f2abb29"
   Hint: Login Page
-  Value: /sitecore/content/Finance/Home/Portal
+  Value: /sitecore/content/Finance/Portal
 - ID: "71962360-10d8-4b98-bb8d-57660ce11127"
   Hint: Register Page
-  Value: /sitecore/content/Finance/Home/Portal/Register
+  Value: /sitecore/content/Finance/Portal/Register
 - ID: "b128e2b3-3865-4f1c-a147-5f248676d3f5"
   Hint: After Login Page
-  Value: /sitecore/content/Finance/Home/Portal/My Page
+  Value: /sitecore/content/Finance/Portal/My Page
 - ID: "ed71d374-8c33-4561-991d-77482ae01330"
   Hint: Accounts Details Page
   Value: /sitecore/content/Finance/Home/Portal/My Profile
 - ID: "f3cd2bb8-472b-4df0-87c0-a13098e391ca"
   Hint: Forgot Password Page
-  Value: /sitecore/content/Finance/Home/Portal/Forgot Password
+  Value: /sitecore/content/Finance/Portal/Forgot Password
 Languages:
 - Language: en
   Versions:
@@ -44,6 +44,10 @@ Languages:
     - ID: "378b7d87-5775-4eb6-86b7-282d5359b1c6"
       Hint: User Profile
       Value: "{BB6B091A-EC76-4B1E-BA50-C1BC4FC6E270}"
+    - ID: "e748d808-64c1-4dec-9718-f35cf9689e4b"
+      Hint: Logo
+      Value: |
+        <image mediaid="{47C5E951-86CC-40D0-A933-F832AAA5CAB9}" />
     - ID: "efd4980a-030c-497c-8880-40b6030ac28b"
       Hint: OrganisationName
       Value: Habitat Finance

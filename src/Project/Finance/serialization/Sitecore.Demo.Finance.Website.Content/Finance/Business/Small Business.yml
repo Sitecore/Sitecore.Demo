@@ -1,0 +1,81 @@
+﻿---
+ID: "fe2c6aa3-c7f1-4951-9128-5f329ccb4120"
+Parent: "d7673141-c506-4211-bf43-868e850ebbc3"
+Template: "1a9e6291-f7c5-44fb-968f-550ed50549f6"
+Path: /sitecore/content/Finance/Business/Small Business
+DB: master
+SharedFields:
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 1
+- ID: "8d5c486e-a0e3-4dbe-9a4a-cdff93594bda"
+  Hint: IncludeInSearchResults
+  Type: Checkbox
+  Value: 1
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E2A658AB-B142-4AD9-AACA-C69200622F44}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 350
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{6E9201F1-9610-4D21-90D7-9B99AE9A62B7}"
+              p:before="*"
+              s:ds="{53961C6F-6C91-4F4A-BD8F-2C0DFE051185}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/page-layout/section/col-narrow-3_f56f1b76-0022-40fa-b5d4-89020991bda5" />
+            <r
+              uid="{F0C8E990-4E70-408B-99DC-D6EFCD3FD532}"
+              p:after="r[@uid='{6E9201F1-9610-4D21-90D7-9B99AE9A62B7}']"
+              s:ds="{17893778-2E96-446D-A953-7BA46D6157F3}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/page-layout/section/col-narrow-2_f56f1b76-0022-40fa-b5d4-89020991bda5" />
+            <r
+              uid="{D88934AA-DE56-4FBE-970D-4DEAD338F66F}"
+              p:after="r[@uid='{F0C8E990-4E70-408B-99DC-D6EFCD3FD532}']"
+              s:ds="{E86200FD-5962-4D02-A07D-5D72283B5D35}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/page-layout/section/col-narrow-1_f56f1b76-0022-40fa-b5d4-89020991bda5" />
+            <r
+              uid="{F56F1B76-0022-40FA-B5D4-89020991BDA5}"
+              p:after="r[@uid='{D88934AA-DE56-4FBE-970D-4DEAD338F66F}']"
+              s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}"
+              s:ph="/page-layout/section" />
+          </d>
+        </r>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Small Business
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T112445Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{2FE9833F-22D1-4B25-90A4-25B27334AD0D}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: <br>We’re in the business of providing banking services that your business needs.
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: At Helix, small businesses are a big deal.
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Small Business

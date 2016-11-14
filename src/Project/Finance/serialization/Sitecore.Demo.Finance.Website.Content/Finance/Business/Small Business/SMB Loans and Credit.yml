@@ -1,0 +1,67 @@
+﻿---
+ID: "c18c6e82-744d-45d0-bec3-88088ed2d2a4"
+Parent: "fe2c6aa3-c7f1-4951-9128-5f329ccb4120"
+Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Path: /sitecore/content/Finance/Business/Small Business/SMB Loans and Credit
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E2A658AB-B142-4AD9-AACA-C69200622F44}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: SMB Loans and Lines of Credit
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T112820Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{8B0CB341-E2B1-447F-A93D-0E515DCB6680}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "Breathe easy with quick access to the cash you need to cover short-term working capital or seasonal cash demands."
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: "Lines of Credit: Short-term cash when you need it most"
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: SMB Loans and Credit
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <h3>Helix Business Line of Credit</h3>
+        <p>Get flexible financing to take advantage of business opportunities. Repay and reuse your line of credit as needed. Below are a few benefits of our Line of Credit program:</p>
+        <ul>
+            <li>Borrow only what you need and keep interest payments low</li>
+            <li>Release company cash resources for other uses</li>
+            <li>Take advantage of surprise supplier discounts or unexpected opportunities</li>
+            <li>Complement your underlying business cycle and its seasonality</li>
+            <li>Line of  Credit amounts range from $25K to $2MM</li>
+            <li>Customized packages for seasonal advance needs</li>
+            <li>Projected business performance</li>
+            <li>Projected business requirements</li>
+            <li>Collateral coverage</li>
+        </ul>
+        <h3>Helix SparkNow Small Business Loan</h3>
+        <p>Build or rebuild your business&rsquo; credit with this unsecured loan that provides quick and easy access to capital and is repaid in just one year. Apply online today, get an instant credit decision, and receive funds as soon as tomorrow!</p>
+        <h4>Loan snapshot</h4>
+        <ul>
+            <li>Loans range from $10,000 to $35,000.</li>
+            <li>Term&mdash;fully amortized and paid in full in 1 year.</li>
+            <li>Weekly payments are automatically deducted from your Wells Fargo business checking account on the weekday you select.</li>
+            <li>Interest rates start at 12%</li>
+            <li>No collateral is needed; this is an unsecured loan.</li>
+            <li>Use the funds for just about any purchase with access to funds as soon as next business day or schedule funding date up to 2 months out.</li>
+        </ul>
