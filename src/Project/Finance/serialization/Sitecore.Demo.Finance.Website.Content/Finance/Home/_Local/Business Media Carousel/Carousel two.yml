@@ -1,8 +1,8 @@
 ﻿---
-ID: "783d78ff-4995-4947-b8d2-eedf4f318c52"
-Parent: "448a5c5b-9a5d-4bc2-8b24-5d1f6970679d"
+ID: "03456e5f-b205-410f-8100-ac7ab97e0940"
+Parent: "3127dc41-0998-4fae-ae90-4213649fd851"
 Template: "f1c095e2-b3e0-46d0-b838-02a9e8b880d9"
-Path: /sitecore/content/Finance/Home/_Local/Page Header Media Carousel/Carousel two
+Path: /sitecore/content/Finance/Home/_Local/Business Media Carousel/Carousel two
 DB: master
 Languages:
 - Language: en
@@ -15,10 +15,10 @@ Languages:
     - ID: "2628705d-9434-4448-978c-c3bf166fa1eb"
       Hint: MediaVideoLink
       Value: |
-        <link text="" linktype="internal" class="" title="" target="" querystring="" id="{FCD068C2-67FD-4F2A-B3C6-18467B615363}" />
+        <link linktype="media" target="" id="{35020BF2-8867-4C6F-9687-EF69CDAF3C4C}" />
     - ID: "302c9f8d-f703-4f76-a4ab-73d222648232"
       Hint: MediaDescription
-      Value: "Cash back? Points? Miles? Travel? One of our rich reward credit cards will get you what you’re looking for."
+      Value: Line of credit options can give you the flexibility you need to run your business.
     - ID: "63dda48b-b0cb-45a7-9a1b-b26ddb41009b"
       Hint: MediaTitle
-      Value: Reap the rewards. 
+      Value: "Fuel for your business: "

@@ -5,9 +5,12 @@ Template: "c9e1bf85-800a-4247-a3a3-c3f5dfbfd6aa"
 Path: /sitecore/system/Modules/Web Forms for Marketers/Finance/Signup Future Banking Webinar/Month preference
 DB: master
 SharedFields:
+- ID: "358e7aa0-e3e6-4ef6-92df-ec1301737b50"
+  Hint: Parameters
+  Value: <EmptyChoice>Yes</EmptyChoice>
 - ID: "35c76a0b-b630-458c-aecc-1d62c50d24fc"
   Hint: Field Link
-  Value: "{09BF916E-79FB-4AE3-B799-659E63C75EA5}"
+  Value: "{C6D97C39-23B5-4B7E-AFC7-9F41795533C6}"
 - ID: "acd3122b-f975-433e-9802-35bc5f8fe2b4"
   Hint: Required
   Type: Checkbox
@@ -17,6 +20,10 @@ SharedFields:
   Value: 300
 Languages:
 - Language: en
+  Fields:
+  - ID: "26cdc7c2-5307-4591-a7f9-5c034a05630a"
+    Hint: Localized Parameters
+    Value: <Items>%3cquery+t%3d%22default%22+sov%3d%22true%22%3e%3cvalue%3eJanuary%3c%2fvalue%3e%3c%2fquery%3e%3cquery+t%3d%22default%22+sov%3d%22true%22%3e%3cvalue%3eFebruary%3c%2fvalue%3e%3c%2fquery%3e%3cquery+t%3d%22default%22+sov%3d%22true%22%3e%3cvalue%3eMarch%3c%2fvalue%3e%3c%2fquery%3e</Items>
   Versions:
   - Version: 1
     Fields:

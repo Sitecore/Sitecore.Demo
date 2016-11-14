@@ -1,8 +1,8 @@
 ﻿---
-ID: "85ac129f-bc7b-4ba7-9aa5-adf32af7b6cb"
-Parent: "448a5c5b-9a5d-4bc2-8b24-5d1f6970679d"
+ID: "1c9bc3be-45b9-4266-9cf1-809213497112"
+Parent: "3127dc41-0998-4fae-ae90-4213649fd851"
 Template: "f0369e1a-9030-4a05-a09c-ef09b664ed27"
-Path: /sitecore/content/Finance/Home/_Local/Page Header Media Carousel/Carousel three
+Path: /sitecore/content/Finance/Home/_Local/Business Media Carousel/Carousel three
 DB: master
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
@@ -18,15 +18,15 @@ Languages:
       Value: 20161110T094302Z
     - ID: "302c9f8d-f703-4f76-a4ab-73d222648232"
       Hint: MediaDescription
-      Value: Plan for retirement with guidance from Helix Financial.
+      Value: Take your company global with Helix Financial.
     - ID: "4ff62b0a-d73b-4436-bea2-023154f2ffc4"
       Hint: MediaThumbnail
       Value: |
-        <image mediaid="{7350D772-0915-482C-8879-D05AB6907EB9}" />
+        <image mediaid="{E59AF9AD-C880-440E-BBAD-D180BA54281A}" />
     - ID: "63dda48b-b0cb-45a7-9a1b-b26ddb41009b"
       Hint: MediaTitle
-      Value: Let life begin after 60.
+      Value: "International Services: "
     - ID: "9f51dead-ad6e-41c2-9759-7be17eb474a4"
       Hint: MediaImage
       Value: |
-        <image mediaid="{7350D772-0915-482C-8879-D05AB6907EB9}" />
+        <image mediaid="{E59AF9AD-C880-440E-BBAD-D180BA54281A}" />
