@@ -1,5 +1,5 @@
 ﻿---
-ID: "0eb704c1-7714-4f42-beed-ef1579d50af7"
+ID: "d409c7ef-e454-4906-aa77-5afe6db7ed01"
 Parent: "4b830ac7-9d2b-411b-a0b5-76126de27cf8"
 Template: "8288d4ea-6576-486f-aaec-4680329a2d5c"
 Path: /sitecore/system/List Manager/All Lists/Legal/Feb Seminar
@@ -17,7 +17,7 @@ SharedFields:
   Value: Feb Seminar
 - ID: "63087a5b-2ea8-4f1b-811b-a82c0ecf52af"
   Hint: Recipients
-  Value: 81
+  Value: 80
 - ID: "84e7df9e-a319-417b-a15d-84b40ea2d8e4"
   Hint: BulkOperationsId
   Type: Multilist
@@ -33,8 +33,8 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20161108T212930Z
+      Value: 20161115T105546Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\Anonymous
+        extranet\Anonymous

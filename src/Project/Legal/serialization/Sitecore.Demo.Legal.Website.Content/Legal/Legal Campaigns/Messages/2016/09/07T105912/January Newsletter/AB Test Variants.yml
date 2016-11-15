@@ -1,0 +1,18 @@
+﻿---
+ID: "79f70c9a-331a-4360-bc68-0407c002e65b"
+Parent: "7373cd36-8de7-4ac5-984c-53c7c292ffb0"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Legal/Legal Campaigns/Messages/2016/09/07T105912/January Newsletter/AB Test Variants
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161115T094944Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

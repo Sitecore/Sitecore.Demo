@@ -5,24 +5,16 @@ Template: "8288d4ea-6576-486f-aaec-4680329a2d5c"
 Path: "/sitecore/system/List Manager/All Lists/Legal/Legal Opt-Out List"
 DB: master
 SharedFields:
-- ID: "15dd0421-4efd-4d07-a4b8-374ab212ee3f"
-  Hint: IncludedSources
-  Type: Multilist
-  Value: "{B032E735-1E1E-43C4-8E2C-2E58111E9B2F}"
 - ID: "55a40513-eb5e-4411-9128-38c2caec0c62"
   Hint: Name
   Value: "Legal Opt-Out List"
 - ID: "63087a5b-2ea8-4f1b-811b-a82c0ecf52af"
   Hint: Recipients
-  Value: 188
+  Value: 61
 - ID: "84e7df9e-a319-417b-a15d-84b40ea2d8e4"
   Hint: BulkOperationsId
   Type: Multilist
-  Value: |
-    {452CE2AF-6604-4387-955B-17DCF0700EEA}
-    {086C8D88-B32A-4D85-B4F0-CA389C0BC74C}
-    {3FB6F702-DA55-41BD-ADD0-9501BBB424D9}
-    {1068601A-1895-4576-BEAE-3B3839DEC6FA}
+  Value: 
 Languages:
 - Language: en
   Versions:

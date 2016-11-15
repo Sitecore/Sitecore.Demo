@@ -34,7 +34,7 @@ Languages:
       Value: "{DDAFB85B-1511-48B8-9374-2A8A1F371645}"
     - ID: "5a9fae1c-a68a-4310-b3b1-1d364f65e197"
       Hint: EndDate
-      Value: 20160220T230000Z
+      Value: 20160220T000000Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: 
@@ -43,7 +43,7 @@ Languages:
       Value: "{5EBC8DC1-B219-4B0E-B600-5BE2826D73EA}{7CF671E0-04CC-4E8F-8227-E462FCF4FFD8}"
     - ID: "bd4720d7-9ed6-4438-959b-7b1c5c32c10b"
       Hint: StartDate
-      Value: 20160215T230000Z
+      Value: 20160215T000000Z
     - ID: "ffaea943-df50-4f11-94ed-4690418a7d96"
       Hint: Campaign group
       Value: "{AB2F413C-4854-48EB-B7EB-6FD2E8142B19}"
