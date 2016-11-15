@@ -1,0 +1,19 @@
+﻿---
+ID: "f5098cc8-03c6-4bff-aee5-0849ad12047c"
+Parent: "4fe9080d-67ed-4779-90ff-96d5c466dce2"
+Template: "60e4a220-b639-46e8-93ef-8466990256aa"
+Path: /sitecore/content/Utilities/Utilities/Message Types/Subscription
+DB: master
+BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Subscription Message
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161114T113104Z

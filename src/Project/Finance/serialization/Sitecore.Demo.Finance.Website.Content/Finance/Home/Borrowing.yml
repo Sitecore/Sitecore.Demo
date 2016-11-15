@@ -8,6 +8,29 @@ SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{E2A658AB-B142-4AD9-AACA-C69200622F44}"
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="everyday elizabeth|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="0" />
+        <key
+          name="Large Corporate Business"
+          value="0" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="0" />
+      </profile>
+    </tracking>
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 300
@@ -58,6 +81,18 @@ Languages:
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {E261C53D-CBD5-475A-BA7D-0BA1A312A5AA}
+        {1F8B3012-8D15-4633-B605-D05D3AA2F325}
+        {5E0D6CB2-8BEC-4CB4-81B5-2A844B6550B4}
+        {03027973-234A-4792-80EE-881CB39938D3}
+        {1CF1ED00-1F03-4FCA-A2E8-C631969533A4}
+        {40E02130-2372-4DB1-A47B-50879CF0EFCC}
+        {3F5C7E11-F2B4-4253-97A1-8101AF8CEE2D}
+        {360D7D07-9A70-4D1A-A181-19FFA85D85AA}
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
       Value: |

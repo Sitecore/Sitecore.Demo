@@ -1,0 +1,25 @@
+﻿---
+ID: "966a6e71-e80f-4473-988a-dd78255327fc"
+Parent: "02b1ae3a-59f2-4df7-af4d-2542e823f864"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: "/sitecore/content/Finance/Global/Teasers/Business Banking - Trigger 3"
+DB: master
+SharedFields:
+- ID: "e8ab122c-6f54-4d4e-aec6-f81addc558fc"
+  Hint: TeaserLink
+  Value: |
+    <link linktype="internal" text="Watch now" querystring="" target="" id="{B4C6D40C-69B4-45D3-857F-85B92DE03295}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
+      Hint: TeaserSummary
+      Value: Learn how Coffee.Tea.Me. went from a cart to a worldwide retail anchor and publicly traded company.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161111T105825Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Taking over the world, one cup at a time.

@@ -1,0 +1,23 @@
+﻿---
+ID: "586568c7-864c-4251-abb8-75a2f24d3eff"
+Parent: "757514c8-6df1-432c-9d2c-98e1be6253f3"
+Template: "69474581-3668-4fed-b0f0-0b88c2532cae"
+Path: "/sitecore/content/Utilities/Utilities/Messages/Service Messages/Self-Service Subscription"
+DB: master
+BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Self-Service Subscription"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161114T113104Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

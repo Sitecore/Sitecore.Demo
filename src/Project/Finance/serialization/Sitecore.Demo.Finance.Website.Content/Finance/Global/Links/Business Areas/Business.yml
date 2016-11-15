@@ -4,6 +4,10 @@ Parent: "e70b8747-413c-4ce5-943e-609c7ba2fe27"
 Template: "390333c8-751b-4332-84a3-6360b969a19f"
 Path: /sitecore/content/Finance/Global/Links/Business Areas/Business
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
 Languages:
 - Language: en
   Versions:

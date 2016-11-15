@@ -1,0 +1,60 @@
+﻿---
+ID: "e829bd8b-eeec-4020-8771-1ffe103f0ff1"
+Parent: "1d09b221-42d3-4135-a7dd-5c1fd75e68c4"
+Template: "0a43a0fe-7e0e-49ef-95d4-e3de34f4f175"
+Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Finance/Business Banking/State 2/Request Whitepaper
+DB: master
+SharedFields:
+- ID: "21f3482b-bb14-4555-ba5d-af20d400d5b9"
+  Hint: Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule
+        uid="{DBBBB77F-858E-4F50-BB42-5C9935B01408}">
+        <conditions>
+          <condition
+            id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
+            uid="D83CDA1ABF2349709EA055A64BD5327B"
+            GoalId="{699AB4E7-4E4B-4336-B34B-01D3D70C7AB5}"
+            NumberOfElapsedDaysOperatorId="{E362A3A4-E230-4A40-A7C4-FC42767E908F}"
+            NumberOfElapsedDays="100"
+            NumberOfPastInteractionsOperatorId="{B88CD556-082E-4385-BB76-E4D1B565F290}"
+            NumberOfPastInteractions="0" />
+        </conditions>
+      </rule>
+    </ruleset>
+- ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
+  Hint: Designer ID
+  Value: "ba38961f-01d3-4b9c-8142-aa76f50baf20"
+- ID: "7642ed71-348b-4b88-8634-cc7b28949472"
+  Hint: Origin ID
+  Value: "00000000-0000-0000-0000-000000000000"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "d2368879-c784-4031-9b79-6a3bf3cb444e"
+  Hint: Next state
+  Value: "994a67f7-ad12-47e3-af5e-83782402266b"
+- ID: "e13dcd09-d9bb-43c9-8d7d-438c79d714ca"
+  Hint: Evaluate
+  Value: "{B81C1F4C-8B83-44D9-902F-448463DBCCBC}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "06f2d72a-1924-4b9a-ba1e-186ce4e57efd"
+    Hint: Description
+    Value: "Has the user requested access to the whitepaper?"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Request Whitepaper?"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161111T142226Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

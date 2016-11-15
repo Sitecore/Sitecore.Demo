@@ -32,11 +32,6 @@ SharedFields:
         <r
           ds="{E70B8747-413C-4CE5-943E-609C7BA2FE27}"
           id="{69B9C355-004B-4268-BB1E-2F725B8752B7}"
-          ph="left-header-top"
-          uid="{EABDFA0F-A191-41A2-9F15-65BCA954AF50}" />
-        <r
-          ds="{86368A63-D78B-4C80-B774-9098BA1BF1C6}"
-          id="{69B9C355-004B-4268-BB1E-2F725B8752B7}"
           ph="right-header-top"
           uid="{9043AE78-46F6-45F6-B980-5F4B541CFF25}" />
         <r
@@ -88,7 +83,7 @@ SharedFields:
           uid="{50A3A5B3-4BB4-4156-A9DA-85C9FAF948B5}" />
         <r
           id="{E52D0AE8-2989-44E5-BEA1-EA30C17B2080}"
-          par="PagesToShow=5&amp;ResultsOnPage=4"
+          par="PagesToShow=5&amp;Caching=0%7c0%7c0%7c0%7c0%7c0%7c0%7c0&amp;ResultsOnPage=4"
           ph="/page-layout/section/col-huge"
           uid="{0C63A3B5-CD0C-4501-A0FF-82DCB0A685F3}" />
         <r
