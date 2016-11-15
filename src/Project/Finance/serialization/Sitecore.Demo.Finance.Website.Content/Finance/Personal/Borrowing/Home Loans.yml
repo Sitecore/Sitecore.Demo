@@ -1,0 +1,87 @@
+﻿---
+ID: "6e9c9166-5bec-454b-a9a1-118a71c4ade6"
+Parent: "ba86c857-6f07-4064-9512-e740247d4ac2"
+Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Path: /sitecore/content/Finance/Personal/Borrowing/Home Loans
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E2A658AB-B142-4AD9-AACA-C69200622F44}"
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="everyday elizabeth|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="0" />
+        <key
+          name="Large Corporate Business"
+          value="0" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="0" />
+      </profile>
+    </tracking>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Home Loans
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T110612Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {360D7D07-9A70-4D1A-A181-19FFA85D85AA}
+        {6E943113-906D-4812-8FF3-E5ADF94CD141}
+        {AAC10B2E-9FBF-4F9B-B82E-74E20AA9DA37}
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{21A498E9-670E-41A1-BD9E-198881FD3BA2}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Your dream home is a click away with a Helix Financial mortgage.
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Home sweet loan.
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Home Loans
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>No matter where your are with homeownership, or where you are in the home-buying process, our expert lending programs are here to help you get into the house of your dreams. Helix has the expertise in helping our customers find the right mortgage products. Whether you are a first-time home buyer, or an existing home owner looking to move, we can help. We offer a variety of mortgage options and competitive mortgage rates specially fit to your needs. We are here to help make buying your home a simple process. Below are a few of our home loan products:</p>
+        <h3>Homebuying Loans</h3>
+        <ul>
+            <li>Fixed-rate and adjustable-rate mortgages</li>
+            <li>New construction loans</li>
+            <li>FHA and VA mortgages</li>
+            <li>Low down payment option</li>
+        </ul>
+        <h3>Refinancing Loans</h3>
+        <ul>
+            <li>Fixed-rate and adjustable-rate mortgages</li>
+            <li>FHA and VA mortgages</li>
+            <li>Home Affordable Refinance Program (HARP)</li>
+        </ul>

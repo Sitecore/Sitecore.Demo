@@ -1,0 +1,24 @@
+﻿---
+ID: "03456e5f-b205-410f-8100-ac7ab97e0940"
+Parent: "3127dc41-0998-4fae-ae90-4213649fd851"
+Template: "f1c095e2-b3e0-46d0-b838-02a9e8b880d9"
+Path: /sitecore/content/Finance/Personal/_Local/Business Media Carousel/Carousel two
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T160651Z
+    - ID: "2628705d-9434-4448-978c-c3bf166fa1eb"
+      Hint: MediaVideoLink
+      Value: |
+        <link linktype="media" target="" id="{35020BF2-8867-4C6F-9687-EF69CDAF3C4C}" />
+    - ID: "302c9f8d-f703-4f76-a4ab-73d222648232"
+      Hint: MediaDescription
+      Value: Line of credit options can give you the flexibility you need to run your business.
+    - ID: "63dda48b-b0cb-45a7-9a1b-b26ddb41009b"
+      Hint: MediaTitle
+      Value: "Fuel for your business: "

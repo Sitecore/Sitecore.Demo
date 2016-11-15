@@ -1,0 +1,89 @@
+﻿---
+ID: "5b68c318-3072-416d-bcff-258c24878446"
+Parent: "76a383b0-91f0-478f-9e70-10fb4e82b5ff"
+Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
+Path: /sitecore/content/Finance/Personal/Landing Pages/Business/Landing Page Trigger 1
+DB: master
+SharedFields:
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="stephen the cfo|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="0" />
+        <key
+          name="Large Corporate Business"
+          value="0" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="0" />
+      </profile>
+      <campaign
+        title="Business Banking Landing Page Trigger 1"
+        id="{8469BF91-5B6C-4AA0-80C1-E2BA52A5F4BB}" />
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{09B3CD64-31B1-4F98-9652-A02ACB0EC2A5}"
+              p:before="*"
+              s:ds="{31273FF2-DE43-4533-A2D7-EDA07C17788E}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/page-layout/section/col-narrow-1" />
+            <r
+              uid="{115EBB0E-ECE9-40DF-871F-EBFC07E4B7C2}"
+              p:after="r[@uid='{09B3CD64-31B1-4F98-9652-A02ACB0EC2A5}']"
+              s:ds="{57CACE12-4E23-4ACB-AF4C-2C2597FD5DA1}"
+              s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}"
+              s:ph="/page-layout/section/section-narrow/col-wide-1_226cbb5e-8395-442e-aefa-61999c223ee3" />
+            <r
+              uid="{226CBB5E-8395-442E-AEFA-61999C223EE3}"
+              p:after="r[@uid='{115EBB0E-ECE9-40DF-871F-EBFC07E4B7C2}']"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:ph="/page-layout/section/section-narrow" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161110T152510Z
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {D3D5889D-0D03-443D-9067-A7C679D52824}
+        {ACF5B71F-9A18-4C42-B990-F06A3C5D6AFF}
+        {CE58FA70-0208-4AB7-B744-24AF4AC98F92}
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{60428FD9-CB61-495A-9ED3-EA9BA6B6B581}" />
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Take your business banking to the next level
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Take your business banking to the next level
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: "Discover banking insight and information that can help lift your company into the next level of success—right from within your inbox. Sign-up below."

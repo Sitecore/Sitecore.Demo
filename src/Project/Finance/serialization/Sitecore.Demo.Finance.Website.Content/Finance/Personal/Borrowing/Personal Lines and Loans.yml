@@ -1,0 +1,88 @@
+﻿---
+ID: "373de868-af48-4e34-9ff0-cb106b828191"
+Parent: "ba86c857-6f07-4064-9512-e740247d4ac2"
+Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Path: /sitecore/content/Finance/Personal/Borrowing/Personal Lines and Loans
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E2A658AB-B142-4AD9-AACA-C69200622F44}"
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="everyday elizabeth|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="0" />
+        <key
+          name="Large Corporate Business"
+          value="0" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Personal Lines and Loans
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T110647Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {E261C53D-CBD5-475A-BA7D-0BA1A312A5AA}
+        {0D583833-81A4-426C-905F-0A315F4D41F9}
+        {8116F54B-89C1-4A39-857F-E1D3FF39CE3B}
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{00AD1A26-EA35-4F53-B0AA-06A0F6D8A3CC}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Helix Financial’s offers personal lines and loans built just for you.
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Finally, get the credit you deserve.
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Personal Lines and Loans
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Whether you want to consolidate high-interest rate debt, finance a major purchase, or pay for unexpected expenses, Helix can customize a loan for you. Below are just a few benefits of a personal loan or personal line of credit:</p>
+        <h3>Personal Loans</h3>
+        <ul>
+            <li>Fixed rate, fixed term, and fixed monthly payments</li>
+            <li>No origination or prepayment fees</li>
+            <li>Competitive Annual Percentage Rate (APR) for the life of the loan<sup>4</sup></li>
+            <li>No collateral required to qualify</li>
+            <li>Loan amounts from $3,000 to $100,000</li>
+            <li>Credit decision in as little as 15 minutes and often same-day access to funds</li>
+        </ul>
+        <h3>Personal Lines of Credit</h3>
+        <ul>
+            <li>A competitive variable interest rate </li>
+            <li>No collateral required</li>
+            <li>Line amounts from $3,000 to $100,000</li>
+            <li>No cash advance or balance transfer fees</li>
+            <li>Interest rate discounts may be available for customers with qualifying existing Helix Financial checking accounts</li>
+        </ul>

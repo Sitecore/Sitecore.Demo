@@ -1,0 +1,26 @@
+﻿---
+ID: "82865548-c72a-4956-bd12-47918257faee"
+Parent: "e2a97be0-588a-4b6d-85fe-18b4d7aa2670"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: /sitecore/content/Finance/Personal/Banking/_Local/Credit Cards
+DB: master
+SharedFields:
+- ID: "e8ab122c-6f54-4d4e-aec6-f81addc558fc"
+  Hint: TeaserLink
+  Value: |
+    <link linktype="internal" text="Learn more" querystring="" target="" id="{BAF33BD0-6E58-4491-8D19-D1E4BB8FE56C}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{E0CD2173-C946-4A96-B808-6B3166E8C39C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T104806Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Credit Cards

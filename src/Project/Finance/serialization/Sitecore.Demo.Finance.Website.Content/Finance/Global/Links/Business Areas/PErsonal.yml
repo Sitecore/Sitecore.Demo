@@ -22,4 +22,4 @@ Languages:
     - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
       Hint: Link
       Value: |
-        <link text="" linktype="internal" class="" title="" target="" querystring="" id="{97F499E7-0DCA-43CF-AA06-8954A5426166}" />
+        <link id="{97F499E7-0DCA-43CF-AA06-8954A5426166}" querystring="" text="" title="" class="" linktype="internal" url="/Finance/Personal" target="" />

@@ -1,0 +1,14 @@
+﻿---
+ID: "0f399369-16cf-4534-b8b0-2458c21d129a"
+Parent: "63ae7d4f-64a9-4933-83f2-93444d1bc0e8"
+Template: "adb6ca4f-03ef-4f47-b9ac-9ce2ba53ff97"
+Path: /sitecore/content/Finance/Personal/About Helix Financial/News/2016
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T143021Z

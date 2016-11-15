@@ -1,0 +1,81 @@
+﻿---
+ID: "474f04fa-0b18-416f-9e1c-e70bdc09fe22"
+Parent: "766db309-9788-4fbd-a286-b8927091b83f"
+Template: "9ea41747-6119-4aa8-ab6b-20c58b3f430f"
+Path: /sitecore/content/Finance/Personal/About Helix Financial/News/2016/11/09/14/59/News Post 4
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E2A658AB-B142-4AD9-AACA-C69200622F44}"
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="ben the banker|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="0" />
+        <key
+          name="Large Corporate Business"
+          value="0" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="0" />
+      </profile>
+    </tracking>
+- ID: "c464d2d7-3382-428a-bcdf-0963c60ba0e3"
+  Hint: NewsDate
+  Value: 20161112T000000Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T145947Z
+    - ID: "3437eaac-6ee8-460b-a33d-da1f714b5a93"
+      Hint: NewsImage
+      Value: |
+        <image mediaid="{0A39C453-8E80-4C6B-812E-40F15C6F139B}" />
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {45CAC939-80DB-4451-BAD5-3F91D46F7602}
+        {904017AD-A2DC-4D6C-89B1-DB285A5B1DF0}
+        {28E654CF-91CF-4944-B8C1-F56C9A9F8B55}
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "801612c7-5e98-4e3c-80d2-a34d0eebcbda"
+      Hint: NewsBody
+      Value: |
+        <p>The European Central Bank made no changes in its program to revive the economy, as it expressed slightly more optimism about the prospects for growth in the region. Growth in the 19-member eurozone is neither so bad that it requires a new spark of stimulus from the bank nor so dynamic that there is a need to apply the brakes. The European Central Bank&rsquo;s Governing Council is now expected to pause after several years in which it pushed the boundaries of financial policy. The bank left its benchmark interest rate at zero, where it has been since March. It also left intact a penalty rate of minus 0.3% on money that commercial banks keep at the central bank.&nbsp;</p>
+        <p>Growth in the eurozone this year is predicted to be 1.6%, slightly more than earlier forecasts. But the bank&rsquo;s economists left their growth predictions for 2017 and 2018 unchanged at 1.7% for both years. The bank has already made aggressive moves in recent months by buying government debt in large quantities and cutting interest rates to their lowest levels. This month, the bank will expand those measures by buying bonds and effectively paying banks to lend to businesses.</p>
+        <p>The bank is also not expected to make any major changes to policy for some time to come. Inflation in the eurozone was minus 0.1% in May, according to an official estimate, still far from the bank&rsquo;s official target of 2%. But a 1% increase in the price of services in May, as well as a turnaround in oil prices, signal that inflation could rise in months to come.</p>
+        <p>To the disappointment of some analysts, the central bank did not raise its inflation forecasts for 2017 and 2018. That is a sign that the bank remains concerned about the risk of deflation, a sustained decline in prices that can be disastrous for economic growth and employment.<br>
+        The European Central Bank&rsquo;s charter defines its main job as keeping inflation below 2 percent, but not too far below it.</p>
+        <p><span>The eurozone economy is recovering, but slowly. During the first quarter, the total value of goods and services produced in the eurozone surpassed the previous peak&nbsp;reached before the region was struck by financial and debt crises.</span></p>
+        <p><span>But unemployment remains above 10% and is falling only gradually, and eurozone growth is not so active that economists see any need for the bank to think about removing stimulus. That is in contrast to the U.S. Federal Reserve, which is expected to raise interest rates in the United States as early as its next meeting.</span></p>
+    - ID: "9d08271a-1672-44dd-b7ef-0a6ec34fcba7"
+      Hint: NewsSummary
+      Value: The European Central Bank made no changes in its program to revive the economy, as it expressed slightly more optimism about the prospects for growth in the region.
+    - ID: "bd9ecd4a-c0b0-4233-a3cd-d995519ac87b"
+      Hint: NewsTitle
+      Value: E.C.B. keeps rates steady as inflation shows signs of rising
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: E.C.B. keeps rates steady as inflation shows signs of rising

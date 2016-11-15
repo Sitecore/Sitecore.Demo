@@ -1,0 +1,25 @@
+﻿---
+ID: "307d2664-865e-4dd4-b827-cfa14fdc2e0b"
+Parent: "41d64c13-23f3-4bfe-a917-b3ff21ddcbd8"
+Template: "fff5f245-ffc0-4022-a998-9b07aa5e761f"
+Path: /sitecore/content/Finance/Personal/Insurance/_Local
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {AC7394D5-2AA7-4FDB-A7D8-B1B87F9FA661}
+    {F5F30CDC-9003-4015-84EC-C3A7E3E50D5E}
+    {C7D9D293-4EF8-4380-8E10-C4632E729F39}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-1000"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161108T135828Z
