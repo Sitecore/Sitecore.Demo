@@ -16,7 +16,7 @@ SharedFields:
   Value: /sitecore/content/Finance/Portal/My Page
 - ID: "ed71d374-8c33-4561-991d-77482ae01330"
   Hint: Accounts Details Page
-  Value: /sitecore/content/Finance/Home/Portal/My Profile
+  Value: /sitecore/content/Finance/Portal/Profile
 - ID: "f3cd2bb8-472b-4df0-87c0-a13098e391ca"
   Hint: Forgot Password Page
   Value: /sitecore/content/Finance/Portal/Forgot Password

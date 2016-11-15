@@ -12,11 +12,19 @@ SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{E2A658AB-B142-4AD9-AACA-C69200622F44}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "02115632-fe1e-4b3d-9ad4-a4ddf1f782f0"
+      Hint: Copyright
+      Value: |
+        <p>Copyright &copy; 2016 Habitat Financial</p>
+        <p>Legal Notice | Privacy Policy</p>
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
       Hint: __Final Renderings
       Type: Layout
@@ -36,6 +44,9 @@ Languages:
               p:after="r[@uid='{FBE89ACA-FFDA-415B-8B85-3B19CDC32C48}']"
               s:id="{A2216CA7-B205-4042-A345-72117D0086C3}"
               s:ph="page-layout" />
+            <r
+              uid="{05E40048-7692-4F79-9143-70C12B175681}"
+              s:ds="{E70B8747-413C-4CE5-943E-609C7BA2FE27}" />
           </d>
         </r>
     - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
@@ -47,9 +58,10 @@ Languages:
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
-    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
-      Hint: Title
-      Value: Business
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Business
+    - ID: "e748d808-64c1-4dec-9718-f35cf9689e4b"
+      Hint: Logo
+      Value: |
+        <image mediaid="{47C5E951-86CC-40D0-A933-F832AAA5CAB9}" />

@@ -1,0 +1,30 @@
+﻿---
+ID: "ce41960b-a9d3-42d6-9736-0a5fd72e83ca"
+Parent: "1d25708e-f44e-45db-8d97-621d58307fe8"
+Template: "54e7880d-2621-49ea-a417-982fcd372903"
+Path: /sitecore/content/Utilities/Utilities/Message Types/OneTime/Default
+DB: master
+BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {F112BDEF-8D86-4CEA-9B9A-8477A582926C}
+    {9E170B31-F8AA-4E1F-B605-2FC0BD4FE120}
+    {6FE51EB4-1D30-4E6B-8BA0-0EBB1405D283}
+    {ECF0A9C8-FE56-45D8-B750-6BDE3A34A532}
+    {1AFE38A7-9461-4278-ADAF-D807F27F36E4}
+    {F868C724-50D0-4347-9C9B-BABB8DB705FE}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161114T113104Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

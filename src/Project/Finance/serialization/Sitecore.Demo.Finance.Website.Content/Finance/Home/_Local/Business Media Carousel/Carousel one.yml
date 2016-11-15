@@ -1,0 +1,28 @@
+﻿---
+ID: "0be9782d-9b47-4a5f-aa3f-7aa7ddf4ce1b"
+Parent: "3127dc41-0998-4fae-ae90-4213649fd851"
+Template: "f0369e1a-9030-4a05-a09c-ef09b664ed27"
+Path: /sitecore/content/Finance/Home/_Local/Business Media Carousel/Carousel one
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T160642Z
+    - ID: "302c9f8d-f703-4f76-a4ab-73d222648232"
+      Hint: MediaDescription
+      Value: "For businesses seeking insight and information that can help their businesses uncover opportunity, sign-up today!"
+    - ID: "4ff62b0a-d73b-4436-bea2-023154f2ffc4"
+      Hint: MediaThumbnail
+      Value: |
+        <image mediaid="{8D3BDAF0-5F2C-48BD-9BF4-5068E5AA26E0}" />
+    - ID: "63dda48b-b0cb-45a7-9a1b-b26ddb41009b"
+      Hint: MediaTitle
+      Value: "Helix Business Insider:"
+    - ID: "9f51dead-ad6e-41c2-9759-7be17eb474a4"
+      Hint: MediaImage
+      Value: |
+        <image mediaid="{8D3BDAF0-5F2C-48BD-9BF4-5068E5AA26E0}" />

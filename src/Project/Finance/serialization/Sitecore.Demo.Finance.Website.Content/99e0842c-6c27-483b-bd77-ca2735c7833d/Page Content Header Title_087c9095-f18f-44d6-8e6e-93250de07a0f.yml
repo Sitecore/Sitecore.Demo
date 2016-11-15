@@ -1,0 +1,24 @@
+﻿---
+ID: "087c9095-f18f-44d6-8e6e-93250de07a0f"
+Parent: "99e0842c-6c27-483b-bd77-ca2735c7833d"
+Template: "af74a00b-8ca7-4c9a-a5c1-156a68590ee2"
+Path: /sitecore/content/Finance/Home/Landing Pages/Business/Landing Page Trigger 3/_Local/Page Content Header Title
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161111T113035Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: 
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Taking over the world, one cup at a time.
