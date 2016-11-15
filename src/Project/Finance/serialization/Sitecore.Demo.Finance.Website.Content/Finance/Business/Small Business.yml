@@ -9,6 +9,10 @@ SharedFields:
   Hint: ShowInNavigation
   Type: Checkbox
   Value: 1
+- ID: "68016087-aa00-45d6-922a-678475c50d4a"
+  Hint: ShowChildren
+  Type: Checkbox
+  Value: 0
 - ID: "8d5c486e-a0e3-4dbe-9a4a-cdff93594bda"
   Hint: IncludeInSearchResults
   Type: Checkbox

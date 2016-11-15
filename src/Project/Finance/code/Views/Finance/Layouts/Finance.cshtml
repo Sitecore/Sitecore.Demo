@@ -28,12 +28,13 @@
 </head>
 <body class="@(Sitecore.Context.PageMode.IsExperienceEditor ? "header-static" : "") @(Sitecore.Context.PageMode.IsNormal ? "" : (Sitecore.Context.PageMode.IsExperienceEditor ? "pagemode-edit" : "pagemode-preview"))">
   <div id="main-container">
-    <header class="header-static bg-primary">
-      <div class="bg-dark">
+    <header class="header-static">
+      <div class="bg-primary">
         @Html.Sitecore().Placeholder("header-top")
       </div>
-
-      @Html.Sitecore().Placeholder("navbar")
+      <div class="bg-white">
+        @Html.Sitecore().Placeholder("navbar")
+      </div>
     </header>
     <main role="main">
       @Html.Sitecore().Placeholder("page-layout")

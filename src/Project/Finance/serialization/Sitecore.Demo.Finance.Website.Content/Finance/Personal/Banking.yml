@@ -5,6 +5,10 @@ Template: "1a9e6291-f7c5-44fb-968f-550ed50549f6"
 Path: /sitecore/content/Finance/Personal/Banking
 DB: master
 SharedFields:
+- ID: "68016087-aa00-45d6-922a-678475c50d4a"
+  Hint: ShowChildren
+  Type: Checkbox
+  Value: 0
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{E2A658AB-B142-4AD9-AACA-C69200622F44}"
