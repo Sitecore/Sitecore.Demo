@@ -1,0 +1,65 @@
+﻿//Lighter navigation
+.nav {
+    > li {
+        > a {
+           font-weight: 300;
+        }
+        &.active {
+            > a {
+               font-weight: 600;
+            }
+        }
+    }
+}
+
+//Marks the selected business area
+.header-top {
+    .nav-service {
+        li.active {
+            background-color: $bg-white-bg;
+            a {
+                color: $color-primary;
+            }
+        }
+
+    }
+}
+
+//header
+h1, h2, h3, h4, h5, h6 {
+    small {
+        font-weight: 300;
+    }
+}
+
+//lighten images
+.bg-media:after {
+    opacity: 0.5;
+}
+
+//footer
+footer {
+    .container {
+        padding-bottom: $padding-large-vertical;
+    }
+    .footer-bottom {
+        background-color: white;
+        color: $bg-white-color;
+        a {
+            color: $bg-white-color;
+        }
+    }
+}
+
+//Change navigation to normal case
+header {
+    .navbar-nav {
+        li {
+            a.text-uppercase
+            {
+                text-transform: none;
+                font-size: 16px;
+            }
+        }
+    } 
+}

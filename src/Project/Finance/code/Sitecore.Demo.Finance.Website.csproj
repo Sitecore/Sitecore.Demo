@@ -104,9 +104,23 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="App_Config\Include\Project\z.Sitecore.Demo.Finance.Website.DevSettings.config" />
+    <Content Include="styles\Lightnteal.css">
+      <DependentUpon>Lightnteal.scss</DependentUpon>
+    </Content>
+    <Content Include="styles\Lightnteal.min.css">
+      <DependentUpon>Lightnteal.css</DependentUpon>
+    </Content>
     <Content Include="Views\Finance\Layouts\Finance.cshtml" />
     <Content Include="App_Config\Security\domains.config.transform" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="Properties\PublishProfiles\Local.pubxml" />
+    <Content Include="styles\Lightnteal.scss" />
+    <Content Include="styles\Lightnteal\_fonts.scss" />
+    <Content Include="styles\Lightnteal\_overrides.scss" />
+    <Content Include="styles\Lightnteal\_variables.scss" />
     <None Include="Views\web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
