@@ -1,8 +1,8 @@
 ﻿---
-ID: "3127dc41-0998-4fae-ae90-4213649fd851"
-Parent: "e975dd01-26cd-4b3f-abf6-8edcc0e01186"
+ID: "73b14e87-652f-43a7-af97-bf2259ea9491"
+Parent: "8dc8d56c-4bac-4d5f-95d7-7df70faa4128"
 Template: "c18d3794-d126-4548-bfc8-89358de6e9c1"
-Path: /sitecore/content/Finance/Personal/_Local/Business Media Carousel
+Path: /sitecore/content/Finance/Business/_Local/Business Media Carousel
 DB: master
 Languages:
 - Language: en
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20161109T160420Z
+      Value: 20161117T151921Z

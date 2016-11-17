@@ -1,8 +1,8 @@
 ﻿---
-ID: "1c9bc3be-45b9-4266-9cf1-809213497112"
-Parent: "3127dc41-0998-4fae-ae90-4213649fd851"
+ID: "598e50ad-fcac-42b7-bcbc-66617cf92e06"
+Parent: "73b14e87-652f-43a7-af97-bf2259ea9491"
 Template: "f0369e1a-9030-4a05-a09c-ef09b664ed27"
-Path: /sitecore/content/Finance/Personal/_Local/Business Media Carousel/Carousel three
+Path: /sitecore/content/Finance/Business/_Local/Business Media Carousel/Slide three
 DB: master
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
@@ -15,7 +15,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20161110T094302Z
+      Value: 20161117T151944Z
     - ID: "302c9f8d-f703-4f76-a4ab-73d222648232"
       Hint: MediaDescription
       Value: Take your company global with Helix Financial.
