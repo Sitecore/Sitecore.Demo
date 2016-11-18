@@ -14,9 +14,13 @@ SharedFields:
   Value: 0
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 300
 Languages:
 - Language: en
+  Fields:
+  - ID: "26cdc7c2-5307-4591-a7f9-5c034a05630a"
+    Hint: Localized Parameters
+    Value: "<Items>%3cquery+t%3d%22root%22%3e%3cvalue%3e%7bBBA8B015-FC5F-467F-B59E-1B9E45157ACA%7d%3c%2fvalue%3e%3c%2fquery%3e</Items>"
   Versions:
   - Version: 1
     Fields:

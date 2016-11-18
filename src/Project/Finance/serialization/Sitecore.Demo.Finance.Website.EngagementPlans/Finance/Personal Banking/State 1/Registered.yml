@@ -14,9 +14,13 @@ SharedFields:
         uid="{FDE5C146-49DE-4EF9-87F2-F00991E85ECF}">
         <conditions>
           <condition
-            id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}"
-            uid="85F553ADF684408FB488E34E3CC5601F"
-            GoalId="{DAB0472B-4FCE-41A0-8826-ED27ED0FC936}" />
+            id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
+            uid="9878484ED15A42A3B382F33ABB93CC44"
+            GoalId="{DAB0472B-4FCE-41A0-8826-ED27ED0FC936}"
+            NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
+            NumberOfElapsedDays="100"
+            NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
+            NumberOfPastInteractions="1" />
         </conditions>
       </rule>
     </ruleset>

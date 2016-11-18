@@ -5,6 +5,25 @@ Template: "0a43a0fe-7e0e-49ef-95d4-e3de34f4f175"
 Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Finance/Business Banking/State 3/Case Study Video
 DB: master
 SharedFields:
+- ID: "21f3482b-bb14-4555-ba5d-af20d400d5b9"
+  Hint: Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule
+        uid="{3E943D09-B4EF-4FE6-A106-3D5412F8125E}">
+        <conditions>
+          <condition
+            id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
+            uid="2DE69E354E304623B113E97EBE64BD1E"
+            GoalId="{9658114D-A17F-48DE-8E83-D182F544BB0D}"
+            NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
+            NumberOfElapsedDays="100"
+            NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
+            NumberOfPastInteractions="0" />
+        </conditions>
+      </rule>
+    </ruleset>
 - ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
   Hint: Designer ID
   Value: "5ad6aaee-c4ea-4d6b-a1af-cbb1b6e9a1c9"
@@ -17,6 +36,9 @@ SharedFields:
 - ID: "d2368879-c784-4031-9b79-6a3bf3cb444e"
   Hint: Next state
   Value: "da2a4ab4-8fe4-4fd9-9a6b-cd15fb6260a2"
+- ID: "e13dcd09-d9bb-43c9-8d7d-438c79d714ca"
+  Hint: Evaluate
+  Value: "{B81C1F4C-8B83-44D9-902F-448463DBCCBC}"
 Languages:
 - Language: en
   Fields:
