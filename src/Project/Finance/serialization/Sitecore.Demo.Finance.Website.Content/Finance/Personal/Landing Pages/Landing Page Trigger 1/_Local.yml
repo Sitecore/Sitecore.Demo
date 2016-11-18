@@ -1,8 +1,8 @@
 ﻿---
-ID: "682eb29c-3a09-4b9c-9e35-c5e4c2254fc1"
-Parent: "9f4f6ae3-cba3-492a-bf5b-fe49d827dbc3"
+ID: "79aa31eb-1f8e-4bef-b3bc-a05d3794257f"
+Parent: "da51a7e2-1db0-42aa-b0d7-81a0ae2db3de"
 Template: "fff5f245-ffc0-4022-a998-9b07aa5e761f"
-Path: /sitecore/content/Finance/Personal/Landing Pages/Personal/Landing Page Trigger 3/_Local
+Path: /sitecore/content/Finance/Personal/Landing Pages/Landing Page Trigger 1/_Local
 DB: master
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
@@ -19,4 +19,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20161111T090151Z
+      Value: 20161111T083234Z
