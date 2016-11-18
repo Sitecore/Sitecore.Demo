@@ -1,8 +1,8 @@
 ﻿---
 ID: "b4c6d40c-69b4-45d3-857f-85b92de03295"
-Parent: "76a383b0-91f0-478f-9e70-10fb4e82b5ff"
+Parent: "24359462-e8b9-4181-bfd6-c7861083d7a1"
 Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
-Path: /sitecore/content/Finance/Personal/Landing Pages/Business/Landing Page Trigger 3
+Path: /sitecore/content/Finance/Business/Landing Pages/Landing Page Trigger 3
 DB: master
 SharedFields:
 - ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
@@ -62,15 +62,16 @@ Languages:
             <r
               uid="{B6DFBA18-0E4A-4A4F-8486-60F1AD6FB2C6}"
               p:after="r[@uid='{627B49F0-F4B2-4F8A-A401-7D447D59E696}']"
-              s:ds="{087C9095-F18F-44D6-8E6E-93250DE07A0F}"
+              s:ds=""
               s:id="{45B8E1D9-D522-49E0-B9B7-04C965CC7089}"
+              s:par=""
               s:ph="/page-layout/page-header" />
             <r
               uid="{7EE6D43E-A433-4702-8C0B-D9C917067FD0}"
               p:after="r[@uid='{B6DFBA18-0E4A-4A4F-8486-60F1AD6FB2C6}']"
               s:ds=""
               s:id="{26B33DEB-F1DB-4338-B043-AAF2F90E04A3}"
-              s:par="UseStaticPlaceholderNames&amp;Type=bg-media&amp;Media={C198533C-53C7-4323-80F0-E79713EDA48C}&amp;Parallax"
+              s:par="UseStaticPlaceholderNames&amp;Type=bg-media&amp;Media={B60122E3-F6A8-48F2-8D76-BE1194DB7F06}&amp;Parallax"
               s:ph="page-layout" />
             <r
               uid="{A607CCB4-81BC-4DC1-897B-BC33B2C52E6D}">
@@ -93,6 +94,10 @@ Languages:
         {FCC3296C-9A3B-406D-B1F5-A35FB7EF1E10}
         {C612429D-F3A9-4B23-9E33-8617F5C590F0}
         {EFA057AB-B0AD-460B-AEDE-E6FE58390338}
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{A5E8AF25-512D-4A11-A02B-116166173F62}" />
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: Taking over the world, one cup at a time.

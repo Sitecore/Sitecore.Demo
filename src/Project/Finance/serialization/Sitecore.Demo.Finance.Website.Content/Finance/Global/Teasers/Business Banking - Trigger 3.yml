@@ -14,6 +14,10 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{86D6D14A-8D7C-476D-958B-1E689EA32F8B}" />
     - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
       Hint: TeaserSummary
       Value: Learn how Coffee.Tea.Me. went from a cart to a worldwide retail anchor and publicly traded company.

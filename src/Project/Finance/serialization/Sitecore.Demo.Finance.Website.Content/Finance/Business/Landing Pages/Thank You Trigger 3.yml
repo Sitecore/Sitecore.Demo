@@ -1,8 +1,8 @@
 ﻿---
-ID: "af781512-fb51-4352-837b-3a8c6fca6957"
-Parent: "76a383b0-91f0-478f-9e70-10fb4e82b5ff"
+ID: "4a04e42f-cc02-465c-9dbf-f578d82cb0e4"
+Parent: "24359462-e8b9-4181-bfd6-c7861083d7a1"
 Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
-Path: /sitecore/content/Finance/Personal/Landing Pages/Business/Thank You Trigger 4
+Path: /sitecore/content/Finance/Business/Landing Pages/Thank You Trigger 3
 DB: master
 Languages:
 - Language: en
@@ -28,7 +28,7 @@ Languages:
       Value: 20161110T152510Z
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: <p>Thank you for signing up</p>
+      Value: <p>Enjoy watching our case study video</p>
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: Thank you

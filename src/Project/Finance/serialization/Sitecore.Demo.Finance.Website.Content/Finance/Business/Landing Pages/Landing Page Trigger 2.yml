@@ -1,8 +1,8 @@
 ﻿---
 ID: "c341d7bf-0385-45c5-a42a-4d08702213ef"
-Parent: "76a383b0-91f0-478f-9e70-10fb4e82b5ff"
+Parent: "24359462-e8b9-4181-bfd6-c7861083d7a1"
 Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
-Path: /sitecore/content/Finance/Personal/Landing Pages/Business/Landing Page Trigger 2
+Path: /sitecore/content/Finance/Business/Landing Pages/Landing Page Trigger 2
 DB: master
 SharedFields:
 - ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
@@ -28,6 +28,21 @@ SharedFields:
           value="0" />
       </profile>
     </tracking>
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1"
+      s:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{A607CCB4-81BC-4DC1-897B-BC33B2C52E6D}"
+          s:ds=""
+          s:par="" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:
@@ -38,8 +53,7 @@ Languages:
       Type: Layout
       Value: |
         <r xmlns:p="p" xmlns:s="s"
-          p:p="1"
-          s:xsd="http://www.w3.org/2001/XMLSchema">
+          p:p="1">
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
@@ -69,7 +83,7 @@ Languages:
               p:after="*[1=2]"
               s:ds=""
               s:id="{1149A3C7-C69A-4E6B-A6C3-32687EC2F8D4}"
-              s:par="UseStaticPlaceholderNames&amp;Type=bg-media&amp;Media={C198533C-53C7-4323-80F0-E79713EDA48C}&amp;Parallax"
+              s:par="Media={C198533C-53C7-4323-80F0-E79713EDA48C}"
               s:ph="/page-layout/section/col-narrow-1" />
           </d>
         </r>

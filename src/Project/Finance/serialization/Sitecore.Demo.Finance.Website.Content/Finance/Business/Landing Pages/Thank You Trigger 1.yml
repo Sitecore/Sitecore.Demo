@@ -1,8 +1,8 @@
 ﻿---
-ID: "9c610c33-74c2-44c7-8ad8-6f4628525fee"
-Parent: "76a383b0-91f0-478f-9e70-10fb4e82b5ff"
+ID: "aad6aec2-50e6-4110-81c5-cf9de5fb1376"
+Parent: "24359462-e8b9-4181-bfd6-c7861083d7a1"
 Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
-Path: /sitecore/content/Finance/Personal/Landing Pages/Business/Thank You Trigger 2
+Path: /sitecore/content/Finance/Business/Landing Pages/Thank You Trigger 1
 DB: master
 Languages:
 - Language: en
@@ -28,7 +28,7 @@ Languages:
       Value: 20161110T152510Z
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: <p>Thank you for downloading our white paper</p>
+      Value: <p>Thank you for signing up for our eNewletter</p>
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: Thank you

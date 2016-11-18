@@ -1,8 +1,8 @@
 ﻿---
 ID: "b0801140-c15f-4c1f-95b2-0be7d1e2e0cc"
-Parent: "76a383b0-91f0-478f-9e70-10fb4e82b5ff"
+Parent: "24359462-e8b9-4181-bfd6-c7861083d7a1"
 Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
-Path: /sitecore/content/Finance/Personal/Landing Pages/Business/Landing Page Trigger 4
+Path: /sitecore/content/Finance/Business/Landing Pages/Landing Page Trigger 4
 DB: master
 SharedFields:
 - ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"

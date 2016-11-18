@@ -1,8 +1,8 @@
 ﻿---
-ID: "272f1696-3d39-4e01-a39f-5c1a6c81f788"
-Parent: "c341d7bf-0385-45c5-a42a-4d08702213ef"
+ID: "99e0842c-6c27-483b-bd77-ca2735c7833d"
+Parent: "b4c6d40c-69b4-45d3-857f-85b92de03295"
 Template: "fff5f245-ffc0-4022-a998-9b07aa5e761f"
-Path: /sitecore/content/Finance/Personal/Landing Pages/Business/Landing Page Trigger 2/_Local
+Path: /sitecore/content/Finance/Business/Landing Pages/Landing Page Trigger 3/_Local
 DB: master
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
@@ -10,7 +10,7 @@ SharedFields:
   Type: TreelistEx
   Value: |
     {C7D9D293-4EF8-4380-8E10-C4632E729F39}
-    {F1C095E2-B3E0-46D0-B838-02A9E8B880D9}
+    {C18D3794-D126-4548-BFC8-89358DE6E9C1}
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: "-1000"
@@ -21,4 +21,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20161111T105810Z
+      Value: 20161111T111518Z
