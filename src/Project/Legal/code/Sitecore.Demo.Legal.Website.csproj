@@ -117,7 +117,7 @@
     <Content Include="App_Config\Include\Project\Sitecore.Demo.Legal.Website.Serialization.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="App_Config\Include\Project\z.Sitecore.Demo.DevSettings.config" />
+    <Content Include="App_Config\Include\Project\z.Sitecore.Demo.Legal.Website.DevSettings.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\Legal\Layouts\Default.cshtml" />
     <None Include="web.config" />
