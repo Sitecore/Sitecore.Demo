@@ -57,14 +57,14 @@ Languages:
               p:after="r[@uid='{826F2A9A-8690-4861-A7E5-40380F2C79C1}']"
               s:ds=""
               s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
-              s:par="Background=%7BEFA6AD59-AE21-4524-90F8-A92440B869AF%7D&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames"
+              s:par="Background={EFA6AD59-AE21-4524-90F8-A92440B869AF}&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames"
               s:ph="page-layout" />
             <r
               uid="{D1242781-6161-440A-A076-796C59DBA763}"
               p:after="r[@uid='{18389D63-23B8-4E29-A9BF-EB98E18992BC}']"
               s:ds=""
               s:id="{60EAFB37-7743-4548-ABC7-0CFBB291A6E9}"
-              s:par="Show List=1&amp;Manager root=%7B5EBC8DC1-B219-4B0E-B600-5BE2826D73EA%7D&amp;Recipient Lists=%7B26AF8BB0-2CAC-4EC7-ADAF-1824295D0005%7D%7C%7BF8400B59-CC6C-4FF8-9364-5B7F58966065%7D%7C%7BFA2CEBF9-566C-4F8A-9B95-9F55F5241BE5%7D&amp;Exclude Lists"
+              s:par="Manager root={5EBC8DC1-B219-4B0E-B600-5BE2826D73EA}&amp;Show List=1&amp;Recipient Lists={32AD743C-8985-4482-B33F-478340D921A0}|{B1E96E65-859E-4A10-AA57-6268ADE7D001}|{5E7E110D-C4E1-4FF2-8CBE-B0518A857A56}"
               s:ph="/page-layout/section/col-wide-1" />
           </d>
         </r>
@@ -86,4 +86,4 @@ Languages:
       Value: unsubscribe
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
-      Value: Use the following form to select the email lists to which you would like to subscribe.
+      Value: Use the following form to select the&nbsp;email lists&nbsp;to which you would like to subscribe.
