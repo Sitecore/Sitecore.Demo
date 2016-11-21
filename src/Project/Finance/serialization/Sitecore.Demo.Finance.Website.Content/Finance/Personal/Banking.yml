@@ -88,7 +88,12 @@ Languages:
     - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
       Hint: MetaKeywords
       Type: Treelist
-      Value: 
+      Value: |
+        {46863A38-1CC9-4D4A-B814-8E3DAF65C722}
+        {421ECE43-2046-4CA6-8F13-E860DE06406F}
+        {6EEDC7E7-BD91-4126-B30B-A7B72E329100}
+        {2BCB786D-AFF6-486B-B05A-5A4374EFB269}
+        {8395280D-D5B4-45F0-8FF9-81FDAB12C1E5}
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
       Value: |
