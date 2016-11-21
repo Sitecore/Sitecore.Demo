@@ -15,7 +15,7 @@ Languages:
     Fields:
     - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
       Hint: NavigationTitle
-      Value: New Content Page
+      Value: Account Balance
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161111T121228Z
@@ -24,7 +24,7 @@ Languages:
       Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: New Content Page
+      Value: Account Balance
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Account Balance/Overviews
