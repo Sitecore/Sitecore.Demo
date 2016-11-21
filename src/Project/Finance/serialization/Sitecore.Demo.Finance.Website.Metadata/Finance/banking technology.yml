@@ -1,0 +1,17 @@
+﻿---
+ID: "c0cd8601-546f-476f-89a6-06908bd0df8e"
+Parent: "53b9a12c-1559-41c2-90e1-0de632a9f4cc"
+Template: "18cdd4ce-cdbe-4bdc-9d5a-6249f7f0ec17"
+Path: /sitecore/system/Settings/Feature/Metadata/Finance/banking technology
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161121T152903Z
+    - ID: "7bdbba5f-c7e6-45c2-82f5-010ded013588"
+      Hint: Keyword
+      Value: banking technology
