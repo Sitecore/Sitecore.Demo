@@ -1,0 +1,24 @@
+﻿---
+ID: "272f1696-3d39-4e01-a39f-5c1a6c81f788"
+Parent: "c341d7bf-0385-45c5-a42a-4d08702213ef"
+Template: "fff5f245-ffc0-4022-a998-9b07aa5e761f"
+Path: /sitecore/content/Finance/Business/Landing Pages/Landing Page Trigger 2/_Local
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {C7D9D293-4EF8-4380-8E10-C4632E729F39}
+    {F1C095E2-B3E0-46D0-B838-02A9E8B880D9}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-1000"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161111T105810Z

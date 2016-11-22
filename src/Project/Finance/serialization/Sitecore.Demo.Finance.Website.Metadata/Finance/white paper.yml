@@ -1,0 +1,17 @@
+﻿---
+ID: "b3c97ccf-0e10-4815-a4b2-d596237efc88"
+Parent: "53b9a12c-1559-41c2-90e1-0de632a9f4cc"
+Template: "18cdd4ce-cdbe-4bdc-9d5a-6249f7f0ec17"
+Path: /sitecore/system/Settings/Feature/Metadata/Finance/white paper
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161121T162724Z
+    - ID: "7bdbba5f-c7e6-45c2-82f5-010ded013588"
+      Hint: Keyword
+      Value: white paper

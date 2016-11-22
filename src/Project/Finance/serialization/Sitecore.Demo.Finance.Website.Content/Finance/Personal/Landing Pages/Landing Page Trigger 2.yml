@@ -1,0 +1,89 @@
+﻿---
+ID: "70408465-ea2d-4bb5-a01c-dddb0d3ffa42"
+Parent: "4406a127-0ebb-4658-a475-80fdb5d2ea1e"
+Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
+Path: /sitecore/content/Finance/Personal/Landing Pages/Landing Page Trigger 2
+DB: master
+SharedFields:
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="everyday elizabeth|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="0" />
+        <key
+          name="Large Corporate Business"
+          value="0" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{22F022E3-BEF7-45D3-9B3A-62DFE184D98F}"
+              p:before="*"
+              s:ds="{965C40A7-EC21-4678-A839-FDEAC653CA5A}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/page-layout/section/col-narrow-1" />
+            <r
+              uid="{F7664731-13DA-45C5-94D3-D726C86B3D23}"
+              p:after="r[@uid='{22F022E3-BEF7-45D3-9B3A-62DFE184D98F}']"
+              s:ds="{06E0DE7B-7226-4C1F-84D1-43AD000F344B}"
+              s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}"
+              s:ph="/page-layout/section/section-narrow/col-wide-1_c1a9a770-f68d-45fa-8856-455b8058e8ea" />
+            <r
+              uid="{C1A9A770-F68D-45FA-8856-455B8058E8EA}"
+              p:after="r[@uid='{F7664731-13DA-45C5-94D3-D726C86B3D23}']"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:ph="/page-layout/section/section-narrow" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161110T145556Z
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {46863A38-1CC9-4D4A-B814-8E3DAF65C722}
+        {C0CD8601-546F-476F-89A6-06908BD0DF8E}
+        {BC34FF95-0346-4F67-A03F-9BD012FAEC32}
+        {73DBC1F7-147F-4B3B-BD61-79250C07B829}
+        {8395280D-D5B4-45F0-8FF9-81FDAB12C1E5}
+        {2BCB786D-AFF6-486B-B05A-5A4374EFB269}
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{A7C97E7A-9C2D-4EFF-9E52-DF88ACB92413}" />
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: "Everything You Need to Know About Chip-enabled Cards"
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: "Everything You Need to Know About Chip-enabled Cards"
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: "The global EMV migration is well underway. But what exactly is EMV? You probably have a lot of questions. So we'll walk you through everything you need to know."
