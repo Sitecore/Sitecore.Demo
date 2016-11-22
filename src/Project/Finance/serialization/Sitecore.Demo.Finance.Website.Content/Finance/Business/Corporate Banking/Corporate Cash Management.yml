@@ -64,7 +64,7 @@ Languages:
         <image mediaid="{B0579D05-0F46-4458-9DAD-3A0E010D6CA7}" />
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: Let Helix help your corporation optimize your cash flow.
+      Value: Let Habitat help your corporation optimize your cash flow.
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: Cash flow is king
@@ -74,7 +74,7 @@ Languages:
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
-        <p>Accelerate collections, control payments and manage transactions and reporting using Helix specialists and Helix Financial&rsquo;s  web-based banking platform designed specifically for companies like yours. Here&rsquo;s how it works:</p>
+        <p>Accelerate collections, control payments and manage transactions and reporting using Habitat specialists and Habitat Financial&rsquo;s  web-based banking platform designed specifically for companies like yours. Here&rsquo;s how it works:</p>
         <h3>Payments</h3>
         <ul>
             <li><em>Domestic and International Wire Transfer</em> &mdash; Move funds domestically and internationally in any of 135 currencies.</li>

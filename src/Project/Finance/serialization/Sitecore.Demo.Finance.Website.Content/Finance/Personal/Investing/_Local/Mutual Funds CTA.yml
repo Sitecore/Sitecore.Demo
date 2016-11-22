@@ -20,9 +20,7 @@ Languages:
         <image mediaid="{B0436D0E-D902-4715-9583-5537527223A9}" />
     - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
       Hint: TeaserSummary
-      Value: |
-        
-        What are mutual funds and are they right for you?&nbsp;Helix Financial makes it easier to invest in mutual funds.
+      Value: "What are mutual funds and are they right for you?&nbsp;Habitat Financial makes it easier to invest in mutual funds."
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161108T150209Z
