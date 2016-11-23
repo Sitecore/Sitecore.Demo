@@ -47,7 +47,7 @@ Languages:
       Value: 20161109T120010Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+      Value: "{B1BAB248-FFB4-4295-9783-E8FE17E2FE34}"
     - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
       Hint: MetaKeywords
       Type: Treelist
@@ -64,7 +64,7 @@ Languages:
         <image mediaid="{B0579D05-0F46-4458-9DAD-3A0E010D6CA7}" />
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: Let Helix help your corporation optimize your cash flow.
+      Value: Let Habitat help your corporation optimize your cash flow.
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: Cash flow is king
@@ -74,35 +74,35 @@ Languages:
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
-        <p>Accelerate collections, control payments and manage transactions and reporting using Helix specialists and Helix Financial&rsquo;s  web-based banking platform designed specifically for companies like yours. Here&rsquo;s how it works:</p>
+        <p>Accelerate collections, control payments and manage transactions and reporting using Habitat specialists and Habitat Financial&rsquo;s  web-based banking platform designed specifically for companies like yours. Here&rsquo;s how it works:</p>
         <h3>Payments</h3>
         <ul>
             <li><em>Domestic and International Wire Transfer</em> &mdash; Move funds domestically and internationally in any of 135 currencies.</li>
             <li><em>ACH origination</em> &mdash; Originate credits and debits for payments such as payroll, vendor payments and taxes through the Automated Clearing House.</li>
             <li><em>Debit Blocks and Filters</em>&mdash;Prevent fraudulent debits to your account by blocking all ACH debits (blocks) or allowing only those you admin.</li>
             <li><em>Payroll Manager</em> &mdash; Manage all aspects of your business' payroll process including payment and employee direct deposit, and tax filing. Employees can access payroll statements from a dedicated payroll portal. </li>
-            <li><em>Helix Corporate Card</em> &mdash; Simplify expense management with a single card program for all your business purchases. Powerful management tools and  access to account activity and reports are available 24/7.</li>
+            <li><em>Habitat Corporate Card</em> &mdash; Simplify expense management with a single card program for all your business purchases. Powerful management tools and  access to account activity and reports are available 24/7.</li>
         </ul>
         <h3>Receivables </h3>
         <ul>
-            <li><em>Remote Check Deposit</em> &mdash; Capture electronic images of paper checks at your business site for deposit to your Helix Financial Business account. Use a scanner or your mobile phone to securely transmit check images via the web.</li>
-            <li><em>Currency Services</em> &mdash; Send and receive cash, coin, and check deposits securely between your business location and a Helix Commercial Bank Vault.</li>
-            <li><em>ACH/EDI Addenda Reporting</em> &mdash; Electronic Data Interchange (EDI) receive detailed reports of remittance information from trading partners today via Helix&rsquo;s website or mobile app.</li>
+            <li><em>Remote Check Deposit</em> &mdash; Capture electronic images of paper checks at your business site for deposit to your Habitat Financial Business account. Use a scanner or your mobile phone to securely transmit check images via the web.</li>
+            <li><em>Currency Services</em> &mdash; Send and receive cash, coin, and check deposits securely between your business location and a Habitat Commercial Bank Vault.</li>
+            <li><em>ACH/EDI Addenda Reporting</em> &mdash; Electronic Data Interchange (EDI) receive detailed reports of remittance information from trading partners today via Habitat&rsquo;s website or mobile app.</li>
         </ul>
         <h3>Information </h3>
         <ul>
-            <li><em>Helix Business Portal </em>&mdash; Increase your efficiency and control by using Helix&rsquo;s Business Portal&mdash;a secure, web-based online platform designed for businesses, to access Treasury Services including cash management, trade finance, and foreign exchange. Manage escrow accounts and other specialized deposit account services. Optional cash manager suite of services provides real-time reporting and extensive wire transfer functionality.</li>
+            <li><em>Habitat Business Portal </em>&mdash; Increase your efficiency and control by using Habitat&rsquo;s Business Portal&mdash;a secure, web-based online platform designed for businesses, to access Treasury Services including cash management, trade finance, and foreign exchange. Manage escrow accounts and other specialized deposit account services. Optional cash manager suite of services provides real-time reporting and extensive wire transfer functionality.</li>
         </ul>
         <h3>Deposit Accounts Options</h3>
         <ul>
-            <li><em>Helix InstaChecking</em> &mdash; For businesses and professional organizations with few cash management requirements.</li>
-            <li><em>Helix FlexChecking</em> &mdash; Primarily for growing business and professional organizations with some cash management requirements.</li>
-            <li><em>Helix LLC-Checking</em> &mdash; Designed to meet the needs of corporations, partnerships, sole proprietorships, not-for-profit organizations that require a range of cash management and other bank services.</li>
-            <li><em>HelixbInterest Checking</em> &mdash; An interest-earning checking account designed for businesses looking to maintain a liquid reserve and earn interest on checking balances.</li>
-            <li><em>Helix BizChecking Plus </em>&mdash; A revolving line of credit linked to a business checking account for overdraft and uncollected funds protection.</li>
+            <li><em>Habitat InstaChecking</em> &mdash; For businesses and professional organizations with few cash management requirements.</li>
+            <li><em>Habitat FlexChecking</em> &mdash; Primarily for growing business and professional organizations with some cash management requirements.</li>
+            <li><em>Habitat LLC-Checking</em> &mdash; Designed to meet the needs of corporations, partnerships, sole proprietorships, not-for-profit organizations that require a range of cash management and other bank services.</li>
+            <li><em>HabitatbInterest Checking</em> &mdash; An interest-earning checking account designed for businesses looking to maintain a liquid reserve and earn interest on checking balances.</li>
+            <li><em>Habitat BizChecking Plus </em>&mdash; A revolving line of credit linked to a business checking account for overdraft and uncollected funds protection.</li>
         </ul>
         <h3>Investment Options</h3>
         <ul>
-            <li><em>Helix Sweep Accounts</em> &mdash; Earn interest on demand deposit funds by automatically sweeping end-of-day account balances over a pre-determined amount to a linked account offshore.</li>
-            <li><em>Helix Short-term Investing</em> &mdash; Invest in short term instruments including commercial paper, repurchase agreement and Nassau or Puerto Rico time deposits through our web-based investment portal accessible through CitiBusiness&reg; Online.</li>
+            <li><em>Habitat Sweep Accounts</em> &mdash; Earn interest on demand deposit funds by automatically sweeping end-of-day account balances over a pre-determined amount to a linked account offshore.</li>
+            <li><em>Habitat Short-term Investing</em> &mdash; Invest in short term instruments including commercial paper, repurchase agreement and Nassau or Puerto Rico time deposits through our web-based investment portal accessible through CitiBusiness&reg; Online.</li>
         </ul>

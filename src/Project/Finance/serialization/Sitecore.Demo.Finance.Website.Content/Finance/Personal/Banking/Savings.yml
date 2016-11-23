@@ -47,7 +47,7 @@ Languages:
       Value: 20161109T105411Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+      Value: "{B1BAB248-FFB4-4295-9783-E8FE17E2FE34}"
     - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
       Hint: MetaKeywords
       Type: Treelist
@@ -61,7 +61,7 @@ Languages:
         <image mediaid="{CB21C0B5-7943-4FA3-9ED3-DF054AA19454}" />
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: Helix Financial savings accounts allow you to transfer money into your savings account automatically to help build your savings.
+      Value: Habitat Financial savings accounts allow you to transfer money into your savings account automatically to help build your savings.
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: More savings. Less work.
@@ -73,7 +73,7 @@ Languages:
       Value: |
         <p>Our Savings Plus account allows you to save as you go, transferring money for a variety of set and qualified transactions. See details below:</p>
         <h3>Save as you go</h3>
-        <p>Helix Financial will transfer $1 of your funds from your linked checking account to your Savings Plus account for each qualifying transaction.</p>
+        <p>Habitat Financial will transfer $1 of your funds from your linked checking account to your Savings Plus account for each qualifying transaction.</p>
         <h3>Automatic transfers</h3>
         <p>With our Savings Plus, you can set up monthly automatic transfers of $20 or more to reach your savings goals</p>
         <h3>Overdraft protection</h3>

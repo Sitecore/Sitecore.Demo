@@ -47,7 +47,7 @@ Languages:
       Value: 20161109T112836Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+      Value: "{B1BAB248-FFB4-4295-9783-E8FE17E2FE34}"
     - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
       Hint: MetaKeywords
       Type: Treelist
@@ -63,7 +63,7 @@ Languages:
         <image mediaid="{4CB7947E-8EFF-4A37-8DAF-810B0A8E7F9D}" />
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: At Helix Financial, we can work with you to give your small business the protection it needs to grow confidently without the fear of the unknown.&nbsp;
+      Value: At Habitat Financial, we can work with you to give your small business the protection it needs to grow confidently without the fear of the unknown.&nbsp;
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: Give your business a safety net.
@@ -73,7 +73,7 @@ Languages:
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
-        <p>Below are the basic insurance programs we offer here at Helix:</p>
+        <p>Below are the basic insurance programs we offer here at Habitat :</p>
         <h3>Business Owners Policy</h3>
         <p>Also known as &ldquo;BOP&rdquo; Insurance, this type of policy combines property insurance and general liability insurance coverage for eligible low-risk small businesses, plus other customizable options. Benefits of BOP insurance:</p>
         <ul>

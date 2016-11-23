@@ -84,7 +84,7 @@ Languages:
       Value: 20161109T104555Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+      Value: "{B1BAB248-FFB4-4295-9783-E8FE17E2FE34}"
     - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
       Hint: MetaKeywords
       Type: Treelist
@@ -100,7 +100,7 @@ Languages:
         <image mediaid="{99434C64-C66B-4C56-8B4F-2BD0B06D089D}" />
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: <br>Get all your banking needs fulfilled by choosing from Helix’s world class line of products
+      Value: <br>Get all your banking needs fulfilled by choosing from Habitat’s world class line of products
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: Banking made easy

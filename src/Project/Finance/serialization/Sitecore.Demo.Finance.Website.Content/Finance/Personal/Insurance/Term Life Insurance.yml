@@ -44,7 +44,7 @@ Languages:
       Value: 20161108T141849Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+      Value: "{B1BAB248-FFB4-4295-9783-E8FE17E2FE34}"
     - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
       Hint: MetaKeywords
       Type: Treelist
@@ -58,7 +58,7 @@ Languages:
         <image mediaid="{5662F9FF-1179-45E0-9C10-B825E0A0DB0A}" />
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: Helix offers term life insurance protection tailored to suit your needs.
+      Value: Habitat offers term life insurance protection tailored to suit your needs.
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: You’re unique. Your life insurance should be too.
@@ -67,4 +67,4 @@ Languages:
       Value: Term Life Insurance
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
-      Value: "<h3>Insurance protection on your terms</h3><p>Term life insurance provides efficient protection for your wealth and your financial objectives. When you purchase a term life insurance policy you are insured for a defined amount of coverage, at a fixed premium, over a specific period of time (10, 15, 20, or 30 years). Term life insurance generally offers lower premiums than permanent life, and is ideal for periods of increased risk and exposure. If the conditions of your policy are met, your beneficiaries receive a lump sum equal to the amount of coverage you purchased. Some examples that proceeds can be used for are:</p><ul>    <li>Paying off a mortgage</li>    <li>Replacing your income while raising children</li>    <li>Paying for a child's college tuition.</li></ul><p>Contact Helix to speak with a specialist about term life insurance for your specific financial situation. We can help you determine the plan that offers terms, premiums and coverage based upon your unique needs. You can rest assured knowing that your term life insurance rate will never change, the coverage cannot be decreased and the policy cannot be canceled due to a change in health during the period of time you select.</p>"
+      Value: "<h3>Insurance protection on your terms</h3><p>Term life insurance provides efficient protection for your wealth and your financial objectives. When you purchase a term life insurance policy you are insured for a defined amount of coverage, at a fixed premium, over a specific period of time (10, 15, 20, or 30 years). Term life insurance generally offers lower premiums than permanent life, and is ideal for periods of increased risk and exposure. If the conditions of your policy are met, your beneficiaries receive a lump sum equal to the amount of coverage you purchased. Some examples that proceeds can be used for are:</p><ul>    <li>Paying off a mortgage</li>    <li>Replacing your income while raising children</li>    <li>Paying for a child's college tuition.</li></ul><p>Contact Habitat to speak with a specialist about term life insurance for your specific financial situation. We can help you determine the plan that offers terms, premiums and coverage based upon your unique needs. You can rest assured knowing that your term life insurance rate will never change, the coverage cannot be decreased and the policy cannot be canceled due to a change in health during the period of time you select.</p>"

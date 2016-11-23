@@ -44,7 +44,7 @@ Languages:
       Value: 20161109T110647Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+      Value: "{B1BAB248-FFB4-4295-9783-E8FE17E2FE34}"
     - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
       Hint: MetaKeywords
       Type: Treelist
@@ -58,7 +58,7 @@ Languages:
         <image mediaid="{00AD1A26-EA35-4F53-B0AA-06A0F6D8A3CC}" />
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: Helix Financial’s offers personal lines and loans built just for you.
+      Value: Habitat Financial’s offers personal lines and loans built just for you.
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: Finally, get the credit you deserve.
@@ -68,7 +68,7 @@ Languages:
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
-        <p>Whether you want to consolidate high-interest rate debt, finance a major purchase, or pay for unexpected expenses, Helix can customize a loan for you. Below are just a few benefits of a personal loan or personal line of credit:</p>
+        <p>Whether you want to consolidate high-interest rate debt, finance a major purchase, or pay for unexpected expenses, Habitat can customize a loan for you. Below are just a few benefits of a personal loan or personal line of credit:</p>
         <h3>Personal Loans</h3>
         <ul>
             <li>Fixed rate, fixed term, and fixed monthly payments</li>
@@ -84,5 +84,5 @@ Languages:
             <li>No collateral required</li>
             <li>Line amounts from $3,000 to $100,000</li>
             <li>No cash advance or balance transfer fees</li>
-            <li>Interest rate discounts may be available for customers with qualifying existing Helix Financial checking accounts</li>
+            <li>Interest rate discounts may be available for customers with qualifying existing Habitat Financial checking accounts</li>
         </ul>

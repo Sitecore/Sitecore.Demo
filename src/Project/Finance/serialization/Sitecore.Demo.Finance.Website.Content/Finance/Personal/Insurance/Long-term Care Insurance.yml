@@ -47,7 +47,7 @@ Languages:
       Value: 20161108T141909Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{FF21E8D4-EB3D-400E-83CB-34065712FC18}"
+      Value: "{B1BAB248-FFB4-4295-9783-E8FE17E2FE34}"
     - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
       Hint: MetaKeywords
       Type: Treelist
@@ -61,7 +61,7 @@ Languages:
         <image mediaid="{4BC33D7C-C5E7-49BC-A1D6-7F22C3FD65FF}" />
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: "Helix offers long-term care coverage that can deliver the care you want, in the location you want."
+      Value: "Habitat offers long-term care coverage that can deliver the care you want, in the location you want."
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: You’re life. Your rules.
@@ -73,7 +73,7 @@ Languages:
       Value: |
         <h3>Protect your assets by planning ahead</h3>
         <p>Help maintain what you&rsquo;ve worked for throughout your life with long-term care coverage. Many people, in their later years, require assistance to be able to enjoy the comfort of living in their homes. Because typical insurance often does not pay for the care they need, many receive help exclusively from family caregivers.</p>
-        <p>Fortunately, a long-term care coverage policy offered through Helix Financial can help you:</p>
+        <p>Fortunately, a long-term care coverage policy offered through Habitat Financial can help you:</p>
         <ul>
             <li>Stay in control of your finances and protect your assets</li>
             <li>Receive compensation for in-home care recommended by a doctor</li>
@@ -89,4 +89,4 @@ Languages:
             <li>Nursing home costs</li>
             <li>Alzheimer's facilities.</li>
         </ul>
-        <p>Unexpected illness or disability can dramatically affect your finances. However, with some planning now, you can be prepared ahead of time, on your terms. Contact a Helix specialist today to learn more.</p>
+        <p>Unexpected illness or disability can dramatically affect your finances. However, with some planning now, you can be prepared ahead of time, on your terms. Contact a Habitat specialist today to learn more.</p>

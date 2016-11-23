@@ -72,10 +72,10 @@ Languages:
     - ID: "0f2414bd-a95d-419c-a238-a6637a3fab76"
       Hint: Introduction
       Value: |
-        		<p><strong>Find Helix Financial branches and ATMs</strong></p>
+        		<p><strong>Find Habitat Financial branches and ATMs</strong></p>
         <p>Get addresses, maps, phone numbers and business hours for Helix branches, offsite ATMs, mortgage offices and commercial banking offices.</p>
         
-        <p><strong>Please enter one of the following: </strong></p></p>City and state or zip code. However, you'll get the best results if you can provide additional information.</p>
+        <p><strong>Please enter one of the following: </strong></p><p>City and state or zip code. However, you'll get the best results if you can provide additional information.</p>
         
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
