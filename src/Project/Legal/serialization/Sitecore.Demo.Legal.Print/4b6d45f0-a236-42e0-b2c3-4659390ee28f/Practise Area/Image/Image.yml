@@ -1,0 +1,52 @@
+﻿---
+ID: "720a2f01-00dc-408e-a6b6-50c05028f641"
+Parent: "8cdc47d0-d956-4eba-bfcd-d2cd715b41d9"
+Template: "b0cbc573-6010-465f-b137-57b1bd800c12"
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Projects Archive/Master Practise Areas Brochure/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Practise Page Repeater/Practise Page/Practise Area/Image/Image
+DB: master
+SharedFields:
+- ID: "03381cae-a1b6-4751-8b93-a18ffb9539ec"
+  Hint: X
+  Value: "-5.013273746751818e-14"
+- ID: "0a796bcc-c5f6-4db5-9a7d-cacf6e784fe2"
+  Hint: Skew
+  Value: 0.000000000000000
+- ID: "370e4064-e91c-4bf8-9fd5-cfd023f1fba9"
+  Hint: OriginalWidth
+  Value: 215.99999999993597
+- ID: "42571c01-0f8a-44a4-891e-1cf4d8beb2c4"
+  Hint: Y
+  Value: 23.249999999978588
+- ID: "427ece72-e6db-4603-a268-0f3c66fe20fd"
+  Hint: Height
+  Value: 143.9999999999573
+- ID: "4eae318e-e75f-4450-b416-fdd0c119d28c"
+  Hint: OriginalHeight
+  Value: 143.9999999999573
+- ID: "84a92d4c-137e-4c25-b91e-54291c1727d8"
+  Hint: Width
+  Value: 215.99999999993597
+- ID: "8575f841-241f-4155-b3d2-2e44951442ca"
+  Hint: Item Field
+  Value: Image
+- ID: "86575ebc-2a58-4e19-811e-5cd1127a068c"
+  Hint: Item Reference
+  Value: "{D302EFA4-1332-4D8C-9F5D-F5D99AC5884A}"
+- ID: "b99dfd89-085b-4c93-a1e4-720540262546"
+  Hint: WCont
+  Value: 5
+- ID: "e3415938-c913-42e4-ab4a-9ac63382aa59"
+  Hint: Rotation
+  Value: 0.000000000000000
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160615T084816Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

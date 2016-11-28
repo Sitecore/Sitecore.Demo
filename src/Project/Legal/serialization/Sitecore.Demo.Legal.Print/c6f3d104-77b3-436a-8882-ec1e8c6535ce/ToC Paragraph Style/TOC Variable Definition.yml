@@ -1,0 +1,22 @@
+﻿---
+ID: "4b624097-b157-4d9c-b98f-771634e4db8c"
+Parent: "168d950e-09b4-40e6-a2bf-0ef14e1a9c29"
+Template: "70b19b25-0d4e-496f-af9b-2d76da53a57b"
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Practise Areas Brochure/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Contents Page/Toc Listing/ToC Frame/Welcome Page ToC Insert/ToC Paragraph Style/TOC Variable Definition
+DB: master
+SharedFields:
+- ID: "4f3ecf8f-077e-487b-adaa-15b9554d9a62"
+  Hint: Parameters
+  Value: IndexName=welcome_index&ReplaceVar=toc_index
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24a0ab60-dba6-4654-b03e-b09a3c8cb48b"
+      Hint: Content
+      Value: |
+        <InsertVar Name="TOC_welcome_index" Value="" /><SpecialCharacter Type="9" />|<SpecialCharacter Type="9" />Welcome
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161125T154721Z

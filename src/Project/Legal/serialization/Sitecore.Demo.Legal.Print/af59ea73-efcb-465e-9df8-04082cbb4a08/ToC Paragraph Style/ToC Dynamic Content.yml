@@ -1,0 +1,27 @@
+﻿---
+ID: "88cc029a-63d8-4c38-b9e2-f94dcb172e8b"
+Parent: "5caf1aa7-607a-420e-955a-02fb8f7309b3"
+Template: "8442f7c0-3d2a-44b5-977b-7aa6d336551e"
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Practise Areas Brochure/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Contents Page/Toc Listing/ToC Frame/ToC XML Repeater/ToC Snippet/ToC Paragraph Style/ToC Dynamic Content
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161125T154737Z
+    - ID: "5982ed39-ec90-4614-a1db-fd303e281efa"
+      Hint: Item Field
+      Value: Title
+    - ID: "63d9e97e-e3a2-4373-85bc-9ebd4b8372c9"
+      Hint: Data Key
+      Value: item
+    - ID: "94822da4-bb4d-4234-b15e-851e554a2245"
+      Hint: Item Reference
+      Value: "{56DFE58F-6C17-4FD6-84C4-F82512F9F648}"

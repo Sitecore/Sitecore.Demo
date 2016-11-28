@@ -41,7 +41,7 @@ SharedFields:
 - ID: "b5c41973-af3f-4d7d-8551-5cc1eb37a616"
   Hint: Allow In Brochure
   Type: Checkbox
-  Value: 0
+  Value: 1
 Languages:
 - Language: en
   Versions:

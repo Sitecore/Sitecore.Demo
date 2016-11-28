@@ -88,7 +88,7 @@ SharedFields:
   Value: 136.666666666624080
 - ID: "c83924ee-86f2-484c-a933-73460d9cea1a"
   Hint: "margin-right"
-  Value: 3.000000000000000
+  Value: 4.000000000000000
 - ID: "cbf5e87a-8967-44e6-ab98-b3a77db870ab"
   Hint: Y
   Value: 43.523993216620596
@@ -103,7 +103,7 @@ SharedFields:
   Value: 116.666666666624100
 - ID: "f32382eb-437e-4814-b0e2-da271b8f7623"
   Hint: "margin-left"
-  Value: 3.000000000000000
+  Value: 4.000000000000000
 - ID: "f51bbffc-3063-403b-8e69-e0f1c10e4830"
   Hint: Stroke
   Value: None

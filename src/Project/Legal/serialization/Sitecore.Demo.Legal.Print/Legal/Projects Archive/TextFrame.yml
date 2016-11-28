@@ -1,8 +1,8 @@
 ﻿---
-ID: "10ee7a3d-b958-4f84-8bae-a1f18634a729"
-Parent: "137b650b-b7ff-4537-bafe-46d5b754025f"
+ID: "48156de0-9793-43cb-a407-0bcecd7b9601"
+Parent: "15bc6865-9f36-407a-b043-694d4cd514a0"
 Template: "0637de6e-33fe-40c1-9233-98a3a6b88792"
-Path: /sitecore/Print Studio/Print Studio Projects/Legal/Practise Areas Brochure/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Welcome Page/New snippet/TextFrame
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Projects Archive/TextFrame
 DB: master
 SharedFields:
 - ID: "02e7e1fb-d37e-4100-99d4-00249c745576"
@@ -10,7 +10,7 @@ SharedFields:
   Value: 0.000000000000000
 - ID: "08b5223c-a85f-4db2-90d4-1210e80659f6"
   Hint: OriginalHeight
-  Value: 29.807569122314451
+  Value: 32.807569122314447
 - ID: "09dd0d5f-3ff9-4f3c-bb55-955a9e03ad82"
   Hint: VerticalAlignment
   Value: Bottom
@@ -22,7 +22,7 @@ SharedFields:
   Value: PractiseSummary
 - ID: "278a743f-1ccb-4c8a-866e-67fc6b1c1687"
   Hint: Height
-  Value: 29.807569122314451
+  Value: 32.807569122314447
 - ID: "386bda24-7969-4a81-b51d-e503cde72163"
   Hint: ColumnGutter
   Value: 4.233333333333333
@@ -37,10 +37,10 @@ SharedFields:
   Value: 3.000000000000000
 - ID: "59447318-4e33-46f9-a2ba-add7568bd158"
   Hint: FillTint
-  Value: "-1"
+  Value: 20
 - ID: "60b5b1fc-b422-4176-ae56-6ccbebe7a50c"
   Hint: Background
-  Value: None
+  Value: Black
 - ID: "61f20249-2f6c-492e-acae-458e9033292d"
   Hint: "margin-bottom"
   Value: 3.000000000000000
@@ -82,7 +82,7 @@ SharedFields:
   Value: 3.000000000000000
 - ID: "cbf5e87a-8967-44e6-ab98-b3a77db870ab"
   Hint: Y
-  Value: 45.596215438842933
+  Value: 44.096215438842911
 - ID: "d2530d9b-5b8d-48ec-bd3f-0a3306f78609"
   Hint: Opacity
   Value: 100.000000000000000

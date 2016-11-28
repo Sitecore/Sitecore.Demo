@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "19f9b0a4-6259-4136-b2a3-668c77f0df99"
   Hint: Number
-  Value: 2
+  Value: 3
 - ID: "4acf4a9f-e50e-47a3-abf6-02871c2f1e0e"
   Hint: MasterBase
   Value: Inners

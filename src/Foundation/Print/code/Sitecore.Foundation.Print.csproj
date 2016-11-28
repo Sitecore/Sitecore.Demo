@@ -130,6 +130,9 @@
     <Compile Include="Renderers\ParagraphStyleRenderer.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
+    <Compile Include="Renderers\TocIndex.cs" />
+    <Compile Include="Renderers\XmlContentRenderer.cs" />
+    <Compile Include="Renderers\XmlDynamicContentRenderer.cs" />
     <Compile Include="Renderers\XMLRepeaterRenderer.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>

@@ -1,0 +1,29 @@
+﻿---
+ID: "5bc44267-3fbc-4ba0-a95e-a7e8e820bfdc"
+Parent: "739ec9eb-d86f-4934-8ce0-41706b944a8a"
+Template: "739ec9eb-d86f-4934-8ce0-41706b944a8a"
+Path: /sitecore/templates/Foundation/Print/TOC Variable Updating/__Standard Values
+DB: master
+SharedFields:
+- ID: "09772857-332a-4e06-a337-787f87e6c89f"
+  Hint: Xml Renderer
+  Value: "{0099AFBB-61C4-49C8-828D-190C88F63281}"
+- ID: "4f3ecf8f-077e-487b-adaa-15b9554d9a62"
+  Hint: Parameters
+  Value: IndexName=article_index&ReplaceVar=article_index
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24a0ab60-dba6-4654-b03e-b09a3c8cb48b"
+      Hint: Content
+      Value: |
+        <InsertVar Style="Hidden" Name="TTOC_article_index" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150520T182317Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,22 @@
+﻿---
+ID: "cb2c848a-c8ce-4a21-88ba-5e1d7899d2bf"
+Parent: "48156de0-9793-43cb-a407-0bcecd7b9601"
+Template: "2dc37f19-2362-4891-9915-46a734875be5"
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Projects Archive/TextFrame/text
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160615T084803Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9744ccf8-abbe-4de1-a74b-69fb6254b897"
+      Hint: Content
+      Value: |
+        <ParagraphStyle Style="PractiseSummary" Tag="p"><![CDATA[Hello.]]></ParagraphStyle><ParagraphStyle Style="PractiseSummary" Tag="p"><![CDATA[Thank you for downloading your personalised copy of our brochure.]]></ParagraphStyle><ParagraphStyle Style="PractiseSummary" Tag="p"><![CDATA[Inside you will find detailed information on the practise areas ]]><![CDATA[you have selected ]]><![CDATA[in which we specialise.]]></ParagraphStyle>

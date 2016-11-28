@@ -1,0 +1,22 @@
+﻿---
+ID: "e88e83a0-05e6-4e17-9845-58a1d0ca4670"
+Parent: "8442f7c0-3d2a-44b5-977b-7aa6d336551e"
+Template: "8442f7c0-3d2a-44b5-977b-7aa6d336551e"
+Path: /sitecore/templates/Foundation/Print/Dynamic Content/__Standard Values
+DB: master
+SharedFields:
+- ID: "09772857-332a-4e06-a337-787f87e6c89f"
+  Hint: Xml Renderer
+  Value: "{544588FD-F27A-4C1D-9EB9-CAE7771CE16E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150512T221935Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
