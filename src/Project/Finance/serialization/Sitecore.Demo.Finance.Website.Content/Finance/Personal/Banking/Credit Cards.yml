@@ -39,6 +39,83 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DBE4B8A2-8AA7-4454-8C3D-D029DB0A483C}"
+              p:after="r[@uid='{54B52353-CA95-4777-9B9C-FF9327ADA0E2}']"
+              s:ds="{1EB04BAE-923E-40F4-82A5-2E3BB676528C}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section/col-narrow-1">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{2449A985-0E9C-41DB-8D20-6CEF727E5AD6}"
+                    s:name="Hate Forms">
+                    <conditions>
+                      <condition
+                        uid="0941ACA0C42743CDB14E5FDB912F57E9"
+                        s:id="{6F3DD3F4-52BF-410A-9DC8-60D83200DF3B}"
+                        s:PageEventId="{6412D1D8-CA83-49B0-9096-6417D5909890}"
+                        s:NumberOfElapsedDaysOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}"
+                        s:NumberOfElapsedDays="0"
+                        s:NumberOfPastInteractionsOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}"
+                        s:NumberOfPastInteractions="0" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="786B56C454F94CEE9BD2212032273AA2"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{1B3E18C8-A13F-4C2F-ACFD-729F1697E377}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{BD1D935C-4178-43C7-9895-A9EE8C6CE589}"
+                    s:name="Applied for CC">
+                    <conditions>
+                      <condition
+                        uid="B419C1EA479C4E95A311B5733D73C576"
+                        s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
+                        s:GoalId="{5D81A014-D98F-43CC-B9A1-784C079029CF}"
+                        s:NumberOfElapsedDaysOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}"
+                        s:NumberOfPastInteractionsOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}"
+                        s:NumberOfElapsedDays="0"
+                        s:NumberOfPastInteractions="0"
+                        s:except="true" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="610C6FB0E19A4CBF8645BAE3A12FC5AD"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{1EB04BAE-923E-40F4-82A5-2E3BB676528C}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="CFBFA49CAD4E4B5EBAB1AA8BC35D96D3"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="3D42357501684F74948F2830E52DE801"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
     - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
       Hint: NavigationTitle
       Value: Credit Cards

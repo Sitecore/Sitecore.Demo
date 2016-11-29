@@ -1,0 +1,33 @@
+﻿---
+ID: "794354c3-d3f6-4ff1-bd08-76182bd641c9"
+Parent: "4406a127-0ebb-4658-a475-80fdb5d2ea1e"
+Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
+Path: /sitecore/content/Finance/Personal/Landing Pages/Rather Talk
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161128T152717Z
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{DC77569D-7ED4-495A-B77F-0F2B35D4D91D}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "Would you rather talk to somebody than fill in an online form? A lot of our customers hate form filling. Call us and let one of our people take the strain and do the form filling for you."
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Rather Talk
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Rather Talk
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Many of our customers hate filling in forms online. What does this part mean? What am I supposed to type here? What does this part of the terms and conditions mean? Eventually, you get fed up and phone our help centre or send us an email. Why not just do away with the form filling struggle and call us on</p>
+        <p><strong>1-555-6345</strong></p>
+        <p>and let us do all the hard work for you? That way you can spend the saved time doing something more enjoyable.</p>
