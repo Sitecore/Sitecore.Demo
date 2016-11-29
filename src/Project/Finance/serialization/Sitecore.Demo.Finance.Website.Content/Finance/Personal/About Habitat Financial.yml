@@ -15,7 +15,7 @@ SharedFields:
   Value: 0
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
-  Value: "{E2A658AB-B142-4AD9-AACA-C69200622F44}"
+  Value: "{BBBF8DB7-2067-4692-B959-36849FA4B6BA}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 650
@@ -32,7 +32,7 @@ Languages:
       Value: 20161109T153152Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{B1BAB248-FFB4-4295-9783-E8FE17E2FE34}"
+      Value: "{363468E7-EBF4-4C31-9C89-E9C914FF654D}"
     - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
       Hint: MetaKeywords
       Type: Treelist
