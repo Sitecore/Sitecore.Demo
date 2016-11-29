@@ -111,6 +111,7 @@
     <Content Include="App_Config\Include\Feature\Feature.Newsletter.Serialization.config" />
     <Content Include="images\1x1.gif" />
     <Content Include="packages.config" />
+    <Content Include="layouts\EmailCampaign\MVC\SubscriptionForm\Index.cshtml" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\Newsletter\Header.cshtml" />
     <Content Include="Views\Newsletter\Footer.cshtml" />
