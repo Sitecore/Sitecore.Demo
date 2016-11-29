@@ -85,4 +85,4 @@ Languages:
     - ID: "9c4c1994-5140-49d3-bad7-db997816f816"
       Hint: Success Page
       Value: |
-        <link url="/sitecore/content/Finance/Home/Landing Pages/Business/Thank You Trigger 1" id="{AAD6AEC2-50E6-4110-81C5-CF9DE5FB1376}" />
+        <link text="" linktype="internal" class="" title="" target="" querystring="" id="{AAD6AEC2-50E6-4110-81C5-CF9DE5FB1376}" />

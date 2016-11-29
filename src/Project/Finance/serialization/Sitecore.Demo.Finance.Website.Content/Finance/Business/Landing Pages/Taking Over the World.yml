@@ -1,0 +1,112 @@
+﻿---
+ID: "b4c6d40c-69b4-45d3-857f-85b92de03295"
+Parent: "24359462-e8b9-4181-bfd6-c7861083d7a1"
+Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
+Path: /sitecore/content/Finance/Business/Landing Pages/Taking Over the World
+DB: master
+SharedFields:
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="stephen the cfo|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="0" />
+        <key
+          name="Large Corporate Business"
+          value="0" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="0" />
+      </profile>
+    </tracking>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{29F97BB3-E3B5-4D38-B2A2-71D2EAA37F5C}"
+              p:before="*"
+              s:ds="{9E81672E-689A-4590-BF64-65890D53874C}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/page-layout/section/col-narrow-1" />
+            <r
+              uid="{E0B09507-9905-40ED-916B-F22107A8E7EB}"
+              p:after="r[@uid='{29F97BB3-E3B5-4D38-B2A2-71D2EAA37F5C}']"
+              s:ds="{54D694DB-7593-4303-8A0C-E978769A4332}"
+              s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}"
+              s:ph="/page-layout/section/section-narrow/col-wide-1_627b49f0-f4b2-4f8a-a401-7d447d59e696" />
+            <r
+              uid="{627B49F0-F4B2-4F8A-A401-7D447D59E696}"
+              p:after="r[@uid='{E0B09507-9905-40ED-916B-F22107A8E7EB}']"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:ph="/page-layout/section/section-narrow" />
+            <r
+              uid="{B6DFBA18-0E4A-4A4F-8486-60F1AD6FB2C6}"
+              p:after="r[@uid='{627B49F0-F4B2-4F8A-A401-7D447D59E696}']"
+              s:ds=""
+              s:id="{45B8E1D9-D522-49E0-B9B7-04C965CC7089}"
+              s:par=""
+              s:ph="/page-layout/page-header" />
+            <r
+              uid="{7EE6D43E-A433-4702-8C0B-D9C917067FD0}"
+              p:after="r[@uid='{B6DFBA18-0E4A-4A4F-8486-60F1AD6FB2C6}']"
+              s:ds=""
+              s:id="{26B33DEB-F1DB-4338-B043-AAF2F90E04A3}"
+              s:par="UseStaticPlaceholderNames&amp;Type=bg-media&amp;Media={B60122E3-F6A8-48F2-8D76-BE1194DB7F06}&amp;Parallax"
+              s:ph="page-layout" />
+            <r
+              uid="{A607CCB4-81BC-4DC1-897B-BC33B2C52E6D}">
+              <p:d />
+            </r>
+            <r
+              uid="{90784B08-389D-4F30-92F0-2615C951D6D2}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161110T152510Z
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {E91E5A3D-96CC-4628-945A-8F2C8E1BEBA3}
+        {BEE34EC4-8BD8-4170-95A5-80962D126CB8}
+        {CE4CBFB8-EE5E-4D61-8B3B-86CF542BE979}
+        {CA2D095C-4A92-4FCA-98FB-CD376BD363C7}
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{86D6D14A-8D7C-476D-958B-1E689EA32F8B}" alt="taking over the world" height="" width="" hspace="" vspace="" />
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Taking over the world, one cup at a time.
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Taking over the world, one cup at a time.
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: Learn how Coffee.Tea.Me. went from a coffee cart to a worldwide retail anchor and publicly traded company.
