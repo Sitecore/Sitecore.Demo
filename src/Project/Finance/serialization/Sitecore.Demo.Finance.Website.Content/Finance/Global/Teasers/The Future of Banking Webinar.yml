@@ -2,7 +2,7 @@
 ID: "3d6ec189-c1e6-4e59-b33d-a06a31c951f7"
 Parent: "02b1ae3a-59f2-4df7-af4d-2542e823f864"
 Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
-Path: "/sitecore/content/Finance/Global/Teasers/Personal Banking - Trigger 1"
+Path: /sitecore/content/Finance/Global/Teasers/The Future of Banking Webinar
 DB: master
 SharedFields:
 - ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
