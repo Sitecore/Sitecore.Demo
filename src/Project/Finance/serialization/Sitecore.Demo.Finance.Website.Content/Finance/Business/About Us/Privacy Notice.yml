@@ -1,0 +1,82 @@
+﻿---
+ID: "cf8e464c-9cb6-4183-ae75-f1164b0645b3"
+Parent: "bd2e2c8d-e704-46b8-8e1d-8daba748ebf3"
+Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Path: /sitecore/content/Finance/Business/About Us/Privacy Notice
+DB: master
+SharedFields:
+- ID: "0dca829c-9fce-41f5-9990-c6182fefe905"
+  Hint: SeoFollowLinks
+  Type: Checkbox
+  Value: 0
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 0
+- ID: "68016087-aa00-45d6-922a-678475c50d4a"
+  Hint: ShowChildren
+  Type: Checkbox
+  Value: 0
+- ID: "683d7237-206a-488f-9dee-4a4e41fb161d"
+  Hint: CanIndex
+  Type: Checkbox
+  Value: 0
+- ID: "8d5c486e-a0e3-4dbe-9a4a-cdff93594bda"
+  Hint: IncludeInSearchResults
+  Type: Checkbox
+  Value: 0
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E2A658AB-B142-4AD9-AACA-C69200622F44}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B81215FF-CE6E-4B1D-92C0-78C114FE7F35}"
+              p:before="*"
+              s:ds="{C2E57508-C70D-4C74-A4EC-360E6A18D0C7}"
+              s:id="{F366FBA9-EF26-4007-988A-63CB64649C46}"
+              s:ph="/page-layout/section/col-narrow-1" />
+            <r
+              uid="{54B52353-CA95-4777-9B9C-FF9327ADA0E2}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Privacy Policy
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T154710Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{B1BAB248-FFB4-4295-9783-E8FE17E2FE34}"
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Privacy Policy
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Privacy Policy
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>This Privacy Policy describes the information that we collect through our website <a href="~/link.aspx?_id=97F499E70DCA43CFAA068954A5426166&amp;_z=z">www.helixfinancial.com</a> and how we use that information. If you have any questions or comments about this Privacy Policy or your personal information, please contact us at <a href="mailto:info@helixfinancial.com">info@helixfinancial.com</a>.</p>
+        <p>In general, you do not have to provide personal information to use this website. However, certain services which you may subscribe for through this website (for instance, firm mailings) may require you to provide personal information, such as your name, address, email address and other contact information. We use such personal information to respond to your inquiries and to send you newsletters or publications that you request. You may also receive other mailings relating to Habitat Financial seminars or events that we think may be of interest to you.</p>
+        <p>In addition, incidental to your use of this website, our web server automatically logs certain information such as the name of your internet service provider, the IP address of the computer you are using, the type of browser software and operating system that you use, the date and time you access our website, the website address, if any, from which you linked directly to our website, the website address, if any, to which you travel from our website, and other similar traffic-related information. We may also aggregate information relating to your and other visitors&rsquo; traffic patterns. We use the foregoing information to help us improve the website and the services that we provide through the website. We do not use such data in any way to create or maintain a personal profile of you or collect personal information from you.</p>
+        <p>Generally, we will not disclose information we collect through your use of the website to third parties. We reserve the right, however, to provide such information to our employees, contractors, agents, and designees to the extent necessary to enable them to perform certain website-related services (e.g., web hosting or maintenance services) on our behalf. We also reserve the right to disclose such information to any third party if we believe that we are required to do so for any or all of the following reasons: (i) by law; (ii) to comply with legal processes or governmental requests; (iii) to prevent, investigate, detect or prosecute criminal offences or attacks on the technical integrity of the web site or our network; and/or (iv) to protect the rights, property, or safety of Habitat Financial, the users of the website, or the public.</p>
+        <p>We do not use cookies on our web site to collect information on or from our users.</p>
+        <p>If you would like to change your personal information, or if you no longer wish to receive materials from us or want your personal information removed from our firm&rsquo;s database, please contact us at <a href="mailto:info@helixfinancial.com">info@helixfinancial.com</a>. Alternatively, when you receive materials from us by e-mail or other communications you can make use of the &ldquo;opt out&rdquo; provision in such communications so that we know that you no longer wish to receive such materials from us.</p>
+        <p>The internet and the benefits it offers are evolving rapidly, as are the ways in which people use the internet and the laws surrounding such use. Habitat Financial therefore reserves the right to update and revise this Privacy Policy at any time. You can determine if this Privacy Policy has been revised by sending an e-mail to <a href="mailto:info@helixfinancial.com">info@helixfinancial.com</a>. Your use of our website constitutes your acceptance of the terms of the Privacy Policy as amended or revised by us, and you should therefore review this Privacy Policy regularly to ensure that you are aware of its terms.</p>
+        <p>This website contains links to other sites. Please be aware that we are not and cannot be responsible for the privacy practices of such other sites and that this Privacy Policy applies solely to the information which we collect through this website. We encourage you to ensure that you read the privacy statements of all the destination sites which you visit.</p>
