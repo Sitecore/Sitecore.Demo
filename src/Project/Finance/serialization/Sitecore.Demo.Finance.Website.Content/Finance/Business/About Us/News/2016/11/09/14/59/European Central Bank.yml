@@ -5,9 +5,21 @@ Template: "9ea41747-6119-4aa8-ab6b-20c58b3f430f"
 Path: /sitecore/content/Finance/Business/About Us/News/2016/11/09/14/59/European Central Bank
 DB: master
 SharedFields:
+- ID: "0dca829c-9fce-41f5-9990-c6182fefe905"
+  Hint: SeoFollowLinks
+  Type: Checkbox
+  Value: 0
+- ID: "683d7237-206a-488f-9dee-4a4e41fb161d"
+  Hint: CanIndex
+  Type: Checkbox
+  Value: 0
+- ID: "8d5c486e-a0e3-4dbe-9a4a-cdff93594bda"
+  Hint: IncludeInSearchResults
+  Type: Checkbox
+  Value: 0
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
-  Value: "{E2A658AB-B142-4AD9-AACA-C69200622F44}"
+  Value: "{BBBF8DB7-2067-4692-B959-36849FA4B6BA}"
 - ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
   Hint: __Tracking
   Type: Tracking
@@ -34,6 +46,10 @@ SharedFields:
 - ID: "c464d2d7-3382-428a-bcdf-0963c60ba0e3"
   Hint: NewsDate
   Value: 20161112T000000Z
+- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
+  Hint: __Bucketable
+  Type: Checkbox
+  Value: 1
 Languages:
 - Language: en
   Versions:
@@ -48,7 +64,7 @@ Languages:
         <image mediaid="{0A39C453-8E80-4C6B-812E-40F15C6F139B}" />
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{B1BAB248-FFB4-4295-9783-E8FE17E2FE34}"
+      Value: "{363468E7-EBF4-4C31-9C89-E9C914FF654D}"
     - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
       Hint: MetaKeywords
       Type: Treelist
