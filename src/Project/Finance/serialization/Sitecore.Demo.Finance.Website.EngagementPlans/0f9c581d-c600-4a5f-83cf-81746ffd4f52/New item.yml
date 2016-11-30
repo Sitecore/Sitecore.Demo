@@ -1,0 +1,35 @@
+﻿---
+ID: "c11cb640-19f4-44eb-af3e-7a46d4d4945c"
+Parent: "0f9c581d-c600-4a5f-83cf-81746ffd4f52"
+Template: "0a43a0fe-7e0e-49ef-95d4-e3de34f4f175"
+Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Finance/Credit Card Application/New item/New item
+DB: master
+SharedFields:
+- ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
+  Hint: Designer ID
+  Value: "daed7a05-1881-42cb-8846-7fd5c27feb78"
+- ID: "7642ed71-348b-4b88-8634-cc7b28949472"
+  Hint: Origin ID
+  Value: "00000000-0000-0000-0000-000000000000"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "d2368879-c784-4031-9b79-6a3bf3cb444e"
+  Hint: Next state
+  Value: "97241137-7cd2-482f-9da4-783a328d6859"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Pass-through"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20150311T113740:635616706600606443Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

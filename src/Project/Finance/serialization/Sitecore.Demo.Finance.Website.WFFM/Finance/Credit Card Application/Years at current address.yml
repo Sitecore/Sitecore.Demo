@@ -11,7 +11,7 @@ SharedFields:
 - ID: "acd3122b-f975-433e-9802-35bc5f8fe2b4"
   Hint: Required
   Type: Checkbox
-  Value: 0
+  Value: 1
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 500

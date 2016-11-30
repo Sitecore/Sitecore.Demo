@@ -1,0 +1,35 @@
+﻿---
+ID: "5ee74adb-2da3-401d-a0e3-ec8712d1fdea"
+Parent: "1f73bd15-37d3-4bb9-a33f-8fd9b7b01fd7"
+Template: "0a43a0fe-7e0e-49ef-95d4-e3de34f4f175"
+Path: "/sitecore/system/Marketing Control Panel/Engagement Plans/Finance/Credit Card Application/New item/Pass-through"
+DB: master
+SharedFields:
+- ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
+  Hint: Designer ID
+  Value: "6a06473e-9b1d-4816-a328-c478241d5f09"
+- ID: "7642ed71-348b-4b88-8634-cc7b28949472"
+  Hint: Origin ID
+  Value: "00000000-0000-0000-0000-000000000000"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1
+- ID: "d2368879-c784-4031-9b79-6a3bf3cb444e"
+  Hint: Next state
+  Value: "82d9174d-d1bf-4187-a53e-38c55cea2f4d"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Pass-through"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20150311T113741:635616706610127212Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
