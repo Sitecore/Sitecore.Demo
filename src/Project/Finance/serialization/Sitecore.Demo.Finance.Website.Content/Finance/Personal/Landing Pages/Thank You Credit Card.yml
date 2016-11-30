@@ -1,0 +1,38 @@
+﻿---
+ID: "e0c490cd-0b4f-4da6-8d39-83c4be769d43"
+Parent: "4406a127-0ebb-4658-a475-80fdb5d2ea1e"
+Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
+Path: /sitecore/content/Finance/Personal/Landing Pages/Thank You Credit Card
+DB: master
+SharedFields:
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <event
+        id="{5D81A014-D98F-43CC-B9A1-784C079029CF}"
+        name="Credit Card - application complete" />
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161128T151636Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Thank You for applying for a Habitat Credit Card
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Thank You for applying for a Habitat Credit Card
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Thank You Credit Card
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>We&nbsp;will process your&nbsp;Habitat Credit Card application within seven working days.</p>
+        <p>If there are any outstanding questions, we will contact you either by email or phone otherwise, check your mail box for either your new Habitat credit card or else a letter explaining why we were unable to offer you a credit card at this time.</p>
