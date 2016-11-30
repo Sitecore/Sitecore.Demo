@@ -1,0 +1,84 @@
+﻿---
+ID: "c657487b-5ed2-45f5-a261-1c228f469a3f"
+Parent: "c56ac206-95a9-4503-880b-77097076db17"
+Template: "9ea41747-6119-4aa8-ab6b-20c58b3f430f"
+Path: /sitecore/content/Finance/Business/About Us/News/2016/11/09/14/30/SparkNow Small Business Loans
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{BBBF8DB7-2067-4692-B959-36849FA4B6BA}"
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="owen the smb owner|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="0" />
+        <key
+          name="Large Corporate Business"
+          value="0" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="0" />
+      </profile>
+    </tracking>
+- ID: "c464d2d7-3382-428a-bcdf-0963c60ba0e3"
+  Hint: NewsDate
+  Value: 20161109T000000Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T143021Z
+    - ID: "3437eaac-6ee8-460b-a33d-da1f714b5a93"
+      Hint: NewsImage
+      Value: |
+        <image mediaid="{B878F9DB-E4E2-40D2-9851-519A87246DCC}" />
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{363468E7-EBF4-4C31-9C89-E9C914FF654D}"
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {8A09F2D7-F9ED-4818-B13B-DE1DD225DD21}
+        {6D70604F-F2B2-4998-BBCA-38C05FA9DCEC}
+        {0D6FA040-24E4-49EF-954F-B863C7690ACF}
+        {7F1DE9C3-1686-4DBF-9F63-713F63215A13}
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "801612c7-5e98-4e3c-80d2-a34d0eebcbda"
+      Hint: NewsBody
+      Value: |
+        <p>Habitat Financial announced the launch of SparkNow small business loans, an online, fast-decision loan that is issued the next business day. These loans offer a competitive interest rate to small businesses with short-term credit needs. The new loan product will be available to existing customers first.
+        </p>
+        <p>SparkNow small business loans adds to Habitat&rsquo;s focus on SMBs, in which it has provided $29.9 billion in new loans to small business to date. SparkNow loans will help by offering short-term credit through an easy, fast-decision application process that includes competitive interest rates, clear terms and as-soon-as next day funding. This will put short-term credit within reach for many small businesses seeking to achieve financial success.
+        </p>
+        <p>The SparkNow small business loans will be available with one-year terms, at amounts ranging from $10,000 to $50,000, with required payments made on a weekly basis automatically deducted from the customer&rsquo;s business-deposit account.
+        </p>
+        <p>Since last year, a version of the SparkNow small business loans has been offered as part of a  beta program to pre-qualified existing Habitat customers.
+        </p>
+        <p>The SparkNow small business loans builds on the comprehensive offerings of Habitat Financial&rsquo;s SMB First&mdash;an initiative designed to deliver guidance and resources to help business owners achieve financial success. Through SMB First, Habitat offers an online community and education resources designed to help small business owners start, run, finance and grow their businesses. It includes The Hub, a free online portal that has helped 25,000 small business owners create and update their business plans.</p>
+    - ID: "9d08271a-1672-44dd-b7ef-0a6ec34fcba7"
+      Hint: NewsSummary
+      Value: "Habitat Financial announced the launch of SparkNow small business loans, an online, fast-decision loan that is issued the next business day."
+    - ID: "bd9ecd4a-c0b0-4233-a3cd-d995519ac87b"
+      Hint: NewsTitle
+      Value: Habitat Financial launches SparkNow small business loans
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Habitat Financial launches SparkNow small business loans

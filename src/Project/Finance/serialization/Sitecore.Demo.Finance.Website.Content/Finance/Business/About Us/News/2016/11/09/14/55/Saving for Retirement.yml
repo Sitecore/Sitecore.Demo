@@ -1,0 +1,78 @@
+﻿---
+ID: "0b25efa3-1a8c-4a6f-a97b-ba5331e07568"
+Parent: "8048c99d-9660-497b-beab-173bce8a91d6"
+Template: "9ea41747-6119-4aa8-ab6b-20c58b3f430f"
+Path: /sitecore/content/Finance/Business/About Us/News/2016/11/09/14/55/Saving for Retirement
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{BBBF8DB7-2067-4692-B959-36849FA4B6BA}"
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="everyday elizabeth|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="0" />
+        <key
+          name="Large Corporate Business"
+          value="0" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="0" />
+      </profile>
+    </tracking>
+- ID: "c464d2d7-3382-428a-bcdf-0963c60ba0e3"
+  Hint: NewsDate
+  Value: 20161110T000000Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T145505Z
+    - ID: "3437eaac-6ee8-460b-a33d-da1f714b5a93"
+      Hint: NewsImage
+      Value: |
+        <image mediaid="{9E02881D-6AC5-4B3A-A96C-D0056A9A33BB}" />
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{363468E7-EBF4-4C31-9C89-E9C914FF654D}"
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {9DB4FFEB-DBBC-4254-A995-85480422F4D7}
+        {6EEDC7E7-BD91-4126-B30B-A7B72E329100}
+        {46863A38-1CC9-4D4A-B814-8E3DAF65C722}
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "801612c7-5e98-4e3c-80d2-a34d0eebcbda"
+      Hint: NewsBody
+      Value: |
+        <p>A majority of workers admit they are not prioritizing retirement planning and place greater emphasis on more immediate financial concerns, potentially resulting in financial hardship in the longterm, according to new research.The global study finds that for 82% of working-age citizens, saving for retirement is not a main priority, even as 76% have seen retirement impacted at some point by a life event such as buying a home, becoming unemployed, divorce or illness, underscoring the need for planning adequately and at an early age for retirement years.&nbsp;</p>
+        <p>This recent report was focused on international attitudes towards aging and retirement. It is based on a survey of more than 18,000 people from 20 countries between August and September 2015. Its findings depicts workers juggling a growing amount of financial responsibilities and fearful of not being able to maintain a comfortable lifestyle upon retirement.&nbsp;</p>
+        <p>The research discovers that personal debt accumulated earlier in life, and particularly in these recent tough economic times, continues to impact the ability to save for the future. The report also uncovered other notable reasons people do not prepare adequately for retirement.&nbsp;</p>
+        <p>The first, is that there are more immediate financial concerns such as paying off a mortgage or other debts&mdash;46% globally. Second, most are unaware of how much to save. Three in 10 (29%) retirees worldwide who did not prepare adequately for a comfortable retirement admit they did not know how much they needed to save. Last, most workers didn't start saving early enough. Those who begin retirement planning when they are older than 30 have waited too long, say more than a third (38%) of the world's retirees. However, two-thirds (65%) of retirees globally who failed to prepare adequately for a comfortable retirement say they did not realize this until they had fully retired. Although there's no 'one-size-fits-all' approach to retirement, there are ways that everyone can plan for a better one. This includes starting as early as possible, figuring out how much you'll need to fund the lifestyle you want and making sure you are properly covered for unexpected life events. The report concludes that financial confidence around the world is now on the rise. As the work markets continue to recover from the global economic downturn, 39% of pre-retirees feel more optimistic about their financial prospects than they did one year ago. Still, almost half (48%) of working-age people globally believe the cost of living is increasing faster than their income.</p>
+    - ID: "9d08271a-1672-44dd-b7ef-0a6ec34fcba7"
+      Hint: NewsSummary
+      Value: A majority of workers admit they are not prioritizing retirement planning and place greater emphasis on more immediate financial concerns, potentially resulting in financial hardship in the longterm, according to new research.
+    - ID: "bd9ecd4a-c0b0-4233-a3cd-d995519ac87b"
+      Hint: NewsTitle
+      Value: Saving for retirement is 'Not the main priority' for most workers
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Saving for retirement is 'Not the main priority' for most workers

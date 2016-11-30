@@ -1,0 +1,14 @@
+﻿---
+ID: "57ceb5e8-6643-409d-8155-684011c1a880"
+Parent: "d55a8bb1-c684-4b22-8e3a-ec123f1b4a47"
+Template: "29d4b405-39eb-487d-9d6b-3f8467ab167d"
+Path: "/sitecore/content/Finance/Global/Teasers/Personal Future of Banking/Chip-enabled Cards Variations"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161130T145732Z

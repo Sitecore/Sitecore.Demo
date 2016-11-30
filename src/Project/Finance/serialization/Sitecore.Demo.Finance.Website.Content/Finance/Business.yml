@@ -35,20 +35,105 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{66ABCC4F-C781-446E-BFE6-C28F98F835E7}"
-              p:before="*"
-              s:ds="{98039727-34F5-4577-BE57-7EB1034866A4}"
-              s:id="{97459D5B-3C92-46C2-A329-138C1E277465}"
-              s:ph="/page-layout/section_939c213a-24f4-4352-892c-a79f9653471a/col-narrow-1_9ad0ae29-ea50-43c3-8c1d-bfc1b4525c6b" />
-            <r
               uid="{27222A8F-A62C-4F9E-9A7A-1371951F8375}"
-              p:after="r[@uid='{66ABCC4F-C781-446E-BFE6-C28F98F835E7}']"
+              p:before="*"
               s:ds="{8AA0C63C-DB85-4E5C-9B33-FC45004678A1}"
               s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/page-layout/section_939c213a-24f4-4352-892c-a79f9653471a/col-narrow-1_9ad0ae29-ea50-43c3-8c1d-bfc1b4525c6b">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{0ADA4925-C018-41D7-9044-216B7767E1C7}"
+                    s:name="Watch Case Study Video">
+                    <conditions>
+                      <condition
+                        uid="F6AF80BE967E41DF8FE829D8C39E2A49"
+                        s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
+                        s:GoalId="{9658114D-A17F-48DE-8E83-D182F544BB0D}"
+                        s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
+                        s:NumberOfElapsedDays="100"
+                        s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
+                        s:NumberOfPastInteractions="100" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="5D4AF80820E64D84834127BC63064CAE"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{9E81672E-689A-4590-BF64-65890D53874C}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{124D3665-7EA8-41CB-9C3F-71B9DE8D3C1A}"
+                    s:name="Request White Paper">
+                    <conditions>
+                      <condition
+                        uid="31722ED6CB834F138CB20AB7456F5B58"
+                        s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
+                        s:GoalId="{699AB4E7-4E4B-4336-B34B-01D3D70C7AB5}"
+                        s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
+                        s:NumberOfElapsedDays="100"
+                        s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
+                        s:NumberOfPastInteractions="100" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="18CED0BBACC64694B4BB53EE16C938CB"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{966A6E71-E80F-4473-988A-DD78255327FC}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{DB8F9BD1-E234-413D-A77E-413A5D526BCE}"
+                    s:name="Newsletter Sign Up">
+                    <conditions>
+                      <condition
+                        uid="92811605318F44FFA2C9208E14C73E10"
+                        s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
+                        s:GoalId="{C9C57982-0384-49CF-A067-CA5D32570482}"
+                        s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
+                        s:NumberOfElapsedDays="100"
+                        s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
+                        s:NumberOfPastInteractions="100" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="0C6164878F9D4115AC1CC511A02652B9"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{31273FF2-DE43-4533-A2D7-EDA07C17788E}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="D0F7480AA19149DAB44F9610AABABACD"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="A6BB269C108E4B3EBE33294B07D2438D"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{8AA0C63C-DB85-4E5C-9B33-FC45004678A1}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{0B09AC48-6041-4752-AB9A-FA02ED68E939}"
+              p:after="r[@uid='{27222A8F-A62C-4F9E-9A7A-1371951F8375}']"
+              s:ds="{7C632C2F-493F-44BC-B7F5-AF7F4A56C2CC}"
+              s:id="{EE5A9F3D-C2CB-4710-8053-04D1A7135EBE}"
+              s:ph="/page-layout/section_939c213a-24f4-4352-892c-a79f9653471a/col-wide-1_9ad0ae29-ea50-43c3-8c1d-bfc1b4525c6b" />
+            <r
+              uid="{B768639B-26B3-4671-841E-EC4B0A2ED311}"
+              p:after="r[@uid='{0B09AC48-6041-4752-AB9A-FA02ED68E939}']"
+              s:id="{5899FE6B-2AD7-4243-B1F9-3BC664CF0A7C}"
               s:ph="/page-layout/section_939c213a-24f4-4352-892c-a79f9653471a/col-wide-1_9ad0ae29-ea50-43c3-8c1d-bfc1b4525c6b" />
             <r
               uid="{9AD0AE29-EA50-43C3-8C1D-BFC1B4525C6B}"
-              p:after="r[@uid='{27222A8F-A62C-4F9E-9A7A-1371951F8375}']"
+              p:after="r[@uid='{B768639B-26B3-4671-841E-EC4B0A2ED311}']"
               s:id="{4ACD4C20-28D1-46F7-8FBA-A35778937BD1}"
               s:ph="/page-layout/section_939c213a-24f4-4352-892c-a79f9653471a" />
             <r
