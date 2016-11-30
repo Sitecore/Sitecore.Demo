@@ -1,0 +1,21 @@
+﻿---
+ID: "55c5a556-4e74-48f8-95ad-ac0f01ec1e6e"
+Parent: "db0c98b0-caeb-4243-b502-a04c9e1c265b"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: /sitecore/content/Finance/Global/Teasers/Business Banking/Expand Internationally/Campaign Twitter Going International
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{A5E8AF25-512D-4A11-A02B-116166173F62}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161130T151129Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Campaign Twitter Going International

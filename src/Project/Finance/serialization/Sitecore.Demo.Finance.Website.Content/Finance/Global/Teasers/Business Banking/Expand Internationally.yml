@@ -1,0 +1,14 @@
+﻿---
+ID: "db0c98b0-caeb-4243-b502-a04c9e1c265b"
+Parent: "0a22ac0f-4677-49eb-8269-62cdbbb9d6ce"
+Template: "29d4b405-39eb-487d-9d6b-3f8467ab167d"
+Path: /sitecore/content/Finance/Global/Teasers/Business Banking/Expand Internationally
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161130T150750Z
