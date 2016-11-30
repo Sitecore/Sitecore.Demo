@@ -64,7 +64,7 @@ Languages:
               p:after="r[@uid='{18389D63-23B8-4E29-A9BF-EB98E18992BC}']"
               s:ds=""
               s:id="{60EAFB37-7743-4548-ABC7-0CFBB291A6E9}"
-              s:par="Show List=1&amp;Manager root=%7B5EBC8DC1-B219-4B0E-B600-5BE2826D73EA%7D&amp;Recipient Lists=%7B26AF8BB0-2CAC-4EC7-ADAF-1824295D0005%7D%7C%7BF8400B59-CC6C-4FF8-9364-5B7F58966065%7D%7C%7BFA2CEBF9-566C-4F8A-9B95-9F55F5241BE5%7D&amp;Exclude Lists"
+              s:par="Manager root=%7B5EBC8DC1-B219-4B0E-B600-5BE2826D73EA%7D&amp;Show List=1&amp;Recipient Lists=%7B13777DD8-579F-4C2A-98CD-5C434C8E8C24%7D"
               s:ph="/page-layout/section/col-wide-1" />
           </d>
         </r>

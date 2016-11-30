@@ -5,6 +5,13 @@ Template: "6906b4df-148f-4f7d-afdd-8288801389af"
 Path: /sitecore/content/Finance
 DB: master
 SharedFields:
+- ID: "365254c4-1c1c-493a-9710-671574717898"
+  Hint: Forgot Password Mail Template
+  Value: /sitecore/content/Finance/Global/Registration/Forgot Password Email
+- ID: "5f115b6d-6052-4c7e-b442-ae923a7e9bd2"
+  Hint: SupportedLanguages
+  Type: Multilist
+  Value: "{AF584191-45C9-4201-8740-5409F4CF8BDD}"
 - ID: "60745023-ffd5-400e-8f80-4bca9f2abb29"
   Hint: Login Page
   Value: /sitecore/content/Finance/Portal
@@ -22,6 +29,11 @@ SharedFields:
   Value: /sitecore/content/Finance/Portal/Forgot Password
 Languages:
 - Language: en
+  Fields:
+  - ID: "2a84eca4-68bb-4451-b4ac-98ea71a5a3dc"
+    Hint: SiteProfiles
+    Type: Multilist
+    Value: "{76474166-02C0-4008-9602-F05E9156FB37}"
   Versions:
   - Version: 1
     Fields:
@@ -44,6 +56,9 @@ Languages:
     - ID: "378b7d87-5775-4eb6-86b7-282d5359b1c6"
       Hint: User Profile
       Value: "{BB6B091A-EC76-4B1E-BA50-C1BC4FC6E270}"
+    - ID: "835fa523-d28a-46a2-a589-6aa4a5bf0846"
+      Hint: Register Outcome
+      Value: "{C2D9DFBC-E465-45FD-BA21-0A06EBE942D6}"
     - ID: "e748d808-64c1-4dec-9718-f35cf9689e4b"
       Hint: Logo
       Value: |

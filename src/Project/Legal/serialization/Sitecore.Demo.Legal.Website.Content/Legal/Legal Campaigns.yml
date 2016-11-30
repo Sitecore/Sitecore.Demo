@@ -23,13 +23,15 @@ SharedFields:
   Value: legal
 - ID: "afb3e366-dab4-4e10-b61f-bc3776542bb8"
   Hint: POP3 User Name
-  Value: sitecore\admin
+  Value: |
+    sitecore\admin
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 300
 - ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
   Hint: __Security
-  Value: "ar|sitecore\ECM Users|pd|^*|+item:read|pe|^*|+item:read|ar|sitecore\ECM Advanced Users|pd|+item:delete|+item:admin|+item:create|+item:rename|^*|+item:read|+item:write|pe|+item:delete|+item:admin|+item:create|+item:rename|^*|+item:read|+item:write|"
+  Value: |
+    ar|sitecore\ECM Users|pd|^*|+item:read|pe|^*|+item:read|ar|sitecore\ECM Advanced Users|pd|+item:delete|+item:admin|+item:create|+item:rename|^*|+item:read|+item:write|pe|+item:delete|+item:admin|+item:create|+item:rename|^*|+item:read|+item:write|
 Languages:
 - Language: en
   Versions:
@@ -44,6 +46,18 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160817T022738Z
+    - ID: "4eafb5c3-fb2c-4ae5-a55d-1c257b44ab9b"
+      Hint: Already Unsubscribed Page
+      Value: "{6EB0F80B-A1D5-40E0-A472-9308B24228B5}"
+    - ID: "4f0eb8e2-a9d6-4f01-97bc-190cc399698b"
+      Hint: Final Confirmation Page
+      Value: "{6EB0F80B-A1D5-40E0-A472-9308B24228B5}"
+    - ID: "6900c28c-c47b-458b-b9b0-f55c53102cc7"
+      Hint: Email Sent Confirmation Page
+      Value: "{6EB0F80B-A1D5-40E0-A472-9308B24228B5}"
     - ID: "69aad409-ca36-4767-b945-abb77f3611fd"
       Hint: From Name
       Value: no_reply@sitecore.net
+    - ID: "b07634de-c2f0-4005-8c66-433b5fb60b68"
+      Hint: Subscription Page
+      Value: "{6EB0F80B-A1D5-40E0-A472-9308B24228B5}"
