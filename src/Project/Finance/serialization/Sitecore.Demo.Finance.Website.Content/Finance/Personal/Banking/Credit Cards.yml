@@ -60,14 +60,26 @@ Languages:
                     uid="{2449A985-0E9C-41DB-8D20-6CEF727E5AD6}"
                     s:name="Hate Forms">
                     <conditions>
-                      <condition
-                        uid="0941ACA0C42743CDB14E5FDB912F57E9"
-                        s:id="{6F3DD3F4-52BF-410A-9DC8-60D83200DF3B}"
-                        s:PageEventId="{6412D1D8-CA83-49B0-9096-6417D5909890}"
-                        s:NumberOfElapsedDaysOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}"
-                        s:NumberOfElapsedDays="0"
-                        s:NumberOfPastInteractionsOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}"
-                        s:NumberOfPastInteractions="0" />
+                      <and
+                        uid="437D313047A341D4BE7483A4888BA4D7">
+                        <condition
+                          uid="0941ACA0C42743CDB14E5FDB912F57E9"
+                          s:id="{6F3DD3F4-52BF-410A-9DC8-60D83200DF3B}"
+                          s:PageEventId="{6412D1D8-CA83-49B0-9096-6417D5909890}"
+                          s:NumberOfElapsedDaysOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}"
+                          s:NumberOfElapsedDays="0"
+                          s:NumberOfPastInteractionsOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}"
+                          s:NumberOfPastInteractions="0" />
+                        <condition
+                          uid="6CA67136BA2C43188FCD2FA67285E0CA"
+                          s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
+                          s:except="true"
+                          s:GoalId="{5D81A014-D98F-43CC-B9A1-784C079029CF}"
+                          s:NumberOfElapsedDaysOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}"
+                          s:NumberOfElapsedDays="0"
+                          s:NumberOfPastInteractionsOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}"
+                          s:NumberOfPastInteractions="0" />
+                      </and>
                     </conditions>
                     <actions>
                       <action

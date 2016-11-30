@@ -13,6 +13,17 @@ SharedFields:
   Hint: Show Title
   Type: Checkbox
   Value: 0
+- ID: "a7f779b9-5fcf-45cc-866b-7c973f5c4fac"
+  Hint: Save Actions
+  Value: |
+    <?xml version="1.0" encoding="utf-16"?>
+    <li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <g id="{E5EABB1F-40BC-45BB-8D87-3B6C239B521B}" displayName="Actions" onclick="javascript:return scForm.postEvent(this,event,'forms:addaction')">
+        <li id="{1B8ED61B-5B36-4C49-9736-2C4A87795D71}" unicid="E2DEDC7333D54244B6B442F4338FEAF9">
+          <parameters>&amp;lt;engagementstate&amp;gt;254bac7f-dd76-414d-bc95-2127c0105009&amp;lt;/engagementstate&amp;gt;&amp;lt;enrollwhen&amp;gt;Always&amp;lt;/enrollwhen&amp;gt;&amp;lt;__actionsubtitle&amp;gt;{2BE5DC54-4CC7-4A04-88C3-FF2697C247B2}&amp;lt;/__actionsubtitle&amp;gt;</parameters>
+        </li>
+      </g>
+    </li>
 - ID: "af08c32b-f101-44a4-baae-677383e8eb02"
   Hint: Check Actions
   Value: |
