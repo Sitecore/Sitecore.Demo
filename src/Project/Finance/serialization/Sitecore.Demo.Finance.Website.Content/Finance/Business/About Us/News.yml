@@ -1,0 +1,37 @@
+﻿---
+ID: "270ae8ca-58d3-4267-96c4-bb9ee57c0613"
+Parent: "bd2e2c8d-e704-46b8-8e1d-8daba748ebf3"
+Template: "622ed2b6-35b3-4c77-8ee3-3310d0e50705"
+Path: /sitecore/content/Finance/Business/About Us/News
+DB: master
+SharedFields:
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 1
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: News
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161104T033847Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Habitat Financial is an industry leader in providing financial products and services. Read current news releases to learn more about the company's corporate, financial and product news.
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: News Releases Page
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: News
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: Habitat Financial is an industry leader in providing financial products and services. Read current news releases to learn more about the company's corporate, financial and product news.

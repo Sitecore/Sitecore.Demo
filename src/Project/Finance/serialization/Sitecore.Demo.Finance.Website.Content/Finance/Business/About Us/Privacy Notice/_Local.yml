@@ -1,0 +1,22 @@
+﻿---
+ID: "64212b18-3079-455a-a46f-5876cbb07381"
+Parent: "cf8e464c-9cb6-4183-ae75-f1164b0645b3"
+Template: "fff5f245-ffc0-4022-a998-9b07aa5e761f"
+Path: /sitecore/content/Finance/Business/About Us/Privacy Notice/_Local
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{AC7394D5-2AA7-4FDB-A7D8-B1B87F9FA661}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-1000"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161110T082124Z

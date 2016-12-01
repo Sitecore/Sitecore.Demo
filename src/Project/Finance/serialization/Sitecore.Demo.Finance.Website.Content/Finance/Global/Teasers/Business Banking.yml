@@ -1,0 +1,18 @@
+﻿---
+ID: "0a22ac0f-4677-49eb-8269-62cdbbb9d6ce"
+Parent: "02b1ae3a-59f2-4df7-af4d-2542e823f864"
+Template: "29d4b405-39eb-487d-9d6b-3f8467ab167d"
+Path: /sitecore/content/Finance/Global/Teasers/Business Banking
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161130T150922Z

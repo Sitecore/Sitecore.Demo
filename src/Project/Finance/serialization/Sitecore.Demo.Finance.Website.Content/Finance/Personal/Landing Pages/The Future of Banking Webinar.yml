@@ -53,7 +53,91 @@ Languages:
               p:before="*"
               s:ds="{03462FC9-FED1-4DA9-9F29-4AC790540221}"
               s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
-              s:ph="/page-layout/section/col-narrow-1" />
+              s:ph="/page-layout/section/col-narrow-1">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{72409F92-22E3-4B8C-8DCE-BC4BA54E3299}"
+                    s:name="Email Campaign">
+                    <conditions>
+                      <condition
+                        uid="39B1D598A44745A6BAD0ADF352BB9904"
+                        s:id="{D379525C-4DE6-4738-89ED-60CC0B8F91E5}"
+                        s:CampaignId="{D4F67BD1-2C2B-4803-B520-2A05E49C3E5C}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="A1A8F85179E948D8B3F82CFD60A748CA"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{BB4F010B-75B9-4FD2-8D03-512DE620A5B1}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{4EF23C6B-5B20-4CAC-9C48-30F84988256C}"
+                    s:name="Search Campaign">
+                    <conditions>
+                      <condition
+                        uid="DEE2322F79C94AD59763D652503B0821"
+                        s:id="{D379525C-4DE6-4738-89ED-60CC0B8F91E5}"
+                        s:CampaignId="{9E9ACDBE-14EF-40D3-9FF5-E0FAB5F75E5C}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="D9B919D119B547E89A0BAAD5C3238A73"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{A0E43475-D972-4A4F-B9FA-BB05AEAB3E22}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{EAA868C1-06A4-4B8F-9BC0-A8C2CEB8DCB6}"
+                    s:name="Twitter Campaign">
+                    <conditions>
+                      <condition
+                        uid="8694FA921F9545858F32AA88430BD516"
+                        s:id="{D379525C-4DE6-4738-89ED-60CC0B8F91E5}"
+                        s:CampaignId="{7A9450D9-4A6D-4584-AE0B-6602DF01CD53}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="6EE603AAB2834657A42673A135B27135"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{28E33439-A8B0-4C81-A1A4-5F84AFCA7F59}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{A4E94820-A111-4C22-821F-4660AC7527FD}"
+                    s:name="Facebook Campaign">
+                    <conditions>
+                      <condition
+                        uid="3B401745B65A43419515AF3063379C23"
+                        s:id="{D379525C-4DE6-4738-89ED-60CC0B8F91E5}"
+                        s:CampaignId="{ABC93B18-BC1E-4265-AADD-6F56C3ED2403}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="B2D137AE7E6C4EF487E1573BF83CD9B8"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{2D61C26D-E067-4610-9473-C4F9B48E70A2}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="913D07F22A444EAB84DE7917F30C1DB6"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="F01CB17CE7B44C64AD2C83275840179F"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{03462FC9-FED1-4DA9-9F29-4AC790540221}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r
               uid="{693D931E-0C14-4738-BE7C-0934E277AAA0}"
               p:after="r[@uid='{8388E1FA-9ED8-4E28-84C7-568C2D7ECEEB}']"
