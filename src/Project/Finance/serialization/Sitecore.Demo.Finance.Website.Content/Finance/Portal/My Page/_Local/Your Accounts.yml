@@ -1,0 +1,74 @@
+﻿---
+ID: "fde7b45c-0ea8-43b7-ad78-806ed1620812"
+Parent: "8dc91a10-4fff-4577-8030-debe0e075d39"
+Template: "b4f6f114-e653-4a22-86c5-499e0bd99d9a"
+Path: /sitecore/content/Finance/Portal/My Page/_Local/Your Accounts
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bc0aedf-a6d0-4f74-933c-bd1779cd40b2"
+      Hint: HTML Content
+      Value: |
+        <div class="panel panel-secondary">
+            <div class="panel-heading">
+                <div class="label pull-right"><a href="#"><span class="fa fa-plus"></span> Add</a></div>
+                <h5 class="text-uppercase">Your Accounts</h5>
+            </div>
+            <table class="table panel-body">
+                <tr>
+                    <td width="75%">Cash</td>
+                    <td width="10%" class="text-right text-nowrap"><strong>$2,359,887</strong></td>
+                    <td>
+                        <a href="#"><span class="fa fa-chevron-right" /></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="75%">Credit Cards</td>
+                    <td width="10%" class="text-right text-nowrap"><strong>-$4,670</strong></td>
+                    <td>
+                        <a href="#"><span class="fa fa-chevron-right" /></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="75%">Investments</td>
+                    <td width="10%" class="text-right text-nowrap"><strong>$1,899,543</strong></td>
+                    <td>
+                        <a href="#"><span class="fa fa-chevron-right" /></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="75%">Life Insurance</td>
+                    <td width="10%" class="text-right text-nowrap"><strong>$1,250,000</strong></td>
+                    <td>
+                        <a href="#"><span class="fa fa-chevron-right" /></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="75%">Loans</td>
+                    <td width="10%" class="text-right text-nowrap"><strong>-$467,090</strong></td>
+                    <td>
+                        <a href="#"><span class="fa fa-chevron-right" /></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="75%">Property</td>
+                    <td width="10%" class="text-right text-nowrap"><strong>-$1,450,600</strong></td>
+                    <td>
+                        <a href="#"><span class="fa fa-chevron-right" /></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="75%">Options Plans</td>
+                    <td width="10%" class="text-right text-nowrap"><strong>$159,000</strong></td>
+                    <td>
+                        <a href="#"><span class="fa fa-chevron-right" /></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161202T031638Z

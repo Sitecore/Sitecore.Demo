@@ -1,0 +1,71 @@
+﻿---
+ID: "6b5b211a-82cd-4cd4-989e-56a596bc3683"
+Parent: "8dc91a10-4fff-4577-8030-debe0e075d39"
+Template: "b4f6f114-e653-4a22-86c5-499e0bd99d9a"
+Path: /sitecore/content/Finance/Portal/My Page/_Local/Spending
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bc0aedf-a6d0-4f74-933c-bd1779cd40b2"
+      Hint: HTML Content
+      Value: |
+        <div class="panel panel-secondary">
+            <div class="panel-heading">
+                <div class="label pull-right">Net: <strong>$1,5267</strong></div>
+                <h5 class="text-uppercase">Spending</h5>
+            </div>
+            <div class="panel-body" style="vertical-align: middle">
+                <p class="text-center">
+                    You've spent <strong>$2,655</strong> this month
+                </p>
+                <div>
+                    <canvas id="spendingChart" width="400" height="200" class="img-responsive" onload="showChart()"></canvas>
+                    <script src="/bower_components/chart.js/dist/Chart.js"></script>
+                    <script>
+                        var ctx = document.getElementById("spendingChart");
+                        var options = {
+                            legend: {
+                                position: "right"
+                            }
+                        };
+                        var data = {
+                            labels: [
+                                "Unclassified",
+                                "Cash / ATM",
+                                "Food",
+                                "House",
+                                "Cars"
+                            ],
+                            datasets: [
+                                {
+                                    data: [300, 50, 100, 54, 32, 66],
+                                    backgroundColor: [
+                                        "#a6cee3",
+                                        "#1f78b4",
+                                        "#b2df8a",
+                                        "#33a02c",
+                                        "#fb9a99",
+                                        "#e31a1c",
+                                        "#fdbf6f",
+                                        "#ff7f00",
+                                        "#cab2d6",
+                                        "#6a3d9a"
+                                    ]
+                                }]
+                        };
+                        var myPieChart = new Chart(ctx,{
+                            type: 'doughnut',
+                            data: data,
+                            options: options
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161202T031638Z

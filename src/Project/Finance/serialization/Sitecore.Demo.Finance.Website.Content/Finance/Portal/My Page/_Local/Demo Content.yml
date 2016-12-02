@@ -1,0 +1,43 @@
+﻿---
+ID: "74f03bf5-fd58-4c0e-9d36-01d09a06ce99"
+Parent: "8dc91a10-4fff-4577-8030-debe0e075d39"
+Template: "b4f6f114-e653-4a22-86c5-499e0bd99d9a"
+Path: /sitecore/content/Finance/Portal/My Page/_Local/Demo Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bc0aedf-a6d0-4f74-933c-bd1779cd40b2"
+      Hint: HTML Content
+      Value: |
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <div class="label pull-right text-muted">Today</div>
+                <h4 class="text-uppercase">Net Worth</h4>
+            </div>
+            <table class="table panel-body">
+                <tbody>
+                    <tr>
+                        <td colspan="3" class="text-center">
+                            <h3 class="m-t-1 m-b-1 text-large">$7,323,600</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="80%">This month</td>
+                        <td width="10%" class="text-right text-nowrap text-success"><strong>+$19,300</strong></td>
+                        <td width="10%" class="text-right text-nowrap text-success"><strong>+$1.58%</strong></td>
+                    </tr>
+                    <tr>
+                        <td width="80%">Last quarter</td>
+                        <td width="10%" class="text-right text-nowrap text-success"><strong>+$267,492</strong></td>
+                        <td width="10%" class="text-right text-nowrap text-success"><strong>+$9.05%</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161201T101404Z

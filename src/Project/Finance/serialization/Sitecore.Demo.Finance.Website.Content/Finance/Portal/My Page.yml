@@ -1,7 +1,7 @@
 ﻿---
 ID: "1a1a2b57-0998-4a06-908e-86660b1ca781"
 Parent: "bff1d0f6-4d4b-462d-a98b-90dbd43d6c55"
-Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Template: "b1bab872-314f-47ad-9108-378fc8f9c009"
 Path: /sitecore/content/Finance/Portal/My Page
 DB: master
 SharedFields:
@@ -25,40 +25,86 @@ Languages:
       Type: Layout
       Value: |
         <r xmlns:p="p" xmlns:s="s"
-          p:p="1"
-          s:xsd="http://www.w3.org/2001/XMLSchema">
+          p:p="1">
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{9812E44D-E856-41E5-A528-E232BF2C7C55}">
-              <rls>
-                <ruleset>
-                  <rule
-                    uid="{F2B4F912-6948-45E0-9373-A3BF489FF382}"
-                    s:name="Show Login">
-                    <conditions>
-                      <condition
-                        uid="47D451B92E1E4555A0EF4D282AF6875D"
-                        s:id="{EA0642FA-500B-4B2F-B264-765E771C516F}" />
-                    </conditions>
-                    <actions>
-                      <action
-                        uid="AF6450FB21384E86BCCB762120794B8D"
-                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
-                    </actions>
-                  </rule>
-                  <rule
-                    uid="{00000000-0000-0000-0000-000000000000}"
-                    s:name="Default">
-                    <conditions>
-                      <condition
-                        uid="99D926B259FA4E3A93FA6D6CEBDEE3AE"
-                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
-                    </conditions>
-                    <actions />
-                  </rule>
-                </ruleset>
-              </rls>
+              uid="{D9F7AFD3-8AE7-4A44-B5EF-76ECDA88A735}"
+              p:before="*"
+              s:ds="{F416D28E-7527-4D6B-8B47-9EFE7CD00D17}"
+              s:id="{EE5A9F3D-C2CB-4710-8053-04D1A7135EBE}"
+              s:par="Background"
+              s:ph="/page-layout/section_3672f4f9-f2a2-4d39-8540-74325dc98087/col-huge_13a8121c-ff42-491e-af08-23b786353138" />
+            <r
+              uid="{13A8121C-FF42-491E-AF08-23B786353138}"
+              p:after="r[@uid='{D9F7AFD3-8AE7-4A44-B5EF-76ECDA88A735}']"
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:ph="/page-layout/section_3672f4f9-f2a2-4d39-8540-74325dc98087" />
+            <r
+              uid="{F4696174-69ED-4249-841E-F3DB41E4E2CE}"
+              p:after="r[@uid='{13A8121C-FF42-491E-AF08-23B786353138}']"
+              s:ds="{AB1FA2A8-3499-44C8-8A8A-4B419A0BD5A9}"
+              s:id="{EBB6DC33-F281-49BE-B273-29ECCD6085A8}"
+              s:ph="/page-layout/section_3672f4f9-f2a2-4d39-8540-74325dc98087/col-narrow-3_6312a0a4-e7d3-41b5-9e78-bbca352fa69b" />
+            <r
+              uid="{0D29A28B-E574-4F8B-9F28-ED4DDBC5CC5B}"
+              p:after="r[@uid='{F4696174-69ED-4249-841E-F3DB41E4E2CE}']"
+              s:ds="{6B5B211A-82CD-4CD4-989E-56A596BC3683}"
+              s:id="{B883E272-70D8-419A-8AF8-819356D839AD}"
+              s:ph="/page-layout/section_3672f4f9-f2a2-4d39-8540-74325dc98087/col-narrow-2_6312a0a4-e7d3-41b5-9e78-bbca352fa69b" />
+            <r
+              uid="{48381935-680B-4303-8C9F-F0920AEDA11F}"
+              p:after="r[@uid='{0D29A28B-E574-4F8B-9F28-ED4DDBC5CC5B}']"
+              s:ds="{FDE7B45C-0EA8-43B7-AD78-806ED1620812}"
+              s:id="{B883E272-70D8-419A-8AF8-819356D839AD}"
+              s:ph="/page-layout/section_3672f4f9-f2a2-4d39-8540-74325dc98087/col-narrow-1_6312a0a4-e7d3-41b5-9e78-bbca352fa69b" />
+            <r
+              uid="{15A471A3-CC85-46FE-B297-206B38FE7A94}"
+              p:after="r[@uid='{48381935-680B-4303-8C9F-F0920AEDA11F}']"
+              s:ds="{7A6E63ED-AD0B-4AEB-BBF0-8CF894B357E4}"
+              s:id="{B883E272-70D8-419A-8AF8-819356D839AD}"
+              s:ph="/page-layout/section_3672f4f9-f2a2-4d39-8540-74325dc98087/col-narrow-3_531953dc-8c37-45a4-bd4c-a5cbbbc41186" />
+            <r
+              uid="{06C4D090-343F-47C8-BAE4-81B24B4C294D}"
+              p:after="r[@uid='{15A471A3-CC85-46FE-B297-206B38FE7A94}']"
+              s:ds="{8C8695A8-9557-4BB0-8091-472B5BC09FD0}"
+              s:id="{B883E272-70D8-419A-8AF8-819356D839AD}"
+              s:ph="/page-layout/section_3672f4f9-f2a2-4d39-8540-74325dc98087/col-narrow-2_531953dc-8c37-45a4-bd4c-a5cbbbc41186" />
+            <r
+              uid="{235F11DC-D04E-4694-A1D5-537A878C4104}"
+              p:after="r[@uid='{06C4D090-343F-47C8-BAE4-81B24B4C294D}']"
+              s:ds="{74F03BF5-FD58-4C0E-9D36-01D09A06CE99}"
+              s:id="{B883E272-70D8-419A-8AF8-819356D839AD}"
+              s:ph="/page-layout/section_3672f4f9-f2a2-4d39-8540-74325dc98087/col-narrow-1_531953dc-8c37-45a4-bd4c-a5cbbbc41186" />
+            <r
+              uid="{531953DC-8C37-45A4-BD4C-A5CBBBC41186}"
+              p:after="r[@uid='{235F11DC-D04E-4694-A1D5-537A878C4104}']"
+              s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}"
+              s:ph="/page-layout/section_3672f4f9-f2a2-4d39-8540-74325dc98087" />
+            <r
+              uid="{6312A0A4-E7D3-41B5-9E78-BBCA352FA69B}"
+              p:after="r[@uid='{531953DC-8C37-45A4-BD4C-A5CBBBC41186}']"
+              s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}"
+              s:ph="/page-layout/section_3672f4f9-f2a2-4d39-8540-74325dc98087" />
+            <r
+              uid="{3672F4F9-F2A2-4D39-8540-74325DC98087}"
+              p:after="r[@uid='{6312A0A4-E7D3-41B5-9E78-BBCA352FA69B}']"
+              s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+              s:ph="page-layout" />
+            <r
+              uid="{919E7B97-5126-4F66-AB36-6FB26ABDA786}"
+              p:after="r[@uid='{3672F4F9-F2A2-4D39-8540-74325DC98087}']"
+              s:ds=""
+              s:id="{1149A3C7-C69A-4E6B-A6C3-32687EC2F8D4}"
+              s:par="UseStaticPlaceholderNames&amp;Type=bg-media&amp;Media&amp;Parallax=1"
+              s:ph="page-layout" />
+            <r
+              uid="{263E69E7-7B9F-4F90-95C2-750AB1B7A5EC}">
+              <p:d />
+            </r>
+            <r
+              uid="{C70BC54A-CDFB-47CF-AE41-F810502B9B4A}">
+              <p:d />
             </r>
           </d>
         </r>
@@ -73,7 +119,7 @@ Languages:
       Value: "{363468E7-EBF4-4C31-9C89-E9C914FF654D}"
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: Portal
+      Value: Your Accounts
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Portal
