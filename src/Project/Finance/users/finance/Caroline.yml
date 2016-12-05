@@ -3,7 +3,7 @@ Username: |
   finance\Caroline
 Email: CarolineHarris@sitecore.net
 Comment: The most important part of my work is writing the content, not using the software.
-Created: "2016-12-01T09:18:22.0000000Z"
+Created: "2016-12-04T23:39:45.0000000Z"
 IsApproved: True
 Properties:
 - Key: FullName
@@ -15,7 +15,7 @@ Properties:
   ValueType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   IsCustom: False
 - Key: Portrait
-  Value: office/16x16/default_user.png
+  Value: office/16x16/woman_1.png
   ValueType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   IsCustom: False
 - Key: ProfileItemId

@@ -40,7 +40,9 @@
     "font-awesome": "4.4.0",
     "ekko-lightbox": "~4.0.1",
     "ace-builds": "~1.2.3",
-    "imagesloaded": "~4.1.0"
+    "imagesloaded": "~4.1.0",
+    "bootstrap-colequalizer": "^1.1.0",
+    "chart.js": "^2.4.0"
   },
   "overrides": {
     "bootstrap-sass": {
@@ -66,14 +68,13 @@
     "chai": "~3.4.2",
     "mocha": "~2.3.4"
   },
-  "_release": "31b5906b6a",
+  "_release": "49d2636ce2",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "31b5906b6ab35a8db7c2e8399a435ce803d031b5"
+    "commit": "49d2636ce294267ea9ba3bbe560e524f9069b64f"
   },
   "_source": "https://github.com/Sitecore/Sitecore.Demo.Theme.git",
   "_target": "*",
-  "_originalSource": "https://github.com/Sitecore/Sitecore.Demo.Theme.git",
-  "_direct": true
+  "_originalSource": "https://github.com/Sitecore/Sitecore.Demo.Theme.git"
 }

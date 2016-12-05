@@ -1,0 +1,25 @@
+﻿---
+ID: "9c41315b-f6c8-4215-8b64-2416e6205dc8"
+Parent: "34f8e555-3145-4456-85e4-9ffe4bcc915d"
+Template: "24d19d8f-907b-47b7-9703-6174e760bd91"
+Path: /sitecore/templates/Branches/Finance/General Campaign/$name/Message Root/Main Content
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "18b3ef15-ec40-46fe-b03d-26cb3db243cb"
+      Hint: Image
+      Value: |
+        <image mediaid="{A89EF7CF-32F6-49D5-ADFA-D03C2C98D99D}" />
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: Main Content
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T021853Z

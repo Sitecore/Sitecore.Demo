@@ -1,0 +1,14 @@
+﻿---
+ID: "1e158d61-2b78-4a2d-82c1-40976f01b26c"
+Parent: "060d3d50-c5e0-4d4d-846e-5793e271979b"
+Template: "f94f28f6-5b19-42f2-9164-1e21023e03ee"
+Path: /sitecore/content/Finance/Global/Employees
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161202T033616Z
