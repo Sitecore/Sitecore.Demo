@@ -1,0 +1,27 @@
+﻿---
+ID: "a7c8de74-bd90-4953-871c-3c6b95268064"
+Parent: "cc627e1f-e3dd-4006-8093-3c80d575c24d"
+Template: "45fb02e9-70b3-4cfe-8050-06ead4b5db3e"
+Path: "/sitecore/system/Marketing Control Panel/Test Lab/Finance/First Time Buyer Sign-Up"
+DB: master
+SharedFields:
+- ID: "30f291c9-cf14-41bf-8173-1ee796e423d1"
+  Hint: Device
+  Value: "{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+- ID: "54ab2781-4a1b-4db3-86be-1797fd041af3"
+  Hint: Name
+  Value: "First Time Buyer Sign-Up"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{2BAE793F-7392-4790-9E67-9C60B6BF7D7B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161124T154622Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{0649FDB7-3E01-4543-9D70-DE0F8CCB5304}"
