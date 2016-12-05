@@ -23,7 +23,7 @@ Languages:
                 </p>
                 <div>
                     <canvas id="spendingChart" width="400" height="200" class="img-responsive" onload="showChart()"></canvas>
-                    <script src="/bower_components/chart.js/dist/Chart.js"></script>
+                    <script src="/scripts/Chart.min.js"></script>
                     <script>
                         var ctx = document.getElementById("spendingChart");
                         var options = {
