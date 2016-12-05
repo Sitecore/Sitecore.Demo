@@ -8,6 +8,9 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 800
+- ID: "cd904125-3ae5-4709-9e6d-71473c5d5007"
+  Hint: Root
+  Value: "{EEA2316B-D42A-4BE9-97C0-F9EFE34AB8C2}"
 Languages:
 - Language: en
   Versions:

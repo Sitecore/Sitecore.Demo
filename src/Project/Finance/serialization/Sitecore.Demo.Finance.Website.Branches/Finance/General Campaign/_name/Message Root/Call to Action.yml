@@ -1,0 +1,21 @@
+﻿---
+ID: "fc2bed2b-be0d-41c3-bcbd-4312299ed990"
+Parent: "34f8e555-3145-4456-85e4-9ffe4bcc915d"
+Template: "24d19d8f-907b-47b7-9703-6174e760bd91"
+Path: /sitecore/templates/Branches/Finance/General Campaign/$name/Message Root/Call to Action
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: Call to Action
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T021903Z
+    - ID: "2e2c5fb3-ff5b-4f13-aa18-cfba9c9a97d3"
+      Hint: Link
+      Value: |
+        <link text="Read More" linktype="internal" class="" title="" target="" querystring="" id="{97F499E7-0DCA-43CF-AA06-8954A5426166}" />

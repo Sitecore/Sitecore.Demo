@@ -1,0 +1,33 @@
+﻿---
+ID: "ebca564a-62ef-471a-b8aa-3ddb40226732"
+Parent: "34f8e555-3145-4456-85e4-9ffe4bcc915d"
+Template: "957ac850-52c7-4add-907b-7d557eb6b14f"
+Path: /sitecore/templates/Branches/Finance/General Campaign/$name/Message Root/Options
+DB: master
+SharedFields:
+- ID: "1b417f04-7923-4826-b999-5b064d4eaa57"
+  Hint: Font Family
+  Value: "Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif"
+- ID: "4bafec3d-21bb-4278-9df0-7d66c137bdeb"
+  Hint: Before Body Html
+  Value: |
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open Sans:400,700,400italic);
+    </style>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+- ID: "cb3d04a8-b195-4f13-ab0b-b8c320ac66d5"
+  Hint: Content Font Size
+  Value: 14px
+- ID: "eb627abe-e800-41f9-90f8-82435f287243"
+  Hint: Heading Font Size
+  Value: 20px
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T021914Z

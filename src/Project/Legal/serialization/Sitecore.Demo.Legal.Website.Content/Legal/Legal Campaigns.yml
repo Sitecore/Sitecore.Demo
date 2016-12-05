@@ -15,6 +15,9 @@ SharedFields:
 - ID: "52d572ad-9678-423f-96e2-477528418ba1"
   Hint: "Global Opt-out List"
   Value: "345043e9-8a82-4c3c-a74e-f42c355dbda4"
+- ID: "5c4af5b4-52d0-4db7-ac78-4eb030d6edc2"
+  Hint: Subscriber Profile
+  Value: "{DEDEEE27-A46D-4317-B49D-ECDB7D5378EC}"
 - ID: "943d8e5d-b924-41f8-ba1e-e0b630960e6e"
   Hint: Preview base URL
   Value: "http://legal.dev.local"

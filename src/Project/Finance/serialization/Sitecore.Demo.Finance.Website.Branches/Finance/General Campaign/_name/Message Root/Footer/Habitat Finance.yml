@@ -1,0 +1,18 @@
+﻿---
+ID: "869a4efd-2aa5-4592-a935-5da0547ec3bc"
+Parent: "65fc65a6-8c27-4d94-8fb1-71287de9c0c7"
+Template: "f0818351-eed1-453e-8325-684eeb1a827a"
+Path: /sitecore/templates/Branches/Finance/General Campaign/$name/Message Root/Footer/Habitat Finance
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T034925Z
+    - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
+      Hint: Link
+      Value: |
+        <link text="Habitat Financial" linktype="internal" class="" title="" target="" querystring="" id="{97F499E7-0DCA-43CF-AA06-8954A5426166}" />
