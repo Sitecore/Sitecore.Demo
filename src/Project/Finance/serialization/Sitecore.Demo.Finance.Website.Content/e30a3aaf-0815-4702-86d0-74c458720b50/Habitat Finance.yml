@@ -1,0 +1,19 @@
+﻿---
+ID: "17f84728-f0ec-4d5d-a271-5299471fc3d3"
+Parent: "e30a3aaf-0815-4702-86d0-74c458720b50"
+Template: "f0818351-eed1-453e-8325-684eeb1a827a"
+Path: /sitecore/content/Finance/Finance Campaigns/Messages/2016/12/06T155206/Future of Banking/Message Root/Footer/Habitat Finance
+DB: master
+BranchID: "d39fc088-90c8-4be8-8d63-c63f8552c6a9"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161206T155207Z
+    - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
+      Hint: Link
+      Value: |
+        <link text="Habitat Financial" linktype="internal" class="" title="" target="" querystring="" id="{97F499E7-0DCA-43CF-AA06-8954A5426166}" />

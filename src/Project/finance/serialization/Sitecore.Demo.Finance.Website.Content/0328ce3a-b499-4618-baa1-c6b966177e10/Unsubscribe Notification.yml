@@ -13,9 +13,18 @@ SharedFields:
   Hint: Exclude From Reports
   Type: Checkbox
   Value: 1
+- ID: "6ec7a9e6-9fd5-4892-bbf6-11e76e0e5db8"
+  Hint: Start Time
+  Value: 20161206T172145Z
+- ID: "78f0b1f8-fdf4-4c1c-bec6-1ac68a210a52"
+  Hint: Campaign
+  Value: 
 - ID: "af0fe26a-a78b-491d-885c-03d95bc17342"
   Hint: State
   Value: Active
+- ID: "ed5a9033-96ed-41f8-9731-7499c55ecbfa"
+  Hint: Engagement Plan
+  Value: "{07615A8C-85BE-4FD2-A140-757388155A25}"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout

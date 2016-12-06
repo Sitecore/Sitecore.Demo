@@ -1,0 +1,33 @@
+﻿---
+ID: "2d7389b2-9300-4971-8685-23297a300403"
+Parent: "3e30e70b-9a5f-4392-8ba1-ab9d174bf73a"
+Template: "24d19d8f-907b-47b7-9703-6174e760bd91"
+Path: /sitecore/content/Finance/Finance Campaigns/Messages/2016/12/06T155206/October Finance Newsletter/Message Root/Main Content
+DB: master
+BranchID: "d39fc088-90c8-4be8-8d63-c63f8552c6a9"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "18b3ef15-ec40-46fe-b03d-26cb3db243cb"
+      Hint: Image
+      Value: |
+        <image mediaid="{A7C97E7A-9C2D-4EFF-9E52-DF88ACB92413}" />
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: October Finance Newsletter
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161206T160108Z
+    - ID: "94d50f81-f040-4b51-b895-d2fd2c27c223"
+      Hint: Content
+      Value: |
+        <p>Welcome to the October finance newsletter.</p>
+        <p>In this issue we have all the latest news and information for this month from the world of personal and business finance. We also let you know about any new products and services of which we think you might have an interest. The product information in this newsletter is kept to a minimum. We all know how annoying it can be when companies feed product information to you continuously so we try not to do that.</p>
+        <p>&nbsp;</p>
+        <br>

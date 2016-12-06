@@ -1,0 +1,18 @@
+﻿---
+ID: "8f299a64-f259-4049-8928-23d3a57bfe72"
+Parent: "452f2c4e-3eb4-4874-80fc-242b954961fd"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Marketing Control Panel/Campaigns/Finance/Emails/2016/12
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161206T164609Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

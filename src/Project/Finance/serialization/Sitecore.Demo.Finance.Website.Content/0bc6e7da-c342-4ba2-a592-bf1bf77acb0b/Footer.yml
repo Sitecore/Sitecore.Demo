@@ -1,0 +1,19 @@
+﻿---
+ID: "f8e83037-f3c8-44e8-a07d-d9603de35ffa"
+Parent: "0bc6e7da-c342-4ba2-a592-bf1bf77acb0b"
+Template: "bcdbb585-dcbb-4459-a797-6d86eaeb7403"
+Path: /sitecore/content/Finance/Finance Campaigns/Messages/2016/12/06T155206/December Finance News/Message Root/Footer
+DB: master
+BranchID: "d39fc088-90c8-4be8-8d63-c63f8552c6a9"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161206T160108Z

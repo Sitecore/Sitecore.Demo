@@ -1,0 +1,19 @@
+﻿---
+ID: "89f86816-42ee-41d4-9d98-fbb1e3bd0813"
+Parent: "f8e83037-f3c8-44e8-a07d-d9603de35ffa"
+Template: "f0818351-eed1-453e-8325-684eeb1a827a"
+Path: /sitecore/content/Finance/Finance Campaigns/Messages/2016/12/06T155206/December Finance News/Message Root/Footer/Unsubscribe
+DB: master
+BranchID: "d39fc088-90c8-4be8-8d63-c63f8552c6a9"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161206T160108Z
+    - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
+      Hint: Link
+      Value: |
+        <link text="Unsubscribe" linktype="external" url="/sitecore/unsubscribe.aspx" anchor="" target="" />
