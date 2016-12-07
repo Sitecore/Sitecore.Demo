@@ -3,7 +3,7 @@ Username: |
   legal\Caroline
 Email: CarolineHarris@sitecore.net
 Comment: “The most important part of my work is writing the content, not using the software.”
-Created: "2016-11-30T23:59:16.0000000Z"
+Created: "2016-11-23T14:23:30.0000000Z"
 IsApproved: True
 Properties:
 - Key: |
@@ -38,11 +38,11 @@ Properties:
   ValueType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   IsCustom: False
 - Key: digestcredentialhash
-  Value: 0cbf35d93e14e4cc69ddd8dddea35353
+  Value: 0310af8e1109b1fc1fe22ba41868c7df
   ValueType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   IsCustom: True
 - Key: digestcredentialhashwithoutdomain
-  Value: 9feffd7a0c1725e5a83ff5020b054833
+  Value: 702ae2afbcb50721f0326ae62600eddd
   ValueType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   IsCustom: True
 Roles:

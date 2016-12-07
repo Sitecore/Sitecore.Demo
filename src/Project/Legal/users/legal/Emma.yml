@@ -3,7 +3,7 @@ Username: |
   legal\Emma
 Email: EmmaParker@sitecore.net
 Comment: What stresses me out is getting marketing requests from multiple places, and everybody wanting their stuff done first.
-Created: "2016-11-30T23:59:16.0000000Z"
+Created: "2016-11-23T14:23:30.0000000Z"
 IsApproved: True
 Properties:
 - Key: |
@@ -33,11 +33,11 @@ Properties:
   ValueType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   IsCustom: False
 - Key: digestcredentialhash
-  Value: 79cbb39ca2c4f823a210dfab42626308
+  Value: 45b86d82e5ef145ce15b49990df847d1
   ValueType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   IsCustom: True
 - Key: digestcredentialhashwithoutdomain
-  Value: 568fac80f4a4e4dc4bd605f1a2097c7a
+  Value: 8b2cf961643616c649421197712384ad
   ValueType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   IsCustom: True
 - Key: sc_RssSalt
