@@ -12,7 +12,8 @@ Languages:
     Fields:
     - ID: "18b3ef15-ec40-46fe-b03d-26cb3db243cb"
       Hint: Image
-      Value: "<image mediaid=\"{8BFEA0E2-BB15-4DDE-B9C6-2F487538A5B4}\" />"
+      Value: |
+        <image mediaid="{8BFEA0E2-BB15-4DDE-B9C6-2F487538A5B4}" />
     - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
       Hint: Heading
       Value: Shane Nevins Joins Our Team
@@ -21,7 +22,9 @@ Languages:
       Value: 20160907T152706Z
     - ID: "2e2c5fb3-ff5b-4f13-aa18-cfba9c9a97d3"
       Hint: Link
-      Value: "<link linktype=\"internal\" text=\"Read More\" querystring=\"\" target=\"\" id=\"{F84917ED-9ACA-4A6F-B65F-00E6B209D371}\" />"
+      Value: |
+        <link linktype="internal" text="Read More" querystring="" target="" id="{F84917ED-9ACA-4A6F-B65F-00E6B209D371}" />
     - ID: "94d50f81-f040-4b51-b895-d2fd2c27c223"
       Hint: Content
-      Value: "<p style=\"margin: 0cm 0cm 8pt;\">The most significant news since our June newsletter is that Shane Nevins has joined the team as a Shareholder. Shane was originally a trial lawyer, but is now focused on counselling production companies, direct response companies and multi-level marketing organizations. You can read all about Shane in his profile on our web site.</p>"
+      Value: |
+        <p style="margin: 0cm 0cm 8pt;">The most significant news since our June newsletter is that Shane Nevins has joined the team as a Shareholder. Shane was originally a trial lawyer, but is now focused on counselling production companies, direct response companies and multi-level marketing organizations. You can read all about Shane in his profile on our web site.</p>

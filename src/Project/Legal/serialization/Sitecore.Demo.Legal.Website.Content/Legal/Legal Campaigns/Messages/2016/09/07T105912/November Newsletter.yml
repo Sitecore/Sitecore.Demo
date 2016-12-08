@@ -21,6 +21,9 @@ SharedFields:
 - ID: "2bbf5276-ed11-4cd0-946f-66678b524457"
   Hint: Campaign Position
   Value: "{0A1E7823-DCCE-4BFE-8970-41EFADEABE1C}"
+- ID: "6ec7a9e6-9fd5-4892-bbf6-11e76e0e5db8"
+  Hint: Start Time
+  Value: 20151110T230000Z
 - ID: "707da4ae-1861-447c-a81f-890966c9e119"
   Hint: External Links
   Value: "http://www.sitecore.net"
@@ -31,13 +34,19 @@ SharedFields:
   Hint: __Read Only
   Type: Checkbox
   Value: 0
+- ID: "ac436b75-b307-4409-8479-e299ace64859"
+  Hint: End Time
+  Value: 20151115T230000Z
 - ID: "af0fe26a-a78b-491d-885c-03d95bc17342"
   Hint: State
   Value: Sent
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
 - ID: "ccf21e1b-ee11-4a0b-942a-b4de2dfa3685"
   Hint: Excluded Recipient Lists
   Type: TreelistEx
-  Value: "{345043E9-8A82-4C3C-A74E-F42C355DBDA4}"
+  Value: 
 - ID: "ed5a9033-96ed-41f8-9731-7499c55ecbfa"
   Hint: Engagement Plan
   Value: "{D5DD129E-DF94-4039-BB65-D38BA49ECEE3}"
@@ -96,9 +105,7 @@ SharedFields:
 - ID: "f8d592cc-f3e5-4a8e-a600-8aebe8cc36e4"
   Hint: Included Recipient Lists
   Type: TreelistEx
-  Value: |
-    {EB83E11E-9D6A-4B2E-A61E-5A029B84A277}
-    {C96132CF-03A2-4A6F-AD45-8C8B47EBE6DF}
+  Value: "{4D6A2E5D-3F71-410D-973E-2903F1BF47DA}"
 - ID: "fade34d8-c101-420d-9620-e4deb659c36b"
   Hint: Campaign Group
   Value: "{AB2F413C-4854-48EB-B7EB-6FD2E8142B19}"
@@ -120,15 +127,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160920T172212Z
-    - ID: "6ec7a9e6-9fd5-4892-bbf6-11e76e0e5db8"
-      Hint: Start Time
-      Value: 20151110T230000Z
     - ID: "8436a90c-85c0-4f16-8373-393c4c0a82c6"
       Hint: From Name
       Value: no_reply@sitecore.net
-    - ID: "ac436b75-b307-4409-8479-e299ace64859"
-      Hint: End Time
-      Value: 20151115T230000Z
     - ID: "ced0c05f-d1cb-46e9-875b-e2c01eec85bc"
       Hint: Reply To
       Value: no_reply@sitecore.net

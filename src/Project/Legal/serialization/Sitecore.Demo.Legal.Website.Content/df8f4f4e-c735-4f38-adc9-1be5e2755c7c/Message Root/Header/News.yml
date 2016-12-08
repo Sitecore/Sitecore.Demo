@@ -15,4 +15,5 @@ Languages:
       Value: 20160915T093236Z
     - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
       Hint: Link
-      Value: "<link text=\"News\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{8235F890-E581-4F79-8ACF-B04F90CCC0DD}\" />"
+      Value: |
+        <link text="News" linktype="internal" class="" title="" target="" querystring="" id="{8235F890-E581-4F79-8ACF-B04F90CCC0DD}" />

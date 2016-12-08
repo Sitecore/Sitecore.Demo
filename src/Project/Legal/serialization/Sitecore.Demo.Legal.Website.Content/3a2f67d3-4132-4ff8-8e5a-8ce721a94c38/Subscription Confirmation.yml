@@ -14,13 +14,13 @@ SharedFields:
   Value: 20161129T043519Z
 - ID: "78f0b1f8-fdf4-4c1c-bec6-1ac68a210a52"
   Hint: Campaign
-  Value: "{029F1A0E-90F0-4D35-BC5A-CE787F2CC02C}"
+  Value: 
 - ID: "af0fe26a-a78b-491d-885c-03d95bc17342"
   Hint: State
   Value: Active
 - ID: "ed5a9033-96ed-41f8-9731-7499c55ecbfa"
   Hint: Engagement Plan
-  Value: "{13C8E855-EE47-484E-B3DE-9FBEB134A983}"
+  Value: 
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout

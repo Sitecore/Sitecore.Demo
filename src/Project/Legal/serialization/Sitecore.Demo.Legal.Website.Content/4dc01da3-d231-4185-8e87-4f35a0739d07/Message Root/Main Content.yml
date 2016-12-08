@@ -16,7 +16,8 @@ Languages:
     Fields:
     - ID: "18b3ef15-ec40-46fe-b03d-26cb3db243cb"
       Hint: Image
-      Value: "<image mediaid=\"{2E09CA0B-B74A-45D2-BDF2-23D51597CB8B}\" />"
+      Value: |
+        <image mediaid="{2E09CA0B-B74A-45D2-BDF2-23D51597CB8B}" />
     - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
       Hint: Heading
       Value: "What’s the best choice of entity for your client’s startup?"
