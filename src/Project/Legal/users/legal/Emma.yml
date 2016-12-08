@@ -33,11 +33,11 @@ Properties:
   ValueType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   IsCustom: False
 - Key: digestcredentialhash
-  Value: 45b86d82e5ef145ce15b49990df847d1
+  Value: 79cbb39ca2c4f823a210dfab42626308
   ValueType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   IsCustom: True
 - Key: digestcredentialhashwithoutdomain
-  Value: 8b2cf961643616c649421197712384ad
+  Value: 568fac80f4a4e4dc4bd605f1a2097c7a
   ValueType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   IsCustom: True
 - Key: sc_RssSalt
