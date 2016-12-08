@@ -118,6 +118,23 @@ Languages:
                     </actions>
                   </rule>
                   <rule
+                    uid="{9B2EF9D7-5A64-4F69-BD25-5A10B8B290C4}"
+                    s:name="Ingrid the Investor">
+                    <conditions>
+                      <condition
+                        uid="174C9CADB20E4A6092735041DD5F5111"
+                        s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                        s:ProfileName="Finance Persona"
+                        s:PatternName="Ingrid the Investor B2C" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="585D7F64C7A948C299287DE474EB5868"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{1EB04BAE-923E-40F4-82A5-2E3BB676528C}" />
+                    </actions>
+                  </rule>
+                  <rule
                     uid="{00000000-0000-0000-0000-000000000000}"
                     s:name="Default">
                     <conditions>
@@ -146,7 +163,33 @@ Languages:
               s:ds="{448A5C5B-9A5D-4BC2-8B24-5D1F6970679D}"
               s:id="{8B28417B-A5B3-44F1-BFCC-FE1D907336E7}"
               s:par=""
-              s:ph="page-layout" />
+              s:ph="page-layout">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{58CA2DD8-F96B-4A12-83C1-3BB72A83DFDA}"
+                    s:name="Ingrid the Investor">
+                    <conditions>
+                      <condition
+                        uid="45BE32CD0F704D44A3BC9D9D40E7D15E"
+                        s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                        s:ProfileName="Finance Persona"
+                        s:PatternName="Ingrid the Investor B2C" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="7E3057094F9B4BC8BA874CF4AD195CF2"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r
               uid="{E2B2DE94-6849-4A33-AFCE-968B0643A2FD}"
               p:after="r[@uid='{6C687EE2-A4F3-468C-9010-0D2DB37B506F}']"

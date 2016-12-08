@@ -20,16 +20,16 @@ SharedFields:
       <profile
         id="{76474166-02C0-4008-9602-F05E9156FB37}"
         name="Finance Persona"
-        presets="everyday elizabeth|100||">
+        presets="ingrid the investor|100||">
         <key
           name="B2B Bank to Bank"
           value="0" />
         <key
           name="Large Corporate Business"
-          value="0" />
+          value="1" />
         <key
           name="Personal_Family Finances"
-          value="0" />
+          value="3" />
         <key
           name="SMB Financial Services"
           value="0" />
