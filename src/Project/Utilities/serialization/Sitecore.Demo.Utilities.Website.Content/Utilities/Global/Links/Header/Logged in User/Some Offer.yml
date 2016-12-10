@@ -1,0 +1,21 @@
+﻿---
+ID: "66018d59-7f18-4778-a70a-5a100ae0d734"
+Parent: "8d708d48-1e1d-4838-a978-bbb796246754"
+Template: "390333c8-751b-4332-84a3-6360b969a19f"
+Path: /sitecore/content/Utilities/Global/Links/Header/Logged in User/Some Offer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Some Offer
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161210T104241Z
+    - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
+      Hint: Link
+      Value: |
+        <link text="" linktype="internal" class="" title="" target="" querystring="" id="{17387CCE-3557-4C84-B210-689EAB31177E}" />

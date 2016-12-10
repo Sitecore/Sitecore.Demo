@@ -2,7 +2,7 @@
 ID: "9d255767-6f4a-4fee-ac66-648ff85b7732"
 Parent: "1047254a-9563-4e27-af15-e0b7ebeaaf5c"
 Template: "2bfef830-9b6c-4b20-8178-2f629c367e93"
-Path: /sitecore/system/Settings/Security/Profiles/Utilities/FinanceUser
+Path: /sitecore/system/Settings/Security/Profiles/Utilities/UtilitiesUser
 DB: core
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"

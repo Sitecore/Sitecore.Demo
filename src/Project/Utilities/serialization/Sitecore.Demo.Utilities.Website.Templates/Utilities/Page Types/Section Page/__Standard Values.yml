@@ -41,7 +41,58 @@ SharedFields:
           ds="{DF2748E0-A914-41CF-8507-D0F23AE1C5FF}"
           id="{69B9C355-004B-4268-BB1E-2F725B8752B7}"
           ph="navbar-right"
-          uid="{FD7D73DF-C852-45B5-B2FC-EC9B06B03F39}" />
+          uid="{FD7D73DF-C852-45B5-B2FC-EC9B06B03F39}">
+          <rls>
+            <ruleset>
+              <rule
+                name="Logged in"
+                uid="{580C88B0-18C9-46B8-B003-7CA29900368F}">
+                <conditions>
+                  <condition
+                    id="{EA0642FA-500B-4B2F-B264-765E771C516F}"
+                    uid="5FE2B2FDB2F44900A4CC86C5FFC466CE"
+                    except="true" />
+                </conditions>
+                <actions>
+                  <action
+                    id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    uid="F33EE96994B747C181D9BC37C3754F01"
+                    DataSource="{8D708D48-1E1D-4838-A978-BBB796246754}" />
+                </actions>
+              </rule>
+              <rule
+                name="Known Visitor"
+                uid="{4472F12C-DFE0-4B27-B6A8-55F9E3BD05F2}">
+                <conditions>
+                  <condition
+                    id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
+                    uid="68C1AD3604C446938932E71B64816644"
+                    GoalId="{66722F52-2D13-4DCC-90FC-EA7117CF2298}"
+                    NumberOfElapsedDaysOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}"
+                    NumberOfElapsedDays="0"
+                    NumberOfPastInteractionsOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}"
+                    NumberOfPastInteractions="0" />
+                </conditions>
+                <actions>
+                  <action
+                    id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    uid="50C603EFAB784903BEBDD5348D15128E"
+                    DataSource="{B5515AD4-AF94-4ED2-AC38-5C6F502C8FCA}" />
+                </actions>
+              </rule>
+              <rule
+                uid="{00000000-0000-0000-0000-000000000000}"
+                name="Default">
+                <conditions>
+                  <condition
+                    id="{4888ABBB-F17D-4485-B14B-842413F88732}"
+                    uid="228D23FFA4434A86B389200A08E7D41D" />
+                </conditions>
+                <actions />
+              </rule>
+            </ruleset>
+          </rls>
+        </r>
         <r
           id="{53B085DB-6824-4941-9F28-9011CB151832}"
           ph="navbar-left"
@@ -73,9 +124,18 @@ SharedFields:
           uid="{80CC0D5F-6378-4B9D-9B40-FFA393167064}" />
         <r
           id="{D201A487-5099-48A1-8189-55944F70C6CB}"
-          par="UseStaticPlaceholderNames=0"
+          par="UseStaticPlaceholderNames=1"
           ph="page-layout"
           uid="{FFAECB7A-9C81-4792-B3DB-4D2EB7CBA8B8}" />
+        <r
+          id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+          par="UseStaticPlaceholderNames=1"
+          ph="/page-layout/section"
+          uid="{4C6C6A2D-DD69-4B0C-918D-8786579FE715}" />
+        <r
+          id="{84924ABF-F983-4AF5-9002-EA0237A53DA9}"
+          ph="/page-layout/section/col-huge"
+          uid="{545FE3D8-5734-4105-9367-8922A26F91BC}" />
         <r
           id="{299FD8EA-2CFD-4A69-9CA4-7EA24CD34A46}"
           ph="footer"

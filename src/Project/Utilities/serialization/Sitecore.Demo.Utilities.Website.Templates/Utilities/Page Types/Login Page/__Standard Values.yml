@@ -45,7 +45,58 @@ SharedFields:
           ds="{DF2748E0-A914-41CF-8507-D0F23AE1C5FF}"
           id="{69B9C355-004B-4268-BB1E-2F725B8752B7}"
           ph="navbar-right"
-          uid="{7E3C4BE3-E39F-4DC7-944B-A03955AE4942}" />
+          uid="{7E3C4BE3-E39F-4DC7-944B-A03955AE4942}">
+          <rls>
+            <ruleset>
+              <rule
+                name="Logged in"
+                uid="{580C88B0-18C9-46B8-B003-7CA29900368F}">
+                <conditions>
+                  <condition
+                    id="{EA0642FA-500B-4B2F-B264-765E771C516F}"
+                    uid="5FE2B2FDB2F44900A4CC86C5FFC466CE"
+                    except="true" />
+                </conditions>
+                <actions>
+                  <action
+                    id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    uid="F33EE96994B747C181D9BC37C3754F01"
+                    DataSource="{8D708D48-1E1D-4838-A978-BBB796246754}" />
+                </actions>
+              </rule>
+              <rule
+                name="Known Visitor"
+                uid="{4472F12C-DFE0-4B27-B6A8-55F9E3BD05F2}">
+                <conditions>
+                  <condition
+                    id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
+                    uid="68C1AD3604C446938932E71B64816644"
+                    GoalId="{66722F52-2D13-4DCC-90FC-EA7117CF2298}"
+                    NumberOfElapsedDaysOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}"
+                    NumberOfElapsedDays="0"
+                    NumberOfPastInteractionsOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}"
+                    NumberOfPastInteractions="0" />
+                </conditions>
+                <actions>
+                  <action
+                    id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    uid="50C603EFAB784903BEBDD5348D15128E"
+                    DataSource="{B5515AD4-AF94-4ED2-AC38-5C6F502C8FCA}" />
+                </actions>
+              </rule>
+              <rule
+                uid="{00000000-0000-0000-0000-000000000000}"
+                name="Default">
+                <conditions>
+                  <condition
+                    id="{4888ABBB-F17D-4485-B14B-842413F88732}"
+                    uid="228D23FFA4434A86B389200A08E7D41D" />
+                </conditions>
+                <actions />
+              </rule>
+            </ruleset>
+          </rls>
+        </r>
         <r
           id="{53B085DB-6824-4941-9F28-9011CB151832}"
           ph="navbar-left"
@@ -77,9 +128,22 @@ SharedFields:
           uid="{31BF1630-3A89-40BF-A9C8-DDF1DD2DFE0F}" />
         <r
           id="{D201A487-5099-48A1-8189-55944F70C6CB}"
-          par="UseStaticPlaceholderNames=0"
+          par="UseStaticPlaceholderNames=1"
           ph="page-layout"
-          uid="{871D40A9-1841-4B1F-8EA6-FB270D89A749}" />
+          uid="{AC9FA2D9-4794-4726-8040-7B056583A43F}" />
+        <r
+          id="{1B92270B-EC01-4939-B579-0ADFEB758A95}"
+          par="UseStaticPlaceholderNames=1"
+          ph="/page-layout/section"
+          uid="{D3674786-C04C-41DA-9FFF-0D2BD4BDBE71}" />
+        <r
+          id="{5899FE6B-2AD7-4243-B1F9-3BC664CF0A7C}"
+          ph="/page-layout/section/col-wide-1"
+          uid="{C2BCEB15-5AC0-48F8-B43A-A932E20808FA}" />
+        <r
+          id="{914673DC-FC44-4660-B6EB-FF421FAAC2F9}"
+          ph="/page-layout/section/col-wide-2"
+          uid="{45A0026C-B615-4B04-AF12-C333C73F56AB}" />
         <r
           id="{299FD8EA-2CFD-4A69-9CA4-7EA24CD34A46}"
           ph="footer"
