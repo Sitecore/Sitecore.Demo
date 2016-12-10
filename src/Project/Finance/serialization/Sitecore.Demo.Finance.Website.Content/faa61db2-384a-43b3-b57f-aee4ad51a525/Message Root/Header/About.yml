@@ -1,0 +1,19 @@
+﻿---
+ID: "13721601-5d3f-4ba7-8551-14561244b6be"
+Parent: "19d331ef-3087-4869-a8a3-8db54396f76d"
+Template: "8e030bf6-9218-490e-b029-a5af48619e83"
+Path: /sitecore/content/Finance/Finance Campaigns/Messages/2016/12/06T155206/December Finance Newsletter/Message Root/Header/About
+DB: master
+BranchID: "d39fc088-90c8-4be8-8d63-c63f8552c6a9"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161210T134051Z
+    - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
+      Hint: Link
+      Value: |
+        <link text="About Us" linktype="internal" class="" title="" target="" querystring="" id="{305010AA-074F-47B1-903E-F7D8569062A8}" />

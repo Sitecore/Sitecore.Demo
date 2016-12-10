@@ -17,7 +17,7 @@ SharedFields:
   Value: Q2 Newsletter
 - ID: "63087a5b-2ea8-4f1b-811b-a82c0ecf52af"
   Hint: Recipients
-  Value: 298
+  Value: 277
 - ID: "84e7df9e-a319-417b-a15d-84b40ea2d8e4"
   Hint: BulkOperationsId
   Type: Multilist
