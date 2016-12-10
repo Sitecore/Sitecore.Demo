@@ -1,0 +1,152 @@
+﻿---
+ID: "5b95ad23-3c16-4488-89c5-d501994cbdcf"
+Parent: "8ab5ceee-aec0-4427-b8fb-efa50dba719e"
+Template: "8ab5ceee-aec0-4427-b8fb-efa50dba719e"
+Path: /sitecore/templates/Project/Utilities/Page Types/Forgot Password Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "8d5c486e-a0e3-4dbe-9a4a-cdff93594bda"
+  Hint: IncludeInSearchResults
+  Type: Checkbox
+  Value: 0
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{89C954A2-1E82-4989-B5BE-7459D0F3CF41}">
+        <r
+          id="{E7AE3F87-CF66-40F2-A9F5-33ECF08BC777}"
+          ph="head"
+          uid="{428215DD-B1B1-4952-9D28-6073663DAADC}" />
+        <r
+          id="{3389CAFC-000C-41E5-921C-92821B3DB7B5}"
+          ph="head"
+          uid="{46A2C4D6-EF79-421F-8C92-093F9D944104}" />
+        <r
+          id="{C28B9C5F-8E01-42EC-ADF6-3324FAF92C7D}"
+          ph="header-top"
+          uid="{40361EF2-50E1-4CD1-B882-6449F3D09042}" />
+        <r
+          id="{BBA7D57B-61D3-426A-9099-CB4212BF721E}"
+          ph="navbar"
+          uid="{05C99295-BB6D-4025-B8A1-39AA231451B3}" />
+        <r
+          id="{A47C8288-7D4C-45FF-B75F-4AEDBF58A02D}"
+          ph="navbar-top-left"
+          uid="{E3C5BDB4-2407-44C8-9CA9-ECF9DA686C63}" />
+        <r
+          ds="{DF2748E0-A914-41CF-8507-D0F23AE1C5FF}"
+          id="{69B9C355-004B-4268-BB1E-2F725B8752B7}"
+          ph="navbar-right"
+          uid="{7EBB9C87-2255-4BCB-8EEA-0F98A7EEC637}" />
+        <r
+          id="{53B085DB-6824-4941-9F28-9011CB151832}"
+          ph="navbar-left"
+          uid="{55429736-CE86-4910-A786-53DAC00A9507}" />
+        <r
+          id="{8832BA30-99C3-4D20-9B1C-237D910A153F}"
+          ph="navbar-top-right"
+          uid="{F4B837C7-BF70-470A-99A1-ADFD536DFD55}" />
+        <r
+          id="{604ECBB6-2BBF-45AF-AC6E-BA9F853E7A03}"
+          ph="navbar-activity"
+          uid="{DF3682AB-8588-4675-A46E-565EAD602973}" />
+        <r
+          id="{28BD7068-7FF6-4CE6-98E6-85CFE9967E14}"
+          ph="navbar-activity"
+          uid="{9ED2EAAE-F05E-4C00-AB03-56752D4EADB0}" />
+        <r
+          ds="{BE6E1613-B997-45B1-AA2A-27C1BB1AA74C}"
+          id="{8C3A2CFC-18FB-4BF5-8584-50EA88978ED6}"
+          ph="navbar-activity"
+          uid="{C7979AD3-3F45-4EEA-8964-01E968EF78EA}" />
+        <r
+          id="{359A65BB-0A2C-44E5-8C34-DF3ACDBB42A7}"
+          ph="page-layout"
+          uid="{7B7A6F68-F8DD-4133-A85A-8E317362EACC}" />
+        <r
+          id="{45B8E1D9-D522-49E0-B9B7-04C965CC7089}"
+          ph="/page-layout/page-header"
+          uid="{8BAA9A20-A364-4F53-803F-DDC89BE2EB17}" />
+        <r
+          id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+          par="UseStaticPlaceholderNames=0"
+          ph="page-layout"
+          uid="{7B9140AF-B6CB-4BD7-858D-BE2C34D2C8C8}" />
+        <r
+          id="{299FD8EA-2CFD-4A69-9CA4-7EA24CD34A46}"
+          ph="footer"
+          uid="{673B2D1E-9039-41C2-838D-7F03244512FD}" />
+        <r
+          id="{B21C8A38-51BC-4866-9589-6062D6390247}"
+          par="UseStaticPlaceholderNames=1"
+          ph="/footer/section"
+          uid="{2F68372A-3066-4086-AB47-8118C7D75EA9}" />
+        <r
+          ds="{B3766548-F199-41F4-9A25-6C9F663D0C1F}"
+          id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+          ph="/footer/section/col-wide-1"
+          uid="{BE0018CD-33D6-4E32-AA8D-4E55178BFEE6}" />
+        <r
+          ds="{10134198-251C-403B-ACEB-6EBC201263F9}"
+          id="{F366FBA9-EF26-4007-988A-63CB64649C46}"
+          ph="/footer/section/col-narrow-1"
+          uid="{75A1B8D5-B095-4C59-93F1-823473F83886}" />
+        <r
+          id="{CA748838-E6D5-4BAD-9126-CAD10DD1B0DB}"
+          ph="/footer/section/col-narrow-2"
+          uid="{1943EC0E-DEE4-414A-90B6-0ECBA1203858}" />
+        <r
+          id="{7DAE9F23-890F-4E06-99A7-CCEDB74D3D8E}"
+          ph="postfooter"
+          uid="{08958B72-5EDD-403B-9E57-43809E91ADAE}" />
+        <r
+          id="{CED18F24-62C2-445E-B0D9-045E3325297B}"
+          ph="page-sidebar"
+          uid="{996D1973-EF4B-4273-9E88-64356C842A7B}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
+      Hint: OpenGraphTitle
+      Value: $name
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161209T030506Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediapath="/Default Website/cover" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/cover" mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a varius ligula. Donec gravida tellus ut blandit auctor. Mauris urna mauris, convallis vitae euismod nec, elementum vitae dui.
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: $name
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: $name
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Mauris mattis a arcu vitae porttitor. Donec a magna odio. Fusce rutrum purus quis felis laoreet lacinia. Vivamus quis ipsum et libero rutrum posuere. Sed consectetur massa vitae magna hendrerit pharetra at id nunc. In tincidunt nisi eget diam fermentum, sit amet iaculis tellus tristique. Quisque nibh felis, elementum vel malesuada quis, scelerisque in purus. Nulla facilisi. Aenean et velit et neque efficitur cursus vitae non justo. Sed tempus eu mauris non pretium. Ut nunc eros, tempus ornare sem vel, tempor pulvinar tellus. Maecenas venenatis massa vel mauris tincidunt, nec ultricies tellus aliquam. Suspendisse luctus lacus nisi, et maximus dui varius sed.</p>
+        
+        <p>Aliquam nec ipsum quis nisl iaculis maximus sit amet id magna. Duis pulvinar massa libero, nec aliquet enim rutrum nec. Mauris finibus eros eget fermentum imperdiet. Phasellus ullamcorper consectetur pretium. Nullam faucibus gravida finibus. Aenean id tristique urna, ut facilisis nisl. Morbi id diam purus. Proin dictum enim id hendrerit mattis. Maecenas sed ex elit. Aliquam sagittis, arcu non consequat convallis, urna turpis fringilla velit, in congue sem libero id felis. Aenean pellentesque sem nec cursus vehicula. Aenean consequat augue non rutrum porta. Curabitur risus ipsum, cursus id elit sit amet, tempus malesuada purus. Praesent non molestie est.</p>
+        
+        <p>Praesent ut cursus lectus, vel bibendum odio. Aenean interdum neque vitae enim suscipit gravida. Proin suscipit dolor ut risus iaculis vulputate. Morbi elementum, felis vitae aliquet ultricies, nisl purus suscipit odio, at tincidunt orci neque vitae lorem. Proin pellentesque massa vitae ex scelerisque consectetur. Donec viverra sem enim, at tristique velit gravida at. Aenean purus eros, commodo non sollicitudin vitae, viverra sodales lacus. In cursus tortor eget gravida tempor. Vestibulum condimentum purus at sagittis ullamcorper. Ut eu tortor tortor. Ut rhoncus vel enim et elementum. Maecenas laoreet at leo eget laoreet.</p>
+        
+        <p>Curabitur sed arcu id nisl blandit tempor nec ac enim. Phasellus fermentum ac ex non rhoncus. Phasellus aliquet tempor massa et ultricies. Maecenas ultrices ex consectetur sem malesuada, nec vulputate purus lacinia. Suspendisse pharetra sagittis blandit. Sed et ex ligula. Integer faucibus ultrices dolor, semper pretium lectus vehicula vitae.</p>

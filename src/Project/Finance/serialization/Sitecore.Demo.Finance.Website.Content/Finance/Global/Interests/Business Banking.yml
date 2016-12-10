@@ -1,0 +1,17 @@
+﻿---
+ID: "b26c98ea-e8d0-4422-b0ab-f45c160baf62"
+Parent: "d62b82d5-9cdf-4bd4-aef9-69d85bc52876"
+Template: "4176bfc2-7814-4fa5-abcf-7fa0714bf05f"
+Path: /sitecore/content/Finance/Global/Interests/Business Banking
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1fbe5200-2c62-4a32-ba84-cffe3cf665d3"
+      Hint: Title
+      Value: Business Banking
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161209T033154Z

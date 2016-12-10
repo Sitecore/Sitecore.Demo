@@ -1,0 +1,21 @@
+﻿---
+ID: "bc0172ba-82a1-411f-8b3f-78ae54ada626"
+Parent: "d2686e96-de4a-43f7-84ae-2027fab6b21c"
+Template: "c82dc5ff-09ef-4403-96d3-3caf377b8c5b"
+Path: /sitecore/content/Utilities/Settings/Datasources/identity
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160112T102337Z
+    - ID: "498dd5b6-7dae-44a7-9213-1d32596ad14f"
+      Hint: DatasourceTemplate
+      Value: /sitecore/templates/Feature/Identity/_Identity
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

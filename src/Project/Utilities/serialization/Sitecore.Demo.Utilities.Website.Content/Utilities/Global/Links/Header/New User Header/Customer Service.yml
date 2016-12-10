@@ -1,0 +1,25 @@
+﻿---
+ID: "56be8eb5-9a94-4ee8-9d63-374e38ad9725"
+Parent: "df2748e0-a914-41cf-8507-d0f23ae1c5ff"
+Template: "390333c8-751b-4332-84a3-6360b969a19f"
+Path: /sitecore/content/Utilities/Global/Links/Header/New User Header/Customer Service
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Customer Service
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161209T101846Z
+    - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
+      Hint: Link
+      Value: |
+        <link text="" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{211A0AB4-CBCC-410C-9E7C-D8C324E075B0}" />

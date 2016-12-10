@@ -1,0 +1,34 @@
+﻿---
+ID: "55955898-ded4-4de0-ab27-ecdae317930b"
+Parent: "6f1927e3-c9ab-4f18-b94c-7c720ead053e"
+Template: "663d8868-e064-4d0c-bb8f-d7a94e0821f5"
+Path: /sitecore/content/Utilities/Home/Save Energy and Money
+DB: master
+SharedFields:
+- ID: "68016087-aa00-45d6-922a-678475c50d4a"
+  Hint: ShowChildren
+  Type: Checkbox
+  Value: 0
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-50"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
+      Hint: OpenGraphTitle
+      Value: Save Energy and Money
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Save Energy
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161209T034356Z
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Save Energy and Money
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Save Energy and Money

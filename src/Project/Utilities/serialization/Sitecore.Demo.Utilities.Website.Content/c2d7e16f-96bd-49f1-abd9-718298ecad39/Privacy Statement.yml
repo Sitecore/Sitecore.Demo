@@ -1,0 +1,35 @@
+﻿---
+ID: "93c7d4aa-c961-4e66-9ed9-ce39f6eefe2a"
+Parent: "c2d7e16f-96bd-49f1-abd9-718298ecad39"
+Template: "1c706975-f2fa-4215-ba37-78518bfbafc4"
+Path: /sitecore/content/Utilities/Home/About Habitat Utilities/Privacy Statement
+DB: master
+SharedFields:
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 0
+- ID: "8d5c486e-a0e3-4dbe-9a4a-cdff93594bda"
+  Hint: IncludeInSearchResults
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
+      Hint: OpenGraphTitle
+      Value: Privacy Statement
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Privacy Statement
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161209T035115Z
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Privacy Statement
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Privacy Statement

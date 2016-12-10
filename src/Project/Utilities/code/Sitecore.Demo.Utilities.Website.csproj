@@ -107,6 +107,7 @@
     <Content Include="Views\Utilities\Layouts\Utilities.cshtml" />
     <Content Include="App_Config\Security\domains.config.transform" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
+    <Content Include="Views\Utilities\Layouts\UtilitiesNavbar.cshtml" />
     <None Include="Views\web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -1,0 +1,32 @@
+﻿---
+ID: "626bc290-4a83-47bc-9779-aee7c9f2f49d"
+Parent: "716b4259-2ded-495c-a196-67918e9157e1"
+Template: "716b4259-2ded-495c-a196-67918e9157e1"
+Path: /sitecore/templates/Project/Utilities/Page Types/Demo Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{BA43C26B-3A61-4F96-A83A-60193978B66C}">
+        <r
+          id="{B883E272-70D8-419A-8AF8-819356D839AD}"
+          ph="content"
+          uid="{06C4E205-F872-4F5B-A667-47830C613D0F}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161209T030715Z
+    - ID: "f07811d3-41e9-440a-9d81-310c1d78bed6"
+      Hint: Title
+      Value: $name

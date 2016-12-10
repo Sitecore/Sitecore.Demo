@@ -1,0 +1,21 @@
+﻿---
+ID: "91dae4f0-8293-458e-a887-eab89cfd0b7d"
+Parent: "b5515ad4-af94-4ed2-ac38-5c6f502c8fca"
+Template: "390333c8-751b-4332-84a3-6360b969a19f"
+Path: /sitecore/content/Utilities/Global/Links/Header/Known User/Your Account
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Login
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161209T101235Z
+    - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
+      Hint: Link
+      Value: |
+        <link text="" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{77FDE8C9-5C2F-4AA8-8713-ABB0B61E0F99}" />

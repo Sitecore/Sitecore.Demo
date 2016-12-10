@@ -23,8 +23,9 @@ Languages:
     - ID: "02115632-fe1e-4b3d-9ad4-a4ddf1f782f0"
       Hint: Copyright
       Value: |
-        <p>Copyright &copy; 2016 Habitat Financial</p>
         <p>Legal Notice | Privacy Policy</p>
+        <p>Copyright &copy; 2016 Sitecore<br/>
+        <small>“Habitat Finance” as used here is for demonstration purposes only and to represent the software and services provided by Sitecore further described at www.sitecore.net.</small></p>
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
       Hint: __Final Renderings
       Type: Layout
@@ -166,6 +167,9 @@ Languages:
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{B1BAB248-FFB4-4295-9783-E8FE17E2FE34}"
+    - ID: "bb7a38c0-323c-4f81-8eb9-288abf7c4638"
+      Hint: MetaDescription
+      Value: “Habitat Finance” as used here is for demonstration purposes only and to represent the software and services provided by Sitecore further described at www.sitecore.net.
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Business

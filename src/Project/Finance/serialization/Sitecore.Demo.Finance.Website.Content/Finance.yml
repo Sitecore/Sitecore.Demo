@@ -46,7 +46,9 @@ Languages:
       Value: "(215) 554-5533"
     - ID: "02115632-fe1e-4b3d-9ad4-a4ddf1f782f0"
       Hint: Copyright
-      Value: <p>Copyright&nbsp;&copy; Sitecore 2016</p>
+      Value: |
+        <p>Copyright &copy; 2016 Sitecore<br/>
+        <small>“Habitat Finance” as used here is for demonstration purposes only and to represent the software and services provided by Sitecore further described at www.sitecore.net.</small></p>
     - ID: "021aa3f7-206f-4acc-9538-f6d7fe86b168"
       Hint: Interests Folder
       Value: "{D62B82D5-9CDF-4BD4-AEF9-69D85BC52876}"

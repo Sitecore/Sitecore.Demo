@@ -47,7 +47,9 @@ Languages:
     - ID: "02115632-fe1e-4b3d-9ad4-a4ddf1f782f0"
       Hint: Copyright
       Value: |
-        Please read our <a href="~/link.aspx?_id=291E554415F0429294AECA7FABAC3858&_z=z">Legal Notice</a> and our <a href="~/link.aspx?_id=61DEBA6DA8A94DDB83E5448AC46AC289&_z=z">Privacy Policy</a>. Copyright 2016 Sitecore Legal Services
+        <p>Please read our <a href="~/link.aspx?_id=291E554415F0429294AECA7FABAC3858&_z=z">Legal Notice</a> and our <a href="~/link.aspx?_id=61DEBA6DA8A94DDB83E5448AC46AC289&_z=z">Privacy Policy</a>.</p>
+        <p>Copyright &copy; 2016 Sitecore<br/>
+        <small>“Habitat Legal” as used here is for demonstration purposes only and to represent the software and services provided by Sitecore further described at www.sitecore.net.</small></p>
     - ID: "021aa3f7-206f-4acc-9538-f6d7fe86b168"
       Hint: Interests Folder
       Value: "{144211C0-6E3F-4A9B-8274-60AFE4E8AE63}"
@@ -69,7 +71,8 @@ Languages:
       Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
     - ID: "9c428556-5d7b-46ac-b0bb-b06a4f4c9591"
       Hint: OrganisationEmail
-      Value: "<link text=\"info@chase-ridley.net\" linktype=\"mailto\" style=\"\" url=\"mailto:habitat-legal@sitecore.net?subject=More information\" title=\"\" />"
+      Value: |
+        <link text="info@chase-ridley.net" linktype="mailto" style="" url="mailto:habitat-legal@sitecore.net?subject=More information" title="" />
     - ID: "a24df48f-c8a3-4163-966c-8c24bd8760b2"
       Hint: OrganisationAddress
       Value: |
@@ -77,7 +80,8 @@ Languages:
         Pasadena, CA 91105
     - ID: "e748d808-64c1-4dec-9718-f35cf9689e4b"
       Hint: Logo
-      Value: "<image mediaid=\"{987FD235-5E68-4760-B351-66FEB02AE7E2}\" alt=\"\" height=\"50\" width=\"200\" hspace=\"\" vspace=\"\" />"
+      Value: |
+        <image mediaid="{987FD235-5E68-4760-B351-66FEB02AE7E2}" alt="" height="50" width="200" hspace="" vspace="" />
     - ID: "efd4980a-030c-497c-8880-40b6030ac28b"
       Hint: OrganisationName
       Value: Habitat Legal Corporation

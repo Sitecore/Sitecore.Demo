@@ -1,0 +1,25 @@
+﻿---
+ID: "db683794-e915-4c9f-b1d6-7d8e4dcb8b42"
+Parent: "10134198-251c-403b-aceb-6ebc201263f9"
+Template: "390333c8-751b-4332-84a3-6360b969a19f"
+Path: /sitecore/content/Utilities/Global/Links/Footer/Contact Us
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Contact Us
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161209T105426Z
+    - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
+      Hint: Link
+      Value: |
+        <link text="" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{089C4576-4036-4859-8B79-AF7F09E9F8FE}" />

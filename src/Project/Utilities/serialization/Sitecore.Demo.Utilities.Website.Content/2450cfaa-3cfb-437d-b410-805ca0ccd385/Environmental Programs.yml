@@ -1,0 +1,26 @@
+﻿---
+ID: "e28b48ef-66ad-47ff-a3fa-40121b7c8102"
+Parent: "2450cfaa-3cfb-437d-b410-805ca0ccd385"
+Template: "1c706975-f2fa-4215-ba37-78518bfbafc4"
+Path: /sitecore/content/Utilities/Home/Community and Environment/Environmental Programs
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
+      Hint: OpenGraphTitle
+      Value: Environmental Programs
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Environmental Programs
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161209T034829Z
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Environmental Programs
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Environmental Programs

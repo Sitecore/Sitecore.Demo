@@ -1,0 +1,18 @@
+﻿---
+ID: "092f76bf-e1af-4155-b2eb-68b7cd87125b"
+Parent: "e44df76d-c12e-4819-84ec-d8f493e7131a"
+Template: "689ba377-e538-49ed-9dfc-4dcc398ab9ac"
+Path: /sitecore/content/Utilities/Global/Registration
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161129T221405Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

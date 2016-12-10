@@ -1,0 +1,14 @@
+﻿---
+ID: "7acfbbb9-6a7f-4f15-9c5b-19b87b8fb951"
+Parent: "e44df76d-c12e-4819-84ec-d8f493e7131a"
+Template: "f94f28f6-5b19-42f2-9164-1e21023e03ee"
+Path: /sitecore/content/Utilities/Global/Employees
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161202T033616Z
