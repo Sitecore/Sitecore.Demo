@@ -1,0 +1,30 @@
+﻿body {
+    background-color: #EF8200;
+}
+.logo svg, .logo img {
+    height: auto;
+}
+.pagelayout-fixed {
+    .header-static {
+        .navbar-collapse.collapse {
+            padding-left: 0;
+
+            >ul {
+                li:nth-child(1) {
+                    a {
+                        padding-left: 5px;
+                    }
+                }
+            }
+        }
+
+        .navbar-right {
+            >nav {
+                .nav-service:last-child {
+                    margin-right: 5px !important;
+                }
+            } 
+        }
+    }
+}
+

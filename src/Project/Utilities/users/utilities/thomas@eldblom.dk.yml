@@ -1,0 +1,28 @@
+﻿---
+Username: |
+  utilities\thomas@eldblom.dk
+Email: thomas@eldblom.dk
+Comment: 
+Created: "2016-12-10T10:34:46.0000000Z"
+IsApproved: True
+Properties:
+- Key: IsAdministrator
+  Value: False
+  ValueType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  IsCustom: False
+- Key: Portrait
+  Value: office/16x16/default_user.png
+  ValueType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  IsCustom: False
+- Key: ProfileItemId
+  Value: "{9D255767-6F4A-4FEE-AC66-648FF85B7732}"
+  ValueType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  IsCustom: False
+- Key: digestcredentialhash
+  Value: 31d9f5825cbe3900345c3f1139d261cd
+  ValueType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  IsCustom: True
+- Key: digestcredentialhashwithoutdomain
+  Value: 5de8dffd66ffc2918336bc1afa4e8ee5
+  ValueType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  IsCustom: True

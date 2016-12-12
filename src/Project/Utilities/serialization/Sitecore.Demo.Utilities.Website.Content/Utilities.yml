@@ -25,6 +25,10 @@ SharedFields:
   Value: /sitecore/content/Utilities/Home/Login/Forgot Password
 Languages:
 - Language: en
+  Fields:
+  - ID: "53b5af0a-265f-4e60-b2b2-4576ce0beccf"
+    Hint: Theme
+    Value: "{960A27EC-ABE3-43C0-947E-6397FCDD14FA}"
   Versions:
   - Version: 1
     Fields:

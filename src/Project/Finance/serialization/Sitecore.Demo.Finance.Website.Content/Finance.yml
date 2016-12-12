@@ -38,6 +38,9 @@ Languages:
     Hint: SiteProfiles
     Type: Multilist
     Value: "{76474166-02C0-4008-9602-F05E9156FB37}"
+  - ID: "53b5af0a-265f-4e60-b2b2-4576ce0beccf"
+    Hint: Theme
+    Value: "{7B697F46-CE4C-4676-9AEB-147924E24D4B}"
   Versions:
   - Version: 1
     Fields:

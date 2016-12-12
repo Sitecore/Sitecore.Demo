@@ -104,10 +104,48 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="App_Config\Include\Project\z.Sitecore.Demo.Utilities.Website.DevSettings.config" />
+    <Content Include="styles\OrangeFlavour.css">
+      <DependentUpon>OrangeFlavour.scss</DependentUpon>
+    </Content>
+    <Content Include="styles\OrangeFlavour.min.css">
+      <DependentUpon>OrangeFlavour.css</DependentUpon>
+    </Content>
     <Content Include="Views\Utilities\Layouts\Utilities.cshtml" />
     <Content Include="App_Config\Security\domains.config.transform" />
+    <Content Include="compilerconfig.json" />
+    <Content Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </Content>
+    <Content Include="fonts\PlayfairDisplay-Black.ttf" />
+    <Content Include="fonts\PlayfairDisplay-BlackItalic.ttf" />
+    <Content Include="fonts\PlayfairDisplay-Bold.ttf" />
+    <Content Include="fonts\PlayfairDisplay-BoldItalic.ttf" />
+    <Content Include="fonts\PlayfairDisplay-Italic.ttf" />
+    <Content Include="fonts\PlayfairDisplay-Regular.ttf" />
+    <Content Include="fonts\Raleway-Black.ttf" />
+    <Content Include="fonts\Raleway-BlackItalic.ttf" />
+    <Content Include="fonts\Raleway-Bold.ttf" />
+    <Content Include="fonts\Raleway-BoldItalic.ttf" />
+    <Content Include="fonts\Raleway-ExtraBold.ttf" />
+    <Content Include="fonts\Raleway-ExtraBoldItalic.ttf" />
+    <Content Include="fonts\Raleway-ExtraLight.ttf" />
+    <Content Include="fonts\Raleway-ExtraLightItalic.ttf" />
+    <Content Include="fonts\Raleway-Italic.ttf" />
+    <Content Include="fonts\Raleway-Light.ttf" />
+    <Content Include="fonts\Raleway-LightItalic.ttf" />
+    <Content Include="fonts\Raleway-Medium.ttf" />
+    <Content Include="fonts\Raleway-MediumItalic.ttf" />
+    <Content Include="fonts\Raleway-Regular.ttf" />
+    <Content Include="fonts\Raleway-SemiBold.ttf" />
+    <Content Include="fonts\Raleway-SemiBoldItalic.ttf" />
+    <Content Include="fonts\Raleway-Thin.ttf" />
+    <Content Include="fonts\Raleway-ThinItalic.ttf" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\Utilities\Layouts\UtilitiesNavbar.cshtml" />
+    <Content Include="styles\Orangeflavour\_fonts.scss" />
+    <Content Include="styles\Orangeflavour\_overrides.scss" />
+    <Content Include="styles\Orangeflavour\_variables.scss" />
+    <Content Include="styles\OrangeFlavour.scss" />
     <None Include="Views\web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

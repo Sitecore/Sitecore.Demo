@@ -1,0 +1,18 @@
+﻿---
+ID: "7b697f46-ce4c-4676-9aeb-147924e24d4b"
+Parent: "77ff2447-2071-42d5-825d-deb5d4812f66"
+Template: "1c87ea50-cc18-48cc-86de-592e274d0c4f"
+Path: /sitecore/system/Settings/Project/Themes/Finance/Light n Teal
+DB: master
+SharedFields:
+- ID: "4867d192-326a-4aa4-81ef-ea430e224aff"
+  Hint: Css assets
+  Value: /styles/Lightnteal.min.css
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T032944Z
