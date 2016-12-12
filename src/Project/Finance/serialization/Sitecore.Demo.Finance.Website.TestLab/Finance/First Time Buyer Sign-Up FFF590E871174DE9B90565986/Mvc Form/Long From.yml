@@ -1,0 +1,28 @@
+﻿---
+ID: "eecf072f-8060-4a8b-a4c8-fc9391ef42bc"
+Parent: "9a51f762-0ef8-4640-b315-02dc90fe0d67"
+Template: "6d00d695-0cab-47d7-8929-a03ea002eb19"
+Path: "/sitecore/system/Marketing Control Panel/Test Lab/Finance/First Time Buyer Sign-Up FFF590E871174DE9B9056598601FD5DF/Mvc Form/Long From"
+DB: master
+SharedFields:
+- ID: "77c2a8f6-ab1c-40b7-be7b-ebcb615b770a"
+  Hint: Datasource
+  Value: "{69774868-3DB2-4E6D-9CC2-B56EE2DEAE95}"
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Type: Checkbox
+  Value: 1
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 99
+- ID: "c5230c52-c652-435b-8b1d-b6c96a96330d"
+  Hint: Name
+  Value: Long From
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161210T130133Z

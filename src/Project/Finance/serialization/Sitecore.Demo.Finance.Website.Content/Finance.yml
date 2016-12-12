@@ -24,7 +24,7 @@ SharedFields:
 - ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
   Hint: __Security
   Value: |
-    au|finance\Emma|pe|+item:write|pd|+item:write|ar|finance\Finance Author|pe|+item:read|+item:write|pd|+item:read|+item:write|au|finance\Caroline|pe|+item:write|pd|+item:write|
+    au|finance\Emma|pe|+item:write|pd|+item:write|ar|finance\Finance Author|pe|+item:read|+item:write|pd|+item:read|+item:write|au|finance\Caroline|pe|+item:write|pd|+item:write|ar|finance\Finance Marketer|pe|+item:write|pd|+item:write|
 - ID: "ed71d374-8c33-4561-991d-77482ae01330"
   Hint: Accounts Details Page
   Value: /sitecore/content/Finance/Portal/Profile
