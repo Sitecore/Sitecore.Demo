@@ -10,7 +10,7 @@ SharedFields:
   Value: 0.000000000000000
 - ID: "08b5223c-a85f-4db2-90d4-1210e80659f6"
   Hint: OriginalHeight
-  Value: 15.000000000000020
+  Value: 15.000000000000037
 - ID: "09772857-332a-4e06-a337-787f87e6c89f"
   Hint: Xml Renderer
   Value: "{F2E9C5D4-FAC9-4CD1-8540-912DBE3DD3CD}"
@@ -25,7 +25,7 @@ SharedFields:
   Value: UserSelections
 - ID: "278a743f-1ccb-4c8a-866e-67fc6b1c1687"
   Hint: Height
-  Value: 15.000000000000020
+  Value: 15.000000000000037
 - ID: "386bda24-7969-4a81-b51d-e503cde72163"
   Hint: ColumnGutter
   Value: 4.233333333333333
@@ -65,6 +65,9 @@ SharedFields:
 - ID: "85bcc5e7-3d32-48a8-9e30-42e1a15ce52b"
   Hint: "Z-Index"
   Value: 0
+- ID: "9b59c31e-fe2d-4f85-add4-8992603deb06"
+  Hint: Item Field
+  Value: 
 - ID: "b48cd9ec-8d66-453b-9a9b-ecd5d8eb4493"
   Hint: VerticalScale
   Value: 1.000000000000000

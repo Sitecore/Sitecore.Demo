@@ -1,0 +1,40 @@
+﻿---
+ID: "3846f2fc-9eb1-458d-958a-bc43dcf78043"
+Parent: "4b830ac7-9d2b-411b-a0b5-76126de27cf8"
+Template: "8288d4ea-6576-486f-aaec-4680329a2d5c"
+Path: /sitecore/system/List Manager/All Lists/Legal/Apr Seminar
+DB: master
+SharedFields:
+- ID: "08b40ff0-f812-4dcf-83a8-f05e493831f9"
+  Hint: UseAllDatabase
+  Type: Checkbox
+  Value: 0
+- ID: "49dbf157-8c47-41d7-bb8f-6b8151b5405c"
+  Hint: Owner
+  Value: 
+- ID: "55a40513-eb5e-4411-9128-38c2caec0c62"
+  Hint: Name
+  Value: Apr Seminar
+- ID: "63087a5b-2ea8-4f1b-811b-a82c0ecf52af"
+  Hint: Recipients
+  Value: 80
+- ID: "84e7df9e-a319-417b-a15d-84b40ea2d8e4"
+  Hint: BulkOperationsId
+  Type: Multilist
+  Value: 
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Apr Seminar
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161115T121322Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

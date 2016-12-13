@@ -1,38 +1,40 @@
 ﻿---
-ID: "f8400b59-cc6c-4ff8-9364-5b7f58966065"
+ID: "24f7c28c-9b2a-496c-89e7-a406753dbd2e"
 Parent: "4b830ac7-9d2b-411b-a0b5-76126de27cf8"
 Template: "8288d4ea-6576-486f-aaec-4680329a2d5c"
-Path: /sitecore/system/List Manager/All Lists/Legal/F8400B59CC6C4FF893645B7F58966065
+Path: /sitecore/system/List Manager/All Lists/Legal/May Survey
 DB: master
 SharedFields:
 - ID: "08b40ff0-f812-4dcf-83a8-f05e493831f9"
   Hint: UseAllDatabase
   Type: Checkbox
   Value: 0
+- ID: "49dbf157-8c47-41d7-bb8f-6b8151b5405c"
+  Hint: Owner
+  Value: 
 - ID: "55a40513-eb5e-4411-9128-38c2caec0c62"
   Hint: Name
-  Value: Monthly Newsletter
+  Value: May Survey
 - ID: "63087a5b-2ea8-4f1b-811b-a82c0ecf52af"
   Hint: Recipients
-  Value: 302
-- ID: "7f7049ab-643f-4388-8930-4bae4a1aae10"
-  Hint: PredefinedParameters
-  Value: Monthly Newsletter.csv
-- ID: "94cbb5b7-1890-4612-9510-f68c1dee6b42"
-  Hint: PredefinedSourceType
-  Value: "{0}"
+  Value: 80
+- ID: "84e7df9e-a319-417b-a15d-84b40ea2d8e4"
+  Hint: BulkOperationsId
+  Type: Multilist
+  Value: 
 Languages:
 - Language: en
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Monthly Newsletter
+    Value: May Survey
   Versions:
   - Version: 1
     Fields:
-    - ID: "0466cdee-8471-4daa-b223-85935837ebb0"
-      Hint: Description
-      Value: Recipients of the monthly newsletter
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20161010T141059Z
+      Value: 20161115T121718Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

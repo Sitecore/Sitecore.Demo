@@ -46,6 +46,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "0d844c9c-bd6c-49b8-9475-947da791f268"
+      Hint: From Address
+      Value: no_reply@sitecore.net
     - ID: "1e5221d9-a813-4ee1-bada-33f70028a709"
       Hint: AlternateText
       Value: "The dispatch process for $message$ is $status$:- Number of messages sent: $sent$- Number of messages failed to send: $failed$"
@@ -54,7 +57,11 @@ Languages:
       Value: 20160817T022740Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: sitecore\admin
+      Value: |
+        sitecore\admin
+    - ID: "8436a90c-85c0-4f16-8373-393c4c0a82c6"
+      Hint: From Name
+      Value: no_reply@sitecore.net
     - ID: "89b7628a-3564-4c9a-8116-dcb15f692573"
       Hint: Body
       Value: |
@@ -64,3 +71,6 @@ Languages:
     - ID: "8e6b1f0c-1267-4651-bfaa-affd48a799ee"
       Hint: Subject
       Value: The dispatch process is $status$
+    - ID: "ced0c05f-d1cb-46e9-875b-e2c01eec85bc"
+      Hint: Reply To
+      Value: no_reply@sitecore.net
