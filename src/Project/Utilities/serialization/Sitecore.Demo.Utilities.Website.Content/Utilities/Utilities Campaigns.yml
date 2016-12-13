@@ -1,35 +1,36 @@
 ﻿---
-ID: "bb939021-fbc3-4b03-8670-a0e6803054a3"
-Parent: "eea2316b-d42a-4be9-97c0-f9efe34ab8c2"
+ID: "ceb8b632-3b51-4b28-94ff-77b010e5277b"
+Parent: "ddc452cb-24d1-400a-b634-589a24880b7d"
 Template: "cf9c8a2a-2794-4fea-980a-ef8426f3d6c3"
-Path: /sitecore/content/Finance/Finance Campaigns
+Path: /sitecore/content/Utilities/Utilities Campaigns
 DB: master
 BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
 SharedFields:
 - ID: "1b963507-6176-4336-a14d-d5070c3b0286"
   Hint: Base URL
-  Value: "http://finance.dev.local"
+  Value: "http://utilities.dev.local"
 - ID: "1ec023fb-dbb4-4a7b-837d-55f9614737b8"
   Hint: POP3 Password
-  Value: 
+  Value: b
 - ID: "52d572ad-9678-423f-96e2-477528418ba1"
   Hint: "Global Opt-out List"
-  Value: "{FEB891B7-D9BF-418B-813A-5582ED6FDBED}"
+  Value: "{64FD6C34-3EA1-4514-BC0C-64835AE67E13}"
 - ID: "5c4af5b4-52d0-4db7-ac78-4eb030d6edc2"
   Hint: Subscriber Profile
-  Value: "{BB6B091A-EC76-4B1E-BA50-C1BC4FC6E270}"
+  Value: "{9D255767-6F4A-4FEE-AC66-648FF85B7732}"
 - ID: "943d8e5d-b924-41f8-ba1e-e0b630960e6e"
   Hint: Preview base URL
-  Value: "http://finance.dev.local"
+  Value: "http://utilities.dev.local"
 - ID: "9b82216d-f53b-4558-b30a-e6952c8587f3"
   Hint: Website Site Configuration Name
-  Value: finance
+  Value: utilities
 - ID: "afb3e366-dab4-4e10-b61f-bc3776542bb8"
   Hint: POP3 User Name
-  Value: 
+  Value: |
+    sitecore\admin
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 900
+  Value: 400
 - ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
   Hint: __Security
   Value: |
@@ -47,7 +48,7 @@ Languages:
       Value: no_reply@sitecore.net
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20161205T040936Z
+      Value: 20161213T044152Z
     - ID: "69aad409-ca36-4767-b945-abb77f3611fd"
       Hint: From Name
       Value: no_reply@sitecore.net

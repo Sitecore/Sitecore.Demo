@@ -1,0 +1,15 @@
+﻿---
+ID: "6a0c6c69-a7cc-4d77-a4fb-56d423d0e461"
+Parent: "e3b90287-50c9-48be-866d-49fea95f7f4c"
+Template: "69474581-3668-4fed-b0f0-0b88c2532cae"
+Path: /sitecore/content/Utilities/Utilities Campaigns/Messages/Service Messages
+DB: master
+BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161213T044153Z

@@ -28,7 +28,28 @@ SharedFields:
         <r
           id="{E7AE3F87-CF66-40F2-A9F5-33ECF08BC777}"
           ph="head"
-          uid="{D639D3F7-58EC-469D-AF93-BE348381FD63}">
+          uid="{D639D3F7-58EC-469D-AF93-BE348381FD63}" />
+        <r
+          id="{3389CAFC-000C-41E5-921C-92821B3DB7B5}"
+          ph="head"
+          uid="{037FCD01-1BE2-4978-90AF-34937CD7ABDD}" />
+        <r
+          id="{C28B9C5F-8E01-42EC-ADF6-3324FAF92C7D}"
+          ph="header-top"
+          uid="{BD1ADF1D-3976-4480-811B-8D481F5BD994}" />
+        <r
+          id="{BBA7D57B-61D3-426A-9099-CB4212BF721E}"
+          ph="navbar"
+          uid="{A010762B-3C06-4341-B667-51EC0B74AA6A}" />
+        <r
+          id="{A47C8288-7D4C-45FF-B75F-4AEDBF58A02D}"
+          ph="navbar-top-left"
+          uid="{DADCACF7-70B5-4222-A02F-1DC8262710F4}" />
+        <r
+          ds="{DF2748E0-A914-41CF-8507-D0F23AE1C5FF}"
+          id="{69B9C355-004B-4268-BB1E-2F725B8752B7}"
+          ph="navbar-right"
+          uid="{C9887F88-9DFD-46E5-8697-D11AC52E813A}">
           <rls>
             <ruleset>
               <rule
@@ -80,27 +101,6 @@ SharedFields:
             </ruleset>
           </rls>
         </r>
-        <r
-          id="{3389CAFC-000C-41E5-921C-92821B3DB7B5}"
-          ph="head"
-          uid="{037FCD01-1BE2-4978-90AF-34937CD7ABDD}" />
-        <r
-          id="{C28B9C5F-8E01-42EC-ADF6-3324FAF92C7D}"
-          ph="header-top"
-          uid="{BD1ADF1D-3976-4480-811B-8D481F5BD994}" />
-        <r
-          id="{BBA7D57B-61D3-426A-9099-CB4212BF721E}"
-          ph="navbar"
-          uid="{A010762B-3C06-4341-B667-51EC0B74AA6A}" />
-        <r
-          id="{A47C8288-7D4C-45FF-B75F-4AEDBF58A02D}"
-          ph="navbar-top-left"
-          uid="{DADCACF7-70B5-4222-A02F-1DC8262710F4}" />
-        <r
-          ds="{DF2748E0-A914-41CF-8507-D0F23AE1C5FF}"
-          id="{69B9C355-004B-4268-BB1E-2F725B8752B7}"
-          ph="navbar-right"
-          uid="{3761E7E4-E883-437D-A261-559C439C74A0}" />
         <r
           id="{53B085DB-6824-4941-9F28-9011CB151832}"
           ph="navbar-left"

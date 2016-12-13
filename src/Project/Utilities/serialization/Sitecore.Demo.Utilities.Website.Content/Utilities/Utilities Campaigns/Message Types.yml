@@ -1,0 +1,23 @@
+﻿---
+ID: "e7841930-43bb-43bd-8866-78fa7056acd1"
+Parent: "ceb8b632-3b51-4b28-94ff-77b010e5277b"
+Template: "fe8d604d-26f6-426d-a3e2-e4edff091b47"
+Path: /sitecore/content/Utilities/Utilities Campaigns/Message Types
+DB: master
+BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\ECM Users|pd|+item:delete|+item:admin|+item:create|+item:rename|^*|+item:read|+item:write|pe|+item:delete|+item:admin|+item:create|+item:rename|^*|+item:read|+item:write|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161213T044152Z

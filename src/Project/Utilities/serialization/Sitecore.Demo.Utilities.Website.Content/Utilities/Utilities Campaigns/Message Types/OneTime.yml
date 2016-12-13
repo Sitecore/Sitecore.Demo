@@ -1,0 +1,19 @@
+﻿---
+ID: "294ab838-6fa5-4cc7-a49b-d08f923ca07f"
+Parent: "e7841930-43bb-43bd-8866-78fa7056acd1"
+Template: "fa257176-aa15-4999-91c5-c03f3bda5027"
+Path: /sitecore/content/Utilities/Utilities Campaigns/Message Types/OneTime
+DB: master
+BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: One Time Message
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161213T044152Z

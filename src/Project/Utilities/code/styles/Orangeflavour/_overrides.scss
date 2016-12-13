@@ -20,8 +20,23 @@
 
         .navbar-right {
             >nav {
-                .nav-service:last-child {
+                .nav-service {
+                    li > a {
+                        font-weight: normal;
+                        @include button-variant($btn-default-color, $btn-default-bg, $btn-default-border);
+                        padding: 5px 10px !important;
+                        margin: 5px 0px !important;
+                        font-size: $font-size-small;
+                        text-transform: uppercase;
+                    }
+                    li:first-child > a {
+                        @include button-variant($color-secondary, $btn-default-bg, $color-secondary);
+                        border: 2px solid $color-secondary;
+                        color: $color-secondary !important;
+                    }
+                    &:last-child {
                     margin-right: 5px !important;
+                    }
                 }
             } 
         }

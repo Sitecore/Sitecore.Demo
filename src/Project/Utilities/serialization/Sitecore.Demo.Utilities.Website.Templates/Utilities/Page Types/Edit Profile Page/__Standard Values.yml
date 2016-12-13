@@ -124,9 +124,18 @@ SharedFields:
           uid="{339DCD34-125C-4BEC-A86D-06EF9596E22D}" />
         <r
           id="{D201A487-5099-48A1-8189-55944F70C6CB}"
-          par="UseStaticPlaceholderNames=0"
+          par="UseStaticPlaceholderNames=1"
           ph="page-layout"
           uid="{3A219DF7-35F4-4F43-9540-5273E2FEC981}" />
+        <r
+          id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+          par="UseStaticPlaceholderNames=1"
+          ph="/page-layout/section"
+          uid="{48AC55AA-BACB-49D1-8C88-12717C0EFE7F}" />
+        <r
+          id="{9B05C591-03CE-4684-9D8A-CCCE99C399ED}"
+          ph="/page-layout/section/col-huge"
+          uid="{86265B7A-EF05-42DE-95A9-BA2929BCF28C}" />
         <r
           id="{299FD8EA-2CFD-4A69-9CA4-7EA24CD34A46}"
           ph="footer"
