@@ -16,19 +16,19 @@ SharedFields:
       <profile
         id="{76474166-02C0-4008-9602-F05E9156FB37}"
         name="Finance Persona"
-        presets="stephen the cfo|100||">
+        presets="ben the banker|100||">
         <key
           name="B2B Bank to Bank"
-          value="0" />
+          value="5" />
         <key
           name="Large Corporate Business"
-          value="0" />
+          value="3" />
         <key
           name="Personal_Family Finances"
           value="0" />
         <key
           name="SMB Financial Services"
-          value="0" />
+          value="3" />
       </profile>
     </tracking>
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"

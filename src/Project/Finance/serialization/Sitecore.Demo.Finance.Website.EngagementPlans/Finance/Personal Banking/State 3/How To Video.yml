@@ -16,11 +16,11 @@ SharedFields:
           <condition
             id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
             uid="508912755EF549D1A01DF4312174C8DF"
-            GoalId="{897596F2-14EC-4AFC-AD5D-A2355535C346}"
+            GoalId="{2B5E9627-2084-47BA-8488-F7A0074CF203}"
             NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
             NumberOfElapsedDays="100"
             NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
-            NumberOfPastInteractions="1" />
+            NumberOfPastInteractions="100" />
         </conditions>
       </rule>
     </ruleset>
@@ -35,7 +35,7 @@ SharedFields:
   Value: 0
 - ID: "d2368879-c784-4031-9b79-6a3bf3cb444e"
   Hint: Next state
-  Value: "0069a6bc-e694-4c0b-a068-4dc0dff37454"
+  Value: "aab0ced9-eb92-49a0-a6fc-7faeb93c47ba"
 - ID: "e13dcd09-d9bb-43c9-8d7d-438c79d714ca"
   Hint: Evaluate
   Value: "{B81C1F4C-8B83-44D9-902F-448463DBCCBC}"
@@ -44,7 +44,7 @@ Languages:
   Fields:
   - ID: "06f2d72a-1924-4b9a-ba1e-186ce4e57efd"
     Hint: Description
-    Value: "User has requested to watch the How-To Finance video. "
+    Value: User has agreed to meet an advisor
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: "How To Video?"

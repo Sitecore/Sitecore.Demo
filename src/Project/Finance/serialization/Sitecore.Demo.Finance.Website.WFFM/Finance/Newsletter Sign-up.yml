@@ -9,10 +9,30 @@ SharedFields:
   Hint: Show Introduction
   Type: Checkbox
   Value: 0
+- ID: "87b37b02-ba9e-4464-ab4e-50737bb1d06e"
+  Hint: User Profile
+  Value: "{BB6B091A-EC76-4B1E-BA50-C1BC4FC6E270}"
 - ID: "a42052f7-6c18-424a-a2a1-7a72054cb1a6"
   Hint: Show Title
   Type: Checkbox
   Value: 0
+- ID: "a7f779b9-5fcf-45cc-866b-7c973f5c4fac"
+  Hint: Save Actions
+  Value: |
+    <?xml version="1.0" encoding="utf-16"?>
+    <li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <g id="{E5EABB1F-40BC-45BB-8D87-3B6C239B521B}" displayName="Actions" onclick="javascript:return scForm.postEvent(this,event,'forms:addaction')">
+        <li id="{850B52F1-FBE5-4A89-998C-32DAD0364ABE}" unicid="3465DC29C22B4CA0B73A36323F501550">
+          <parameters>&amp;lt;defaultprofileitemid&amp;gt;{38F813E8-8787-4CE5-B13F-6D0C554E7927}&amp;lt;/defaultprofileitemid&amp;gt;&amp;lt;usernamefield&amp;gt;{BDBE6696-C5B3-4084-9973-D09857E1CA30}&amp;lt;/usernamefield&amp;gt;&amp;lt;domainfield&amp;gt;finance&amp;lt;/domainfield&amp;gt;&amp;lt;auditfield&amp;gt;NoAudit&amp;lt;/auditfield&amp;gt;&amp;lt;passwordfield&amp;gt;randomPassword&amp;lt;/passwordfield&amp;gt;&amp;lt;associateuserwithvisitor&amp;gt;True&amp;lt;/associateuserwithvisitor&amp;gt;&amp;lt;overwriteprofile&amp;gt;True&amp;lt;/overwriteprofile&amp;gt;&amp;lt;mapping&amp;gt;&amp;lt;data&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice0&amp;quot; fieldid=&amp;quot;{BDBE6696-C5B3-4084-9973-D09857E1CA30}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice0&amp;quot; fieldid=&amp;quot;Email&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice1&amp;quot; fieldid=&amp;quot;{86CDBFF8-CFA3-4F9F-A2FC-119DC8879483}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice1&amp;quot; fieldid=&amp;quot;LastName&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice2&amp;quot; fieldid=&amp;quot;{F1EBACB5-96C6-45AB-A0A5-90E9653F3C26}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice2&amp;quot; fieldid=&amp;quot;FirstName&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;/data&amp;gt;&amp;lt;/mapping&amp;gt;&amp;lt;profileitemid&amp;gt;{BB6B091A-EC76-4B1E-BA50-C1BC4FC6E270}&amp;lt;/profileitemid&amp;gt;</parameters>
+        </li>
+        <li id="{64017682-D88A-44F4-8790-7FED3A583843}" unicid="17CF03D436F148D08A88F043AE3DBF6E">
+          <parameters>&amp;lt;usernamefield&amp;gt;{BDBE6696-C5B3-4084-9973-D09857E1CA30}&amp;lt;/usernamefield&amp;gt;&amp;lt;domainfield&amp;gt;finance&amp;lt;/domainfield&amp;gt;&amp;lt;auditfield&amp;gt;NoAudit&amp;lt;/auditfield&amp;gt;&amp;lt;associateuserwithvisitor&amp;gt;True&amp;lt;/associateuserwithvisitor&amp;gt;</parameters>
+        </li>
+        <li id="{5D54629B-25A4-4107-B614-26F504830335}" unicid="553D54FCBCBE4F3498865CF759F6D203">
+          <parameters>&amp;lt;mapping&amp;gt;[{&amp;quot;key&amp;quot;:&amp;quot;BDBE6696-C5B3-4084-9973-D09857E1CA30&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Emails/Entries/SmtpAddress&amp;quot;,&amp;quot;id&amp;quot;:null},{&amp;quot;key&amp;quot;:&amp;quot;F1EBACB5-96C6-45AB-A0A5-90E9653F3C26&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Personal/FirstName&amp;quot;,&amp;quot;id&amp;quot;:null},{&amp;quot;key&amp;quot;:&amp;quot;86CDBFF8-CFA3-4F9F-A2FC-119DC8879483&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Personal/Surname&amp;quot;,&amp;quot;id&amp;quot;:null}]&amp;lt;/mapping&amp;gt;</parameters>
+        </li>
+      </g>
+    </li>
 - ID: "af08c32b-f101-44a4-baae-677383e8eb02"
   Hint: Check Actions
   Value: |
@@ -85,4 +105,7 @@ Languages:
     - ID: "9c4c1994-5140-49d3-bad7-db997816f816"
       Hint: Success Page
       Value: |
-        <link text="" linktype="internal" class="" title="" target="" querystring="" id="{AAD6AEC2-50E6-4110-81C5-CF9DE5FB1376}" />
+        <link id="{AAD6AEC2-50E6-4110-81C5-CF9DE5FB1376}" querystring="" text="" linktype="internal" url="/sitecore/content/Finance/Business/Landing Pages/Habitat Business Insider Thank You Page" title="" class="" target="" />
+    - ID: "b71296b6-32b9-4703-a8cb-fb7437271103"
+      Hint: Name
+      Value: Sign up

@@ -27,7 +27,7 @@ SharedFields:
           <action
             id="{65A7EAD2-9ECF-4CA1-A517-A27A6CD65019}"
             uid="83CA25C7F9D44433BC69FCB7E28F06A4"
-            Name="Last Name" />
+            Name="LastName" />
         </actions>
         <conditions>
           <condition

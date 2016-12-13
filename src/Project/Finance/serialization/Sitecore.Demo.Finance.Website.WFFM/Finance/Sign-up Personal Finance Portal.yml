@@ -9,6 +9,9 @@ SharedFields:
   Hint: Show Introduction
   Type: Checkbox
   Value: 1
+- ID: "87b37b02-ba9e-4464-ab4e-50737bb1d06e"
+  Hint: User Profile
+  Value: "{BB6B091A-EC76-4B1E-BA50-C1BC4FC6E270}"
 - ID: "a42052f7-6c18-424a-a2a1-7a72054cb1a6"
   Hint: Show Title
   Type: Checkbox
@@ -72,7 +75,7 @@ Languages:
     - ID: "0f2414bd-a95d-419c-a238-a6637a3fab76"
       Hint: Introduction
       Value: |
-        		<p style="margin-bottom:50px;">Sign-up to gain access to an invaluable tool on which you can look holistically across your short, medium and long-term finances and interact via a secure, online hub from any mobile or web device.</p>
+        		<p style="margin-bottom:50px;">To gain access to our brochure on accessing the  online hub from any mobile or web device, we need your email address and name.</p>
         
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
@@ -90,4 +93,4 @@ Languages:
     - ID: "9c4c1994-5140-49d3-bad7-db997816f816"
       Hint: Success Page
       Value: |
-        <link text="" linktype="internal" class="" title="" target="" querystring="" id="{69AA7357-D434-4D28-B4B5-5F8059BDD541}" />
+        <link id="{69AA7357-D434-4D28-B4B5-5F8059BDD541}" querystring="" target="" text="" title="" class="" url="/Finance/Personal/Landing Pages/Thank You Your Banking View Brochure" linktype="internal" />

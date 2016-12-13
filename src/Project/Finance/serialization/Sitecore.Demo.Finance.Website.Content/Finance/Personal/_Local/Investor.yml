@@ -1,0 +1,14 @@
+﻿---
+ID: "2101e932-9e73-4be6-b600-5a6b2f33e4ec"
+Parent: "e975dd01-26cd-4b3f-abf6-8edcc0e01186"
+Template: "c18d3794-d126-4548-bfc8-89358de6e9c1"
+Path: /sitecore/content/Finance/Personal/_Local/Investor
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161213T162612Z

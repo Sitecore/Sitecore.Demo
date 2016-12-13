@@ -58,8 +58,28 @@ Languages:
               <rls>
                 <ruleset>
                   <rule
+                    uid="{F8C01AE3-500A-4043-B0B5-4B5C56DA6DF5}"
+                    s:name="Webinar Signup">
+                    <conditions>
+                      <condition
+                        uid="ADEEE7518BAA419EA326BDEF617881B8"
+                        s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
+                        s:GoalId="{468B8987-6F9E-46B3-8854-44470659E8D0}"
+                        s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
+                        s:NumberOfElapsedDays="100"
+                        s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
+                        s:NumberOfPastInteractions="100" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="13E4FF7D36EE4DA2AC2C7C73E4608CD8"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{3D6EC189-C1E6-4E59-B33D-A06A31C951F7}" />
+                    </actions>
+                  </rule>
+                  <rule
                     uid="{622F0306-F089-4C4C-ACEF-0E0E5D3FBAFE}"
-                    s:name="Mobile Banking">
+                    s:name="Your Banking View">
                     <conditions>
                       <condition
                         uid="257ACFA4F23C43D893B4B73067BCB5ED"
@@ -78,63 +98,6 @@ Languages:
                     </actions>
                   </rule>
                   <rule
-                    uid="{581D6F58-96CB-4E9A-9C19-A9E47B80DEA1}"
-                    s:name="Download White Paper">
-                    <conditions>
-                      <condition
-                        uid="4C2F6591BA1645B786FFFB6F2E8B8814"
-                        s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
-                        s:GoalId="{B3F9DF5A-87A4-4301-B988-DD6189B2572E}"
-                        s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
-                        s:NumberOfElapsedDays="100"
-                        s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
-                        s:NumberOfPastInteractions="100" />
-                    </conditions>
-                    <actions>
-                      <action
-                        uid="811ECCF9778E4DB3B6C762460202DF3C"
-                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="{965C40A7-EC21-4678-A839-FDEAC653CA5A}" />
-                    </actions>
-                  </rule>
-                  <rule
-                    uid="{F8C01AE3-500A-4043-B0B5-4B5C56DA6DF5}"
-                    s:name="Webinar Signup">
-                    <conditions>
-                      <condition
-                        uid="ADEEE7518BAA419EA326BDEF617881B8"
-                        s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
-                        s:GoalId="{DAB0472B-4FCE-41A0-8826-ED27ED0FC936}"
-                        s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
-                        s:NumberOfElapsedDays="100"
-                        s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
-                        s:NumberOfPastInteractions="100" />
-                    </conditions>
-                    <actions>
-                      <action
-                        uid="13E4FF7D36EE4DA2AC2C7C73E4608CD8"
-                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="{03462FC9-FED1-4DA9-9F29-4AC790540221}" />
-                    </actions>
-                  </rule>
-                  <rule
-                    uid="{9B2EF9D7-5A64-4F69-BD25-5A10B8B290C4}"
-                    s:name="Ingrid the Investor">
-                    <conditions>
-                      <condition
-                        uid="174C9CADB20E4A6092735041DD5F5111"
-                        s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
-                        s:ProfileName="Finance Persona"
-                        s:PatternName="Ingrid the Investor B2C" />
-                    </conditions>
-                    <actions>
-                      <action
-                        uid="585D7F64C7A948C299287DE474EB5868"
-                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="{1EB04BAE-923E-40F4-82A5-2E3BB676528C}" />
-                    </actions>
-                  </rule>
-                  <rule
                     uid="{00000000-0000-0000-0000-000000000000}"
                     s:name="Default">
                     <conditions>
@@ -146,7 +109,7 @@ Languages:
                       <action
                         uid="97DAB6BD5C57428EAD89ED56C84299DF"
                         s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="{3D6EC189-C1E6-4E59-B33D-A06A31C951F7}" />
+                        s:DataSource="{965C40A7-EC21-4678-A839-FDEAC653CA5A}" />
                     </actions>
                   </rule>
                 </ruleset>
@@ -176,6 +139,12 @@ Languages:
                         s:ProfileName="Finance Persona"
                         s:PatternName="Ingrid the Investor B2C" />
                     </conditions>
+                    <actions>
+                      <action
+                        uid="D1370AC491464DF3B725C65A0058F26E"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{2101E932-9E73-4BE6-B600-5A6B2F33E4EC}" />
+                    </actions>
                   </rule>
                   <rule
                     uid="{00000000-0000-0000-0000-000000000000}"

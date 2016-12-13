@@ -22,7 +22,7 @@ Languages:
     Value: User has requested access to the WP. We are now waiting for the user to watch the case study video. 
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: State 3
+    Value: Wants to Watch Video
   Versions:
   - Version: 1
     Fields:

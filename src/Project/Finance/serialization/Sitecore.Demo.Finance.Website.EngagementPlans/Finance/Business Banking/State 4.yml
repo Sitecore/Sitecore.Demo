@@ -22,7 +22,7 @@ Languages:
     Value: User has watched the case study video. We are now waiting for the user to sign up to user portal. 
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: State 4
+    Value: Watched Video
   Versions:
   - Version: 1
     Fields:

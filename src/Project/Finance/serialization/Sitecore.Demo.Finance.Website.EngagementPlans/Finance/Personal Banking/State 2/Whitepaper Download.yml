@@ -16,11 +16,11 @@ SharedFields:
           <condition
             id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
             uid="9A9627232C414B1685D503502326237B"
-            GoalId="{B3F9DF5A-87A4-4301-B988-DD6189B2572E}"
+            GoalId="{468B8987-6F9E-46B3-8854-44470659E8D0}"
             NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
             NumberOfElapsedDays="100"
             NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
-            NumberOfPastInteractions="1" />
+            NumberOfPastInteractions="100" />
         </conditions>
       </rule>
     </ruleset>
@@ -44,7 +44,7 @@ Languages:
   Fields:
   - ID: "06f2d72a-1924-4b9a-ba1e-186ce4e57efd"
     Hint: Description
-    Value: User has downloaded the whitepaper
+    Value: User has downloaded the future of banking brochure
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: "Whitepaper Download?"

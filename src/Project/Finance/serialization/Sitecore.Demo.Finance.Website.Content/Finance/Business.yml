@@ -136,7 +136,60 @@ Languages:
               p:after="r[@uid='{9AD0AE29-EA50-43C3-8C1D-BFC1B4525C6B}']"
               s:ds="{73B14E87-652F-43A7-AF97-BF2259EA9491}"
               s:id="{8B28417B-A5B3-44F1-BFCC-FE1D907336E7}"
-              s:ph="/page-layout/page-header" />
+              s:ph="/page-layout/page-header">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{BF4D9870-E66F-4AA7-889F-C89E597C38D8}"
+                    s:name="Small Business">
+                    <conditions>
+                      <condition
+                        uid="F5F299699EED45868C65BBA304AA05B1"
+                        s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                        s:ProfileName="Finance Persona"
+                        s:PatternName="Owen the SMB Owner_B2B" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="9FBEDAAF04DE408BA35DED102298F643"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{C5EC9B87-112A-4719-A7AF-B900BA09FEA8}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{6AC1BB65-6590-4552-82A6-06643173108C}"
+                    s:name="Ben the Banker">
+                    <conditions>
+                      <condition
+                        uid="86D518418CB14A99A309A4860FB4B849"
+                        s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                        s:ProfileName="Finance Persona"
+                        s:PatternName="Ben the Banker_B2B" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="EF622B0A86894101865531C38F4B8FBA"
+                        s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}"
+                        s:RenderingItem="{8B28417B-A5B3-44F1-BFCC-FE1D907336E7}" />
+                      <action
+                        uid="F769330F1D564CAEAF6D150AED8F9E95"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{8B06E25E-8F39-4648-8F88-7504C68A65B9}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="53D32896C5AC42D397A45BDFECD4BBFD"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r
               uid="{4817521A-82BC-4DBF-A4ED-8E7A50013B83}"
               p:after="r[@uid='{2433B7CB-6986-4834-8887-6EB42B8A1F56}']"

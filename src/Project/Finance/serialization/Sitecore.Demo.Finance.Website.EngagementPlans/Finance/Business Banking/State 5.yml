@@ -22,7 +22,7 @@ Languages:
     Value: "User has converted!"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: State 5
+    Value: Registered for Portal
   Versions:
   - Version: 1
     Fields:

@@ -5,6 +5,18 @@ Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
 Path: "/sitecore/content/Finance/Business/Landing Pages/Banking Portal Sign-up Thank You Page"
 DB: master
 SharedFields:
+- ID: "0dca829c-9fce-41f5-9990-c6182fefe905"
+  Hint: SeoFollowLinks
+  Type: Checkbox
+  Value: 0
+- ID: "683d7237-206a-488f-9dee-4a4e41fb161d"
+  Hint: CanIndex
+  Type: Checkbox
+  Value: 0
+- ID: "8d5c486e-a0e3-4dbe-9a4a-cdff93594bda"
+  Hint: IncludeInSearchResults
+  Type: Checkbox
+  Value: 0
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 200
@@ -18,9 +30,32 @@ Languages:
       Type: Layout
       Value: |
         <r xmlns:p="p" xmlns:s="s"
-          p:p="1">
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{3B51C99F-08FD-41AE-8EE6-19ACEF59239C}"
+              p:before="*"
+              s:ds="{03462FC9-FED1-4DA9-9F29-4AC790540221}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section_1d6df3be-fad3-47f7-9612-af237b361c53/col-narrow-1_1997fe52-5232-4311-8d11-155532f445ea" />
+            <r
+              uid="{481EFBA4-5D76-4A3C-9A8B-676C2959F53C}"
+              p:after="r[@uid='{3B51C99F-08FD-41AE-8EE6-19ACEF59239C}']"
+              s:ds="{E6CA1112-A53A-43B8-A0C6-A0F74339FFE1}"
+              s:id="{97459D5B-3C92-46C2-A329-138C1E277465}"
+              s:ph="/page-layout/section_1d6df3be-fad3-47f7-9612-af237b361c53/col-wide-1_1997fe52-5232-4311-8d11-155532f445ea" />
+            <r
+              uid="{1997FE52-5232-4311-8D11-155532F445EA}"
+              p:after="r[@uid='{481EFBA4-5D76-4A3C-9A8B-676C2959F53C}']"
+              s:id="{4ACD4C20-28D1-46F7-8FBA-A35778937BD1}"
+              s:ph="/page-layout/section_1d6df3be-fad3-47f7-9612-af237b361c53" />
+            <r
+              uid="{1D6DF3BE-FAD3-47F7-9612-AF237B361C53}"
+              p:after="r[@uid='{A607CCB4-81BC-4DC1-897B-BC33B2C52E6D}']"
+              s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+              s:ph="page-layout" />
             <r
               uid="{DFDD703B-D723-4BCD-8D49-B7FBE85283EB}">
               <p:d />
@@ -30,6 +65,10 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161110T152510Z
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{49837815-39E1-4C77-8EF1-1690B4786D5A}" />
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: <p>Thank you for signing up</p>
@@ -39,3 +78,6 @@ Languages:
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: "Banking Portal Sign-up Thank You Page"
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: Using our banking portal gives you access to a variety of business tools.

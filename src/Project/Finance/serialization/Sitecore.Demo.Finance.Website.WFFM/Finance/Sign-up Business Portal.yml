@@ -9,6 +9,9 @@ SharedFields:
   Hint: Show Introduction
   Type: Checkbox
   Value: 1
+- ID: "87b37b02-ba9e-4464-ab4e-50737bb1d06e"
+  Hint: User Profile
+  Value: "{BB6B091A-EC76-4B1E-BA50-C1BC4FC6E270}"
 - ID: "a42052f7-6c18-424a-a2a1-7a72054cb1a6"
   Hint: Show Title
   Type: Checkbox
@@ -88,4 +91,4 @@ Languages:
     - ID: "9c4c1994-5140-49d3-bad7-db997816f816"
       Hint: Success Page
       Value: |
-        <link url="/Finance/Business/Landing Pages/Banking Portal Sign-up Thank You Page" id="{AF781512-FB51-4352-837B-3A8C6FCA6957}" />
+        <link url="/sitecore/content/Finance/Business/Landing Pages/Banking Portal Sign-up Thank You Page" id="{AF781512-FB51-4352-837B-3A8C6FCA6957}" />
