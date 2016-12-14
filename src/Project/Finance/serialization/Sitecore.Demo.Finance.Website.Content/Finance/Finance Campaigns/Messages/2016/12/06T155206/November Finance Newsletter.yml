@@ -23,7 +23,7 @@ SharedFields:
   Value: "{71721EB7-0F6A-4550-AC44-A45356DE3E9C}"
 - ID: "6ec7a9e6-9fd5-4892-bbf6-11e76e0e5db8"
   Hint: Start Time
-  Value: 20161210T134815Z
+  Value: 20161101T000000Z
 - ID: "707da4ae-1861-447c-a81f-890966c9e119"
   Hint: External Links
   Value: "http://www.sitecore.net"
@@ -36,7 +36,7 @@ SharedFields:
   Value: 0
 - ID: "ac436b75-b307-4409-8479-e299ace64859"
   Hint: End Time
-  Value: 20161210T134827Z
+  Value: 20161107T000000Z
 - ID: "af0fe26a-a78b-491d-885c-03d95bc17342"
   Hint: State
   Value: Sent
@@ -92,7 +92,7 @@ SharedFields:
 - ID: "f8d592cc-f3e5-4a8e-a600-8aebe8cc36e4"
   Hint: Included Recipient Lists
   Type: TreelistEx
-  Value: "{5DC8C71B-EF95-4CDE-BF6E-9C064A011595}"
+  Value: "{14902DC6-8BE5-410E-85F2-3F126E516AF3}"
 - ID: "fade34d8-c101-420d-9620-e4deb659c36b"
   Hint: Campaign Group
   Value: "{AB2F413C-4854-48EB-B7EB-6FD2E8142B19}"
