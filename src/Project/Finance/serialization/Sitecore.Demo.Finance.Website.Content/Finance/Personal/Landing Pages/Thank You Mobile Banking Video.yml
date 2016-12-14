@@ -10,6 +10,9 @@ SharedFields:
   Type: Tracking
   Value: |
     <tracking>
+      <campaign
+        title="Personal Banking Landing Page Trigger 1"
+        id="{C0017B4A-9ABA-4F87-9AC9-051B9C74EFAD}" />
       <event
         id="{897596F2-14EC-4AFC-AD5D-A2355535C346}"
         name="Watched video Mobile banking" />

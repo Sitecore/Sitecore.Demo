@@ -11,6 +11,10 @@ SharedFields:
 - ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
   Hint: Designer ID
   Value: "6302c483-2a71-4b00-97b3-bdc2af5b978d"
+- ID: "575a25c8-5c6f-4530-a48f-f38e23e9dbd5"
+  Hint: Page Event Subscription
+  Type: TreelistEx
+  Value: "{2B5E9627-2084-47BA-8488-F7A0074CF203}"
 - ID: "7642ed71-348b-4b88-8634-cc7b28949472"
   Hint: Origin ID
   Value: "00000000-0000-0000-0000-000000000000"
@@ -22,7 +26,7 @@ Languages:
     Value: User has agreed to meet an advisor
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Agreed to Meet
+    Value: Received Brochure
   Versions:
   - Version: 1
     Fields:

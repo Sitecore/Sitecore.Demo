@@ -11,6 +11,10 @@ SharedFields:
 - ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
   Hint: Designer ID
   Value: "ae8bb3f4-0f3d-4fd1-9c3a-2d77b6cf8d37"
+- ID: "575a25c8-5c6f-4530-a48f-f38e23e9dbd5"
+  Hint: Page Event Subscription
+  Type: TreelistEx
+  Value: "{468B8987-6F9E-46B3-8854-44470659E8D0}"
 - ID: "7642ed71-348b-4b88-8634-cc7b28949472"
   Hint: Origin ID
   Value: "00000000-0000-0000-0000-000000000000"
@@ -19,10 +23,10 @@ Languages:
   Fields:
   - ID: "06f2d72a-1924-4b9a-ba1e-186ce4e57efd"
     Hint: Description
-    Value: User has registered for The Future of Banking Brochure
+    Value: User has watched the video and is waiting to registered for The Future of Banking Brochure
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Received Brochure
+    Value: Watched Video
   Versions:
   - Version: 1
     Fields:

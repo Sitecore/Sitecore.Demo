@@ -17,10 +17,10 @@ SharedFields:
             id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
             uid="9A9627232C414B1685D503502326237B"
             GoalId="{468B8987-6F9E-46B3-8854-44470659E8D0}"
-            NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
+            NumberOfElapsedDaysOperatorId="{E362A3A4-E230-4A40-A7C4-FC42767E908F}"
             NumberOfElapsedDays="100"
-            NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
-            NumberOfPastInteractions="100" />
+            NumberOfPastInteractionsOperatorId="{B88CD556-082E-4385-BB76-E4D1B565F290}"
+            NumberOfPastInteractions="0" />
         </conditions>
       </rule>
     </ruleset>
@@ -47,7 +47,7 @@ Languages:
     Value: User has downloaded the future of banking brochure
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "Whitepaper Download?"
+    Value: "Brochure Download?"
   Versions:
   - Version: 1
     Fields:

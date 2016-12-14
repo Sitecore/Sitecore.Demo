@@ -17,10 +17,10 @@ SharedFields:
             id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
             uid="508912755EF549D1A01DF4312174C8DF"
             GoalId="{2B5E9627-2084-47BA-8488-F7A0074CF203}"
-            NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
+            NumberOfElapsedDaysOperatorId="{E362A3A4-E230-4A40-A7C4-FC42767E908F}"
             NumberOfElapsedDays="100"
-            NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
-            NumberOfPastInteractions="100" />
+            NumberOfPastInteractionsOperatorId="{E362A3A4-E230-4A40-A7C4-FC42767E908F}"
+            NumberOfPastInteractions="0" />
         </conditions>
       </rule>
     </ruleset>
@@ -47,7 +47,7 @@ Languages:
     Value: User has agreed to meet an advisor
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: "How To Video?"
+    Value: "Agreed to Meet?"
   Versions:
   - Version: 1
     Fields:

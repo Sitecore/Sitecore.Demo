@@ -31,9 +31,6 @@ SharedFields:
         <li id="{5D54629B-25A4-4107-B614-26F504830335}" unicid="292D7CD73A4D4DC5AB82E198BB7F7DD5">
           <parameters>&amp;lt;mapping&amp;gt;[{&amp;quot;key&amp;quot;:&amp;quot;3EFEF128-3925-4845-8D83-41CB03FD793D&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Emails/Entries/SmtpAddress&amp;quot;,&amp;quot;id&amp;quot;:null},{&amp;quot;key&amp;quot;:&amp;quot;2D6F5EAC-A04F-4ED0-B844-F2EE2D71DEC2&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Personal/FirstName&amp;quot;,&amp;quot;id&amp;quot;:null},{&amp;quot;key&amp;quot;:&amp;quot;3793E5ED-34C7-4935-BE8B-B1BA9D239CDC&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Personal/Surname&amp;quot;,&amp;quot;id&amp;quot;:null}]&amp;lt;/mapping&amp;gt;</parameters>
         </li>
-        <li id="{1B8ED61B-5B36-4C49-9736-2C4A87795D71}" unicid="8EC776E495A34939B2FAF1EDE4925EC8">
-          <parameters>&amp;lt;engagementstate&amp;gt;9c332b42-43ec-43f2-a299-51b08e2576e2&amp;lt;/engagementstate&amp;gt;&amp;lt;enrollwhen&amp;gt;Always&amp;lt;/enrollwhen&amp;gt;&amp;lt;__actionsubtitle&amp;gt;{7E5E7465-3EFB-4753-BFF8-7583ED35C1C2}&amp;lt;/__actionsubtitle&amp;gt;&amp;lt;__messages&amp;gt;&amp;amp;lt;messages&amp;amp;gt;&amp;amp;lt;en&amp;amp;gt;We were unable to enrol you in an engagement plan&amp;amp;lt;/en&amp;amp;gt;&amp;amp;lt;/messages&amp;amp;gt;&amp;lt;/__messages&amp;gt;</parameters>
-        </li>
       </g>
     </li>
 - ID: "af08c32b-f101-44a4-baae-677383e8eb02"
@@ -113,7 +110,7 @@ Languages:
     - ID: "9c4c1994-5140-49d3-bad7-db997816f816"
       Hint: Success Page
       Value: |
-        <link id="{69AA7357-D434-4D28-B4B5-5F8059BDD541}" querystring="" target="" text="" url="/sitecore/content/Finance/Personal/Landing Pages/Thank You Your Banking View Brochure" title="" class="" linktype="internal" />
+        <link id="{69AA7357-D434-4D28-B4B5-5F8059BDD541}" querystring="" text="" linktype="internal" url="/sitecore/content/Finance/Personal/Landing Pages/Thank You Your Banking View Brochure" title="" class="" target="" />
     - ID: "b71296b6-32b9-4703-a8cb-fb7437271103"
       Hint: Name
       Value: Download Now
