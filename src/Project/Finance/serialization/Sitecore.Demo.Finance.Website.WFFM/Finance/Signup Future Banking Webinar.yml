@@ -64,8 +64,8 @@ SharedFields:
         name="Invalid Field Syntax"
         id="{844BBD40-91F6-42CE-8823-5EA4D089ECA2}" />
       <event
-        name="Signup for webinar"
-        id="{DAB0472B-4FCE-41A0-8826-ED27ED0FC936}" />
+        name="Agreed to Meet Advisor"
+        id="{2B5E9627-2084-47BA-8488-F7A0074CF203}" />
     </tracking>
 - ID: "d755de87-9c62-4eb3-83dc-2293784a3a3f"
   Hint: Success Mode
@@ -99,4 +99,4 @@ Languages:
     - ID: "9c4c1994-5140-49d3-bad7-db997816f816"
       Hint: Success Page
       Value: |
-        <link id="{ABE5C53E-E279-4199-A458-32A7498FAC8D}" querystring="" target="" text="" url="/sitecore/content/Finance/Personal/Landing Pages/Thank You The Future of Banking Meet Advisor" title="" class="" linktype="internal" />
+        <link id="{ABE5C53E-E279-4199-A458-32A7498FAC8D}" querystring="" text="" linktype="internal" url="/sitecore/content/Finance/Personal/Landing Pages/Thank You The Future of Banking Meet Advisor" title="" class="" target="" />
