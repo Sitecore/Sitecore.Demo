@@ -1,0 +1,22 @@
+﻿---
+ID: "f106cd7f-1fbd-4f3c-b0c8-d063001cd63d"
+Parent: "de8b1ece-6435-4887-ba06-6af5a30d81b8"
+Template: "e7e439e8-c699-4608-ac77-cc6273702e54"
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Practise Areas Brochure/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Contents Page/Contents Page Static elements
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-100"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160615T084802Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -107,7 +107,8 @@ Languages:
       Value: "{B1BAB248-FFB4-4295-9783-E8FE17E2FE34}"
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: sitecore\Caroline
+      Value: |
+        sitecore\Caroline
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: <p><span>Habitat Legal&rsquo;s attorneys have concentrated their practices on Trusts and Estates for more than 20 years. With all of this expertise, we know how to focus on clients&rsquo; personal concerns as well as their estate planning, tax, and litigation goals. Our top priority is to provide our clients with the customized service they need and want.</span></p>
@@ -156,7 +157,8 @@ Languages:
       Value: "{B1BAB248-FFB4-4295-9783-E8FE17E2FE34}"
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: sitecore\Caroline
+      Value: |
+        sitecore\Caroline
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: <p><span>Habitat Legal&rsquo;s attorneys have concentrated their practices on Trusts and Estates for more than 20 years. With all of this expertise, we know how to focus on clients&rsquo; personal concerns as well as their estate planning, tax, and litigation goals. Our top priority is to provide our clients with the customized service they need and want.</span></p>
@@ -205,7 +207,8 @@ Languages:
       Value: "{B1BAB248-FFB4-4295-9783-E8FE17E2FE34}"
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: sitecore\Caroline
+      Value: |
+        sitecore\Caroline
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: <p><span>Habitat Legal&rsquo;s attorneys have concentrated their practices on Trusts and Estates for more than 20 years. With all of this expertise, we know how to focus on clients&rsquo; personal concerns as well as their estate planning, tax, and litigation goals. Our top priority is to provide our clients with the customized service they need and want.</span></p>
@@ -324,3 +327,6 @@ Languages:
       Value: |
         <p><span>Habitat Legal&rsquo;s estate planners advise individuals and families in connection with minimizing estate tax, gift tax, and tax burdens associated with the transfer of wealth between generations. We have extensive experience with designing and implementing sophisticated estate, valuation, and philanthropic planning techniques, including such planning vehicles as family limited partnerships and limited liability companies, grantor trusts, life insurance trusts, charitable lead and charitable remainder trusts, and other charitable planning devices. </span></p>
         <p><span>As a result of recent tax law changes, our planning strategies include full consideration of income tax basis and value appreciation in our clients&rsquo; various assets, and the potential for portability of our clients&rsquo; unused estate and gift tax exemptions. We also have expertise in tax planning and tax controversies, including representation in audits and tax court proceedings. We advise clients on all aspects of federal, state and local taxation issues, including estate, gift, GST, income, and property taxation.</span></p>
+        <p><img height="307" alt="Estates" width="681" src="-/media/C7985486B51746939D7047A5199FCF77.ashx?h=307&amp;w=681"></p>
+        <h2><span>Specialized Estates Planning Team</span></h2>
+        <p><span>Habitat Legal&rsquo;s estate planners advise individuals and families in connection with minimizing estate tax, gift tax, and tax burdens associated with the transfer of wealth between generations. We have extensive experience with designing and implementing sophisticated estate, valuation, and philanthropic planning techniques, including such planning vehicles as family limited partnerships and limited liability companies, grantor trusts, life insurance trusts, charitable lead and charitable remainder trusts, and other charitable planning devices.</span></p>

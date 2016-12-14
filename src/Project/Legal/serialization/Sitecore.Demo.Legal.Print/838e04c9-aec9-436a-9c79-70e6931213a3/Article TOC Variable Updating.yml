@@ -1,0 +1,18 @@
+﻿---
+ID: "57fc5a23-bae2-4362-aef2-ac2d4f83ed70"
+Parent: "838e04c9-aec9-436a-9c79-70e6931213a3"
+Template: "739ec9eb-d86f-4934-8ce0-41706b944a8a"
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Practise Areas Brochure/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Practise Page Repeater/Practise Page/Hidden TextFrame/New Paragraph Style/Article TOC Variable Updating
+DB: master
+SharedFields:
+- ID: "4f3ecf8f-077e-487b-adaa-15b9554d9a62"
+  Hint: Parameters
+  Value: IndexName=article_index&ReplaceVar=article_index
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161125T154209Z

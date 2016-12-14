@@ -1,0 +1,38 @@
+﻿---
+ID: "2754a210-acb7-4407-b9ca-877d22775a2a"
+Parent: "5a2cc5a3-b475-4894-8d91-1f517f7a141e"
+Template: "6bfa47ba-f73c-48db-9170-c0cc94179ec7"
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Partner Profile/Books/P_Book/Documents/A5 Partner Profile/Pages/Profile
+DB: master
+BranchID: "78ffa2bc-5615-4db4-8082-2e0adb9092ea"
+SharedFields:
+- ID: "19f9b0a4-6259-4136-b2a3-668c77f0df99"
+  Hint: Number
+  Value: 1
+- ID: "5d8ce5dc-9a72-4857-bb9e-34920392fb57"
+  Hint: Height
+  Value: 209.9999999999361
+- ID: "761ecd6c-90dd-490c-8ba5-d8fd95c664d1"
+  Hint: Width
+  Value: 147.9999999999583
+- ID: "cdac18ea-96cf-4136-9a28-5431b744c2f0"
+  Hint: Margin
+  Value: 7.5|7.5|7.5|7.5
+- ID: "d0661727-6d8e-4842-a0fa-757486830e9d"
+  Hint: HorizontalGuides
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161205T091602Z
+    - ID: "55096646-7245-404d-9dde-c71c081e9fac"
+      Hint: Name
+      Value: Profile
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
