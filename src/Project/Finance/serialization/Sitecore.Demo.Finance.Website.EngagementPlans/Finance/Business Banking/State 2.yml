@@ -22,7 +22,7 @@ Languages:
     Value: User has signed up for the Newsletter but we are waiting for the user to request the Whitepaper. 
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: State 2
+    Value: Signed up for newsletter
   Versions:
   - Version: 1
     Fields:

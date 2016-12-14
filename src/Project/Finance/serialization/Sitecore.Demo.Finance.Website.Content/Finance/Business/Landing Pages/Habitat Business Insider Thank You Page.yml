@@ -18,9 +18,44 @@ Languages:
       Type: Layout
       Value: |
         <r xmlns:p="p" xmlns:s="s"
-          p:p="1">
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{84592B43-FAC8-413E-877B-01362BE5DD88}"
+              p:before="*"
+              s:ds=""
+              s:id="{914673DC-FC44-4660-B6EB-FF421FAAC2F9}"
+              s:par=""
+              s:ph="/page-layout/section_94ffb4e5-4057-4724-bf60-e36f153aa007/col-huge_1e3d275a-a78f-4d5d-a46e-6f12b72f8e99" />
+            <r
+              uid="{1E3D275A-A78F-4D5D-A46E-6F12B72F8E99}"
+              p:after="r[@uid='{84592B43-FAC8-413E-877B-01362BE5DD88}']"
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:ph="/page-layout/section_94ffb4e5-4057-4724-bf60-e36f153aa007" />
+            <r
+              uid="{73BCBCB3-BF9E-44D4-B34F-A9AE6E97F294}"
+              p:after="r[@uid='{1E3D275A-A78F-4D5D-A46E-6F12B72F8E99}']"
+              s:ds="{1EB04BAE-923E-40F4-82A5-2E3BB676528C}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section_94ffb4e5-4057-4724-bf60-e36f153aa007/col-wide-1_47bc4f6e-3ae4-4baa-856f-2c419b5211e5" />
+            <r
+              uid="{2BC8DFDE-27F7-4D88-8052-D95E1A0FE9D2}"
+              p:after="r[@uid='{73BCBCB3-BF9E-44D4-B34F-A9AE6E97F294}']"
+              s:ds="{73E9D124-4F99-49B2-BA5C-E9E8BD45934F}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section_94ffb4e5-4057-4724-bf60-e36f153aa007/col-narrow-1_47bc4f6e-3ae4-4baa-856f-2c419b5211e5" />
+            <r
+              uid="{47BC4F6E-3AE4-4BAA-856F-2C419B5211E5}"
+              p:after="r[@uid='{2BC8DFDE-27F7-4D88-8052-D95E1A0FE9D2}']"
+              s:id="{AB7054DD-B8E3-41D6-A75F-B54F2F37D08B}"
+              s:ph="/page-layout/section_94ffb4e5-4057-4724-bf60-e36f153aa007" />
+            <r
+              uid="{94FFB4E5-4057-4724-BF60-E36F153AA007}"
+              p:after="r[@uid='{A607CCB4-81BC-4DC1-897B-BC33B2C52E6D}']"
+              s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+              s:ph="page-layout" />
             <r
               uid="{DFDD703B-D723-4BCD-8D49-B7FBE85283EB}">
               <p:d />
@@ -39,3 +74,9 @@ Languages:
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Habitat Business Insider Thank You Page
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Thank you for signing up for our newsletter. We will send you regular updates about the latest business banking news including features and case studies for our most successful customers.</p>
+        <p>&nbsp;</p>
+        <br>

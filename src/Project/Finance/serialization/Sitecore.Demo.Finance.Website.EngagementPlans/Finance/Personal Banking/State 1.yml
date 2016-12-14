@@ -19,10 +19,10 @@ Languages:
   Fields:
   - ID: "06f2d72a-1924-4b9a-ba1e-186ce4e57efd"
     Hint: Description
-    Value: User has not registered for webinar yet. 
+    Value: User has watched video
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: State 1
+    Value: watched video
   Versions:
   - Version: 1
     Fields:

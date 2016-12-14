@@ -16,11 +16,11 @@ SharedFields:
           <condition
             id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
             uid="9878484ED15A42A3B382F33ABB93CC44"
-            GoalId="{DAB0472B-4FCE-41A0-8826-ED27ED0FC936}"
+            GoalId="{897596F2-14EC-4AFC-AD5D-A2355535C346}"
             NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
             NumberOfElapsedDays="100"
             NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
-            NumberOfPastInteractions="1" />
+            NumberOfPastInteractions="100" />
         </conditions>
       </rule>
     </ruleset>
@@ -44,7 +44,7 @@ Languages:
   Fields:
   - ID: "06f2d72a-1924-4b9a-ba1e-186ce4e57efd"
     Hint: Description
-    Value: User has registered for The Future of Banking Webinar. 
+    Value: User has watched The Future of Banking Video
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: "Registered?"

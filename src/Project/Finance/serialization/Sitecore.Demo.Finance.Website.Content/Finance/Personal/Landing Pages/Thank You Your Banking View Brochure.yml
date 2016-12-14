@@ -1,0 +1,73 @@
+﻿---
+ID: "69aa7357-d434-4d28-b4b5-5f8059bdd541"
+Parent: "4406a127-0ebb-4658-a475-80fdb5d2ea1e"
+Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
+Path: /sitecore/content/Finance/Personal/Landing Pages/Thank You Your Banking View Brochure
+DB: master
+SharedFields:
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: <tracking />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 800
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DEA10CB2-FD38-4E6A-8E31-DD9E62D0DE6D}"
+              p:before="*"
+              s:ds="{1EB04BAE-923E-40F4-82A5-2E3BB676528C}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section_9979adb5-a3ad-4a9f-b05a-19982b4b7e89/col-wide-1_9dc07203-a961-47bf-8861-9dea5015f49b" />
+            <r
+              uid="{7C1885B6-F6AA-4178-885A-C7F534EF17FC}"
+              p:after="r[@uid='{DEA10CB2-FD38-4E6A-8E31-DD9E62D0DE6D}']"
+              s:ds="{73E9D124-4F99-49B2-BA5C-E9E8BD45934F}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section_9979adb5-a3ad-4a9f-b05a-19982b4b7e89/col-narrow-1_9dc07203-a961-47bf-8861-9dea5015f49b" />
+            <r
+              uid="{9DC07203-A961-47BF-8861-9DEA5015F49B}"
+              p:after="r[@uid='{7C1885B6-F6AA-4178-885A-C7F534EF17FC}']"
+              s:id="{E6D8107A-D811-4826-82BB-1A6279830C5A}"
+              s:ph="/page-layout/section_9979adb5-a3ad-4a9f-b05a-19982b4b7e89" />
+            <r
+              uid="{9979ADB5-A3AD-4A9F-B05A-19982B4B7E89}"
+              p:after="r[@uid='{A607CCB4-81BC-4DC1-897B-BC33B2C52E6D}']"
+              s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+              s:ph="page-layout" />
+            <r
+              uid="{DFDD703B-D723-4BCD-8D49-B7FBE85283EB}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161110T151451Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: |
+        <p>Thank you for signing up</p>
+        <p>&nbsp;Habitat Financial have a wide selection of brochures for customers available online and in our branches.</p>
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Thank You
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Thank You Trigger 1
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: Habitat Financial have a wide selection of brochures for customers available online and in our branches.

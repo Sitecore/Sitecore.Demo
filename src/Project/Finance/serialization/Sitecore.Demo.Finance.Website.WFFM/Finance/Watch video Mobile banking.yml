@@ -9,10 +9,33 @@ SharedFields:
   Hint: Show Introduction
   Type: Checkbox
   Value: 0
+- ID: "87b37b02-ba9e-4464-ab4e-50737bb1d06e"
+  Hint: User Profile
+  Value: "{BB6B091A-EC76-4B1E-BA50-C1BC4FC6E270}"
 - ID: "a42052f7-6c18-424a-a2a1-7a72054cb1a6"
   Hint: Show Title
   Type: Checkbox
   Value: 0
+- ID: "a7f779b9-5fcf-45cc-866b-7c973f5c4fac"
+  Hint: Save Actions
+  Value: |
+    <?xml version="1.0" encoding="utf-16"?>
+    <li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <g id="{E5EABB1F-40BC-45BB-8D87-3B6C239B521B}" displayName="Actions" onclick="javascript:return scForm.postEvent(this,event,'forms:addaction')">
+        <li id="{850B52F1-FBE5-4A89-998C-32DAD0364ABE}" unicid="06F359E1D7164EDBB694832A6A268A27">
+          <parameters>&amp;lt;defaultprofileitemid&amp;gt;{38F813E8-8787-4CE5-B13F-6D0C554E7927}&amp;lt;/defaultprofileitemid&amp;gt;&amp;lt;usernamefield&amp;gt;{51487093-CC46-454B-92E9-5B1128ACE9E2}&amp;lt;/usernamefield&amp;gt;&amp;lt;domainfield&amp;gt;extranet&amp;lt;/domainfield&amp;gt;&amp;lt;auditfield&amp;gt;NoAudit&amp;lt;/auditfield&amp;gt;&amp;lt;passwordfield&amp;gt;randomPassword&amp;lt;/passwordfield&amp;gt;&amp;lt;associateuserwithvisitor&amp;gt;True&amp;lt;/associateuserwithvisitor&amp;gt;&amp;lt;overwriteprofile&amp;gt;True&amp;lt;/overwriteprofile&amp;gt;&amp;lt;mapping&amp;gt;&amp;lt;data&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice0&amp;quot; fieldid=&amp;quot;{51487093-CC46-454B-92E9-5B1128ACE9E2}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice0&amp;quot; fieldid=&amp;quot;Email&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice1&amp;quot; fieldid=&amp;quot;{B3F15660-89E1-4E9E-B25C-24D5D1A424CA}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice1&amp;quot; fieldid=&amp;quot;Full Name&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice2&amp;quot; fieldid=&amp;quot;{03624409-CD7E-4019-881F-D3D5EA78E3EC}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice2&amp;quot; fieldid=&amp;quot;Full Name&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;/data&amp;gt;&amp;lt;/mapping&amp;gt;&amp;lt;profileitemid&amp;gt;{BB6B091A-EC76-4B1E-BA50-C1BC4FC6E270}&amp;lt;/profileitemid&amp;gt;&amp;lt;__messages&amp;gt;&amp;amp;lt;messages&amp;amp;gt;&amp;amp;lt;en&amp;amp;gt;We could not create a user for you on our site&amp;amp;lt;/en&amp;amp;gt;&amp;amp;lt;/messages&amp;amp;gt;&amp;lt;/__messages&amp;gt;</parameters>
+        </li>
+        <li id="{64017682-D88A-44F4-8790-7FED3A583843}" unicid="BDC7A2B4BB314DD39B7C92C2B65999EF">
+          <parameters>&amp;lt;__messages&amp;gt;&amp;amp;lt;messages&amp;amp;gt;&amp;amp;lt;en&amp;amp;gt;We were unable to login your new user&amp;amp;lt;/en&amp;amp;gt;&amp;amp;lt;/messages&amp;amp;gt;&amp;lt;/__messages&amp;gt;&amp;lt;usernamefield&amp;gt;{51487093-CC46-454B-92E9-5B1128ACE9E2}&amp;lt;/usernamefield&amp;gt;&amp;lt;domainfield&amp;gt;extranet&amp;lt;/domainfield&amp;gt;&amp;lt;auditfield&amp;gt;NoAudit&amp;lt;/auditfield&amp;gt;&amp;lt;associateuserwithvisitor&amp;gt;True&amp;lt;/associateuserwithvisitor&amp;gt;</parameters>
+        </li>
+        <li id="{5D54629B-25A4-4107-B614-26F504830335}" unicid="2FB1D45C6ED341A890BBAB47AF595A5B">
+          <parameters>&amp;lt;mapping&amp;gt;[{&amp;quot;key&amp;quot;:&amp;quot;51487093-CC46-454B-92E9-5B1128ACE9E2&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Emails/Entries/SmtpAddress&amp;quot;,&amp;quot;id&amp;quot;:null},{&amp;quot;key&amp;quot;:&amp;quot;03624409-CD7E-4019-881F-D3D5EA78E3EC&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Personal/FirstName&amp;quot;,&amp;quot;id&amp;quot;:null},{&amp;quot;key&amp;quot;:&amp;quot;B3F15660-89E1-4E9E-B25C-24D5D1A424CA&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Personal/Surname&amp;quot;,&amp;quot;id&amp;quot;:null}]&amp;lt;/mapping&amp;gt;&amp;lt;__messages&amp;gt;&amp;amp;lt;messages&amp;amp;gt;&amp;amp;lt;en&amp;amp;gt;We could not update your contact details&amp;amp;lt;/en&amp;amp;gt;&amp;amp;lt;/messages&amp;amp;gt;&amp;lt;/__messages&amp;gt;</parameters>
+        </li>
+        <li id="{1B8ED61B-5B36-4C49-9736-2C4A87795D71}" unicid="8EC776E495A34939B2FAF1EDE4925EC8">
+          <parameters>&amp;lt;engagementstate&amp;gt;eef49ddb-e93c-4717-9bb5-8c5a50a6c798&amp;lt;/engagementstate&amp;gt;&amp;lt;enrollwhen&amp;gt;Always&amp;lt;/enrollwhen&amp;gt;&amp;lt;__actionsubtitle&amp;gt;{7E5E7465-3EFB-4753-BFF8-7583ED35C1C2}&amp;lt;/__actionsubtitle&amp;gt;&amp;lt;__messages&amp;gt;&amp;amp;lt;messages&amp;amp;gt;&amp;amp;lt;en&amp;amp;gt;We were unable to enrol you in an engagement plan&amp;amp;lt;/en&amp;amp;gt;&amp;amp;lt;/messages&amp;amp;gt;&amp;lt;/__messages&amp;gt;</parameters>
+        </li>
+      </g>
+    </li>
 - ID: "af08c32b-f101-44a4-baae-677383e8eb02"
   Hint: Check Actions
   Value: |
@@ -85,4 +108,4 @@ Languages:
     - ID: "9c4c1994-5140-49d3-bad7-db997816f816"
       Hint: Success Page
       Value: |
-        <link text="" linktype="internal" class="" title="" target="" querystring="" id="{BB90A1EB-948D-4924-ACCC-151DEDDEEF54}" />
+        <link id="{BB90A1EB-948D-4924-ACCC-151DEDDEEF54}" querystring="" target="" text="" url="/sitecore/content/Finance/Personal/Landing Pages/Thank You Mobile Banking Video" title="" class="" linktype="internal" />
