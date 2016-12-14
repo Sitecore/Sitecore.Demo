@@ -21,12 +21,7 @@ SharedFields:
 - ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
   Hint: __Tracking
   Type: Tracking
-  Value: |
-    <tracking>
-      <event
-        id="{699AB4E7-4E4B-4336-B34B-01D3D70C7AB5}"
-        name="Download white paper 7 considerations" />
-    </tracking>
+  Value: <tracking />
 - ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
   Hint: Extension
   Value: pdf

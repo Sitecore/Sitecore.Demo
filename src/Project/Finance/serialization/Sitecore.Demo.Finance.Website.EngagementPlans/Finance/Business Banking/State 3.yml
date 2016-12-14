@@ -11,6 +11,10 @@ SharedFields:
 - ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
   Hint: Designer ID
   Value: "994a67f7-ad12-47e3-af5e-83782402266b"
+- ID: "575a25c8-5c6f-4530-a48f-f38e23e9dbd5"
+  Hint: Page Event Subscription
+  Type: TreelistEx
+  Value: "{9658114D-A17F-48DE-8E83-D182F544BB0D}"
 - ID: "7642ed71-348b-4b88-8634-cc7b28949472"
   Hint: Origin ID
   Value: "00000000-0000-0000-0000-000000000000"

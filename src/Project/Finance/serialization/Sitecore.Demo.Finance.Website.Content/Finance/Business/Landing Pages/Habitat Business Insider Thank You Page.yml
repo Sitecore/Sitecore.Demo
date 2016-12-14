@@ -65,6 +65,10 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161110T152510Z
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{60428FD9-CB61-495A-9ED3-EA9BA6B6B581}" />
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: <p>Thank you for signing up for our eNewletter</p>
