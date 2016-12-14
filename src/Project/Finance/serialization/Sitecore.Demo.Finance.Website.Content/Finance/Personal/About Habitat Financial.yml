@@ -1,0 +1,62 @@
+﻿---
+ID: "305010aa-074f-47b1-903e-f7d8569062a8"
+Parent: "97f499e7-0dca-43cf-aa06-8954a5426166"
+Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Path: /sitecore/content/Finance/Personal/About Habitat Financial
+DB: master
+SharedFields:
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 1
+- ID: "68016087-aa00-45d6-922a-678475c50d4a"
+  Hint: ShowChildren
+  Type: Checkbox
+  Value: 0
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{BBBF8DB7-2067-4692-B959-36849FA4B6BA}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 650
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: About Us
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T153152Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{363468E7-EBF4-4C31-9C89-E9C914FF654D}"
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {ECC1E236-17F5-4C6D-995E-BB2DBB72E7B2}
+        {46863A38-1CC9-4D4A-B814-8E3DAF65C722}
+        {7887E114-DD1E-45D9-8B28-C81F6134DF7B}
+        {8DB9E5BD-2F86-427A-B6BC-237763BEA12C}
+        {B140C920-1D9C-4A9B-8EF1-88A762FA0F62}
+        {92986EC1-2B24-4EB2-BB7D-BB9927325DCC}
+        {1EB10EC0-ABEC-4C6B-9C53-4B72A213B5CC}
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{F7BC15FD-6DB8-40A0-9C33-B566272B3537}" ></image>
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: About Habitat Financial
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: About Habitat Financial
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Habitat Financial is one of the world’s premier banking and financial services institutions. We serve more than 52 million customers through five global financial verticals: personal finances and banking, commercial banking, and global banking. Our worldwide hub covers 65 countries and territories in Europe, Asia, the Middle East and Africa, North America and Latin America.</p>
+        <p>With 4,000 offices worldwide, we aim to connect customers to potential financial opportunities, enabling businesses to prosper and bottom lines to grow, and ultimately helping all people to fulfill their dreams.</p>
+        <p>Habitat Financial is listed on the Hong Kong, New York, London, and Paris stock exchanges, shares in Habitat Financial are held by about 285,000 shareholders in 110 countries globally.</p>

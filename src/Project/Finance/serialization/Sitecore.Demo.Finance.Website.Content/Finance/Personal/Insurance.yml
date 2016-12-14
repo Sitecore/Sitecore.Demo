@@ -1,0 +1,108 @@
+﻿---
+ID: "41d64c13-23f3-4bfe-a917-b3ff21ddcbd8"
+Parent: "97f499e7-0dca-43cf-aa06-8954a5426166"
+Template: "1a9e6291-f7c5-44fb-968f-550ed50549f6"
+Path: /sitecore/content/Finance/Personal/Insurance
+DB: master
+SharedFields:
+- ID: "68016087-aa00-45d6-922a-678475c50d4a"
+  Hint: ShowChildren
+  Type: Checkbox
+  Value: 0
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{BBBF8DB7-2067-4692-B959-36849FA4B6BA}"
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="everyday elizabeth|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="0" />
+        <key
+          name="Large Corporate Business"
+          value="0" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="0" />
+      </profile>
+    </tracking>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{564A5F7E-9EFC-4C4B-AD52-24F56EDE93EA}"
+              p:before="*"
+              s:ds="{2A1A4020-9E03-4F52-981A-9D618D438D34}"
+              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
+              s:ph="/page-layout/section/col-narrow-3_6351baa8-a8f9-436f-8e1c-bb49e86e30d9" />
+            <r
+              uid="{B62315BE-C2F2-46BE-931F-EE4E495A4B04}"
+              p:after="r[@uid='{564A5F7E-9EFC-4C4B-AD52-24F56EDE93EA}']"
+              s:ds="{08FBE806-2D20-4612-8F86-1912EAD212FB}"
+              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
+              s:ph="/page-layout/section/col-narrow-2_6351baa8-a8f9-436f-8e1c-bb49e86e30d9" />
+            <r
+              uid="{AB5FB8BA-20BF-454F-B3C5-32287CEB9359}"
+              p:after="r[@uid='{B62315BE-C2F2-46BE-931F-EE4E495A4B04}']"
+              s:ds="{4CE5A289-B5A9-4582-B32B-DD218ADD99F7}"
+              s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
+              s:ph="/page-layout/section/col-narrow-1_6351baa8-a8f9-436f-8e1c-bb49e86e30d9" />
+            <r
+              uid="{6351BAA8-A8F9-436F-8E1C-BB49E86E30D9}"
+              p:after="r[@uid='{AB5FB8BA-20BF-454F-B3C5-32287CEB9359}']"
+              s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}"
+              s:ph="/page-layout/section" />
+          </d>
+        </r>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161108T135731Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{363468E7-EBF4-4C31-9C89-E9C914FF654D}"
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {92986EC1-2B24-4EB2-BB7D-BB9927325DCC}
+        {3D9903DF-F377-46F8-8963-6C8AA57574A7}
+        {3115E545-F4A4-45A4-97C1-08727E0B1AE6}
+        {6CC9EAFC-5B85-4B0B-992F-BD6BCB67DBEB}
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{DC77569D-7ED4-495A-B77F-0F2B35D4D91D}" ></image>
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: <br>As your life moves forward, your insurance needs change every step of the way. Habitat Financial’s experienced professionals can help you select the right options for each stage of your life.
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Live your life fully covered
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Insurance

@@ -1,0 +1,68 @@
+﻿---
+ID: "4a04e42f-cc02-465c-9dbf-f578d82cb0e4"
+Parent: "24359462-e8b9-4181-bfd6-c7861083d7a1"
+Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
+Path: /sitecore/content/Finance/Business/Landing Pages/Taking Over the World Thank You Page
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 172
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{F138E243-0962-49A7-9284-BB019D06115A}"
+              p:before="*"
+              s:ds="{1EB04BAE-923E-40F4-82A5-2E3BB676528C}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section_78459522-4594-4f61-9bae-46a62bac9156/col-narrow-1_b1ea4d05-20cc-446f-b728-242265e911f4" />
+            <r
+              uid="{BCFF0049-569F-421A-B30E-08FA81976EA1}"
+              p:after="r[@uid='{F138E243-0962-49A7-9284-BB019D06115A}']"
+              s:ds="{A67AF722-FB8B-460D-A4F5-E7D200DCD2AC}"
+              s:id="{0534F12C-804E-4532-A832-5D61FE9EC6ED}"
+              s:ph="/page-layout/section_78459522-4594-4f61-9bae-46a62bac9156/col-wide-1_b1ea4d05-20cc-446f-b728-242265e911f4" />
+            <r
+              uid="{B1EA4D05-20CC-446F-B728-242265E911F4}"
+              p:after="r[@uid='{BCFF0049-569F-421A-B30E-08FA81976EA1}']"
+              s:id="{4ACD4C20-28D1-46F7-8FBA-A35778937BD1}"
+              s:ph="/page-layout/section_78459522-4594-4f61-9bae-46a62bac9156" />
+            <r
+              uid="{78459522-4594-4F61-9BAE-46A62BAC9156}"
+              p:after="r[@uid='{A607CCB4-81BC-4DC1-897B-BC33B2C52E6D}']"
+              s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+              s:ph="page-layout" />
+            <r
+              uid="{DFDD703B-D723-4BCD-8D49-B7FBE85283EB}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161110T152510Z
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{86D6D14A-8D7C-476D-958B-1E689EA32F8B}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: <p>Enjoy watching our case study video</p>
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Thank you
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Taking Over the World Thank You Page

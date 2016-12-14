@@ -1,0 +1,177 @@
+﻿---
+ID: "baf33bd0-6e58-4491-8d19-d1e4bb8fe56c"
+Parent: "3736bd01-d5e1-4870-becd-57e82d8072b7"
+Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Path: /sitecore/content/Finance/Personal/Banking/Credit Cards
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{BBBF8DB7-2067-4692-B959-36849FA4B6BA}"
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="everyday elizabeth|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="0" />
+        <key
+          name="Large Corporate Business"
+          value="0" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="0" />
+      </profile>
+    </tracking>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{DBE4B8A2-8AA7-4454-8C3D-D029DB0A483C}"
+              p:after="r[@uid='{54B52353-CA95-4777-9B9C-FF9327ADA0E2}']"
+              s:ds="{1EB04BAE-923E-40F4-82A5-2E3BB676528C}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:par="Background={BD2F308A-E00A-4372-ADBB-BD64712A54FA}"
+              s:ph="/page-layout/section/col-narrow-1">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{2449A985-0E9C-41DB-8D20-6CEF727E5AD6}"
+                    s:name="Hate Forms">
+                    <conditions>
+                      <and
+                        uid="437D313047A341D4BE7483A4888BA4D7">
+                        <condition
+                          uid="0941ACA0C42743CDB14E5FDB912F57E9"
+                          s:id="{6F3DD3F4-52BF-410A-9DC8-60D83200DF3B}"
+                          s:PageEventId="{6412D1D8-CA83-49B0-9096-6417D5909890}"
+                          s:NumberOfElapsedDaysOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}"
+                          s:NumberOfElapsedDays="0"
+                          s:NumberOfPastInteractionsOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}"
+                          s:NumberOfPastInteractions="0" />
+                        <condition
+                          uid="6CA67136BA2C43188FCD2FA67285E0CA"
+                          s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
+                          s:except="true"
+                          s:GoalId="{5D81A014-D98F-43CC-B9A1-784C079029CF}"
+                          s:NumberOfElapsedDaysOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}"
+                          s:NumberOfElapsedDays="0"
+                          s:NumberOfPastInteractionsOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}"
+                          s:NumberOfPastInteractions="0" />
+                      </and>
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="786B56C454F94CEE9BD2212032273AA2"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{1B3E18C8-A13F-4C2F-ACFD-729F1697E377}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{BD1D935C-4178-43C7-9895-A9EE8C6CE589}"
+                    s:name="Applied for CC">
+                    <conditions>
+                      <condition
+                        uid="B419C1EA479C4E95A311B5733D73C576"
+                        s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
+                        s:GoalId="{5D81A014-D98F-43CC-B9A1-784C079029CF}"
+                        s:NumberOfElapsedDaysOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}"
+                        s:NumberOfPastInteractionsOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}"
+                        s:NumberOfElapsedDays="0"
+                        s:NumberOfPastInteractions="0"
+                        s:except="true" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="610C6FB0E19A4CBF8645BAE3A12FC5AD"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{1EB04BAE-923E-40F4-82A5-2E3BB676528C}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="CFBFA49CAD4E4B5EBAB1AA8BC35D96D3"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="3D42357501684F74948F2830E52DE801"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Credit Cards
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T105421Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{363468E7-EBF4-4C31-9C89-E9C914FF654D}"
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {CA77C83A-D215-4D3F-9B0A-E7533943EB80}
+        {2BCB786D-AFF6-486B-B05A-5A4374EFB269}
+        {E108F1F7-EEE6-46B5-A7E4-1158B704ECAB}
+        {2E8E3FE6-0A7C-40F5-A1A5-09A1A1B82E0B}
+        {8D6C90C2-B837-45A6-A290-FEB698F2771E}
+        {48BD08B6-96AB-46B6-8D40-747677781C7D}
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{E0CD2173-C946-4A96-B808-6B3166E8C39C}" ></image>
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "Better rewards? Lower APR? No matter what kind of card you’re looking for, we’ve got the card that fits your need."
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: The cards are stacked in your favor
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Credit Cards
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>What type of card are you looking for? See below for a list of our most popular card options:</p>
+        <h3>Cash Back Card</h3>
+        <p>With Habitat &rsquo;s Cash Plus cards you can earn cash back with every purchase. Habitat&rsquo;s Cash Plus card rewards you with cash back twice with 1% as you pay for those purchases.</p>
+        <h3>Travel Card</h3>
+        <p>Habitat offers a travel and hotel credit card that contains a variety of travel rewards. Get away from it all sooner, and more often, with Habitat&rsquo;s Travel Plus card program.</p>
+        <h3>Low Interest Card</h3>
+        <p>Habitat&rsquo;s EZ Card is the only card with no late fees, no penalty rates, and no annual fees. It also offers an ultra low introductory APR for 21 months on purchases and balance transfers.</p>
+        <h3>Rewards Card</h3>
+        <p>The Habitat Rewards Elite credit card is one of the industry&rsquo;s top rewards program. Earn Elite Points on travel including gas, commuting, parking or flying, dining out and entertainment and other purchases. Plus redeem your Elite Points for almost anything!</p>
+        <h3>Balance Transfer Card</h3>
+        <p>Habitat makes transferring balances from a current account to a low interest credit card simple. Take control of your finances and take advantage of this low-interest balance transfer credit cards offering 0% APR to start.</p>

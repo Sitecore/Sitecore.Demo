@@ -1,0 +1,32 @@
+﻿---
+ID: "4f46fd1d-ab75-4801-b247-7062b32df389"
+Parent: "ab64b549-cf2f-4758-950c-c5fd54deda0d"
+Template: "8c5ead00-5f68-4310-ab0c-84f283b5ee0a"
+Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Finance/Credit Card Application/Visitor has applied for a card/Balance Plus Credit Card/Submit to Credit Check
+DB: master
+SharedFields:
+- ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
+  Hint: Designer ID
+  Value: "4f46fd1d-ab75-4801-b247-7062b32df389"
+- ID: "7642ed71-348b-4b88-8634-cc7b28949472"
+  Hint: Origin ID
+  Value: "d4ae670a-f234-45b0-a53d-77457cac78fc"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Submit to Credit Check
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20150311T113742:635616706620338022Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

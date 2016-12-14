@@ -1,0 +1,124 @@
+﻿---
+ID: "6e9c9166-5bec-454b-a9a1-118a71c4ade6"
+Parent: "ba86c857-6f07-4064-9512-e740247d4ac2"
+Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Path: /sitecore/content/Finance/Personal/Borrowing/Home Loans
+DB: master
+SharedFields:
+- ID: "0dca829c-9fce-41f5-9990-c6182fefe905"
+  Hint: SeoFollowLinks
+  Type: Checkbox
+  Value: 0
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 0
+- ID: "68016087-aa00-45d6-922a-678475c50d4a"
+  Hint: ShowChildren
+  Type: Checkbox
+  Value: 0
+- ID: "683d7237-206a-488f-9dee-4a4e41fb161d"
+  Hint: CanIndex
+  Type: Checkbox
+  Value: 0
+- ID: "8d5c486e-a0e3-4dbe-9a4a-cdff93594bda"
+  Hint: IncludeInSearchResults
+  Type: Checkbox
+  Value: 0
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{BBBF8DB7-2067-4692-B959-36849FA4B6BA}"
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="everyday elizabeth|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="0" />
+        <key
+          name="Large Corporate Business"
+          value="0" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="0" />
+      </profile>
+    </tracking>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{BF4D680F-4692-4D93-808A-4303B2C80B30}"
+              p:after="r[@uid='{54B52353-CA95-4777-9B9C-FF9327ADA0E2}']"
+              s:ds="{CD169B55-DB56-4DCF-8079-53A5438C8B14}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section/col-narrow-1" />
+          </d>
+        </r>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Home Loans
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T110612Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{363468E7-EBF4-4C31-9C89-E9C914FF654D}"
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {5B83960D-4823-49A8-8E5C-EB59C6BD1898}
+        {5C6EA3E9-F95E-4A86-9ED7-86FFA13B1ACC}
+        {FA8C6E8D-3DA9-44AD-BC59-3FDA04440987}
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{21A498E9-670E-41A1-BD9E-198881FD3BA2}" ></image>
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Your dream home is a click away with a Habitat Financial mortgage.
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Home sweet loan.
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Home Loans
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>No matter where your are with homeownership, or where you are in the home-buying process, our expert lending programs are here to help you get into the house of your dreams. Habitat has the expertise in helping our customers find the right mortgage products. Whether you are a first-time home buyer, or an existing home owner looking to move, we can help. We offer a variety of mortgage options and competitive mortgage rates specially fit to your needs. We are here to help make buying your home a simple process. Below are a few of our home loan products:</p>
+        <h3>Homebuying Loans</h3>
+        <ul>
+            <li>Fixed-rate and adjustable-rate mortgages</li>
+            <li>New construction loans</li>
+            <li>FHA and VA mortgages</li>
+            <li>Low down payment option</li>
+        </ul>
+        <h3>Refinancing Loans</h3>
+        <ul>
+            <li>Fixed-rate and adjustable-rate mortgages</li>
+            <li>FHA and VA mortgages</li>
+            <li>Home Affordable Refinance Program (HARP)</li>
+        </ul>

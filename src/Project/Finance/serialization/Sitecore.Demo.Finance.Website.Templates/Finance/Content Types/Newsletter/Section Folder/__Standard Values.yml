@@ -1,0 +1,27 @@
+﻿---
+ID: "64c09879-c750-409d-9b02-3bdd6ac94d86"
+Parent: "cee3c691-7d86-4ed4-b475-184be5bc7d47"
+Template: "cee3c691-7d86-4ed4-b475-184be5bc7d47"
+Path: /sitecore/templates/Project/Finance/Content Types/Newsletter/Section Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{BB2B010F-C453-4BEE-89DF-C21C861C2F74}"
+- ID: "a0cb3965-8884-4c7a-8815-b6b2e5ced162"
+  Hint: __Editors
+  Type: TreelistEx
+  Value: "{A0C460F4-DBAE-4A5A-8F3A-C4ADFCDACEEA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T052907Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,22 @@
+﻿---
+ID: "a00e4113-e2c5-42fa-8ede-24f51725a8f8"
+Parent: "514e7618-5a99-45c3-b06a-bf9ab00b9308"
+Template: "cb01f9fc-c187-46b3-ab0b-97a8468d8303"
+Path: /sitecore/system/Workflows/Finance Workflow/Draft/Submit
+DB: master
+SharedFields:
+- ID: "dcbebc58-6124-4100-a248-fc717d6c78d5"
+  Hint: Next state
+  Value: "{CB25272A-8AEC-4C45-B01D-68BDFAF630EA}"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Sitecore Client Authoring|pe|+workflowCommand:execute|pd|+workflowCommand:execute|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160203T161452Z

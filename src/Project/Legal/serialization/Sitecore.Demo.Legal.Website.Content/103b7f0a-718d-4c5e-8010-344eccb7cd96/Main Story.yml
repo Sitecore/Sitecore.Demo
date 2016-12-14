@@ -22,4 +22,5 @@ Languages:
       Value: 20160907T152706Z
     - ID: "94d50f81-f040-4b51-b895-d2fd2c27c223"
       Hint: Content
-      Value: "<p style=\"margin: 0cm 0cm 8pt;\">Welcome to the January newsletter. As our friends in the Northern hemisphere deal with the winter winds and snow, our friends in the Southern hemisphere are basking in the warm weather.</p>"
+      Value: |
+        <p style="margin: 0cm 0cm 8pt;">Welcome to the January newsletter. As our friends in the Northern hemisphere deal with the winter winds and snow, our friends in the Southern hemisphere are basking in the warm weather.</p>

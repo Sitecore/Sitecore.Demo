@@ -1,0 +1,19 @@
+﻿---
+ID: "0ccf7f1b-de53-42e9-8ace-8949b0800775"
+Parent: "4916b4c9-3e30-4e3c-9aa7-5be5bc2e3711"
+Template: "4916b4c9-3e30-4e3c-9aa7-5be5bc2e3711"
+Path: /sitecore/templates/Project/Finance/Content Types/Newsletter/Header/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{8E030BF6-9218-490E-B029-A5AF48619E83}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160816T055432Z

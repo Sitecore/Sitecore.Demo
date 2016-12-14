@@ -1,0 +1,73 @@
+﻿---
+ID: "ecec92c9-8277-42ea-9390-dbcd9cb9fd9c"
+Parent: "3736bd01-d5e1-4870-becd-57e82d8072b7"
+Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Path: /sitecore/content/Finance/Personal/Banking/Checking
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{363468E7-EBF4-4C31-9C89-E9C914FF654D}"
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="everyday elizabeth|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="0" />
+        <key
+          name="Large Corporate Business"
+          value="0" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="0" />
+      </profile>
+    </tracking>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Checking
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T105405Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{363468E7-EBF4-4C31-9C89-E9C914FF654D}"
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {421ECE43-2046-4CA6-8F13-E860DE06406F}
+        {CA77C83A-D215-4D3F-9B0A-E7533943EB80}
+        {C3F4F940-3273-42D4-BCED-39A08A2D64F8}
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{80857DBF-077E-4DC2-A4FD-A335999F40C0}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Simplicity at its best. A basic checking account for your everyday banking needs.
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Everyday checking
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Checking
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: "<p>Our basic checking account is perfect for those who want to keep banking simple. We offer a straightforward option that eliminates monthly service fees and fee-free access to over 55,000 ATMs nationally and 24/7 account access online. Each of our basic checking accounts provide the following features:</p><h3>No opening deposit and no monthly fees</h3><p>Habitat&rsquo;s minimum opening deposit required is $0 and there is no monthly minimum balance.</p><h3>Habitat All-Access Banking Card</h3><p>With each account comes a Habitat All-Access Debit Card (banking card) that lets you access your accounts online, by phone and at ATMs. Plus, you can use it to conveniently make purchases at hundreds of thousands of merchants around the world.</p><h3>Bill Payment</h3><p>You can make payments to third parties by calling Habitat&rsquo;s Telebanking or by using Habitat&rsquo;s mobile or online solutions. When you pay your bills through our bill payment service your payment is transferred electronically or by a credentialed check.</p><h3>Direct Deposit</h3><p>You may have incoming funds, such as your payroll, pension, or social security payments sent to your checking, savings and money market accounts by Direct Deposit to each Habitat account without fees.</p><h3>Around the Clock Account Protection</h3><p>In today&rsquo;s digital world, the thought of ID theft is scary and real. If you're ever a victim, we have a team of specialists dedicated to help you re-establish your credit and reclaim your identity.</p><h3>Paperless Statements</h3><p>Each Habitat account provides the option for paperless statements allowing you to save paper and time, and reduce the chances of your bank statement getting lost or stolen in the mall.</p>"

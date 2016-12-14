@@ -1,0 +1,21 @@
+﻿---
+ID: "a0e43475-d972-4a4f-b9fa-bb05aeab3e22"
+Parent: "57ceb5e8-6643-409d-8155-684011c1a880"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: "/sitecore/content/Finance/Global/Teasers/Personal Future of Banking/Chip-enabled Cards Variations/Campaign Search Chip-enabled Cards"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{A7C97E7A-9C2D-4EFF-9E52-DF88ACB92413}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161130T145617Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: "Campaign Search Chip-enabled Cards"

@@ -1,9 +1,13 @@
 ﻿---
 ID: "dedeee27-a46d-4317-b49d-ecdb7d5378ec"
 Parent: "a9ad83be-c8b9-427e-abdc-e8a47721f86f"
-Template: "f656083b-beeb-484e-a1c0-ddbb49139c7a"
+Template: "696d276b-786a-4d1e-b8bb-8e139db7be7c"
 Path: /sitecore/system/Settings/Security/Profiles/Legal/LegalUser
 DB: core
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: 
 Languages:
 - Language: en
   Versions:

@@ -1,0 +1,37 @@
+﻿---
+ID: "8c8695a8-9557-4bb0-8091-472b5bc09fd0"
+Parent: "8dc91a10-4fff-4577-8030-debe0e075d39"
+Template: "b4f6f114-e653-4a22-86c5-499e0bd99d9a"
+Path: /sitecore/content/Finance/Portal/My Page/_Local/Investments
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bc0aedf-a6d0-4f74-933c-bd1779cd40b2"
+      Hint: HTML Content
+      Value: |
+        <div class="panel panel-dark">
+            <div class="panel-heading">
+                <div class="label pull-right text-muted">Today</div>
+                <h4 class="text-uppercase">Investments</h4>
+            </div>
+            <table class="table panel-body">
+                <tbody>
+                    <tr>
+                        <td colspan="3" class="text-center">
+                            <h3 class="m-t-1 m-b-1 text-large">$1,899,543</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="80%">Todays change</td>
+                        <td width="10%" class="text-right text-nowrap text-success"><strong>+$21,477</strong></td>
+                        <td width="10%" class="text-right text-nowrap text-success"><strong>+$4.29%</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161202T031638Z

@@ -1,0 +1,94 @@
+﻿---
+ID: "50125c5a-ec4c-4e5f-88fa-9701f0600f75"
+Parent: "79efda65-f778-4c37-a293-2497289be670"
+Template: "9ea41747-6119-4aa8-ab6b-20c58b3f430f"
+Path: /sitecore/content/Finance/Personal/About Habitat Financial/News/2016/11/09/14/58/News Post 3
+DB: master
+SharedFields:
+- ID: "0dca829c-9fce-41f5-9990-c6182fefe905"
+  Hint: SeoFollowLinks
+  Type: Checkbox
+  Value: 0
+- ID: "683d7237-206a-488f-9dee-4a4e41fb161d"
+  Hint: CanIndex
+  Type: Checkbox
+  Value: 0
+- ID: "8d5c486e-a0e3-4dbe-9a4a-cdff93594bda"
+  Hint: IncludeInSearchResults
+  Type: Checkbox
+  Value: 0
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{BBBF8DB7-2067-4692-B959-36849FA4B6BA}"
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="stephen the cfo|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="0" />
+        <key
+          name="Large Corporate Business"
+          value="0" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="0" />
+      </profile>
+    </tracking>
+- ID: "c464d2d7-3382-428a-bcdf-0963c60ba0e3"
+  Hint: NewsDate
+  Value: 20161111T000000Z
+- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
+  Hint: __Bucketable
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T145831Z
+    - ID: "3437eaac-6ee8-460b-a33d-da1f714b5a93"
+      Hint: NewsImage
+      Value: |
+        <image mediaid="{C0686F39-35D5-4A8A-AD4B-19E9786C12AD}" />
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{363468E7-EBF4-4C31-9C89-E9C914FF654D}"
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {7159BBF6-AB17-4F12-A910-EB145D72BFC9}
+        {7887E114-DD1E-45D9-8B28-C81F6134DF7B}
+        {930DCEF9-5C82-4933-953F-271B670CD5CD}
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "801612c7-5e98-4e3c-80d2-a34d0eebcbda"
+      Hint: NewsBody
+      Value: |
+        <p>Habitat Financial introduces the Habitat Asian Diversified (HAD) index. HAD provides investors with a comprehensive, diversified benchmark that tracks local government bonds issued by emerging Asian countries. HAD extends the Habitat Financial index product suite with a focus on regional investor preferences. The diversification approach accomplishes both a broad inclusion of Asian countries as well as a balanced allocation overall.&nbsp;</p>
+        <p>The main composite of the index are HAD Global. The HAD Global contains all eligible countries within the Asia region that meet the index criteria and excludes foreign investors. Countries are capped at 21%. Additionally, eligibility criteria for bonds include a minimum size requirement of US$1 billion equivalent for local currency bonds and US$500 million equivalent for global bonds.<br>
+        Returns and statistics are available from December 31, 2003, providing a long record of performance history.&nbsp;</p>
+        <p>&nbsp;</p>
+    - ID: "9d08271a-1672-44dd-b7ef-0a6ec34fcba7"
+      Hint: NewsSummary
+      Value: Habitat Financial introduces the Habitat Asian Diversified (HAD) index.
+    - ID: "bd9ecd4a-c0b0-4233-a3cd-d995519ac87b"
+      Hint: NewsTitle
+      Value: Habitat Financial launches diversified Asian local markets index
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Habitat Financial launches diversified Asian local markets index

@@ -1,0 +1,54 @@
+﻿---
+ID: "bb939021-fbc3-4b03-8670-a0e6803054a3"
+Parent: "eea2316b-d42a-4be9-97c0-f9efe34ab8c2"
+Template: "cf9c8a2a-2794-4fea-980a-ef8426f3d6c3"
+Path: /sitecore/content/Finance/Finance Campaigns
+DB: master
+BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
+SharedFields:
+- ID: "1b963507-6176-4336-a14d-d5070c3b0286"
+  Hint: Base URL
+  Value: "http://finance.dev.local"
+- ID: "1ec023fb-dbb4-4a7b-837d-55f9614737b8"
+  Hint: POP3 Password
+  Value: b
+- ID: "52d572ad-9678-423f-96e2-477528418ba1"
+  Hint: "Global Opt-out List"
+  Value: "{FEB891B7-D9BF-418B-813A-5582ED6FDBED}"
+- ID: "5c4af5b4-52d0-4db7-ac78-4eb030d6edc2"
+  Hint: Subscriber Profile
+  Value: "{BB6B091A-EC76-4B1E-BA50-C1BC4FC6E270}"
+- ID: "943d8e5d-b924-41f8-ba1e-e0b630960e6e"
+  Hint: Preview base URL
+  Value: "http://finance.dev.local"
+- ID: "9b82216d-f53b-4558-b30a-e6952c8587f3"
+  Hint: Website Site Configuration Name
+  Value: finance
+- ID: "afb3e366-dab4-4e10-b61f-bc3776542bb8"
+  Hint: POP3 User Name
+  Value: |
+    sitecore\admin
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 900
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\ECM Users|pd|^*|+item:read|pe|^*|+item:read|ar|sitecore\ECM Advanced Users|pd|+item:delete|+item:admin|+item:create|+item:rename|^*|+item:read|+item:write|pe|+item:delete|+item:admin|+item:create|+item:rename|^*|+item:read|+item:write|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f383cd8-c031-4a9d-9ed0-d55217f91287"
+      Hint: From Address
+      Value: no_reply@sitecore.net
+    - ID: "15b8e428-a2d3-4736-8708-3b6ce509aa86"
+      Hint: Reply To
+      Value: no_reply@sitecore.net
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161205T040936Z
+    - ID: "69aad409-ca36-4767-b945-abb77f3611fd"
+      Hint: From Name
+      Value: no_reply@sitecore.net

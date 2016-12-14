@@ -31,7 +31,7 @@ SharedFields:
           <action
             id="{65A7EAD2-9ECF-4CA1-A517-A27A6CD65019}"
             uid="BCA334F5A6534BC99A02E869D31F196B"
-            Name="First Name" />
+            Name="FirstName" />
         </actions>
       </rule>
     </ruleset>

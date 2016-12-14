@@ -1,0 +1,24 @@
+﻿---
+ID: "83583762-eca9-499e-a503-d6344f7d500f"
+Parent: "aad6aec2-50e6-4110-81c5-cf9de5fb1376"
+Template: "fff5f245-ffc0-4022-a998-9b07aa5e761f"
+Path: /sitecore/content/Finance/Business/Landing Pages/Habitat Business Insider Thank You Page/_Local
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {C7D9D293-4EF8-4380-8E10-C4632E729F39}
+    {061574E1-59DD-4B62-9680-1C84EFBE6773}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-1000"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161213T142604Z

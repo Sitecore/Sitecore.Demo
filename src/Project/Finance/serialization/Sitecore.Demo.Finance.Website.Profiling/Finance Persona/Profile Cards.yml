@@ -1,0 +1,15 @@
+﻿---
+ID: "c795d529-66a7-4dde-8431-cd41a27151c9"
+Parent: "76474166-02c0-4008-9602-f05e9156fb37"
+Template: "1ad02405-7207-4962-ba96-6d6c3ba30ba7"
+Path: /sitecore/system/Marketing Control Panel/Profiles/Finance Persona/Profile Cards
+DB: master
+BranchID: "07624a03-bb2f-45d8-abe1-15e2b1705ff3"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161104T022133Z

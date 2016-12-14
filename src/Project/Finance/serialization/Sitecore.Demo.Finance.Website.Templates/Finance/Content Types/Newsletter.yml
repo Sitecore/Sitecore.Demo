@@ -1,0 +1,18 @@
+﻿---
+ID: "ba4047b2-c4e0-48cb-8376-7badfcc4c4a9"
+Parent: "7f5456c7-38c6-46cb-bdeb-5fe5b8e662e9"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/Finance/Content Types/Newsletter
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160816T054146Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

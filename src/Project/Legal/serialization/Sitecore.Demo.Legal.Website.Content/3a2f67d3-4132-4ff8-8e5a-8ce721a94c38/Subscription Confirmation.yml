@@ -9,9 +9,18 @@ SharedFields:
 - ID: "0934bec4-325a-427b-95bb-46f78cea9591"
   Hint: Message Type
   Value: "{B2F77E26-C5AC-4A6B-BBB3-F290100EB3D8}"
+- ID: "6ec7a9e6-9fd5-4892-bbf6-11e76e0e5db8"
+  Hint: Start Time
+  Value: 20161129T043519Z
+- ID: "78f0b1f8-fdf4-4c1c-bec6-1ac68a210a52"
+  Hint: Campaign
+  Value: 
 - ID: "af0fe26a-a78b-491d-885c-03d95bc17342"
   Hint: State
   Value: Active
+- ID: "ed5a9033-96ed-41f8-9731-7499c55ecbfa"
+  Hint: Engagement Plan
+  Value: 
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
@@ -83,6 +92,3 @@ Languages:
     - ID: "8e6b1f0c-1267-4651-bfaa-affd48a799ee"
       Hint: Subject
       Value: Subscription Confirmation
-    - ID: "ced0c05f-d1cb-46e9-875b-e2c01eec85bc"
-      Hint: Reply To
-      Value: no_reply@sitecore.net

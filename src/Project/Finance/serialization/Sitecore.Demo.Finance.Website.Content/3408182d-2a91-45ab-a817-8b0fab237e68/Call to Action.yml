@@ -1,0 +1,25 @@
+﻿---
+ID: "beb34cbe-5b8f-4dfb-a79f-b240ee9c2f14"
+Parent: "3408182d-2a91-45ab-a817-8b0fab237e68"
+Template: "bb2b010f-c453-4bee-89df-c21c861c2f74"
+Path: "/sitecore/content/Finance/Finance Campaigns/Messages/2016/12/06T155206/Chip-enabled Cards/Message Root/Call to Action"
+DB: master
+BranchID: "d39fc088-90c8-4be8-8d63-c63f8552c6a9"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: Free Webinar
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161210T133534Z
+    - ID: "2e2c5fb3-ff5b-4f13-aa18-cfba9c9a97d3"
+      Hint: Link
+      Value: |
+        <link linktype="internal" text="Sign up now" querystring="" target="" id="{70408465-EA2D-4BB5-A01C-DDDB0D3FFA42}" />
+    - ID: "94d50f81-f040-4b51-b895-d2fd2c27c223"
+      Hint: Content
+      Value: "So how exactly will this affect you? You probably have a lot of questions. That&rsquo;s why we&rsquo;ve put together this simple, easy-to-read article where we'll walk you through everything you need to know.<br>"

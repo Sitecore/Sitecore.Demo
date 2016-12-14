@@ -1,0 +1,25 @@
+﻿---
+ID: "cecbf226-c522-4d02-a2c7-ff494b30a14b"
+Parent: "e70b8747-413c-4ce5-943e-609c7ba2fe27"
+Template: "390333c8-751b-4332-84a3-6360b969a19f"
+Path: /sitecore/content/Finance/Global/Links/Business Areas/Personal
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Personal
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161114T014052Z
+    - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
+      Hint: Link
+      Value: |
+        <link id="{97F499E7-0DCA-43CF-AA06-8954A5426166}" querystring="" text="" title="" class="" linktype="internal" url="/Finance/Personal" target="" />

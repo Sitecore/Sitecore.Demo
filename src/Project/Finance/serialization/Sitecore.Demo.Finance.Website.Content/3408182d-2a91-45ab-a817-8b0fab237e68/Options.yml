@@ -1,0 +1,19 @@
+﻿---
+ID: "25c4e9da-ea06-4d73-82e6-7c4bb6b2f816"
+Parent: "3408182d-2a91-45ab-a817-8b0fab237e68"
+Template: "1ba92a5b-ebf4-42d4-a1cb-14b0db1c1ca3"
+Path: "/sitecore/content/Finance/Finance Campaigns/Messages/2016/12/06T155206/Chip-enabled Cards/Message Root/Options"
+DB: master
+BranchID: "d39fc088-90c8-4be8-8d63-c63f8552c6a9"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161210T133535Z

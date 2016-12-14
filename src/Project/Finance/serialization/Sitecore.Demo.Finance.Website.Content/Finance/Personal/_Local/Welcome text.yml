@@ -1,0 +1,17 @@
+﻿---
+ID: "7771e373-0c3b-4fa4-aea1-1b53096196c1"
+Parent: "e975dd01-26cd-4b3f-abf6-8edcc0e01186"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: /sitecore/content/Finance/Personal/_Local/Welcome text
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161104T050615Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Welcome to Habitat Finance

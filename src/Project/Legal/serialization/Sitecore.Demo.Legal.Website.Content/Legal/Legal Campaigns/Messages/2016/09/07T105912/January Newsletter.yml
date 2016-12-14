@@ -21,29 +21,12 @@ SharedFields:
 - ID: "2bbf5276-ed11-4cd0-946f-66678b524457"
   Hint: Campaign Position
   Value: "{0A1E7823-DCCE-4BFE-8970-41EFADEABE1C}"
-- ID: "2df7de6e-a412-4a98-b8c4-b7ab7032634a"
-  Hint: Test Size
-  Value: 1|10
-- ID: "6ec7a9e6-9fd5-4892-bbf6-11e76e0e5db8"
-  Hint: Start Time
-  Value: 20161114T154758Z
-- ID: "78f0b1f8-fdf4-4c1c-bec6-1ac68a210a52"
-  Hint: Campaign
-  Value: "{585E8E9B-4253-4146-9304-8FEE31A107A3}"
-- ID: "8546d6e6-0749-4591-90f3-cec033d6e8d8"
-  Hint: __Page Level Test Set Definition
-  Value: 
-- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
-  Hint: __Read Only
-  Type: Checkbox
-  Value: 1
 - ID: "af0fe26a-a78b-491d-885c-03d95bc17342"
   Hint: State
-  Value: Sending
-- ID: "ccf21e1b-ee11-4a0b-942a-b4de2dfa3685"
-  Hint: Excluded Recipient Lists
-  Type: TreelistEx
-  Value: 
+  Value: Draft
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 - ID: "ed5a9033-96ed-41f8-9731-7499c55ecbfa"
   Hint: Engagement Plan
   Value: "{7F206F23-3029-4414-9B1B-0FFAF61ACC91}"
@@ -99,10 +82,6 @@ SharedFields:
           uid="{060548F7-B9E0-498A-80C0-D165CC9AD1C6}" />
       </d>
     </r>
-- ID: "f8d592cc-f3e5-4a8e-a600-8aebe8cc36e4"
-  Hint: Included Recipient Lists
-  Type: TreelistEx
-  Value: 
 - ID: "fade34d8-c101-420d-9620-e4deb659c36b"
   Hint: Campaign Group
   Value: "{AB2F413C-4854-48EB-B7EB-6FD2E8142B19}"

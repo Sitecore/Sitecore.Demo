@@ -18,7 +18,8 @@ Languages:
       Value: 20160915T093236Z
     - ID: "2e2c5fb3-ff5b-4f13-aa18-cfba9c9a97d3"
       Hint: Link
-      Value: "<link linktype=\"internal\" text=\"Sign Up Now\" querystring=\"\" target=\"\" id=\"{BCF8524F-D93A-47FB-BD2F-D4D9B887A2A6}\" />"
+      Value: |
+        <link linktype="internal" text="Sign Up Now" querystring="" target="" id="{BCF8524F-D93A-47FB-BD2F-D4D9B887A2A6}" />
     - ID: "94d50f81-f040-4b51-b895-d2fd2c27c223"
       Hint: Content
       Value: <span>This webinar will provide legal professionals with a detailed exploration of the challenges that arise with sales and use, real estate transfer, and other transaction taxes arising from a merger and acquisition event.</span>

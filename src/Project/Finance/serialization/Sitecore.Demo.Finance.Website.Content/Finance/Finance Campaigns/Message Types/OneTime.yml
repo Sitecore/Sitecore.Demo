@@ -1,0 +1,19 @@
+﻿---
+ID: "8efb8403-29f4-4c5a-bc35-3562309b9557"
+Parent: "04d5dec7-3796-4c3e-926a-b069b1a0bc2f"
+Template: "fa257176-aa15-4999-91c5-c03f3bda5027"
+Path: /sitecore/content/Finance/Finance Campaigns/Message Types/OneTime
+DB: master
+BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: One Time Message
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161205T040937Z

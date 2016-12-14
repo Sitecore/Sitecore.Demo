@@ -1,0 +1,100 @@
+﻿---
+ID: "8463632d-ee86-4f16-a846-035cff6640f7"
+Parent: "7982752c-68b2-4570-b78d-4a18731dfee7"
+Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Path: /sitecore/content/Finance/Business/International/Foreign Exchange
+DB: master
+SharedFields:
+- ID: "0dca829c-9fce-41f5-9990-c6182fefe905"
+  Hint: SeoFollowLinks
+  Type: Checkbox
+  Value: 0
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 0
+- ID: "68016087-aa00-45d6-922a-678475c50d4a"
+  Hint: ShowChildren
+  Type: Checkbox
+  Value: 0
+- ID: "683d7237-206a-488f-9dee-4a4e41fb161d"
+  Hint: CanIndex
+  Type: Checkbox
+  Value: 0
+- ID: "8d5c486e-a0e3-4dbe-9a4a-cdff93594bda"
+  Hint: IncludeInSearchResults
+  Type: Checkbox
+  Value: 0
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{BBBF8DB7-2067-4692-B959-36849FA4B6BA}"
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="ben the banker|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="5" />
+        <key
+          name="Large Corporate Business"
+          value="3" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="3" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Foreign Exchange
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T122616Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{363468E7-EBF4-4C31-9C89-E9C914FF654D}"
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {02AEF492-E9C2-4808-AB1C-E6BBFA501D36}
+        {5E35BD3D-A619-4001-B228-87BD510F0322}
+        {408EC767-3C2E-4695-A8C8-9E87399EE26E}
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{357E2037-947A-4417-8A03-08D094B50527}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Habitat has been helping business expand globally for over 20 years
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Business finance without borders
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Foreign Exchange
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Habitat Financial&rsquo;s global network deals with billions in foreign exchange every day. We have the technology to help you manage your business finances far beyond local borders. Below is an outline of our foreign exchange technology:</p>
+        <h3>Leading global market data</h3>
+        <p>Habitat Financial is a leading market maker globally, quoting competitive prices in all tradable currencies, 24 hours a day. We trade in over 60 countries and territories. Our dynamic corporate and institutional sales and trading teams provide up-to-date market intelligence, advice and timely execution of deals to our customers throughout the trading day.</p>
+        <h3>Tracking, advice and timely execution of deals throughout the day</h3>
+        <p>How can you benefit from easy online access to real-time currency rates?</p>
+        <ul>
+            <li>Maintain greater control of your disbursements with real-time value on your foreign exchange payments</li>
+            <li>Initiate payments anywhere in the world, in over 30 currencies</li>
+            <li>Competitive exchange rate</li>
+        </ul>

@@ -15,4 +15,5 @@ Languages:
       Value: 20160907T152707Z
     - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
       Hint: Link
-      Value: "<link text=\"Sitecore\" linktype=\"external\" url=\"http://www.sitecore.net\" anchor=\"\" target=\"\" />"
+      Value: |
+        <link text="Sitecore" linktype="external" url="http://www.sitecore.net" anchor="" target="" />

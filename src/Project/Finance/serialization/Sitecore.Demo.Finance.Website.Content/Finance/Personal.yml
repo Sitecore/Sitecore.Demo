@@ -1,0 +1,216 @@
+﻿---
+ID: "97f499e7-0dca-43cf-aa06-8954a5426166"
+Parent: "eea2316b-d42a-4be9-97c0-f9efe34ab8c2"
+Template: "9aefc86f-3d1e-444c-931f-5c86a3a73a0a"
+Path: /sitecore/content/Finance/Personal
+DB: master
+SharedFields:
+- ID: "0dca829c-9fce-41f5-9990-c6182fefe905"
+  Hint: SeoFollowLinks
+  Type: Checkbox
+  Value: 0
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 0
+- ID: "683d7237-206a-488f-9dee-4a4e41fb161d"
+  Hint: CanIndex
+  Type: Checkbox
+  Value: 0
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-100"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02115632-fe1e-4b3d-9ad4-a4ddf1f782f0"
+      Hint: Copyright
+      Value: |
+        <p>Copyright &copy; 2016 Habitat Financial</p>
+        <p><a href="~/link.aspx?_id=DA11EA324D544FFFAAD314DC40957283&amp;_z=z">Legal Notice</a> | <a href="~/link.aspx?_id=B67C978F23FD4361B41C347FBCE1E52D&amp;_z=z">Privacy Policy</a></p>
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{0E49C45C-FFFA-4D76-BED0-DD9C617DE762}"
+              p:before="*"
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:ph="/page-layout/section_735bf2e5-54cd-4c90-af0a-4c6c242f0204" />
+            <r
+              uid="{9A4D7489-ECED-4EBF-BAB6-1CAF76C7B4DD}"
+              p:after="r[@uid='{0E49C45C-FFFA-4D76-BED0-DD9C617DE762}']"
+              s:ds="{C8417DA4-70F1-442F-A95E-67F842F8DCAE}"
+              s:id="{07AB411C-F894-4144-B069-48EF67431D32}"
+              s:ph="/page-layout/section_4a206cf4-24a8-4414-99ea-e5af2056b9ef/col-narrow-3_e7e10d02-1b54-4f60-a168-00a0efb696e6" />
+            <r
+              uid="{7773106C-7445-431C-86DD-064D43BEE941}"
+              p:after="r[@uid='{9A4D7489-ECED-4EBF-BAB6-1CAF76C7B4DD}']"
+              s:ds="{6E9C9166-5BEC-454B-A9A1-118A71C4ADE6}"
+              s:id="{07AB411C-F894-4144-B069-48EF67431D32}"
+              s:ph="/page-layout/section_4a206cf4-24a8-4414-99ea-e5af2056b9ef/col-narrow-2_e7e10d02-1b54-4f60-a168-00a0efb696e6" />
+            <r
+              uid="{8B02F30C-3E75-468D-9055-658E8AA633C2}"
+              p:after="r[@uid='{7773106C-7445-431C-86DD-064D43BEE941}']"
+              s:ds="{BAF33BD0-6E58-4491-8D19-D1E4BB8FE56C}"
+              s:id="{07AB411C-F894-4144-B069-48EF67431D32}"
+              s:ph="/page-layout/section_4a206cf4-24a8-4414-99ea-e5af2056b9ef/col-narrow-1_e7e10d02-1b54-4f60-a168-00a0efb696e6" />
+            <r
+              uid="{E7E10D02-1B54-4F60-A168-00A0EFB696E6}"
+              p:after="r[@uid='{8B02F30C-3E75-468D-9055-658E8AA633C2}']"
+              s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}"
+              s:ph="/page-layout/section_4a206cf4-24a8-4414-99ea-e5af2056b9ef" />
+            <r
+              uid="{3C9F725E-FEE2-4748-8382-6C1A4DCA5DDD}"
+              p:after="r[@uid='{E7E10D02-1B54-4F60-A168-00A0EFB696E6}']"
+              s:ds="{2A84F03B-1511-4865-9991-F6C0F429BA70}"
+              s:id="{97459D5B-3C92-46C2-A329-138C1E277465}"
+              s:ph="/page-layout/section_e2b2de94-6849-4a33-afce-968b0643a2fd/col-narrow-1_f86daaae-36d9-48a5-b58c-9726b1e63ed8" />
+            <r
+              uid="{4ECB55C3-1A35-4198-B006-2A98D2BB5FFC}"
+              p:after="r[@uid='{3C9F725E-FEE2-4748-8382-6C1A4DCA5DDD}']"
+              s:ds="{3D6EC189-C1E6-4E59-B33D-A06A31C951F7}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/page-layout/section_e2b2de94-6849-4a33-afce-968b0643a2fd/col-wide-1_f86daaae-36d9-48a5-b58c-9726b1e63ed8">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{F8C01AE3-500A-4043-B0B5-4B5C56DA6DF5}"
+                    s:name="Webinar Signup">
+                    <conditions>
+                      <condition
+                        uid="ADEEE7518BAA419EA326BDEF617881B8"
+                        s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
+                        s:GoalId="{468B8987-6F9E-46B3-8854-44470659E8D0}"
+                        s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
+                        s:NumberOfElapsedDays="100"
+                        s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
+                        s:NumberOfPastInteractions="100" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="13E4FF7D36EE4DA2AC2C7C73E4608CD8"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{3D6EC189-C1E6-4E59-B33D-A06A31C951F7}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{622F0306-F089-4C4C-ACEF-0E0E5D3FBAFE}"
+                    s:name="Your Banking View">
+                    <conditions>
+                      <condition
+                        uid="257ACFA4F23C43D893B4B73067BCB5ED"
+                        s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
+                        s:GoalId="{897596F2-14EC-4AFC-AD5D-A2355535C346}"
+                        s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
+                        s:NumberOfElapsedDays="100"
+                        s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
+                        s:NumberOfPastInteractions="100" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="713B6610CFA5490097FCA3FEAC3B050D"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{10AF8FF0-19F2-4231-BBD1-8D7BF0907516}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="30FB212FECDA46D4AF71D49C4AF1E505"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="97DAB6BD5C57428EAD89ED56C84299DF"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{965C40A7-EC21-4678-A839-FDEAC653CA5A}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{F86DAAAE-36D9-48A5-B58C-9726B1E63ED8}"
+              p:after="r[@uid='{4ECB55C3-1A35-4198-B006-2A98D2BB5FFC}']"
+              s:id="{4ACD4C20-28D1-46F7-8FBA-A35778937BD1}"
+              s:ph="/page-layout/section_e2b2de94-6849-4a33-afce-968b0643a2fd" />
+            <r
+              uid="{6C687EE2-A4F3-468C-9010-0D2DB37B506F}"
+              p:after="r[@uid='{F86DAAAE-36D9-48A5-B58C-9726B1E63ED8}']"
+              s:ds="{448A5C5B-9A5D-4BC2-8B24-5D1F6970679D}"
+              s:id="{8B28417B-A5B3-44F1-BFCC-FE1D907336E7}"
+              s:par=""
+              s:ph="page-layout">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{58CA2DD8-F96B-4A12-83C1-3BB72A83DFDA}"
+                    s:name="Ingrid the Investor">
+                    <conditions>
+                      <condition
+                        uid="45BE32CD0F704D44A3BC9D9D40E7D15E"
+                        s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                        s:ProfileName="Finance Persona"
+                        s:PatternName="Ingrid the Investor B2C" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="D1370AC491464DF3B725C65A0058F26E"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{2101E932-9E73-4BE6-B600-5A6B2F33E4EC}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="7E3057094F9B4BC8BA874CF4AD195CF2"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{E2B2DE94-6849-4A33-AFCE-968B0643A2FD}"
+              p:after="r[@uid='{6C687EE2-A4F3-468C-9010-0D2DB37B506F}']"
+              s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+              s:ph="page-layout" />
+            <r
+              uid="{4A206CF4-24A8-4414-99EA-E5AF2056B9EF}"
+              p:after="r[@uid='{E2B2DE94-6849-4A33-AFCE-968B0643A2FD}']"
+              s:ds=""
+              s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+              s:par="Background={22EFB258-62F5-4B49-9D7E-DE07F70C9F37}&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames"
+              s:ph="page-layout" />
+          </d>
+        </r>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Home
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161104T033805Z
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Habitat Finance
+    - ID: "e748d808-64c1-4dec-9718-f35cf9689e4b"
+      Hint: Logo
+      Value: |
+        <image mediaid="{47C5E951-86CC-40D0-A933-F832AAA5CAB9}" />

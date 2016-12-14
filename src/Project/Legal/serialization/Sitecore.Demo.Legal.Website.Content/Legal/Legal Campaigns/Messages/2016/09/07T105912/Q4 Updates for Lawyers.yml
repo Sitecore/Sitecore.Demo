@@ -40,10 +40,13 @@ SharedFields:
 - ID: "af0fe26a-a78b-491d-885c-03d95bc17342"
   Hint: State
   Value: Sent
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2000
 - ID: "ccf21e1b-ee11-4a0b-942a-b4de2dfa3685"
   Hint: Excluded Recipient Lists
   Type: TreelistEx
-  Value: "{345043E9-8A82-4C3C-A74E-F42C355DBDA4}"
+  Value: 
 - ID: "ed5a9033-96ed-41f8-9731-7499c55ecbfa"
   Hint: Engagement Plan
   Value: "{ABAA9EF0-DFAC-4834-96BC-4FD1A89DDEAE}"
@@ -96,7 +99,7 @@ SharedFields:
 - ID: "f8d592cc-f3e5-4a8e-a600-8aebe8cc36e4"
   Hint: Included Recipient Lists
   Type: TreelistEx
-  Value: "{802543E8-C0D7-4DE2-9847-5DF6297E741E}"
+  Value: "{9BCCFB89-FDC4-4506-83B1-BC52E9E4EFFA}"
 - ID: "fade34d8-c101-420d-9620-e4deb659c36b"
   Hint: Campaign Group
   Value: "{AB2F413C-4854-48EB-B7EB-6FD2E8142B19}"

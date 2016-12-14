@@ -1,0 +1,18 @@
+﻿---
+ID: "b3d07667-c9b7-4546-ab7d-940de102cfab"
+Parent: "83595788-850f-4ab6-941d-6b6933e7bc55"
+Template: "8e030bf6-9218-490e-b029-a5af48619e83"
+Path: /sitecore/templates/Branches/Finance/General Campaign/$name/Message Root/Header/About
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T033232Z
+    - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
+      Hint: Link
+      Value: |
+        <link text="About Us" linktype="internal" class="" title="" target="" querystring="" id="{305010AA-074F-47B1-903E-F7D8569062A8}" />

@@ -1,0 +1,22 @@
+﻿---
+ID: "76474166-02c0-4008-9602-f05e9156fb37"
+Parent: "12bd7e35-437b-449c-b931-23cfa12c03d8"
+Template: "8e0c1738-3591-4c60-8151-54abcc9807d1"
+Path: /sitecore/system/Marketing Control Panel/Profiles/Finance Persona
+DB: master
+BranchID: "07624a03-bb2f-45d8-abe1-15e2b1705ff3"
+SharedFields:
+- ID: "5d9fe5d7-4c45-4a98-a1f5-4796a6da428b"
+  Hint: Name
+  Value: Finance Persona
+- ID: "9fb30799-29ef-46af-910d-188bd16314b1"
+  Hint: Type
+  Value: Average
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161104T022133Z

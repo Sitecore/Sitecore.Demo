@@ -45,14 +45,9 @@ Languages:
           s:xsd="http://www.w3.org/2001/XMLSchema">
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-            <p
-              uid="{8FAC4D06-E673-4A5B-92EC-AA9468541DA9}"
-              p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']"
-              s:key="/page-layout/col-wide-1"
-              s:md="/sitecore/layout/Placeholder Settings/Project/Legal/Columns/col-wide-1" />
             <r
               uid="{A0255320-1014-4F97-8DB4-DC4A3EFB3336}"
-              p:before="r[@uid='{A3BAD4D4-8E21-4B30-8C4C-B04163653D62}']"
+              p:after="r[@uid='{A4E044E8-AA9C-4D00-9923-323EE708C385}']"
               s:ds="{D0F65BCA-8836-4285-AED7-00949A6A0EB3}"
               s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}"
               s:par="FormID&amp;ReadQueryString"
