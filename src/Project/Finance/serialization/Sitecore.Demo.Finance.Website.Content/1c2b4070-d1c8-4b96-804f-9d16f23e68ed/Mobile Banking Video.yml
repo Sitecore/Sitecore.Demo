@@ -15,7 +15,7 @@ Languages:
     - ID: "2628705d-9434-4448-978c-c3bf166fa1eb"
       Hint: MediaVideoLink
       Value: |
-        <link text="Watch the video" linktype="external" url="https://www.youtube.com/watch?v=xapXt8H7h0A" anchor="" target="" />
+        <link text="Watch the video" linktype="media" target="" id="{35020BF2-8867-4C6F-9687-EF69CDAF3C4C}" />
     - ID: "4ff62b0a-d73b-4436-bea2-023154f2ffc4"
       Hint: MediaThumbnail
       Value: |

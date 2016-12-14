@@ -27,21 +27,28 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{DEA10CB2-FD38-4E6A-8E31-DD9E62D0DE6D}"
+              uid="{56293395-7017-4979-8E7F-BDF7229F76CF}"
               p:before="*"
+              s:ds="{23ABE53C-3363-476C-A2DC-DA82E1A1EEB9}"
+              s:id="{07AB411C-F894-4144-B069-48EF67431D32}"
+              s:ph="/page-layout/section_9979adb5-a3ad-4a9f-b05a-19982b4b7e89/col-wide-2_501a3399-06d3-4234-91ed-cbf76d6bcd25" />
+            <r
+              uid="{71424233-1FDA-4C88-9B90-7B4B58091C3B}"
+              p:after="r[@uid='{56293395-7017-4979-8E7F-BDF7229F76CF}']"
               s:ds="{1EB04BAE-923E-40F4-82A5-2E3BB676528C}"
-              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
-              s:ph="/page-layout/section_9979adb5-a3ad-4a9f-b05a-19982b4b7e89/col-wide-1_9dc07203-a961-47bf-8861-9dea5015f49b" />
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/page-layout/section_9979adb5-a3ad-4a9f-b05a-19982b4b7e89/col-wide-2_501a3399-06d3-4234-91ed-cbf76d6bcd25" />
             <r
               uid="{7C1885B6-F6AA-4178-885A-C7F534EF17FC}"
-              p:after="r[@uid='{DEA10CB2-FD38-4E6A-8E31-DD9E62D0DE6D}']"
+              p:after="r[@uid='{71424233-1FDA-4C88-9B90-7B4B58091C3B}']"
               s:ds="{73E9D124-4F99-49B2-BA5C-E9E8BD45934F}"
               s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
-              s:ph="/page-layout/section_9979adb5-a3ad-4a9f-b05a-19982b4b7e89/col-narrow-1_9dc07203-a961-47bf-8861-9dea5015f49b" />
+              s:par="Background={EFA6AD59-AE21-4524-90F8-A92440B869AF}"
+              s:ph="/page-layout/section_9979adb5-a3ad-4a9f-b05a-19982b4b7e89/col-wide-1_501a3399-06d3-4234-91ed-cbf76d6bcd25" />
             <r
-              uid="{9DC07203-A961-47BF-8861-9DEA5015F49B}"
+              uid="{501A3399-06D3-4234-91ED-CBF76D6BCD25}"
               p:after="r[@uid='{7C1885B6-F6AA-4178-885A-C7F534EF17FC}']"
-              s:id="{E6D8107A-D811-4826-82BB-1A6279830C5A}"
+              s:id="{1B92270B-EC01-4939-B579-0ADFEB758A95}"
               s:ph="/page-layout/section_9979adb5-a3ad-4a9f-b05a-19982b4b7e89" />
             <r
               uid="{9979ADB5-A3AD-4A9F-B05A-19982B4B7E89}"

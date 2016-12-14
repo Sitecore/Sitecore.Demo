@@ -53,6 +53,7 @@ Languages:
               p:after="r[@uid='{54B52353-CA95-4777-9B9C-FF9327ADA0E2}']"
               s:ds="{1EB04BAE-923E-40F4-82A5-2E3BB676528C}"
               s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:par="Background={BD2F308A-E00A-4372-ADBB-BD64712A54FA}"
               s:ph="/page-layout/section/col-narrow-1">
               <rls>
                 <ruleset>
@@ -150,7 +151,7 @@ Languages:
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
       Value: |
-        <image mediaid="{E0CD2173-C946-4A96-B808-6B3166E8C39C}" />
+        <image mediaid="{E0CD2173-C946-4A96-B808-6B3166E8C39C}" ></image>
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: "Better rewards? Lower APR? No matter what kind of card you’re looking for, we’ve got the card that fits your need."
