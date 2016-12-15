@@ -76,9 +76,6 @@ Languages:
               p:after="r[@uid='{51E2230A-7B9E-4C38-8C47-74A56B24381A}']"
               s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}"
               s:ph="/page-layout/section" />
-            <r
-              uid="{9812E44D-E856-41E5-A528-E232BF2C7C55}"
-              s:ds="{E70B8747-413C-4CE5-943E-609C7BA2FE27}" />
           </d>
         </r>
     - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
