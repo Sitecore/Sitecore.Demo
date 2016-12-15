@@ -1,0 +1,18 @@
+﻿---
+ID: "815d6198-0efa-4861-9393-0e89f87ce5b6"
+Parent: "c385e537-64d1-496b-a960-d40c6046fffd"
+Template: "000a3508-af59-4a85-88fa-af85e95ce75e"
+Path: /sitecore/templates/Branches/Utilities/Promotion/$name/Message Root/Footer
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T021928Z

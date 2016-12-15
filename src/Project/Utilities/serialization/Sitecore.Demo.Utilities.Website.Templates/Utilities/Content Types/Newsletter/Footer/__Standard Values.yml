@@ -1,0 +1,29 @@
+﻿---
+ID: "a25a1118-22e6-479a-8c26-e5e7fb63d2d7"
+Parent: "000a3508-af59-4a85-88fa-af85e95ce75e"
+Template: "000a3508-af59-4a85-88fa-af85e95ce75e"
+Path: /sitecore/templates/Project/Utilities/Content Types/Newsletter/Footer/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{63525808-6905-4C57-9A96-46B7BD47764A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160816T055039Z
+    - ID: "332bbfbb-47b2-4fde-9ea3-db800b586437"
+      Hint: Font Color
+      Value: #b8dee2
+    - ID: "4ba95567-e774-48a4-967a-1bdebf71b7e1"
+      Hint: Background Color
+      Value: #125d66
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

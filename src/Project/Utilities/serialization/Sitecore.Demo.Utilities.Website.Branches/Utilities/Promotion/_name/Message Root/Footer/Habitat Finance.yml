@@ -1,0 +1,18 @@
+﻿---
+ID: "cba4f3fe-ee4a-4270-9432-4e7982eff6b3"
+Parent: "815d6198-0efa-4861-9393-0e89f87ce5b6"
+Template: "63525808-6905-4c57-9a96-46b7bd47764a"
+Path: /sitecore/templates/Branches/Utilities/Promotion/$name/Message Root/Footer/Habitat Finance
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T034925Z
+    - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
+      Hint: Link
+      Value: |
+        <link text="Habitat Utilities" linktype="internal" class="" title="" target="" querystring="" id="{6F1927E3-C9AB-4F18-B94C-7C720EAD053E}" />

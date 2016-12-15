@@ -1,0 +1,18 @@
+﻿---
+ID: "1335a642-2b64-44ee-96c2-a80f46f13638"
+Parent: "815d6198-0efa-4861-9393-0e89f87ce5b6"
+Template: "63525808-6905-4c57-9a96-46b7bd47764a"
+Path: /sitecore/templates/Branches/Utilities/Promotion/$name/Message Root/Footer/Sitecore
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T035037Z
+    - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
+      Hint: Link
+      Value: |
+        <link text="Sitecore" linktype="external" url="http://www.sitecore.net" anchor="" target="" />

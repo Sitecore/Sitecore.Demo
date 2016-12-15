@@ -1,0 +1,24 @@
+﻿---
+ID: "25b3a9a4-dd98-4505-8f6e-097327bbcc18"
+Parent: "c385e537-64d1-496b-a960-d40c6046fffd"
+Template: "8d5558e8-b242-42a5-9a8e-70ef83162ef8"
+Path: /sitecore/templates/Branches/Utilities/Promotion/$name/Message Root/Options
+DB: master
+SharedFields:
+- ID: "4bafec3d-21bb-4278-9df0-7d66c137bdeb"
+  Hint: Before Body Html
+  Value: |
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open Sans:400,700,400italic);
+    </style>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T021914Z

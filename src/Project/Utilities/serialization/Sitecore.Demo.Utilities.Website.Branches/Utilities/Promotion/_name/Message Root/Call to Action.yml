@@ -1,0 +1,21 @@
+﻿---
+ID: "87f13889-72dc-4f61-803c-89a3915936f1"
+Parent: "c385e537-64d1-496b-a960-d40c6046fffd"
+Template: "97e7f8db-565c-4f2e-ad0e-74def6693370"
+Path: /sitecore/templates/Branches/Utilities/Promotion/$name/Message Root/Call to Action
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: Call to Action
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T021903Z
+    - ID: "2e2c5fb3-ff5b-4f13-aa18-cfba9c9a97d3"
+      Hint: Link
+      Value: |
+        <link text="Read More" linktype="internal" class="" title="" target="" querystring="" id="{6F1927E3-C9AB-4F18-B94C-7C720EAD053E}" />

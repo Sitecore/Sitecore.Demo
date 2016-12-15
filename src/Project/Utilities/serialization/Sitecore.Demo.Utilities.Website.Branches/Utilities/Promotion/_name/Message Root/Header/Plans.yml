@@ -1,0 +1,18 @@
+﻿---
+ID: "c68ee9d8-0d9e-4dbc-90fe-d7309e66fa48"
+Parent: "994c349f-e054-49e2-a777-9c460a7c5f89"
+Template: "63525808-6905-4c57-9a96-46b7bd47764a"
+Path: /sitecore/templates/Branches/Utilities/Promotion/$name/Message Root/Header/Plans
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T033232Z
+    - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
+      Hint: Link
+      Value: |
+        <link text="Our Plans" linktype="internal" class="" title="" target="" querystring="" id="{A87C7582-AF57-454A-98BD-59CBF9E689E8}" />

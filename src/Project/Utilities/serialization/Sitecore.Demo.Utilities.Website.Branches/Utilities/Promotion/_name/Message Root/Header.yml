@@ -1,0 +1,22 @@
+﻿---
+ID: "994c349f-e054-49e2-a777-9c460a7c5f89"
+Parent: "c385e537-64d1-496b-a960-d40c6046fffd"
+Template: "aabb2643-5445-40b5-9936-38780fd81b9a"
+Path: /sitecore/templates/Branches/Utilities/Promotion/$name/Message Root/Header
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T021847Z
+    - ID: "2fac8d4a-25ff-46cc-b2ff-a46e996d2913"
+      Hint: Logo
+      Value: |
+        <image mediaid="{25AFE86E-3ED4-4447-8E9D-31FEF81529DC}" alt="" height="38" width="150" hspace="" vspace="" />

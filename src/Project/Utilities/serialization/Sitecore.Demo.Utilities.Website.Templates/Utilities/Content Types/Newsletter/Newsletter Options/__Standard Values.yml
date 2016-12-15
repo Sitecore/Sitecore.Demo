@@ -1,0 +1,34 @@
+﻿---
+ID: "848b1884-5573-4347-ac28-0f509a78b083"
+Parent: "8d5558e8-b242-42a5-9a8e-70ef83162ef8"
+Template: "8d5558e8-b242-42a5-9a8e-70ef83162ef8"
+Path: /sitecore/templates/Project/Utilities/Content Types/Newsletter/Newsletter Options/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: 
+- ID: "1b417f04-7923-4826-b999-5b064d4eaa57"
+  Hint: Font Family
+  Value: "Raleway, Helvetica Neue, Helvetica, Arial, sans-serif"
+- ID: "4bafec3d-21bb-4278-9df0-7d66c137bdeb"
+  Hint: Before Body Html
+  Value: |
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,400i,700,900');
+    </style>
+- ID: "cb3d04a8-b195-4f13-ab0b-b8c320ac66d5"
+  Hint: Content Font Size
+  Value: 14px
+- ID: "eb627abe-e800-41f9-90f8-82435f287243"
+  Hint: Heading Font Size
+  Value: 20px
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160816T055441Z

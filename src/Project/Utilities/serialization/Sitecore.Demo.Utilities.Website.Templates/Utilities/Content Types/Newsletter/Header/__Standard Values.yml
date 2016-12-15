@@ -1,0 +1,19 @@
+﻿---
+ID: "eb7d47e5-2b21-4496-93f9-5b27cea1ba15"
+Parent: "aabb2643-5445-40b5-9936-38780fd81b9a"
+Template: "aabb2643-5445-40b5-9936-38780fd81b9a"
+Path: /sitecore/templates/Project/Utilities/Content Types/Newsletter/Header/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{63525808-6905-4C57-9A96-46B7BD47764A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160816T055432Z
