@@ -1,0 +1,22 @@
+﻿---
+ID: "8d7084d0-1fcb-401b-9149-c7ebf5e8d01f"
+Parent: "2d28ca09-0a6c-4562-bb35-79080cb369e3"
+Template: "739ec9eb-d86f-4934-8ce0-41706b944a8a"
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Practise Areas Brochure/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Welcome Page/Hidden TextFrame/New Paragraph Style/Welcome page TOC Variable Updating
+DB: master
+SharedFields:
+- ID: "4f3ecf8f-077e-487b-adaa-15b9554d9a62"
+  Hint: Parameters
+  Value: IndexName=welcome_index&ReplaceVar=toc_index
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24a0ab60-dba6-4654-b03e-b09a3c8cb48b"
+      Hint: Content
+      Value: |
+        <InsertVar Style="Hidden" Name="TTOC_welcome_index" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161125T154209Z

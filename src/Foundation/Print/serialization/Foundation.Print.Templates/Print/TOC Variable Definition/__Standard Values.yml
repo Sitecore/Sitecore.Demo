@@ -1,0 +1,29 @@
+﻿---
+ID: "2286f1c1-172c-4770-b88b-a6e6cbcc964e"
+Parent: "70b19b25-0d4e-496f-af9b-2d76da53a57b"
+Template: "70b19b25-0d4e-496f-af9b-2d76da53a57b"
+Path: /sitecore/templates/Foundation/Print/TOC Variable Definition/__Standard Values
+DB: master
+SharedFields:
+- ID: "09772857-332a-4e06-a337-787f87e6c89f"
+  Hint: Xml Renderer
+  Value: "{0099AFBB-61C4-49C8-828D-190C88F63281}"
+- ID: "4f3ecf8f-077e-487b-adaa-15b9554d9a62"
+  Hint: Parameters
+  Value: IndexName=toc_index&ReplaceVar=toc_index
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24a0ab60-dba6-4654-b03e-b09a3c8cb48b"
+      Hint: Content
+      Value: |
+        <InsertVar Name="TOC_toc_index" Value="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150520T182317Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

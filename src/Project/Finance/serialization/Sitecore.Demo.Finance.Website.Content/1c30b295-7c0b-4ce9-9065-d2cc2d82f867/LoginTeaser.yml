@@ -1,0 +1,20 @@
+﻿---
+ID: "e6ca1112-a53a-43b8-a0c6-a0f74339ffe1"
+Parent: "1c30b295-7c0b-4ce9-9065-d2cc2d82f867"
+Template: "6e686b1c-1675-4263-af03-dce07827afdd"
+Path: "/sitecore/content/Finance/Business/Landing Pages/Banking Portal Sign-up Thank You Page/_Local/LoginTeaser"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161213T214353Z
+    - ID: "39aabcf6-426c-4ad1-8b3d-a5135f219455"
+      Hint: Logged In Title
+      Value: LoginTeaser
+    - ID: "d9843186-ed10-47d8-8cc7-511ac670b6b4"
+      Hint: Title
+      Value: LoginTeaser

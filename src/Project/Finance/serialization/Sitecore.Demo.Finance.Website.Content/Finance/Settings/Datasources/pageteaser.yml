@@ -21,4 +21,4 @@ Languages:
         sitecore\admin
     - ID: "5fe1cc43-f86c-459c-a379-cd75950d85af"
       Hint: DatasourceLocation
-      Value: /sitecore/content/Finance/Global
+      Value: /sitecore/content/Finance

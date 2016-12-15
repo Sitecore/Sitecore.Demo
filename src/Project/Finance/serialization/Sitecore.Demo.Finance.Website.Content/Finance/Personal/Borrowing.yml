@@ -100,7 +100,7 @@ Languages:
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
       Value: |
-        <image mediaid="{93669241-4D1C-48BC-BF2B-F60AE9CBE2D3}" />
+        <image mediaid="{93669241-4D1C-48BC-BF2B-F60AE9CBE2D3}" ></image>
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: <br>At Habitat Financial, we can help you harness the power of credit responsibly to bring your dreams within reach.&nbsp;

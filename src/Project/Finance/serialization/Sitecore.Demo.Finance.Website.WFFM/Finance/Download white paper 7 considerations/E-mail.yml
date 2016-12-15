@@ -15,6 +15,27 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
+- ID: "e312bdfa-ddba-4acc-907a-89a0b59638d4"
+  Hint: Rules
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule
+        uid="{CC6FBCF2-E471-4D33-A07A-2BE2648FC55C}"
+        name="New Condition">
+        <conditions>
+          <condition
+            id="{858D1EC2-0558-4CD6-A7BF-23DED3F7E330}"
+            uid="8289E1E2F0994F9F9B60982CBEBE0C98" />
+        </conditions>
+        <actions>
+          <action
+            id="{65A7EAD2-9ECF-4CA1-A517-A27A6CD65019}"
+            uid="9E5DB21D13C5479AB50CDF684AA523E6"
+            Name="Email" />
+        </actions>
+      </rule>
+    </ruleset>
 Languages:
 - Language: en
   Versions:

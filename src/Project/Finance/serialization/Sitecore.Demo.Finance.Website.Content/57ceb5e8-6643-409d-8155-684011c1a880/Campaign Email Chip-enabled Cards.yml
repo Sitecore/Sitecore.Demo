@@ -12,7 +12,7 @@ Languages:
     - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
       Hint: TeaserImage
       Value: |
-        <image mediaid="{A7C97E7A-9C2D-4EFF-9E52-DF88ACB92413}" />
+        <image mediaid="{A7C97E7A-9C2D-4EFF-9E52-DF88ACB92413}" ></image>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161130T145608Z

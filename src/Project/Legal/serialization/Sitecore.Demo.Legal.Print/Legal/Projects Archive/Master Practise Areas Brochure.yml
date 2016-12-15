@@ -1,0 +1,31 @@
+﻿---
+ID: "6944bea2-9ce2-4894-9992-34cede9cf5e8"
+Parent: "15bc6865-9f36-407a-b043-694d4cd514a0"
+Template: "e4ecdcd7-ac0c-42b7-937d-31783f64f02b"
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Projects Archive/Master Practise Areas Brochure
+DB: master
+SharedFields:
+- ID: "7386adec-2c63-4c27-887b-d630d42c9797"
+  Hint: ID Number
+  Value: P00001
+- ID: "9d9dcb53-e388-4027-9def-071fa25f510d"
+  Hint: High res setting
+  Value: High Quality Print
+- ID: "ebb03f63-333f-4365-8158-852a0e036da9"
+  Hint: Low res setting
+  Value: Smallest File Size
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0718e406-0124-439b-8e32-ba2c56e88b35"
+      Hint: Name
+      Value: Practise Areas Brochure
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160615T084435Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

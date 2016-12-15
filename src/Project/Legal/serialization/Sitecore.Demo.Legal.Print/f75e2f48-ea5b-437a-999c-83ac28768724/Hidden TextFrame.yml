@@ -1,0 +1,22 @@
+﻿---
+ID: "32a8b470-7e33-49aa-ba09-46947764c0f4"
+Parent: "f75e2f48-ea5b-437a-999c-83ac28768724"
+Template: "0637de6e-33fe-40c1-9233-98a3a6b88792"
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Practise Areas Brochure/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Practise Page Repeater/Practise Page/Hidden TextFrame
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161125T152620Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

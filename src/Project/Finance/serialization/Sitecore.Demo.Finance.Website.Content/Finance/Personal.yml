@@ -45,8 +45,36 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{3C9F725E-FEE2-4748-8382-6C1A4DCA5DDD}"
+              uid="{0E49C45C-FFFA-4D76-BED0-DD9C617DE762}"
               p:before="*"
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:ph="/page-layout/section_735bf2e5-54cd-4c90-af0a-4c6c242f0204" />
+            <r
+              uid="{9A4D7489-ECED-4EBF-BAB6-1CAF76C7B4DD}"
+              p:after="r[@uid='{0E49C45C-FFFA-4D76-BED0-DD9C617DE762}']"
+              s:ds="{C8417DA4-70F1-442F-A95E-67F842F8DCAE}"
+              s:id="{07AB411C-F894-4144-B069-48EF67431D32}"
+              s:ph="/page-layout/section_4a206cf4-24a8-4414-99ea-e5af2056b9ef/col-narrow-3_e7e10d02-1b54-4f60-a168-00a0efb696e6" />
+            <r
+              uid="{7773106C-7445-431C-86DD-064D43BEE941}"
+              p:after="r[@uid='{9A4D7489-ECED-4EBF-BAB6-1CAF76C7B4DD}']"
+              s:ds="{6E9C9166-5BEC-454B-A9A1-118A71C4ADE6}"
+              s:id="{07AB411C-F894-4144-B069-48EF67431D32}"
+              s:ph="/page-layout/section_4a206cf4-24a8-4414-99ea-e5af2056b9ef/col-narrow-2_e7e10d02-1b54-4f60-a168-00a0efb696e6" />
+            <r
+              uid="{8B02F30C-3E75-468D-9055-658E8AA633C2}"
+              p:after="r[@uid='{7773106C-7445-431C-86DD-064D43BEE941}']"
+              s:ds="{BAF33BD0-6E58-4491-8D19-D1E4BB8FE56C}"
+              s:id="{07AB411C-F894-4144-B069-48EF67431D32}"
+              s:ph="/page-layout/section_4a206cf4-24a8-4414-99ea-e5af2056b9ef/col-narrow-1_e7e10d02-1b54-4f60-a168-00a0efb696e6" />
+            <r
+              uid="{E7E10D02-1B54-4F60-A168-00A0EFB696E6}"
+              p:after="r[@uid='{8B02F30C-3E75-468D-9055-658E8AA633C2}']"
+              s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}"
+              s:ph="/page-layout/section_4a206cf4-24a8-4414-99ea-e5af2056b9ef" />
+            <r
+              uid="{3C9F725E-FEE2-4748-8382-6C1A4DCA5DDD}"
+              p:after="r[@uid='{E7E10D02-1B54-4F60-A168-00A0EFB696E6}']"
               s:ds="{2A84F03B-1511-4865-9991-F6C0F429BA70}"
               s:id="{97459D5B-3C92-46C2-A329-138C1E277465}"
               s:ph="/page-layout/section_e2b2de94-6849-4a33-afce-968b0643a2fd/col-narrow-1_f86daaae-36d9-48a5-b58c-9726b1e63ed8" />
@@ -59,8 +87,28 @@ Languages:
               <rls>
                 <ruleset>
                   <rule
+                    uid="{F8C01AE3-500A-4043-B0B5-4B5C56DA6DF5}"
+                    s:name="Webinar Signup">
+                    <conditions>
+                      <condition
+                        uid="ADEEE7518BAA419EA326BDEF617881B8"
+                        s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
+                        s:GoalId="{468B8987-6F9E-46B3-8854-44470659E8D0}"
+                        s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
+                        s:NumberOfElapsedDays="100"
+                        s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
+                        s:NumberOfPastInteractions="100" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="13E4FF7D36EE4DA2AC2C7C73E4608CD8"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{3D6EC189-C1E6-4E59-B33D-A06A31C951F7}" />
+                    </actions>
+                  </rule>
+                  <rule
                     uid="{622F0306-F089-4C4C-ACEF-0E0E5D3FBAFE}"
-                    s:name="Mobile Banking">
+                    s:name="Your Banking View">
                     <conditions>
                       <condition
                         uid="257ACFA4F23C43D893B4B73067BCB5ED"
@@ -79,63 +127,6 @@ Languages:
                     </actions>
                   </rule>
                   <rule
-                    uid="{581D6F58-96CB-4E9A-9C19-A9E47B80DEA1}"
-                    s:name="Download White Paper">
-                    <conditions>
-                      <condition
-                        uid="4C2F6591BA1645B786FFFB6F2E8B8814"
-                        s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
-                        s:GoalId="{B3F9DF5A-87A4-4301-B988-DD6189B2572E}"
-                        s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
-                        s:NumberOfElapsedDays="100"
-                        s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
-                        s:NumberOfPastInteractions="100" />
-                    </conditions>
-                    <actions>
-                      <action
-                        uid="811ECCF9778E4DB3B6C762460202DF3C"
-                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="{965C40A7-EC21-4678-A839-FDEAC653CA5A}" />
-                    </actions>
-                  </rule>
-                  <rule
-                    uid="{F8C01AE3-500A-4043-B0B5-4B5C56DA6DF5}"
-                    s:name="Webinar Signup">
-                    <conditions>
-                      <condition
-                        uid="ADEEE7518BAA419EA326BDEF617881B8"
-                        s:id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
-                        s:GoalId="{DAB0472B-4FCE-41A0-8826-ED27ED0FC936}"
-                        s:NumberOfElapsedDaysOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
-                        s:NumberOfElapsedDays="100"
-                        s:NumberOfPastInteractionsOperatorId="{2E1FC840-5919-4C66-8182-A33A1039EDBF}"
-                        s:NumberOfPastInteractions="100" />
-                    </conditions>
-                    <actions>
-                      <action
-                        uid="13E4FF7D36EE4DA2AC2C7C73E4608CD8"
-                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="{03462FC9-FED1-4DA9-9F29-4AC790540221}" />
-                    </actions>
-                  </rule>
-                  <rule
-                    uid="{9B2EF9D7-5A64-4F69-BD25-5A10B8B290C4}"
-                    s:name="Ingrid the Investor">
-                    <conditions>
-                      <condition
-                        uid="174C9CADB20E4A6092735041DD5F5111"
-                        s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
-                        s:ProfileName="Finance Persona"
-                        s:PatternName="Ingrid the Investor B2C" />
-                    </conditions>
-                    <actions>
-                      <action
-                        uid="585D7F64C7A948C299287DE474EB5868"
-                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="{1EB04BAE-923E-40F4-82A5-2E3BB676528C}" />
-                    </actions>
-                  </rule>
-                  <rule
                     uid="{00000000-0000-0000-0000-000000000000}"
                     s:name="Default">
                     <conditions>
@@ -147,7 +138,7 @@ Languages:
                       <action
                         uid="97DAB6BD5C57428EAD89ED56C84299DF"
                         s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="{3D6EC189-C1E6-4E59-B33D-A06A31C951F7}" />
+                        s:DataSource="{965C40A7-EC21-4678-A839-FDEAC653CA5A}" />
                     </actions>
                   </rule>
                 </ruleset>
@@ -177,6 +168,12 @@ Languages:
                         s:ProfileName="Finance Persona"
                         s:PatternName="Ingrid the Investor B2C" />
                     </conditions>
+                    <actions>
+                      <action
+                        uid="D1370AC491464DF3B725C65A0058F26E"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{2101E932-9E73-4BE6-B600-5A6B2F33E4EC}" />
+                    </actions>
                   </rule>
                   <rule
                     uid="{00000000-0000-0000-0000-000000000000}"
@@ -195,6 +192,13 @@ Languages:
               uid="{E2B2DE94-6849-4A33-AFCE-968B0643A2FD}"
               p:after="r[@uid='{6C687EE2-A4F3-468C-9010-0D2DB37B506F}']"
               s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+              s:ph="page-layout" />
+            <r
+              uid="{4A206CF4-24A8-4414-99EA-E5AF2056B9EF}"
+              p:after="r[@uid='{E2B2DE94-6849-4A33-AFCE-968B0643A2FD}']"
+              s:ds=""
+              s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+              s:par="Background={22EFB258-62F5-4B49-9D7E-DE07F70C9F37}&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames"
               s:ph="page-layout" />
           </d>
         </r>

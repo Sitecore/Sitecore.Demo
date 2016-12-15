@@ -1,0 +1,77 @@
+﻿---
+ID: "abe5c53e-e279-4199-a458-32a7498fac8d"
+Parent: "4406a127-0ebb-4658-a475-80fdb5d2ea1e"
+Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
+Path: /sitecore/content/Finance/Personal/Landing Pages/Thank You The Future of Banking Meet Advisor
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 425
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B8B63708-F728-4B0B-A5D5-14E78BC911F7}"
+              p:before="*"
+              s:ds="{966A6E71-E80F-4473-988A-DD78255327FC}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section_934a3a97-96df-4597-9185-d3a5f7f452ac/col-narrow-3_b2c4701d-9058-4314-aadd-c2952433f579" />
+            <r
+              uid="{9D9D2B5A-5EDE-43DA-8D13-E6CF658766D7}"
+              p:after="r[@uid='{B8B63708-F728-4B0B-A5D5-14E78BC911F7}']"
+              s:ds="{1EB04BAE-923E-40F4-82A5-2E3BB676528C}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section_934a3a97-96df-4597-9185-d3a5f7f452ac/col-narrow-2_b2c4701d-9058-4314-aadd-c2952433f579" />
+            <r
+              uid="{F48754ED-5245-4221-9642-D0569CB15419}"
+              p:after="r[@uid='{9D9D2B5A-5EDE-43DA-8D13-E6CF658766D7}']"
+              s:ds="{CD169B55-DB56-4DCF-8079-53A5438C8B14}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section_934a3a97-96df-4597-9185-d3a5f7f452ac/col-narrow-1_b2c4701d-9058-4314-aadd-c2952433f579" />
+            <r
+              uid="{B2C4701D-9058-4314-AADD-C2952433F579}"
+              p:after="r[@uid='{F48754ED-5245-4221-9642-D0569CB15419}']"
+              s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}"
+              s:ph="/page-layout/section_934a3a97-96df-4597-9185-d3a5f7f452ac" />
+            <r
+              uid="{934A3A97-96DF-4597-9185-D3A5F7F452AC}"
+              p:after="r[@uid='{A607CCB4-81BC-4DC1-897B-BC33B2C52E6D}']"
+              s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+              s:ph="page-layout" />
+            <r
+              uid="{DFDD703B-D723-4BCD-8D49-B7FBE85283EB}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161110T151451Z
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{49837815-39E1-4C77-8EF1-1690B4786D5A}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: <p>Thank you for signing up to meet one of our advisors online.</p>
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: The Future of Banking Webinar
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Thank You Trigger 1
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: <p>Please have as many of your financial details ready as possible. Our advisor will be able to give you the best and most accurate advice if you can provide us with your best and most accurate financial details.</p>

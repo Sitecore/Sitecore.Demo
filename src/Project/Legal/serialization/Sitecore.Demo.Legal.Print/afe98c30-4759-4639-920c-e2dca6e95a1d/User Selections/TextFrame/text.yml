@@ -1,0 +1,22 @@
+﻿---
+ID: "e48f8d47-859b-44f7-968e-2e5868a345cb"
+Parent: "7a69f29c-803c-4b70-8636-e08c994d41d5"
+Template: "2dc37f19-2362-4891-9915-46a734875be5"
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Projects Archive/Master Practise Areas Brochure/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Front Cover/User Selections/TextFrame/text
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161108T120800Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9744ccf8-abbe-4de1-a74b-69fb6254b897"
+      Hint: Content
+      Value: |
+        <ParagraphStyle Style="UserSelections" Tag="p"><![CDATA[$title]]></ParagraphStyle>

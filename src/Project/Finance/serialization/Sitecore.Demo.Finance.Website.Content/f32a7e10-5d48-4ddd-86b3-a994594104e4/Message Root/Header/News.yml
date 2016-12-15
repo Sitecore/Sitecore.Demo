@@ -1,0 +1,19 @@
+﻿---
+ID: "bea8deac-22c1-4b8a-96f5-6bf2e30f3e70"
+Parent: "5b2a78c8-c68f-4e9c-857e-df61559ae509"
+Template: "8e030bf6-9218-490e-b029-a5af48619e83"
+Path: /sitecore/content/Finance/Finance Campaigns/Messages/2016/12/06T155206/September Finance Newsletter/Message Root/Header/News
+DB: master
+BranchID: "d39fc088-90c8-4be8-8d63-c63f8552c6a9"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161210T134051Z
+    - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
+      Hint: Link
+      Value: |
+        <link text="News" linktype="internal" class="" title="" target="" querystring="" id="{63AE7D4F-64A9-4933-83F2-93444D1BC0E8}" />

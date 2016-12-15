@@ -101,7 +101,7 @@ Languages:
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
       Value: |
-        <image mediaid="{899C0461-1412-4257-B048-5FF8E6209590}" alt="investing" height="" width="" hspace="" vspace="" />
+        <image mediaid="{899C0461-1412-4257-B048-5FF8E6209590}" alt="investing" height="" width="" hspace="" vspace="" ></image>
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: <br>Habitat Financial’s wealth management team can help you invest your money so that you’re far ahead of what’s to come.

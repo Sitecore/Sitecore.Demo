@@ -11,6 +11,10 @@ SharedFields:
 - ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
   Hint: Designer ID
   Value: "5782141a-d550-40d2-9fd1-5f990640a0d0"
+- ID: "575a25c8-5c6f-4530-a48f-f38e23e9dbd5"
+  Hint: Page Event Subscription
+  Type: TreelistEx
+  Value: "{C9C57982-0384-49CF-A067-CA5D32570482}"
 - ID: "7642ed71-348b-4b88-8634-cc7b28949472"
   Hint: Origin ID
   Value: "00000000-0000-0000-0000-000000000000"
@@ -22,7 +26,7 @@ Languages:
     Value: User has landed on the Trigger 1 page but has not signed up for eNewsletter yet. 
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: State 1
+    Value: Not signed up yet
   Versions:
   - Version: 1
     Fields:

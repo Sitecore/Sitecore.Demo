@@ -36,8 +36,14 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{27222A8F-A62C-4F9E-9A7A-1371951F8375}"
+              uid="{43D106FF-7BFA-4D54-B3BA-927BEBB9BD03}"
               p:before="*"
+              s:ds="{98039727-34F5-4577-BE57-7EB1034866A4}"
+              s:id="{97459D5B-3C92-46C2-A329-138C1E277465}"
+              s:ph="/page-layout/section_939c213a-24f4-4352-892c-a79f9653471a/col-wide-1_9ad0ae29-ea50-43c3-8c1d-bfc1b4525c6b" />
+            <r
+              uid="{27222A8F-A62C-4F9E-9A7A-1371951F8375}"
+              p:after="r[@uid='{43D106FF-7BFA-4D54-B3BA-927BEBB9BD03}']"
               s:ds="{8AA0C63C-DB85-4E5C-9B33-FC45004678A1}"
               s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
               s:ph="/page-layout/section_939c213a-24f4-4352-892c-a79f9653471a/col-narrow-1_9ad0ae29-ea50-43c3-8c1d-bfc1b4525c6b">
@@ -122,19 +128,8 @@ Languages:
               </rls>
             </r>
             <r
-              uid="{0B09AC48-6041-4752-AB9A-FA02ED68E939}"
-              p:after="r[@uid='{27222A8F-A62C-4F9E-9A7A-1371951F8375}']"
-              s:ds="{7C632C2F-493F-44BC-B7F5-AF7F4A56C2CC}"
-              s:id="{EE5A9F3D-C2CB-4710-8053-04D1A7135EBE}"
-              s:ph="/page-layout/section_939c213a-24f4-4352-892c-a79f9653471a/col-wide-1_9ad0ae29-ea50-43c3-8c1d-bfc1b4525c6b" />
-            <r
-              uid="{B768639B-26B3-4671-841E-EC4B0A2ED311}"
-              p:after="r[@uid='{0B09AC48-6041-4752-AB9A-FA02ED68E939}']"
-              s:id="{5899FE6B-2AD7-4243-B1F9-3BC664CF0A7C}"
-              s:ph="/page-layout/section_939c213a-24f4-4352-892c-a79f9653471a/col-wide-1_9ad0ae29-ea50-43c3-8c1d-bfc1b4525c6b" />
-            <r
               uid="{9AD0AE29-EA50-43C3-8C1D-BFC1B4525C6B}"
-              p:after="r[@uid='{B768639B-26B3-4671-841E-EC4B0A2ED311}']"
+              p:after="r[@uid='{27222A8F-A62C-4F9E-9A7A-1371951F8375}']"
               s:id="{4ACD4C20-28D1-46F7-8FBA-A35778937BD1}"
               s:ph="/page-layout/section_939c213a-24f4-4352-892c-a79f9653471a" />
             <r
@@ -142,7 +137,60 @@ Languages:
               p:after="r[@uid='{9AD0AE29-EA50-43C3-8C1D-BFC1B4525C6B}']"
               s:ds="{73B14E87-652F-43A7-AF97-BF2259EA9491}"
               s:id="{8B28417B-A5B3-44F1-BFCC-FE1D907336E7}"
-              s:ph="/page-layout/page-header" />
+              s:ph="/page-layout/page-header">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{BF4D9870-E66F-4AA7-889F-C89E597C38D8}"
+                    s:name="Small Business">
+                    <conditions>
+                      <condition
+                        uid="F5F299699EED45868C65BBA304AA05B1"
+                        s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                        s:ProfileName="Finance Persona"
+                        s:PatternName="Owen the SMB Owner_B2B" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="9FBEDAAF04DE408BA35DED102298F643"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{C5EC9B87-112A-4719-A7AF-B900BA09FEA8}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{6AC1BB65-6590-4552-82A6-06643173108C}"
+                    s:name="Ben the Banker">
+                    <conditions>
+                      <condition
+                        uid="86D518418CB14A99A309A4860FB4B849"
+                        s:id="{E00DB4F0-B206-4544-AD90-25D201CFB62C}"
+                        s:ProfileName="Finance Persona"
+                        s:PatternName="Ben the Banker_B2B" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="EF622B0A86894101865531C38F4B8FBA"
+                        s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}"
+                        s:RenderingItem="{8B28417B-A5B3-44F1-BFCC-FE1D907336E7}" />
+                      <action
+                        uid="F769330F1D564CAEAF6D150AED8F9E95"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{8B06E25E-8F39-4648-8F88-7504C68A65B9}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="53D32896C5AC42D397A45BDFECD4BBFD"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r
               uid="{4817521A-82BC-4DBF-A4ED-8E7A50013B83}"
               p:after="r[@uid='{2433B7CB-6986-4834-8887-6EB42B8A1F56}']"

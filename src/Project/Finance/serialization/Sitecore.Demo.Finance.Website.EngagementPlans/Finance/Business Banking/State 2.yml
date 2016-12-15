@@ -11,6 +11,10 @@ SharedFields:
 - ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
   Hint: Designer ID
   Value: "445dd611-317d-4e92-b5cc-b83360b36a6c"
+- ID: "575a25c8-5c6f-4530-a48f-f38e23e9dbd5"
+  Hint: Page Event Subscription
+  Type: TreelistEx
+  Value: "{699AB4E7-4E4B-4336-B34B-01D3D70C7AB5}"
 - ID: "7642ed71-348b-4b88-8634-cc7b28949472"
   Hint: Origin ID
   Value: "00000000-0000-0000-0000-000000000000"
@@ -22,7 +26,7 @@ Languages:
     Value: User has signed up for the Newsletter but we are waiting for the user to request the Whitepaper. 
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: State 2
+    Value: Signed up for newsletter
   Versions:
   - Version: 1
     Fields:

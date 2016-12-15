@@ -9,10 +9,24 @@ SharedFields:
   Hint: Show Introduction
   Type: Checkbox
   Value: 0
+- ID: "87b37b02-ba9e-4464-ab4e-50737bb1d06e"
+  Hint: User Profile
+  Value: "{BB6B091A-EC76-4B1E-BA50-C1BC4FC6E270}"
 - ID: "a42052f7-6c18-424a-a2a1-7a72054cb1a6"
   Hint: Show Title
   Type: Checkbox
   Value: 0
+- ID: "a7f779b9-5fcf-45cc-866b-7c973f5c4fac"
+  Hint: Save Actions
+  Value: |
+    <?xml version="1.0" encoding="utf-16"?>
+    <li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <g id="{E5EABB1F-40BC-45BB-8D87-3B6C239B521B}" displayName="Actions" onclick="javascript:return scForm.postEvent(this,event,'forms:addaction')">
+        <li id="{90538392-5648-4326-B506-E1913ED1DAA8}" unicid="66AE0E7EA92A401B95529F9DBC37D501">
+          <parameters>&amp;lt;outcome&amp;gt;{52054874-4767-47DC-8099-8C08BFA307AA}&amp;lt;/outcome&amp;gt;</parameters>
+        </li>
+      </g>
+    </li>
 - ID: "af08c32b-f101-44a4-baae-677383e8eb02"
   Hint: Check Actions
   Value: |
@@ -50,8 +64,8 @@ SharedFields:
         name="Invalid Field Syntax"
         id="{844BBD40-91F6-42CE-8823-5EA4D089ECA2}" />
       <event
-        name="Signup for webinar"
-        id="{DAB0472B-4FCE-41A0-8826-ED27ED0FC936}" />
+        name="Agreed to Meet Advisor"
+        id="{2B5E9627-2084-47BA-8488-F7A0074CF203}" />
     </tracking>
 - ID: "d755de87-9c62-4eb3-83dc-2293784a3a3f"
   Hint: Success Mode
@@ -85,4 +99,4 @@ Languages:
     - ID: "9c4c1994-5140-49d3-bad7-db997816f816"
       Hint: Success Page
       Value: |
-        <link text="" linktype="internal" class="" title="" target="" querystring="" id="{ABE5C53E-E279-4199-A458-32A7498FAC8D}" />
+        <link id="{ABE5C53E-E279-4199-A458-32A7498FAC8D}" querystring="" text="" linktype="internal" url="/sitecore/content/Finance/Personal/Landing Pages/Thank You The Future of Banking Meet Advisor" title="" class="" target="" />

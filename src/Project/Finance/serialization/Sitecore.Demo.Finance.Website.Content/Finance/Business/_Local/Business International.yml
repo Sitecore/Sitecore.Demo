@@ -1,0 +1,14 @@
+﻿---
+ID: "8b06e25e-8f39-4648-8f88-7504c68a65b9"
+Parent: "8dc8d56c-4bac-4d5f-95d7-7df70faa4128"
+Template: "c18d3794-d126-4548-bfc8-89358de6e9c1"
+Path: /sitecore/content/Finance/Business/_Local/Business International
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161213T171333Z

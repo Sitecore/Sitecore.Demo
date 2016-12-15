@@ -17,11 +17,11 @@ SharedFields:
   Value: Q3 Newsletter
 - ID: "63087a5b-2ea8-4f1b-811b-a82c0ecf52af"
   Hint: Recipients
-  Value: 305
+  Value: 280
 - ID: "84e7df9e-a319-417b-a15d-84b40ea2d8e4"
   Hint: BulkOperationsId
   Type: Multilist
-  Value: 
+  Value: "{D878C911-A73C-456E-BAC1-B90ABEC45162}"
 Languages:
 - Language: en
   Fields:

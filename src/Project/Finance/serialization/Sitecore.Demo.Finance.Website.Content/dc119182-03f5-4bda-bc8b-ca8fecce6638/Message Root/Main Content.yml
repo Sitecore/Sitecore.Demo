@@ -1,0 +1,31 @@
+﻿---
+ID: "6d4f65d7-0f28-45f9-8a00-706078b7ef26"
+Parent: "b2ba74a5-c66c-4ca6-9776-b9c60318870b"
+Template: "bb2b010f-c453-4bee-89df-c21c861c2f74"
+Path: /sitecore/content/Finance/Finance Campaigns/Messages/2016/12/06T155206/November Finance Newsletter/Message Root/Main Content
+DB: master
+BranchID: "d39fc088-90c8-4be8-8d63-c63f8552c6a9"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "18b3ef15-ec40-46fe-b03d-26cb3db243cb"
+      Hint: Image
+      Value: |
+        <image mediaid="{A89EF7CF-32F6-49D5-ADFA-D03C2C98D99D}" />
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: November Finance Newsletter
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161210T134051Z
+    - ID: "94d50f81-f040-4b51-b895-d2fd2c27c223"
+      Hint: Content
+      Value: |
+        <p>Welcome to the November finance newsletter</p>
+        <p>In this issue we have all the latest news and information for the his month from the world of personal and business finance. We also let you know about any new products and services which we think you might have an interest. The product information in this newsletter is kept to a minimum. We all know how annoying it can be when companies feed product information to you continuously so we try not to do that.</p>
