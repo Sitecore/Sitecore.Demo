@@ -14,6 +14,22 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{3A924303-4435-4692-879B-C1BE15F7941D}"
+              p:before="*"
+              s:ds="{CF5AD50E-A39A-4AEE-BC6D-9112C2947A2A}"
+              s:id="{8B28417B-A5B3-44F1-BFCC-FE1D907336E7}"
+              s:ph="/page-layout/page-header" />
+          </d>
+        </r>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
       Hint: OpenGraphTitle
       Value: Home

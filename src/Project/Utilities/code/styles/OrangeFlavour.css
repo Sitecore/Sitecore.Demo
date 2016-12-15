@@ -9953,30 +9953,30 @@ li.active {
     padding-top: 140px;
     padding-bottom: 140px; }
     .jumbotron-xl h1 {
-      font-size: 120px; }
+      font-size: 36px; }
       @media all and (max-width: 991px) {
         .jumbotron-xl h1 {
-          font-size: 39px; } }
+          font-size: 11px; } }
     .jumbotron-xl h2 {
-      font-size: 80px; }
+      font-size: 30px; }
       @media all and (max-width: 991px) {
         .jumbotron-xl h2 {
-          font-size: 32px; } }
+          font-size: 12px; } }
     .jumbotron-xl h3 {
-      font-size: 60px; }
+      font-size: 24px; }
       @media all and (max-width: 991px) {
         .jumbotron-xl h3 {
-          font-size: 24px; } }
+          font-size: 9px; } }
     .jumbotron-xl p {
-      font-size: 23px; }
+      font-size: 16px; }
       @media (max-width: 991px) {
         .jumbotron-xl p {
-          font-size: 17px; } }
+          font-size: 12px; } }
       .jumbotron-xl p.lead {
-        font-size: 26px; }
+        font-size: 16px; }
         @media (max-width: 991px) {
           .jumbotron-xl p.lead {
-            font-size: 19px; } }
+            font-size: 12px; } }
     @media all and (max-width: 991px) {
       .jumbotron-xl {
         padding: 50px 10px; } }
@@ -12943,4 +12943,11 @@ body {
 
 .pagelayout-fixed .header-static .navbar-right > nav .nav-service:last-child {
   margin-right: 5px !important; }
+
+.pagelayout-fixed main .page-header .jumbotron {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  .pagelayout-fixed main .page-header .jumbotron .col-md-12 {
+    padding-left: 120px;
+    padding-right: 120px; }
 

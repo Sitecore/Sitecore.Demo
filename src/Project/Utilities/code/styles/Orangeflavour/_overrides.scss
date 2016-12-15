@@ -41,5 +41,19 @@
             } 
         }
     }
+
+    main {
+        .page-header {
+            .jumbotron {
+                padding-top: 80px;
+                padding-bottom: 80px;
+                .col-md-12 {
+                    padding-left: 120px;
+                    padding-right: 120px;
+                }
+            }
+        }
+    }
+
 }
 
