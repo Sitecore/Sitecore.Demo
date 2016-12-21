@@ -18,6 +18,15 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161209T034059Z
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {A670CA7E-47E7-4C10-8804-57130138D9B5}
+        {2B538BC9-7955-48A8-8612-E589C32BEF5A}
+        {5504B1E9-E89F-4930-A2CE-461F283506D5}
+        {A5B0DFDF-64E0-40F8-AB12-6E4A0A054996}
+        {2EA3F04A-CA36-49F2-B32A-70AE6BBFD76C}
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: Any Habitat customer may submit a claim if you believe that Habitat has caused a loss for which you should be compensated. You can make this type of claim using various methods—email, phone call, or online.

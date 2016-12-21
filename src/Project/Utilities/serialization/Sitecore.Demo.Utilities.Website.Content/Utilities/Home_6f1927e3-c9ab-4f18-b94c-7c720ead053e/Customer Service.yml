@@ -30,6 +30,16 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161209T033514Z
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {A670CA7E-47E7-4C10-8804-57130138D9B5}
+        {5504B1E9-E89F-4930-A2CE-461F283506D5}
+        {94D6BACD-1B36-408F-A0E1-38DF17516151}
+        {2B538BC9-7955-48A8-8612-E589C32BEF5A}
+        {B655A494-53B2-4665-B5B7-BBC8FBF60FC9}
+        {EEE0C475-7BC1-4212-9262-46C18FDAFC30}
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: You can reach Habitat Utilities anytime, day or night, seven days a week by phone or online.

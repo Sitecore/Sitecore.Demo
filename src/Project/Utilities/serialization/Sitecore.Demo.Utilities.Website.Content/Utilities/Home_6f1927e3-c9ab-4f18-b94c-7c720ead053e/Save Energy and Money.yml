@@ -26,6 +26,16 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161209T034356Z
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {A670CA7E-47E7-4C10-8804-57130138D9B5}
+        {8CC0AA38-396B-4F50-BA7A-EBE1ED97DA74}
+        {2E667593-B619-4ACC-96F8-DB080A66BA02}
+        {C3B0204D-E0FA-43E8-8950-1D018D9B13F7}
+        {52FFD849-4124-4E9E-BDD3-2AF7F30E7ABA}
+        {49393459-AA24-48FB-836F-509B13AC17E5}
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: Your home is a big investment. You can keep it comfortable, protect it, and save money at the same time.

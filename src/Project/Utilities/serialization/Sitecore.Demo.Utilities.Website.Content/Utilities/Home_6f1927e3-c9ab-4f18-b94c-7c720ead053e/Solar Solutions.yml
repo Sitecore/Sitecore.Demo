@@ -47,6 +47,18 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161209T034432Z
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {A670CA7E-47E7-4C10-8804-57130138D9B5}
+        {A4549227-62F7-460C-B521-0BA80E0AC388}
+        {E7378E7A-94D9-4B86-A8ED-06AF8586DD67}
+        {7480AD03-90E8-4655-8894-3A5B3DF88B4F}
+        {DBAB2C83-3089-4984-AC8D-2B42F392B3DC}
+        {53430EF1-6B07-405B-B12B-844859CA4D1D}
+        {D3B8E570-8103-4938-801C-E30CF0735F00}
+        {4D6DF56D-F664-4E45-893E-1EEA579FF2EC}
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: Going solar is a big decision. Let us help you make informed choices.
