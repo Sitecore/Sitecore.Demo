@@ -18,9 +18,27 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161209T034721Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "Knowledge is power—the power to save energy and money. The programs outlined below are designed to help you and your family conserve energy in your everyday lives, which in turn will help you save money each month:"
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: Energy Saving Programs
+      Value: Take the edge off your energy
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Energy Saving Programs
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Knowledge is power—the power to save energy and money. The programs outlined below are designed to help you and your family conserve energy in your everyday lives, which in turn will help you save money each month:</p>
+        <p>Below is an overview of our rebate programs:</p>
+        <h3>Cool Rate Savings</h3>
+        <p>Gain more control over your summer electric costs and help keep our energy supply reliable. On the Cool Rate plan, you pay a reduced rate in exchange for minimizing your electricity usage up to 15 days a year. </p>
+        <h3>Energy Upgrade</h3>
+        <p>Habitat's Energy Upgrade evaluates all of the systems in your home to determine which upgrades can reduce your energy use and improve the comfort of your home. Qualifying upgrades could provide you with up to $6,500 (or more) in rebates.</p>
+        <h3>IntelliAir</h3>
+        <p>When you sign up for the Habitat's IntelliAir program, we install a free smart device on your air conditioner and give you $75 for participating. In case of an energy shortage from May 15— October 31, we send a signal to your smart device directing your AC to run at a lower capacity. </p>
+        <h3>Tune-Up—HVAC Maintenance</h3>
+        <p>Heating and cooling accounts for over 45 percent of your home energy bill. Lower your monthly energy bill by keeping your  HVAC equipment working at peak efficiency. With Habitat's Tune Up Program, you can receive rebates of up to $400 to help pay for work done by certified HVAC contractors. </p>
+        <h3>Better Bulbs Program</h3>
+        <p>Make a difference for the environment and your wallet every time you turn on a light. Use LED bulbs to save money and improve the quality of light in your home. You also help the environment as LED bulbs use 75 percent less energy than incandescent bulbs.</p>

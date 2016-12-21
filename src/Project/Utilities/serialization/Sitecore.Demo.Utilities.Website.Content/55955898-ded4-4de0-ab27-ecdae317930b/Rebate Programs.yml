@@ -22,9 +22,24 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161209T034710Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Habitat Utilities offers rebates on many energy efficient products, improvements for your home, and property types. If you qualify, you can save energy and money while reducing your impact on the environment.
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: Rebate Programs
+      Value: Take the money and run.
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Rebate Programs
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Habitat Utilities offers rebates on many energy efficient products, improvements for your home, and property types. If you qualify, you can save energy and money while reducing your impact on the environment.</p>
+        <p>Below is an overview of our rebate programs:</p>
+        <h3>Energy Star Products</h3>
+        <p>Ready to replace your old, inefficient kitchen and laundry appliances? We offer rebates to any appliances approved with the EnergyStar® label. Visit www.energystar.gov/rebate-finder and see the full list of rebate-qualifying products.</p>
+        <h3>Pool and Pump Motors</h3>
+        <p>Save money by replacing your pool filtration pump or pump motor with a new multi-speed energy-efficient one. Purchase a qualifying ENERGY STAR® variable-speed motor and receive a $150 rebate from Habitat.</p>
+        <h3>Multi-family Properties</h3>
+        <p>We offer rebates to owners and managers of multifamily properties with two or more units when you upgrade to qualifying, energy-efficient products. Qualifying products may be installed in tenant units and common areas of apartment buildings, mobile home parks and community complexes.</p>
+        

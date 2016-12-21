@@ -22,9 +22,27 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161209T034802Z
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediapath="/Default Website/cover" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/cover" mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" ></image>
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "In addition to the more popular panels and roofs, Habitat offers other ways to harness solar energy. Learn about those below:"
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: Other Solar Solutions
+      Value: Take control of your energy
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Other Solar Solutions
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>In addition to the more popular panels and roofs, Habitat offers other ways to harness solar energy. Learn about those below:</p>
+        <h3>Solar Backup Power</h3>
+        <p>Habitat's backup power solution ensures that you’ll have the energy you need to power through any outage, day or night. Habitat's Power Block is continuously being charged by electricity generated from your solar panels or solar roof, so it can be used whenever you choose. That way you can rely less on the grid and save more on your electric bill. And you can save even more money on your bill if you switch to Habitat's time-of-use rate. We offer 24/7 monitoring for realtime insight and our software enables you to make the grid stronger for everyone.</p>
+        <h3>Solar Water Heater</h3>
+        <p>A solar water heater is one of the most effective ways of cutting a household's carbon footprint by reducing reliance on fossil fuel usage. By offsetting the use of electricity, gas or heating oil, using solar water heaters can also provide financial savings by reducing energy costs. </p>
+        <p>Habitat offers a variety of water heating solutions that allow you to use the sun's power to provide hot water for your home with great efficiency and low energy costs. Choose from a variety of options to store your hot water and provide backup capabilities if necessary.</p>
+        <h3>Solar Usage Plans</h3>
+        <p>With Habitat's Solar Usage Plans , you have the option to purchase up to 100% of your electricity from solar power, without needing to install solar panels. These programs are a choice if you want to lower your environmental footprint and promote renewable power generation.</p>

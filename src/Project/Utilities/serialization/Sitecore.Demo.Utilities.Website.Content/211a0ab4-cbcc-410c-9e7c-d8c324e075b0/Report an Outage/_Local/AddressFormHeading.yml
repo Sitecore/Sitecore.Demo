@@ -1,0 +1,17 @@
+﻿---
+ID: "657bfabf-5fa6-438e-ad2a-20a29e4bd9e2"
+Parent: "b1564bd0-ed46-4d69-b1a2-57907804ee49"
+Template: "b4f6f114-e653-4a22-86c5-499e0bd99d9a"
+Path: /sitecore/content/Utilities/Home/Customer Service/Report an Outage/_Local/AddressFormHeading
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bc0aedf-a6d0-4f74-933c-bd1779cd40b2"
+      Hint: HTML Content
+      Value: <h3>Report Or View by Address</h3>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161220T151627Z

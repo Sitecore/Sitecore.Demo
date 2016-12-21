@@ -22,9 +22,27 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161209T034549Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Habitat is one of the largest combination natural gas and electric utilities in the world. Based in California, USA, the company is a subsidiary of Habitat, Inc.
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: About Habitat Utilities
+      Value: Powering the future
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: About Habitat Utilities
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Habitat is one of the largest combination natural gas and electric utilities in the world. Based in California, USA, the company is a subsidiary of Habitat, Inc.</p>
+        
+        <p>With roughly 30,000 employees we have a loyal team dedicated to our primary goal—the transmission and delivery of energy to our customers. We provide service to approximately 35 million people throughout the world.</p>
+        
+        <p>Some facts and figures about Habitat:</p>
+        <ul>
+        <li>Population in our service area: 3.2 million</li>
+        <li>Size of our service area: 3,000 square miles</li>
+        <li>Total accounts served (residential): 308,220</li>
+        <li>Number of Habitat employees: 3,255</li>
+        <li>Miles of power lines: 14,258</li>
+        </ul>

@@ -1,0 +1,26 @@
+﻿---
+ID: "d80e1746-4e0e-42fb-9d69-ac777bd0f363"
+Parent: "fbaca2a2-a3c9-4399-a6fc-c961afa54de9"
+Template: "a7842778-988c-4726-85dc-052552067a6f"
+Path: /sitecore/content/Utilities/Home/Start and Stop Service/Transfer Service/Transfer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
+      Hint: OpenGraphTitle
+      Value: Transfer
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161220T155839Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "Moving within the Habitat territory? Stop and Start dates are flexible."
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Transfer Service
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Transfer

@@ -1,0 +1,22 @@
+﻿---
+ID: "b1564bd0-ed46-4d69-b1a2-57907804ee49"
+Parent: "f04d1570-d466-434b-a77e-988b9637b902"
+Template: "fff5f245-ffc0-4022-a998-9b07aa5e761f"
+Path: /sitecore/content/Utilities/Home/Customer Service/Report an Outage/_Local
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{B4F6F114-E653-4A22-86C5-499E0BD99D9A}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-1000"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161220T151617Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "c92f60f0-f42f-4824-966c-d6568e0c5717"
+Parent: "8ffe6853-9ff9-4ed3-a308-890fd95c1e46"
+Template: "f5f30cdc-9003-4015-84ec-c3a7e3e50d5e"
+Path: /sitecore/content/Utilities/Home/Solar Solutions/Other Solar Solutions/_Local/Teaser Carousel
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161220T143339Z

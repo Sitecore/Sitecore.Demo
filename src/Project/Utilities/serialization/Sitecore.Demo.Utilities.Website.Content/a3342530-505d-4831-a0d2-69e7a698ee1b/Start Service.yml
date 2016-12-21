@@ -1,0 +1,54 @@
+﻿---
+ID: "cdf9f90c-0d5b-4f71-9d2a-018e67aee69f"
+Parent: "a3342530-505d-4831-a0d2-69e7a698ee1b"
+Template: "1c706975-f2fa-4215-ba37-78518bfbafc4"
+Path: /sitecore/content/Utilities/Home/Start and Stop Service/Start Service
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{A762DB78-C27D-4ADE-98E9-22CAB7792342}"
+              p:before="*"
+              s:ds="{A313241B-E09A-43D9-A4AE-355045D4C895}"
+              s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}"
+              s:ph="/page-layout/section/section-narrow/col-wide-1_6274fe99-7a90-4e8a-b0ad-a5832b9c9d5b" />
+            <r
+              uid="{6274FE99-7A90-4E8A-B0AD-A5832B9C9D5B}"
+              p:after="r[@uid='{A762DB78-C27D-4ADE-98E9-22CAB7792342}']"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:ph="/page-layout/section/section-narrow" />
+          </d>
+        </r>
+    - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
+      Hint: OpenGraphTitle
+      Value: Start Service
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Start Service
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161220T154223Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "New to Habitat Utilities? Let's get going"
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Start Service
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Start Service
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: 

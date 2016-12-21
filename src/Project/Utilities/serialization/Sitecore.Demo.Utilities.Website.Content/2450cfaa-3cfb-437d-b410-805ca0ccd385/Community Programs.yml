@@ -18,9 +18,21 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161209T034815Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "Learn how Habitat is helping communities thrive:"
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: Community Programs
+      Value: Powering economic and community strength
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Community Programs
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <h3>Payment Assistance Programs</h3>
+        <p>As an energy company, we have a responsibility to help customers who are in danger of losing their utility services because of financial hardship. Habitat's assistance program provides one-time emergency financial assistance for those who need it most.</p>
+        <h3>Disaster Preparation Programs</h3>
+        <p>Habitat partners with local agencies to provide safety training and direct resources to undeserved communities before and after natural disasters.</p>
+        <h3>Community Career Programs</h3>
+        <p>Through our CareerPath program, Habitat invests in local and regional programs supporting career development and workforce employment creation.</p>

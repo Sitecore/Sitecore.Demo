@@ -26,9 +26,21 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161209T034356Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Your home is a big investment. You can keep it comfortable, protect it, and save money at the same time.
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: Save Energy and Money
+      Value: Live smart, save smarter
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Save Energy and Money
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Your home is a big investment. You can keep it comfortable, protect it, and save money at the same time. At Habitat, we've developed a number of rebate, savings, and payment assistance programs to make sure you and your family gets the most out of your investment:</p>
+        <ul>
+            <li><a href="~/link.aspx?_id=3F4B4EB7725D40E0B1A2C3F44A78E182&amp;_z=z">Rebate Programs</a> </li>
+            <li><a href="~/link.aspx?_id=236FA4104DC34960B5DFDCE7D93F7747&amp;_z=z">Energy Saving Programs</a></li>
+            <li><a href="~/link.aspx?_id=5A9842ECA8434672ADF817931C829244&amp;_z=z">Payment Assistance Programs</a></li>
+        </ul>
