@@ -1,7 +1,7 @@
 ﻿---
 ID: "17387cce-3557-4c84-b210-689eab31177e"
 Parent: "6f1927e3-c9ab-4f18-b94c-7c720ead053e"
-Template: "663d8868-e064-4d0c-bb8f-d7a94e0821f5"
+Template: "1c706975-f2fa-4215-ba37-78518bfbafc4"
 Path: /sitecore/content/Utilities/Home/Solar Solutions
 DB: master
 SharedFields:
@@ -17,6 +17,27 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E39CCA83-CE16-4C4D-8633-FD419D7D6F47}"
+              p:before="*"
+              s:id="{84924ABF-F983-4AF5-9002-EA0237A53DA9}"
+              s:ph="/page-layout/section/section-narrow/col-wide-1_0fa75838-4f02-42ad-a4cb-450c65cd0d09" />
+            <r
+              uid="{0FA75838-4F02-42AD-A4CB-450C65CD0D09}"
+              p:after="r[@uid='{E39CCA83-CE16-4C4D-8633-FD419D7D6F47}']"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:ph="/page-layout/section/section-narrow" />
+          </d>
+        </r>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
       Hint: OpenGraphTitle
       Value: Solar Solutions
@@ -26,9 +47,40 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161209T034432Z
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {A670CA7E-47E7-4C10-8804-57130138D9B5}
+        {A4549227-62F7-460C-B521-0BA80E0AC388}
+        {E7378E7A-94D9-4B86-A8ED-06AF8586DD67}
+        {7480AD03-90E8-4655-8894-3A5B3DF88B4F}
+        {DBAB2C83-3089-4984-AC8D-2B42F392B3DC}
+        {53430EF1-6B07-405B-B12B-844859CA4D1D}
+        {D3B8E570-8103-4938-801C-E30CF0735F00}
+        {4D6DF56D-F664-4E45-893E-1EEA579FF2EC}
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Going solar is a big decision. Let us help you make informed choices.
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: Solar Solutions
+      Value: "Looking for solar answers?"
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Solar Solutions
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Going solar is a big decision. Let us help you make informed choices.</p>
+        <h3>Step 1: Run the numbers</h3>
+        <p>Contact a solar concierge who can help you use satellite information about your rooftop together with your current monthly bills to lay out a cost-benefit analysis.</p>
+        <h3>Step 2: Make your home energy efficient</h3>
+        <p>Make sure the energy you make from solar isn't wasted. Our concierge will review all the ways to ensure the energy you generate isn't lost.</p>
+        <h3>Step 3: Select a contractor</h3>
+        <p>Once you commit to solar, it's important to choose the right contractor. Our solar concierge will help provide guidance and tips to help you choose.</p>
+        <p>Read more on three solar programs Habitat offers:</p>
+        <ul>
+        <li>Solar panels</li>
+        <li>Solar roof</li>
+        <li>Solar Backup Power</li>
+        <li>Solar Water Heater</li></ul>

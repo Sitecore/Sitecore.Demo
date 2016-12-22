@@ -26,9 +26,21 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161209T034500Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "To create safe and vibrant neighborhoods for our customers and employees, Habitat's community vitality programs help everyone prepare for and recover from natural disasters, create career training opportunities, and help to maintain the integrity of our environment. Learn more about our efforts in the community and with the environment below:"
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: Community and Environment
+      Value: Powering our community one neighborhood at a time
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Community and Environment
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>To create safe and vibrant neighborhoods for our customers and employees, Habitat's community vitality programs help everyone prepare for and recover from natural disasters, create career training opportunities, and help to maintain the integrity of our environment. Learn more about our efforts in the community and with the environment below:</p>
+        <h3>Habitat Community Programs</h3>
+        <p>Promoting economic and community strength.</p>
+        <h3>Habitat Environment Programs</h3>
+        <p>Helping to preserve natural resources and reduce pollution.</p>
+        

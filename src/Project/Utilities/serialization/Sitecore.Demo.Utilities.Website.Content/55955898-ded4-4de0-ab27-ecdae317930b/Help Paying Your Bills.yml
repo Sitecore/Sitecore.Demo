@@ -22,9 +22,22 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161209T034732Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Habitat offers many programs that can help you save money and energy. In these tough times, we’re dedicated to serving our customers' needs. We take pride in being a part of the communities we serve. Together, we can find solutions.
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: Help Paying Your Bills
+      Value: Everyone needs a helping hand
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Help Paying Your Bills
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Habitat offers many programs that can help you save money and energy. In these tough times, we’re dedicated to serving our customers' needs. We take pride in being a part of the communities we serve. Together, we can find solutions.</p>
+        <p>Below is an overview of ways in which you can get assistance with your energy needs:</p>
+        <h3>One-time Assistance</h3>
+        <p>Set up flexible and easy payment options. Habitat can help you keep your service on when you’re having trouble paying your bill. You can also apply to receive a one-time energy credit for up to $300 through our community assistance program, reserved for when a sudden hardship occurs. You can also apply for one-time heating, cooling and weatherproofing help (income restrictions apply.)</p>
+        <h3>Long-term Assistance</h3>
+        <p>Save 20 percent or more on your monthly gas and electric bill by enrolling in Habitat's Alternative Rates Program. This program gives qualified households deep discounts on their energy bills. Also, with Habitat's Families First program, you can get a monthly discount on your electric bill if your household has three or more people. And last, you may be eligible to receive help if you’re a customer with special energy needs related to a medical condition.</p>
+        

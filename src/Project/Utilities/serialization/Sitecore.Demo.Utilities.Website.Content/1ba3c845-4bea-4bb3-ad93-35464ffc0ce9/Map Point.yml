@@ -1,0 +1,20 @@
+﻿---
+ID: "a62b06a0-1eb4-4b05-9825-65900043d12e"
+Parent: "1ba3c845-4bea-4bb3-ad93-35464ffc0ce9"
+Template: "11c28d16-9b88-456e-a42b-d4b5a82867e3"
+Path: /sitecore/content/Utilities/Home/_Local/New Map Points Folder/Map Point
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161220T152928Z
+    - ID: "f12c22bb-e57d-4fab-96e1-1229e4e7ff0e"
+      Hint: MapPointName
+      Value: Map Point
+    - ID: "f686ac8e-1d33-45db-8e1a-1b40cd491e7a"
+      Hint: MapPointLocation
+      Value: "38.925229239200085,-77.03613518750007"

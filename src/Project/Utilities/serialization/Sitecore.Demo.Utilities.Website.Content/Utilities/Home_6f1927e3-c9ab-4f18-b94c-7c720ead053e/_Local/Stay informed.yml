@@ -1,0 +1,24 @@
+﻿---
+ID: "d6b108b5-20de-4bad-ab13-018d9ca83578"
+Parent: "dca88b59-5740-403b-a827-50febbf8afa0"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: /sitecore/content/Utilities/Home/_Local/Stay informed
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" />
+    - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
+      Hint: TeaserSummary
+      Value: Habitat will provide updates that include the cause of the outage as well as when you can expect power to be back on. Habitat offers future and individual outage alerts.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161221T091430Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: "Stay informed! Receive outage alerts via text, email, or phone"

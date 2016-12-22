@@ -8,7 +8,7 @@ SharedFields:
 - ID: "68016087-aa00-45d6-922a-678475c50d4a"
   Hint: ShowChildren
   Type: Checkbox
-  Value: 0
+  Value: 1
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: "-100"
@@ -26,9 +26,31 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161209T034258Z
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {A670CA7E-47E7-4C10-8804-57130138D9B5}
+        {D2481598-6305-4200-82E6-D0697419F709}
+        {EABC3D02-054E-45FD-8645-CE222EA4BD82}
+        {32D646A9-CDCF-40F9-A956-BEA25863D62A}
+        {4B925071-7ABF-4F2F-B59F-E8CACD91AFC8}
+        {7480AD03-90E8-4655-8894-3A5B3DF88B4F}
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "Find the plan that works best for you, based on your budget and energy needs:"
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: Rate Plans
+      Value: With Habitat, the choice is up to you.
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Rate Plans
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        Find the plan that works best for you, based on your budget and energy needs:
+        <ul>
+        <li>Tiered-base Plan</li>
+        <li>Time-of-Use Plan</li>
+        <li>Solar Select Plan</li>
+        </ul>

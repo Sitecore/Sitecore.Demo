@@ -18,9 +18,22 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161209T034829Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "For more than a 20 years, Habitat and it's customers have led the way to a cleaner environment with programs such as the ones outlined below:"
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: Environmental Programs
+      Value: Leading the way towards a cleaner habitat
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Environmental Programs
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>For more than a 20 years, Habitat and it's customers have led the way to a cleaner environment with programs such as the ones outlined below:</p>
+        <h3>Environmental Leaders</h3>
+        <p>Our board of Environmental Strategic Leaders guide us in the decisions Habitat makes about our company’s policies and operations. Our Board continually reviews and refines these guidelines to make sure we’ll meet your energy needs as well as our strict standards for environmental sustainability, stewardship, compliance, and documentation.</p>
+        <h3>Green Technology and Innovations</h3>
+        <p>Habitat advances renewable energy technologies through research and development projects. We want to help find cutting-edge solutions to green energy efficiency. That's why we developed our GTI (Green Technology Innovations) program. It's a research and development program designed to help you use and evaluate new or underutilized technologies. Unlike many green tech programs, we're focused on real-word projects that can be integrated within 10 years or less. We've completed demonstration projects with solr power, lighting technologies, building envelopes, heating ventilation and air conditioning (HVAC) systems, and a wide variety of other technologies.</p>
+        <h3>Electric Vehicles</h3>
+        <p>Whether you already own an electric vehicle or are considering buying one, we have information and resources to help you make a decision that's right for you. Watch the video below if you're considering an electric vehicle. As well, contact us and we can review everything you'll need to know from charging options and electric vehicle rates (know when to charge) to a personalized estimation tool to help you make informed decisions about buying an EV.</p>

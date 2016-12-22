@@ -1,0 +1,54 @@
+﻿---
+ID: "fd68073b-0a7e-4b91-8656-961836a8aa2a"
+Parent: "a87c7582-af57-454a-98bd-59cbf9e689e8"
+Template: "1c706975-f2fa-4215-ba37-78518bfbafc4"
+Path: /sitecore/content/Utilities/Home/Rate Plans/Rate plan overviews
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
+      Hint: OpenGraphTitle
+      Value: Rate plan overviews
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Rate plan overviews
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161220T132107Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "Review a quick summary of our plan offerings:"
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Rate plan overviews
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Rate plan overviews
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        Review a quick summary of our plan offerings: 
+        <h3>Tiered-Base Plan: </h3>
+        <p>The Tiered Rate Plan has three pricing tiers. As you use up the allocated electricity for each tier during your billing period, you move to the next, higher priced tier. To save on your bill, you can conserve energy to stay on lower priced tiers for as long as possible.</p>
+        <h3>Time-of-Use Plan</h3>
+        <p>With Time-of-Use plans, pricing varies depending on when you use energy during the day, week and season. Flexibility with when you use energy gives you greater control. The rates in this plan are best for customers who can be more flexible about when they are using the most energy in a day.</p>
+        <h3>Solar Select Plan</h3>
+        <p>Habitat's Solar Select Plan give customers the option to purchase up to 100 percent of their electricity from solar energy, without needing to install solar panels. These programs are a choice if you want to lower your environmental footprint and promote renewable power generation.</p>
+        <h3>Additional Plan Add-Ons</h3>
+        <ul>
+        <li>
+        <h4>Cool Rate Savings</h4>
+        <p>The Cool Rate Savings add-0n helps you save up to 20 percent on your summer electric bill. Receive a discount for reducing your electricity usage up to 15 days a year.</p>
+        </li>
+        <li>
+        <h4>Power Export</h4>
+        <p>The Power Export add-on allows customers with an eligible power generator—like solar panels—to earn a credit for power exported to the grid.</p>
+        </li>
+        <li>
+        <h4>Plug-in Vehicle</h4>
+        <p>The Plug-in Electric Vehicles add-on allows you to combine your vehicle's electricity costs with those of your residence.</p>
+        </li>
+        </ul>

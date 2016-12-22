@@ -9,6 +9,47 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{033658CC-74A3-43BB-9139-2C4087EE5AF9}"
+              p:before="*"
+              s:ds="{657BFABF-5FA6-438E-AD2A-20A29E4BD9E2}"
+              s:id="{B883E272-70D8-419A-8AF8-819356D839AD}"
+              s:ph="/page-layout/section/section-narrow/col-wide-1_354b2ac1-7dd1-4ea6-a4f7-d33ecfeb131a" />
+            <r
+              uid="{1C854A6E-F4FD-4927-8068-D200488B3174}"
+              p:after="r[@uid='{033658CC-74A3-43BB-9139-2C4087EE5AF9}']"
+              s:ds="{3BD74A55-88FE-43FB-A22F-8B3CECC599B3}"
+              s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}"
+              s:ph="/page-layout/section/section-narrow/col-wide-1_354b2ac1-7dd1-4ea6-a4f7-d33ecfeb131a" />
+            <r
+              uid="{B1E848F6-BED1-4E74-9C6F-DDDE531DB8C8}"
+              p:after="r[@uid='{1C854A6E-F4FD-4927-8068-D200488B3174}']"
+              s:ds="{A5ED0F5E-CEEC-4D2A-9AD8-F10C411F6EBC}"
+              s:id="{B883E272-70D8-419A-8AF8-819356D839AD}"
+              s:ph="/page-layout/section/section-narrow/col-wide-1_354b2ac1-7dd1-4ea6-a4f7-d33ecfeb131a" />
+            <r
+              uid="{AB5770FA-4570-4CD5-903A-6C0FCB9572C2}"
+              p:after="r[@uid='{B1E848F6-BED1-4E74-9C6F-DDDE531DB8C8}']"
+              s:ds="{1BA3C845-4BEA-4BB3-AD93-35464FFC0CE9}"
+              s:id="{7DFD9396-CB94-4174-9721-9419A2AA68E3}"
+              s:par="MapType=roadmap&amp;CenterLocation=-5.055576,3.803790&amp;ZoomLevel=0&amp;EnableCenterMapControl&amp;EnableZoomControl=1&amp;EnableMapTypeControl=1&amp;EnableScaleControl&amp;EnableStreetViewControl&amp;EnableRotateControl"
+              s:ph="/page-layout/section/section-narrow/col-wide-1_354b2ac1-7dd1-4ea6-a4f7-d33ecfeb131a" />
+            <r
+              uid="{354B2AC1-7DD1-4EA6-A4F7-D33ECFEB131A}"
+              p:after="r[@uid='{AB5770FA-4570-4CD5-903A-6C0FCB9572C2}']"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:ph="/page-layout/section/section-narrow" />
+          </d>
+        </r>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
       Hint: OpenGraphTitle
       Value: Report an Outage
@@ -18,9 +59,24 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161209T034117Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: |
+        Welcome to the Habitat Project and Outage Center. 
+        
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: Report an Outage
+      Value: Report an Outage and View Upcoming Projects
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: Report an Outage
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Scroll down to:</p>
+        <ul>
+        <li>Report or view outages by address</li>
+        <li>View upcoming projects by city</li>
+        <li>Search the outage/project map</li>
+        </ul>
+        <p>You can sign up to receive outage updates via email, text or phone after reporting or selecting a known outage.</p>

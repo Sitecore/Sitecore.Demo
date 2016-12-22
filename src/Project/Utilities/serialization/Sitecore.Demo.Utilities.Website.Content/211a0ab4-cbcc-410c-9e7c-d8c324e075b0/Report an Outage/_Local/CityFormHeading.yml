@@ -1,0 +1,20 @@
+﻿---
+ID: "a5ed0f5e-ceec-4d2a-9ad8-f10c411f6ebc"
+Parent: "b1564bd0-ed46-4d69-b1a2-57907804ee49"
+Template: "b4f6f114-e653-4a22-86c5-499e0bd99d9a"
+Path: /sitecore/content/Utilities/Home/Customer Service/Report an Outage/_Local/CityFormHeading
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bc0aedf-a6d0-4f74-933c-bd1779cd40b2"
+      Hint: HTML Content
+      Value: |
+        <h3>Report Outages or Upcoming Projects by City</h3>
+        <strong>Search the Map</strong>
+        <p>Select an icon on the map to view outage details or upcoming and on-going projects.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161220T152225Z

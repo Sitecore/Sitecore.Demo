@@ -18,9 +18,41 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161209T034059Z
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {A670CA7E-47E7-4C10-8804-57130138D9B5}
+        {2B538BC9-7955-48A8-8612-E589C32BEF5A}
+        {5504B1E9-E89F-4930-A2CE-461F283506D5}
+        {A5B0DFDF-64E0-40F8-AB12-6E4A0A054996}
+        {2EA3F04A-CA36-49F2-B32A-70AE6BBFD76C}
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Any Habitat customer may submit a claim if you believe that Habitat has caused a loss for which you should be compensated. You can make this type of claim using various methods—email, phone call, or online.
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
-      Value: File a Claim
+      Value: How to file a claim
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
       Value: File a Claim
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Any Habitat customer may submit a claim if you believe that Habitat has caused a loss for which you should be compensated. You can make this type of claim using various methods—email, phone call, or online.</p>
+        
+        <p>If you are a customer who has gone without power for at least 48 hours because of severe storm conditions, you may qualify for an automatic payment under our Support Level Program. This program provides a payment of $25 to $100, which we pay automatically about 45 days following the storm outage.</p>
+        
+        <p>Ways to file:</p>
+        
+        <ol>
+        <li>Complete our online form.</li>
+        <li>Scan and email any additional supporting documents, as we instruct, to <a href="mailto:claims@habitatutilities.com">claims@habitatutilities.com</a>. Include your claim number in the subject line so that our system can identify your claim</li>
+        <li>Mail or fax a claim: Complete our claim form. Attach or include any supporting documentation. Send your completed form and documentation using one of the following methods:<br>
+        FAX: 1-555-555-1234<br>
+        Mail to:<br>
+        Habitat Utilities Claims<br>
+        1234 Habitat Blvd., 10th Floor<br>
+        City, State, 12345
+        </li>
+        </ol>
