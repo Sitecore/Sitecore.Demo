@@ -7,7 +7,8 @@ DB: master
 SharedFields:
 - ID: "e8ab122c-6f54-4d4e-aec6-f81addc558fc"
   Hint: TeaserLink
-  Value: 
+  Value: |
+    <link text="" linktype="internal" class="" title="" target="" querystring="" id="{49933482-B2ED-4E48-8902-6E855C3E5D1A}" />
 Languages:
 - Language: en
   Fields:
@@ -29,4 +30,4 @@ Languages:
       Value: 20161221T093539Z
     - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
       Hint: TeaserTitle
-      Value: Solar Water Heating 101
+      Value: Solar Panels
