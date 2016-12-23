@@ -1,0 +1,35 @@
+﻿---
+ID: "e93966cd-a3bb-4e3c-b6bd-d43e638300f8"
+Parent: "4406a127-0ebb-4658-a475-80fdb5d2ea1e"
+Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
+Path: /sitecore/content/Finance/Personal/Landing Pages/Thank You Mortgage Application
+DB: master
+SharedFields:
+- ID: "8d5c486e-a0e3-4dbe-9a4a-cdff93594bda"
+  Hint: IncludeInSearchResults
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161124T155227Z
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{B9EA1C21-5629-459B-94B7-E474FDA1857C}" />
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Thank You for applying for one of our mortgage products
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Thank You for applying for one of our mortgage products
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Thank you for applying for one of our mortgage products.</p>
+        <p>Your application will be processed as soon as we can and it is our aim to provide information to you within 5 working days. We have a number of mortgage products and we want to make sure we provide you with the best one to suit your needs.</p>
+        <p>Again, we must remind you that failure to keep up your mortgage payments could lead to your house being repossessed.</p>

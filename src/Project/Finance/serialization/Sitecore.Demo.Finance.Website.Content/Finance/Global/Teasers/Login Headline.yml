@@ -1,0 +1,21 @@
+﻿---
+ID: "7c632c2f-493f-44bc-b7f5-af7f4a56c2cc"
+Parent: "02b1ae3a-59f2-4df7-af4d-2542e823f864"
+Template: "061574e1-59dd-4b62-9680-1c84efbe6773"
+Path: /sitecore/content/Finance/Global/Teasers/Login Headline
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161110T111208Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Login to our Portal

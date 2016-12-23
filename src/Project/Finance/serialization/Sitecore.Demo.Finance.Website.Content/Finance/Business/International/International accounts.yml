@@ -1,0 +1,87 @@
+﻿---
+ID: "7f2afc8c-84f4-4945-858e-cde6feb04921"
+Parent: "7982752c-68b2-4570-b78d-4a18731dfee7"
+Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Path: /sitecore/content/Finance/Business/International/International accounts
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{BBBF8DB7-2067-4692-B959-36849FA4B6BA}"
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="ben the banker|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="5" />
+        <key
+          name="Large Corporate Business"
+          value="3" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="3" />
+      </profile>
+    </tracking>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: International accounts
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T122608Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{363468E7-EBF4-4C31-9C89-E9C914FF654D}"
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {02AEF492-E9C2-4808-AB1C-E6BBFA501D36}
+        {0E62DB8B-8804-4B38-B0D6-B56C6420C1D1}
+        {5E78E866-4C37-462D-AEC5-107D1C33317E}
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{49837815-39E1-4C77-8EF1-1690B4786D5A}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Habitat has been helping business expand globally for over 20 years
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Your world made smaller
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: International accounts
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Doing business internationally should be as easy as doing business right here at home. Our International Business Specialists can help you open an account and succeed worldwide. Below are a few details regarding our International Accounts:</p>
+        <h3>International resources where you need them</h3>
+        <ul>
+            <li>An international network of Business Specialists across North America, Latin America, Europe, the Middle East and Asia Pacific</li>
+            <li>Network of local professionals throughout Habitat&rsquo;s global network</li>
+            <li>Country guides provide necessary financial information for today's business traveler</li>
+            <li>White papers keep you informed on the latest trends in international banking</li>
+        </ul>
+        <h3>Convenience and security</h3>
+        <ul>
+            <li>Quick, streamlined process to assist with international accounts</li>
+            <li>HelixGlobal provides you access to a powerful international information and transaction portal &ndash; enabling you to manage your business from anywhere in the world</li>
+            <li>Simple and secure method of transferring funds</li>
+        </ul>

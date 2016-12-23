@@ -1,0 +1,18 @@
+﻿---
+ID: "6c2a635b-f9ba-435b-9b78-ff7ce876ad70"
+Parent: "da04b275-8838-4a3a-afee-817cf1fdd2eb"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/layout/Layouts/Project/Finance
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161104T022354Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

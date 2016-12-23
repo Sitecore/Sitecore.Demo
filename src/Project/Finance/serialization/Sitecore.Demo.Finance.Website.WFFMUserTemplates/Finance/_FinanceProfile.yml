@@ -1,0 +1,26 @@
+﻿---
+ID: "0a036d7c-74c8-4197-befb-a42f3645281f"
+Parent: "0a28bc51-d8c6-4c2d-987a-d0411d74674b"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Finance/_FinanceProfile
+DB: core
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "http://habitat.dev.local/temp/iconcache/business/32x32/businessman.png"
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{696D276B-786A-4D1E-B8BB-8E139DB7BE7C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160418T113410Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

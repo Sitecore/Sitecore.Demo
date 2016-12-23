@@ -1,0 +1,111 @@
+﻿---
+ID: "57cace12-4e23-4acb-af4c-2c2597fd5da1"
+Parent: "0afb457f-2254-48ae-b989-7e078d57e934"
+Template: "ffb1da32-2764-47db-83b0-95b843546a7e"
+Path: "/sitecore/system/Modules/Web Forms for Marketers/Finance/Newsletter Sign-up"
+DB: master
+SharedFields:
+- ID: "46fb324a-9741-43bd-a0c9-5081a39d40aa"
+  Hint: Show Introduction
+  Type: Checkbox
+  Value: 0
+- ID: "87b37b02-ba9e-4464-ab4e-50737bb1d06e"
+  Hint: User Profile
+  Value: "{BB6B091A-EC76-4B1E-BA50-C1BC4FC6E270}"
+- ID: "a42052f7-6c18-424a-a2a1-7a72054cb1a6"
+  Hint: Show Title
+  Type: Checkbox
+  Value: 0
+- ID: "a7f779b9-5fcf-45cc-866b-7c973f5c4fac"
+  Hint: Save Actions
+  Value: |
+    <?xml version="1.0" encoding="utf-16"?>
+    <li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <g id="{E5EABB1F-40BC-45BB-8D87-3B6C239B521B}" displayName="Actions" onclick="javascript:return scForm.postEvent(this,event,'forms:addaction')">
+        <li id="{850B52F1-FBE5-4A89-998C-32DAD0364ABE}" unicid="3465DC29C22B4CA0B73A36323F501550">
+          <parameters>&amp;lt;defaultprofileitemid&amp;gt;{38F813E8-8787-4CE5-B13F-6D0C554E7927}&amp;lt;/defaultprofileitemid&amp;gt;&amp;lt;usernamefield&amp;gt;{BDBE6696-C5B3-4084-9973-D09857E1CA30}&amp;lt;/usernamefield&amp;gt;&amp;lt;domainfield&amp;gt;finance&amp;lt;/domainfield&amp;gt;&amp;lt;auditfield&amp;gt;NoAudit&amp;lt;/auditfield&amp;gt;&amp;lt;passwordfield&amp;gt;randomPassword&amp;lt;/passwordfield&amp;gt;&amp;lt;associateuserwithvisitor&amp;gt;True&amp;lt;/associateuserwithvisitor&amp;gt;&amp;lt;overwriteprofile&amp;gt;True&amp;lt;/overwriteprofile&amp;gt;&amp;lt;mapping&amp;gt;&amp;lt;data&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice0&amp;quot; fieldid=&amp;quot;{BDBE6696-C5B3-4084-9973-D09857E1CA30}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice0&amp;quot; fieldid=&amp;quot;Email&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice1&amp;quot; fieldid=&amp;quot;{86CDBFF8-CFA3-4F9F-A2FC-119DC8879483}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice1&amp;quot; fieldid=&amp;quot;LastName&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;field controlid=&amp;quot;fieldChoice2&amp;quot; fieldid=&amp;quot;{F1EBACB5-96C6-45AB-A0A5-90E9653F3C26}&amp;quot;&amp;gt;&amp;lt;profile controlid=&amp;quot;profileChoice2&amp;quot; fieldid=&amp;quot;FirstName&amp;quot;&amp;gt;&amp;lt;/profile&amp;gt;&amp;lt;/field&amp;gt;&amp;lt;/data&amp;gt;&amp;lt;/mapping&amp;gt;&amp;lt;profileitemid&amp;gt;{BB6B091A-EC76-4B1E-BA50-C1BC4FC6E270}&amp;lt;/profileitemid&amp;gt;</parameters>
+        </li>
+        <li id="{64017682-D88A-44F4-8790-7FED3A583843}" unicid="17CF03D436F148D08A88F043AE3DBF6E">
+          <parameters>&amp;lt;usernamefield&amp;gt;{BDBE6696-C5B3-4084-9973-D09857E1CA30}&amp;lt;/usernamefield&amp;gt;&amp;lt;domainfield&amp;gt;finance&amp;lt;/domainfield&amp;gt;&amp;lt;auditfield&amp;gt;NoAudit&amp;lt;/auditfield&amp;gt;&amp;lt;associateuserwithvisitor&amp;gt;True&amp;lt;/associateuserwithvisitor&amp;gt;</parameters>
+        </li>
+        <li id="{5D54629B-25A4-4107-B614-26F504830335}" unicid="553D54FCBCBE4F3498865CF759F6D203">
+          <parameters>&amp;lt;mapping&amp;gt;[{&amp;quot;key&amp;quot;:&amp;quot;BDBE6696-C5B3-4084-9973-D09857E1CA30&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Emails/Entries/SmtpAddress&amp;quot;,&amp;quot;id&amp;quot;:null},{&amp;quot;key&amp;quot;:&amp;quot;F1EBACB5-96C6-45AB-A0A5-90E9653F3C26&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Personal/FirstName&amp;quot;,&amp;quot;id&amp;quot;:null},{&amp;quot;key&amp;quot;:&amp;quot;86CDBFF8-CFA3-4F9F-A2FC-119DC8879483&amp;quot;,&amp;quot;value&amp;quot;:&amp;quot;Personal/Surname&amp;quot;,&amp;quot;id&amp;quot;:null}]&amp;lt;/mapping&amp;gt;</parameters>
+        </li>
+      </g>
+    </li>
+- ID: "af08c32b-f101-44a4-baae-677383e8eb02"
+  Hint: Check Actions
+  Value: |
+    <?xml version="1.0" encoding="utf-16"?>
+    <li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <g id="{10FE9225-5E6C-4896-9CD2-880D6D48C4CC}" displayName="Check Actions" />
+    </li>
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <event
+        name="Submit Success Event"
+        id="{2FF08489-2A47-4F04-8D8E-0C25A294B2C4}" />
+      <event
+        name="Form Submit"
+        id="{A2C2CF51-9360-4084-9BA0-1A15F1A41096}" />
+      <event
+        name="Field Completed"
+        id="{F0113A93-570A-4F69-8C7C-BA08037D1E34}" />
+      <event
+        name="Field Not Completed"
+        id="{7E86B2F5-ACEC-4C60-8922-4EB5AE5D9874}" />
+      <event
+        name="Field Out of Boundary"
+        id="{F3D7B20C-675C-4707-84CC-5E5B4481B0EE}" />
+      <event
+        name="Form Check Action Error"
+        id="{7144C4C9-E56A-4529-B3C1-A1DEDC454AB8}" />
+      <event
+        name="Form Save Action Failure"
+        id="{DE302E25-E5AF-465E-8BB1-5C3E8145615D}" />
+      <event
+        name="Invalid Field Syntax"
+        id="{844BBD40-91F6-42CE-8823-5EA4D089ECA2}" />
+      <event
+        name="Newsletter Sign-up"
+        id="{C9C57982-0384-49CF-A067-CA5D32570482}" />
+    </tracking>
+- ID: "d755de87-9c62-4eb3-83dc-2293784a3a3f"
+  Hint: Success Mode
+  Value: "{F4D50806-6B89-4F2D-89FE-F77FC0A07D48}"
+- ID: "faeacd39-b059-4f46-bec4-74ba468a97b8"
+  Hint: Show Footer
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Newsletter Sign-up"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161111T104449Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6739fa82-a9b4-40f1-aefe-3d67ae3e8dfc"
+      Hint: Title Tag
+      Value: H1
+    - ID: "86d6a401-5a20-49c9-a2f8-0312398ee946"
+      Hint: Title
+      Value: "Newsletter Sign-up"
+    - ID: "9c4c1994-5140-49d3-bad7-db997816f816"
+      Hint: Success Page
+      Value: |
+        <link id="{AAD6AEC2-50E6-4110-81C5-CF9DE5FB1376}" querystring="" text="" linktype="internal" url="/sitecore/content/Finance/Business/Landing Pages/Habitat Business Insider Thank You Page" title="" class="" target="" />
+    - ID: "b71296b6-32b9-4703-a8cb-fb7437271103"
+      Hint: Name
+      Value: Sign up

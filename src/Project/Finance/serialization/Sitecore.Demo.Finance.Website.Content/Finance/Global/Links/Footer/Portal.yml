@@ -1,0 +1,18 @@
+﻿---
+ID: "856cb32b-8d72-4c5a-9a10-3b66101c5fa2"
+Parent: "7680ab76-ee01-4415-bdef-7cba3c85ae81"
+Template: "ac7394d5-2aa7-4fdb-a7d8-b1b87f9fa661"
+Path: /sitecore/content/Finance/Global/Links/Footer/Portal
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161104T042437Z

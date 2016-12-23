@@ -1,0 +1,22 @@
+﻿---
+ID: "bb6b091a-ec76-4b1e-ba50-c1bc4fc6e270"
+Parent: "45a16d0c-7b79-489d-bef7-048df830d528"
+Template: "696d276b-786a-4d1e-b8bb-8e139db7be7c"
+Path: /sitecore/system/Settings/Security/Profiles/Finance/FinanceUser
+DB: core
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160209T101201Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

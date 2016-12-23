@@ -1,0 +1,19 @@
+﻿---
+ID: "2d2b7c01-370d-44e6-a36a-cdaa3f2217b5"
+Parent: "04d5dec7-3796-4c3e-926a-b069b1a0bc2f"
+Template: "9f353948-acc9-4db2-9033-ccd810ba9628"
+Path: /sitecore/content/Finance/Finance Campaigns/Message Types/Triggered
+DB: master
+BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Triggered Message
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161205T040937Z

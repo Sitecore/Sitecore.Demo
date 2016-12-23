@@ -1,0 +1,19 @@
+﻿---
+ID: "8ccda730-f0a6-4a58-ab87-913e3423cf3a"
+Parent: "d217d7d4-754d-4ed7-8024-6dea989a1a47"
+Template: "8e030bf6-9218-490e-b029-a5af48619e83"
+Path: /sitecore/content/Finance/Finance Campaigns/Messages/2016/12/06T155206/November Finance Newsletter/Message Root/Footer/Sitecore
+DB: master
+BranchID: "d39fc088-90c8-4be8-8d63-c63f8552c6a9"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161210T134052Z
+    - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
+      Hint: Link
+      Value: |
+        <link text="Sitecore" linktype="external" url="http://www.sitecore.net" anchor="" target="" />

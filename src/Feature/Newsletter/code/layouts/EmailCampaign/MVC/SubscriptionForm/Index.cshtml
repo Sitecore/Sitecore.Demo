@@ -1,0 +1,68 @@
+﻿@model Sitecore.Modules.EmailCampaign.Models.SubscriptionForm.SubscriptionFormViewModel
+@{
+    var emailAreaClass = Model.RenderingParameters.ShowList ? "aread right" : "area";
+    var emailLabelClass = Model.RenderingParameters.ShowList ? "commonLabel" : "title";
+}
+
+
+@using (Html.BeginForm())
+{
+    <input type="hidden" name="fhController" value="SubscriptionFormController" />
+    <input type="hidden" name="fhAction" value="Index" />
+    <input type="hidden" id="confirmEmailChange" name="confirmEmailChange" value="false" />
+
+    if (Model.RenderingParameters.ShowList)
+    {
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">@Model.ListHeaderText</h4>
+            </div>
+            <div class="panel-body form-group">
+                @foreach (Sitecore.Modules.EmailCampaign.SubscriptionInfo info in Model.SubscriptionInfos)
+                {
+                    // TODO: Make auto post back
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="subscriptionIds" value="@info.ContactListId" checked="@info.UserSubscribed"/> @info.Name
+                        </label>
+                    </div>
+
+                    if (!string.IsNullOrEmpty(info.Description))
+                    {
+                        <div class="p-l-1">
+                            <p class="help-block">@info.Description</p>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    }
+    if (Model.SubscriptionInfos.Any())
+    {
+        <div class="form-group">
+            <label for="EmailAddress">@Model.EmailLabelText</label>
+            <input type="text" id="EmailAddress" class="form-control" name="EmailAddress" placeholder="@Model.EmailTextBoxHelptext" value="@(string.IsNullOrEmpty(Model.EmailAddress) ? "" : Model.EmailAddress)" />
+        </div>
+    }
+
+    <p class="text-warning">
+        @Model.WarningText
+    </p>
+
+    if (Model.SubscriptionInfos.Any())
+    {
+        <div class="form-group">
+            <button id="Confirm" class="hidden"></button>
+
+            <button type="submit" class="btn btn-success btn-lg">@Model.SubscribeButtonText</button>
+        </div>
+    }
+
+    if (!string.IsNullOrEmpty(Model.ConfirmationMessage))
+    {
+        <script type="text/javascript">
+            var text = '@Model.ConfirmationMessage';
+            setTimeout("if(confirm(text)) {document.getElementById('confirmEmailChange').value=true;document.getElementById('Confirm').click();}", 0);
+        </script>
+    }
+}

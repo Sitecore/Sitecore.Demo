@@ -1,0 +1,87 @@
+﻿---
+ID: "47c5e951-86cc-40d0-a933-f832aaa5cab9"
+Parent: "71f5b537-8575-4ac6-9c06-57fcc10a0cfe"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/Finance/Theme/Habitat Finance Logo
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/47C5E95186CC40D0A933F832AAA5CAB9.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 200
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "c9442541-16d1-449a-acc5-08939f353e83"
+  Value: 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
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 3320
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 200 x 50
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 50
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161114T005044Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161114T005044Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161114T005044Z
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: Habitat Finance Logo
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161114T005044Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161114T005044Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

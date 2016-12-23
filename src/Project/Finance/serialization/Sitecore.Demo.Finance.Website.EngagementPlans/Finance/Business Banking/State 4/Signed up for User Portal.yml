@@ -1,0 +1,60 @@
+﻿---
+ID: "3fa99e78-0c90-4e02-a8b1-ed37f34f81df"
+Parent: "950ec9ec-70cb-4c2c-8a8e-d21aa44dfdd4"
+Template: "0a43a0fe-7e0e-49ef-95d4-e3de34f4f175"
+Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Finance/Business Banking/State 4/Signed up for User Portal
+DB: master
+SharedFields:
+- ID: "21f3482b-bb14-4555-ba5d-af20d400d5b9"
+  Hint: Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule
+        uid="{D0404431-2E8C-485E-86D4-81F11E1B8C7D}">
+        <conditions>
+          <condition
+            id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}"
+            uid="4EB3919FC45E41E7A2C0F8802C9D7331"
+            GoalId="{D7267A04-75CC-4791-AE25-B55D06986196}"
+            NumberOfElapsedDaysOperatorId="{E362A3A4-E230-4A40-A7C4-FC42767E908F}"
+            NumberOfElapsedDays="100"
+            NumberOfPastInteractionsOperatorId="{B88CD556-082E-4385-BB76-E4D1B565F290}"
+            NumberOfPastInteractions="0" />
+        </conditions>
+      </rule>
+    </ruleset>
+- ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
+  Hint: Designer ID
+  Value: "ee8416d2-5e2e-4963-bad2-5e6077b6ba94"
+- ID: "7642ed71-348b-4b88-8634-cc7b28949472"
+  Hint: Origin ID
+  Value: "00000000-0000-0000-0000-000000000000"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "d2368879-c784-4031-9b79-6a3bf3cb444e"
+  Hint: Next state
+  Value: "1224c875-1384-430e-b7b0-6e6756c9aae5"
+- ID: "e13dcd09-d9bb-43c9-8d7d-438c79d714ca"
+  Hint: Evaluate
+  Value: "{B81C1F4C-8B83-44D9-902F-448463DBCCBC}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "06f2d72a-1924-4b9a-ba1e-186ce4e57efd"
+    Hint: Description
+    Value: "Has the user registered for the user portal? "
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Signed up for User Portal?"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161111T142228Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

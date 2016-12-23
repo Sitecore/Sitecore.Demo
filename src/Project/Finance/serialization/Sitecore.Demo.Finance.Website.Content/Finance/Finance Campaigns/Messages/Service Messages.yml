@@ -1,0 +1,15 @@
+﻿---
+ID: "8bc8d303-6691-41d4-b4da-0ad6deb3fbde"
+Parent: "a7ad1a82-ad4d-48c1-96bf-af5479615347"
+Template: "69474581-3668-4fed-b0f0-0b88c2532cae"
+Path: /sitecore/content/Finance/Finance Campaigns/Messages/Service Messages
+DB: master
+BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161205T040937Z

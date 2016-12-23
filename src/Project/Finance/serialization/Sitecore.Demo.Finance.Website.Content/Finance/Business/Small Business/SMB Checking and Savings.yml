@@ -1,0 +1,94 @@
+﻿---
+ID: "87f242b0-a474-4fc3-9168-e750dcee8732"
+Parent: "fe2c6aa3-c7f1-4951-9128-5f329ccb4120"
+Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Path: /sitecore/content/Finance/Business/Small Business/SMB Checking and Savings
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{BBBF8DB7-2067-4692-B959-36849FA4B6BA}"
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="owen the smb owner|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="0" />
+        <key
+          name="Large Corporate Business"
+          value="0" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="0" />
+      </profile>
+    </tracking>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Business Checking and Savings
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T112507Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{363468E7-EBF4-4C31-9C89-E9C914FF654D}"
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {64047579-002F-40B6-8EF8-9F1ED6ABFE04}
+        {D675CDE0-1CA2-4FE5-82C5-B206D61D7ADC}
+        {105297B3-04B6-4E09-B0EE-94FBAEF4E38E}
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{D13820F7-620F-477F-BA54-7231A8BBA9EF}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: We’ve designed our business checking and savings accounts to help you manage your business’ money simply and effectively.
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Banking that matches the way that you do business.
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Business Checking and Savings
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <h3>Habitat Business Ease Checking</h3>
+        <p>This SMB-focused business checking account is FDIC-insured and offers the essentials every small business needs. We don't call it "ease" for nothing. Below are a few features of this SMB checking program:</p>
+        <ul>
+            <li>Up to 500 monthly checking transactions without any transaction fees</li>
+            <li>Dedicated business specialist </li>
+            <li>Discounted domestic and international wires</li>
+            <li>Discounts to additional cash management products and services</li>
+            <li>Access to Habitat Financial&rsquo;s global online banking platform</li>
+            <li>2 additional checking and savings accounts for no extra charge</li>
+            <li>Debit Visa Business Card for purchasing flexibility, convenience and safety</li>
+            <li>Habitat Visa Business Card Card with a 0% introductory APR on purchases</li>
+        </ul>
+        <h3>Habitat Business Ease Savings</h3>
+        <p>Earn interest on cash reserves while keeping money easily available for business. Below are a few features of the Habitat Business Ease Savings program:</p>
+        <ul>
+            <li>Earn interest with a balance as little as $100</li>
+            <li>No monthly maintenance fees for accounts maintaining $500 or more</li>
+            <li>24/7/365 access to your accounts available through ATMs, business internet, and telephone banking</li>
+            <li>Transfer funds between accounts without fees using our business mobile app </li>
+            <li>Unlimited monthly transactions at Habitat ATMs</li>
+        </ul>

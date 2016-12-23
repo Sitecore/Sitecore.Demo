@@ -15,7 +15,9 @@ SharedFields:
 - ID: "9e4027b2-0360-4b48-b665-fc51e55fc766"
   Hint: Manager Roots
   Type: Treelist
-  Value: "{5EBC8DC1-B219-4B0E-B600-5BE2826D73EA}"
+  Value: |
+    {5EBC8DC1-B219-4B0E-B600-5BE2826D73EA}
+    {BB939021-FBC3-4B03-8670-A0E6803054A3}
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 300
@@ -33,4 +35,5 @@ Languages:
       Value: 20090922T114600Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: sitecore\admin
+      Value: |
+        sitecore\admin

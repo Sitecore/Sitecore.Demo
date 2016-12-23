@@ -1,0 +1,22 @@
+﻿---
+ID: "8e590502-bb5f-462f-8c45-33a1bb7ebfef"
+Parent: "eea2316b-d42a-4be9-97c0-f9efe34ab8c2"
+Template: "4c82b6dd-fe7c-4144-bcb3-f21b4080568f"
+Path: /sitecore/content/Finance/Settings
+DB: master
+BranchID: "b2e4052a-6b3b-4527-933b-e24188c76b61"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Apps/32x32/Setting.png
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160104T045042Z

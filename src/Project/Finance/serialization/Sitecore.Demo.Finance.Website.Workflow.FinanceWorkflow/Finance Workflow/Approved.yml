@@ -1,0 +1,26 @@
+﻿---
+ID: "363468e7-ebf4-4c31-9c89-e9c914ff654d"
+Parent: "bbbf8db7-2067-4692-b959-36849fa4b6ba"
+Template: "4b7e2da9-de43-4c83-88c3-02f042031d04"
+Path: /sitecore/system/Workflows/Finance Workflow/Approved
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/document_out.png
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Sitecore Client Authoring|pe|+workflowState:write|+workflowState:delete|
+- ID: "fb8abc73-7acf-45a0-898c-d3ccb889c3ee"
+  Hint: Final
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160202T140635Z

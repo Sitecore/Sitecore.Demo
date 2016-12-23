@@ -1,0 +1,26 @@
+﻿---
+ID: "8dc91a10-4fff-4577-8030-debe0e075d39"
+Parent: "1a1a2b57-0998-4a06-908e-86660b1ca781"
+Template: "fff5f245-ffc0-4022-a998-9b07aa5e761f"
+Path: /sitecore/content/Finance/Portal/My Page/_Local
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {B4F6F114-E653-4A22-86C5-499E0BD99D9A}
+    {9671E92A-4AD3-46DF-AFF1-1542FD3D5BD9}
+    {061574E1-59DD-4B62-9680-1C84EFBE6773}
+    {C7D9D293-4EF8-4380-8E10-C4632E729F39}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-1000"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161201T101358Z

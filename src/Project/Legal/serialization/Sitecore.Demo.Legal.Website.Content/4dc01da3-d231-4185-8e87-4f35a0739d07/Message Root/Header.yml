@@ -19,4 +19,5 @@ Languages:
       Value: 20160920T173122Z
     - ID: "2fac8d4a-25ff-46cc-b2ff-a46e996d2913"
       Hint: Logo
-      Value: "<image mediaid=\"{987FD235-5E68-4760-B351-66FEB02AE7E2}\" alt=\"\" height=\"38\" width=\"150\" hspace=\"\" vspace=\"\" />"
+      Value: |
+        <image mediaid="{987FD235-5E68-4760-B351-66FEB02AE7E2}" alt="" height="38" width="150" hspace="" vspace="" />

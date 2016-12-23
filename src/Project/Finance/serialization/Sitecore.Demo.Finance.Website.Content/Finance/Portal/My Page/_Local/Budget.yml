@@ -1,0 +1,37 @@
+﻿---
+ID: "7a6e63ed-ad0b-4aeb-bbf0-8cf894b357e4"
+Parent: "8dc91a10-4fff-4577-8030-debe0e075d39"
+Template: "b4f6f114-e653-4a22-86c5-499e0bd99d9a"
+Path: /sitecore/content/Finance/Portal/My Page/_Local/Budget
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bc0aedf-a6d0-4f74-933c-bd1779cd40b2"
+      Hint: HTML Content
+      Value: |
+        <div class="panel panel-dark">
+            <div class="panel-heading">
+                <div class="label pull-right text-success">Under: <strong>$265</strong></div>
+                <h4 class="text-uppercase">Budget</h4>
+            </div>
+            <div class="panel-body">
+                <p class="text-center">
+                    <strong>11</strong> days remaining this month
+                </p>
+                <div class="pull-right">
+                    <label>1,400$<label>
+                </div>
+                <div>
+                    <label>0$<label>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%;">$768</div>
+                </div>
+            </div>
+        </div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161202T031638Z

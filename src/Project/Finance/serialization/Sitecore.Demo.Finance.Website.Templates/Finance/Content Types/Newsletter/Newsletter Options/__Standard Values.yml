@@ -1,0 +1,37 @@
+﻿---
+ID: "d8421054-827f-4a65-aa0a-b74c238317f3"
+Parent: "1ba92a5b-ebf4-42d4-a1cb-14b0db1c1ca3"
+Template: "1ba92a5b-ebf4-42d4-a1cb-14b0db1c1ca3"
+Path: /sitecore/templates/Project/Finance/Content Types/Newsletter/Newsletter Options/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {BB2B010F-C453-4BEE-89DF-C21C861C2F74}
+    {4916B4C9-3E30-4E3C-9AA7-5BE5BC2E3711}
+    {E59F8D8C-F63E-41AB-8B32-852264C56134}
+- ID: "1b417f04-7923-4826-b999-5b064d4eaa57"
+  Hint: Font Family
+  Value: "Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif"
+- ID: "4bafec3d-21bb-4278-9df0-7d66c137bdeb"
+  Hint: Before Body Html
+  Value: |
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open Sans:400,700,400italic);
+    </style>
+- ID: "cb3d04a8-b195-4f13-ab0b-b8c320ac66d5"
+  Hint: Content Font Size
+  Value: 14px
+- ID: "eb627abe-e800-41f9-90f8-82435f287243"
+  Hint: Heading Font Size
+  Value: 20px
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160816T055441Z

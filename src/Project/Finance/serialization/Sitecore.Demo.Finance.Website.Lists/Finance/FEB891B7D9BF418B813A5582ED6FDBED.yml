@@ -1,0 +1,40 @@
+﻿---
+ID: "feb891b7-d9bf-418b-813a-5582ed6fdbed"
+Parent: "60f20898-7284-4592-93a6-f1c6ffff8bb5"
+Template: "8288d4ea-6576-486f-aaec-4680329a2d5c"
+Path: /sitecore/system/List Manager/All Lists/Finance/FEB891B7D9BF418B813A5582ED6FDBED
+DB: master
+SharedFields:
+- ID: "08b40ff0-f812-4dcf-83a8-f05e493831f9"
+  Hint: UseAllDatabase
+  Type: Checkbox
+  Value: 0
+- ID: "55a40513-eb5e-4411-9128-38c2caec0c62"
+  Hint: Name
+  Value: "Finance Opt-Out List"
+- ID: "63087a5b-2ea8-4f1b-811b-a82c0ecf52af"
+  Hint: Recipients
+  Value: 24
+- ID: "84e7df9e-a319-417b-a15d-84b40ea2d8e4"
+  Hint: BulkOperationsId
+  Type: Multilist
+  Value: 
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Finance Opt-Out List"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0466cdee-8471-4daa-b223-85935837ebb0"
+      Hint: Description
+      Value: Unsubscribes from Habitat Financial
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161205T040653Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

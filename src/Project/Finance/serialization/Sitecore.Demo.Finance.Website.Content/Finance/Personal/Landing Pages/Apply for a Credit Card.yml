@@ -1,0 +1,60 @@
+﻿---
+ID: "d28bf23b-cb35-40a4-9cc0-324b564f5487"
+Parent: "4406a127-0ebb-4658-a475-80fdb5d2ea1e"
+Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
+Path: /sitecore/content/Finance/Personal/Landing Pages/Apply for a Credit Card
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D0B5CD17-26DB-4DAF-9179-E11242943FD9}"
+              p:before="*"
+              s:ds="{F96703F3-590D-4C92-8BA6-4C24C1721245}"
+              s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}"
+              s:ph="/page-layout/section/section-narrow/col-wide-1_6c30b33d-6edf-4f54-a7ae-03f3b832ccf2" />
+            <r
+              uid="{6C30B33D-6EDF-4F54-A7AE-03F3B832CCF2}"
+              p:after="r[@uid='{D0B5CD17-26DB-4DAF-9179-E11242943FD9}']"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:ph="/page-layout/section/section-narrow" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161128T150150Z
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{A7C97E7A-9C2D-4EFF-9E52-DF88ACB92413}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Apply for a Habitat credit card and open up a world of purchasing opportunities.
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Apply for a Credit Card
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Apply for a Credit Card
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Apply now an use our Habitat credit card in thousands of places world-wide. This credit card offers exceptional additional extras free of charge</p>
+        <ul>
+            <li>Basic travel insurance (can be upgraded to premium travel plus)</li>
+            <li>Online Fraud Protection</li>
+            <li>Free lost or stolen replacements world-wide</li>
+        </ul>
+        <p>As required by law, rates, fees, and other costs of this credit card offer are disclosed here. All account terms are governed by the Credit Card Agreement. Account and Agreement terms are not guaranteed for any period of time; all terms, including fees and the APRs for new transactions, may change in accordance with the Agreement and applicable law. We may change them based on information in your credit report, market conditions, business strategies, or for any reason. You should thoroughly review all the materials in this package so that you are fully informed about your credit card loan.</p>
+        <p>&nbsp;</p>

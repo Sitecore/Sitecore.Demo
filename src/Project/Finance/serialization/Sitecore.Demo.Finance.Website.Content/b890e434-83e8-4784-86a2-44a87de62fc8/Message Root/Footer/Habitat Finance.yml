@@ -1,0 +1,19 @@
+﻿---
+ID: "6773e379-1925-458f-9496-22dd654f4043"
+Parent: "019318f1-56ab-4c36-ba42-b6c76430ab1a"
+Template: "8e030bf6-9218-490e-b029-a5af48619e83"
+Path: /sitecore/content/Finance/Finance Campaigns/Messages/2016/12/06T155206/October Finance Newsletter/Message Root/Footer/Habitat Finance
+DB: master
+BranchID: "d39fc088-90c8-4be8-8d63-c63f8552c6a9"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161210T134052Z
+    - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
+      Hint: Link
+      Value: |
+        <link text="Habitat Financial" linktype="internal" class="" title="" target="" querystring="" id="{97F499E7-0DCA-43CF-AA06-8954A5426166}" />

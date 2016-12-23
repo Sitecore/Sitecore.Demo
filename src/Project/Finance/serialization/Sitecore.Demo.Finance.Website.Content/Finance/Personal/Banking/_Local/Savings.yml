@@ -1,0 +1,26 @@
+﻿---
+ID: "7b392cfd-2b23-4c00-adb3-dd117c0b08e5"
+Parent: "e2a97be0-588a-4b6d-85fe-18b4d7aa2670"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: /sitecore/content/Finance/Personal/Banking/_Local/Savings
+DB: master
+SharedFields:
+- ID: "e8ab122c-6f54-4d4e-aec6-f81addc558fc"
+  Hint: TeaserLink
+  Value: |
+    <link linktype="internal" text="Learn more" querystring="" target="" id="{5A059EA5-766B-4EE3-84E8-FE1048FCCC0E}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{CB21C0B5-7943-4FA3-9ED3-DF054AA19454}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T104753Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Savings

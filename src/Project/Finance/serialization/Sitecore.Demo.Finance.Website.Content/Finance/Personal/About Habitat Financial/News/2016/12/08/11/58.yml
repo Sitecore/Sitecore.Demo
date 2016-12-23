@@ -1,0 +1,18 @@
+﻿---
+ID: "a966ca6b-5d20-4ccb-9622-65c77a1dad01"
+Parent: "f8f0d076-5b3b-40e3-b8a2-a416946fef35"
+Template: "adb6ca4f-03ef-4f47-b9ac-9ce2ba53ff97"
+Path: /sitecore/content/Finance/Personal/About Habitat Financial/News/2016/12/08/11/58
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161208T115841Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        finance\Caroline

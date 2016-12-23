@@ -1,0 +1,135 @@
+﻿---
+ID: "0a7aaf7d-b327-49fd-9328-05561dd1ccd6"
+Parent: "4406a127-0ebb-4658-a475-80fdb5d2ea1e"
+Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
+Path: "/sitecore/content/Finance/Personal/Landing Pages/First Time Buyer Sign-Up"
+DB: master
+SharedFields:
+- ID: "0dca829c-9fce-41f5-9990-c6182fefe905"
+  Hint: SeoFollowLinks
+  Type: Checkbox
+  Value: 0
+- ID: "683d7237-206a-488f-9dee-4a4e41fb161d"
+  Hint: CanIndex
+  Type: Checkbox
+  Value: 0
+- ID: "8d5c486e-a0e3-4dbe-9a4a-cdff93594bda"
+  Hint: IncludeInSearchResults
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{5A48022E-87B7-4239-AF27-16632A142F65}"
+              p:before="*"
+              s:ds="{F6101DA7-FF78-45D9-9CEE-E28F8674CFC8}"
+              s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}"
+              s:mvt="{4C129461-F51C-49EE-8E5B-6C042C68AC5E}"
+              s:ph="/page-layout/section/section-narrow/col-wide-1_bdff7faf-9b6e-4c88-98ec-52cdd008fdb3" />
+            <r
+              uid="{BDFF7FAF-9B6E-4C88-98EC-52CDD008FDB3}"
+              p:after="r[@uid='{5A48022E-87B7-4239-AF27-16632A142F65}']"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:ph="/page-layout/section/section-narrow" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161124T151440Z
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{21A498E9-670E-41A1-BD9E-198881FD3BA2}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "Special offers for our first-time buyers who are approved for one of our mortgage products"
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: "First Time Buyer Sign-Up"
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: "First Time Buyer Sign-Up"
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>If you apply and take up our offer on one of our mortgage products within the next three months you will receive a $1000 cash-back to spend as you please.</p>
+        <p>You could buy a couple of appliances for your new home and still have change from $1000. Alternatively, you could buy that big TV you have always wanted.</p>
+        <p>Warning: Failure to keep up your payments on a mortgage could lead to your house being repossessed. At Habitat Financial we try to avoid this wherever possible so if you are having financial difficulties, please contact us early so we can discuss your situation and try to make alternative arrangements.</p>
+        <p>Steps to obtaining your mortgage from us.</p>
+        <ol>
+            <li>Fill in the form with all the required details</li>
+            <li>If you qualify for one of our mortgage products based on your details, one of our mortgage consultants will contact you.</li>
+            <li>You will be asked to provide proof of your income and your financial commitments</li>
+            <li>You will be advised about your risks and responsibilities</li>
+            <li>If all goes well, you will receive a mortgage offer from us and you can go ahead and buy that new house</li>
+        </ol>
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{5A48022E-87B7-4239-AF27-16632A142F65}"
+              p:before="*"
+              s:ds="{F6101DA7-FF78-45D9-9CEE-E28F8674CFC8}"
+              s:id="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}"
+              s:mvt="{9A51F762-0EF8-4640-B315-02DC90FE0D67}"
+              s:ph="/page-layout/section/section-narrow/col-wide-1_bdff7faf-9b6e-4c88-98ec-52cdd008fdb3" />
+            <r
+              uid="{BDFF7FAF-9B6E-4C88-98EC-52CDD008FDB3}"
+              p:after="r[@uid='{5A48022E-87B7-4239-AF27-16632A142F65}']"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:ph="/page-layout/section/section-narrow" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161210T125336Z
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{21A498E9-670E-41A1-BD9E-198881FD3BA2}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "Special offers for our first-time buyers who are approved for one of our mortgage products"
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: "First Time Buyer Sign-Up"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20161210T125336Z
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: "First Time Buyer Sign-Up"
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>If you apply and take up our offer on one of our mortgage products within the next three months you will receive a $1000 cash-back to spend as you please.</p>
+        <p>You could buy a couple of appliances for your new home and still have change from $1000. Alternatively, you could buy that big TV you have always wanted.</p>
+        <p>Warning: Failure to keep up your payments on a mortgage could lead to your house being repossessed. At Habitat Financial we try to avoid this wherever possible so if you are having financial difficulties, please contact us early so we can discuss your situation and try to make alternative arrangements.</p>
+        <p>Steps to obtaining your mortgage from us.</p>
+        <ol>
+            <li>Fill in the form with all the required details</li>
+            <li>If you qualify for one of our mortgage products based on your details, one of our mortgage consultants will contact you.</li>
+            <li>You will be asked to provide proof of your income and your financial commitments</li>
+            <li>You will be advised about your risks and responsibilities</li>
+            <li>If all goes well, you will receive a mortgage offer from us and you can go ahead and buy that new house</li>
+        </ol>

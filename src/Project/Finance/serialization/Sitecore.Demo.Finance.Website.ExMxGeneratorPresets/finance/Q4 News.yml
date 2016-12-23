@@ -1,0 +1,234 @@
+﻿---
+ID: "7c57cb34-c43d-4233-ae20-b06f241e6dde"
+Parent: "684c74bc-cc12-4e78-befc-df35c3faf99a"
+Template: "ba1d3932-28ba-4cc3-9527-38afc8b529c4"
+Path: /sitecore/client/Applications/ExmExperienceGenerator/Common/Presets/finance/Q4 News
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161206T171944Z
+    - ID: "387fb35f-d93f-47ed-a7b3-48b070b28297"
+      Hint: Specification
+      Value: |
+        {
+          "{2079A61F-3FC4-45A6-A338-CBC82C8F1151}": {
+            "startDate": "2016-12-01T00:00:00Z",
+            "endDate": "2016-12-05T00:00:00Z",
+            "events": {
+              "bounced": "4",
+              "openRate": "64",
+              "clickRate": 50,
+              "unsubscribed": "2",
+              "unsubscribedFromAll": "1",
+              "delivered": "94",
+              "spamComplaints": "1"
+            },
+            "dayDistribution": [
+              82,
+              72,
+              50,
+              31,
+              21,
+              17
+            ],
+            "devices": {
+              "sony xperia z3": "0",
+              "samsung galaxy s4": "6",
+              "samsung galaxy note ii": "3",
+              "sony xperia z2": "4",
+              "nokia lumia 930": "5",
+              "apple iphone 4s 5 5c 5s 6 6 plus ios 8": "50",
+              "apple ipad 2 3 4 air mini 1 mini 2": "50",
+              "samsung galaxy note 10.1": "25",
+              "macintosh pc": "68",
+              "windows pc": "80",
+              "linux pc": "5",
+              "microsoft xbox one": "4"
+            },
+            "locations": {
+              "143": "4",
+              "145": "0",
+              "151": "2",
+              "154": "8",
+              "155": "22",
+              "034": "0",
+              "035": "6",
+              "030": "0",
+              "039": "3",
+              "015": "0",
+              "017": "0",
+              "011": "0",
+              "018": "0",
+              "014": "0",
+              "061": "0",
+              "053": "3",
+              "054": "0",
+              "057": "0",
+              "029": "0",
+              "005": "3",
+              "013": "5",
+              "021": "89"
+            },
+            "landingPages": {
+              "{97F499E7-0DCA-43CF-AA06-8954A5426166}": "62",
+              "{6E9C9166-5BEC-454B-A9A1-118A71C4ADE6}": "36",
+              "{7FBC3F62-EF72-4675-83FA-948ED8FFF97C}": "29",
+              "{D7673141-C506-4211-BF43-868E850EBBC3}": "67",
+              "{7F2AFC8C-84F4-4945-858E-CDE6FEB04921}": "34",
+              "{8463632D-EE86-4F16-A846-035CFF6640F7}": "46"
+            }
+          },
+          "{C8789545-8439-4E83-8493-60697EF1D484}": {
+            "startDate": "2016-11-01T00:00:00Z",
+            "endDate": "2016-11-10T00:00:00Z",
+            "events": {
+              "bounced": "2",
+              "openRate": "69",
+              "clickRate": 50,
+              "unsubscribed": "3",
+              "unsubscribedFromAll": "1",
+              "delivered": "93",
+              "spamComplaints": "2"
+            },
+            "dayDistribution": [
+              96,
+              9,
+              6,
+              5,
+              4,
+              2
+            ],
+            "devices": {
+              "sony xperia z3": "0",
+              "samsung galaxy s4": "0",
+              "samsung galaxy note ii": "0",
+              "sony xperia z2": "0",
+              "nokia lumia 930": "11",
+              "apple iphone 4s 5 5c 5s 6 6 plus ios 8": "50",
+              "apple ipad 2 3 4 air mini 1 mini 2": "31",
+              "samsung galaxy note 10.1": "13",
+              "macintosh pc": "38",
+              "windows pc": "64",
+              "linux pc": "6",
+              "microsoft xbox one": "0"
+            },
+            "locations": {
+              "143": "0",
+              "145": "0",
+              "151": "0",
+              "154": "0",
+              "155": "11",
+              "034": "0",
+              "035": "0",
+              "030": "0",
+              "039": "0",
+              "015": "0",
+              "017": "0",
+              "011": "0",
+              "018": "0",
+              "014": "0",
+              "061": "0",
+              "053": "11",
+              "054": "0",
+              "057": "0",
+              "029": "0",
+              "005": "0",
+              "013": "0",
+              "021": "76"
+            },
+            "landingPages": {
+              "{E0C490CD-0B4F-4DA6-8D39-83C4BE769D43}": "62",
+              "{E93966CD-A3BB-4E3C-B6BD-D43E638300F8}": "32",
+              "{ABE5C53E-E279-4199-A458-32A7498FAC8D}": "23",
+              "{1A29A2E9-97DF-4446-8E51-9AF6D6C81783}": "26",
+              "{BB90A1EB-948D-4924-ACCC-151DEDDEEF54}": "29",
+              "{69AA7357-D434-4D28-B4B5-5F8059BDD541}": "61",
+              "{5B68C318-3072-416D-BCFF-258C24878446}": "32",
+              "{C341D7BF-0385-45C5-A42A-4D08702213EF}": "65",
+              "{9C610C33-74C2-44C7-8AD8-6F4628525FEE}": "24",
+              "{4A04E42F-CC02-465C-9DBF-F578D82CB0E4}": "23",
+              "{AF781512-FB51-4352-837B-3A8C6FCA6957}": "50"
+            }
+          },
+          "{A6C97D8A-9459-4C60-BD70-4E7DEDBD8A94}": {
+            "startDate": "2016-09-30T23:00:00Z",
+            "endDate": "2016-10-09T23:00:00Z",
+            "events": {
+              "bounced": "2",
+              "openRate": "60",
+              "clickRate": "33",
+              "unsubscribed": "4",
+              "unsubscribedFromAll": "2",
+              "delivered": "90",
+              "spamComplaints": "2"
+            },
+            "dayDistribution": [
+              97,
+              44,
+              26,
+              21,
+              18,
+              2
+            ],
+            "devices": {
+              "sony xperia z3": "0",
+              "samsung galaxy s4": "0",
+              "samsung galaxy note ii": "0",
+              "sony xperia z2": "0",
+              "nokia lumia 930": "0",
+              "apple iphone 4s 5 5c 5s 6 6 plus ios 8": "80",
+              "apple ipad 2 3 4 air mini 1 mini 2": "59",
+              "samsung galaxy note 10.1": "0",
+              "macintosh pc": "23",
+              "windows pc": "15",
+              "linux pc": "0",
+              "microsoft xbox one": "0"
+            },
+            "locations": {
+              "143": "0",
+              "145": "0",
+              "151": "0",
+              "154": "15",
+              "155": "50",
+              "034": "0",
+              "035": "10",
+              "030": "0",
+              "039": "6",
+              "015": "0",
+              "017": "0",
+              "011": "0",
+              "018": "0",
+              "014": "0",
+              "061": "0",
+              "053": "9",
+              "054": "0",
+              "057": "0",
+              "029": "0",
+              "005": "0",
+              "013": "0",
+              "021": "86"
+            },
+            "landingPages": {
+              "{E0C490CD-0B4F-4DA6-8D39-83C4BE769D43}": "22",
+              "{E93966CD-A3BB-4E3C-B6BD-D43E638300F8}": "35",
+              "{ABE5C53E-E279-4199-A458-32A7498FAC8D}": "33",
+              "{1A29A2E9-97DF-4446-8E51-9AF6D6C81783}": "23",
+              "{BB90A1EB-948D-4924-ACCC-151DEDDEEF54}": "50",
+              "{69AA7357-D434-4D28-B4B5-5F8059BDD541}": "50",
+              "{5B68C318-3072-416D-BCFF-258C24878446}": "30",
+              "{C341D7BF-0385-45C5-A42A-4D08702213EF}": "14",
+              "{9C610C33-74C2-44C7-8AD8-6F4628525FEE}": "28",
+              "{4A04E42F-CC02-465C-9DBF-F578D82CB0E4}": "70",
+              "{AF781512-FB51-4352-837B-3A8C6FCA6957}": "35"
+            }
+          }
+        }
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

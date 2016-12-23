@@ -1,0 +1,81 @@
+﻿---
+ID: "91839e52-c817-45c7-b91d-a189a0eaf163"
+Parent: "41d64c13-23f3-4bfe-a917-b3ff21ddcbd8"
+Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Path: /sitecore/content/Finance/Personal/Insurance/Disability Insurance
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{BBBF8DB7-2067-4692-B959-36849FA4B6BA}"
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="everyday elizabeth|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="0" />
+        <key
+          name="Large Corporate Business"
+          value="0" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="0" />
+      </profile>
+    </tracking>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Disability Insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161108T141926Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{363468E7-EBF4-4C31-9C89-E9C914FF654D}"
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {3115E545-F4A4-45A4-97C1-08727E0B1AE6}
+        {92986EC1-2B24-4EB2-BB7D-BB9927325DCC}
+        {6CC9EAFC-5B85-4B0B-992F-BD6BCB67DBEB}
+        {DB8C6EF8-E71F-4970-9366-C8751378EAD5}
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{74C94DFE-F71A-4AF3-96AF-D50DAE1BE7CA}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: Habitat Financial’s disability coverage allows you to protect yourself from the risk of unexpected disability
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Always be prepared
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Disability Insurance
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <h3>Protect your family from hardship&mdash;safeguard your income with disability insurance</h3>
+        <p>Disability insurance can provide funds critical to helping you maintain your lifestyle if you should become disabled and your income is reduced due to loss of work. How long would you and your family be able to cope with a decreased income? Disability income insurance helps by replacing a portion of your earned income if you become unable to work at your regular occupation. A few benefits of disability insurance:</p>
+        <ul>
+            <li><strong>Lost income replacement:</strong> Disability insurance can replace up to 60-80% of your income in the event you can't work due to injury or illness.</li>
+            <li><strong>Tax benefits:</strong> When you pay premiums out-of-pocket, after-taxes, your disability benefits are tax-free.</li>
+            <li><strong>Reduce risks: </strong> Disability insurance protects you from the financial damage of illnesses and injuries&mdash;which cause 500,000 personal bankruptcies each year and is the cause of almost 50% of all mortgage foreclosures.</li>
+        </ul>

@@ -1,0 +1,41 @@
+﻿---
+ID: "c0017b4a-9aba-4f87-9ac9-051b9c74efad"
+Parent: "988c6081-1a23-407e-8c79-d50600dfc001"
+Template: "94fd1606-139e-46ee-86ff-bc5bf3c79804"
+Path: /sitecore/system/Marketing Control Panel/Campaigns/Finance/Landing Page Triggers/Personal Banking Landing Page Trigger 1
+DB: master
+SharedFields:
+- ID: "43aa1c9a-d1be-498a-9841-1def2c2231ba"
+  Hint: Select Traffic Type
+  Value: "{3FF73B44-A28F-42D2-A9B6-840A3E57D85D}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{689E2994-4656-4C58-9112-7826CB46EE69}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Personal Banking Landing Page Trigger 1
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f47d1b4-bcb4-4f7f-9065-6ecb46aab9a1"
+      Hint: Title
+      Value: Personal Banking Landing Page Trigger 1
+    - ID: "1c534a2d-0b6d-4e89-8fca-6289475a3a46"
+      Hint: Enroll in Engagement Plan
+      Type: TreelistEx
+      Value: "{EEF49DDB-E93C-4717-9BB5-8C5A50A6C798}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161111T135811Z
+    - ID: "34a5fd5e-42ae-44e8-a822-6828ba5e20dc"
+      Hint: Description
+      Value: User has landed on Trigger 1 landing page. In so, the Personal Banking engagement plan has been triggered. This campaign puts the user in State 1. 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{EDCBB550-BED3-490F-82B8-7B2F14CCD26E}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: 

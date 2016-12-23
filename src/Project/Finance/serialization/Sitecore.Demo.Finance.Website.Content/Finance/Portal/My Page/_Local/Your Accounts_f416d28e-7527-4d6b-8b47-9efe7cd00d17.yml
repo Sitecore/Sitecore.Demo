@@ -1,0 +1,17 @@
+﻿---
+ID: "f416d28e-7527-4d6b-8b47-9efe7cd00d17"
+Parent: "8dc91a10-4fff-4577-8030-debe0e075d39"
+Template: "061574e1-59dd-4b62-9680-1c84efbe6773"
+Path: /sitecore/content/Finance/Portal/My Page/_Local/Your Accounts
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161202T034238Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Your Accounts

@@ -1,0 +1,36 @@
+﻿---
+ID: "1d1ca056-c858-4384-9aa5-93eb4e57b18f"
+Parent: "c795d529-66a7-4dde-8431-cd41a27151c9"
+Template: "0fc09ea4-8d87-4b0e-a5c9-8076ae863d9c"
+Path: /sitecore/system/Marketing Control Panel/Profiles/Finance Persona/Profile Cards/Ingrid the Investor
+DB: master
+SharedFields:
+- ID: "85970ab7-22ea-4206-be86-c0167178860b"
+  Hint: Profile Card Value
+  Value: |
+    <tracking>
+      <profile id="{76474166-02C0-4008-9602-F05E9156FB37}" name="Finance Persona">
+        <key name="B2B Bank to Bank" value="0" />
+        <key name="Large Corporate Business" value="1" />
+        <key name="Personal_Family Finances" value="3" />
+        <key name="SMB Financial Services" value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Fields:
+  - ID: "54f11d48-20c6-4955-88b9-9d74b1ff015d"
+    Hint: Details
+    Value: Ingrid the Investor
+  - ID: "823bfc0a-3e62-40a5-8882-1a622882c45b"
+    Hint: Description
+    Value: "Ingrid the Investor has no debt. She wants to use her capital&nbsp;to generate wealth and provide the best return on her investments. There is no point in offering loans to Ingrid - that will just annoy her."
+  - ID: "a26fc256-1db0-44aa-ba3d-1c830bf882a2"
+    Hint: Name
+    Value: Ingrid the Investor
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161205T171555Z

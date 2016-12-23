@@ -1,0 +1,31 @@
+﻿---
+ID: "bff1d0f6-4d4b-462d-a98b-90dbd43d6c55"
+Parent: "eea2316b-d42a-4be9-97c0-f9efe34ab8c2"
+Template: "429c7427-09a8-4d79-9044-edb4c5b908be"
+Path: /sitecore/content/Finance/Portal
+DB: master
+SharedFields:
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 0
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 150
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: My Habitat
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161104T035422Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: "<p>We’re committed to making sure your financial services are easy to manage, so welcome to your self-service account. Created when you signed up for your services online, you’ll find logging on is easy. Just use the email address and password you used when you bought your policy.</p>"
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Manage your services online

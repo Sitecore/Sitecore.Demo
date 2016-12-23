@@ -1,0 +1,19 @@
+﻿---
+ID: "598f2f86-994a-4ba0-9d95-fb09b77397b0"
+Parent: "911b2d8a-2603-4b2b-a3eb-cf8561d6266d"
+Template: "8e030bf6-9218-490e-b029-a5af48619e83"
+Path: "/sitecore/content/Finance/Finance Campaigns/Messages/2016/12/06T155206/Chip-enabled Cards/Message Root/Footer/Sitecore"
+DB: master
+BranchID: "d39fc088-90c8-4be8-8d63-c63f8552c6a9"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161210T133535Z
+    - ID: "7c79ff2c-9e24-4055-bcd2-f1e72093409f"
+      Hint: Link
+      Value: |
+        <link text="Sitecore" linktype="external" url="http://www.sitecore.net" anchor="" target="" />

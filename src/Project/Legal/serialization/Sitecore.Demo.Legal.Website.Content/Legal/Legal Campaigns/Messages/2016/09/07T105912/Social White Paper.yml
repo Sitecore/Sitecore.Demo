@@ -24,6 +24,9 @@ SharedFields:
 - ID: "af0fe26a-a78b-491d-885c-03d95bc17342"
   Hint: State
   Value: Draft
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1400
 - ID: "ed5a9033-96ed-41f8-9731-7499c55ecbfa"
   Hint: Engagement Plan
   Value: "{A4086636-A666-4DFA-B1A1-5EAACD646825}"

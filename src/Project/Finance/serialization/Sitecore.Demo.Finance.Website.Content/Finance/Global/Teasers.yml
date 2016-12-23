@@ -1,0 +1,14 @@
+﻿---
+ID: "02b1ae3a-59f2-4df7-af4d-2542e823f864"
+Parent: "060d3d50-c5e0-4d4d-846e-5793e271979b"
+Template: "29d4b405-39eb-487d-9d6b-3f8467ab167d"
+Path: /sitecore/content/Finance/Global/Teasers
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150827T063033Z

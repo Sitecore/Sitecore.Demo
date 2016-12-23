@@ -1,0 +1,14 @@
+﻿---
+ID: "53b9a12c-1559-41c2-90e1-0de632a9f4cc"
+Parent: "553d3cc1-b549-4aa1-9ed9-e8e06e14a683"
+Template: "cd047791-c29a-4596-aeee-db5e70421c1f"
+Path: /sitecore/system/Settings/Feature/Metadata/Finance
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161115T195607Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "01f26861-d117-4579-806d-7885466e121d"
+Parent: "060d3d50-c5e0-4d4d-846e-5793e271979b"
+Template: "4de2d9d9-0781-47ad-8f5d-52f2ad920d83"
+Path: /sitecore/content/Finance/Global/Social
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151123T163956Z

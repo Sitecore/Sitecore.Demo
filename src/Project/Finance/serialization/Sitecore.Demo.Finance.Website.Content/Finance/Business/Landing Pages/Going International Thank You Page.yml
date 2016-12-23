@@ -1,0 +1,72 @@
+﻿---
+ID: "9c610c33-74c2-44c7-8ad8-6f4628525fee"
+Parent: "24359462-e8b9-4181-bfd6-c7861083d7a1"
+Template: "a672c60e-166e-43b6-a060-b09f036f2c56"
+Path: /sitecore/content/Finance/Business/Landing Pages/Going International Thank You Page
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 144
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B1E79D0A-FFCB-472E-AA5A-A764BD98056A}"
+              p:before="*"
+              s:ds="{965C40A7-EC21-4678-A839-FDEAC653CA5A}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section_f48e22bb-05d9-47a7-b7e9-48c65f6287cf/col-wide-1_1032c249-ad42-45fa-bff6-c8392eb21c6b" />
+            <r
+              uid="{2AAA0EF2-2768-4AD2-940F-1A759516237C}"
+              p:after="r[@uid='{B1E79D0A-FFCB-472E-AA5A-A764BD98056A}']"
+              s:ds="{F3FBEDE2-EF91-421D-B195-BA6910CA1E19}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section_f48e22bb-05d9-47a7-b7e9-48c65f6287cf/col-narrow-1_1032c249-ad42-45fa-bff6-c8392eb21c6b" />
+            <r
+              uid="{1032C249-AD42-45FA-BFF6-C8392EB21C6B}"
+              p:after="r[@uid='{2AAA0EF2-2768-4AD2-940F-1A759516237C}']"
+              s:id="{E6D8107A-D811-4826-82BB-1A6279830C5A}"
+              s:ph="/page-layout/section_f48e22bb-05d9-47a7-b7e9-48c65f6287cf" />
+            <r
+              uid="{F48E22BB-05D9-47A7-B7E9-48C65F6287CF}"
+              p:after="r[@uid='{A607CCB4-81BC-4DC1-897B-BC33B2C52E6D}']"
+              s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+              s:ph="page-layout" />
+            <r
+              uid="{DFDD703B-D723-4BCD-8D49-B7FBE85283EB}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161110T152510Z
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{A5E8AF25-512D-4A11-A02B-116166173F62}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: <p>Thank you for downloading our white paper</p>
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Thank you
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Going International Thank You Page
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p style="margin: 0cm 0cm 8pt 13.5pt;"><span>Companies expanding internationally generally end up following one of two paths&mdash;organic or inorganic expansion&mdash;each of which introduces a number of important decisions that should be taken into consideration as you plan for global expansion. This white paper will cover seven of the most important decisions you will face.</span></p>

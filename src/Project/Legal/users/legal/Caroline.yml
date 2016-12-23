@@ -3,7 +3,7 @@ Username: |
   legal\Caroline
 Email: CarolineHarris@sitecore.net
 Comment: “The most important part of my work is writing the content, not using the software.”
-Created: "2016-10-13T03:30:12.0000000Z"
+Created: "2016-11-23T14:23:30.0000000Z"
 IsApproved: True
 Properties:
 - Key: |
@@ -30,7 +30,7 @@ Properties:
   ValueType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   IsCustom: False
 - Key: Portrait
-  Value: people/16x16/user1.png
+  Value: office/16x16/woman_1.png
   ValueType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
   IsCustom: False
 - Key: ProfileItemId

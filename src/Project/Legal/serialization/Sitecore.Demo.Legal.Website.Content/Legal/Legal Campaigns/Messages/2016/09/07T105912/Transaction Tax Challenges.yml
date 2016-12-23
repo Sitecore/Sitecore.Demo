@@ -21,6 +21,9 @@ SharedFields:
 - ID: "2bbf5276-ed11-4cd0-946f-66678b524457"
   Hint: Campaign Position
   Value: "{0A1E7823-DCCE-4BFE-8970-41EFADEABE1C}"
+- ID: "6ec7a9e6-9fd5-4892-bbf6-11e76e0e5db8"
+  Hint: Start Time
+  Value: 20160920T173556Z
 - ID: "78f0b1f8-fdf4-4c1c-bec6-1ac68a210a52"
   Hint: Campaign
   Value: "{173BE89D-C2BF-4E82-9FFD-8DAE2D327715}"
@@ -31,6 +34,9 @@ SharedFields:
 - ID: "af0fe26a-a78b-491d-885c-03d95bc17342"
   Hint: State
   Value: Active
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1200
 - ID: "ed5a9033-96ed-41f8-9731-7499c55ecbfa"
   Hint: Engagement Plan
   Value: "{C0D33C47-0A96-4940-8EA4-342672FD8B4C}"
@@ -101,9 +107,6 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160920T173122Z
-    - ID: "6ec7a9e6-9fd5-4892-bbf6-11e76e0e5db8"
-      Hint: Start Time
-      Value: 20160920T173556Z
     - ID: "8436a90c-85c0-4f16-8373-393c4c0a82c6"
       Hint: From Name
       Value: no_reply@sitecore.net

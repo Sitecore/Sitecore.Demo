@@ -1,0 +1,104 @@
+﻿---
+ID: "b9d4015f-feba-4ee2-b5a0-483d2fbe61de"
+Parent: "fe2c6aa3-c7f1-4951-9128-5f329ccb4120"
+Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Path: /sitecore/content/Finance/Business/Small Business/SMB Insurance
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{BBBF8DB7-2067-4692-B959-36849FA4B6BA}"
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="owen the smb owner|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="0" />
+        <key
+          name="Large Corporate Business"
+          value="0" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="0" />
+      </profile>
+    </tracking>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: SMB Business Insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T112836Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{363468E7-EBF4-4C31-9C89-E9C914FF654D}"
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {C95DD9DD-E3F2-41D4-88C3-B872A18658C4}
+        {81BDC203-61CB-4EA7-8034-C1E48DCDEBDF}
+        {5F6D8F83-7DEA-4505-B224-0184D9292331}
+        {04436D66-A536-4113-AE83-23024058AEAD}
+        {4E3AD2CE-BF68-42DC-8CFA-3D9F556E331D}
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{4CB7947E-8EFF-4A37-8DAF-810B0A8E7F9D}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: At Habitat Financial, we can work with you to give your small business the protection it needs to grow confidently without the fear of the unknown.&nbsp;
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Give your business a safety net.
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: SMB Insurance
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Below are the basic insurance programs we offer here at Habitat :</p>
+        <h3>Business Owners Policy</h3>
+        <p>Also known as &ldquo;BOP&rdquo; Insurance, this type of policy combines property insurance and general liability insurance coverage for eligible low-risk small businesses, plus other customizable options. Benefits of BOP insurance:</p>
+        <ul>
+            <li>Provides combination coverage in a single policy for low-risk businesses</li>
+            <li>Covers against lawsuits that claim your business is responsible for property damage or bodily injury</li>
+            <li>Protects your business property against loss and damage</li>
+        </ul>
+        <h3>Professional Liability</h3>
+        <p>Sometimes called Errors and Omissions Insurance (E&amp;O), this policy helps protect your assets against lawsuits and other claims from customers suing for negligence or failure to perform specific professional services.</p>
+        <ul>
+            <li>Helps protect the assets and integrity of your business </li>
+            <li>Covers the cost of defense and damages awarded </li>
+            <li>Provides specialty coverage generally not included under standard policies</li>
+        </ul>
+        <h3>General Liability</h3>
+        <p>Keep your business protected in the event of a lawsuit brought against your company for claims of bodily injury or property damage.</p>
+        <ul>
+            <li>Protects your business in the event of a lawsuit, even if the claim is without merit </li>
+            <li>Covers costs of investigating claims, which might include attorney fees, witness fees, court expenses, and more</li>
+            <li>Helps you fund legal fees without using business assets</li>
+        </ul>
+        <h3>Workers' Compensation</h3>
+        <p>Coverage for medical payments and missed income that result  from injuries on the job. It also provides coverage for the business in the event the injury was caused by negligence.</p>
+        <ul>
+            <li>Covers costs associated with workplace illness and injury (employee medical costs and wages lost)</li>
+            <li>Includes Employer&rsquo;s Liability Insurance, which protects your business from employee-initiated lawsuits</li>
+            <li>Fulfills Workers&rsquo; Compensation requirements mandated by your state</li>
+        </ul>

@@ -1,0 +1,35 @@
+﻿---
+ID: "ab64b549-cf2f-4758-950c-c5fd54deda0d"
+Parent: "254bac7f-dd76-414d-bc95-2127c0105009"
+Template: "0a43a0fe-7e0e-49ef-95d4-e3de34f4f175"
+Path: /sitecore/system/Marketing Control Panel/Engagement Plans/Finance/Credit Card Application/Visitor has applied for a card/Balance Plus Credit Card
+DB: master
+SharedFields:
+- ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
+  Hint: Designer ID
+  Value: "41eec524-4821-4aaf-846b-775f85460b1a"
+- ID: "7642ed71-348b-4b88-8634-cc7b28949472"
+  Hint: Origin ID
+  Value: "00000000-0000-0000-0000-000000000000"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1
+- ID: "d2368879-c784-4031-9b79-6a3bf3cb444e"
+  Hint: Next state
+  Value: "d7e28a2d-cf45-4d4c-b516-4c6da59d2ac5"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Balance Plus Credit Card?"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20150311T113157:635616703171191077Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

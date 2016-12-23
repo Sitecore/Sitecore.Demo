@@ -1,0 +1,24 @@
+﻿---
+ID: "091cecf1-48f0-4c60-92a0-556742535f7a"
+Parent: "d39fc088-90c8-4be8-8d63-c63f8552c6a9"
+Template: "078d8a76-f971-4891-b422-76c0bcf9fa03"
+Path: /sitecore/templates/Branches/Finance/General Campaign/$name
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: People/32x32/target.png
+- ID: "09ad7c00-a8de-46f7-bc54-e7572e38c136"
+  Hint: Body
+  Value: "{34F8E555-3145-4456-85E4-9FFE4BCC915D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d844c9c-bd6c-49b8-9475-947da791f268"
+      Hint: From Address
+      Value: "do-not-reply@sitecore.net"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T013406Z

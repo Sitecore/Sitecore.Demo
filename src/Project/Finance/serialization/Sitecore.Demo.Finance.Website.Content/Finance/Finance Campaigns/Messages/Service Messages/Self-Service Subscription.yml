@@ -1,0 +1,23 @@
+﻿---
+ID: "0328ce3a-b499-4618-baa1-c6b966177e10"
+Parent: "8bc8d303-6691-41d4-b4da-0ad6deb3fbde"
+Template: "69474581-3668-4fed-b0f0-0b88c2532cae"
+Path: "/sitecore/content/Finance/Finance Campaigns/Messages/Service Messages/Self-Service Subscription"
+DB: master
+BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Self-Service Subscription"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161205T040937Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

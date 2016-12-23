@@ -1,0 +1,26 @@
+﻿---
+ID: "272b4eb9-f47e-462f-82fc-3272e0a76fb5"
+Parent: "3c0af444-432e-4ca3-babc-2a4b1cdcd37f"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: /sitecore/content/Finance/Personal/Borrowing/_Local/Borrowing Personal Loans
+DB: master
+SharedFields:
+- ID: "e8ab122c-6f54-4d4e-aec6-f81addc558fc"
+  Hint: TeaserLink
+  Value: |
+    <link linktype="internal" text="Learn more" querystring="" target="" id="{373DE868-AF48-4E34-9FF0-CB106B828191}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{00AD1A26-EA35-4F53-B0AA-06A0F6D8A3CC}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T111201Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Personal Lines and Loans

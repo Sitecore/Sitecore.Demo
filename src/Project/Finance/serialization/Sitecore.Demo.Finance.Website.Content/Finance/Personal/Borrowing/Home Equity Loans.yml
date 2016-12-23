@@ -1,0 +1,79 @@
+﻿---
+ID: "7fbc3f62-ef72-4675-83fa-948ed8fff97c"
+Parent: "ba86c857-6f07-4064-9512-e740247d4ac2"
+Template: "6fcc3641-2ec4-489f-8ca0-c07f7f025d1f"
+Path: /sitecore/content/Finance/Personal/Borrowing/Home Equity Loans
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{BBBF8DB7-2067-4692-B959-36849FA4B6BA}"
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{76474166-02C0-4008-9602-F05E9156FB37}"
+        name="Finance Persona"
+        presets="everyday elizabeth|100||">
+        <key
+          name="B2B Bank to Bank"
+          value="0" />
+        <key
+          name="Large Corporate Business"
+          value="0" />
+        <key
+          name="Personal_Family Finances"
+          value="0" />
+        <key
+          name="SMB Financial Services"
+          value="0" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Home Equity Loans
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161109T110625Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{363468E7-EBF4-4C31-9C89-E9C914FF654D}"
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {5B83960D-4823-49A8-8E5C-EB59C6BD1898}
+        {4E4A795B-BE43-460D-B5DF-2120E4AACB4C}
+        {384222F1-065B-43A8-92FC-ADA0CF64CF69}
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediaid="{A37A6330-247F-4C81-B4E4-3D3BA714CD01}" />
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: With Habitat Financial’s home equity loan programs, your home can help you build your future.
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Put your home to work for you.
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Home Equity Loans
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: |
+        <p>Home equity is the difference between the appraised value of your home and the outstanding balance of your mortgage. Our Home Equity Advance program can help turn your home's equity into a source of cash for home improvements, debt consolidation or other personal expenses. Below are a few benefits of our Home Equity Advance program:</p>
+        <h3>Flexible and convenient access</h3>
+        <p>Access your funds whenever you need by simply writing a check.</p>
+        <h3>Discount rates available for Habitat Financial customers</h3>
+        <p>If you're a Habitat Financial customer, you receive discounted rates when you set your loan up for automatic payments from your Habitat Financial checking account.</p>
+        <h3>Use for a variety of reasons</h3>
+        <p>Fund home renovations, education expenses, a car, a wedding or other major expenses.</p>
+        <h3>Lower your monthly payments by consolidating high interest debt</h3>
+        <p>Our home equity interest rates can be lower than rates on credit cards and personal loans.</p>

@@ -1,0 +1,31 @@
+﻿---
+ID: "fcfc26ad-a846-472a-a933-db963186b276"
+Parent: "8efb8403-29f4-4c5a-bc35-3562309b9557"
+Template: "54e7880d-2621-49ea-a417-982fcd372903"
+Path: /sitecore/content/Finance/Finance Campaigns/Message Types/OneTime/Default
+DB: master
+BranchID: "f8fae92a-4f10-470c-ad5c-7ed9e6b636af"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {D39FC088-90C8-4BE8-8D63-C63F8552C6A9}
+    {ECF0A9C8-FE56-45D8-B750-6BDE3A34A532}
+    {1AFE38A7-9461-4278-ADAF-D807F27F36E4}
+    {F868C724-50D0-4347-9C9B-BABB8DB705FE}
+- ID: "ba69b6e7-fa6b-4963-af17-77cb45797628"
+  Hint: Campaigns Position
+  Value: "{71721EB7-0F6A-4550-AC44-A45356DE3E9C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161205T040937Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,25 @@
+﻿---
+ID: "4981f84b-e80b-42a4-aa8d-a823d220ba17"
+Parent: "5598bf1c-240e-43c3-8d5c-230a2b2f6498"
+Template: "bb2b010f-c453-4bee-89df-c21c861c2f74"
+Path: /sitecore/content/Finance/Finance Campaigns/Messages/2016/12/06T155206/December Finance Newsletter/Message Root/Call to Action
+DB: master
+BranchID: "d39fc088-90c8-4be8-8d63-c63f8552c6a9"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1cf3991c-c953-441c-8fe0-0bf26af4b560"
+      Hint: Heading
+      Value: "Looking for a starter mortgage?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161210T134051Z
+    - ID: "2e2c5fb3-ff5b-4f13-aa18-cfba9c9a97d3"
+      Hint: Link
+      Value: |
+        <link linktype="internal" text="Read More" querystring="" target="" id="{0A7AAF7D-B327-49FD-9328-05561DD1CCD6}" />
+    - ID: "94d50f81-f040-4b51-b895-d2fd2c27c223"
+      Hint: Content
+      Value: "It's the time of year to look at purchasing a house. Our mortgages have special introductory offers for first-time buyers.<br>"

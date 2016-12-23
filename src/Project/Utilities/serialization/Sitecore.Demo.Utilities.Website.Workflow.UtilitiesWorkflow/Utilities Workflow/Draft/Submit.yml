@@ -1,0 +1,22 @@
+﻿---
+ID: "3b7e1bb8-f622-403a-a4f2-78cf7944d769"
+Parent: "24f8ae6e-e53a-4d3d-a8ac-f3bdfef743ee"
+Template: "cb01f9fc-c187-46b3-ab0b-97a8468d8303"
+Path: /sitecore/system/Workflows/Utilities Workflow/Draft/Submit
+DB: master
+SharedFields:
+- ID: "dcbebc58-6124-4100-a248-fc717d6c78d5"
+  Hint: Next state
+  Value: "{36487BA3-BFC8-4874-8E56-8CAA9E09F05B}"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Sitecore Client Authoring|pe|+workflowCommand:execute|pd|+workflowCommand:execute|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160203T161452Z

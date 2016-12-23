@@ -1,0 +1,14 @@
+﻿---
+Role: |
+  finance\Finance Marketer
+MemberOf:
+  Role: |
+    sitecore\Experience Explorer
+  Role: |
+    sitecore\Analytics Testing
+  Role: |
+    sitecore\Sitecore Marketer Form Author
+  Role: |
+    finance\Finance Author
+  Role: |
+    sitecore\Analytics Reporting

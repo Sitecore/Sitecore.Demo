@@ -1,0 +1,41 @@
+﻿---
+ID: "184439c7-938c-4fc9-8117-89fe04db5b0b"
+Parent: "c11cb640-19f4-44eb-af3e-7a46d4d4945c"
+Template: "8c5ead00-5f68-4310-ab0c-84f283b5ee0a"
+Path: "/sitecore/system/Marketing Control Panel/Engagement Plans/Finance/Credit Card Application/New item/New item/Send E-Mail Message"
+DB: master
+SharedFields:
+- ID: "1507131d-cee3-49e9-af32-de5403a37b49"
+  Hint: Parameters
+  Value: AutomationActionDescription=&Subject=&Content=&FixedEmail=
+- ID: "3f72bc07-de92-483e-a724-d430769d9ba4"
+  Hint: Designer ID
+  Value: "184439c7-938c-4fc9-8117-89fe04db5b0b"
+- ID: "7642ed71-348b-4b88-8634-cc7b28949472"
+  Hint: Origin ID
+  Value: "bc62a688-ae9e-4462-abd4-73e28782d74a"
+- ID: "8728a037-47d3-4180-b754-87926eda7ae8"
+  Hint: Editor
+  Value: /sitecore/shell/~/xaml/Sitecore.Shell.Applications.MarketingAutomation.Dialogs.ActionEditors.SendEmailMessage.aspx
+- ID: "a291a22b-99e2-46bb-a27b-8ec744275396"
+  Hint: Type
+  Value: Sitecore.Analytics.Automation.AutomationActions.SendEmailMessageAction,Sitecore.Analytics.Automation
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Send E-Mail Message"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20150311T115405:635616716456965797Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
