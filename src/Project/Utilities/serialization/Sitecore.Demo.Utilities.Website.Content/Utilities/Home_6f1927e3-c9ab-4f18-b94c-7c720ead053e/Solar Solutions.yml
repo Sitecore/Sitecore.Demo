@@ -9,6 +9,29 @@ SharedFields:
   Hint: ShowChildren
   Type: Checkbox
   Value: 0
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{D016ADEF-7737-4289-A85F-FE0055F49C8E}"
+        name="Utilities Persona"
+        presets="evan the eco-owner|100||">
+        <key
+          name="Sign-up for service"
+          value="1" />
+        <key
+          name="Solar_Enviro Programs"
+          value="5" />
+        <key
+          name="Budget_Savings Offers"
+          value="4" />
+        <key
+          name="H of H_Community"
+          value="3" />
+      </profile>
+    </tracking>
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: "-37"

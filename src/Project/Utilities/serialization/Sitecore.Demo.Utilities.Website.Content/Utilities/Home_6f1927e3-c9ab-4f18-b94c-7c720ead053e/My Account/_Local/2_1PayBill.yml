@@ -1,0 +1,67 @@
+﻿---
+ID: "7489206c-196e-4560-9f5f-683e02b830e9"
+Parent: "3f58d28a-c466-41c7-8e5d-a820c95f438b"
+Template: "b4f6f114-e653-4a22-86c5-499e0bd99d9a"
+Path: /sitecore/content/Utilities/Home/My Account/_Local/2_1PayBill
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bc0aedf-a6d0-4f74-933c-bd1779cd40b2"
+      Hint: HTML Content
+      Value: |
+        <div class="panel panel-secondary">
+            <div class="panel-heading">
+                
+                <h5 class="text-uppercase">Pay Bill/View Bill</h5>
+            </div>
+        <table class="table panel-body">
+                <tbody>
+         <tr>
+                        <td width="50%">Last payment 11/30</td>
+                        <td width="50%" class="text-right text-nowrap text-success"><strong>Thank you: $48.57</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+                  
+                        <div class="text-center" style="background-color:#e3e3e3; padding: 10px 0;">
+                            <p class="text-uppercase"><strong>Charges due 12/7: </strong></p>
+                            <p style="font-size:2.5em;border-top: solid 1px #999999;">$51.12</p>
+                            <p><a href="#">View PDF of current bill</a></p>
+                        </div>
+        <div style="text-align:center; padding:20px 0;">
+        <input type="checkbox" style="margin-right: 5px;">Go paperless</input>
+        </div>
+            <div style="padding: 5px 15px; background-color: rgba(18, 93, 102, 0.77); color:#ffffff;">
+                
+                <h5 class="text-uppercase">Account Activity</h5>
+            </div>
+            <table class="table panel-body">
+                <tr>
+                    <th width="65%" class="text-left text-nowrap text-uppercase">Activity</th>
+                    <th width="15%" class="text-right text-nowrap text-uppercase">Amount</th>
+                    <th width="15%" class="text-right text-nowrap text-uppercase">Balance</th>
+                </tr>
+                <tr>
+                    <td width="65%">Payment processed 11/30</td>
+                    <td width="15%" class="text-right text-nowrap"><strong>$48.57</strong></td>
+                    <td width="15%" class="text-right text-nowrap"><strong>$0.00</strong></td>
+                </tr>
+                <tr>
+                    <td width="65%">11/16 Bill</td>
+                    <td width="15%" class="text-right text-nowrap"><strong>$15.95</strong></td>
+                    <td width="15%" class="text-right text-nowrap"><strong>$48.57</strong></td>
+                </tr>
+                <tr>
+                    <td width="65%">11/16 Bill</td>
+                    <td width="15%" class="text-right text-nowrap"><strong>$10.55</strong></td>
+                    <td width="15%" class="text-right text-nowrap"><strong>$25.52</strong></td>
+                </tr>
+            </table>
+        <a class="btn btn-default" style="width: 95%; margin: 20px;" href="#">Download PDFs of past bills</a>
+        </div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161222T090428Z

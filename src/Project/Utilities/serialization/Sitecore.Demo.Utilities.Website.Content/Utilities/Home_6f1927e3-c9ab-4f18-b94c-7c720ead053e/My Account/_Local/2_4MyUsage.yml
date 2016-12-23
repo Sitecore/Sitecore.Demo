@@ -1,0 +1,88 @@
+﻿---
+ID: "6e33ad64-5451-4b3a-90c0-aa8c4482b43e"
+Parent: "3f58d28a-c466-41c7-8e5d-a820c95f438b"
+Template: "b4f6f114-e653-4a22-86c5-499e0bd99d9a"
+Path: /sitecore/content/Utilities/Home/My Account/_Local/2_4MyUsage
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bc0aedf-a6d0-4f74-933c-bd1779cd40b2"
+      Hint: HTML Content
+      Value: |
+        <div class="panel panel-secondary">
+            <div class="panel-heading">
+                <h5 class="text-uppercase">My Usage</h5>
+            </div>
+            <div class="panel-body" style="vertical-align: middle; background-color:#2F4F4F;">
+                <div>
+                    <canvas id="spendingChart" width="400" height="200" class="img-responsive" onload="showChart()"></canvas>
+        	    <script src="/scripts/Chart.min.js"></script>
+                    <script>
+                           var ctx = document.getElementById('spendingChart').getContext('2d');
+                           var myChart = new Chart(ctx, {
+                                   type: 'line',
+                                   data: {
+                                       labels: ['Nov', 'Dec', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+                                       datasets: [{
+                                              label: 'Usage by day (for billing month)',
+                                             data: [35, 83, 108, 75, 50, 33, 27, 25, 21, 21, 24, 28],
+                                             backgroundColor:"rgba(179,207,78,0.6)",
+                                             fill: false,
+                                             lineTension: 0,
+                                             borderColor: "rgba(179,207,78,0.6)"
+                                             }, {
+                                             label: 'Cost per day (for billing month)',
+                                            data: [26, 54, 70, 50, 27, 20, 18, 14, 15, 15, 17, 18],
+                                            backgroundColor:"rgba(154,154,154,0.6)",
+                                            fill: false,
+                                            lineTension: 0,
+                                            borderColor: "rgba(154,154,154,0.6)"
+                                            }, {
+                                            label: 'Comparison of usage as related to weather',
+                                           data: [20, 45, 50, 47, 25, 18, 17, 14, 14, 14, 15, 20],
+                                           backgroundColor:"rgba(74,140,197,0.6)",
+                                           fill: false,
+                                           lineTension: 0,
+                                           borderColor: "rgba(74,140,197,0.6)"
+                                      }]
+                                   },
+                                   options: {
+                                       legend: {
+                                             display: true,
+                                              labels: {
+                                                  fontColor: 'rgb(256, 256, 256)'
+                                              }
+                                       },
+                                          scales: {
+                                             xAxes: [{ 
+                                                gridLines: {
+                                                    display: false,
+                                                },
+                                                ticks: {
+                                                    fontColor: "#fff",
+                                                },
+                                            }],
+                                               yAxes: [{
+                                                 display: true,
+                                                 gridLines: {
+                                                    display: true,
+                                                },
+                                                ticks: {
+                                                    fontColor: "#fff",
+                                                    stepSize: 27
+                                                }
+                                             }],
+                                        }
+                                    }
+                                });
+                    </script>
+                </div>
+            </div>
+        </div>
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161222T090818Z
