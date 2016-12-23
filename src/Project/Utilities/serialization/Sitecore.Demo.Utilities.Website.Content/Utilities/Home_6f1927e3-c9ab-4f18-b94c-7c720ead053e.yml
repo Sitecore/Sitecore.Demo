@@ -50,7 +50,56 @@ Languages:
               p:after="r[@uid='{92131AFF-9786-4920-96CA-0D12C225D15F}']"
               s:ds="{CF5AD50E-A39A-4AEE-BC6D-9112C2947A2A}"
               s:id="{8B28417B-A5B3-44F1-BFCC-FE1D907336E7}"
-              s:ph="/page-layout/page-header" />
+              s:ph="/page-layout/page-header">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{50F7BA6E-45DF-44B3-86C7-58D6414E28AC}"
+                    s:name="Environmental Customer">
+                    <conditions>
+                      <condition
+                        uid="284C98EA5319478B9FDBD5E58C01A86D"
+                        s:id="{6426B5B4-83E9-4E24-BA97-43293A10B47D}"
+                        s:ProfileName="Utilities Persona"
+                        s:PatternName="Evan the Eco-Owner_B2C" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="98D7315031AE4608AB15A560F05B3FC8"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{E0582F83-405A-4946-8A48-11193E92E136}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{6C90C5D0-EA61-4CEE-9264-40EA099A26E2}"
+                    s:name="Budget Customer">
+                    <conditions>
+                      <condition
+                        uid="4619A70BDE3E4F0A9ABF5E00EEFF8248"
+                        s:id="{6426B5B4-83E9-4E24-BA97-43293A10B47D}"
+                        s:ProfileName="Utilities Persona"
+                        s:PatternName="Samuel the Saver_B2C" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="B11A7D7C4BF8410F8B8439C20DADF0F2"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{25844684-1902-42AB-A335-F6A3E43C93A0}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="5F87C62F0D414701AB9E36377DC8F145"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
           </d>
         </r>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"

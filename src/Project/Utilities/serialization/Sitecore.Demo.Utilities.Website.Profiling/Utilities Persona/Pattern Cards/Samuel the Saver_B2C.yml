@@ -1,0 +1,29 @@
+﻿---
+ID: "05806c89-0101-4ee7-83af-9e4f42076074"
+Parent: "19ef692b-7625-4ead-8030-1ee0398da128"
+Template: "4a6a7e36-2481-438f-a9ba-0453ecc638fa"
+Path: /sitecore/system/Marketing Control Panel/Profiles/Utilities Persona/Pattern Cards/Samuel the Saver_B2C
+DB: master
+SharedFields:
+- ID: "6da71ad3-5849-4482-9317-d21390e5a348"
+  Hint: Pattern
+  Value: |
+    <tracking>
+      <profile id="{D016ADEF-7737-4289-A85F-FE0055F49C8E}" name="Utilities Persona">
+        <key name="Sign-up for service" value="1" />
+        <key name="Solar_Enviro Programs" value="3" />
+        <key name="Budget_Savings Offers" value="5" />
+        <key name="H of H_Community" value="3" />
+      </profile>
+    </tracking>
+- ID: "fe732790-2ddb-4657-a882-c2fce1fbf0c9"
+  Hint: Name
+  Value: Samuel the Saver_B2C
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161223T090838Z
