@@ -1,7 +1,7 @@
 ﻿---
 ID: "211a0ab4-cbcc-410c-9e7c-d8c324e075b0"
 Parent: "6f1927e3-c9ab-4f18-b94c-7c720ead053e"
-Template: "663d8868-e064-4d0c-bb8f-d7a94e0821f5"
+Template: "1c706975-f2fa-4215-ba37-78518bfbafc4"
 Path: /sitecore/content/Utilities/Home/Customer Service
 DB: master
 SharedFields:
@@ -21,6 +21,27 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{0B8FC60B-D824-4776-8CB3-B77B62A6CB74}"
+              p:before="*"
+              s:id="{84924ABF-F983-4AF5-9002-EA0237A53DA9}"
+              s:ph="/page-layout/section/col-huge_368cbd02-3a98-4050-9f61-48c01cceb1db" />
+            <r
+              uid="{368CBD02-3A98-4050-9F61-48C01CCEB1DB}"
+              p:after="r[@uid='{35F57F2A-FE60-43E5-9E94-A5D25F9C1B9D}']"
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:ph="/page-layout/section" />
+          </d>
+        </r>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
       Hint: OpenGraphTitle
       Value: Customer Service
@@ -35,11 +56,18 @@ Languages:
       Type: Treelist
       Value: |
         {A670CA7E-47E7-4C10-8804-57130138D9B5}
+        {3D1EE5CA-6AC9-4C09-8FDE-55FD657A2C91}
+        {D3CBD82E-E023-485F-BB10-301CF7156E86}
+        {FDC864E3-F9B3-4B07-BF52-305541614256}
         {5504B1E9-E89F-4930-A2CE-461F283506D5}
         {94D6BACD-1B36-408F-A0E1-38DF17516151}
         {2B538BC9-7955-48A8-8612-E589C32BEF5A}
         {B655A494-53B2-4665-B5B7-BBC8FBF60FC9}
         {EEE0C475-7BC1-4212-9262-46C18FDAFC30}
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediapath="/Default Website/cover" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/cover" mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" ></image>
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: You can reach Habitat Utilities anytime, day or night, seven days a week by phone or online.
@@ -48,7 +76,32 @@ Languages:
       Value: 24/7/365
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
-      Value: Customer Service
+      Value: 24/7/365
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
-      Value: You can reach Habitat Utilities anytime, day or night, seven days a week by phone or online.
+      Value: |
+        <h3>EMERGENCY: </h3>
+        <p>If you smell natural gas, see downed power lines, or suspect another emergency situation, leave the area immediately and call 911. Then, call our 24-hour Customer Service Center at 1-888-555-1234</p>
+        <h3>CALL US:</h3>
+        <p>24-hour Power Outage Center</p>
+        <p>1-800-555-1222</p>
+        <br>
+        <p>24-hour Residential Customer Service Center</p>
+        <p>1-888-660-6789</p>
+        <br>
+        <p>Call us and use our interactive voice response system to:</p>
+        <ul>
+        <li>Access account information
+        <li>Make a payment
+        <li>Contact billing transactions
+        <li>Connect, disconnect, or change service
+        <li>Report on outage
+        </li></li></li></li></li></ul>
+        <h3>EMAIL US:</h3>
+        <p>Email us at customer-service@habitat.com</p>
+        <h3>WRITE US:</h3>
+        <p>Habitat Utilities<br>
+        1234 Habitat Blvd., 10th Floor<br>
+        City, State, 12345
+        </p>
+        

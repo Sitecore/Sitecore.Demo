@@ -68,7 +68,6 @@ Languages:
       Hint: OrganisationAddress
       Value: |
         Habitat Utilities
-        1234 Habitat Blvd., 10th Floor
         City, State, 12345
     - ID: "e748d808-64c1-4dec-9718-f35cf9689e4b"
       Hint: Logo

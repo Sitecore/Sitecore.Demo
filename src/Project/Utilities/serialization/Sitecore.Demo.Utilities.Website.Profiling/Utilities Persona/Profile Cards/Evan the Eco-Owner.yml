@@ -1,0 +1,30 @@
+﻿---
+ID: "dec0f0ff-aa5f-441e-8b60-b0443164e73c"
+Parent: "87828730-051f-4638-b6c5-e9c7af590233"
+Template: "0fc09ea4-8d87-4b0e-a5c9-8076ae863d9c"
+Path: "/sitecore/system/Marketing Control Panel/Profiles/Utilities Persona/Profile Cards/Evan the Eco-Owner"
+DB: master
+SharedFields:
+- ID: "85970ab7-22ea-4206-be86-c0167178860b"
+  Hint: Profile Card Value
+  Value: |
+    <tracking>
+      <profile id="{D016ADEF-7737-4289-A85F-FE0055F49C8E}" name="Utilities Persona">
+        <key name="Sign-up for service" value="1" />
+        <key name="Solar_Enviro Programs" value="5" />
+        <key name="Budget_Savings Offers" value="4" />
+        <key name="H of H_Community" value="3" />
+      </profile>
+    </tracking>
+Languages:
+- Language: en
+  Fields:
+  - ID: "a26fc256-1db0-44aa-ba3d-1c830bf882a2"
+    Hint: Name
+    Value: "Evan the Eco-Owner B2C"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161223T090402Z

@@ -15,13 +15,27 @@ Languages:
     Fields:
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
       Hint: OpenGraphTitle
-      Value: Other Solar Solutions
+      Value: Take control of your energy
     - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
       Hint: NavigationTitle
       Value: Other Solar Solutions
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161209T034802Z
+    - ID: "4b16f930-73c9-4643-bb1b-00f06e60a073"
+      Hint: MetaKeywords
+      Type: Treelist
+      Value: |
+        {A670CA7E-47E7-4C10-8804-57130138D9B5}
+        {A4549227-62F7-460C-B521-0BA80E0AC388}
+        {E7378E7A-94D9-4B86-A8ED-06AF8586DD67}
+        {7480AD03-90E8-4655-8894-3A5B3DF88B4F}
+        {4D6DF56D-F664-4E45-893E-1EEA579FF2EC}
+        {C2FF1FEC-F401-4E58-8401-3BF495E424F4}
+        {1EAF8074-3006-4708-A9A6-2D7BA8429ADC}
+        {6C4E58A9-9F53-40B2-B7F6-4BA78A4B2993}
+        {ED3A7CAA-164A-48DE-B8EF-05A7E56EF10E}
+        {06028160-04F4-4BE8-B4EB-05E466F40742}
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
       Value: |
@@ -34,7 +48,7 @@ Languages:
       Value: Take control of your energy
     - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
       Hint: BrowserTitle
-      Value: Other Solar Solutions
+      Value: Take control of your energy
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
