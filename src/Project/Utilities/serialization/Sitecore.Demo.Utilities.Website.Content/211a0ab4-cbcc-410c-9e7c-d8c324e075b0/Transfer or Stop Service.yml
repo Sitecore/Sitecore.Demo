@@ -26,7 +26,42 @@ Languages:
               uid="{91B1BB64-8333-4785-8EDD-E50217C6658E}"
               p:before="*"
               s:id="{5899FE6B-2AD7-4243-B1F9-3BC664CF0A7C}"
-              s:ph="/page-layout/section/col-huge_7c5ea7aa-cbeb-4a2f-8350-a96c7ebbdabe" />
+              s:ph="/page-layout/section/col-huge_7c5ea7aa-cbeb-4a2f-8350-a96c7ebbdabe">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{E84D91FF-44D1-4923-865F-5626A19FC1B0}"
+                    s:name="Logged in">
+                    <conditions>
+                      <condition
+                        uid="2443FE7895A142D3BAA0C5D8462B7945"
+                        s:id="{EA0642FA-500B-4B2F-B264-765E771C516F}"
+                        s:except="true" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="4992FE0BB3AE493D9812484620612F13"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{3D82A75E-2B70-4616-BC1C-BE25D08EFCDF}" />
+                      <action
+                        uid="39BFE79F70D2431A9CF1D2DAFE4D43C3"
+                        s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}"
+                        s:RenderingItem="{F2CCA16D-7524-4E99-8EE0-78FF6394A3B3}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="7C5A9C15F6AB41D3BC0DB6C9864121F8"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r
               uid="{7C5EA7AA-CBEB-4A2F-8350-A96C7EBBDABE}"
               p:after="r[@uid='{91B1BB64-8333-4785-8EDD-E50217C6658E}']"
