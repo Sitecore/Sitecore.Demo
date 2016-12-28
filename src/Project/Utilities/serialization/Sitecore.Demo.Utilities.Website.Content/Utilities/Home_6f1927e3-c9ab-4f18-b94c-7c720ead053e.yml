@@ -33,13 +33,111 @@ Languages:
               p:after="r[@uid='{34B76F66-6EE6-47A1-A9EF-32496171A7B1}']"
               s:ds="{D6B108B5-20DE-4BAD-AB13-018D9CA83578}"
               s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
-              s:ph="/page-layout/section_8ffc1a3a-9d0c-430a-957b-9f3fbf9de6f3/col-narrow-2_92131aff-9786-4920-96ca-0d12c225d15f" />
+              s:ph="/page-layout/section_8ffc1a3a-9d0c-430a-957b-9f3fbf9de6f3/col-narrow-2_92131aff-9786-4920-96ca-0d12c225d15f">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{1035AF8F-A519-4937-8AD1-2B1A5B0E3C20}"
+                    s:name="Head of Household">
+                    <conditions>
+                      <condition
+                        uid="4F39D23C4E89448A9BBAC1DC3CC20B4C"
+                        s:id="{6426B5B4-83E9-4E24-BA97-43293A10B47D}"
+                        s:ProfileName="Utilities Persona"
+                        s:PatternName="Helen the Head of Household_B2C" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="54FC2283C55F4C2CB95826A52CA544D2"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{FF89A313-57A6-4737-A4C3-FF9A14903EE3}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{E090A13D-83D4-4F75-B900-86C98C6149E3}"
+                    s:name="Environmental Customer">
+                    <conditions>
+                      <condition
+                        uid="6EAB943AC9844C6CB63F880CC882CA4B"
+                        s:id="{6426B5B4-83E9-4E24-BA97-43293A10B47D}"
+                        s:ProfileName="Utilities Persona"
+                        s:PatternName="Evan the Eco-Owner_B2C" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="D283E6AE60AD41F7A883CA429CF9E52A"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{20EBD299-146B-4B7C-9BB1-18B03AE3C2F0}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="AFCAD5A63A6045858598572C80CF8EA4"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r
               uid="{E02350CD-AE58-481C-9FC5-AF1FA11C4B61}"
               p:after="r[@uid='{1B450C4A-7375-48E0-8D87-20063E2B7DE1}']"
               s:ds="{FF89A313-57A6-4737-A4C3-FF9A14903EE3}"
               s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
-              s:ph="/page-layout/section_8ffc1a3a-9d0c-430a-957b-9f3fbf9de6f3/col-narrow-1_92131aff-9786-4920-96ca-0d12c225d15f" />
+              s:ph="/page-layout/section_8ffc1a3a-9d0c-430a-957b-9f3fbf9de6f3/col-narrow-1_92131aff-9786-4920-96ca-0d12c225d15f">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{0EB1DD93-54AB-4D96-B7EC-F16FA693EE21}"
+                    s:name="Head of Household Customer">
+                    <conditions>
+                      <condition
+                        uid="606C4510588341E39CCC83F983765DB8"
+                        s:id="{6426B5B4-83E9-4E24-BA97-43293A10B47D}"
+                        s:ProfileName="Utilities Persona"
+                        s:PatternName="Helen the Head of Household_B2C" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="034A43ED60834745B9A97B4246F70179"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{E5A81F05-6BC7-4437-9D25-C66C16DDE3DB}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{A16BC437-AD88-4010-B60A-EAC30714AA49}"
+                    s:name="Environmental Customer">
+                    <conditions>
+                      <condition
+                        uid="FF001E709D9A434FA03BCF0B096F6873"
+                        s:id="{6426B5B4-83E9-4E24-BA97-43293A10B47D}"
+                        s:ProfileName="Utilities Persona"
+                        s:PatternName="Evan the Eco-Owner_B2C" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="3241382643C841D7A31FF23FBBC236EB"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{7B6C266C-6011-4197-9F36-2BC5CD7E482D}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="26F1A7C795104C6FA6733BDD009FBC5B"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r
               uid="{92131AFF-9786-4920-96CA-0D12C225D15F}"
               p:after="r[@uid='{E02350CD-AE58-481C-9FC5-AF1FA11C4B61}']"

@@ -1,14 +1,14 @@
 ﻿---
-ID: "ff89a313-57a6-4737-a4c3-ff9a14903ee3"
-Parent: "dca88b59-5740-403b-a827-50febbf8afa0"
+ID: "b64a0eef-ce9f-4698-b15b-d88cf02f5f83"
+Parent: "3f58d28a-c466-41c7-8e5d-a820c95f438b"
 Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
-Path: /sitecore/content/Utilities/Home/_Local/New to Habitat Utilities
+Path: /sitecore/content/Utilities/Home/My Account/_Local/2_3A_Ways to save on your energy bill
 DB: master
 SharedFields:
 - ID: "e8ab122c-6f54-4d4e-aec6-f81addc558fc"
   Hint: TeaserLink
   Value: |
-    <link text="Sign-up" linktype="internal" class="" title="" target="" querystring="" id="{F1FD8B0B-B888-403F-92A5-6AD07FBAD414}" />
+    <link linktype="internal" text="Learn more" querystring="" target="" id="{3F4B4EB7-725D-40E0-B1A2-C3F44A78E182}" />
 Languages:
 - Language: en
   Versions:
@@ -20,10 +20,10 @@ Languages:
         <image mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" />
     - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
       Hint: TeaserSummary
-      Value: "New to Habitat's service territory?Start service quickly and easily."
+      Value: View personalized tips to save. Apply for rebates for new products and payment assistance programs.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20161221T091316Z
+      Value: 20161222T090611Z
     - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
       Hint: TeaserTitle
-      Value: "New to Habitat Utilities?"
+      Value: Ways to save on your energy bill 

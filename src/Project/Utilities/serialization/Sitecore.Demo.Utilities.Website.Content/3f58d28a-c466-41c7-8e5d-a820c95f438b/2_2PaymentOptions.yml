@@ -1,0 +1,34 @@
+﻿---
+ID: "165cf6d6-48dd-4eb5-b254-60c3e9c35456"
+Parent: "3f58d28a-c466-41c7-8e5d-a820c95f438b"
+Template: "b4f6f114-e653-4a22-86c5-499e0bd99d9a"
+Path: /sitecore/content/Utilities/Home/My Account/_Local/2_2PaymentOptions
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0bc0aedf-a6d0-4f74-933c-bd1779cd40b2"
+      Hint: HTML Content
+      Value: |
+        <div class="panel panel-secondary">
+        <div class="panel-heading">
+            <h5 class="text-uppercase">Payment Options</h5>
+        </div>
+        
+        <ul style="list-style-type:none;margin:0;padding:0 20px;">
+        <li style="border-bottom: solid 1px #e3e3e3;padding:20px 0;"><strong><a href="#">Bill and payment history: View past bills and history</a></strong></li>
+        <li style="border-bottom: solid 1px #e3e3e3;text-transform:uppercase;padding:20px 0;"><strong>Manage payment accounts</strong>
+            <ul style="list-style-type:none;margin:0;padding-left:20px;">
+                 <li style="padding:10px 0 0;text-transform:none;"><strong><a href="#">Add new payment account</a></strong></li>
+                 <li style="padding:10px 0 0;text-transform:none;"><strong><a href="#">Edit existing payment account</a></strong></li>
+            </ul>
+        </li>
+        <li style="border-bottom: solid 1px #e3e3e3;padding:20px 0;"><strong><a href="#">Setup recurring payments</a></strong></li>
+        <li style="padding:20px 0;"><strong><a href="~/link.aspx?_id=5A9842ECA8434672ADF817931C829244&amp;_z=z">Payment Assistance</a></strong></li>
+        </ul>
+        </div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161222T090459Z

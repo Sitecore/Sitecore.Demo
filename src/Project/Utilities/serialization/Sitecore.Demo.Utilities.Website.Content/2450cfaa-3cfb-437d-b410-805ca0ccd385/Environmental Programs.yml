@@ -4,6 +4,30 @@ Parent: "2450cfaa-3cfb-437d-b410-805ca0ccd385"
 Template: "1c706975-f2fa-4215-ba37-78518bfbafc4"
 Path: /sitecore/content/Utilities/Home/Community and Environment/Environmental Programs
 DB: master
+SharedFields:
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <profile
+        id="{D016ADEF-7737-4289-A85F-FE0055F49C8E}"
+        name="Utilities Persona"
+        presets="evan the eco-owner|100||">
+        <key
+          name="Sign-up for service"
+          value="1" />
+        <key
+          name="Solar_Enviro Programs"
+          value="5" />
+        <key
+          name="Budget_Savings Offers"
+          value="4" />
+        <key
+          name="H of H_Community"
+          value="3" />
+      </profile>
+    </tracking>
 Languages:
 - Language: en
   Versions:

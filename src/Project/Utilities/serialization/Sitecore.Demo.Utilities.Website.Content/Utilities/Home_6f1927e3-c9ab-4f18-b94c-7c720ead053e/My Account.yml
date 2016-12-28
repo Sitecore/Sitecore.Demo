@@ -12,11 +12,113 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 200
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1"
+      s:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{58D4D339-4EBE-4781-9C33-BDEBC03F0CEF}"
+          p:after="r[@uid='{E3C53C0D-5756-4477-8143-13BBF2E62F62}']"
+          s:ds=""
+          s:id="{9B05C591-03CE-4684-9D8A-CCCE99C399ED}"
+          s:par=""
+          s:ph="/page-layout/section/col-wide-1" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{81243A18-8088-4AEA-97A4-7435CBC41997}"
+              p:before="*"
+              s:ds="{EE840C3E-6767-4102-8B1A-E75EE2A40C77}"
+              s:id="{97459D5B-3C92-46C2-A329-138C1E277465}"
+              s:ph="/page-layout/section_427e0284-3431-4187-bae3-7106a2d60748/col-wide-1_8447e5da-8f4e-451c-aca9-318fdb0646a7" />
+            <r
+              uid="{ACB6818A-B7C9-4CE4-B0CE-6B5B7C5730C1}"
+              p:after="r[@uid='{81243A18-8088-4AEA-97A4-7435CBC41997}']"
+              s:ds="{B64A0EEF-CE9F-4698-B15B-D88CF02F5F83}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/page-layout/section_427e0284-3431-4187-bae3-7106a2d60748/col-huge_2b8239e2-1e01-4520-9ff6-333dfbd5a5fa" />
+            <r
+              uid="{18574D10-0600-42F3-920B-BD649526B64E}"
+              p:after="r[@uid='{ACB6818A-B7C9-4CE4-B0CE-6B5B7C5730C1}']"
+              s:ds="{6E33AD64-5451-4B3A-90C0-AA8C4482B43E}"
+              s:id="{B883E272-70D8-419A-8AF8-819356D839AD}"
+              s:ph="/page-layout/section_427e0284-3431-4187-bae3-7106a2d60748/col-huge_4c30d3b2-05a1-48a4-a27c-fae10f172ff9" />
+            <r
+              uid="{217D0218-CDCC-479F-8CED-15BC63751FFE}"
+              p:after="r[@uid='{18574D10-0600-42F3-920B-BD649526B64E}']"
+              s:ds="{165CF6D6-48DD-4EB5-B254-60C3E9C35456}"
+              s:id="{B883E272-70D8-419A-8AF8-819356D839AD}"
+              s:ph="/page-layout/section_427e0284-3431-4187-bae3-7106a2d60748/col-narrow-1_8b85a5d9-a4a6-4220-b3bf-1a1cafc10dd1" />
+            <r
+              uid="{3DD36CDD-6D75-4D4E-A52C-D6DDA1FB97B2}"
+              p:after="r[@uid='{217D0218-CDCC-479F-8CED-15BC63751FFE}']"
+              s:ds="{211A0AB4-CBCC-410C-9E7C-D8C324E075B0}"
+              s:id="{07AB411C-F894-4144-B069-48EF67431D32}"
+              s:ph="/page-layout/section_427e0284-3431-4187-bae3-7106a2d60748/col-narrow-1_8447e5da-8f4e-451c-aca9-318fdb0646a7" />
+            <r
+              uid="{89EC0DE8-214D-4163-96E6-F621D2ED90EC}"
+              p:after="r[@uid='{3DD36CDD-6D75-4D4E-A52C-D6DDA1FB97B2}']"
+              s:ds="{6E33AD64-5451-4B3A-90C0-AA8C4482B43E}"
+              s:id="{B883E272-70D8-419A-8AF8-819356D839AD}"
+              s:ph="/page-layout/section_427e0284-3431-4187-bae3-7106a2d60748/col-narrow-1_ac85aba0-6cb0-4222-81b2-2904e1bb683f" />
+            <r
+              uid="{480711DD-6609-472C-95F0-9D2D3E992AE0}"
+              p:after="r[@uid='{89EC0DE8-214D-4163-96E6-F621D2ED90EC}']"
+              s:ds="{B64A0EEF-CE9F-4698-B15B-D88CF02F5F83}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section_427e0284-3431-4187-bae3-7106a2d60748/col-wide-1_ac85aba0-6cb0-4222-81b2-2904e1bb683f" />
+            <r
+              uid="{4A514C3F-BA69-4A0F-84FD-C2569C7B5ECA}"
+              p:after="r[@uid='{480711DD-6609-472C-95F0-9D2D3E992AE0}']"
+              s:ds="{7489206C-196E-4560-9F5F-683E02B830E9}"
+              s:id="{B883E272-70D8-419A-8AF8-819356D839AD}"
+              s:ph="/page-layout/section_427e0284-3431-4187-bae3-7106a2d60748/col-wide-1_8b85a5d9-a4a6-4220-b3bf-1a1cafc10dd1" />
+            <r
+              uid="{8B85A5D9-A4A6-4220-B3BF-1A1CAFC10DD1}"
+              p:after="r[@uid='{4A514C3F-BA69-4A0F-84FD-C2569C7B5ECA}']"
+              s:id="{4ACD4C20-28D1-46F7-8FBA-A35778937BD1}"
+              s:ph="/page-layout/section_427e0284-3431-4187-bae3-7106a2d60748" />
+            <r
+              uid="{4C30D3B2-05A1-48A4-A27C-FAE10F172FF9}"
+              p:after="r[@uid='{8B85A5D9-A4A6-4220-B3BF-1A1CAFC10DD1}']"
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:ph="/page-layout/section_427e0284-3431-4187-bae3-7106a2d60748" />
+            <r
+              uid="{2B8239E2-1E01-4520-9FF6-333DFBD5A5FA}"
+              p:after="r[@uid='{4C30D3B2-05A1-48A4-A27C-FAE10F172FF9}']"
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:ph="/page-layout/section_427e0284-3431-4187-bae3-7106a2d60748" />
+            <r
+              uid="{8447E5DA-8F4E-451C-ACA9-318FDB0646A7}"
+              p:after="r[@uid='{2B8239E2-1E01-4520-9FF6-333DFBD5A5FA}']"
+              s:id="{4ACD4C20-28D1-46F7-8FBA-A35778937BD1}"
+              s:ph="/page-layout/section_427e0284-3431-4187-bae3-7106a2d60748" />
+            <r
+              uid="{3AEEF3EC-95A9-4F0E-8660-58ECED10FEAA}"
+              p:after="r[@uid='{8447E5DA-8F4E-451C-ACA9-318FDB0646A7}']"
+              s:id="{CA748838-E6D5-4BAD-9126-CAD10DD1B0DB}"
+              s:ph="/page-layout/section_427e0284-3431-4187-bae3-7106a2d60748/col-narrow-1_7c06917e-03e9-46e4-9661-89294386d3c3" />
+          </d>
+        </r>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
       Hint: OpenGraphTitle
       Value: My Account
@@ -26,6 +128,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161209T031029Z
+    - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
+      Hint: Summary
+      Value: 
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: My Account
