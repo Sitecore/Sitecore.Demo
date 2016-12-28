@@ -57,7 +57,7 @@ Languages:
             <r
               uid="{08EB01F4-E222-4A7F-9EAE-96CF3A38C895}"
               p:after="r[@uid='{0F5BE3CE-DB08-459D-AF7A-EA589891F390}']"
-              s:ds="location:{AC67D144-7CAC-4D7F-A40A-9F800F2C8F7C}"
+              s:ds="{AC67D144-7CAC-4D7F-A40A-9F800F2C8F7C}"
               s:id="{D0B4FD9F-3AEE-4AD7-BBC4-F37F0A1A3309}"
               s:par="SearchResultsLimit=10&amp;ItemsShown=4"
               s:ph="/page-layout/section_d9a0f082-d088-4f6a-9277-20b8688c8420/col-huge_ddbe278f-d1b2-4969-b0c9-a3bbac833984" />
