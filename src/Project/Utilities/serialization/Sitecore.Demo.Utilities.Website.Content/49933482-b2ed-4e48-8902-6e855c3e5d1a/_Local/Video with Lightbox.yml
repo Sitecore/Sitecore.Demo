@@ -1,0 +1,28 @@
+﻿---
+ID: "7f0e1eca-086c-4738-ae98-577efcb5a362"
+Parent: "b135afd3-9610-4122-be83-3b613b5435d5"
+Template: "f1c095e2-b3e0-46d0-b838-02a9e8b880d9"
+Path: /sitecore/content/Utilities/Home/Solar Solutions/Rooftop Solar/_Local/Video with Lightbox
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161229T102625Z
+    - ID: "2628705d-9434-4448-978c-c3bf166fa1eb"
+      Hint: MediaVideoLink
+      Value: |
+        <link linktype="media" target="" id="{C7752ACB-2103-47F0-9499-E23F14369EF9}" />
+    - ID: "302c9f8d-f703-4f76-a4ab-73d222648232"
+      Hint: MediaDescription
+      Value: 
+    - ID: "4ff62b0a-d73b-4436-bea2-023154f2ffc4"
+      Hint: MediaThumbnail
+      Value: |
+        <image mediaid="{B4605C1C-0E0F-4094-A435-E1FEFA9539C0}" />
+    - ID: "63dda48b-b0cb-45a7-9a1b-b26ddb41009b"
+      Hint: MediaTitle
+      Value: Solar Panels
