@@ -36,6 +36,28 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{3BC5B8BC-5157-4C20-A95E-394A58BC4634}"
+              p:before="*"
+              s:ds="{C92F60F0-F42F-4824-966C-D6568E0C5717}"
+              s:id="{5D35C31F-0770-4498-BAB8-C88BEF41F153}"
+              s:ph="/page-layout/section/section-narrow/col-wide-1_d7136ef2-1932-4ddb-aa45-524167be52a9" />
+            <r
+              uid="{D7136EF2-1932-4DDB-AA45-524167BE52A9}"
+              p:after="r[@uid='{3BC5B8BC-5157-4C20-A95E-394A58BC4634}']"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:ph="/page-layout/section/section-narrow" />
+          </d>
+        </r>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
       Hint: OpenGraphTitle
       Value: Take control of your energy
@@ -62,7 +84,7 @@ Languages:
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
       Value: |
-        <image mediapath="/Default Website/cover" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/cover" mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" ></image>
+        <image mediapath="/Default Website/cover" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/cover" mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}"></image>
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: "In addition to the more popular panels and roofs, Habitat offers other ways to harness solar energy. Learn about those below:"
@@ -74,12 +96,4 @@ Languages:
       Value: Take control of your energy
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
-      Value: |
-        <p>In addition to the more popular panels and roofs, Habitat offers other ways to harness solar energy. Learn about those below:</p>
-        <h3>Solar Backup Power</h3>
-        <p>Habitat's backup power solution ensures that you’ll have the energy you need to power through any outage, day or night. Habitat's Power Block is continuously being charged by electricity generated from your solar panels or solar roof, so it can be used whenever you choose. That way you can rely less on the grid and save more on your electric bill. And you can save even more money on your bill if you switch to Habitat's time-of-use rate. We offer 24/7 monitoring for realtime insight and our software enables you to make the grid stronger for everyone.</p>
-        <h3>Solar Water Heater</h3>
-        <p>A solar water heater is one of the most effective ways of cutting a household's carbon footprint by reducing reliance on fossil fuel usage. By offsetting the use of electricity, gas or heating oil, using solar water heaters can also provide financial savings by reducing energy costs. </p>
-        <p>Habitat offers a variety of water heating solutions that allow you to use the sun's power to provide hot water for your home with great efficiency and low energy costs. Choose from a variety of options to store your hot water and provide backup capabilities if necessary.</p>
-        <h3>Solar Usage Plans</h3>
-        <p>With Habitat's Solar Usage Plans , you have the option to purchase up to 100% of your electricity from solar power, without needing to install solar panels. These programs are a choice if you want to lower your environmental footprint and promote renewable power generation.</p>
+      Value: 

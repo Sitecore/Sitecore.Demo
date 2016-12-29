@@ -1,0 +1,31 @@
+﻿---
+ID: "324c0d44-aeed-4743-9b0e-c33e0647b5e2"
+Parent: "dca88b59-5740-403b-a827-50febbf8afa0"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: /sitecore/content/Utilities/Home/_Local/Anonymous Visitor Header
+DB: master
+SharedFields:
+- ID: "e8ab122c-6f54-4d4e-aec6-f81addc558fc"
+  Hint: TeaserLink
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{E9617D40-A1CE-40F8-A9F6-473562911C69}" />
+    - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
+      Hint: TeaserSummary
+      Value: "Our mission is to build a better future for your home, business, and community. As a privately-owned electric service provider, Habitat has been providing low-cost, reliable energy for more than 50 years. We are a recognized industry leader and award winner for its innovative energy efficiency programs, renewable power technologies, and for its sustainable solutions for a healthier environment."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161229T095620Z
+    - ID: "3f7e7e3a-4e8e-4639-b079-fc5aeff172f5"
+      Hint: Teaser Label
+      Value: Learn more
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Welcome to Habitat Utilities. Powering our future.

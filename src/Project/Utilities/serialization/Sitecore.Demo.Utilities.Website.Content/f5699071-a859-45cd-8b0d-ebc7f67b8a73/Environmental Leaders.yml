@@ -1,0 +1,24 @@
+﻿---
+ID: "a7121f78-dc7d-46b6-b9c8-52c7f1429393"
+Parent: "f5699071-a859-45cd-8b0d-ebc7f67b8a73"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: /sitecore/content/Utilities/Home/Community and Environment/Environmental Programs/_Local/Environmental Leaders
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{6C7A82C6-4910-4933-A9FF-3B50ED1010FF}" />
+    - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
+      Hint: TeaserSummary
+      Value: Our board of Environmental Strategic Leaders guide us in the decisions Habitat makes about our company’s policies and operations. Our Board continually reviews and refines these guidelines to make sure we’ll meet your energy needs as well as our strict standards for environmental sustainability, stewardship, compliance, and documentation.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161229T090714Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value:         Environmental Leaders                 
