@@ -12,7 +12,7 @@ Languages:
     - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
       Hint: TeaserImage
       Value: |
-        <image mediaid="{8C28B0E1-AB75-4F2C-82E0-C44B7CDD68B9}" ></image>
+        <image mediaid="{EBBABC81-A99B-47CF-B818-6395F2EB1658}"></image>
     - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
       Hint: TeaserSummary
       Value: "Habitat's backup power solution ensures that you’ll have the energy you need to power through any outage, day or night. Habitat's Power Block is continuously being charged by electricity generated from your solar panels or solar roof, so it can be used whenever you choose. That way you can rely less on the grid and save more on your electric bill. And you can save even more money on your bill if you switch to Habitat's time-of-use rate. We offer 24/7 monitoring for realtime insight and our software enables you to make the grid stronger for everyone."

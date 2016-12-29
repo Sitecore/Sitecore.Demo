@@ -61,7 +61,7 @@ Languages:
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
       Value: |
-        <image mediapath="/Default Website/cover" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/cover" mediaid="{D42D253B-BFAF-41E7-8D5E-0690E5ABBDD7}" />
+        <image mediapath="/Default Website/cover" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/cover" mediaid="{05BCAE94-87B7-409B-993E-2953A62BFFEC}" />
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: Habitat is one of the largest combination natural gas and electric utilities in the world. Based in California, USA, the company is a subsidiary of Habitat, Inc.

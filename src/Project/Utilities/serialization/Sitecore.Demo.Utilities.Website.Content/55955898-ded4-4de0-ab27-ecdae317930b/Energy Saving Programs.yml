@@ -57,7 +57,7 @@ Languages:
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
       Value: |
-        <image mediapath="/Default Website/cover" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/cover" mediaid="{5EF4193D-5BDC-4868-B87C-77FB9D64954B}" />
+        <image mediapath="/Default Website/cover" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/cover" mediaid="{884C9EEA-6A20-4E97-8F9E-1A57C6F320D9}" />
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: "Knowledge is power—the power to save energy and money. The programs outlined below are designed to help you and your family conserve energy in your everyday lives, which in turn will help you save money each month:"
