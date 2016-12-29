@@ -1,0 +1,24 @@
+﻿---
+ID: "5f45f1cb-b800-4761-91e5-083e97cdad94"
+Parent: "68a28ecb-a751-4da8-ba56-c7b1efe112ba"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: /sitecore/content/Utilities/Home/Community and Environment/Community Programs/_Local/Payment Assistance Programs
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{BD766573-7364-497F-BF12-6C9FEFEB01A0}" />
+    - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
+      Hint: TeaserSummary
+      Value: "As an energy company, we have a responsibility to help customers who are in danger of losing their utility services because of financial hardship. Habitat's assistance program provides one-time emergency financial assistance for those who need it most."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161229T084158Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Payment Assistance   Programs

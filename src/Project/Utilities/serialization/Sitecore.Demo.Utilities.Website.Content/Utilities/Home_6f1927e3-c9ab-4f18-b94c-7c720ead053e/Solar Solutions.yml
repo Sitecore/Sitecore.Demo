@@ -50,15 +50,25 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{E39CCA83-CE16-4C4D-8633-FD419D7D6F47}"
+              uid="{28BF6449-2D05-4D45-95F6-4C8E1D9CD1CB}"
               p:before="*"
               s:id="{84924ABF-F983-4AF5-9002-EA0237A53DA9}"
-              s:ph="/page-layout/section/section-narrow/col-wide-1_0fa75838-4f02-42ad-a4cb-450c65cd0d09" />
+              s:ph="/page-layout/section/col-huge_71993ef7-c272-486b-86c6-ed8db52f4822" />
+            <r
+              uid="{21AEA3BB-5277-4FDF-9D8D-9D66C4F88E54}"
+              p:after="r[@uid='{28BF6449-2D05-4D45-95F6-4C8E1D9CD1CB}']"
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:ph="/page-layout/section_d663a725-4c6d-47ee-8899-5370e7281ef3" />
             <r
               uid="{0FA75838-4F02-42AD-A4CB-450C65CD0D09}"
-              p:after="r[@uid='{E39CCA83-CE16-4C4D-8633-FD419D7D6F47}']"
+              p:after="r[@uid='{21AEA3BB-5277-4FDF-9D8D-9D66C4F88E54}']"
               s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
               s:ph="/page-layout/section/section-narrow" />
+            <r
+              uid="{71993EF7-C272-486B-86C6-ED8DB52F4822}"
+              p:after="r[@uid='{35F57F2A-FE60-43E5-9E94-A5D25F9C1B9D}']"
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:ph="/page-layout/section" />
           </d>
         </r>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
@@ -82,6 +92,10 @@ Languages:
         {53430EF1-6B07-405B-B12B-844859CA4D1D}
         {D3B8E570-8103-4938-801C-E30CF0735F00}
         {4D6DF56D-F664-4E45-893E-1EEA579FF2EC}
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediapath="/Default Website/cover" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/cover" mediaid="{785D7A48-48E2-49B1-937E-8EB243321284}" />
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: Going solar is a big decision. Let us help you make informed choices.

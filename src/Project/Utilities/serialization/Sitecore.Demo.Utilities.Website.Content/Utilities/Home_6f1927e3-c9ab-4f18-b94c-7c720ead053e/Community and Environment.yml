@@ -1,7 +1,7 @@
 ﻿---
 ID: "2450cfaa-3cfb-437d-b410-805ca0ccd385"
 Parent: "6f1927e3-c9ab-4f18-b94c-7c720ead053e"
-Template: "663d8868-e064-4d0c-bb8f-d7a94e0821f5"
+Template: "1c706975-f2fa-4215-ba37-78518bfbafc4"
 Path: /sitecore/content/Utilities/Home/Community and Environment
 DB: master
 SharedFields:
@@ -17,6 +17,32 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D800EAF8-CD25-41C3-90EE-E988AB6730F4}"
+              p:before="*"
+              s:id="{84924ABF-F983-4AF5-9002-EA0237A53DA9}"
+              s:ph="/page-layout/section/col-huge_94c8ddf1-c228-4a54-af42-3f64aff86fae" />
+            <r
+              uid="{BFCB0058-811A-414E-BAB2-2E480F7587D5}"
+              p:after="r[@uid='{D800EAF8-CD25-41C3-90EE-E988AB6730F4}']"
+              s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
+              s:ph="/page-layout/section/section-narrow" />
+            <r
+              uid="{94C8DDF1-C228-4A54-AF42-3F64AFF86FAE}"
+              p:after="r[@uid='{35F57F2A-FE60-43E5-9E94-A5D25F9C1B9D}']"
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:ph="/page-layout/section" />
+          </d>
+        </r>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
       Hint: OpenGraphTitle
       Value: Powering our community one neighborhood at a time
@@ -28,7 +54,7 @@ Languages:
       Value: 20161209T034500Z
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
-      Value: "To create safe and vibrant neighborhoods for our customers and employees, Habitat's community vitality programs help everyone prepare for and recover from natural disasters, create career training opportunities, and help to maintain the integrity of our environment. Learn more about our efforts in the community and with the environment below:"
+      Value: 
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: Powering our community one neighborhood at a time
@@ -43,4 +69,3 @@ Languages:
         <p>Promoting economic and community strength.</p>
         <h3>Habitat Environment Programs</h3>
         <p>Helping to preserve natural resources and reduce pollution.</p>
-        

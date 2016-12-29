@@ -1,0 +1,28 @@
+﻿---
+ID: "95cbcf02-2594-4c92-b373-29e49efd47c9"
+Parent: "c92f60f0-f42f-4824-966c-d6568e0c5717"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: /sitecore/content/Utilities/Home/Solar Solutions/Other Solar Solutions/_Local/Teaser Carousel/Solar Usage Plans
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{F067D08B-3E84-4705-A668-A4B1A17FA503}" />
+    - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
+      Hint: TeaserSummary
+      Value: With Habitat's Solar Usage Plans , you have the option to purchase up to 100% of your electricity from solar power, without needing to install solar panels. These programs are a choice if you want to lower your environmental footprint and promote renewable power generation.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161228T155607Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Solar Usage Plans

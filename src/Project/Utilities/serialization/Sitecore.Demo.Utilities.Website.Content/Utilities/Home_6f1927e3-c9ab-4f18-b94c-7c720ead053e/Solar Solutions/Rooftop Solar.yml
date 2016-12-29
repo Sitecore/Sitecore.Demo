@@ -33,6 +33,106 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{4E101DA4-ADCD-4B36-9296-605C9B895636}"
+              p:before="*"
+              s:ds="{EFAB6932-A3D9-453A-965B-E4BD70D2E604}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section/section-narrow/col-wide-2_e2e5a102-2149-403e-8ea7-e166d3ab6132" />
+            <r
+              uid="{F3F4AA53-E6AE-477D-81E9-87B781C2EFE8}"
+              p:after="r[@uid='{4E101DA4-ADCD-4B36-9296-605C9B895636}']"
+              s:ds="{56E168D9-680E-4547-8D11-6B30F8CB3834}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section/section-narrow/col-wide-1_e2e5a102-2149-403e-8ea7-e166d3ab6132" />
+            <r
+              uid="{E2E5A102-2149-403E-8EA7-E166D3AB6132}"
+              p:after="r[@uid='{F3F4AA53-E6AE-477D-81E9-87B781C2EFE8}']"
+              s:id="{50F6052C-4FC2-4AA6-9399-FFC6055CF19F}"
+              s:ph="/page-layout/section/section-narrow" />
+            <r
+              uid="{FFE8BBEB-ED60-4559-BB73-6B3B1854A74E}"
+              p:after="r[@uid='{E2E5A102-2149-403E-8EA7-E166D3AB6132}']"
+              s:ds="{7F0E1ECA-086C-4738-AE98-577EFCB5A362}"
+              s:id="{0534F12C-804E-4532-A832-5D61FE9EC6ED}"
+              s:ph="/page-layout/section/col-wide-1_ba0c73c0-95a8-4a71-a2c4-c662169e84e6" />
+            <r
+              uid="{61FA2292-3AC9-4FEE-870A-A159C15F3992}"
+              p:after="r[@uid='{FFE8BBEB-ED60-4559-BB73-6B3B1854A74E}']"
+              s:ds="{EFAB6932-A3D9-453A-965B-E4BD70D2E604}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section/section-narrow/col-narrow-1_bf4cecd9-c99f-4498-8438-c2765d063857" />
+            <r
+              uid="{3066F003-BBC9-41F5-A56F-2E5C6D8880DE}"
+              p:after="r[@uid='{61FA2292-3AC9-4FEE-870A-A159C15F3992}']"
+              s:ds="{7F0E1ECA-086C-4738-AE98-577EFCB5A362}"
+              s:id="{0534F12C-804E-4532-A832-5D61FE9EC6ED}"
+              s:ph="/page-layout/section/section-narrow/col-wide-1_bf4cecd9-c99f-4498-8438-c2765d063857" />
+            <r
+              uid="{3FFA218A-208D-42D2-AA8B-3900C9DCB9C1}"
+              p:after="r[@uid='{3066F003-BBC9-41F5-A56F-2E5C6D8880DE}']"
+              s:ds="{7F0E1ECA-086C-4738-AE98-577EFCB5A362}"
+              s:id="{0534F12C-804E-4532-A832-5D61FE9EC6ED}"
+              s:ph="/page-layout/section/section-narrow/col-wide-1_27c537fa-c4a9-4847-ad82-5291ecdf1060" />
+            <r
+              uid="{C5293D5B-E68C-4062-9103-E5526C55BB0D}"
+              p:after="r[@uid='{3FFA218A-208D-42D2-AA8B-3900C9DCB9C1}']"
+              s:ds="{EFAB6932-A3D9-453A-965B-E4BD70D2E604}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section_de72f1f2-e9cb-4a31-b83a-8ce0db6bacec/col-narrow-1_e4b0f4eb-e34b-4214-ae39-53ecd3b3f2d0" />
+            <r
+              uid="{FF497331-0000-46D8-9145-50C31FE993C5}"
+              p:after="r[@uid='{C5293D5B-E68C-4062-9103-E5526C55BB0D}']"
+              s:ds="{7F0E1ECA-086C-4738-AE98-577EFCB5A362}"
+              s:id="{0534F12C-804E-4532-A832-5D61FE9EC6ED}"
+              s:ph="/page-layout/section_de72f1f2-e9cb-4a31-b83a-8ce0db6bacec/col-wide-1_e4b0f4eb-e34b-4214-ae39-53ecd3b3f2d0" />
+            <r
+              uid="{E4B0F4EB-E34B-4214-AE39-53ECD3B3F2D0}"
+              p:after="r[@uid='{FF497331-0000-46D8-9145-50C31FE993C5}']"
+              s:id="{4ACD4C20-28D1-46F7-8FBA-A35778937BD1}"
+              s:ph="/page-layout/section_de72f1f2-e9cb-4a31-b83a-8ce0db6bacec" />
+            <r
+              uid="{ACE70893-FA5C-4871-93F8-3F0B5C6543F5}"
+              p:after="r[@uid='{E4B0F4EB-E34B-4214-AE39-53ECD3B3F2D0}']"
+              s:ds=""
+              s:id="{5D35C31F-0770-4498-BAB8-C88BEF41F153}"
+              s:ph="/page-layout/section/col-huge_910e65bb-8131-4259-923d-150a7a561154" />
+            <r
+              uid="{2B682D94-334A-4EF2-9BB7-D54103B9880C}"
+              p:after="r[@uid='{ACE70893-FA5C-4871-93F8-3F0B5C6543F5}']"
+              s:ds="{49933482-B2ED-4E48-8902-6E855C3E5D1A}"
+              s:id="{45B8E1D9-D522-49E0-B9B7-04C965CC7089}"
+              s:ph="/page-layout/page-header" />
+            <r
+              uid="{7767601D-C55E-44D7-9E2F-B16665C9EABF}">
+              <p:d />
+            </r>
+            <r
+              uid="{CF1B99D9-1A21-4E0B-BFD9-ABBD8F0FB680}"
+              p:after="r[@uid='{6FF840F3-FC62-426A-BA68-B07B0580ABF1}']"
+              s:ds=""
+              s:id="{359A65BB-0A2C-44E5-8C34-DF3ACDBB42A7}"
+              s:ph="page-layout" />
+            <r
+              uid="{A8832A62-2A78-4522-9FBF-6B52637CCE21}">
+              <p:d />
+            </r>
+            <r
+              uid="{BA0C73C0-95A8-4A71-A2C4-C662169E84E6}"
+              p:after="r[@uid='{35F57F2A-FE60-43E5-9E94-A5D25F9C1B9D}']"
+              s:id="{4ACD4C20-28D1-46F7-8FBA-A35778937BD1}"
+              s:ph="/page-layout/section" />
+          </d>
+        </r>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
       Hint: OpenGraphTitle
       Value: Rooftops that power savings
@@ -55,7 +155,7 @@ Languages:
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
       Value: |
-        <image mediapath="/Default Website/cover" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/cover" mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" ></image>
+        <image mediapath="/Default Website/cover" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/cover" mediaid="{E6864C68-1920-4429-BF3A-64984DB139D7}"></image>
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: With Habitat rooftop solar products you'll save both money and the environment all while controlling utility costs and moving towards energy independence through a reliable, unlimited source of power.
@@ -69,9 +169,5 @@ Languages:
       Hint: Body
       Value: |
         <p>With Habitat rooftop solar products you'll save both money and the environment all while controlling utility costs and moving towards energy independence through a reliable, unlimited source of power.</p>
+        <p>For residential homes, Habitat offers two primary products—solar panels and solar roofs.</p>
         
-        <p>For residential homes, Habitat offers two primary products—solar panels and solar roofs. </p>
-        <h3>Solar Panels</h3>
-        <p>Our solar panel systems look right at home on your roof with a super sleek, low profile design. With integrated paneling and no visible hardware, we offer a clean look that is unmatched on an aesthetic level. Our solar panels also outperform other panels due to rigorous testing beyond industry standards. We cover all roofing work and system repairs at no extra cost. And, we can offer you the best solar panel technology at the best price—along with the most financing options in the industry, whatever plan you choose, you’ll save money on your monthly utility bill. Watch video below to learn more.</p>
-        <h3>Solar Roofs</h3>
-        <p>Invisibly powerful, it’s more than just a roof over your head. It's special roof tiles that have solar cells invisible to the naked eye from the street. What looks like a beautiful roof tile is actually an energy-producing innovation. Made of extremely strong tempered glass, these roof tiles can withstand the impact of hail up to 220 mph. That's not surprising since they can take on nearly three times the force of standard roofing tiles. We have a variety of styles to suit almost any home and the roofs cost less than an equivalent roof when you include the projected savings from your utility bill, all of which come with a wide range of financing options.</p>

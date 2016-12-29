@@ -23,8 +23,68 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{34B76F66-6EE6-47A1-A9EF-32496171A7B1}"
+              uid="{3F1E94B4-A6F9-40A8-B70E-F4CEB800BB4A}"
               p:before="*"
+              s:ds="{324C0D44-AEED-4743-9B0E-C33E0647B5E2}"
+              s:id="{A9B002E1-963F-4F35-B6DB-14A8D4BF171A}"
+              s:ph="/page-layout/page-header">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{52CB85B7-03AF-4CE0-B5CA-261B07E55514}"
+                    s:name="Budget Customer">
+                    <conditions>
+                      <condition
+                        uid="9E85B9169F3D4928880F872061BE9F7A"
+                        s:id="{6426B5B4-83E9-4E24-BA97-43293A10B47D}"
+                        s:ProfileName="Utilities Persona"
+                        s:PatternName="Samuel the Saver_B2C" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="F11AF67E85F94C22A556F3847D80F56D"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{D445CE1C-3851-4C47-BDCA-DC9D5DA13E88}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{FD571AAE-9BA7-4D08-94AC-EA1429C80DD6}"
+                    s:name="Environmental Customer">
+                    <conditions>
+                      <condition
+                        uid="5E72F3DDB26946219704DCBB1EA878AD"
+                        s:id="{6426B5B4-83E9-4E24-BA97-43293A10B47D}"
+                        s:ProfileName="Utilities Persona"
+                        s:PatternName="Evan the Eco-Owner_B2C" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="4FD43638AFDF4765AB499569239B873A"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{3BBEAA63-BEE4-4F26-8818-AAF564F0B43E}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="490262097CE14B9DB42D269235D59D11"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="9562E01A64094A81BB85A6964FA6C7C4"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{324C0D44-AEED-4743-9B0E-C33E0647B5E2}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{34B76F66-6EE6-47A1-A9EF-32496171A7B1}"
+              p:after="r[@uid='{3F1E94B4-A6F9-40A8-B70E-F4CEB800BB4A}']"
               s:ds="{36A4A118-ED60-4E32-A5A1-DC1C98926C4E}"
               s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
               s:ph="/page-layout/section_8ffc1a3a-9d0c-430a-957b-9f3fbf9de6f3/col-narrow-3_92131aff-9786-4920-96ca-0d12c225d15f" />
@@ -143,61 +203,6 @@ Languages:
               p:after="r[@uid='{E02350CD-AE58-481C-9FC5-AF1FA11C4B61}']"
               s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}"
               s:ph="/page-layout/section_8ffc1a3a-9d0c-430a-957b-9f3fbf9de6f3" />
-            <r
-              uid="{3A924303-4435-4692-879B-C1BE15F7941D}"
-              p:after="r[@uid='{92131AFF-9786-4920-96CA-0D12C225D15F}']"
-              s:ds="{CF5AD50E-A39A-4AEE-BC6D-9112C2947A2A}"
-              s:id="{8B28417B-A5B3-44F1-BFCC-FE1D907336E7}"
-              s:ph="/page-layout/page-header">
-              <rls>
-                <ruleset>
-                  <rule
-                    uid="{50F7BA6E-45DF-44B3-86C7-58D6414E28AC}"
-                    s:name="Environmental Customer">
-                    <conditions>
-                      <condition
-                        uid="284C98EA5319478B9FDBD5E58C01A86D"
-                        s:id="{6426B5B4-83E9-4E24-BA97-43293A10B47D}"
-                        s:ProfileName="Utilities Persona"
-                        s:PatternName="Evan the Eco-Owner_B2C" />
-                    </conditions>
-                    <actions>
-                      <action
-                        uid="98D7315031AE4608AB15A560F05B3FC8"
-                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="{E0582F83-405A-4946-8A48-11193E92E136}" />
-                    </actions>
-                  </rule>
-                  <rule
-                    uid="{6C90C5D0-EA61-4CEE-9264-40EA099A26E2}"
-                    s:name="Budget Customer">
-                    <conditions>
-                      <condition
-                        uid="4619A70BDE3E4F0A9ABF5E00EEFF8248"
-                        s:id="{6426B5B4-83E9-4E24-BA97-43293A10B47D}"
-                        s:ProfileName="Utilities Persona"
-                        s:PatternName="Samuel the Saver_B2C" />
-                    </conditions>
-                    <actions>
-                      <action
-                        uid="B11A7D7C4BF8410F8B8439C20DADF0F2"
-                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="{25844684-1902-42AB-A335-F6A3E43C93A0}" />
-                    </actions>
-                  </rule>
-                  <rule
-                    uid="{00000000-0000-0000-0000-000000000000}"
-                    s:name="Default">
-                    <conditions>
-                      <condition
-                        uid="5F87C62F0D414701AB9E36377DC8F145"
-                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
-                    </conditions>
-                    <actions />
-                  </rule>
-                </ruleset>
-              </rls>
-            </r>
           </d>
         </r>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"

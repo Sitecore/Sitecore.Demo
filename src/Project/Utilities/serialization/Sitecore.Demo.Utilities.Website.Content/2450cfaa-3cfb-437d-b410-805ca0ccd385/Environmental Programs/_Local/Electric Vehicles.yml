@@ -1,0 +1,28 @@
+﻿---
+ID: "93340d00-a8c6-4fcd-b62d-f930e1c1f0b4"
+Parent: "f5699071-a859-45cd-8b0d-ebc7f67b8a73"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: /sitecore/content/Utilities/Home/Community and Environment/Environmental Programs/_Local/Electric Vehicles
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{5556BCC4-535C-45B7-9CE6-564D7C2B418F}" />
+    - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
+      Hint: TeaserSummary
+      Value: Whether you already own an electric vehicle or are considering buying one, we have information and resources to help you make a decision that's right for you. Watch the video below if you're considering an electric vehicle. As well, contact us and we can review everything you'll need to know from charging options and electric vehicle rates (know when to charge) to a personalized estimation tool to help you make informed decisions about buying an EV.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161229T090746Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value:         Electric Vehicles                               

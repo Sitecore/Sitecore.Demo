@@ -33,6 +33,72 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{68AB9E1B-1636-4091-A570-159E6EE54D23}"
+              p:before="*"
+              s:ds="{93340D00-A8C6-4FCD-B62D-F930E1C1F0B4}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section_c292e2e8-6547-4256-9dcc-39abb0badab0/col-narrow-3_5a76a216-6c28-4253-aefc-06b2c2369d50" />
+            <r
+              uid="{3F07EA29-1A01-4E50-9B06-90ABAEEE7F24}"
+              p:after="r[@uid='{68AB9E1B-1636-4091-A570-159E6EE54D23}']"
+              s:ds="{DE424E97-0BA0-4F10-8376-4EA3ED292A78}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section_c292e2e8-6547-4256-9dcc-39abb0badab0/col-narrow-2_5a76a216-6c28-4253-aefc-06b2c2369d50" />
+            <r
+              uid="{23C3638E-C993-488E-AEDA-BDB8E657F208}"
+              p:after="r[@uid='{3F07EA29-1A01-4E50-9B06-90ABAEEE7F24}']"
+              s:ds="{A7121F78-DC7D-46B6-B9C8-52C7F1429393}"
+              s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
+              s:ph="/page-layout/section_c292e2e8-6547-4256-9dcc-39abb0badab0/col-narrow-1_5a76a216-6c28-4253-aefc-06b2c2369d50" />
+            <r
+              uid="{5A76A216-6C28-4253-AEFC-06B2C2369D50}"
+              p:after="r[@uid='{23C3638E-C993-488E-AEDA-BDB8E657F208}']"
+              s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}"
+              s:ph="/page-layout/section_c292e2e8-6547-4256-9dcc-39abb0badab0" />
+            <r
+              uid="{4A327325-6918-4E93-B7E9-C87AE190364B}"
+              p:after="r[@uid='{5A76A216-6C28-4253-AEFC-06B2C2369D50}']"
+              s:ds=""
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/page-layout/section_e0107d0d-548b-4e25-a118-e3f83d7c6d7a/col-narrow-3_573b78db-537d-4843-b04c-1d249e8c7c6e" />
+            <r
+              uid="{B105AAB0-F1D9-4F6D-99A7-35E444F4AB89}"
+              p:after="r[@uid='{4A327325-6918-4E93-B7E9-C87AE190364B}']"
+              s:ds=""
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/page-layout/section_e0107d0d-548b-4e25-a118-e3f83d7c6d7a/col-narrow-2_573b78db-537d-4843-b04c-1d249e8c7c6e" />
+            <r
+              uid="{B17F1060-98D0-44EE-822C-2A62158C8EB7}"
+              p:after="r[@uid='{B105AAB0-F1D9-4F6D-99A7-35E444F4AB89}']"
+              s:ds=""
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:ph="/page-layout/section_e0107d0d-548b-4e25-a118-e3f83d7c6d7a/col-narrow-1_573b78db-537d-4843-b04c-1d249e8c7c6e" />
+            <r
+              uid="{573B78DB-537D-4843-B04C-1D249E8C7C6E}"
+              p:after="r[@uid='{B17F1060-98D0-44EE-822C-2A62158C8EB7}']"
+              s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}"
+              s:ph="/page-layout/section_e0107d0d-548b-4e25-a118-e3f83d7c6d7a" />
+            <r
+              uid="{C292E2E8-6547-4256-9DCC-39ABB0BADAB0}"
+              p:after="r[@uid='{7767601D-C55E-44D7-9E2F-B16665C9EABF}']"
+              s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+              s:ph="page-layout" />
+            <r
+              uid="{899B8792-1DEB-471B-9B61-DA6076582C79}">
+              <p:d />
+            </r>
+          </d>
+        </r>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
       Hint: OpenGraphTitle
       Value: Leading the way towards a cleaner habitat
@@ -42,6 +108,10 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161209T034829Z
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: |
+        <image mediapath="/Default Website/cover" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/cover" mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" ></image>
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: "For more than a 20 years, Habitat and it's customers have led the way to a cleaner environment with programs such as the ones outlined below:"

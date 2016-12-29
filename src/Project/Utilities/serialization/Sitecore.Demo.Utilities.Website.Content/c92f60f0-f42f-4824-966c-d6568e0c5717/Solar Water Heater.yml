@@ -1,0 +1,24 @@
+﻿---
+ID: "1f8b5188-66a2-42c4-8347-9fc9b97b7691"
+Parent: "c92f60f0-f42f-4824-966c-d6568e0c5717"
+Template: "c7d9d293-4ef8-4380-8e10-c4632e729f39"
+Path: /sitecore/content/Utilities/Home/Solar Solutions/Other Solar Solutions/_Local/Teaser Carousel/Solar Water Heater
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f6b5546-e0ab-4487-81de-640c1aa1b65b"
+      Hint: TeaserImage
+      Value: |
+        <image mediaid="{954F0AAF-8065-4A3F-B069-63BB22F2E97D}" />
+    - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
+      Hint: TeaserSummary
+      Value: A solar water heater is one of the most effective ways of cutting a household's carbon footprint by reducing reliance on fossil fuel usage. By offsetting the use of electricity, gas or heating oil, using solar water heaters can also provide financial savings by reducing energy costs. Habitat offers a variety of water heating solutions that allow you to use the sun's power to provide hot water for your home with great efficiency and low energy costs. Choose from a variety of options to store your hot water and provide backup capabilities if necessary.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161228T155504Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Solar Water Heater
