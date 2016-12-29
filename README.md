@@ -2,12 +2,13 @@
 
 This solution hosts the demo websites for Sitecore.
 
-* Legal - *Professional services vertical. Legal company*
+* Habitat Legal - *Professional services vertical. Legal Services*
+* Habitat Finance - *Financial services vertical. Banking, Insurance, Investment*
+* Habitat Utility - *Utilities vertical. Power company*
 
 To install, set up a website running:
-* Sitecore 8.1
-* The [Habitat](https://github.com/sitecore/habitat) framework (For more information about the Habitat project, please check out the [Habitat Wiki](https://github.com/sitecore/habitat/wiki))
-* WFFM
+* A Sitecore solution running the [Habitat](https://github.com/sitecore/habitat) framework.
+  * For more information about the Habitat project along with required dependencies, please check out the [Habitat Wiki](https://github.com/sitecore/habitat/wiki))
 * EXM
 * PXM
 * [xGenerator](https://github.com/Sitecore/xGenerator)
