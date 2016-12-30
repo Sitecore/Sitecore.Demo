@@ -43,8 +43,13 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{4E101DA4-ADCD-4B36-9296-605C9B895636}"
+              uid="{01761FD9-CA9E-474B-AFD2-70FD62B673D9}"
               p:before="*"
+              s:id="{3F7AD288-FA57-441F-AD79-CA60DC0C0A8D}"
+              s:ph="/page-layout/section/col-narrow-1" />
+            <r
+              uid="{4E101DA4-ADCD-4B36-9296-605C9B895636}"
+              p:after="r[@uid='{01761FD9-CA9E-474B-AFD2-70FD62B673D9}']"
               s:ds="{EFAB6932-A3D9-453A-965B-E4BD70D2E604}"
               s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}"
               s:ph="/page-layout/section/section-narrow/col-wide-2_e2e5a102-2149-403e-8ea7-e166d3ab6132" />
@@ -152,10 +157,6 @@ Languages:
         {7480AD03-90E8-4655-8894-3A5B3DF88B4F}
         {DBAB2C83-3089-4984-AC8D-2B42F392B3DC}
         {3F156D70-D4F5-4D4A-9414-3755BC4B59A2}
-    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
-      Hint: Image
-      Value: |
-        <image mediapath="/Default Website/cover" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/cover" mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}"></image>
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: With Habitat rooftop solar products you'll save both money and the environment all while controlling utility costs and moving towards energy independence through a reliable, unlimited source of power.
@@ -168,6 +169,5 @@ Languages:
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
-        <p>With Habitat rooftop solar products you'll save both money and the environment all while controlling utility costs and moving towards energy independence through a reliable, unlimited source of power.</p>
-        <p>For residential homes, Habitat offers two primary products—solar panels and solar roofs.</p>
+        <p>For residential homes, Habitat offers two primary products—solar panels and solar roofs.<br /></p>
         

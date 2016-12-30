@@ -20,10 +20,12 @@ Languages:
         <image mediaid="{3764F350-9DB3-4409-BF27-CE94FAECBDCF}" />
     - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
       Hint: TeaserSummary
-      Value: Habitat will provide updates that include the cause of the outage as well as when you can expect power to be back on. Habitat offers future and individual outage alerts.
+      Value: |
+        Receive outage alerts via text, email, or phone.
+        Habitat will provide updates that include the cause of the outage as well as when you can expect power to be back on. Habitat offers future and individual outage alerts.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161221T091430Z
     - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
       Hint: TeaserTitle
-      Value: "Stay informed! Receive outage alerts via text, email, or phone"
+      Value: "Stay informed!"

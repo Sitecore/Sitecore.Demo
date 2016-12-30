@@ -1,0 +1,33 @@
+﻿---
+ID: "e3f85fc3-222d-443a-94e4-e8b5a6ac60d9"
+Parent: "dca88b59-5740-403b-a827-50febbf8afa0"
+Template: "f1c095e2-b3e0-46d0-b838-02a9e8b880d9"
+Path: /sitecore/content/Utilities/Home/_Local/Going Greener Video
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161229T221110Z
+    - ID: "2628705d-9434-4448-978c-c3bf166fa1eb"
+      Hint: MediaVideoLink
+      Value: |
+        <link linktype="media" target="" id="{F922507A-E2A5-4D4E-8366-B386D5C6ACD0}" />
+    - ID: "302c9f8d-f703-4f76-a4ab-73d222648232"
+      Hint: MediaDescription
+      Value: |
+        <p><span style="background-color: #ffffff; color: #1f747e;">Discover how we're helping you preserve natural resources and reduce pollution, all while providing power for your everyday needs.</span></p>
+    - ID: "4ff62b0a-d73b-4436-bea2-023154f2ffc4"
+      Hint: MediaThumbnail
+      Value: |
+        <image mediaid="{EC2A2010-49EC-4576-86C6-5BC78E3E3105}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "63dda48b-b0cb-45a7-9a1b-b26ddb41009b"
+      Hint: MediaTitle
+      Value: Going greener with Habitat

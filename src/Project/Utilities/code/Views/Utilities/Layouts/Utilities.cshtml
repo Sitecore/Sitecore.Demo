@@ -26,7 +26,7 @@
   @RenderAssetsService.Current.RenderStyles()
   @Html.Sitecore().VisitorIdentification()
 </head>
-<body class="pagelayout-fixed body-secondary @(Sitecore.Context.PageMode.IsExperienceEditor ? "header-static" : "") @(Sitecore.Context.PageMode.IsNormal ? "" : (Sitecore.Context.PageMode.IsExperienceEditor ? "pagemode-edit" : "pagemode-preview"))">
+<body class="pagelayout-fixed body-media @(Sitecore.Context.PageMode.IsExperienceEditor ? "header-static" : "") @(Sitecore.Context.PageMode.IsNormal ? "" : (Sitecore.Context.PageMode.IsExperienceEditor ? "pagemode-edit" : "pagemode-preview"))" style="background-image: url(/images/utilities/background.jpg);">
   <div id="main-container">
     <header class="header-static bg-white">
       @Html.Sitecore().Placeholder("header-top")

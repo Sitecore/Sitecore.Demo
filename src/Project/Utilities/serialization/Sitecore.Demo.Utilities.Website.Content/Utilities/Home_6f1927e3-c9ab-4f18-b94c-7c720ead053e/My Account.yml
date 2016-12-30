@@ -40,8 +40,7 @@ Languages:
       Type: Layout
       Value: |
         <r xmlns:p="p" xmlns:s="s"
-          p:p="1"
-          s:xsd="http://www.w3.org/2001/XMLSchema">
+          p:p="1">
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
@@ -117,6 +116,14 @@ Languages:
               p:after="r[@uid='{8447E5DA-8F4E-451C-ACA9-318FDB0646A7}']"
               s:id="{CA748838-E6D5-4BAD-9126-CAD10DD1B0DB}"
               s:ph="/page-layout/section_427e0284-3431-4187-bae3-7106a2d60748/col-narrow-1_7c06917e-03e9-46e4-9661-89294386d3c3" />
+            <r
+              uid="{E3C53C0D-5756-4477-8143-13BBF2E62F62}">
+              <p:d />
+            </r>
+            <r
+              uid="{112D7C09-7AE1-40BF-82B7-E3EBEACFA9CF}">
+              <p:d />
+            </r>
           </d>
         </r>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"

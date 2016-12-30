@@ -26,6 +26,10 @@ SharedFields:
 Languages:
 - Language: en
   Fields:
+  - ID: "2a84eca4-68bb-4451-b4ac-98ea71a5a3dc"
+    Hint: SiteProfiles
+    Type: Multilist
+    Value: "{D016ADEF-7737-4289-A85F-FE0055F49C8E}"
   - ID: "53b5af0a-265f-4e60-b2b2-4576ce0beccf"
     Hint: Theme
     Value: "{960A27EC-ABE3-43C0-947E-6397FCDD14FA}"
@@ -39,7 +43,7 @@ Languages:
       Hint: Copyright
       Value: |
         <p><a href="~/link.aspx?_id=937170D9D7054A3C97DA6B148DA35075&amp;_z=z">Legal Notice</a>&nbsp;| <a href="~/link.aspx?_id=93C7D4AAC9614E669ED9CE39F6EEFE2A&amp;_z=z">Privacy Policy</a></p>
-        <p>Copyright &copy; 2016 Sitecore<br>
+        <p>Copyright &copy; 2016 Sitecore<br />
         <small>&ldquo;Habitat Utilities&rdquo; as used here is for demonstration purposes only and to represent the software and services provided by Sitecore further described at www.sitecore.net.</small></p>
     - ID: "021aa3f7-206f-4acc-9538-f6d7fe86b168"
       Hint: Interests Folder
@@ -67,7 +71,7 @@ Languages:
     - ID: "a24df48f-c8a3-4163-966c-8c24bd8760b2"
       Hint: OrganisationAddress
       Value: |
-        Habitat Utilities
+        1234 Habitat Blvd., 10th Floor
         City, State, 12345
     - ID: "e748d808-64c1-4dec-9718-f35cf9689e4b"
       Hint: Logo

@@ -46,8 +46,13 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{3BC5B8BC-5157-4C20-A95E-394A58BC4634}"
+              uid="{07D6599B-EA27-455B-AEFA-A818ED34F594}"
               p:before="*"
+              s:id="{3F7AD288-FA57-441F-AD79-CA60DC0C0A8D}"
+              s:ph="/page-layout/section/col-narrow-1" />
+            <r
+              uid="{3BC5B8BC-5157-4C20-A95E-394A58BC4634}"
+              p:after="r[@uid='{07D6599B-EA27-455B-AEFA-A818ED34F594}']"
               s:ds="{C92F60F0-F42F-4824-966C-D6568E0C5717}"
               s:id="{5D35C31F-0770-4498-BAB8-C88BEF41F153}"
               s:ph="/page-layout/section/section-narrow/col-wide-1_d7136ef2-1932-4ddb-aa45-524167be52a9" />
@@ -81,10 +86,6 @@ Languages:
         {6C4E58A9-9F53-40B2-B7F6-4BA78A4B2993}
         {ED3A7CAA-164A-48DE-B8EF-05A7E56EF10E}
         {06028160-04F4-4BE8-B4EB-05E466F40742}
-    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
-      Hint: Image
-      Value: |
-        <image mediapath="/Default Website/cover" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/cover" mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}"></image>
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: "In addition to the more popular panels and roofs, Habitat offers other ways to harness solar energy. Learn about those below:"

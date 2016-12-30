@@ -4,6 +4,10 @@ Parent: "6f1927e3-c9ab-4f18-b94c-7c720ead053e"
 Template: "1c706975-f2fa-4215-ba37-78518bfbafc4"
 Path: /sitecore/content/Utilities/Home/Rate Plans
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-525"
 Languages:
 - Language: en
   Fields:
@@ -13,6 +17,29 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E04BF41E-149B-4699-BF4E-772B72465DDD}"
+              p:before="*"
+              s:ds="{2C3A3DC5-F87A-4677-86C3-7716590B11A6}"
+              s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
+              s:par="Background={EFA6AD59-AE21-4524-90F8-A92440B869AF}&amp;Fixed height"
+              s:ph="/page-layout/section/col-narrow-1" />
+            <r
+              uid="{F362493C-182C-47EB-B854-CA69C71F9821}"
+              p:after="r[@uid='{E04BF41E-149B-4699-BF4E-772B72465DDD}']"
+              s:id="{CA748838-E6D5-4BAD-9126-CAD10DD1B0DB}"
+              s:ph="/page-layout/section/col-narrow-1" />
+          </d>
+        </r>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
       Hint: OpenGraphTitle
       Value: With Habitat, the choice is up to you
@@ -48,7 +75,6 @@ Languages:
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
-        Review a quick summary of our plan offerings: 
         <h3>Tiered-Base Plan: </h3>
         <p>The Tiered Rate Plan has three pricing tiers. As you use up the allocated electricity for each tier during your billing period, you move to the next, higher priced tier. To save on your bill, you can conserve energy to stay on lower priced tiers for as long as possible.</p>
         <h3>Time-of-Use Plan</h3>

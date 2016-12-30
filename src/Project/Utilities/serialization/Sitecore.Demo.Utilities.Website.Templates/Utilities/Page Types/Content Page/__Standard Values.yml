@@ -13,7 +13,7 @@ SharedFields:
   Hint: __Renderings
   Type: layout
   Value: |
-    <r>
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{89C954A2-1E82-4989-B5BE-7459D0F3CF41}">
@@ -119,6 +119,10 @@ SharedFields:
           ph="page-layout"
           uid="{7767601D-C55E-44D7-9E2F-B16665C9EABF}" />
         <r
+          id="{E6BA23C6-08F7-43D0-BE00-BB2129D6F288}"
+          ph="/page-layout/page-header"
+          uid="{27AF6EA1-9367-48D5-A984-CD1E505CB902}" />
+        <r
           id="{45B8E1D9-D522-49E0-B9B7-04C965CC7089}"
           ph="/page-layout/page-header"
           uid="{A8832A62-2A78-4522-9FBF-6B52637CCE21}" />
@@ -189,8 +193,7 @@ Languages:
         sitecore\admin
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
-      Value: |
-        <image mediapath="/Default Website/cover" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/cover" mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" />
+      Value: 
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a varius ligula. Donec gravida tellus ut blandit auctor. Mauris urna mauris, convallis vitae euismod nec, elementum vitae dui.

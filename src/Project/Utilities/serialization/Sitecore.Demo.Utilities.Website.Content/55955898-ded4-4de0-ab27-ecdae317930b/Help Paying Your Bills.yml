@@ -13,6 +13,22 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{728AC91C-CAC3-4067-9DE2-9FE56F46BA40}"
+              p:before="*"
+              s:id="{3F7AD288-FA57-441F-AD79-CA60DC0C0A8D}"
+              s:ph="/page-layout/section/col-narrow-1" />
+          </d>
+        </r>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
       Hint: OpenGraphTitle
       Value: Everyone needs a helping hand
@@ -25,7 +41,7 @@ Languages:
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
       Value: |
-        <image mediapath="/Default Website/cover" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/cover" mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" />
+        <image mediapath="/Default Website/cover" src="~/media/Default Website/cover" height="" mediaid="{6C7A82C6-4910-4933-A9FF-3B50ED1010FF}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" />
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: Habitat offers many programs that can help you save money and energy. In these tough times, we’re dedicated to serving our customers' needs. We take pride in being a part of the communities we serve. Together, we can find solutions.

@@ -24,10 +24,12 @@ Languages:
         <image mediaid="{24274DBC-1DAA-44A0-BBE8-A0F7E00B3E22}" />
     - ID: "13d97a52-7c4e-407c-960d-fadde8a3c1b1"
       Hint: TeaserSummary
-      Value: Learn about our clean energy programs and how we can help you get started. Use our services to assist with the installation and managing the use of your renewable energy systems
+      Value: |
+        Understand what's involved in switching to renewable energy.
+        Learn about our clean energy programs and how we can help you get started. Use our services to assist with the installation and managing the use of your renewable energy systems
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161221T092353Z
     - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
       Hint: TeaserTitle
-      Value: Understand what's involved in switching to renewable energy
+      Value: Switch to renewable

@@ -113,10 +113,6 @@ Languages:
         {AFBE2910-3831-4744-AB4D-B1CED51E5290}
         {B7AE8DDE-3673-4FE3-9D9E-F90AEF81845D}
         {607368D3-F722-491A-B0E0-C99E93EE8785}
-    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
-      Hint: Image
-      Value: |
-        <image mediapath="/Default Website/cover" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Default Website/cover" mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" ></image>
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: "Learn how Habitat is helping communities thrive:"

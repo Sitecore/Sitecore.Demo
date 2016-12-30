@@ -53,10 +53,20 @@ Languages:
               uid="{28BF6449-2D05-4D45-95F6-4C8E1D9CD1CB}"
               p:before="*"
               s:id="{84924ABF-F983-4AF5-9002-EA0237A53DA9}"
-              s:ph="/page-layout/section/col-huge_71993ef7-c272-486b-86c6-ed8db52f4822" />
+              s:ph="/page-layout/section_fa4c3992-a25f-4906-a3e9-a7aaf66bb0b6/col-huge_2000abdf-b59a-4056-9ec9-055fa840e5a4" />
+            <r
+              uid="{2000ABDF-B59A-4056-9EC9-055FA840E5A4}"
+              p:after="r[@uid='{28BF6449-2D05-4D45-95F6-4C8E1D9CD1CB}']"
+              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
+              s:ph="/page-layout/section_fa4c3992-a25f-4906-a3e9-a7aaf66bb0b6" />
+            <r
+              uid="{5B5DCE75-DF36-40BD-8A72-76A83412F684}"
+              p:after="r[@uid='{2000ABDF-B59A-4056-9EC9-055FA840E5A4}']"
+              s:id="{3F7AD288-FA57-441F-AD79-CA60DC0C0A8D}"
+              s:ph="/page-layout/section/col-narrow-1" />
             <r
               uid="{21AEA3BB-5277-4FDF-9D8D-9D66C4F88E54}"
-              p:after="r[@uid='{28BF6449-2D05-4D45-95F6-4C8E1D9CD1CB}']"
+              p:after="r[@uid='{5B5DCE75-DF36-40BD-8A72-76A83412F684}']"
               s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
               s:ph="/page-layout/section_d663a725-4c6d-47ee-8899-5370e7281ef3" />
             <r
@@ -65,10 +75,16 @@ Languages:
               s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}"
               s:ph="/page-layout/section/section-narrow" />
             <r
-              uid="{71993EF7-C272-486B-86C6-ED8DB52F4822}"
-              p:after="r[@uid='{35F57F2A-FE60-43E5-9E94-A5D25F9C1B9D}']"
-              s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
-              s:ph="/page-layout/section" />
+              uid="{899B8792-1DEB-471B-9B61-DA6076582C79}"
+              s:ds=""
+              s:par="Background&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames=1" />
+            <r
+              uid="{FA4C3992-A25F-4906-A3E9-A7AAF66BB0B6}"
+              p:after="r[@uid='{899B8792-1DEB-471B-9B61-DA6076582C79}']"
+              s:ds=""
+              s:id="{1149A3C7-C69A-4E6B-A6C3-32687EC2F8D4}"
+              s:par="UseStaticPlaceholderNames&amp;Type=bg-media&amp;Media={F922507A-E2A5-4D4E-8366-B386D5C6ACD0}&amp;Parallax"
+              s:ph="page-layout" />
           </d>
         </r>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
@@ -108,16 +124,9 @@ Languages:
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: |
-        <p>Going solar is a big decision. Let us help you make informed choices.</p>
-        <h3>Step 1: Run the numbers</h3>
+        <p><span style="color: inherit; font-family: inherit; font-size: 24px; font-weight: 800;">Step 1: Run the numbers</span><br /></p>
         <p>Contact a solar concierge who can help you use satellite information about your rooftop together with your current monthly bills to lay out a cost-benefit analysis.</p>
         <h3>Step 2: Make your home energy efficient</h3>
         <p>Make sure the energy you make from solar isn't wasted. Our concierge will review all the ways to ensure the energy you generate isn't lost.</p>
         <h3>Step 3: Select a contractor</h3>
         <p>Once you commit to solar, it's important to choose the right contractor. Our solar concierge will help provide guidance and tips to help you choose.</p>
-        <p>Read more on three solar programs Habitat offers:</p>
-        <ul>
-        <li>Solar panels</li>
-        <li>Solar roof</li>
-        <li>Solar Backup Power</li>
-        <li>Solar Water Heater</li></ul>

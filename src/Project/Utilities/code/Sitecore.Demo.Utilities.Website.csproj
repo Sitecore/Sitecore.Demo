@@ -112,6 +112,7 @@
     <Content Include="styles\OrangeFlavour.min.css">
       <DependentUpon>OrangeFlavour.css</DependentUpon>
     </Content>
+    <Content Include="images\utilities\background.jpg" />
     <Content Include="Views\Utilities\Layouts\Utilities.cshtml" />
     <Content Include="App_Config\Security\domains.config.transform" />
     <Content Include="compilerconfig.json" />
