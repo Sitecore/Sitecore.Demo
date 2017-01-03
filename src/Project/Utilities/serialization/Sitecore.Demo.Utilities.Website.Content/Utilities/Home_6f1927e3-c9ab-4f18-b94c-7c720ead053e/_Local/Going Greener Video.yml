@@ -15,7 +15,7 @@ Languages:
     - ID: "2628705d-9434-4448-978c-c3bf166fa1eb"
       Hint: MediaVideoLink
       Value: |
-        <link linktype="media" target="" id="{F922507A-E2A5-4D4E-8366-B386D5C6ACD0}" />
+        <link linktype="media" target="" id="{EF4365EF-258A-4E8B-A5B9-F05BE701B583}" />
     - ID: "302c9f8d-f703-4f76-a4ab-73d222648232"
       Hint: MediaDescription
       Value: |
@@ -23,7 +23,7 @@ Languages:
     - ID: "4ff62b0a-d73b-4436-bea2-023154f2ffc4"
       Hint: MediaThumbnail
       Value: |
-        <image mediaid="{EC2A2010-49EC-4576-86C6-5BC78E3E3105}" />
+        <image mediaid="{A42AC982-D7F5-42E2-8223-0DDC3F5D3579}" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

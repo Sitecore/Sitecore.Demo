@@ -15,14 +15,14 @@ Languages:
     - ID: "2628705d-9434-4448-978c-c3bf166fa1eb"
       Hint: MediaVideoLink
       Value: |
-        <link linktype="media" target="" id="{C7752ACB-2103-47F0-9499-E23F14369EF9}" />
+        <link linktype="media" target="" id="{CCE1904F-6117-47B4-A709-CAC2E88C0CAF}" />
     - ID: "302c9f8d-f703-4f76-a4ab-73d222648232"
       Hint: MediaDescription
       Value: 
     - ID: "4ff62b0a-d73b-4436-bea2-023154f2ffc4"
       Hint: MediaThumbnail
       Value: |
-        <image mediaid="{B4605C1C-0E0F-4094-A435-E1FEFA9539C0}" />
+        <image mediaid="{81DC3085-588E-4F9C-9DE1-04A6BD1EB829}" />
     - ID: "63dda48b-b0cb-45a7-9a1b-b26ddb41009b"
       Hint: MediaTitle
       Value: Solar Panels

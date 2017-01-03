@@ -76,14 +76,13 @@ Languages:
               s:ph="/page-layout/section/section-narrow" />
             <r
               uid="{899B8792-1DEB-471B-9B61-DA6076582C79}"
-              s:ds=""
-              s:par="Background&amp;ContainerIsFluid&amp;UseStaticPlaceholderNames=1" />
+              s:ds="" />
             <r
               uid="{FA4C3992-A25F-4906-A3E9-A7AAF66BB0B6}"
               p:after="r[@uid='{899B8792-1DEB-471B-9B61-DA6076582C79}']"
               s:ds=""
               s:id="{1149A3C7-C69A-4E6B-A6C3-32687EC2F8D4}"
-              s:par="UseStaticPlaceholderNames&amp;Type=bg-media&amp;Media={F922507A-E2A5-4D4E-8366-B386D5C6ACD0}&amp;Parallax"
+              s:par="Media=%7bCCE1904F-6117-47B4-A709-CAC2E88C0CAF%7d&amp;Type=bg-media"
               s:ph="page-layout" />
           </d>
         </r>
