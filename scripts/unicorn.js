@@ -15,6 +15,7 @@ module.exports = function (callback, options) {
       return options.secret;    
     var unicornConfigFile = options.authenticationConfigFile;
 
+	console.log("Reading shared secret from " + unicornConfigFile);
     var data = fs.readFileSync(unicornConfigFile);
 
     var parser = new xml2js.Parser();

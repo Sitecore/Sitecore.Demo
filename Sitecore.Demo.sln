@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{61DBB28E-BC37-49B0-8F56-6FA6B39FAC3E}"
 EndProject
@@ -16,7 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configurat
 		package.json = package.json
 		publishsettings.targets = publishsettings.targets
 		README.md = README.md
-		src\Project\Legal\code\App_Config\Include\Project\z.Sitecore.Demo.DevSettings.config = src\Project\Legal\code\App_Config\Include\Project\z.Sitecore.Demo.DevSettings.config
+		src\Project\Legal\code\App_Config\Include\Project\z.Sitecore.Demo.Legal.Website.DevSettings.config = src\Project\Legal\code\App_Config\Include\Project\z.Sitecore.Demo.Legal.Website.DevSettings.config
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{90478177-AEE1-4224-B707-0346FF0D0B98}"
