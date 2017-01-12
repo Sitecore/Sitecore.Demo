@@ -11,7 +11,7 @@ To install, set up a website running:
   * For more information about the Habitat project along with required dependencies, please check out the [Habitat Wiki](https://github.com/sitecore/habitat/wiki))
 * EXM
 * PXM
-* [xGenerator](https://github.com/Sitecore/xGenerator)
+* [xGenerator and EXM generator](https://github.com/Sitecore/xGenerator/releases)
 
 The code and scenarios in this repository is not generally supported and can be used as is.
 
