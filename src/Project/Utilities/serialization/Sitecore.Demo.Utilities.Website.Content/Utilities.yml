@@ -5,6 +5,10 @@ Template: "e6e2c01a-8233-43b6-8f28-415aadaf437e"
 Path: /sitecore/content/Utilities
 DB: master
 SharedFields:
+- ID: "12537182-f35c-403f-afb5-747d55c450b8"
+  Hint: ShowInMenu
+  Type: Checkbox
+  Value: 1
 - ID: "365254c4-1c1c-493a-9710-671574717898"
   Hint: Forgot Password Mail Template
   Value: /sitecore/content/Utilities/Global/Registration/Forgot Password Email
@@ -48,10 +52,6 @@ Languages:
     - ID: "021aa3f7-206f-4acc-9538-f6d7fe86b168"
       Hint: Interests Folder
       Value: "{B8AD0301-3BF6-43C2-ACE0-A0329ADA1A56}"
-    - ID: "12537182-f35c-403f-afb5-747d55c450b8"
-      Hint: ShowInMenu
-      Type: Checkbox
-      Value: 1
     - ID: "235ae392-97ac-4822-be38-837da3e7724e"
       Hint: SiteBrowserTitle
       Value: | Powering Our Future | Habitat Utilities

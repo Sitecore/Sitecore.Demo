@@ -5,6 +5,10 @@ Template: "18bc1c1a-9a73-41ba-8a0c-6582e9337657"
 Path: /sitecore/content/Legal
 DB: master
 SharedFields:
+- ID: "12537182-f35c-403f-afb5-747d55c450b8"
+  Hint: ShowInMenu
+  Type: Checkbox
+  Value: 1
 - ID: "5f115b6d-6052-4c7e-b442-ae923a7e9bd2"
   Hint: SupportedLanguages
   Type: Multilist
@@ -56,10 +60,6 @@ Languages:
     - ID: "021aa3f7-206f-4acc-9538-f6d7fe86b168"
       Hint: Interests Folder
       Value: "{144211C0-6E3F-4A9B-8274-60AFE4E8AE63}"
-    - ID: "12537182-f35c-403f-afb5-747d55c450b8"
-      Hint: ShowInMenu
-      Type: Checkbox
-      Value: 1
     - ID: "235ae392-97ac-4822-be38-837da3e7724e"
       Hint: SiteBrowserTitle
       Value: ": Habitat Legal "
