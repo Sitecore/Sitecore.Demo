@@ -1,0 +1,21 @@
+﻿---
+ID: "44b379b4-f7da-44eb-bebd-d0bbeb9fef53"
+Parent: "4ed7c293-534c-4603-a01d-c241d3fb1adf"
+Template: "8c36ec32-f547-4f6e-b529-863f436d38ea"
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Practise Areas Brochure/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Contents Page/Toc Listing/ToC Frame/ToC XML Repeater
+DB: master
+SharedFields:
+- ID: "4f3ecf8f-077e-487b-adaa-15b9554d9a62"
+  Hint: Parameters
+  Value: ChildDataKeyName=item
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161125T154618Z
+    - ID: "df94a83f-2b11-4dc6-9737-dfcb4d6facef"
+      Hint: Data Key
+      Value: items

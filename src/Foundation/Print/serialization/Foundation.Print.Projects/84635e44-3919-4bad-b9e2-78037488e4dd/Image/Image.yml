@@ -1,0 +1,52 @@
+﻿---
+ID: "c218800a-53e7-43bd-adb2-ac676e15eea9"
+Parent: "e093ad47-2582-4a96-afe7-ca2d98e8f7d6"
+Template: "b0cbc573-6010-465f-b137-57b1bd800c12"
+Path: /sitecore/Print Studio/Print Studio Projects/Finance/Personal/Standard Flyers/Books/P_Book/Documents/Product Flyers/Pages/Everyday Checking/Content/Image/Image
+DB: master
+SharedFields:
+- ID: "0a796bcc-c5f6-4db5-9a7d-cacf6e784fe2"
+  Hint: Skew
+  Value: 0.000000000000000
+- ID: "370e4064-e91c-4bf8-9fd5-cfd023f1fba9"
+  Hint: OriginalWidth
+  Value: 153.9999999999583
+- ID: "42571c01-0f8a-44a4-891e-1cf4d8beb2c4"
+  Hint: Y
+  Value: 7.070800781268035
+- ID: "427ece72-e6db-4603-a268-0f3c66fe20fd"
+  Hint: Height
+  Value: 102.64160156247222
+- ID: "4eae318e-e75f-4450-b416-fdd0c119d28c"
+  Hint: OriginalHeight
+  Value: 102.64160156247222
+- ID: "68f520ab-e27c-49bd-9e87-96c896cca22c"
+  Hint: ObjectStyle
+  Value: 
+- ID: "84a92d4c-137e-4c25-b91e-54291c1727d8"
+  Hint: Width
+  Value: 153.9999999999583
+- ID: "8575f841-241f-4155-b3d2-2e44951442ca"
+  Hint: Item Field
+  Value: Image
+- ID: "86575ebc-2a58-4e19-811e-5cd1127a068c"
+  Hint: Item Reference
+  Value: "{ECEC92C9-8277-42EA-9390-DBCD9CB9FD9C}"
+- ID: "b99dfd89-085b-4c93-a1e4-720540262546"
+  Hint: WCont
+  Value: 5
+- ID: "e3415938-c913-42e4-ab4a-9ac63382aa59"
+  Hint: Rotation
+  Value: 0.000000000000000
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170202T114607Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

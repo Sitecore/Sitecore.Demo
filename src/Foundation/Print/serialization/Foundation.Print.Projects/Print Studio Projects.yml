@@ -1,0 +1,56 @@
+﻿---
+ID: "f1b4e272-43d4-4564-853b-699d77d75419"
+Parent: "c1f31bb9-62c8-4d44-8e4f-3021a093bd0f"
+Template: "d35a09cb-6516-42f5-b1d6-ddd51a57cee4"
+Path: /sitecore/Print Studio/Print Studio Projects
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Sitecore Client Designing|pe|+item:write|+item:admin|+item:read|+item:rename|+item:delete|+item:create|pd|+item:delete|+item:write|+item:admin|+item:create|+item:read|+item:rename|ar|sitecore\Sitecore Client Users|pe|+item:delete|+item:write|+item:admin|+item:create|+item:read|+item:rename|pd|+item:delete|+item:write|+item:admin|+item:rename|+item:read|+item:create|ar|sitecore\Sitecore Client Authoring|pe|+item:write|+item:admin|+item:read|+item:rename|+item:delete|+item:create|pd|+item:write|+item:admin|+item:read|+item:create|+item:delete|+item:rename|
+Languages:
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Print Studio Projekte
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161217T130230Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20101124T092855
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: プリント スタジオ プロジェクト
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161217T130504Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

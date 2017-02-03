@@ -1,0 +1,22 @@
+﻿---
+ID: "69e39b08-7b2a-4a37-a852-8a42e8a1ea0d"
+Parent: "d9d3b9bc-4c02-45d5-8ee2-762c9332b675"
+Template: "e7e439e8-c699-4608-ac77-cc6273702e54"
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Practise Areas Brochure/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Front Cover/User Selections
+DB: master
+SharedFields:
+- ID: "6a937e7b-992e-4b75-a822-eda1cd0445e3"
+  Hint: Data Key
+  Value: items
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160615T111711Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

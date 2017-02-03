@@ -1,0 +1,22 @@
+﻿---
+ID: "122f7112-0e93-4675-b76d-046f10ba31f0"
+Parent: "5caf1aa7-607a-420e-955a-02fb8f7309b3"
+Template: "70b19b25-0d4e-496f-af9b-2d76da53a57b"
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Practise Areas Brochure/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Contents Page/Toc Listing/ToC Frame/ToC XML Repeater/ToC Snippet/ToC Paragraph Style/TOC Variable Definition
+DB: master
+SharedFields:
+- ID: "4f3ecf8f-077e-487b-adaa-15b9554d9a62"
+  Hint: Parameters
+  Value: IndexName=toc_index&ReplaceVar=toc_index
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24a0ab60-dba6-4654-b03e-b09a3c8cb48b"
+      Hint: Content
+      Value: |
+        <InsertVar Name="TOC_toc_index" Value="" /><SpecialCharacter Type="9" />|<SpecialCharacter Type="9" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161125T154721Z

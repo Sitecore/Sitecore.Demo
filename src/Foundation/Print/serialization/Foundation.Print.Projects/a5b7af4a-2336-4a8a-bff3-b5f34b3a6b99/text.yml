@@ -1,0 +1,22 @@
+﻿---
+ID: "bb63ab84-9eb3-4278-853d-65ec66f0ecbc"
+Parent: "a5b7af4a-2336-4a8a-bff3-b5f34b3a6b99"
+Template: "2dc37f19-2362-4891-9915-46a734875be5"
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Practise Areas Brochure/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Welcome Page/Welcome content/TextFrame/text
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160615T084805Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9744ccf8-abbe-4de1-a74b-69fb6254b897"
+      Hint: Content
+      Value: |
+        <ParagraphStyle Style="PractiseBody" Tag="p"><![CDATA[Founded in San Francisco, Chase Ridley is strategically positioned to serve clients in business and litigation matters throughout Northern and Southern California, and beyond. As a preeminent full-service law firm, we offer counsel in more than 20 areas of civil practice including intellectual property, taxation, corporate, civil litigation, business planning, bankruptcy, employment, construction, real estate, family law, and mergers and acquisitions. We focus on providing these services to public corporations, governmental entities, privately held companies, family-owned businesses and individuals. Our clients’ industries are as vast and diverse as our region ]]><SpecialCharacter Type="8211" /><![CDATA[ financial institutions, retail, construction, real estate, public agencies and non-profit organizations, professional service companies, and even other legal firms and individuals.]]></ParagraphStyle><ParagraphStyle Style="PractiseBody" Tag="p"><![CDATA[For more than 40 years, our success has grown from earning the trust of our clients. Many of these relationships have spanned decades, which we proudly credit to our legal skills, our responsiveness and our ability to uncover opportunities that lead to our client’s goals. We intend to continue this track record for many years to come.]]></ParagraphStyle>

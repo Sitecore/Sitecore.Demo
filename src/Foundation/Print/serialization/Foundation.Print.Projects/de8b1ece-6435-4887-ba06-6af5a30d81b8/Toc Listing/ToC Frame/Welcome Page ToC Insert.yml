@@ -1,0 +1,25 @@
+﻿---
+ID: "c6f3d104-77b3-436a-8882-ec1e8c6535ce"
+Parent: "4ed7c293-534c-4603-a01d-c241d3fb1adf"
+Template: "e7e439e8-c699-4608-ac77-cc6273702e54"
+Path: /sitecore/Print Studio/Print Studio Projects/Legal/Practise Areas Brochure/Books/P_Book/Documents/OnDemand PractiseAreas/Pages/Contents Page/Toc Listing/ToC Frame/Welcome Page ToC Insert
+DB: master
+SharedFields:
+- ID: "6a937e7b-992e-4b75-a822-eda1cd0445e3"
+  Hint: Data Key
+  Value: items
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161125T154647Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

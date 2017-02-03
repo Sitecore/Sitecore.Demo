@@ -1,0 +1,19 @@
+﻿---
+ID: "32878604-87c4-49e0-82c4-362dc8ff16b0"
+Parent: "4a5f3a78-4ebd-422f-a19c-08c8a62573fd"
+Template: "485348e1-74a2-4e9f-92bb-ff96d262b73d"
+Path: /sitecore/Print Studio/Print Studio Projects/Finance/Personal/Standard Flyers/Books
+DB: master
+BranchID: "5815d9d5-5804-4beb-9308-4a960152f03b"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170202T100731Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

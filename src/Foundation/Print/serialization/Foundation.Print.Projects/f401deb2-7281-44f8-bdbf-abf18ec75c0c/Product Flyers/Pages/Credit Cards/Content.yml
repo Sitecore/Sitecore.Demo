@@ -1,0 +1,18 @@
+﻿---
+ID: "a55344de-40f9-4446-a11b-9b29bd2749ce"
+Parent: "8010dc07-099e-4c7d-b92e-48949b2049b9"
+Template: "e7e439e8-c699-4608-ac77-cc6273702e54"
+Path: /sitecore/Print Studio/Print Studio Projects/Finance/Personal/Standard Flyers/Books/P_Book/Documents/Product Flyers/Pages/Credit Cards/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170202T114607Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
