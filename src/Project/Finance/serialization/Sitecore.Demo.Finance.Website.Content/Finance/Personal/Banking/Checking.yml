@@ -70,17 +70,4 @@ Languages:
       Value: Checking
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
-      Value: |
-        <p>Our basic checking account is perfect for those who want to keep banking simple. We offer a straightforward option that eliminates monthly service fees and fee-free access to over 55,000 ATMs nationally and 24/7 account access online. Each of our basic checking accounts provide the following features:</p>
-        <h3>No opening deposit and no monthly fees</h3>
-        <p>Habitat&rsquo;s minimum opening deposit required is $0 and there is no monthly minimum balance.</p>
-        <h3>Habitat All-Access Banking Card</h3>
-        <p>With each account comes a Habitat All-Access Debit Card (banking card) that lets you access your accounts online, by phone and at ATMs. Plus, you can use it to conveniently make purchases at hundreds of thousands of merchants around the world.</p>
-        <h3>Bill Payment</h3>
-        <p>You can make payments to third parties by calling Habitat&rsquo;s Telebanking or by using Habitat&rsquo;s mobile or online solutions. When you pay your bills through our bill payment service your payment is transferred electronically or by a credentialed check.</p>
-        <h3>Direct Deposit</h3>
-        <p>You may have incoming funds, such as your payroll, pension, or social security payments sent to your checking, savings and money market accounts by Direct Deposit to each Habitat account without fees.</p>
-        <h3>Around the Clock Account Protection</h3>
-        <p>In today&rsquo;s digital world, the thought of ID theft is scary and real. If you're ever a victim, we have a team of specialists dedicated to help you re-establish your credit and reclaim your identity.</p>
-        <h3>Paperless Statements</h3>
-        <p>Each Habitat account provides the option for paperless statements allowing you to save paper and time, and reduce the chances of your bank statement getting lost or stolen in the mall.</p>
+      Value: "<p>Our basic checking account is perfect for those who want to keep banking simple. We offer a straightforward option that eliminates monthly service fees and fee-free access to over 55,000 ATMs nationally and 24/7 account access online. Each of our basic checking accounts provide the following features:</p><h3>No opening deposit and no monthly fees</h3><p>Habitat&rsquo;s minimum opening deposit required is $0 and there is no monthly minimum balance.</p><h3>Habitat All-Access Banking Card</h3><p>With each account comes a Habitat All-Access Debit Card (banking card) that lets you access your accounts online, by phone and at ATMs. Plus, you can use it to conveniently make purchases at hundreds of thousands of merchants around the world.</p><h3>Bill Payment</h3><p>You can make payments to third parties by calling Habitat&rsquo;s Telebanking or by using Habitat&rsquo;s mobile or online solutions. When you pay your bills through our bill payment service your payment is transferred electronically or by a credentialed check.</p><h3>Direct Deposit</h3><p>You may have incoming funds, such as your payroll, pension, or social security payments sent to your checking, savings and money market accounts by Direct Deposit to each Habitat account without fees.</p><h3>Around the Clock Account Protection</h3><p>In today&rsquo;s digital world, the thought of ID theft is scary and real. If you're ever a victim, we have a team of specialists dedicated to help you re-establish your credit and reclaim your identity.</p><h3>Paperless Statements</h3><p>Each Habitat account provides the option for paperless statements allowing you to save paper and time, and reduce the chances of your bank statement getting lost or stolen in the mall.</p>"
