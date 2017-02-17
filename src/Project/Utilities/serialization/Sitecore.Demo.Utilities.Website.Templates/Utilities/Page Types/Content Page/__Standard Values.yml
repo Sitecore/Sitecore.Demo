@@ -110,8 +110,9 @@ SharedFields:
           ph="navbar-activity"
           uid="{94E4CD83-4852-48E6-B5FC-B6A568AA0DA4}" />
         <r
-          ds="{BE6E1613-B997-45B1-AA2A-27C1BB1AA74C}"
+          ds=""
           id="{8C3A2CFC-18FB-4BF5-8584-50EA88978ED6}"
+          par=""
           ph="navbar-activity"
           uid="{6FF840F3-FC62-426A-BA68-B07B0580ABF1}" />
         <r

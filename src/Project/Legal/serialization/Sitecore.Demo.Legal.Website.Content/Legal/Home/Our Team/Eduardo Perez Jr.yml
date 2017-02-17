@@ -49,31 +49,31 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
               uid="{84FD0639-7806-4436-8AB1-EC95185A005A}"
-              p:before="r[@uid='{6600330E-2315-402F-91A8-4415C8E5D219}']"
+              p:before="*"
               s:ds="{54636D26-3151-425B-873D-8B8C3C03A999}"
               s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
               s:par="Background"
               s:ph="/page-layout/section_09153af9-d1f3-4e26-9868-0f916f96c744/col-narrow-3_4a4744db-dfae-4fb1-8621-ed54eba54d77" />
             <r
               uid="{6600330E-2315-402F-91A8-4415C8E5D219}"
-              p:before="r[@uid='{9A18FF90-AE5B-4378-A1BA-464F44259AC1}']"
+              p:after="r[@uid='{84FD0639-7806-4436-8AB1-EC95185A005A}']"
               s:ds="{43C5E36C-C606-44D4-981E-0072038BDB02}"
               s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
               s:ph="/page-layout/section_09153af9-d1f3-4e26-9868-0f916f96c744/col-narrow-2_4a4744db-dfae-4fb1-8621-ed54eba54d77" />
             <r
               uid="{9A18FF90-AE5B-4378-A1BA-464F44259AC1}"
-              p:before="r[@uid='{4A4744DB-DFAE-4FB1-8621-ED54EBA54D77}']"
+              p:after="r[@uid='{6600330E-2315-402F-91A8-4415C8E5D219}']"
               s:ds="{0BC92115-528D-4784-B9C2-9EB422C0C5CB}"
               s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}"
               s:ph="/page-layout/section_09153af9-d1f3-4e26-9868-0f916f96c744/col-narrow-1_4a4744db-dfae-4fb1-8621-ed54eba54d77" />
             <r
               uid="{4A4744DB-DFAE-4FB1-8621-ED54EBA54D77}"
-              p:before="r[@uid='{07C9FE71-A5E2-4E5F-B276-5F2B73481D44}']"
+              p:after="r[@uid='{9A18FF90-AE5B-4378-A1BA-464F44259AC1}']"
               s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}"
               s:ph="/page-layout/section_09153af9-d1f3-4e26-9868-0f916f96c744" />
             <r
               uid="{09153AF9-D1F3-4E26-9868-0F916F96C744}"
-              p:before="r[@uid='{ECCFEE95-A957-4218-8ED2-FAB94EF2CAF2}']"
+              p:after="r[@uid='{0EB115BC-CBC0-4205-8C1A-C73BA0F09F1E}']"
               s:ds=""
               s:id="{1149A3C7-C69A-4E6B-A6C3-32687EC2F8D4}"
               s:par="UseStaticPlaceholderNames&amp;Type=bg-primary&amp;Media&amp;Parallax"

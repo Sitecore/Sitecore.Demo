@@ -9,6 +9,9 @@ SharedFields:
   Hint: SeoFollowLinks
   Type: Checkbox
   Value: 0
+- ID: "1c843e6a-02b9-4aa0-9fed-fdfddc419ae3"
+  Hint: Search Results Page
+  Value: /sitecore/content/Finance/Personal/Search
 - ID: "5585a30d-b115-4753-93ce-422c3455deb2"
   Hint: ShowInNavigation
   Type: Checkbox

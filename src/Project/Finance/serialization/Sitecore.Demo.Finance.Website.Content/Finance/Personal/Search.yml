@@ -1,8 +1,8 @@
 ﻿---
 ID: "3d56230c-36f0-4bbc-a75c-558eeda21c98"
-Parent: "eea2316b-d42a-4be9-97c0-f9efe34ab8c2"
+Parent: "97f499e7-0dca-43cf-aa06-8954a5426166"
 Template: "52b69c5a-9a9d-45bf-a37e-5601e21be8ba"
-Path: /sitecore/content/Finance/Search
+Path: /sitecore/content/Finance/Personal/Search
 DB: master
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
@@ -10,7 +10,7 @@ SharedFields:
   Value: 800
 - ID: "cd904125-3ae5-4709-9e6d-71473c5d5007"
   Hint: Root
-  Value: "{EEA2316B-D42A-4BE9-97C0-F9EFE34AB8C2}"
+  Value: "{97F499E7-0DCA-43CF-AA06-8954A5426166}"
 Languages:
 - Language: en
   Versions:
@@ -25,6 +25,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20161104T041111Z
+    - ID: "80e30dd8-8021-45f5-9fe1-23d2702cc206"
+      Hint: SearchBoxTitle
+      Value: Search personal banking...
     - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
       Hint: Title
       Value: Search

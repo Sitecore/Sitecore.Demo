@@ -28,12 +28,12 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
               uid="{2A44F195-A2C2-4062-A905-43BD5070D392}"
-              p:before="r[@uid='{DBDB044F-356D-4D9F-80E1-C1BF4887C9BD}']"
+              p:before="*"
               s:id="{84924ABF-F983-4AF5-9002-EA0237A53DA9}"
               s:ph="/page-layout/section/col-huge_dbdb044f-356d-4d9f-80e1-c1bf4887c9bd" />
             <r
               uid="{DBDB044F-356D-4D9F-80E1-C1BF4887C9BD}"
-              p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']"
+              p:after="r[@uid='{2A44F195-A2C2-4062-A905-43BD5070D392}']"
               s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
               s:ph="/page-layout/section" />
             <r

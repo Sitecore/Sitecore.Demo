@@ -5,6 +5,9 @@ Template: "429c7427-09a8-4d79-9044-edb4c5b908be"
 Path: /sitecore/content/Finance/Portal
 DB: master
 SharedFields:
+- ID: "1c843e6a-02b9-4aa0-9fed-fdfddc419ae3"
+  Hint: Search Results Page
+  Value: /sitecore/content/Finance/Personal/Search
 - ID: "5585a30d-b115-4753-93ce-422c3455deb2"
   Hint: ShowInNavigation
   Type: Checkbox

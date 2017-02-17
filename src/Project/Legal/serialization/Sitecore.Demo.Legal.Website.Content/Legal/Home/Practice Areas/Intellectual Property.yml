@@ -118,7 +118,8 @@ Languages:
       Value: 20151223T142722Z
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
-      Value: "<image mediaid=\"{D46D0E55-FC52-4CB9-B4F4-2676D862462F}\" />"
+      Value: |
+        <image mediaid="{D46D0E55-FC52-4CB9-B4F4-2676D862462F}" />
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: "<p><span>Habitat Legal&nbsp;has one of the strongest Intellectual Property and digital media practices in the region. We represent a variety of clients (from small businesses and multi-billion dollar publicly traded companies, to professional service firms and individual consultants) in securing, protecting, and using Intellectual Property, and with handling complex issues involving technology, the internet, and social media.</span></p>"
@@ -151,60 +152,60 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <p
               uid="{3E58EA74-D8AB-48CC-9EDE-1EA7206FACB5}"
-              p:before="r[@uid='{9CF3EA6D-5BBF-4CEA-BB16-A0095928B9C0}']"
+              p:before="*"
               s:key="/page-layout/sidebar"
               s:md="/sitecore/layout/Placeholder Settings/Project/Legal/sidebar" />
             <r
               uid="{9CF3EA6D-5BBF-4CEA-BB16-A0095928B9C0}"
-              p:before="r[@uid='{DFB09FE6-4B42-436F-A621-CAC6610F5B29}']"
+              p:after="p[@uid='{3E58EA74-D8AB-48CC-9EDE-1EA7206FACB5}']"
               s:ds="{8CB3203A-3660-4F26-93B9-8E0B9DF6D8EB}"
               s:id="{EE5A9F3D-C2CB-4710-8053-04D1A7135EBE}"
               s:ph="/page-layout/section_374196a5-57f1-4286-b359-9eadbeed0dd7/col-huge_dfb09fe6-4b42-436f-a621-cac6610f5b29" />
             <r
               uid="{DFB09FE6-4B42-436F-A621-CAC6610F5B29}"
-              p:before="r[@uid='{A619C7FE-74FC-45A2-A21B-5F3E195A62F7}']"
+              p:after="r[@uid='{9CF3EA6D-5BBF-4CEA-BB16-A0095928B9C0}']"
               s:id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}"
               s:ph="/page-layout/section_374196a5-57f1-4286-b359-9eadbeed0dd7" />
             <r
               uid="{A619C7FE-74FC-45A2-A21B-5F3E195A62F7}"
-              p:before="r[@uid='{A2BB2AEC-8E40-4DF4-A058-B25A407F1320}']"
+              p:after="r[@uid='{DFB09FE6-4B42-436F-A621-CAC6610F5B29}']"
               s:ds="{3D1C0597-EB53-4216-BA7C-215624C3A641}"
               s:id="{EBB6DC33-F281-49BE-B273-29ECCD6085A8}"
               s:ph="/page-layout/section_374196a5-57f1-4286-b359-9eadbeed0dd7/col-narrow-3_1a1dfb15-7368-443b-9e9b-48b6f98b43f6" />
             <r
               uid="{A2BB2AEC-8E40-4DF4-A058-B25A407F1320}"
-              p:before="r[@uid='{51641A40-D88B-4F0D-98D1-6420053CB8A4}']"
+              p:after="r[@uid='{A619C7FE-74FC-45A2-A21B-5F3E195A62F7}']"
               s:ds="{C9BFB6A6-5B20-42EF-82FD-E79CEC01CC80}"
               s:id="{EBB6DC33-F281-49BE-B273-29ECCD6085A8}"
               s:ph="/page-layout/section_374196a5-57f1-4286-b359-9eadbeed0dd7/col-narrow-2_1a1dfb15-7368-443b-9e9b-48b6f98b43f6" />
             <r
               uid="{51641A40-D88B-4F0D-98D1-6420053CB8A4}"
-              p:before="r[@uid='{1A1DFB15-7368-443B-9E9B-48B6F98B43F6}']"
+              p:after="r[@uid='{A2BB2AEC-8E40-4DF4-A058-B25A407F1320}']"
               s:ds="{17F0B1C7-0D17-4039-962D-6B5894DEF4DF}"
               s:id="{EBB6DC33-F281-49BE-B273-29ECCD6085A8}"
               s:ph="/page-layout/section_374196a5-57f1-4286-b359-9eadbeed0dd7/col-narrow-1_1a1dfb15-7368-443b-9e9b-48b6f98b43f6" />
             <r
               uid="{1A1DFB15-7368-443B-9E9B-48B6F98B43F6}"
-              p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']"
+              p:after="r[@uid='{51641A40-D88B-4F0D-98D1-6420053CB8A4}']"
               s:id="{7074CA39-734D-4953-A3D5-B7D09C37CE3B}"
               s:ph="/page-layout/section_374196a5-57f1-4286-b359-9eadbeed0dd7" />
             <r
               uid="{374196A5-57F1-4286-B359-9EADBEED0DD7}"
-              p:before="r[@uid='{66422117-69C1-4B62-9323-482F16C4F244}']"
+              p:after="r[@uid='{69DEF693-8A46-4558-9018-2C5B431824B1}']"
               s:ds=""
               s:id="{1149A3C7-C69A-4E6B-A6C3-32687EC2F8D4}"
               s:par="UseStaticPlaceholderNames&amp;Type=bg-primary&amp;Media&amp;Parallax"
               s:ph="page-layout" />
             <r
               uid="{91613C40-5DCA-4509-A7FC-35727FF9E15A}"
-              p:before="r[@uid='{565F9960-4E47-4DA4-9406-0A29DD09911F}']"
+              p:after="r[@uid='{A85893F9-5DF5-4C28-AC0F-67AD85D29661}']"
               s:ds="{BEEAFD65-59E5-4D72-BDFF-7BAEE75369BC}"
               s:id="{96EFEFFC-4D53-4F29-913E-84EDBFBE4DAB}"
               s:par="Background={ECCA6054-1534-4C34-AF46-7EB610433229}"
               s:ph="/page-layout/section/col-narrow-1" />
             <r
               uid="{B910B9ED-F242-489F-A7BA-4101DC639F2B}"
-              p:before="r[@uid='{A3BAD4D4-8E21-4B30-8C4C-B04163653D62}']"
+              p:after="r[@uid='{565F9960-4E47-4DA4-9406-0A29DD09911F}']"
               s:ds="{3C9607A2-104E-4753-A88D-C575CFA478F1}"
               s:id="{A25C9850-AAB7-46A6-84B7-0DFAB32FC357}"
               s:par=""
@@ -222,7 +223,8 @@ Languages:
       Value: "{B1BAB248-FFB4-4295-9783-E8FE17E2FE34}"
     - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
       Hint: Image
-      Value: "<image mediaid=\"{D46D0E55-FC52-4CB9-B4F4-2676D862462F}\" />"
+      Value: |
+        <image mediaid="{D46D0E55-FC52-4CB9-B4F4-2676D862462F}" />
     - ID: "ac3fd4db-8266-476d-9635-67814d91e901"
       Hint: Summary
       Value: "<p><span>Habitat Legal&nbsp;has one of the strongest Intellectual Property and digital media practices in the region. We represent a variety of clients (from small businesses and multi-billion dollar publicly traded companies, to professional service firms and individual consultants) in securing, protecting, and using Intellectual Property, and with handling complex issues involving technology, the internet, and social media.</span></p>"
