@@ -44,7 +44,10 @@ SharedFields:
           uid="{A797B73B-2F9B-4A52-BED9-E0D7F35C0256}"
           s:ds=""
           s:par=""
-          s:ph="/page-layout/section/col-huge" />
+          s:ph="/page-layout/section/col-huge">
+          <p:da
+            name="ph" />
+        </r>
       </d>
     </r>
 Languages:
@@ -97,7 +100,11 @@ Languages:
             </r>
             <r
               uid="{A797B73B-2F9B-4A52-BED9-E0D7F35C0256}"
-              s:ph="/page-layout/section/col-wide-1" />
+              s:ph="/page-layout/section/col-wide-1"
+              s:uid="{A797B73B-2F9B-4A52-BED9-E0D7F35C0256}">
+              <p:da
+                name="uid" />
+            </r>
           </d>
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
