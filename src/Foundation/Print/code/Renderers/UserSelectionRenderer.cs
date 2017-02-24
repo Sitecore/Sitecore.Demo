@@ -2,22 +2,19 @@
 {
   using System;
   using System.Collections.Generic;
-  using System.Configuration;
   using System.Linq;
   using System.Text.RegularExpressions;
   using System.Web;
   using System.Xml.Linq;
   using Sitecore.Data;
-  using Sitecore.Data.Fields;
   using Sitecore.Data.Items;
-  using Sitecore.Diagnostics;
   using Sitecore.PrintStudio.PublishingEngine;
-  using Sitecore.PrintStudio.PublishingEngine.Helpers;
   using Sitecore.PrintStudio.PublishingEngine.Rendering;
-  using Sitecore.Web;
 
   public class UserSelectionRenderer : XmlTextFrameRenderer
   {
+    public string FieldValueSeperator { get; set; }
+
     public string DataSources { get; set; }
 
     protected override void RenderContent(PrintContext printContext, XElement output)
@@ -33,15 +30,18 @@
       if (textParagraph != null)
       {
         var items = GetUserSelectionItems(printContext);
-
-        var textValue = textParagraph.Value;
-        var fieldToReplace = GetFieldsToReplace(textValue);
-        foreach (var field in fieldToReplace)
+        if (items != null)
         {
-          var userSelectionString = string.Join(Separator, items.Select(item => item[field]));
-          textValue = textValue.Replace($"${field}", userSelectionString);
+          var textValue = textParagraph.Value;
+          var fieldToReplace = GetFieldsToReplace(textValue);
+          foreach (var field in fieldToReplace)
+          {
+            var userSelectionString = string.Join(Separator, items.Select(item => item[field]));
+            textValue = textValue.Replace($"${field}", userSelectionString);
+          }
+
+          textParagraph.ReplaceNodes(new XCData(textValue));
         }
-        textParagraph.ReplaceNodes(new XCData(textValue));
       }
 
       output.Add(textFrame);
@@ -51,8 +51,7 @@
     {
       get
       {
-        var configuredValue = ((NameValueListField)this.RenderingItem.Fields["Parameters"]).NameValues["FieldValueSeperator"];
-        return string.IsNullOrEmpty(configuredValue) ? ", " : HttpUtility.UrlDecode(configuredValue);
+        return string.IsNullOrEmpty(FieldValueSeperator) ? ", " : HttpUtility.UrlDecode(FieldValueSeperator);
       }
     }
 
@@ -63,19 +62,22 @@
       {
         yield return match.Groups[1].Value;
       }
-
     }
 
     private Item[] GetUserSelectionItems(PrintContext printContext)
     {
       var value = this.RenderingItem.Parent.Fields[Templates.P_Snippet.Fields.DataKey].Value;
-      if (value == null)
-        throw new ConfigurationErrorsException("Data Key field not set");
-      var parameter = printContext.Settings.Parameters[value];
-      if (parameter == null)
-        throw new ConfigurationErrorsException($"Invalid parameter '{value}'");
-      var items = GetSelectedItems(parameter.ToString(), printContext.Database);
-      return items;
+      if (value != null)
+      {
+        var parameter = printContext.Settings.Parameters[value];
+        if (parameter != null)
+        {
+          var items = GetSelectedItems(parameter.ToString(), printContext.Database);
+          return items;
+        }
+      }
+
+      return null;
     }
 
     private Item[] GetSelectedItems(string userSelections, Database database)
