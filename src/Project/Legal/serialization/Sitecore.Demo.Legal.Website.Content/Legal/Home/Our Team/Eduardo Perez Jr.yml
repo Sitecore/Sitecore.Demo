@@ -5,6 +5,10 @@ Template: "75e42a73-0ae1-44c5-ac04-c9d5c4568680"
 Path: /sitecore/content/Legal/Home/Our Team/Eduardo Perez Jr
 DB: master
 SharedFields:
+- ID: "5585a30d-b115-4753-93ce-422c3455deb2"
+  Hint: ShowInNavigation
+  Type: Checkbox
+  Value: 0
 - ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
   Hint: __Tracking
   Type: Tracking
@@ -83,8 +87,8 @@ Languages:
     - ID: "0cc9785e-54fe-4fae-93e4-d0d2ae75f339"
       Hint: Biography
       Value: |
-        <p style="margin-left: 13.5pt;"><span>Eduardo is a senior shareholder in the firm’s Corporate and Intellectual Property groups, and is a respected and top-ranked corporate litigation attorney in the region.  Eduardo’ practice focuses on trademark and licensing, mergers and acquisitions, corporate finance, and other entity transactions, including early and late stage funding, restructuring, partnership development, and joint ventures. He has extensive experience representing both public and private clients and represents clients in the following industries: professional services, marketing and public relations, technology, software, private equity, venture capital, manufacturing and non-profits.</span></p>
-        <p style="margin-left: 13.5pt;"><span>Eduardo has authored or co-authored a number of publications regarding business law and is regularly giving webcasts and webinars to professional services teams to help them get up to speed on today’s corporate and IP law challenges.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Eduardo is a shareholder in the firm&rsquo;s Corporate and Intellectual Property groups, and is a respected and top-ranked corporate litigation attorney in the region.&nbsp; Eduardo&rsquo; practice focuses on trademark and licensing, mergers and acquisitions, corporate finance, and other entity transactions, including early and late stage funding, restructuring, partnership development, and joint ventures. He has extensive experience representing both public and private clients and represents clients in the following industries: professional services, marketing and public relations, technology, software, private equity, venture capital, manufacturing and non-profits.</span></p>
+        <p style="margin-left: 13.5pt;"><span>Eduardo has authored or co-authored a number of publications regarding business law and is regularly giving webcasts and webinars to professional services teams to help them get up to speed on today&rsquo;s corporate and IP law challenges.</span></p>
         <p style="margin-left: 13.5pt;"><span>Eduardo earned his J.D. from Columbia Law School. While a student, Eduardo served on the Columbia Business Law Review. During law school, Eduardo was an extern to the Honorable Judge Nadine Buchanan for the U.S. District Court. He also interned for the Technology Enforcement Section of the Antitrust Division at the Department of Justice.</span></p>
         <p style="margin-left: 13.5pt;"><span>In his spare time, Taylor enjoys spending time with his two children, traveling abroad, and running marathons.</span></p>
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
