@@ -19,18 +19,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configurat
 		src\Project\Legal\code\App_Config\Include\Project\z.Sitecore.Demo.Legal.Website.DevSettings.config = src\Project\Legal\code\App_Config\Include\Project\z.Sitecore.Demo.Legal.Website.DevSettings.config
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{90478177-AEE1-4224-B707-0346FF0D0B98}"
-	ProjectSection(SolutionItems) = preProject
-		scripts\habitat.js = scripts\habitat.js
-		scripts\unicorn.js = scripts\unicorn.js
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unicorn", "Unicorn", "{A7BFFFD9-5B43-4A4C-8C27-7A58739354B3}"
-	ProjectSection(SolutionItems) = preProject
-		scripts\Unicorn\Sync.ps1 = scripts\Unicorn\Sync.ps1
-		scripts\Unicorn\Unicorn.psm1 = scripts\Unicorn\Unicorn.psm1
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{CDE6EC6D-413C-4EFE-A495-6BC0BC4509E1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{446BAF51-B732-4649-86AF-6EEAE3E6521E}"
@@ -114,8 +102,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6E37A750-6E7F-406F-B7E7-BE329C9D1791} = {61DBB28E-BC37-49B0-8F56-6FA6B39FAC3E}
 		{0BC33B3D-3E16-4C5C-BDB7-9C06CC52C715} = {6E37A750-6E7F-406F-B7E7-BE329C9D1791}
-		{90478177-AEE1-4224-B707-0346FF0D0B98} = {DB09CB9A-DEF0-43BF-B0C6-41C57E1D81C2}
-		{A7BFFFD9-5B43-4A4C-8C27-7A58739354B3} = {90478177-AEE1-4224-B707-0346FF0D0B98}
 		{328C0A4F-8409-4FF2-B6A6-F340C844F338} = {446BAF51-B732-4649-86AF-6EEAE3E6521E}
 		{8A3B0F1F-5CC2-49A9-9F80-EFACBD7EBC02} = {328C0A4F-8409-4FF2-B6A6-F340C844F338}
 		{0AB93838-F2C6-4E09-AF30-D02C3E9C7986} = {CDE6EC6D-413C-4EFE-A495-6BC0BC4509E1}
