@@ -50,7 +50,7 @@ gulp.task("deploy",
 gulp.task("00-Copy-Foundation-Assemblies", function () {
     console.log("Copying Foundation Assemblies from Habitat");
     fs.statSync(config.sitecoreLibraries);
-    var files = config.sitecoreLibraries + "/**/*.Foundation.*";
+    var files = config.sitecoreLibraries + "/**/*";
     return gulp.src(files).pipe(gulp.dest("./lib/Sitecore"));
 });
 
