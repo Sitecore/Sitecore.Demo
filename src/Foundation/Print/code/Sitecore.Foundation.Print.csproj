@@ -66,8 +66,9 @@
       <HintPath>..\..\..\..\packages\Sitecore.Mvc.NoReferences.8.2.161115\lib\NET452\Sitecore.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Sitecore.PrintStudio.PublishingEngine">
-      <HintPath>..\..\..\..\lib\Sitecore\Sitecore.PrintStudio.PublishingEngine.dll</HintPath>
+    <Reference Include="Sitecore.PrintStudio.PublishingEngine, Version=8.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.PrintStudio.PublishingEngine.NoReferences.8.2.170509\lib\NET452\Sitecore.PrintStudio.PublishingEngine.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
