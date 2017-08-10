@@ -9,14 +9,24 @@ var newer = require("gulp-newer");
 var util = require("gulp-util");
 var runSequence = require("run-sequence");
 var path = require("path");
-var config = require("./gulp-config.js")();
 var nugetRestore = require('gulp-nuget-restore');
 var fs = require('fs');
+var yargs = require("yargs").argv;
 var unicorn = require("./scripts/unicorn.js");
 var habitat = require("./scripts/habitat.js");
-var yargs = require("yargs").argv;
+var helix = require("./scripts/helix.js");
+
+var config;
+if (fs.existsSync('./gulp-config.js.user')) {
+    config = require("./gulp-config.js.user")();
+}
+else {
+    config = require("./gulp-config.js")()
+}
 
 module.exports.config = config;
+
+helix.header("The Sitecore.Demo source code, tools and processes are examples of Sitecore Helix.", "Sitecore.Demo is not supported by Sitecore and should be used at your own risk.");
 
 gulp.task("default", function (callback) {
     config.runCleanBuilds = true;
@@ -31,8 +41,7 @@ gulp.task("default", function (callback) {
         callback);
 });
 
-gulp.task("deploy",
-    function (callback) {
+gulp.task("deploy", function (callback) {
         config.runCleanBuilds = true;
         return runSequence(
             "00-Copy-Foundation-Assemblies",
@@ -56,6 +65,7 @@ gulp.task("00-Copy-Foundation-Assemblies", function () {
 
 gulp.task("01-Copy-Sitecore-License", function () {
     console.log("Copying Sitecore License file");
+
     return gulp.src(config.licensePath).pipe(gulp.dest("./lib"));
 });
 
@@ -84,10 +94,11 @@ gulp.task("04-Apply-Xml-Transform", function () {
                     targets: ["ApplyTransform"],
                     configuration: config.buildConfiguration,
                     logCommand: false,
-                    verbosity: "minimal",
+          verbosity: config.buildVerbosity,
                     stdout: true,
                     errorOnFail: true,
-                    maxcpucount: 0,
+          maxcpucount: config.buildMaxCpuCount,
+          nodeReuse: false,
                     toolsVersion: config.buildToolsVersion,
                     properties: {
                         Platform: config.buildPlatform,
@@ -102,9 +113,9 @@ gulp.task("04-Apply-Xml-Transform", function () {
 gulp.task("05-Sync-Unicorn", function (callback) {
     var options = {};
     options.siteHostName = habitat.getSiteUrl();
-    options.authenticationConfigFile = config.websiteRoot + "/App_config/Include/Unicorn/Unicorn.UI.config";
+  options.authenticationConfigFile = config.websiteRoot + "/App_config/Include/Unicorn.SharedSecret.config";
 
-    unicorn(function () { return callback() }, options);
+  unicorn(function() { return callback() }, options);
 });
 
 
@@ -143,10 +154,11 @@ var publishStream = function (stream, dest) {
             targets: targets,
             configuration: config.buildConfiguration,
             logCommand: false,
-            verbosity: "minimal",
+      verbosity: config.buildVerbosity,
             stdout: true,
             errorOnFail: true,
-            maxcpucount: 0,
+      maxcpucount: config.buildMaxCpuCount,
+      nodeReuse: false,
             toolsVersion: config.buildToolsVersion,
             properties: {
                 Platform: config.publishPlatform,
@@ -185,16 +197,18 @@ gulp.task("Build-Solution", function () {
     if (config.runCleanBuilds) {
         targets = ["Clean", "Build"];
     }
+
     var solution = "./" + config.solutionName + ".sln";
     return gulp.src(solution)
         .pipe(msbuild({
             targets: targets,
             configuration: config.buildConfiguration,
             logCommand: false,
-            verbosity: "minimal",
+          verbosity: config.buildVerbosity,
             stdout: true,
             errorOnFail: true,
-            maxcpucount: 0,
+          maxcpucount: config.buildMaxCpuCount,
+          nodeReuse: false,
             toolsVersion: config.buildToolsVersion,
             properties: {
                 Platform: config.buildPlatform
@@ -215,13 +229,12 @@ gulp.task("Publish-Project-Projects", function () {
 });
 
 gulp.task("Publish-Project", function () {
-    if (yargs && yargs.m && typeof (yargs.m) == 'string') {
+  if(yargs && yargs.m && typeof(yargs.m) == 'string') {
         return publishProject(yargs.m);
     } else {
         throw "\n\n------\n USAGE: -m Layer/Module \n------\n\n";
     }
 });
-
 
 gulp.task("Publish-Assemblies", function () {
     var root = "./src";
